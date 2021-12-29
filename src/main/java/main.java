@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Solution {
+public class main {
+
+
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         //System.out.println("Thingy to find: ");
