@@ -1,0 +1,1 @@
+# ffxiv-gatherbuddy-file-creator
