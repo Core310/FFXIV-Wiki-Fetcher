@@ -9,16 +9,8 @@ import java.util.Scanner;
 
 public class main {
 
-
-    public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(System.in);
-        //System.out.println("Thingy to find: ");
-        String part = "";
-        String wikiPage = "https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations";
-        String gatheringPage = "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering/";
-        Document doc = Jsoup.connect(wikiPage + part).get();//Possible to get a webpage that is super close 2 it?
-        // like auto google smtn
-
+    private static ArrayList<Elements> getTDs(Document doc)
+    {
         boolean firstSkipped = false;
 
         ArrayList<Elements> tds = new ArrayList<Elements>();
@@ -34,6 +26,21 @@ public class main {
             tds.add(td);
         }
 
-        System.out.println(tds);
+        return tds;
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+        //System.out.println("Thingy to find: ");
+        String part = "";
+        String wikiPage = "https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations";
+        String gatheringPage = "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering/";
+        Document doc = Jsoup.connect(wikiPage + part).get();//Possible to get a webpage that is super close 2 it?
+        // like auto google smtn
+
+        ArrayList<Elements> tds = getTDs(doc);
+
+        System.out.println(tds.get(0));
     }
 }
