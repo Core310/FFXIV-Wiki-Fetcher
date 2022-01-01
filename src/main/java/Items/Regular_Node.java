@@ -64,4 +64,7 @@ public class Regular_Node implements Item {
         return WikiLink;
     }
 
+    public String getExtra() {
+        return extra;
+    }
 }

@@ -30,4 +30,16 @@ public class TimeBased_Nodes extends Regular_Node implements Item{
     public String getTime() {
         return Time;
     }
+    @Override
+    public String toString() {
+        return "TimeBased_Nodes{"  +
+                "ItemName='" + getItemName() + '\'' +
+                ", TP='" + getTP() + '\'' +
+                ", Level=" + getLevel() +
+                ", WikiLink='" + getWikiLink() + '\'' +
+                ", extra='" + getExtra() + '\''+
+                "star=" + getTime() +
+                '}';
+    }
+
 }

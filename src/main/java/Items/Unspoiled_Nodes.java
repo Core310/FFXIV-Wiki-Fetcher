@@ -28,4 +28,16 @@ public class Unspoiled_Nodes extends TimeBased_Nodes implements Item{
     public int getStar() {
         return star;
     }
+
+    @Override
+    public String toString() {
+        return "Unspoiled_Nodes{"  +
+                "ItemName='" + getItemName() + '\'' +
+                ", TP='" + getTP() + '\'' +
+                ", Level=" + getLevel() +
+                ", WikiLink='" + getWikiLink() + '\'' +
+                ", extra='" + getExtra() + '\''+
+                "star=" + getStar() +
+                '}';
+    }
 }
