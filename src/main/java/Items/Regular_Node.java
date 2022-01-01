@@ -1,34 +1,37 @@
-public class Item {
+package Items;
+
+/**
+ * Ussed for regular node locations
+ */
+public class Regular_Node implements Item {
+    // TODO: 12/31/2021 Make below private vars final
     private String ItemName;
-    private int ItemID;
     private String TP;
     private int Level;
-    private int iLvl;
     private String WikiLink;//Official wiki
+    private String extra;
 
     /**
      * Default constructor. All arguments map to internal variables.
+     * This covers the classes BNT and Miner
      * @param ItemName
-     * @param ItemId
      * @param TP
      * @param Level
-     * @param iLvl
      * @param WikiLink
+     * @param extra
      */
-    public Item(
+    public Regular_Node(
             String ItemName,
-            int ItemId,
             String TP,
             int Level,
-            int iLvl,
-            String WikiLink
+            String WikiLink,
+            String extra
     ){
       this.ItemName = ItemName;
-      this.ItemID = ItemId;
       this.TP = TP;
       this.Level = Level;
-      this.iLvl = iLvl;
       this.WikiLink = WikiLink;
+      this.extra = extra;
     }
 
     /**
@@ -36,51 +39,13 @@ public class Item {
      */
     @Override
     public String toString() {
-        return "Item{" +
+        return "Items.Regular_Node{" +
                 "ItemName='" + ItemName + '\'' +
-                ", ItemID=" + ItemID +
                 ", TP='" + TP + '\'' +
                 ", Level=" + Level +
-                ", iLvl=" + iLvl +
                 ", WikiLink='" + WikiLink + '\'' +
+                ", extra='" + extra + '\'' +
                 '}';
-    }
-
-    //getters & setters below
-    //setters in comment link. Technically not needed b/c hv constructor
-    /**
-     *
-     public void setiLvl(int iLvl) {
-     this.iLvl = iLvl;
-     }
-
-     public void setItemID(int itemID) {
-     ItemID = itemID;
-     }
-
-     public void setItemName(String itemName) {
-     ItemName = itemName;
-     }
-
-     public void setLevel(int level) {
-     Level = level;
-     }
-
-     public void setTP(String TP) {
-     this.TP = TP;
-     }
-
-     public void setWikiLink(String wikiLink) {
-     WikiLink = wikiLink;
-     }
-
-     */
-    public int getiLvl() {
-        return iLvl;
-    }
-
-    public int getItemID() {
-        return ItemID;
     }
 
     public int getLevel() {

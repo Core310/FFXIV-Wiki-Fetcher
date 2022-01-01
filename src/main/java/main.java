@@ -42,5 +42,7 @@ public class main {
         ArrayList<Elements> tds = getTDs(doc);
 
         System.out.println(tds.get(0));
+        //TimeBased_Nodes unspoiled_nodes = new TimeBased_Nodes("ree","w1",1,"ree2","xtra","5" ,5,"ree");
+
     }
 }
