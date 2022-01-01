@@ -1,9 +1,17 @@
+package ScrapSearch;
+
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 import me.xdrop.fuzzywuzzy.model.ExtractedResult;
 
 import java.util.ArrayList;
 
 public class FuzzySearching {
+
+
+    FuzzySearching(){
+
+    }// TODO: 12/31/2021 LATER, what shuld args be?
+
 
     public static void main(String[] args) {
         String baseWikiUrl = "https://ffxiv.consolegameswiki.com/wiki/";
