@@ -5,6 +5,9 @@ import me.xdrop.fuzzywuzzy.model.ExtractedResult;
 
 import java.util.ArrayList;
 
+//THIS SHOULD go into a diff proj, mainly the discord bot itself as this proj is mainly for
+//creating said CSV item file.
+
 public class FuzzySearching {
 
 
