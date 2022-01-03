@@ -67,4 +67,10 @@ public class Regular_Node implements Item {
     public String getExtra() {
         return extra;
     }
+
+    @Override
+    public int[] asArray() {
+        return new int[0];
+        // TODO: 1/2/2022 For each class, return all vars Name first, in an array
+    }
 }

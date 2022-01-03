@@ -40,8 +40,10 @@ public class main {
         // like auto google smtn
 
         ArrayList<Elements> tds = getTDs(doc);
-
-        System.out.println(tds.get(0));
+        for(Elements i : tds) {
+            System.out.println(i.eachText());
+        }
+        System.out.println(tds.get(0).eachText().get(0));//pos 1 prints out time
         //TimeBased_Nodes unspoiled_nodes = new TimeBased_Nodes("ree","w1",1,"ree2","xtra","5" ,5,"ree");
 
     }

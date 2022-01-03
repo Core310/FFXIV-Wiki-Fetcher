@@ -6,4 +6,5 @@ public interface Item {
     String getTP();
     String getWikiLink();
     String getExtra();
+    int[] asArray();
 }
