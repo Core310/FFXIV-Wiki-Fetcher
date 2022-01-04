@@ -4,7 +4,7 @@ package Items;
  * A base object for Nodes with stars.
  * Only diff from Regular_Node is time and star variables.
  */
-public class Unspoiled_Nodes extends TimeBased_Nodes implements Item{
+public class Star_Nodes extends TimeBased_Nodes implements Item{
     int star;
 
     /**
@@ -19,8 +19,8 @@ public class Unspoiled_Nodes extends TimeBased_Nodes implements Item{
      * @param Extra
      * @param time
      */
-    public Unspoiled_Nodes(String ItemName, String TP, int Level, String WikiLink,
-                           String Extra, String time, int star) {
+    public Star_Nodes(String ItemName, String TP, int Level, String WikiLink,
+                      String Extra, String time, int star) {
         super(ItemName, TP, Level, WikiLink, Extra, time);
         this.star = star;
     }
@@ -31,7 +31,7 @@ public class Unspoiled_Nodes extends TimeBased_Nodes implements Item{
 
     @Override
     public String toString() {
-        return "Unspoiled_Nodes{"  +
+        return "Star_Nodes{"  +
                 "ItemName='" + getItemName() + '\'' +
                 ", TP='" + getTP() + '\'' +
                 ", Level=" + getLevel() +
