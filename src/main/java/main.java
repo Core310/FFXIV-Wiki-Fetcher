@@ -1,4 +1,3 @@
-import Items.Regular_Node;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -6,11 +5,10 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class main {
 
-private static ArrayList<Elements> getTDs(Document doc)
+private static ArrayList<Elements> getTHs(Document doc)
 {
     boolean firstSkipped = false;
 
@@ -38,7 +36,7 @@ private static ArrayList<Elements> getTDs(Document doc)
         Document doc = Jsoup.connect(Reegular_Node_Page + part).get();//Possible to get a webpage that is super close 2 it?
         // like auto google smtn
 
-        ArrayList<Elements> tds = getTDs(doc);
+        ArrayList<Elements> tds = getTHs(doc);
 
         StringBuilder stringBuilder = new StringBuilder();
         for(int i =0;i<9;i++) {
