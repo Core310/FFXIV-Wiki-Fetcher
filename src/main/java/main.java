@@ -15,6 +15,7 @@ public class main {
                 "https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Miner";
         final String EphemeralNodes = //Includes all DOL classes, todo figure out how to implement
                 "https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes#Botanist";
+        final String MiningNodeWiki = "https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations";
         final String MiningUnspoiledNodeWiki = "https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes";
         final String BNTNodeWiki = "https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations";
         final String BNTUnspoiledNodeWiki = "https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes";
