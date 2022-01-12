@@ -4,6 +4,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import javax.print.Doc;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -13,30 +14,28 @@ import java.util.Scanner;
  */
 public class WikiScrapper {
 
-    private final ArrayList<Elements> TDs;//TDs
+    private ArrayList<Elements> TDs;//TDs
+    private ArrayList<Elements> THs;//THs
+
     private Document doc;//Current page parsed
     private File file;
 
     /**
-     *
+     * After calling the default constructor, you must run setDoc and setFile
      */
-    public WikiScrapper(){
-        TDs = getTDs();
-    }// TODO: 12/31/2021 not finished, what if I made this a no arg construct?
+    public WikiScrapper(){}
 
-
-    public void setDoc(Document doc) {
-        this.doc = doc;
-    }
-
-    public void setFile(File file) {
-        this.file = file;
-    }
 
     /**
      * This function should be called when ready to run all the methods inside this class (so after setters are made).
      */
     public void scrap(){
+        if(doc == null || file == null){
+            throw new UnsupportedOperationException("doc and file must be set (see setters)");
+        }//Base case if no setters are called
+        TDs = getTDs(doc);
+        THs = getTHs(doc);
+        Store();
         //todo should call all methods, be the "starter" to store and scrap all data
     }
 
@@ -63,15 +62,16 @@ public class WikiScrapper {
 
     /**
      * Fetches table from given Document and loads each col into an array
-     * @return Each Element is the column
+     * @param document should always be the internal private doc
+     * @return Ararylist of THs (column)
      */
-    private ArrayList<Elements> getTDs()
+    private ArrayList<Elements> getTDs(Document document)
     {
         boolean firstSkipped = false;
 
         ArrayList<Elements> tds = new ArrayList<>();
 
-        for(Element element : doc.select("tr") ) {
+        for(Element element : document.select("tr") ) {
             // Skip the first 'tr' tag since it's the header
             if (!firstSkipped) {
                 firstSkipped = true;
@@ -87,13 +87,14 @@ public class WikiScrapper {
 
     /**
      * Fetches header for given table
-     * @return
+     * @param document should always be the internal private doc
+     * @return arraylist of THs(headers)
      */
-    private ArrayList<Elements> getTHs()
+    private ArrayList<Elements> getTHs(Document document)
     {
         ArrayList<Elements> tds = new ArrayList<>();
 
-        for(Element element : doc.select("th") ) {
+        for(Element element : document.select("th") ) {
             // Skip the first 'tr' tag since it's the header
 
             Elements th = element.select("th");
@@ -111,6 +112,15 @@ public class WikiScrapper {
         // TODO: 12/31/2021 loop thru TDs and have a testrun at
         //  storing data in CSV filee
 
+    }// TODO: 1/12/2022  
+
+
+    public void setDoc(Document doc) {
+        this.doc = doc;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
     }
 
 }
