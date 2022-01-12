@@ -17,23 +17,26 @@ public class WikiScrapper {
     private Document doc;//Current page parsed
     private File file;
 
-    WikiScrapper (){
-        TDs = getTDs();
-        //kinda makes code buggy since doesnt ensure if has file doc
-    }
-
     /**
      *
-     * @param doc Current Page to prase
-     * @param file what to use this 4?
      */
-    WikiScrapper(Document doc, File file){
-        this.file = file;
-        this.doc = doc;
+    public WikiScrapper(){
         TDs = getTDs();
     }// TODO: 12/31/2021 not finished, what if I made this a no arg construct?
 
-    private void scrap(){
+
+    public void setDoc(Document doc) {
+        this.doc = doc;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    /**
+     * This function should be called when ready to run all the methods inside this class (so after setters are made).
+     */
+    public void scrap(){
         //todo should call all methods, be the "starter" to store and scrap all data
     }
 
