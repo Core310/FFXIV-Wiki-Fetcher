@@ -20,19 +20,19 @@ public class main {
     //Item type arrays
     static final String RegularNode = "[Level][Type][Zone][Coordinate][Items][Extra][Gathering][Botanist][Miner]";
     //todo If no star is present, then make it into a TimeBasedNode. If a string starts with FolkLore, skip it
-    static String[] Links = new String[]{FolkLoreNodeWiki,MiningNodeWiki,
-            MiningUnspoiledNodeWiki,BNTNodeWiki,BNTUnspoiledNodeWiki};//Not adding Emph nodes 4 now
     //above is all pages that are prased currently
     static File file = new File("XIVGatherCSV");//This way the file should always be overwritten
 
     public static void main(String[] args) {
+        String[] Links = new String[]{FolkLoreNodeWiki,MiningNodeWiki,
+                MiningUnspoiledNodeWiki,BNTNodeWiki,BNTUnspoiledNodeWiki};//Not adding Emph nodes 4 now
         WikiScrapper wikiScrapper = new WikiScrapper();
-        wikiScrapper.setFile(file);
+        wikiScrapper.setFile(file);//Sets base file to setup
         Document doc;//jsoup doc
         for(String string: Links){
             doc = new Document(string);
-            wikiScrapper.setDoc(doc);
-            wikiScrapper.scrap();
+            wikiScrapper.setDoc(doc);//Fetches webpage data to extract
+            wikiScrapper.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         sortFile(file);
         //that SHOULD be all the code in main file as file is made and sorted and ready to be read.

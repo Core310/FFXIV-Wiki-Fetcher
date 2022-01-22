@@ -1,12 +1,16 @@
 package ScrapSearch;
 
+import Items.Regular_Node;
+import Items.Star_Nodes;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import javax.print.Doc;
 import java.io.File;
+import java.rmi.UnexpectedException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -90,7 +94,7 @@ public class WikiScrapper {
      * @param document should always be the internal private doc
      * @return arraylist of THs(headers)
      */
-    private ArrayList<Elements> getTHs(Document document)
+    private ArrayList<Elements> getTHs(Document document)//may not need
     {
         ArrayList<Elements> tds = new ArrayList<>();
 
@@ -106,13 +110,48 @@ public class WikiScrapper {
         return tds;
     }
 
-    private void Store(){
+    /**
+     * Determines what type of item the argument is.
+     * Used elements to strictly keep argument as a non-string in clarification for method usage.
+     * @param elements An index of the TDs Array
+     * @return {Star_Node,TimeBased_Node,Regular_Node}
+     */
+    private String typeFinder(Elements elements){
+        if(elements.text().contains("★")){
+            return "Star_Node";
+        }
+        else if(elements.text().contains("AM") || elements.text().contains("PM")){
+            return "TimeBased_Node";
+        }
+        return "Regular_Node";
+    }
+
+    /**
+     * Stores elements from inner TDs array into inner FILE
+     */
+    private void Store() {
+        String ItemType;
         //Given TDs array, find out what item each thing is by looking at the length?
+        for (Elements elements : TDs) {
+            switch (elements.text()){
+                case "Star_Node": {
+                    ItemType = "Star_Node";
+                }
+                case "TimeBased_Node": ItemType = "TimeBased_Node";
+                case "Regular_Node": ItemType = "Regular_Node";
 
-        // TODO: 12/31/2021 loop thru TDs and have a testrun at
-        //  storing data in CSV filee
+                for(String str: elements.eachText()){
 
-    }// TODO: 1/12/2022  
+                }//fixme
+
+
+            }
+
+            // TODO: 12/31/2021 loop thru TDs and have a testrun at
+            //  storing data in CSV file
+
+        }
+    }// TODO: 1/12/2022
 
 
     public void setDoc(Document doc) {
