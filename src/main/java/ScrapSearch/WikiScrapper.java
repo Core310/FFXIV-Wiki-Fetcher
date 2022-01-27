@@ -1,16 +1,11 @@
 package ScrapSearch;
 
-import Items.Regular_Node;
-import Items.Star_Nodes;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import javax.print.Doc;
 import java.io.File;
-import java.rmi.UnexpectedException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -21,24 +16,27 @@ public class WikiScrapper {
     private ArrayList<Elements> TDs;//TDs
     private ArrayList<Elements> THs;//THs
 
-    private Document doc;//Current page parsed
+    private Document ParsedPage;//Current page parsed
     private File file;
 
     /**
-     * After calling the default constructor, you must run setDoc and setFile
+     * After creating this object, you must set the doc (setParsedPage)
+     * @param file File to store into.
      */
-    public WikiScrapper(){}
+    public WikiScrapper(File file){
+        this.file = file;
+    }
 
 
     /**
      * This function should be called when ready to run all the methods inside this class (so after setters are made).
      */
     public void scrap(){
-        if(doc == null || file == null){
+        if(ParsedPage == null || file == null){
             throw new UnsupportedOperationException("doc and file must be set (see setters)");
         }//Base case if no setters are called
-        TDs = getTDs(doc);
-        THs = getTHs(doc);
+        TDs = getTDs(ParsedPage);
+        //THs = getTHs(ParsedPage);
         Store();
         //todo should call all methods, be the "starter" to store and scrap all data
     }
@@ -133,7 +131,7 @@ public class WikiScrapper {
         String ItemType;
         //Given TDs array, find out what item each thing is by looking at the length?
         for (Elements elements : TDs) {
-            switch (elements.text()){
+            switch (typeFinder(elements)){
                 case "Star_Node": {
                     ItemType = "Star_Node";
                 }
@@ -152,14 +150,8 @@ public class WikiScrapper {
 
         }
     }// TODO: 1/12/2022
-
-
-    public void setDoc(Document doc) {
-        this.doc = doc;
-    }
-
-    public void setFile(File file) {
-        this.file = file;
+    public void setParsedPage(Document parsedPage) {
+        this.ParsedPage = parsedPage;
     }
 
 }

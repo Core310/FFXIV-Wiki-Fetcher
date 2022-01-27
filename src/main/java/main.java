@@ -1,12 +1,7 @@
 import ScrapSearch.WikiScrapper;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
 
 public class main {
     static final String FolkLoreNodeWiki = //Includes all DOL classes
@@ -26,12 +21,11 @@ public class main {
     public static void main(String[] args) {
         String[] Links = new String[]{FolkLoreNodeWiki,MiningNodeWiki,
                 MiningUnspoiledNodeWiki,BNTNodeWiki,BNTUnspoiledNodeWiki};//Not adding Emph nodes 4 now
-        WikiScrapper wikiScrapper = new WikiScrapper();
-        wikiScrapper.setFile(file);//Sets base file to setup
+        WikiScrapper wikiScrapper = new WikiScrapper(file);
         Document doc;//jsoup doc
         for(String string: Links){
             doc = new Document(string);
-            wikiScrapper.setDoc(doc);//Fetches webpage data to extract
+            wikiScrapper.setParsedPage(doc);//Fetches webpage data to extract
             wikiScrapper.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         sortFile(file);

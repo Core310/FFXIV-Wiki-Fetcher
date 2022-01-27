@@ -73,8 +73,5 @@ public class Testing_Ground {
          stringBuilder.append(TDs.get(0).eachText());
          //System.out.println(typeFinder(TDs.get(2)));
          System.out.println(TDs.get(0).eachText().get(0));
-
-        for(String str: elements.eachText()){
-        }
     }
 }
