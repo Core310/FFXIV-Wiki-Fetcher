@@ -9,7 +9,12 @@ import java.util.Scanner;
  * Formats a given argument file for reading. Should be called after the file is written into.
  */
 public class Formatter {
-    private final File file;
+    private File file;
+
+    /**
+     * Default constructor, should be the only one needed.
+     * @param file File to run on.
+     */
     Formatter(File file){
         this.file = file;
     }
@@ -87,9 +92,24 @@ public class Formatter {
         return false;
     }//Has O(1) Time as should be called when indexing thru file
 
-    public boolean removeDuplicate(String string, String prevStriing){
-        if(string.equals(prevStriing)) return true;
+    public boolean removeDuplicate(String string, String prevString){
+        if(string.equals(prevString)) return true;
         return false;
     }
 
+    /**
+     * Sets the object to run on a new file. (Constructor forces a file by default).
+     * @param file New file to run on
+     */
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    /**
+     * Gets current file running
+     * @return Current instanced FILE object.
+     */
+    public File getFile() {
+        return file;
+    }
 }
