@@ -1,21 +1,18 @@
-package ScrapSearch;
+package Scrapper;
 
-import Items.Item;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
- * Fetches data from given doc. Doc is from a webpage.
+ * Fetches data from given doc,
  */
-public class WikiScrapper {
+public class ScrapAndStore {
     private ArrayList<Elements> TDs;//TDs
     private Document ParsedPage;//Current page parsed
     private File file;
@@ -25,7 +22,7 @@ public class WikiScrapper {
      * After creating this object, you must set the doc (setParsedPage)
      * @param file File to store into.
      */
-    public WikiScrapper(File file, FileWriter fileWriter) {
+    public ScrapAndStore(File file, FileWriter fileWriter) {
         this.file = file;
         this.fileWriter = fileWriter;
     }

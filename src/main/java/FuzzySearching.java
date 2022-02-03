@@ -1,5 +1,3 @@
-package ScrapSearch;
-
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 import me.xdrop.fuzzywuzzy.model.ExtractedResult;
 

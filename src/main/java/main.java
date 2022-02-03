@@ -1,4 +1,4 @@
-import ScrapSearch.WikiScrapper;
+import Scrapper.ScrapAndStore;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -30,12 +30,12 @@ public class main {
         };//Not adding Emph nodes 4 now
         File test = new File("XIVGatherCSV.csv");
         FileWriter fileWriter = new FileWriter(test,false);
-        WikiScrapper wikiScrapper = new WikiScrapper(test,fileWriter);
+        ScrapAndStore scrapAndStore = new ScrapAndStore(test,fileWriter);
         Document doc ;//jsoup doc
         for(String string: Links){
             doc = Jsoup.connect(string).get();
-            wikiScrapper.setParsedPage(doc);//Fetches webpage data to extract
-            wikiScrapper.scrap();//extracts data and stores in argument file
+            scrapAndStore.setParsedPage(doc);//Fetches webpage data to extract
+            scrapAndStore.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         fileWriter.close();
         sortFile(file);
