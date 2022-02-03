@@ -8,6 +8,16 @@ public class Formatter {
         this.file = file;
     }
 
+    public void SortByItemName(){
+        //should soort file by item name
+
+
+    }
+
+    public void format(){
+        // TODO: 2/3/2022 Format the file so that each item name is displayed first, and every item follows the ITEM class format
+    }
+
     /**
      * Removes duplicate values as well as last page headers.
      * Last page header is found at the end of each wiki page:
