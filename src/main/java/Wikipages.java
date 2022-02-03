@@ -7,8 +7,14 @@ public enum Wikipages {
     EphemeralNode("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes");
 // TODO: 2/2/2022 Emph nodes need a reader/praser
 
+    private String url;
 
-    Wikipages(String s) {
+    Wikipages(String string) {
+        url = string;
+    }
 
+    @Override
+    public String toString() {
+        return url;
     }
 }
