@@ -1,4 +1,5 @@
 import ScrapSearch.WikiScrapper;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.File;
@@ -30,9 +31,9 @@ public class main {
         File test = new File("XIVGatherCSV.csv");
         FileWriter fileWriter = new FileWriter(test,false);
         WikiScrapper wikiScrapper = new WikiScrapper(test,fileWriter);
-        Document doc;//jsoup doc
+        Document doc ;//jsoup doc
         for(String string: Links){
-            doc = new Document(string);
+            doc = Jsoup.connect(string).get();
             wikiScrapper.setParsedPage(doc);//Fetches webpage data to extract
             wikiScrapper.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
