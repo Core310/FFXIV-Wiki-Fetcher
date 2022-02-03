@@ -1,3 +1,5 @@
+package Scrapper;
+
 /**
  * Contains all links that are to be searched.
  */
@@ -10,7 +12,7 @@ public enum Wikipages {
     //EphemeralNode("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes")
 // TODO: 2/2/2022 Emph nodes need a reader/praser
 
-    private String url;
+    private final String url;
 
     /**
      * Default constructor, this should not be used.

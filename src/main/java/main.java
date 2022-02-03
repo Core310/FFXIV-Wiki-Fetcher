@@ -1,4 +1,5 @@
 import Scrapper.ScrapAndStore;
+import Scrapper.Wikipages;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

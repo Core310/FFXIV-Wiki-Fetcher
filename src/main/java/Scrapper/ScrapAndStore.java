@@ -38,7 +38,6 @@ public class ScrapAndStore {
         }//Base case if no setters are called
         TDs = getTDs(ParsedPage);
         Store();
-        //todo should call all methods, be the "starter" to store and scrap all data
     }
 
     /**
@@ -79,9 +78,13 @@ public class ScrapAndStore {
                 fileWriter.write(System.getProperty("line.separator"));
 
             }
-            // TODO: 12/31/2021 loop thru TDs and have a test run at
-            //  storing data in CSV file
-    }// TODO: 1/12/2022
+    }
+
+    /**
+     * Sets the current page to parse.
+     * Call this method each time you want to scrap a page.
+     * @param parsedPage Page to parse
+     */
     public void setParsedPage(Document parsedPage) {
         this.ParsedPage = parsedPage;
     }

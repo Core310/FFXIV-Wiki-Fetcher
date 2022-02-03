@@ -1,19 +1,17 @@
+package FuzzySearch;
+
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 import me.xdrop.fuzzywuzzy.model.ExtractedResult;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.LineNumberReader;
 import java.util.ArrayList;
-import java.util.Collections;
 
 //THIS SHOULD go into a diff proj, mainly the discord bot itself as this proj is mainly for
 //creating said CSV item file.
 
-public class FuzzySearching {
+public class MainFuzzy {
     private File Partsfile;
-    FuzzySearching(File Partsfile){this.Partsfile = Partsfile;
+    MainFuzzy(File Partsfile){this.Partsfile = Partsfile;
     }// TODO: 12/31/2021 LATER, what shuld args be?
 
     /**
