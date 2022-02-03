@@ -1,71 +1,53 @@
 package ScrapSearch;
 
+import Items.Item;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Fetches data from given doc. Doc is from a webppage.
+ * Fetches data from given doc. Doc is from a webpage.
  */
 public class WikiScrapper {
-
     private ArrayList<Elements> TDs;//TDs
-    private ArrayList<Elements> THs;//THs
-
     private Document ParsedPage;//Current page parsed
     private File file;
+    private FileWriter fileWriter;
 
     /**
      * After creating this object, you must set the doc (setParsedPage)
      * @param file File to store into.
      */
-    public WikiScrapper(File file){
+    public WikiScrapper(File file, FileWriter fileWriter) {
         this.file = file;
+        this.fileWriter = fileWriter;
     }
-
 
     /**
      * This function should be called when ready to run all the methods inside this class (so after setters are made).
      */
-    public void scrap(){
+    public void scrap() throws IOException {
         if(ParsedPage == null || file == null){
-            throw new UnsupportedOperationException("doc and file must be set (see setters)");
+            throw new UnsupportedOperationException("\ndoc and file must be set (see setters)" +
+                    "\nExample: wikiScrapper.setParsedPage(*jsoupdocument*);\n"
+            );
         }//Base case if no setters are called
         TDs = getTDs(ParsedPage);
-        //THs = getTHs(ParsedPage);
         Store();
         //todo should call all methods, be the "starter" to store and scrap all data
     }
 
     /**
-     * Used for Regular_Nodes where there are CSVs in one cell
-     * Reads argument CSV and outputs in an arrayList
-     * @param string Argument to pass
-     * @return Arraylist by CSVs
-     */
-    private ArrayList<String> readWikiCSVTableLine(String string){
-        ArrayList<String> arrayList = new ArrayList<>();
-        if(!string.contains(",")) {
-            arrayList.add(string);
-            return arrayList;
-        }//base case if no commmas
-
-        Scanner scanner = new Scanner(string);
-        scanner.useDelimiter(",");
-        while (scanner.hasNext()){
-            arrayList.add(scanner.next());
-        }
-        return arrayList;
-    }// TODO: 1/2/2022 test if works
-
-    /**
      * Fetches table from given Document and loads each col into an array
      * @param document should always be the internal private doc
-     * @return Ararylist of THs (column)
+     * @return Arraylist of THs (column)
      */
     private ArrayList<Elements> getTDs(Document document)
     {
@@ -86,72 +68,26 @@ public class WikiScrapper {
 
         return tds;
     }
-
     /**
-     * Fetches header for given table
-     * @param document should always be the internal private doc
-     * @return arraylist of THs(headers)
+     * Stores all elements fetched from the TDs array, nukes the constructor argument FILE,
+     * and stores all the fetched data inside the said file.
      */
-    private ArrayList<Elements> getTHs(Document document)//may not need
-    {
-        ArrayList<Elements> tds = new ArrayList<>();
-
-        for(Element element : document.select("th") ) {
-            // Skip the first 'tr' tag since it's the header
-
-            Elements th = element.select("th");
-            //Elements td = element.select("td");
-            //tds.add(td);
-            tds.add(th);
-        }
-
-        return tds;
-    }
-
-    /**
-     * Determines what type of item the argument is.
-     * Used elements to strictly keep argument as a non-string in clarification for method usage.
-     * @param elements An index of the TDs Array
-     * @return {Star_Node,TimeBased_Node,Regular_Node}
-     */
-    private String typeFinder(Elements elements){
-        if(elements.text().contains("★")){
-            return "Star_Node";
-        }
-        else if(elements.text().contains("AM") || elements.text().contains("PM")){
-            return "TimeBased_Node";
-        }
-        return "Regular_Node";
-    }
-
-    /**
-     * Stores elements from inner TDs array into inner FILE
-     */
-    private void Store() {
-        String ItemType;
-        //Given TDs array, find out what item each thing is by looking at the length?
-        for (Elements elements : TDs) {
-            switch (typeFinder(elements)){
-                case "Star_Node": {
-                    ItemType = "Star_Node";
-                }
-                case "TimeBased_Node": ItemType = "TimeBased_Node";
-                case "Regular_Node": ItemType = "Regular_Node";
-
-                for(String str: elements.eachText()){
-
-                }//fixme
-
+    private void Store() throws IOException {
+            for (Elements elements : TDs) {
+                if(elements.eachText().size() <=1) continue;
+                String elementText = String.join(",",elements.eachText());
+                //elements.eachText() comes out as a regular string. The String.join function
+                //deletes each space and replaces it with a ',' to convert it into csv.
+                fileWriter.write(elementText);
+                fileWriter.write(System.getProperty("line.separator"));
 
             }
-
-            // TODO: 12/31/2021 loop thru TDs and have a testrun at
+            // TODO: 12/31/2021 loop thru TDs and have a test run at
             //  storing data in CSV file
-
-        }
     }// TODO: 1/12/2022
     public void setParsedPage(Document parsedPage) {
         this.ParsedPage = parsedPage;
     }
+
 
 }

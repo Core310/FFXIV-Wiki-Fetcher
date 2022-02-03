@@ -38,7 +38,7 @@ public class TimeBased_Nodes extends Regular_Node implements Item{
                 ", Level=" + getLevel() +
                 ", WikiLink='" + getWikiLink() + '\'' +
                 ", extra='" + getExtra() + '\''+
-                "star=" + getTime() +
+                "time=" + getTime() +
                 '}';
     }
 

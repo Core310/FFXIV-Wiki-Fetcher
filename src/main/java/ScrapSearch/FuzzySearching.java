@@ -20,7 +20,9 @@ public class FuzzySearching {
 
     /**
      * @param SearchKey Finds closest value in given constructor file (should be item file).
+     *                  
      */
+  /*
     public String SearchItem(String SearchKey){
         try {
             LineNumberReader lineNumberReader = new LineNumberReader(new FileReader(Partsfile));// TODO: 1/27/22 Find how to extract item name and row nubers out of table
@@ -47,6 +49,7 @@ public class FuzzySearching {
             e.printStackTrace();
         }
     }
+   */// TODO: 2/2/2022  
 
     public static void main(String[] args) {
         String baseWikiUrl = "https://ffxiv.consolegameswiki.com/wiki/";

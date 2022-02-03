@@ -19,8 +19,13 @@ public class Star_Nodes extends TimeBased_Nodes implements Item{
      * @param time
      * @param star
      */
-    public Star_Nodes(String ItemName, String TP, int Level, String WikiLink,
-                      String Extra, String time, int star) {
+    public Star_Nodes(String ItemName,
+                      String TP,
+                      int Level,
+                      String WikiLink,
+                      String Extra,
+                      String time,
+                      int star) {
         super(ItemName, TP, Level, WikiLink, Extra, time);
         this.star = star;
     }
@@ -29,15 +34,15 @@ public class Star_Nodes extends TimeBased_Nodes implements Item{
         return star;
     }
 
-    @Override
     public String toString() {
-        return "Star_Nodes{"  +
+        return "TimeBased_Nodes{"  +
                 "ItemName='" + getItemName() + '\'' +
                 ", TP='" + getTP() + '\'' +
                 ", Level=" + getLevel() +
                 ", WikiLink='" + getWikiLink() + '\'' +
                 ", extra='" + getExtra() + '\''+
-                "star=" + getStar() +
+                "star=" + getTime() +
+                "time=" + getTime() +
                 '}';
     }
 }

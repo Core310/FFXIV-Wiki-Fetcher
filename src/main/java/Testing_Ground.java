@@ -1,32 +1,19 @@
+import Items.Item;
+import Items.Star_Nodes;
+import Items.TimeBased_Nodes;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Testing_Ground {
-
-    private static ArrayList<Elements> getTHs(Document doc)
-    {
-        boolean firstSkipped = false;
-
-        ArrayList<Elements> tds = new ArrayList<>();
-
-        for(Element element : doc.select("th") ) {
-            // Skip the first 'tr' tag since it's the header
-
-            Elements th = element.select("th");
-            //Elements td = element.select("td");
-            //tds.add(td);
-            tds.add(th);
-        }
-
-        return tds;
-    }
     private static ArrayList<Elements> getTDs(Document document)
     {
         boolean firstSkipped = false;
@@ -47,17 +34,17 @@ public class Testing_Ground {
         return tds;
     }
 
-    private static String typeFinder(Elements elements){
-            if(elements.text().contains("★")){
-                return "Star_Node";
-            }
-            else if(elements.text().contains("AM") || elements.text().contains("PM")){
-                return "TimeBased_Node";
-            }
-            return "Regular_Node";
+    private static void StoreCSV(String string, FileWriter fileWriter){
+        try {
+            fileWriter.append(string);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) throws IOException {
+        File file = new File("TC.csv");
+
          String regNode = "[Level][Type][Zone][Coordinate][Items][Extra][Gathering][Botanist][Miner]";
          //System.out.println("Thingy to find: ");
          String part = "";
@@ -66,12 +53,8 @@ public class Testing_Ground {
          String gatheringPage = "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering/";
          Document doc = Jsoup.connect(wikiPage).get();//Possible to get a webpage that is super close 2 it?
          // like auto google smtn
-
-         ArrayList<Elements> ths = getTHs(doc);
+        String ItemType;
          ArrayList<Elements> TDs = getTDs(doc);
-         StringBuilder stringBuilder = new StringBuilder();
-         stringBuilder.append(TDs.get(0).eachText());
-         //System.out.println(typeFinder(TDs.get(2)));
-         System.out.println(TDs.get(0).eachText().get(0));
+
+        }
     }
-}
