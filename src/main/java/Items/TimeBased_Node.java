@@ -5,7 +5,7 @@ package Items;
  * . This should NOT create Unspoiled Nodes but rather be a template to it. (Extends to unspoiled nodes)
  * Only diff is variable int time
  */
-public class TimeBased_Nodes extends Regular_Node implements Item{
+public class TimeBased_Node extends Regular_Node implements Item{
     String Time;
 
     /**
@@ -18,8 +18,8 @@ public class TimeBased_Nodes extends Regular_Node implements Item{
      * @param Extra
      * @param time
      */
-    public TimeBased_Nodes(String ItemName, String TP, int Level, String WikiLink, String Extra,
-                           String time
+    public TimeBased_Node(String ItemName, String TP, int Level, String WikiLink, String Extra,
+                          String time
                            ) {
         super(ItemName, TP, Level, WikiLink, Extra);
         this.Time = time;
@@ -32,7 +32,7 @@ public class TimeBased_Nodes extends Regular_Node implements Item{
     }
     @Override
     public String toString() {
-        return "TimeBased_Nodes{"  +
+        return "TimeBased_Node{"  +
                 "ItemName='" + getItemName() + '\'' +
                 ", TP='" + getTP() + '\'' +
                 ", Level=" + getLevel() +

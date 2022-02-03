@@ -4,7 +4,7 @@ package Items;
  * A base object for Nodes with stars.
  * Only diff from Regular_Node is time and star variables.
  */
-public class Star_Nodes extends TimeBased_Nodes implements Item{
+public class Timed_Star_Node extends TimeBased_Node implements Item{
     int star;
 
     /**
@@ -19,13 +19,13 @@ public class Star_Nodes extends TimeBased_Nodes implements Item{
      * @param time
      * @param star
      */
-    public Star_Nodes(String ItemName,
-                      String TP,
-                      int Level,
-                      String WikiLink,
-                      String Extra,
-                      String time,
-                      int star) {
+    public Timed_Star_Node(String ItemName,
+                           String TP,
+                           int Level,
+                           String WikiLink,
+                           String Extra,
+                           String time,
+                           int star) {
         super(ItemName, TP, Level, WikiLink, Extra, time);
         this.star = star;
     }
@@ -35,7 +35,7 @@ public class Star_Nodes extends TimeBased_Nodes implements Item{
     }
 
     public String toString() {
-        return "TimeBased_Nodes{"  +
+        return "TimeBased_Node{"  +
                 "ItemName='" + getItemName() + '\'' +
                 ", TP='" + getTP() + '\'' +
                 ", Level=" + getLevel() +
