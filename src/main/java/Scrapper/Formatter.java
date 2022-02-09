@@ -23,8 +23,8 @@ public class Formatter {
 
 
         /*
-        //should soort file by item name
-        //Should this load the whole entire file into an arraylist/array and take
+        //should sort file by item name, MUST be run after being formatted.
+        //Should I load the whole entire file into an arraylist/array and take
         //up a massivea mnt of memory? It's only run once so shuld b fine?
          */
     }
@@ -33,7 +33,7 @@ public class Formatter {
         try {
             Scanner scanner = new Scanner(file);
             scanner.useDelimiter(",");   //sets the delimiter pattern
-            while (scanner.hasNext()) {
+            while (scanner.hasNext()) {// TODO: 2/9/22 find out how to load each line into array, overwrite it, and then
                 /*
                 Load each line into an array
                 Load array into an ITEM type
@@ -41,7 +41,7 @@ public class Formatter {
                 Go to the next line and loop until scanner has no more
                 See here: https://www.baeldung.com/java-csv-file-array
                  */
-
+                
             }
 
 
@@ -86,13 +86,13 @@ public class Formatter {
      * Last page header is found at the end of each wiki page:
      * "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes"
      */
-    public boolean removeHeader(String string){
+    public boolean CheckRemoveHeader(String string){
         String DuplicateStandardHeader = "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes";
         if(string.equals(DuplicateStandardHeader)) return true;
         return false;
     }//Has O(1) Time as should be called when indexing thru file
 
-    public boolean removeDuplicate(String string, String prevString){
+    public boolean CheckRemoveDuplicate(String string, String prevString){
         if(string.equals(prevString)) return true;
         return false;
     }
