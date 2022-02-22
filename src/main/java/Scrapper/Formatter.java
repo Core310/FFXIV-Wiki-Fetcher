@@ -1,7 +1,12 @@
 package Scrapper;
 
+import Items.Item;
+import Items.Regular_Node;
+
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -29,11 +34,58 @@ public class Formatter {
          */
     }
 
+    private ArrayList<String> getRecordFromLine(String line) {
+        ArrayList<String> values = new ArrayList<String>();
+        try (Scanner rowScanner = new Scanner(line)) {
+            rowScanner.useDelimiter(",");
+            while (rowScanner.hasNext()) {
+                values.add(rowScanner.next());
+            }
+        }
+        return values;
+    }
+/*
+
+ */
     public void format(){
         try {
             Scanner scanner = new Scanner(file);
             scanner.useDelimiter(",");   //sets the delimiter pattern
-            while (scanner.hasNext()) {// TODO: 2/9/22 find out how to load each line into array, overwrite it, and then
+            ArrayList<String> CurrentLine = new ArrayList<>();
+            Item curItem;
+            while (scanner.hasNextLine()) {// TODO: 2/9/22 find out how to load each line into array, overwrite it, and then
+            CurrentLine = getRecordFromLine(scanner.nextLine());
+
+            switch (CurrentLine.size()){
+                /**
+                 *                 case 6: {//Regular Node case
+                 *                     curItem = new Regular_Node(
+                 *                             CurrentLine.get(4),
+                 *                             CurrentLine.get(2),
+                 *                             CurrentLine.get(0),
+                 *                             CurrentLine.get(0000),
+                 *                             CurrentLine.get(5)
+                 *                         //Now somehow replace the current line with curItem
+                 *                     );//Repeat for the rest of the item cases.
+                 *
+                 *                 }
+                 */
+
+                case 7: {//FolkLore Node Case
+
+                }
+                case 9: {//Unspoiled Nodes
+
+                }
+            }
+
+            /*
+                        String ItemName,
+            String TP,
+            int Level,
+            String WikiLink,
+            String extra
+             */
                 /*
                 Load each line into an array
                 Load array into an ITEM type
@@ -41,20 +93,18 @@ public class Formatter {
                 Go to the next line and loop until scanner has no more
                 See here: https://www.baeldung.com/java-csv-file-array
                  */
-                
+
             }
-
-
             // TODO: 2/3/2022 Format the file so that each item name is displayed first, and every item follows the ITEM class format
         }
-         /*
+         /* Wiki tables:
         Regular nodes
-        1)Level
-        2)Type
-        3)TP
-        4)Cords
-        5)Name
-        6)Extra
+        0)Level
+        1)Type
+        2)TP
+        3)Cords
+        4)Name
+        5)Extra
 
         Unspoiled Nodes:
        1)Time

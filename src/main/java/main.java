@@ -8,9 +8,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class main {
-    static File file = new File("XIVGatherCSV.csv");//This way the file should always be overwritten
+    static final String FileName = "XIVGather.csv";
+
+    static File file = new File(FileName);//This way the file should always be overwritten
     public static void main(String[] args) throws IOException {
-        File test = new File("XIVGatherCSV.csv");
+        File test = new File(FileName);
         FileWriter fileWriter = new FileWriter(test,false);
         ScrapAndStore scrapAndStore = new ScrapAndStore(test,fileWriter);
         Document doc ;//jsoup doc

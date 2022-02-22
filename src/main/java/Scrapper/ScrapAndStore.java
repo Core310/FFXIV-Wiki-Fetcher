@@ -53,7 +53,7 @@ public class ScrapAndStore {
 
         for(Element element : document.select("tr") ) {
             // Skip the first 'tr' tag since it's the header
-            if (!firstSkipped) {
+            if (!firstSkipped) {//shou
                 firstSkipped = true;
                 continue;
             }
@@ -78,7 +78,7 @@ public class ScrapAndStore {
                 fileWriter.write(System.getProperty("line.separator"));
 
             }
-    }
+    }// TODO: 2/21/22 Load TH first and then TD, with TD, Make sure that TD is made clear which will hopefully be able 2 tell what item type dealing w/
 
     /**
      * Sets the current page to parse.
