@@ -1,3 +1,4 @@
+import Scrapper.Formatter;
 import Scrapper.ScrapAndStore;
 import Scrapper.Wikipages;
 import org.jsoup.Jsoup;
@@ -22,12 +23,7 @@ public class main {
             scrapAndStore.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         fileWriter.close();
-        sortFile(file);
         //that SHOULD be all the code in main file as file is made and sorted and ready to be read.
-    }
-
-    static void sortFile(File file){
-        //todo should sort file by item name and then store all the letter indexs somewhere
     }
 
 }

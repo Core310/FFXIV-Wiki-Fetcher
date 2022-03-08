@@ -1,3 +1,5 @@
+import Scrapper.ScrapAndStore;
+import Scrapper.Wikipages;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -29,27 +31,49 @@ public class Testing_Ground {
         return tds;
     }
 
-    private static void StoreCSV(String string, FileWriter fileWriter){
-        try {
-            fileWriter.append(string);
-        } catch (IOException e) {
-            e.printStackTrace();
+    private static ArrayList<Elements> getTHs(Document document)
+    {
+        boolean firstSkipped = false;
+
+        ArrayList<Elements> ths = new ArrayList<>();
+
+        for(Element element : document.select("tr") ) {
+            Elements thead = element.select("th");
+            ths.add(thead);
         }
+        return ths;
     }
 
-    public static void main(String[] args) throws IOException {
-        File file = new File("TC.csv");
+    private static ArrayList<Elements> getTable(Document document)
+    {
+        boolean firstSkipped = false;
 
-         String regNode = "[Level][Type][Zone][Coordinate][Items][Extra][Gathering][Botanist][Miner]";
-         //System.out.println("Thingy to find: ");
-         String part = "";
-         String wikiPage = "https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes";
-         String Reegular_Node_Page = "https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations";
-         String gatheringPage = "https://na.finalfantasyxiv.com/lodestone/playguide/db/gathering/";
-         Document doc = Jsoup.connect(wikiPage).get();//Possible to get a webpage that is super close 2 it?
-         // like auto google smtn
-        String ItemType;
-         ArrayList<Elements> TDs = getTDs(doc);
+        ArrayList<Elements> tds = new ArrayList<>();
 
+        for(Element element : document.select("table") ) {
+            Elements td = element.select("table");
+            tds.add(td);
         }
+
+        return tds;
+    }
+
+    static final String FileName = "XIVGather.csv";
+    static File file = new File(FileName);//This way the file should always be overwritten
+
+    public static void main(String[] args) throws IOException {
+
+            File test = new File(FileName);
+            FileWriter fileWriter = new FileWriter(test,false);
+            ScrapAndStore scrapAndStore = new ScrapAndStore(test,fileWriter);
+            Document doc ;//jsoup doc
+
+        doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes").get();
+        System.out.print(getTHs(doc));
+
+            for(Wikipages wikipages: Wikipages.values()){
+
+            }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
+            fileWriter.close();
+    }
     }

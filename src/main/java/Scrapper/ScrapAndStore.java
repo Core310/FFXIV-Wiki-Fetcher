@@ -32,7 +32,7 @@ public class ScrapAndStore {
      */
     public void scrap() throws IOException {
         if(ParsedPage == null || file == null){
-            throw new UnsupportedOperationException("\ndoc and file must be set (see setters)" +
+            throw new UnsupportedOperationException("\n doc and file must be set (see setters)" +
                     "\nExample: wikiScrapper.setParsedPage(*jsoupdocument*);\n"
             );
         }//Base case if no setters are called
@@ -78,7 +78,8 @@ public class ScrapAndStore {
                 fileWriter.write(System.getProperty("line.separator"));
 
             }
-    }// TODO: 2/21/22 Load TH first and then TD, with TD, Make sure that TD is made clear which will hopefully be able 2 tell what item type dealing w/
+    }//
+     // TODO: 2/21/22 Load TH first and then TD, with TD, Make sure that TD is made clear which will hopefully be able 2 tell what item type dealing w/
 
     /**
      * Sets the current page to parse.
