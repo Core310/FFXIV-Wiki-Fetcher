@@ -63,7 +63,26 @@ public class ScrapAndStore {
         }
 
         return tds;
+    }// TODO: 3/9/22 Remove document file
+
+    /**
+     *
+     * @return Table headers such as Time,Item,Slot #,Location,Coordinate,Level,Star,Additional Info
+     */
+    private  ArrayList<Elements> getTHs()
+    {
+        boolean firstSkipped = false;
+
+        ArrayList<Elements> tds = new ArrayList<>();
+
+        for(Element element : ParsedPage.select("table") ) {
+            Elements td = element.select("th");
+            tds.add(td);
+        }
+
+        return tds;
     }
+
     /**
      * Stores all elements fetched from the TDs array, nukes the constructor argument FILE,
      * and stores all the fetched data inside the said file.

@@ -1,0 +1,534 @@
+5,Mature Tree,North Shroud,(x28,y26),Maple Branch, Latex, Maple Log, Earth Shard
+5,Mature Tree,North Shroud,(x25,y27),Beehive Chip, Cinnamon, Maple Sap, Earth Shard
+5,Mature Tree,Central Shroud,(x23,y18),Allagan Snail, Maple Branch, Latex, Maple Log, Ice Shard, Wind Shard
+10,Mature Tree,Central Thanalan,(x22,y26),Cock Feather, Cloves, Lightning Shard
+10,Mature Tree,Central Shroud,(x25,y20),Crow Feather, Ash Branch, Ash Log, Tinolqa Mistletoe, Wind Shard
+10,Mature Tree,North Shroud,(x27,y24),Ash Branch, Ash Log, Tinolqa Mistletoe, Earth Shard
+10,Mature Tree,Lower La Noscea,(x32,y16),Kukuru Bean, La Noscean Orange, Earth Shard, La Noscean Orange Seeds (Hidden)
+15,Lush Vegetation Patch,Central Shroud,(x18,y19),Buffalo Beans, Marjoram, Tree Toad, Humus, Wind Shard
+15,Lush Vegetation Patch,Central Shroud,(x22,y24),Carnation, Cotton Boll, Lavender, Chanterelle, Wind Shard, Lavender Seeds (Hidden), Windlight Seeds (Hidden)
+15,Lush Vegetation Patch,Middle La Noscea,(x22,y19),Ruby Tomato, Sunset Wheat, Straw, La Noscean Lettuce, Fire Shard, La Noscean Lettuce Seeds (Hidden), Firelight Seeds (Hidden)
+15,Lush Vegetation Patch,Central Thanalan,(x25,y20),Black Pepper, Yellow Ginseng, Alpine Parsnip, Lightning Shard, Black Pepper Seeds (Hidden), Levinlight Seeds (Hidden)
+15,Mature Tree,Central Shroud,(x20,y20),Gridanian Chestnut, Elm Log, Wind Shard
+15,Lush Vegetation Patch,Lower La Noscea,(x26,y22),Cinderfoot Olive, Lowland Grapes, Cieldalaes Spinach, Highland Parsley, Earth Shard, Lowland Grape Seeds (Hidden), Olive Seeds (Hidden), Earthlight Seeds (Hidden)
+15,Lush Vegetation Patch,Western Thanalan,(x23,y18),Rye, Moko Grass, Coerthan Carrot, Grass Viper, Water Shard, Coerthan Carrot Seeds (Hidden), Waterlight Seeds (Hidden)
+15,Lush Vegetation Patch,Western Thanalan,(x23,y23),Ogre Pumpkin, Garlean Garlic, Wild Onion, Water Shard, Garlic Cloves (Hidden), Wild Onion Set (Hidden)
+20,Mature Tree,Central Thanalan,(x21,y20),Nopales, Lightning Shard
+20,Mature Tree,Western La Noscea,(x26,y23),Grade 1 Carbonized Matter, Ice Shard
+20,Mature Tree,Lower La Noscea,(x34,y17),Sun Lemon, Earth Shard, Sun Lemon Seeds (Hidden)
+20,Lush Vegetation Patch,Western La Noscea,(x31,y28),Lalafellin Lentil, Island Seedling, Paprika, Ice Shard, Paprika Seeds (Hidden), Icelight Seeds (Hidden)
+20,Lush Vegetation Patch,Eastern Thanalan,(x16,y27),Popoto, White Scorpion, Desert Seedling, Fire Shard, Popoto Set (Hidden)
+20,Lush Vegetation Patch,East Shroud,(x18,y28),Galago Mint, Belladonna, Gil Bun, Shroud Seedling, Wind Shard
+20,Mature Tree,East Shroud,(x15,y27),Faerie Apple, Yew Branch, Yew Log, Wind Shard, Faerie Apple Seeds (Hidden)
+25,Mature Tree,South Shroud,(x23,y21),Gridanian Walnut, Walnut Log, Matron's Mistletoe, Ice Shard
+25,Lush Vegetation Patch,Eastern Thanalan,(x14,y20),Ala Mhigan Mustard, Pearl Ginger, Millioncorn, Button Mushroom, Fire Shard, Ala Mhigan Mustard Seeds (Hidden), Pearl Ginger Root (Hidden), Millioncorn Seeds (Hidden)
+25,Lush Vegetation Patch,Upper La Noscea,(x14,y24),Noble Grapes, Pixie Plums, Sticky Rice, Chamomile, Earth Shard, Pixie Plum Seeds (Hidden), Chamomile Seeds (Hidden)
+30,Mature Tree,South Shroud,(x16,y21),Grey Pigment, Ice Shard, Ice Crystal
+30,Mature Tree,North Shroud,(x27,y22),Yellow Pigment, Brown Pigment, Earth Shard, Earth Crystal
+30,Mature Tree,Central Shroud,(x24,y30),Green Pigment, Wind Shard, Wind Crystal
+30,Mature Tree,Central Thanalan,(x24,y31),Purple Pigment, Lightning Shard, Lightning Crystal
+30,Mature Tree,Middle La Noscea,(x16,y13),Red Pigment, Fire Shard, Fire Crystal
+30,Mature Tree,Eastern La Noscea,(x28,y33),Blue Pigment, Water Shard, Water Crystal
+30,Mature Tree,South Shroud,(x26,y19),Chocobo Feather, Alligator Pear, Ice Shard
+30,Lush Vegetation Patch,North Shroud,(x22,y25),Moor Leech, Wizard Eggplant, Jade Peas, Midland Cabbage, Earth Shard, Wizard Eggplant Seeds (Hidden), Midland Cabbage Seeds (Hidden)
+35,Lush Vegetation Patch,Southern Thanalan,Little Ala Mhigo (x20,y7),Desert Saffron, Laurel, Aloe, Bloodgrass, Lightning Shard, Yafaem Wildgrass (Hidden)
+35,Lush Vegetation Patch,Eastern La Noscea,Costa Del Sol (x26,y30),Dragon Pepper, Midland Basil, Mandrake, Salt Leek, Water Shard, Midland Basil Seeds (Hidden, Rare), Mandrake Seeds (Hidden, Rare)
+35,Lush Vegetation Patch,South Shroud,(x17,y28),Wildfowl Feather, Flax, White Truffle, Ice Shard, Linseed (Hidden)
+35,Mature Tree,South Shroud,Camp Tranquil (x16,y30),Tarantula, Oak Branch, Oak Log, Ice Shard
+40,Mature Tree,Eastern La Noscea,Wineport (x19,y25),Iron Acorn, Almonds, Nutmeg, Mahogany Log, Water Shard, Almond Seeds (Hidden)
+40,Lush Vegetation Patch,Eastern La Noscea,Wineport (x21,y29),Maiden Artichoke, Ramhorn Zucchini, Mugwort, Water Shard
+40,Lush Vegetation Patch,South Shroud,(x21,y29),Blood Currants, Thyme, Ice Shard, Blood Currant Seeds (Hidden)
+45,Mature Tree,Coerthas Central Highlands,(x23,y17),Mirror Apple, Mistletoe, Ice Shard, Mirror Apple Seeds (Hidden)
+45,Lush Vegetation Patch,Upper La Noscea,(x35,y24),Rolanberry, Sagolii Sage, Dart Frog, Black Scorpion, Earth Shard, Rolanberry Seeds (Hidden)
+50,Mature Tree,East Shroud,(x16,y23),Rosewood Log, Rosewood Branch, Wind Shard
+50,Lush Vegetation Patch,Southern Thanalan,(x13,y31),Thanalan Tea Leaves, Lava Toad, Maiden Grass, Lightning Shard
+50,Mature Tree,Eastern La Noscea,(x17,y32),Grade 3 Carbonized Matter, Water Crystal, Water Shard
+50,Mature Tree,Central Thanalan,(x29,y19),Grade 3 Carbonized Matter, Lightning Crystal, Lightning Shard
+50,Mature Tree,Middle La Noscea,(x19,y21),Grade 3 Carbonized Matter, Fire Crystal, Fire Shard
+50,Mature Tree,Coerthas Western Highlands,(x30,y32),Cedar Branch, Ice Crystal, Cedar Log
+55,Lush Vegetation Patch,Coerthas Western Highlands,(x17,y16),Rainbow Cotton Boll, Ice Crystal, Mist Dill
+55,Lush Vegetation Patch,The Dravanian Forelands,(x36,y20),Cyclops Onion (Hidden), Highland Wheat, Stalk of Ramie, Fire Crystal, Grade 5 Carbonized Matter (Hidden, Rare)
+55,Mature Tree,The Dravanian Forelands,(x25,y25),Dark Chestnut, Dark Chestnut Branch, Fire Crystal, Dark Chestnut Log
+55,Lush Vegetation Patch,The Churning Mists,(x20,y21),Earth Crystal, Emerald Beans (Hidden), Magma Beet
+60,Mature Tree,The Sea of Clouds,(x25,y34),Birch Log (Hidden), Birch Branch, Water Crystal, Birch Sap, Cloud Mushroom, Wind Widow
+60,Mature Tree,The Churning Mists,(x31,y30),Camphorwood Log, Camphorwood Branch, Earth Crystal
+60,Lush Vegetation Patch,The Dravanian Forelands,(x10,y33),Coneflower, Periwinkle, Rainbow Pigment, Fire Crystal
+60,Lush Vegetation Patch,Coerthas Western Highlands,(x12,y14),Rue, Coriander, Ice Crystal, Whitefrost Cotton Boll
+60,Lush Vegetation Patch,The Churning Mists,(x20,y31),Dandelion, Earth Crystal
+60,Lush Vegetation Patch,The Sea of Clouds,(x23,y10),Sesame Seeds, Lightning Crystal
+60,Lush Vegetation Patch,The Dravanian Hinterlands,(x14,y19),Cow Bitter, Periwinkle, Dated Radz-at-Han Coin, Gaelicatnip, Wind Crystal
+60,Lush Vegetation Patch,The Fringes,(x16,y7),Bloodhemp, Gyr Abanian Wheat, Starcrack Sand, Cotter Dynasty Relic, Fire Crystal
+60,Lush Vegetation Patch,The Peaks,(x13,y7),Yellow Kudzu Root (Lvl 60*), Peaks Pigment (Lvl 60*), Lightning Crystal
+60,Lush Vegetation Patch,The Ruby Sea,(x37,y18),Shishu Koban, Water Crystal
+60,Lush Vegetation Patch,The Azim Steppe,(x10,y13),Dry Branch, Steppe Vine, Steppe Rattan Lumber, Azim Strawberry (Lvl 60 beast tribe quest), Lightning Crystal,Namazu Beast Tribe Required
+60,Lush Vegetation Patch,The Azim Steppe,(x24,y20),Grazing Grass, Lightning Crystal, Duskglow Cocoon (Lvl 60 beast tribe quest),Namazu Beast Tribe Required
+60,Lush Vegetation Patch,The Azim Steppe,(x20,14),Verdant Branch, Steppe Tea Leaves, Lightning Crystal,Namazu Beast Tribe Required
+60,Lush Vegetation Patch,The Azim Steppe,(x33,12),Steppe Safflowers, Fava Beans, Lightning Crystal, Steppe Radish,Namazu Beast Tribe Required
+60,Lush Vegetation Patch,The Azim Steppe,(x33,32),Lightning Crystal, Steppe Onion,Namazu Beast Tribe Required
+65,Mature Tree,The Fringes,(x10,y16),Beech Log, Loquat, Fire Crystal
+65,Lush Vegetation Patch,The Fringes,(x11,y26),Kudzu Root, Kudzu Vine, Holy Basil, Wild Popoto, Harpoon Head, Fire Crystal
+65,Lush Vegetation Patch,Coerthas Western Highlands,(x32,y15),Phial of Thermal Fluid, Ice Crystal
+65,Lush Vegetation Patch,The Peaks,(x13,y11),Buckwheat Kernels, Sugar Beet, Green Leek, Mountain Popoto, Pinch of Active Ingredients, Lightning Crystal
+65,Lush Vegetation Patch,The Ruby Sea,(x26,y19),Gem Algae, Ruby Cotton Boll, Ama Nori, Shisui Jewel, Water Crystal
+65,Lush Vegetation Patch,The Ruby Sea,(x7,y8),Soybeans, Cumin Seeds, Walker's Popoto (lvl 65 quest), Water Crystal
+65,Lush Vegetation Patch,The Churning Mists,(x8,y15),Cloudkin Feather
+65,Mature Tree,The Ruby Sea,(x20,y9),Shiitake Mushroom, Larch Log, Water Crystal, Sparkstone
+65,Mature Tree,Yanxia,(x36,y15),Pine Resin, Pine Log, Wind Crystal, Malleable Still Material
+70,Mature Tree,The Fringes,(x10,y30),Persimmon, Persimmon Leaf, Persimmon Log, Fire Crystal
+70,Lush Vegetation Patch,The Ruby Sea,(x11,y13),Ruby Tide Kelp, Water Crystal, Nanoriso (lvl 68 quest)
+70,Lush Vegetation Patch,The Azim Steppe,(x14,y26),Nipplewort, Earth Crystal, Sun Cabbage, Fennel, Chickweed, Strong Steppe Spice
+70,Lush Vegetation Patch,Yanxia,(x22,y10),Doman Eggplant, Wind Crystal, Yanxian Parsley, Nagxian Cudweed, Daikon Radish
+70,Lush Vegetation Patch,The Peaks,(x26,y27),Alyssum, Lightning Crystal, Gyr Abanian Carrot, Twincoon
+70,Mature Tree,The Lochs,(x26,y9),Zelkova Log, Ice Crystal, Hard Place Furnishing Materials
+70,Lush Vegetation Patch,Amh Araeng,(x31,y15),Night Pepper, Animal Trace (Facet of Gathering Delivery), Fire Crystal
+75,Mature Tree,Lakeland,(x36,y24),Frantoio, Earth Crystal
+75,Lush Vegetation Patch,Lakeland,(x16,y23),Bright Flax, Purple Carrot, Animal Droppings (Facet of Gathering Delivery), Earth Crystal
+75,Mature Tree,Kholusia,(x27,y22),White Oak Log, Ice Crystal
+75,Lush Vegetation Patch,Kholusia,(x16,y36),Upland Wheat, Ice Crystal
+75,Mature Tree,Il Mheg,(x30,y5),Pixie Apple, Miracle Apple Log, Water Crystal
+75,Lush Vegetation Patch,Il Mheg,(x11,y24),Blood Tomato, Garden Beet, Iridescent Cocoon, Curly Parsley, Ancient Animal Skin (Facet of Gathering Delivery), Megafauna Leftovers (Facet of Gathering Delivery), Water Crystal
+75,Mature Tree,The Rak'tika Greatwood,(x12,y20),Gianthive Chip, White Ash Log, Wind Crystal
+75,Lush Vegetation Patch,The Rak'tika Greatwood,(x16,y29),Royal Grapes, Pixie Floss Boll, Creamtop Mushroom, Wind Crystal
+80,Lush Vegetation Patch,Lakeland,(x23,y34),Light Gerbera, Lime Basil, Tiger Lily, Earth Crystal
+80,Mature Tree,Lakeland,(x8,y9),Harcot, Lignum Vitae Log, Earth Crystal
+80,Lush Vegetation Patch,Kholusia,(x12,y14),Black Aethersand, Bomba Rice, Coffee Beans, Dwarven Cotton Boll, Ice Crystal
+80,Mature Tree,Amh Araeng,(x15,y30),Amber Cloves, Sandteak Log, Fire Crystal
+80,Lush Vegetation Patch,The Rak'tika Greatwood,(x24,y28),Fernleaf Lavender, Megafauna Trace (Facet of Gathering Delivery), Sweet Alyssum, Wind Crystal
+85,Lush Vegetation Patch,Labyrinthos,(x29, y18),Dark Hemp, Dark Rye, Iceberg Lettuce, Wind Crystal
+85,Mature Tree,Labyrinthos,(x17, y6),Horse Chestnut Log, Wind Crystal
+85,Mature Tree,Thavnair,(x18, y21),Coconut, Palm Log, Palm Syrup, Fire Crystal
+85,Lush Vegetation Patch,Thavnair,(x21, y11),Hannish Staple (Level 80 Gathering Quest), Thavnairian Paprika, Thavnairian Perilla Leaf, Fire Crystal
+85,Lush Vegetation Patch,Garlemald,(x25, y24),Beet, Cucumber, Eblan Lentils, Snow Flax, Earth Crystal
+85,Mature Tree,Garlemald,(x16, y27),Garlean Staple (Level 83 Gathering Quest), Red Pine Log, Earth Crystal
+85,Lush Vegetation Patch,Mare Lamentorum,(x34, y28),Carrot of Happiness, Lunar Staple (Level 85 Gathering Quest), Ice Crystal
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes
+12:00 AM/PM,Rarefied Sykon,1,Elpis,(x25,y5),87,600 Min Collectability
+12:00 AM/PM,Rarefied Elder Nutmeg,3,Elpis,(x25,y5),90,600 Min Collectability
+12:00 AM/PM,Rarefied Coconut,2,Thavnair,(x14,y14),85,600 Min Collectability
+2:00 AM/PM,Rarefied Palm Log,6,Thavnair,(x14,y14),85,600 Min Collectability
+4:00 AM/PM,Rarefied Red Pine Log,6,Garlemald,(x35,y6),83,600 Min Collectability
+6:00 AM/PM,Rarefied Dark Rye,3,Labyrinthos,(x10,y22),89,600 Min Collectability
+6:00 AM/PM,Rarefied Iceberg Lettuce,6,Labyrinthos,(x10,y22),90,★1,600 Min Collectability
+8:00 AM/PM,Rarefied AR-Caean Cotton Boll,1,Ultima Thule,(x9,y33),90,★1,600 Min Collectability
+12:00 AM/PM,Broad Beans,2,Il Mheg,(x24,y36),72,Perception 1312
+12:00 AM/PM,Mist Spinach,6,The Rak'tika Greatwood,(x34,y21),78
+2:00 AM/PM,Rarefied Amber Cloves,3,Amh Araeng,(x19,y20),80,600 Min Collectability
+2:00 AM/PM,Rarefied Sandteak Log,6,Amh Araeng,(x19,y20),77,600 Min Collectability
+4:00 AM/PM,Rarefied Coral,3,The Tempest,(x37,y12),80,★1,600 Min Collectability
+4:00 AM/PM,Rarefied Kelp,4,The Tempest,(x37,y12),80,★1,600 Min Collectability
+6:00 AM/PM,Lemonette,2,Kholusia,(x20,y27),80
+8:00 AM/PM,Rarefied White Oak Log,6,Kholusia,(x28,y33),73,600 Min Collectability
+8:00 AM/PM,Russet Popoto,7,Amh Araeng,(x19,y16),76,Perception 1421
+10:00 AM/PM,Peppermint,6,Lakeland,(x26,y20),74,Perception 1080
+10:00 AM/PM,Rarefied Pixie Apple,2,Il Mheg,(x4,y23),71,600 Min Collectability
+10:00 AM/PM,Rarefied Miracle Apple Log,6,Il Mheg,(x4,y23),75,600 Min Collectability
+12:00 AM/PM,Rarefied Urunday Log,6,The Peaks,(x31,y7),80,★1,600 Min Collectability
+12:00 AM/PM,Rarefied Pine Log,6,Yanxia,(x19,y14),69,600 Min Collectability
+12:00 AM/PM,Rarefied Pine Resin,4,Yanxia,(x19,y14),67,600 Min Collectability
+2:00 AM/PM,Othardian Plum,2,The Azim Steppe,(x23,y16),70,Perception 862
+2:00 AM/PM,Rarefied Larch Log,4,The Ruby Sea,(x6,y16),61,600 Min Collectability
+2:00 AM/PM,Rarefied Larch Sap,6,The Ruby Sea,(x6,y16),65,600 Min Collectability
+4:00 AM/PM,Rhalgr's Streak,1,The Lochs,(x8,y8),70,Edgyth's Winning Streak Perception 690
+4:00 AM/PM,Jhammel Ginger,3,The Lochs,(x8,y8),68,Perception 664
+4:00 AM/PM,Rarefied Shiitake Mushroom,7,The Ruby Sea,(x33,y9),63,600 Min Collectability
+6:00 AM/PM,Hallowed Basil,6,The Peaks,(x23,y16),70,★1,Perception 750
+8:00 AM/PM,Lotus Root,7,Yanxia,(x28,y7),66,Perception 638
+10:00 AM/PM,Bamboo Shoot,8,Yanxia,(x28,y25),63,Perception 624
+12:00 AM/PM,Rarefied Dark Chestnut,2,The Dravanian Forelands,(x16,y36),57,600 Min Collectability
+12:00 AM/PM,Rarefied Dark Chestnut Resin,4,The Dravanian Forelands,(x16,y36),59,600 Min Collectability
+12:00 AM/PM,Dravanian Mistletoe,3,The Churning Mists,(x24,y6),54,Perception 330
+12:00 AM/PM,Porcini,7,The Churning Mists,(x24,y6),51,Perception 69
+2:00 AM/PM,Old World Fig Seeds,1,The Dravanian Forelands,(x26,y12),50,★3
+2:00 AM/PM,Old World Fig,2,The Dravanian Forelands,(x26,y12),50,★3,Perception 220
+4:00 AM/PM,Cloud Banana,2,The Dravanian Hinterlands,(x19,y36),57,Perception 356
+4:00 AM/PM,Morel,7,The Dravanian Hinterlands,(x19,y36),59,Perception 384
+6:00 AM/PM,Heavens Lemon,2,The Sea of Clouds,(x35,y23),56,Perception 353
+6:00 AM/PM,Abalathian Mistletoe,3,The Sea of Clouds,(x35,y23),58,Perception 371
+8:00 AM/PM,Chysahl Greens,6,Coerthas Western Highlands,(x8,y9),60,Perception 408
+10:00 AM/PM,Chives,1,Coerthas Western Highlands,(x31,y20),55,Perception 351
+10:00 AM/PM,Pearl Sprout Seeds,2,Coerthas Western Highlands,(x31,y20),52
+10:00 AM/PM,Coerthan Tea Seeds,3,Coerthas Western Highlands,(x31,y20),53
+10:00 AM/PM,Pearl Sprouts,6,Coerthas Western Highlands,(x31,y20),52,Perception 273
+10:00 AM/PM,Coerthan Tea Leaves,7,Coerthas Western Highlands,(x31,y20),53,Perception 321
+10:00 AM/PM,Rarefied Dark Chestnut Branch,3,The Dravanian Forelands,(x29,y30),55,600 Min Collectability
+10:00 AM/PM,Rarefied Dark Chestnut Log,6,The Dravanian Forelands,(x29,y30),53,600 Min Collectability
+10:00 AM/PM,Rarefied Dark Chestnut Sap,4,The Dravanian Forelands,(x29,y30),51,600 Min Collectability
+1:00 AM,Silkworm Cocoon,4,East Shroud,(x22,y26),★
+1:00 AM,Lightning Cluster,2,Mor Dhona,(x32,y11),Unaspected Crystal Slot 1
+1:00 AM,Fire Cluster,3,Mor Dhona,(x32,y11)
+1:00 AM,Wind Cluster,4,Mor Dhona,(x32,y11)
+1:00 AM,Water Cluster,5,Mor Dhona,(x32,y11)
+1:00 AM,Ice Cluster,6,Mor Dhona,(x32,y11)
+1:00 AM,Earth Cluster,7,Mor Dhona,(x32,y11),Dark Matter Cluster Slot 8
+2:00 AM,Fragrant Log,6,South Shroud,(x18,y23),★
+2:00 AM,Shroud Tea Leaves,6,Central Shroud,(x16,y20),Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5,★★
+3:00 AM,Scarlet Sap,4,North Shroud,(x18,y26),★★
+4:00 AM,Ebony Log,6,Middle La Noscea,(x23.2,y26.3),★★★
+5:00 AM,Trillium,1,East Shroud,(x17,y19),★
+5:00 AM,Honey Lemon,2,Eastern La Noscea,(x26,y32),★
+5:00 AM,Honey Lemon Seeds,1,Eastern La Noscea,(x26,y32),★
+5:00 AM,Lightning Cluster,2,Mor Dhona,(x32,y11),Unaspected Crystal Slot 1
+5:00 AM,Fire Cluster,3,Mor Dhona,(x32,y11)
+5:00 AM,Wind Cluster,4,Mor Dhona,(x32,y11)
+5:00 AM,Water Cluster,5,Mor Dhona,(x32,y11)
+5:00 AM,Ice Cluster,6,Mor Dhona,(x32,y11)
+5:00 AM,Earth Cluster,7,Mor Dhona,(x32,y11),Dark Matter Cluster Slot 8
+6:00 AM,Young Cieldalaes Spinach,6,Lower La Noscea,(x32,y11),Mazlaya Greens Slot 1,★★
+6:00 AM,Redolent Log,6,Central Shroud,(x30,y19),★★
+7:00 AM,Blood Orange,2,Upper La Noscea,(x28,y25),★★
+7:00 AM,Bamboo Stick,6,Upper La Noscea,(x28,y25),★★
+8:00 AM,La Noscean Leek,6,Western La Noscea,(x34,y28),★★
+8:00 AM,Mazlaya Greens,2,Western La Noscea,(x34,y28),★
+8:00 AM,Waterfowl Feather (Rare),1,5,Western La Noscea,(x34,y28),★★
+9:00 AM,Apricot,2,Middle La Noscea,(x19,y16),★★
+9:00 AM,Spruce Log,6,Coerthas Central Highlands,(x27,y12),★
+9:00 AM,Prickly Pineapple Seeds,1,Eastern La Noscea,(x30,y26),★
+9:00 AM,Prickly Pineapple,4,Eastern La Noscea,(x30,y26),★
+9:00 AM,Lightning Cluster,2,Mor Dhona,(x32,y11),Unaspected Crystal Slot 1
+9:00 AM,Fire Cluster,3,Mor Dhona,(x32,y11)
+9:00 AM,Wind Cluster,4,Mor Dhona,(x32,y11)
+9:00 AM,Water Cluster,5,Mor Dhona,(x32,y11)
+9:00 AM,Ice Cluster,6,Mor Dhona,(x32,y11)
+9:00 AM,Earth Cluster,7,Mor Dhona,(x32,y11),Dark Matter Cluster Slot 8
+10:00 AM,Cypress Log,6,Central Shroud,(x25,y29),★★★
+1:00 PM,Vampire Plant,8,Coerthas Central Highlands,(x27,y24),Dark Matter Cluster Slot 5,★
+1:00 PM,Black Truffle,7,Eastern Thanalan,(x12,y16),★
+1:00 PM,Mazlaya Greens (Rare),2,Eastern Thanalan,(x12,y16),★
+1:00 PM,Dzemael Tomato,3,Eastern La Noscea,(x18,y26),★
+1:00 PM,Dzemael Tomato Seeds (Rare),1,Eastern La Noscea,(x18,y26),★
+5:00 PM,Thavnairian Mistletoe,2,Coerthas Central Highlands,(x8,y13),Dark Matter Cluster, Unaspected Crystal,★
+5:00 PM,Rosemary,1,East Shroud,(x22,y30),★★★ (450)
+9:00 PM,Kidragora,7,East Shroud,(x13,y23),★
+9:00 PM,Trillium Bulb,8,East Shroud,(x13,y23),★
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes
+5,Mineral Deposit,Central Thanalan,(x18,y25),Muddy Water, Copper Ore, Wind Shard, Lightning Shard
+5,Mineral Deposit,Central Thanalan,(x24,y26),Bone Chip, Wind Shard, Lightning Shard
+5,Mineral Deposit,Western Thanalan,(x26,y25),Muddy Water, Copper Ore, Fire Shard, Water Shard
+10,Mineral Deposit,Central Thanalan,(x20,y22),Tin Ore, Zinc Ore, Soiled Femur, Lightning Shard
+10,Mineral Deposit,Western Thanalan,(x22,y28),Tin Ore, Zinc Ore, Soiled Femur, Obsidian, Water Shard
+10,Mineral Deposit,Lower La Noscea,(x27,y18),Raw Sunstone, Earth Shard
+10,Mineral Deposit,North Shroud,(x28,y25),Raw Lapis Lazuli, Earth Shard, Potter's Clay
+15,Rocky Outcrop,Central Thanalan,(x14,y23),Rock Salt, Ragstone, Fine Sand, Lightning Shard
+15,Rocky Outcrop,Western Thanalan,(x24,y18),Iron Sand, Cinnabar, Copper Sand, Water Shard
+15,Mineral Deposit,Western Thanalan,(x27,y17),Iron Ore, Water Shard
+20,Mineral Deposit,North Shroud,(x29,y22),Raw Sphene, Earth Shard
+20,Mineral Deposit,Eastern Thanalan,(x17,y20),Alumen, Raw Malachite, Raw Fluorite, Fire Shard
+20,Mineral Deposit,Western La Noscea,(x29,y22),Sunrise Tellin, Raw Danburite, Ice Shard
+20,Rocky Outcrop,Middle La Noscea,(x15,y10),Grade 1 Carbonized Matter, Fire Shard
+20,Rocky Outcrop,Western La Noscea,(x26,y24),Mudstone, Ice Shard, Limestone
+25,Rocky Outcrop,Upper La Noscea,(x12,y23),Fire Rock, Water Rock, Lightning Rock, Earth Shard
+25,Rocky Outcrop,South Shroud,(x23,y21),Silver Sand, Earth Rock, Ice Rock, Wind Rock, Ice Shard
+25,Mineral Deposit,South Shroud,(x15,y19),Effervescent Water, Silver Ore, Ice Shard
+30,Rocky Outcrop,Eastern Thanalan,(x23,y19),Grade 2 Carbonized Matter (removed), Red Pigment, Fire Shard, Fire Crystal, Grade 1 Thanalan Topsoil (Rare),(removed)
+30,Rocky Outcrop,Western Thanalan,(x23,y23),Grade 2 Carbonized Matter (removed), Blue Pigment, Water Shard, Water Crystal,(removed)
+30,Rocky Outcrop,Western La Noscea,(x31,y28),Grade 2 Carbonized Matter (removed), Grey Pigment, Ice Shard, Ice Crystal,(removed)
+30,Rocky Outcrop,Lower La Noscea,(x26,y15),Grade 2 Carbonized Matter (removed), Yellow Pigment, Brown Pigment, Earth Shard, Earth Crystal, Grade 1 La Noscean Topsoil (Rare),(removed)
+30,Rocky Outcrop,East Shroud,(x20,y27),Grade 2 Carbonized Matter (removed), Green Pigment, Wind Shard, Wind Crystal, Grade 1 Shroud Topsoil (Rare),(removed)
+30,Rocky Outcrop,Southern Thanalan,(x18,y11),Grade 2 Carbonized Matter (removed), Purple Pigment, Lightning Shard, Lightning Crystal,(removed)
+30,Mineral Deposit,Eastern Thanalan,(x26,y17),Wyvern Obsidian, Saltpeter, Fire Shard
+30,Rocky Outcrop,Southern Thanalan,(x22,y29),Bomb Ash, Silex, Lightning Shard
+30,Rocky Outcrop,Upper La Noscea,(x12,y26),Siltstone, Brimstone
+35,Mineral Deposit,Eastern La Noscea,(x28,y27),Raw Garnet, Raw Aquamarine, Raw Goshenite, Water Shard
+35,Mineral Deposit,Central Shroud,(x14,y21),Raw Peridot, Raw Amethyst, Granite, Wind Shard
+35,Rocky Outcrop,Southern Thanalan,(x17,y18),Mythril Sand, Lightning Shard
+35,Mineral Deposit,Southern Thanalan,(x25,y41),Raw Heliodor, Mythril Ore, Lightning Shard, Little Worm (Hidden)
+40,Mineral Deposit,Coerthas Central Highlands,(x24,y19),Jade, Raw Zircon, Ice Shard
+40,Mineral Deposit,South Shroud,(x28,y22),Black Alumen, Raw Tourmaline, Raw Spinel, Ice Shard
+40,Rocky Outcrop,Northern Thanalan,(x21,y28),Grenade Ash, Wind Shard
+45,Mineral Deposit,Upper La Noscea,(x30,y25),Electrum Ore, Raw Turquoise, Earth Shard
+45,Rocky Outcrop,Upper La Noscea,(x28,y22),Electrum Sand, Marble, Earth Shard
+45,Mineral Deposit,Eastern Thanalan,(x12,y19),Raw Amber, Raw Rubellite, Fire Shard
+50,Mineral Deposit,Northern Thanalan,(x22,y24),Cobalt Ore, Adamantoise Shell, Basilisk Egg, Ogre Horn, Wind Shard
+50,Rocky Outcrop,Lower La Noscea,(x22,y34),Earth Shard, Earth Crystal, Grade 2 La Noscean Topsoil (Rare)
+50,Rocky Outcrop,Western Thanalan,(x18,y28),Water Shard, Grade 2 Thanalan Topsoil (Rare)
+50,Rocky Outcrop,East Shroud,(x18,y24),Wind Shard, Wind Crystal, Grade 2 Shroud Topsoil (Rare)
+50,Rocky Outcrop,Western La Noscea,(x34,y28),Ice Shard, Ice Crystal, Black Limestone (Hidden)
+50,Mineral Deposit,Coerthas Western Highlands,(x28,y27),Dragon Obsidian, Ice Crystal
+55,Mineral Deposit,Coerthas Western Highlands,(x31,y12),Ice Crystal, Raw Larimar, Raw Mormorion, Mythrite Ore (Hidden),Grade 5 Carbonized Matter (Bonus Yield)
+55,Rocky Outcrop,Coerthas Western Highlands,(x16,y12),Mythrite Sand, Ice Crystal
+55,Mineral Deposit,Coerthas Western Highlands,(x22,y35),Phial of Thermal Fluid, Ice Crystal
+55,Mineral Deposit,The Dravanian Forelands,(x30,y16),Raw Star Sapphire, Raw Star Ruby, Titanium Ore (Hidden)
+55,Mineral Deposit,The Dravanian Forelands,(x27,y31),Dravanian Spring Water, Raw Tiger's Eye, Raw Agate
+60,Rocky Outcrop,The Churning Mists,(x29,y18),Hardsilver Sand, Cloud Mica, Earth Crystal, Tektite, Fossilized Dragon Bone, Lumythrite Sand, Duskfall Moss
+60,Rocky Outcrop,The Azim Steppe,(x20, y14),Steppe Rock Salt, Flat Stone, Steppe Clay, Skystone (Namazu quest), Lightning Crystal,Namazu Beast Tribe Required
+60,Rocky Outcrop,The Azim Steppe,(x25, y20),Pure White Silex, Steppe Copper Ore, Steppe Whetstone, Steppe Obsidian, Lightning Crystal, Steppe Geode,Namazu Beast Tribe Required
+60,Rocky Outcrop,The Azim Steppe,(x33, y32),Steppe Cinnabar, Steppe Soapstone, Steppe Mudstone Whetstone, Mondite (Namazu quest), Lightning Crystal,Namazu Beast Tribe Required
+60,Rocky Outcrop,The Azim Steppe,(x11, y13),Steppe Geode, Pure White Silex, Steppe Copper Ore, Steppe Coal, Lightning Crystal,Namazu Beast Tribe Required
+60,Rocky Outcrop,The Azim Steppe,(x35, y11),Steppe Mica, Steppe Spring Water, Lightning Crystal,Namazu Beast Tribe Required
+60,Mineral Deposit,The Dravanian Hinterlands,(x27,y24),Hardsilver Ore (Hidden), Raw Chrysolite, Wyrm Obsidian, Wind Crystal
+60,Mineral Deposit,The Sea of Clouds,(x33,y31),Abalathian Spring Water, Aurum Regis Sand, Lightning Crystal, Water Crystal
+60,Mineral Deposit,Coerthas Western Highlands,(x23,y30),Ice Stalagmite, Eventide Jade, Raw Citrine, Ice Crystal
+60,Mineral Deposit,The Dravanian Forelands,(x20,y26),Beastkin Horn, Fire Crystal, Eventide Jade, Raw Carnelian, Raw Opal, Rainbow Pigment, Grade 5 Carbonized Matter (Hidden)
+60,Mineral Deposit,The Fringes,(x15,y12),Gyr Abanian Alumen, Starcrack Sand, Cotter Dynasty Relic, Wind Crystal
+60,Mineral Deposit,The Ruby Sea,(x17,y33),Shishu Koban, Water Crystal
+60,Mineral Deposit,The Peaks,(x35,y10),Yellow Kudzu Root, Peaks Pigment, Earth Crystal
+65,Rocky Outcrop,The Churning Mists,(x34,25),Cloudkin Feather, Earth Crystal
+65,Rocky Outcrop,The Peaks,(x21,y13),Koppranickel Sand, Stiperstone, Slate, Pinch of Active Ingredients, Earth Crystal
+65,Rocky Outcrop,Ruby Sea,(x14,y16),Diatomite, Water Crystal, Shisui Jewel
+65,Mineral Deposit,Ruby Sea,(x25,y35),Koppranickel Ore, Feather Iron Ore (lvl 65 quest), Water Crystal, Sparkstone
+65,Mineral Deposit,The Fringes,(x23,y13),Gyr Abanian Mineral Water, Raw Kyanite, Harpoon Head, Wind Crystal
+65,Mineral Deposit,Yanxia,(x33,y22),Doman Iron Ore, Crescent Spring Water, Fire Crystal, Malleable Still Material
+70,Mineral Deposit,Yanxia,(x36,y19),Durium Ore, Serpentine (lvl 68 quest), Fire Crystal
+70,Mineral Deposit,The Azim Steppe,(x29,y15),Durium Sand, Doman Iron Sand, Palladium Sand, Strong Steppe Spice , Lightning Crystal
+70,Mineral Deposit,The Lochs,(x10,y18),Molybdenum Ore, Ice Crystal, Hard Place Furnishing Materials
+70,Rocky Outcrop,Amh Araeng,(x30,y25),Yellow Alumen, Coarse Saltpeter, Animal Trace, Wind Crystal
+75,Mineral Deposit,Il Mheg,(x8,y20),Highland Spring Water, Megafauna Leftovers, Water Crystal, Truegold Ore, Level 75 Miner Quest
+75,Mineral Deposit,Lakeland,(26,y34),Lightning Crystal, Bluespirit Ore, Animal Droppings
+75,Rocky Outcrop,Kholusia,(x21,y30),Truegold Sand, Hard Mudstone, Fire Crystal
+75,Rocky Outcrop,The Rak'tika Greatwood,(x17,y19),Manasilver Sand, Water Crystal
+80,Mineral Deposit,Lakeland,(x35,y16),Underground Spring Water, Lightning Crystal, Titancopper Ore, Dimythrite Ore
+80,Mineral Deposit,The Rak'tika Greatwood,(x23,y28),Extra Effervescent Water, Megafauna Trace, Water Crystal
+80,Rocky Outcrop,Kholusia,(x22,y16),Volcanic Tuff, Fire Crystal, Black Aethersand (Level 80 Miner Quest)
+80,Rocky Outcrop,Amh Araeng,(x15,y12),Titancopper Sand, Dimythrite Sand, Wind Crystal
+85,Rocky Outcrop,Labyrinthos,(x23, y10),Chloroschist, Eternity Ring Material (Level 90 Gathering Quest), High Durium Sand, Water Crystal
+85,Mineral Deposit,Labyrinthos,(x30, y9),Raw Ametrine, Sharlayan Rock Salt, Water Crystal
+85,Rocky Outcrop,Thavnair,(x11, y14),Hannish Staple (Level 80 Gathering Quest), Pewter Ore, Ice Crystal
+85,Mineral Deposit,Thavnair,(x18, y28),High Durium Ore, Ice Crystal
+85,Rocky Outcrop,Garlemald,(x20, y27),Eblan Alumen, Garlean Staple (Level 83 Gathering Quest), Phrygian Ore, Lightning Crystal
+85,Mineral Deposit,Mare Lamentorum,(x29, y35),Bismuth Ore, Lunar Staple (Level 85 Gathering Quest), Earth Crystal
+90,Mineral Deposit,Elpis,(x27, y11),Elpis Staple (Level 88 Gathering Quest), Manganese Ore , Fire Crystal
+90,Rocky Outcrop,Elpis,(x14, y19),Ambrosial Water, Annite, Raw Blue Zircon, Fire Crystal
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes
+12:00AM/PM,Rarefied Sharlayan Rock Salt,1,Labyrinthos,(x32,y21),81,600 Min. Collectability
+12:00AM/PM,Rarefied Raw Ametrine,8,Labyrinthos,(x32,y21),81,600 Min. Collectability
+2:00AM/PM,Rarefied Eblan Alumen,3,Garlemald,(x12,y21),84,600 Min. Collectability
+2:00AM/PM,Rarefied Phrygian Gold Ore,2,Garlemald,(x12,y21),83,600 Min. Collectability
+4:00AM/PM,Rarefied Pewter Ore,6,Thavnair,(x32,y25),90,★1,600 Min. Collectability
+6:00AM/PM,Rarefied Bismuth Ore,6,Mare Lamentorum,(x16,y32),83,600 Min. Collectability
+10:00AM/PM,Rarefied Annite,2,Elpis,(x8,y36),90,★1,600 Min. Collectability
+10:00AM/PM,Rarefied Blue Zircon,7,Elpis,(x8,y36),89,600 Min. Collectability
+12:00AM/PM,Raw Triplite,7,Amh Araeng,(x20,y29),76,Perception 1421
+12:00AM/PM,Raw Onyx,7,The Tempest,(x16,y21),80,Perception 1562
+2:00AM/PM,Rarefied Reef Rock,7,The Tempest,(x33,y21),79,600 Min. Collectability
+2:00AM/PM,Rarefied Tungsten Ore,7,The Tempest,(x33,y21),80,★1,600 Min. Collectability
+2:00AM/PM,Raw Hematite,8,Kholusia,(x33,y23),70,★2,Perception 1350
+4:00AM/PM,Raw Lazurite,7,The Rak'tika Greatwood,(x19,y21),74,Perception 1350
+4:00AM/PM,Rarefied Raw Petalite,8,Lakeland,(x36,y24),75,600 Min. Collectability
+4:00AM/PM,Rarefied Titancopper Ore,6,Lakeland,(x36,y24),71,600 Min. Collectability
+6:00AM/PM,Rarefied Raw Lazurite,7,The Rak'tika Greatwood,(x16,y18),73,600 Min. Collectability
+6:00AM/PM,Raw Diaspore,6,Il Mheg,(x26,y13),72,Perception 1312
+6:00AM/PM,Raw Petalite,8,Lakeland,(x29,y33),78,Perception 1491
+8:00AM/PM,Rarefied Raw Onyx,7,The Tempest,(x25,y4),80,600 Min. Collectability
+8:00AM/PM,Rarefied Sea Salt,7,The Tempest,(x25,y4),77,600 Min. Collectability
+12:00 AM/PM,Ala Mhigan Salt Crystal,1,The Lochs,(x21,y29),69,Perception 677
+12:00 AM/PM,Raw Star Spinel,8,The Ruby Sea,(x15,y5),63,Perception 780
+2:00 AM/PM,Raw Triphane,6,The Fringes,(x24,y8),60,Perception 552
+4:00 AM/PM,Raw Azurite,7,Azim Steppe,(x5,y29),66,Perception 796
+6:00 AM/PM,Raw Imperial Jade,6,Yanxia,(x29,y9),68,Perception 829
+6:00 AM/PM,Rarefied Raw Azurite,7,Azim Steppe,(x36,y26),67,600 Min. Collectability
+6:00 AM/PM,Rarefied Silvergrace Ore,6,Azim Steppe,(x36,y26),69,600 Min. Collectability
+8:00 AM/PM,Rarefied Raw Triphane,6,The Fringes,(x30,y13),61,600 Min. Collectability
+8:00 AM/PM,Rarefied Raw Kyanite,7,The Fringes,(x30,y13),65,600 Min. Collectability
+8:00 AM/PM,Pummelite,6,The Peaks,(x26,y12),70,A Miner Success Perception 846
+8:00 AM/PM,Raw Rhodonite,7,The Peaks,(x26,y12),70,Perception 846
+10:00 AM/PM,Rarefied Raw Star Spinel,8,The Ruby Sea,(x21,y34),63,600 Min. Collectability
+10:00 AM/PM,Rarefied Gyr Abanian Alumen,2,The Fringes,(x32,y31),80,★1,600 Min. Collectability
+12:00 AM/PM,Adamantite Ore,6,Azys Lla,(x24,y6),60,Perception 408
+2:00 AM/PM,Rarefied Abalathian Spring Water,1,The Sea of Clouds,(x21,y12),57,600 Min. Collectability
+2:00 AM/PM,Rarefied Aurum Regis Sand,2,The Sea of Clouds,(x21,y12),59,600 Min. Collectability
+4:00 AM/PM,Rarefied Chalcocite,2,The Dravanian Forelands,(x31,y32),53,600 Min. Collectability
+4:00 AM/PM,Rarefied Pyrite,3,The Dravanian Forelands,(x31,y32),51,600 Min. Collectability
+4:00 AM/PM,Rarefied Limonite,4,The Dravanian Forelands,(x31,y32),55,600 Min. Collectability
+10:00 AM/PM,Abalathian Rock Salt,1,The Sea of Clouds,(x8,y8),56,Perception 353
+10:00 AM/PM,Red Quartz,6,The Sea of Clouds,(x8,y8),58,Perception 371
+1:00 AM,Darksteel Ore,3,Coerthas Central Highlands,(x27,y19),Gregarious Worm Slot 1,★
+1:00 AM,Pumice,1,Eastern La Noscea,(x17,y26),Slot 1,★★★
+2:00 AM,Antumbral Rock,7,Eastern Thanalan,(x26,y19),★★
+3:00 AM,Ferberite,6,Northern Thanalan,(x16,y19),★★
+3:00 AM,Raw Topaz,7,Northern Thanalan,(x16,y19),★★
+3:00 AM,Raw Iolite,8,Northern Thanalan,(x16,y19),★★
+4:00 AM,Native Gold,6,Central Thanalan,(x24,y16),Gregarious Worm Slot 1,★★
+4:00 AM,Raw Diamond,8,Central Thanalan,(x24,y16),★★
+4:00 AM,Raw Emerald,7,Central Thanalan,(x24,y16),★★
+4:00 AM,Platinum Ore,6,Southern Thanalan,(x19,y8),Gregarious Worm Slot 1,★★★
+5:00 AM,Water Cluster,5,Western Thanalan,(x18,y27),Grade 3 Thanalan Topsoil Slot 8,★
+5:00 AM,Gold Sand,2,Eastern Thanalan,(x25,y22),Dark Matter Cluster Slot 4,★
+6:00 AM,Umbral Rock,7,South Shroud,(x16,y31),Grade 3 Shroud Topsoil Slot 8,★
+9:00 AM,Gold Ore,6,Eastern Thanalan,(x28,y22),Gregarious Worm Slot 1,★
+9:00 AM,Coblyn Larva,7,Eastern Thanalan,(x28,y22),★
+1:00 PM,Lightning Cluster,2,Mor Dhona,(x28,y12),Unaspected Crystal Slot 1
+1:00 PM,Fire Cluster,3,Mor Dhona,(x28,y12)
+1:00 PM,Wind Cluster,4,Mor Dhona,(x28,y12)
+1:00 PM,Water Cluster,5,Mor Dhona,(x28,y12)
+1:00 PM,Ice Cluster,6,Mor Dhona,(x28,y12)
+1:00 PM,Earth Cluster,7,Mor Dhona,(x28,y12),Dark Matter Cluster Slot 8
+5:00 PM,Volcanic Rock Salt,1,Eastern La Noscea,(x21,y32),★
+5:00 PM,Lightning Cluster,2,Mor Dhona,(x27,y10),Unaspected Crystal Slot 1
+5:00 PM,Fire Cluster,3,Mor Dhona,(x27,y10)
+5:00 PM,Wind Cluster,4,Mor Dhona,(x27,y10)
+5:00 PM,Water Cluster,5,Mor Dhona,(x27,y10)
+5:00 PM,Ice Cluster,6,Mor Dhona,(x27,y10)
+5:00 PM,Earth Cluster,7,Mor Dhona,(x27,y10),Dark Matter Cluster Slot 8
+5:00 PM,Virgin Basilisk Egg,6,Northern Thanalan,(x24,y26),Gregarious Worm Slot 1,★★★ (450)
+6:00 PM,Raw Ruby,7,Lower La Noscea,(x23,y21),Gregarious Worm Slot 1,★★
+6:00 PM,Raw Sapphire,8,Lower La Noscea,(x23,y21),★★
+7:00 PM,Fire Cluster,3,Middle La Noscea,(x25,y27),Grade 3 La Noscean Topsoil slot 8,★
+9:00 PM,Astral Rock,7,Coerthas Central Highlands,(x23,y23),Dark Matter Cluster Slot 1,★
+9:00 PM,Lightning Cluster,2,Mor Dhona,(x27,y10),Unaspected Crystal Slot 1
+9:00 PM,Fire Cluster,3,Mor Dhona,(x27,y10)
+9:00 PM,Wind Cluster,4,Mor Dhona,(x27,y10)
+9:00 PM,Water Cluster,5,Mor Dhona,(x27,y10)
+9:00 PM,Ice Cluster,6,Mor Dhona,(x27,y10)
+9:00 PM,Earth Cluster,7,Mor Dhona,(x27,y10),Dark Matter Cluster Slot 8
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes
+Coerthan,6AM/PM,Frost Cotton Boll,4,Coerthas Western Highlands,(x36.7,y13.0,z1.3),Eikon Cloth
+Coerthan,6AM/PM,Dravanian Paprika,3,Coerthas Western Highlands,(x27,y33),Seafood Stew, Loaghtan Steak, Pasta Ortolano, Shakshouka, Shakshouka Pot
+Coerthan,6AM/PM,Vanilla Beans,3,Coerthas Western Highlands,(x23,y21),Creme Brulee, Spiced Cider, Apple Strudel
+Dravanian,8AM/PM,Old-growth Camphorwood Log,6,The Churning Mists,(x11.6,y10.6,z3.3),Treated Camphorwood Lumber
+Dravanian,8AM/PM,Crystallized Sap,4,The Churning Mists,(x11.6,y10.6,z3.3),Luminous Fiber
+Dravanian,10AM/PM,Brown Mushroom,7,The Churning Mists,(x12,y37),Wildwood Scrambled Eggs, Priestly Omelette
+Dravanian,4AM/PM,Seventh Heaven,1,The Churning Mists,(x16,y36),Astral Oil
+Dravanian,6AM/PM,Noble Sage,1,The Dravanian Forelands,(x33,y30),Supramax-Potion of Strength, Supramax-Potion of Dexterity, Supramax-Potion of Vitality, Supramax-Potion of Intelligence, Supramax-Potion of Mind
+Dravanian,10AM/PM,Snurbleberry,2,The Dravanian Hinterlands,(x39,y26),Snurbleberry Tart and Nameday Cake
+Dravanian,12AM/PM,Teak Log,6,The Dravanian Hinterlands,(x6,y28),Teak Lumber
+Abalathian,12AM/PM,Honeydew Almonds,2,The Sea of Clouds,(x24,y6),Almond Cream Croissant
+Abalathian,2AM/PM,Wattle Bark,5,Azys Lla,(x22,y8),Griffin Leather, Eikon Leather, Hemicyon Leather
+Abalathian,4AM/PM,Star Cotton Boll,4,Azys Lla,(x9,y31),Star Velvet
+Gyr Abanian,6AM/PM,Torreya Log,6,The Lochs,(x11,y13),Torreya Lumber
+Gyr Abanian,4AM/PM,Black Willow Log,6,The Fringes,(x15,y21),Black Willow Lumber
+Gyr Abanian,4AM/PM,Hardened Veteran Tree Sap,4,The Fringes,(x15,y21),Veteran Tree Sap
+Gyr Abanian,4AM/PM,Urunday Log,6,The Peaks,(x32,y10),Urunday Lumber
+Gyr Abanian,2AM/PM,Hingan Flax,4,The Peaks,(x24,y36),True Linen
+Othardian,12AM/PM,Rhea,4,The Azim Steppe,(x20,y8),Rhea Cloth
+Othardian,12AM/PM,Azim Cotton Boll,5,The Azim Steppe,(x20,y8),Ala Mhigan Burdet
+Othardian,2AM/PM,Yanxian Cotton Boll,4,Yanxia,(x28,y35),Stardust Cotton Cloth
+Vrandtic,2AM/PM,Sandalwood Log,6,The Rak'tika Greatwood,(x24,y36),Sandalwood Lumber
+Vrandtic,2AM/PM,Sandalwood Sap,4,The Rak'tika Greatwood,(x24,y36),Pliable Glass Fiber
+Vrandtic,8AM/PM,Merbau Log,6,Il Mheg,(x36,y27),Merbau Lumber
+Vrandtic,6AM/PM,Silver Beech Log,6,Amh Araeng,(x16,y10),Silver Beech Lumber
+Vrandtic,12AM/PM,Wattle Petribark,5,Lakeland,(x16,y10),Thylacoleo Leather
+Vrandtic,8AM/PM,Ethereal Cocoon,4,Lakeland,(x26,y10),Ethereal Silk
+Vrandtic,4AM/PM,Duskblooms,4,Amh Araeng,(x32,y33),Duskcourt Cloth
+Vrandtic,12AM/PM,Imperial Fern,4,Kholusia,(x28,y21),Grade 3 Strength Alkahest, Grade 3 Dexterity Alkahest, Grade 3 Vitality Alkahest, Grade 3 Intelligence Alkahest, Grade 3 Mind Alkahest
+Vrandtic,12AM/PM,Tender Dill,5,Kholusia,(x28,y21),Defthand's Dissolvent
+Vrandtic,10AM/PM,Raindrop Cotton Boll,4,The Rak'tika Greatwood,(x33,y13),Saffron Cloth
+Ancient Ilsabardian Celestial,6AM/PM 8AM/PM 10AM/PM,Potent Spice,1,Elpis Thavnair Ultima Thule,(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1),Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai
+Ancient,6AM/PM,Mempisang Log,6,Elpis,(x33.1,y14.7),Mempisang Lumber
+Ilsabardian,8AM/PM,Golden Cocoon,4,Thavnair,(x25.4,y21.8),Golden Silk
+Celestial,10AM/PM,Double-edged Herb,2,Ultima Thule,(x28.0,y13.1),Grade 6 Strength Alkahest, Grade 6 Dexterity Alkahest, Grade 6 Vitality Alkahest, Grade 6 Intelligence Alkahest, Grade 6 Mind Alkahest
+Coerthan,12AM/PM,Astral Moraine,4,Coerthas Western Highlands,(x37,y16),Astral Oil, Shishi-odoshi, Tier 3 Aquarium, Tier 4 Aquarium
+Coerthan,12AM/PM,Violet Quartz,6,Coerthas Western Highlands,(x11,y23),Aurum Regis Ingot
+Coerthan,2AM/PM,Tungstite,4,Coerthas Western Highlands,(x10,y9),Heavy Metal Ingot
+Dravanian,2AM/PM,Lumythrite Ore,2,The Churning Mists,(x6.2,y20.3,z3.4),High Mythrite Ingot
+Dravanian,2AM/PM,Aurum Regis Ore,6,The Churning Mists,(x11,y38),Aurum Regis Ingot
+Dravanian,6AM/PM,Blue Quartz,7,The Dravanian Hinterlands,(x11,y16),Adamantite Ingot
+Dravanian,8AM/PM,Zeolite Ore,4,The Dravanian Hinterlands,(x13,y31),Grade 3 Strength Dissolvent, Grade 3 Dexterity Dissolvent, Grade 3 Vitality Dissolvent, Grade 3 Intelligence Dissolvent, Grade 3 Mind Dissolvent
+Abalathian,4AM/PM,Sun Mica,2,The Sea of Clouds,(x35,y39),Adamantite Ingot, Boltmaster's Needle, Wrapped Adamantite Culinary Knife, Balanced Adamantite Scythe, Sun Mica Grinding Wheel
+Abalathian,10AM/PM,Red Alumen,2,Azys Lla,(x35,y16),Griffin Leather
+Abalathian,8AM/PM,Smithsonite Ore,2,The Sea of Clouds,(x38.1,y14.8,z2.2),Eikon Iron Ingot
+Abalathian,8AM/PM,Meteorite,3,The Sea of Clouds,(x38.1,y14.8,z2.2),Luminous Fiber
+Abalathian,6AM/PM,Luminium Ore,6,Azys Lla,(x5,y17),Scintillant Ingot
+Gyr Abanian,10AM/PM,Chromite Ore,6,The Peaks,(x23,y36),Chromite Ingot, True Griffin Leather
+Gyr Abanian,10AM/PM,Gyr Abanian Spring Water,1,The Peaks,(x16.0,y33.9),Ala Mhigan Burdet, Grade 3 Reisui of Strength, Grade 3 Reisui of Dexterity, Grade 3 Reisui of Vitality, Grade 3 Reisui of Intelligence, Grade 3 Reisui of Mind, Grade 2 Infusion of Strength, Grade 2 Infusion of Dexterity, Grade 2 Infusion of Vitality, Grade 2 Infusion of Intelligence, Grade 2 Infusion of Mind
+Gyr Abanian,12AM/PM,Gyr Abanian Ore,3,The Fringes,(x31,y27),Chigusa Ingot
+Gyr Abanian,10AM/PM,Evergleam Ore,6,The Lochs,(x22,y13),Evergleam Ingot
+Othardian,4AM/PM,Palladium Ore,6,Yanxia,(x20.5,y10.4)),Palladium Ingot
+Othardian,6AM/PM,Nightsteel Ore,3,The Ruby Sea,( x11,y23),Nightsteel Ingot
+Othardian,8AM/PM,Silvergrace Ore,6,The Azim Steppe,(x23,y36),Silvergrace Ingot
+Othardian,6AM/PM,Hawk's Eye,7,The Ruby Sea,(x23,y36),Hawk's Eye Sand
+Othardian,8AM/PM,Azim Spring Water,1,The Azim Steppe,(x23,y36),Grade 4 Reisui of Strength, Grade 4 Reisui of Dexterity, Grade 4 Reisui of Vitality, Grade 4 Reisui of Intelligence, Grade 4 Reisui of Mind, Grade 3 Infusion of Strength, Grade 3 Infusion of Dexterity, Grade 3 Infusion of Vitality, Grade 3 Infusion of Intelligence, Grade 3 Infusion of Mind
+Vrandtic,10AM/PM,Tungsten Ore,3,The Tempest,(x32,y7),Tungsten Steel Ingot
+Vrandtic,4AM/PM,Prismstone,7,Il Mheg,(x30,y21),Prismatic Ingot
+Vrandtic,4AM/PM,Beryllium Ore,5,Il Mheg,(x30,y21),Alumina Whetstone
+Vrandtic,2AM/PM,Fireheart Cobalt,6,Lakeland,(x5,y34),Cobalt Alloy Ingot
+Vrandtic,2AM/PM,Brashgold Ore,7,Lakeland,(x5,y34),Brashgold Plate
+Vrandtic,8AM/PM,Dolomite,6,The Rak'tika Greatwood,(x8,y30),Duraluminum Ingot
+Vrandtic,4AM/PM,Hard Water,1,Kholusia,(x35,y12),Grade 4 Strength Alkahest, Grade 4 Dexterity Alkahest, Grade 4 Vitality Alkahest, Grade 4 Intelligence Alkahest, Grade 4 Mind Alkahest
+Vrandtic,6AM/PM,Purpure Shell Chip,1,The Tempest,(x33,y31),Purpure Bead
+Vrandtic,10AM/PM,Ashen Alumen,2,Amh Araeng,(x20,y8),Megalania Leather
+Vrandtic,2AM/PM,Solstice Stone,7,Il Mheg,(x35,y9),Solstice Ingot
+Ilsabardian Ancient Celestial,12AM/PM 4AM/PM 2AM/PM,Stonehard Water,2 1 1,Garlemald Elpis Mare Lamentorum,(x32.2,y34.8) (x13.5,y7.3) (x9.6,y23.1),Grade 6 Tincture of Strength, Grade 6 Tincture of Dexterity, Grade 6 Tincture of Vitality, Grade 6 Tincture of Intelligence, Grade 6 Tincture of Mind
+Ilsabardian,12AM/PM,Rime Dolomite,1,Garlemald,(x32.2,y34.8),Amynodon Leather
+Ancient,4AM/PM,Rhodium Sand,2,Elpis,(x13.5,y7.3),Rhodium Ingot
+Celestial,2AM/PM,Lunar Adamantite Ore,6,Mare Lamentorum,(x9.6,y23.1),Lunar Adamantite Ingot
+Coerthan,10AM-2PM,Bishopfish,Coerthas Western Highlands,(x36,y6)
+Coerthan,12AM-6AM,Capelin,Coerthas Western Highlands,(x36,y6),19 Min. Collectability
+Coerthan,5PM-3AM,Charibenet,Coerthas Western Highlands,(x36,y6)
+Coerthan,12AM-4AM,Coerthan Clione,Coerthas Western Highlands,(x28,y18)
+Coerthan,ANY,Coerthan Oyster,Coerthas Western Highlands,(x13,y8)
+Coerthan,ANY,La Reale,Coerthas Western Highlands,(x14,y15)
+Coerthan,ANY,Merciless,Coerthas Western Highlands,(x13,y8)
+Coerthan,ANY,Mountain Kraken,Coerthas Western Highlands,(x21,y11)
+Coerthan,ANY,Priestfish,Coerthas Western Highlands,(x36,y6)
+Coerthan,ANY,Spring Urchin,Coerthas Western Highlands,(x8,y10)
+Coerthan,ANY,The Impaler,Coerthas Western Highlands,(x8,y10)
+Dravanian,6AM-11AM,Amber Salamander,The Dravanian Forelands,(x31,y5),622 Min. Collectability
+Dravanian,1AM-4AM,Armor Fish,The Dravanian Hinterlands,(x22,y35)
+Dravanian,ANY,Armored Catfish,The Dravanian Hinterlands,(x22,y35)
+Dravanian,ANY,Berserker Betta,The Dravanian Hinterlands,(x20,y25)
+Dravanian,ANY,Bloodchaser,The Churning Mists,(x20,y6)
+Dravanian,2AM-6AM,Bobgoblin Bass,The Dravanian Hinterlands,(x20,y25)
+Dravanian,ANY,Dimorphodon,The Churning Mists,(x18,y39)
+Dravanian,ANY,Gnomefish,The Dravanian Hinterlands,(x11,y24)
+Dravanian,12AM-6AM,Goblin Bass,The Dravanian Hinterlands,(x20,y25)
+Dravanian,2AM-6AM,Hraesvelgr's Tear,The Dravanian Forelands,(x7,y5)
+Dravanian,ANY,Lava Snail,The Dravanian Forelands,(x7,y5)
+Dravanian,10AM-5PM,Lavalord,The Dravanian Forelands,(x7,y5)
+Dravanian,1PM-8PM,Loosetongue,The Dravanian Hinterlands,(x22,y35),1039 Min. Collectability
+Dravanian,9PM-2AM,Madam Butterfly,The Dravanian Hinterlands,(x11,y24)
+Dravanian,ANY,Meteortoise,The Dravanian Forelands,(x13,y13)
+Dravanian,10AM-1PM,Moggle Mogpom,The Churning Mists,(x8,y34), (x14,y35)
+Dravanian,ANY,Nyctosaur,The Churning Mists,(x20,y6)
+Dravanian,4AM-2PM,Problematicus,The Dravanian Forelands,(x7,y5)
+Dravanian,4AM-8AM,Raimdellopterus,The Churning Mists,(x20,y6)
+Dravanian,8AM-3PM,Riddle,The Dravanian Forelands,(x19,y10)
+Dravanian,ANY,Scaleripper,The Dravanian Forelands,(x31,y10)
+Dravanian,3PM-5PM,Sunsail,The Churning Mists,(x29,y25)
+Dravanian,10PM-2AM,The Dreamweaver,The Dravanian Forelands,(x26,y26)
+Dravanian,8AM-4PM,The Lord of Lords,The Dravanian Forelands,(x7,y5)
+Dravanian,4AM-6AM,The Soul of the Martyr,The Churning Mists,(x29,y25)
+Dravanian,ANY,The Speaker,The Dravanian Hinterlands,(x22,y35)
+Dravanian,ANY,Thousand Fin,The Churning Mists,(x9,y8)
+Dravanian,6AM-8AM,Thunderscale,The Dravanian Forelands,(x31,y5)
+Dravanian,12PM-4PM,Twin-tongued Carp,The Dravanian Forelands,(x30,y14)
+Dravanian,8AM-10AM,Vidofnir,The Churning Mists,(x36,y30)
+Abalathian,ANY,Aetherochemical Compound #666,Azys Lla,(x30,y6)
+Abalathian,ANY,Allagan Bladeshark,Azys Lla,(x21,y21)
+Abalathian,10PM-2AM,Aphotic Pirarucu,Azys Lla,(x10,y31)
+Abalathian,ANY,Barreleye,Azys Lla,(x21,y21),393 Min. Collectability
+Abalathian,ANY,Basking Shark,The Sea of Clouds,(x15,y7)
+Abalathian,6PM-10PM,Ceti,Azys Lla,(x6,y16)
+Abalathian,ANY,Cirrostratus,The Sea of Clouds,(x14,y38)
+Abalathian,ANY,Crystal Pigeon,Azys Lla,(x40,y18)
+Abalathian,ANY,Fleece Stingray,The Sea of Clouds,(x14,y38)
+Abalathian,ANY,Functional Proto-hropken,Azys Lla,(x21,y21)
+Abalathian,ANY,Heavens Coral,The Sea of Clouds,(x15,y7)
+Abalathian,6AM-10AM,Hundred-eyed Axolotl,Azys Lla,(x6,y35)
+Abalathian,2PM-4PM,Inkfish,The Sea of Clouds,(x29,y35)
+Abalathian,6PM-12AM,Oliphant's Trunk,Azys Lla,(x6,y16)
+Abalathian,ANY,Opabinia,Azys Lla,(x21,y21)
+Abalathian,8AM-12PM,Paikiller,The Sea of Clouds,(x30,y39)
+Abalathian,5AM-7AM,Sea Butterfly,The Sea of Clouds,(x15,y7)
+Abalathian,ANY,Stupendemys,Azys Lla,(x40,y18),650 Min. Collectability
+Abalathian,ANY,The Second One,The Sea of Clouds,(x7,y11)
+Gyr Abanian,ANY,Alligator Snapping Turtle,The Peaks,(x25,y32)
+Gyr Abanian,8AM-12PM,Bloodtail Zombie,Rhalgr's Reach,(x12,y6)
+Gyr Abanian,ANY,Bondsplitter,The Peaks,(x6,y15)
+Gyr Abanian,7PM-11PM,Cardinalfish,The Fringes,(x13,y31)
+Gyr Abanian,8PM-12AM,Corpse Chub,The Fringes,(x27,y16)
+Gyr Abanian,ANY,Diamond-eye,The Lochs,(x21,y21)
+Gyr Abanian,ANY,Downstream Loach,The Fringes,(x19,y4)
+Gyr Abanian,4PM-8PM,Hardhead Trout,The Fringes,(x11,y18)
+Gyr Abanian,2PM-8PM,Hemon,The Peaks,(x25,y32)
+Gyr Abanian,ANY,Hookstealer,Rhalgr's Reach,(x11,y14)
+Gyr Abanian,12PM-4PM,Lily of the Veil,The Peaks,(x9,y37)
+Gyr Abanian,4AM-8AM,Mirage Mahi,The Fringes,(x27,y16)
+Gyr Abanian,ANY,Moksha,The Peaks,(x31,y17)
+Gyr Abanian,ANY,Redtail,Rhalgr's Reach,(x12,y6)
+Gyr Abanian,12PM-4PM,Rockfish,The Peaks,(x9,y37)
+Gyr Abanian,ANY,Saltmill,The Lochs,(x21,y21)
+Gyr Abanian,ANY,Sapphire Fan,The Fringes,(x9,y29)
+Gyr Abanian,ANY,Sculptor,The Lochs,(x21,y21),785 Min. Collectability
+Gyr Abanian,11AM-4PM,The Archbishop,The Fringes,(x13,y31)
+Gyr Abanian,ANY,The Last Tear,The Peaks,(x31,y7)
+Gyr Abanian,8AM-12PM,The Undecided,The Peaks,(x23,y9)
+Gyr Abanian,ANY,Watcher Catfish,Rhalgr's Reach,(x11,y10)
+Gyr Abanian,12AM-4AM,Wraithfish,The Fringes,(x9,y29),99 Min. Collectability
+Gyr Abanian,4PM-8PM,Xenacanthus,The Fringes,(x11,y18)
+Ilsabardian,ANY,Basilosaurus,Thavnair,(x7.3,y7.6),Fair Skies
+Ilsabardian,ANY,Labyrinthos Tilapia,Labyrinthos,(x20.5,y16.1)
+Ilsabardian,ANY,Red Drum,Thavnair,(x30.8,y9.3),Showers OR Clouds-> Fair Skies
+Celestial,ANY,Lunar Deathworm,Mare Lamentorum,(x31.0,y32.1)
+Celestial,10PM-4AM,Phallaina,Ultima Thule,(x25,y17),1181 Min. Collectability
+Ancient,ANY,Mangar,Elpis,(x11,y19),Clouds
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes

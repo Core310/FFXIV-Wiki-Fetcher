@@ -44,14 +44,14 @@ public class Testing_Ground {
         return ths;
     }
 
-    private static ArrayList<Elements> getTable(Document document)
+    private static ArrayList<Elements> getTableKey(Document document)
     {
         boolean firstSkipped = false;
 
         ArrayList<Elements> tds = new ArrayList<>();
 
         for(Element element : document.select("table") ) {
-            Elements td = element.select("table");
+            Elements td = element.select("th");
             tds.add(td);
         }
 
@@ -69,7 +69,10 @@ public class Testing_Ground {
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes").get();
-        System.out.print(getTHs(doc));
+        for (Elements elements : getTableKey(doc)) {
+            String elementText = String.join(",", elements.eachText());
+            System.out.println(elementText);
+        }
 
             for(Wikipages wikipages: Wikipages.values()){
 
