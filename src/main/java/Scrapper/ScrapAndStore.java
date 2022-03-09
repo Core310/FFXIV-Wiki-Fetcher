@@ -89,8 +89,8 @@ public class ScrapAndStore {
      */
     private void Store() throws IOException {
             for (Elements elements : TDs) {
-                if(elements.eachText().size() <=1) continue;
-                String elementText = String.join(",",elements.eachText());
+                //if(elements.eachText().size() <=1) continue;
+                String elementText = String.join("\t",elements.eachText());
                 //elements.eachText() comes out as a regular string. The String.join function
                 //deletes each space and replaces it with a ',' to convert it into csv.
                 fileWriter.write(elementText);

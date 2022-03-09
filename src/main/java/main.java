@@ -9,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class main {
-    static final String FileName = "XIVGather.csv";
+    static final String FileName = "XIVGather.TSV";
 
     static File file = new File(FileName);//This way the file should always be overwritten
     public static void main(String[] args) throws IOException {
