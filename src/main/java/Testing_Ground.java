@@ -46,8 +46,6 @@ public class Testing_Ground {
 
     private static ArrayList<Elements> getTableKey(Document document)
     {
-        boolean firstSkipped = false;
-
         ArrayList<Elements> tds = new ArrayList<>();
 
         for(Element element : document.select("table") ) {
@@ -58,25 +56,22 @@ public class Testing_Ground {
         return tds;
     }
 
-    static final String FileName = "XIVGather.csv";
-    static File file = new File(FileName);//This way the file should always be overwritten
+    static final String FileName = "XIVGatherTest.TSV";
 
     public static void main(String[] args) throws IOException {
 
             File test = new File(FileName);
             FileWriter fileWriter = new FileWriter(test,false);
-            ScrapAndStore scrapAndStore = new ScrapAndStore(test,fileWriter);
             Document doc ;//jsoup doc
 
-        doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes").get();
+        doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
         for (Elements elements : getTableKey(doc)) {
-            String elementText = String.join(",", elements.eachText());
-            System.out.println(elementText);
+
+            String elementText = String.join("\t", elements.eachText());
+            //System.out.println(elementText);
+            fileWriter.write(elementText);
+            fileWriter.write("\n");
         }
-
-            for(Wikipages wikipages: Wikipages.values()){
-
-            }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
             fileWriter.close();
     }
     }

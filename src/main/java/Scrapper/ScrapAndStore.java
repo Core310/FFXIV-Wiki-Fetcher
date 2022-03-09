@@ -88,11 +88,13 @@ public class ScrapAndStore {
      * and stores all the fetched data inside the said file.
      */
     private void Store() throws IOException {
+        String TH = null;
             for (Elements elements : TDs) {
+
+                // TODO: 3/9/22 Does Table Header = the current TH value? If not, write and set TH to it.
+
                 //if(elements.eachText().size() <=1) continue;
                 String elementText = String.join("\t",elements.eachText());
-                //elements.eachText() comes out as a regular string. The String.join function
-                //deletes each space and replaces it with a ',' to convert it into csv.
                 fileWriter.write(elementText);
                 fileWriter.write(System.getProperty("line.separator"));
 
