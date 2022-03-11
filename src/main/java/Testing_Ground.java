@@ -33,8 +33,6 @@ public class Testing_Ground {
 
     private static ArrayList<Elements> getTHs(Document document)
     {
-        boolean firstSkipped = false;
-
         ArrayList<Elements> ths = new ArrayList<>();
 
         for(Element element : document.select("tr") ) {
@@ -48,11 +46,16 @@ public class Testing_Ground {
     {
         ArrayList<Elements> tds = new ArrayList<>();
 
-        for(Element element : document.select("table") ) {
+        for(Element element : document.select("table") ) {//per table do below
             Elements th = element.select("th");
-            Elements td = element.select("td");
-            tds.add(th);
-            tds.add(td);
+            tds.add(th);//add table header
+
+            for(Element element1 : document.select("tr")){
+                Elements td = element1.select("td");
+                tds.add(td);
+            }//add table values
+
+
         }
 
         return tds;
@@ -62,17 +65,13 @@ public class Testing_Ground {
 
     public static void main(String[] args) throws IOException {
 
-        boolean passed = false;
-        for(int i =0;i<5;i++){
-
-        }
 
             File test = new File(FileName);
             FileWriter fileWriter = new FileWriter(test,false);
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
-        for (Elements elements : getTDs(doc)) {
+        for (Elements elements : getTableKey(doc)) {
 
             String elementText = String.join("\t", elements.eachText());
             //System.out.println(elementText);
