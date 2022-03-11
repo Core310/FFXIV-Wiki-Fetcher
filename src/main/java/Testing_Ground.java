@@ -44,15 +44,17 @@ public class Testing_Ground {
 
     private static ArrayList<Elements> getTableKey(Document document)
     {
-
         ArrayList<Elements> Table = new ArrayList<>();
+
         for(Element element : document.select("tr") ) {
-
-            Elements td = element.select("td");
-            Table.add(td);
-
             Elements th = element.select("th");
-            Table.add(th);
+            Elements td = element.select("td");
+            if(th.text().length() > 1){
+                Table.add(th);
+            }
+            //For some reason, After the th is stored, an extra line is added in the regular file,this removes that extra line I think
+
+            Table.add(td);
         }
 
         return Table;
@@ -67,13 +69,18 @@ public class Testing_Ground {
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
-        //System.out.println(getTHs(doc));
+        //System.out.println(getTableKey(doc));
         for (Elements elements : getTableKey(doc)) {
 
             String elementText = String.join("\t", elements.eachText());
             //System.out.println(elementText);
-            fileWriter.write(elementText);
-            fileWriter.write("\n");
+            if(elementText.length() <=1){
+                fileWriter.write(" ");
+            }
+            else {
+                fileWriter.write(elementText);
+            }
+            fileWriter.write("\n");//A must to seperate line
         }
             fileWriter.close();
     }
