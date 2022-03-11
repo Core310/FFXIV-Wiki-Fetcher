@@ -19,7 +19,7 @@ public class Testing_Ground {
 
         for(Element element : document.select("tr") ) {
             // Skip the first 'tr' tag since it's the header
-            if (!firstSkipped) {
+            if (!firstSkipped) {//shou
                 firstSkipped = true;
                 continue;
             }
@@ -35,7 +35,7 @@ public class Testing_Ground {
     {
         ArrayList<Elements> ths = new ArrayList<>();
 
-        for(Element element : document.select("tr") ) {
+        for(Element element : document.select("table") ) {
             Elements thead = element.select("th");
             ths.add(thead);
         }
@@ -44,33 +44,30 @@ public class Testing_Ground {
 
     private static ArrayList<Elements> getTableKey(Document document)
     {
-        ArrayList<Elements> tds = new ArrayList<>();
 
-        for(Element element : document.select("table") ) {//per table do below
+        ArrayList<Elements> Table = new ArrayList<>();
+        for(Element element : document.select("tr") ) {
+
+            Elements td = element.select("td");
+            Table.add(td);
+
             Elements th = element.select("th");
-            tds.add(th);//add table header
-
-            for(Element element1 : document.select("tr")){
-                Elements td = element1.select("td");
-                tds.add(td);
-            }//add table values
-
-
+            Table.add(th);
         }
 
-        return tds;
+        return Table;
     }
 
     static final String FileName = "XIVGatherTest.TSV";
 
     public static void main(String[] args) throws IOException {
 
-
             File test = new File(FileName);
             FileWriter fileWriter = new FileWriter(test,false);
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
+        //System.out.println(getTHs(doc));
         for (Elements elements : getTableKey(doc)) {
 
             String elementText = String.join("\t", elements.eachText());

@@ -88,7 +88,6 @@ public class ScrapAndStore {
      * and stores all the fetched data inside the said file.
      */
     private void Store() throws IOException {
-        String TH = null;
             for (Elements elements : TDs) {
 
                 // TODO: 3/9/22 Does Table Header = the current TH value? If not, write and set TH to it.
