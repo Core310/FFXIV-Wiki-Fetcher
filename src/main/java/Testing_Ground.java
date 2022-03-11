@@ -49,7 +49,9 @@ public class Testing_Ground {
         ArrayList<Elements> tds = new ArrayList<>();
 
         for(Element element : document.select("table") ) {
-            Elements td = element.select("th");
+            Elements th = element.select("th");
+            Elements td = element.select("td");
+            tds.add(th);
             tds.add(td);
         }
 
@@ -60,12 +62,17 @@ public class Testing_Ground {
 
     public static void main(String[] args) throws IOException {
 
+        boolean passed = false;
+        for(int i =0;i<5;i++){
+
+        }
+
             File test = new File(FileName);
             FileWriter fileWriter = new FileWriter(test,false);
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
-        for (Elements elements : getTableKey(doc)) {
+        for (Elements elements : getTDs(doc)) {
 
             String elementText = String.join("\t", elements.eachText());
             //System.out.println(elementText);
