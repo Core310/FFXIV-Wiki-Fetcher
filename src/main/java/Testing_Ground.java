@@ -11,37 +11,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Testing_Ground {
-    private static ArrayList<Elements> getTDs(Document document)
-    {
-        boolean firstSkipped = false;
-
-        ArrayList<Elements> tds = new ArrayList<>();
-
-        for(Element element : document.select("tr") ) {
-            // Skip the first 'tr' tag since it's the header
-            if (!firstSkipped) {//shou
-                firstSkipped = true;
-                continue;
-            }
-
-            Elements td = element.select("td");
-            tds.add(td);
-        }
-
-        return tds;
-    }
-
-    private static ArrayList<Elements> getTHs(Document document)
-    {
-        ArrayList<Elements> ths = new ArrayList<>();
-
-        for(Element element : document.select("table") ) {
-            Elements thead = element.select("th");
-            ths.add(thead);
-        }
-        return ths;
-    }
-
     private static ArrayList<Elements> getTableKey(Document document)
     {
         ArrayList<Elements> Table = new ArrayList<>();
@@ -49,7 +18,7 @@ public class Testing_Ground {
         for(Element element : document.select("tr") ) {
             Elements th = element.select("th");
             Elements td = element.select("td");
-            if(th.text().length() > 1){
+            if(th.text().length() >= 1){
                 Table.add(th);
             }
             //For some reason, After the th is stored, an extra line is added in the regular file,this removes that extra line I think

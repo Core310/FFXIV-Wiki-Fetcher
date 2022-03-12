@@ -4,7 +4,6 @@ package Items;
  * Ussed for regular node locations
  */
 public class Regular_Node implements Item {
-    // TODO: 12/31/2021 Make below private vars final
     private String ItemName;
     private String TP;
     private int Level;

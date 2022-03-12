@@ -11,11 +11,10 @@ import java.io.IOException;
 public class main {
     static final String FileName = "XIVGather.TSV";
 
-    static File file = new File(FileName);//This way the file should always be overwritten
     public static void main(String[] args) throws IOException {
-        File test = new File(FileName);
-        FileWriter fileWriter = new FileWriter(test,false);
-        ScrapAndStore scrapAndStore = new ScrapAndStore(test,fileWriter);
+        File XIVGather = new File(FileName);
+        FileWriter fileWriter = new FileWriter(XIVGather,false);
+        ScrapAndStore scrapAndStore = new ScrapAndStore(XIVGather,fileWriter);
         Document doc ;//jsoup doc
         for(Wikipages wikipages: Wikipages.values()){
             doc = Jsoup.connect(wikipages.toString()).get();

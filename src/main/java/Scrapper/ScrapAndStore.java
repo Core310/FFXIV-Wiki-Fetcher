@@ -41,9 +41,9 @@ public class ScrapAndStore {
     }
 
     /**
-     * Fetches table from given Document and loads each col into an array
+     * Fetches table from given Document and loads each table into an array
      * @param document should always be the internal private doc
-     * @return Arraylist of THs (column)
+     * @return Arraylist of all Tables
      */
     private static ArrayList<Elements> grabTable(Document document)
     {
@@ -68,18 +68,12 @@ public class ScrapAndStore {
      */
     private void Store() throws IOException {
             for (Elements elements : TableValues) {
-
-                // TODO: 3/9/22 Does Table Header = the current TH value? If not, write and set TH to it.
-
-                //if(elements.eachText().size() <=1) continue;
-                String elementText = String.join("\t",elements.eachText());
+                String elementText = String.join("\t",elements.eachText());//Grabs current arrayIndex and separates using delim
                 fileWriter.write(elementText);//Current Table cell
-                fileWriter.write("\n");//Line seperator
+                fileWriter.write("\n");//Line separator
 
             }
-    }//
-     // TODO: 2/21/22 Load TH first and then TD, with TD, Make sure that TD is made clear which will hopefully be able 2 tell what item type dealing w/
-
+    }
     /**
      * Sets the current page to parse.
      * Call this method each time you want to scrap a page.
