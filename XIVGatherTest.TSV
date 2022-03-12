@@ -1,11 +1,11 @@
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Ancient Ilsabardian Celestial	6AM/PM 8AM/PM 10AM/PM	Potent Spice	1	Elpis Thavnair Ultima Thule	(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)	Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai
 Ancient	6AM/PM	Mempisang Log	6	Elpis	(x33.1,y14.7)	Mempisang Lumber
 Ilsabardian	8AM/PM	Golden Cocoon	4	Thavnair	(x25.4,y21.8)	Golden Silk
 Celestial	10AM/PM	Double-edged Herb	2	Ultima Thule	(x28.0,y13.1)	Grade 6 Strength Alkahest, Grade 6 Dexterity Alkahest, Grade 6 Vitality Alkahest, Grade 6 Intelligence Alkahest, Grade 6 Mind Alkahest
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Vrandtic	2AM/PM	Sandalwood Log	6	The Rak'tika Greatwood	(x24,y36)	Sandalwood Lumber
 Vrandtic	2AM/PM	Sandalwood Sap	4	The Rak'tika Greatwood	(x24,y36)	Pliable Glass Fiber
 Vrandtic	8AM/PM	Merbau Log	6	Il Mheg	(x36,y27)	Merbau Lumber
@@ -17,7 +17,7 @@ Vrandtic	12AM/PM	Imperial Fern	4	Kholusia	(x28,y21)	Grade 3 Strength Alkahest, G
 Vrandtic	12AM/PM	Tender Dill	5	Kholusia	(x28,y21)	Defthand's Dissolvent
 Vrandtic	10AM/PM	Raindrop Cotton Boll	4	The Rak'tika Greatwood	(x33,y13)	Saffron Cloth
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Gyr Abanian	6AM/PM	Torreya Log	6	The Lochs	(x11,y13)	Torreya Lumber
 Gyr Abanian	4AM/PM	Black Willow Log	6	The Fringes	(x15,y21)	Black Willow Lumber
 Gyr Abanian	4AM/PM	Hardened Veteran Tree Sap	4	The Fringes	(x15,y21)	Veteran Tree Sap
@@ -27,7 +27,7 @@ Othardian	12AM/PM	Rhea	4	The Azim Steppe	(x20,y8)	Rhea Cloth
 Othardian	12AM/PM	Azim Cotton Boll	5	The Azim Steppe	(x20,y8)	Ala Mhigan Burdet
 Othardian	2AM/PM	Yanxian Cotton Boll	4	Yanxia	(x28,y35)	Stardust Cotton Cloth
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Coerthan	6AM/PM	Frost Cotton Boll	4	Coerthas Western Highlands	(x36.7,y13.0,z1.3)	Eikon Cloth
 Coerthan	6AM/PM	Dravanian Paprika	3	Coerthas Western Highlands	(x27,y33)	Seafood Stew, Loaghtan Steak, Pasta Ortolano, Shakshouka, Shakshouka Pot
 Coerthan	6AM/PM	Vanilla Beans	3	Coerthas Western Highlands	(x23,y21)	Creme Brulee, Spiced Cider, Apple Strudel
@@ -42,13 +42,13 @@ Abalathian	12AM/PM	Honeydew Almonds	2	The Sea of Clouds	(x24,y6)	Almond Cream Cr
 Abalathian	2AM/PM	Wattle Bark	5	Azys Lla	(x22,y8)	Griffin Leather, Eikon Leather, Hemicyon Leather
 Abalathian	4AM/PM	Star Cotton Boll	4	Azys Lla	(x9,y31)	Star Velvet
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Ilsabardian Ancient Celestial	12AM/PM 4AM/PM 2AM/PM	Stonehard Water	2 1 1	Garlemald Elpis Mare Lamentorum	(x32.2,y34.8) (x13.5,y7.3) (x9.6,y23.1)	Grade 6 Tincture of Strength, Grade 6 Tincture of Dexterity, Grade 6 Tincture of Vitality, Grade 6 Tincture of Intelligence, Grade 6 Tincture of Mind
 Ilsabardian	12AM/PM	Rime Dolomite	1	Garlemald	(x32.2,y34.8)	Amynodon Leather
 Ancient	4AM/PM	Rhodium Sand	2	Elpis	(x13.5,y7.3)	Rhodium Ingot
 Celestial	2AM/PM	Lunar Adamantite Ore	6	Mare Lamentorum	(x9.6,y23.1)	Lunar Adamantite Ingot
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Vrandtic	10AM/PM	Tungsten Ore	3	The Tempest	(x32,y7)	Tungsten Steel Ingot
 Vrandtic	4AM/PM	Prismstone	7	Il Mheg	(x30,y21)	Prismatic Ingot
 Vrandtic	4AM/PM	Beryllium Ore	5	Il Mheg	(x30,y21)	Alumina Whetstone
@@ -60,7 +60,7 @@ Vrandtic	6AM/PM	Purpure Shell Chip	1	The Tempest	(x33,y31)	Purpure Bead
 Vrandtic	10AM/PM	Ashen Alumen	2	Amh Araeng	(x20,y8)	Megalania Leather
 Vrandtic	2AM/PM	Solstice Stone	7	Il Mheg	(x35,y9)	Solstice Ingot
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Gyr Abanian	10AM/PM	Chromite Ore	6	The Peaks	(x23,y36)	Chromite Ingot, True Griffin Leather
 Gyr Abanian	10AM/PM	Gyr Abanian Spring Water	1	The Peaks	(x16.0,y33.9)	Ala Mhigan Burdet, Grade 3 Reisui of Strength, Grade 3 Reisui of Dexterity, Grade 3 Reisui of Vitality, Grade 3 Reisui of Intelligence, Grade 3 Reisui of Mind, Grade 2 Infusion of Strength, Grade 2 Infusion of Dexterity, Grade 2 Infusion of Vitality, Grade 2 Infusion of Intelligence, Grade 2 Infusion of Mind
 Gyr Abanian	12AM/PM	Gyr Abanian Ore	3	The Fringes	(x31,y27)	Chigusa Ingot
@@ -71,7 +71,7 @@ Othardian	8AM/PM	Silvergrace Ore	6	The Azim Steppe	(x23,y36)	Silvergrace Ingot
 Othardian	6AM/PM	Hawk's Eye	7	The Ruby Sea	(x23,y36)	Hawk's Eye Sand
 Othardian	8AM/PM	Azim Spring Water	1	The Azim Steppe	(x23,y36)	Grade 4 Reisui of Strength, Grade 4 Reisui of Dexterity, Grade 4 Reisui of Vitality, Grade 4 Reisui of Intelligence, Grade 4 Reisui of Mind, Grade 3 Infusion of Strength, Grade 3 Infusion of Dexterity, Grade 3 Infusion of Vitality, Grade 3 Infusion of Intelligence, Grade 3 Infusion of Mind
 Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
- 
+
 Coerthan	12AM/PM	Astral Moraine	4	Coerthas Western Highlands	(x37,y16)	Astral Oil, Shishi-odoshi, Tier 3 Aquarium, Tier 4 Aquarium
 Coerthan	12AM/PM	Violet Quartz	6	Coerthas Western Highlands	(x11,y23)	Aurum Regis Ingot
 Coerthan	2AM/PM	Tungstite	4	Coerthas Western Highlands	(x10,y9)	Heavy Metal Ingot
@@ -85,7 +85,7 @@ Abalathian	8AM/PM	Smithsonite Ore	2	The Sea of Clouds	(x38.1,y14.8,z2.2)	Eikon I
 Abalathian	8AM/PM	Meteorite	3	The Sea of Clouds	(x38.1,y14.8,z2.2)	Luminous Fiber
 Abalathian	6AM/PM	Luminium Ore	6	Azys Lla	(x5,y17)	Scintillant Ingot
 Folklore Tome	Time	Item	Location	Coordinates	Additional Info
- 
+
 Ilsabardian	ANY	Basilosaurus	Thavnair	(x7.3,y7.6)	Fair Skies
 Ilsabardian	ANY	Labyrinthos Tilapia	Labyrinthos	(x20.5,y16.1)
 Ilsabardian	ANY	Red Drum	Thavnair	(x30.8,y9.3)	Showers OR Clouds-> Fair Skies
@@ -93,9 +93,9 @@ Celestial	ANY	Lunar Deathworm	Mare Lamentorum	(x31.0,y32.1)
 Celestial	10PM-4AM	Phallaina	Ultima Thule	(x25,y17)	1181 Min. Collectability
 Ancient	ANY	Mangar	Elpis	(x11,y19)	Clouds
 Folklore Tome	Time	Item	Location	Coordinates	Additional Info
- 
+
 Folklore Tome	Time	Item	Location	Coordinates	Additional Info
- 
+
 Gyr Abanian	ANY	Alligator Snapping Turtle	The Peaks	(x25,y32)
 Gyr Abanian	8AM-12PM	Bloodtail Zombie	Rhalgr's Reach	(x12,y6)
 Gyr Abanian	ANY	Bondsplitter	The Peaks	(x6,y15)
@@ -121,7 +121,7 @@ Gyr Abanian	ANY	Watcher Catfish	Rhalgr's Reach	(x11,y10)
 Gyr Abanian	12AM-4AM	Wraithfish	The Fringes	(x9,y29)	99 Min. Collectability
 Gyr Abanian	4PM-8PM	Xenacanthus	The Fringes	(x11,y18)
 Folklore Tome	Time	Item	Location	Coordinates	Additional Info
- 
+
 Coerthan	10AM-2PM	Bishopfish	Coerthas Western Highlands	(x36,y6)
 Coerthan	12AM-6AM	Capelin	Coerthas Western Highlands	(x36,y6)	19 Min. Collectability
 Coerthan	5PM-3AM	Charibenet	Coerthas Western Highlands	(x36,y6)
@@ -183,8 +183,8 @@ Abalathian	5AM-7AM	Sea Butterfly	The Sea of Clouds	(x15,y7)
 Abalathian	ANY	Stupendemys	Azys Lla	(x40,y18)	650 Min. Collectability
 Abalathian	ANY	The Second One	The Sea of Clouds	(x7,y11)
 Gathering
- 
+
 Botanist	Miner	Fisher
- 
+
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
- 
+

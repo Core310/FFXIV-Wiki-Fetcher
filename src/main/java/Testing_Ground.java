@@ -53,7 +53,6 @@ public class Testing_Ground {
                 Table.add(th);
             }
             //For some reason, After the th is stored, an extra line is added in the regular file,this removes that extra line I think
-
             Table.add(td);
         }
 
@@ -71,15 +70,9 @@ public class Testing_Ground {
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
         //System.out.println(getTableKey(doc));
         for (Elements elements : getTableKey(doc)) {
-
             String elementText = String.join("\t", elements.eachText());
             //System.out.println(elementText);
-            if(elementText.length() <=1){
-                fileWriter.write(" ");
-            }
-            else {
-                fileWriter.write(elementText);
-            }
+            fileWriter.write(elementText);
             fileWriter.write("\n");//A must to seperate line
         }
             fileWriter.close();
