@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Fetches data from given doc,
  */
 public class ScrapAndStore {
-    private ArrayList<Elements> TDs;//TDs
+    private ArrayList<Elements> TableValues;//TDs
     private Document ParsedPage;//Current page parsed
     private File file;
     private FileWriter fileWriter;
@@ -36,7 +36,7 @@ public class ScrapAndStore {
                     "\nExample: wikiScrapper.setParsedPage(*jsoupdocument*);\n"
             );
         }//Base case if no setters are called
-        TDs = getTDs(ParsedPage);
+        TableValues = grabTable(ParsedPage);
         Store();
     }
 
@@ -45,42 +45,21 @@ public class ScrapAndStore {
      * @param document should always be the internal private doc
      * @return Arraylist of THs (column)
      */
-    private ArrayList<Elements> getTDs(Document document)
+    private static ArrayList<Elements> grabTable(Document document)
     {
-        boolean firstSkipped = false;
-
-        ArrayList<Elements> tds = new ArrayList<>();
+        ArrayList<Elements> Table = new ArrayList<>();
 
         for(Element element : document.select("tr") ) {
-            // Skip the first 'tr' tag since it's the header
-            if (!firstSkipped) {//shou
-                firstSkipped = true;
-                continue;
-            }
-
+            Elements th = element.select("th");
             Elements td = element.select("td");
-            tds.add(td);
+            if(th.text().length() > 1){
+                Table.add(th);
+            }
+            //For some reason, After the th is stored, an extra line is added in the regular file,this removes that extra line I think
+            Table.add(td);
         }
 
-        return tds;
-    }// TODO: 3/9/22 Remove document file
-
-    /**
-     *
-     * @return Table headers such as Time,Item,Slot #,Location,Coordinate,Level,Star,Additional Info
-     */
-    private  ArrayList<Elements> getTHs()
-    {
-        boolean firstSkipped = false;
-
-        ArrayList<Elements> tds = new ArrayList<>();
-
-        for(Element element : ParsedPage.select("table") ) {
-            Elements td = element.select("th");
-            tds.add(td);
-        }
-
-        return tds;
+        return Table;
     }
 
     /**
@@ -88,14 +67,14 @@ public class ScrapAndStore {
      * and stores all the fetched data inside the said file.
      */
     private void Store() throws IOException {
-            for (Elements elements : TDs) {
+            for (Elements elements : TableValues) {
 
                 // TODO: 3/9/22 Does Table Header = the current TH value? If not, write and set TH to it.
 
                 //if(elements.eachText().size() <=1) continue;
                 String elementText = String.join("\t",elements.eachText());
-                fileWriter.write(elementText);
-                fileWriter.write(System.getProperty("line.separator"));
+                fileWriter.write(elementText);//Current Table cell
+                fileWriter.write("\n");//Line seperator
 
             }
     }//

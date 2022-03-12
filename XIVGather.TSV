@@ -1,3 +1,5 @@
+Level	Type	Zone	Coordinate	Items	Extra
+
 5	Mature Tree	North Shroud	(x28,y26)	Maple Branch, Latex, Maple Log, Earth Shard
 5	Mature Tree	North Shroud	(x25,y27)	Beehive Chip, Cinnamon, Maple Sap, Earth Shard
 5	Mature Tree	Central Shroud	(x23,y18)	Allagan Snail, Maple Branch, Latex, Maple Log, Ice Shard, Wind Shard
@@ -101,9 +103,13 @@
 85	Lush Vegetation Patch	Garlemald	(x25, y24)	Beet, Cucumber, Eblan Lentils, Snow Flax, Earth Crystal
 85	Mature Tree	Garlemald	(x16, y27)	Garlean Staple (Level 83 Gathering Quest), Red Pine Log, Earth Crystal
 85	Lush Vegetation Patch	Mare Lamentorum	(x34, y28)	Carrot of Happiness, Lunar Staple (Level 85 Gathering Quest), Ice Crystal
+Gathering
 
+Botanist	Miner	Fisher
 
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
+
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Sykon	1	Elpis	(x25,y5)	87	600 Min Collectability
 12:00 AM/PM	Rarefied Elder Nutmeg	3	Elpis	(x25,y5)	90	600 Min Collectability
@@ -113,6 +119,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00 AM/PM	Rarefied Dark Rye	3	Labyrinthos	(x10,y22)	89	600 Min Collectability
 6:00 AM/PM	Rarefied Iceberg Lettuce	6	Labyrinthos	(x10,y22)	90	★1	600 Min Collectability
 8:00 AM/PM	Rarefied AR-Caean Cotton Boll	1	Ultima Thule	(x9,y33)	90	★1	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Broad Beans	2	Il Mheg	(x24,y36)	72	Perception 1312
 12:00 AM/PM	Mist Spinach	6	The Rak'tika Greatwood	(x34,y21)	78
@@ -126,6 +133,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 10:00 AM/PM	Peppermint	6	Lakeland	(x26,y20)	74	Perception 1080
 10:00 AM/PM	Rarefied Pixie Apple	2	Il Mheg	(x4,y23)	71	600 Min Collectability
 10:00 AM/PM	Rarefied Miracle Apple Log	6	Il Mheg	(x4,y23)	75	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Urunday Log	6	The Peaks	(x31,y7)	80	★1	600 Min Collectability
 12:00 AM/PM	Rarefied Pine Log	6	Yanxia	(x19,y14)	69	600 Min Collectability
@@ -139,6 +147,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00 AM/PM	Hallowed Basil	6	The Peaks	(x23,y16)	70	★1	Perception 750
 8:00 AM/PM	Lotus Root	7	Yanxia	(x28,y7)	66	Perception 638
 10:00 AM/PM	Bamboo Shoot	8	Yanxia	(x28,y25)	63	Perception 624
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Dark Chestnut	2	The Dravanian Forelands	(x16,y36)	57	600 Min Collectability
 12:00 AM/PM	Rarefied Dark Chestnut Resin	4	The Dravanian Forelands	(x16,y36)	59	600 Min Collectability
@@ -159,6 +168,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 10:00 AM/PM	Rarefied Dark Chestnut Branch	3	The Dravanian Forelands	(x29,y30)	55	600 Min Collectability
 10:00 AM/PM	Rarefied Dark Chestnut Log	6	The Dravanian Forelands	(x29,y30)	53	600 Min Collectability
 10:00 AM/PM	Rarefied Dark Chestnut Sap	4	The Dravanian Forelands	(x29,y30)	51	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Extra	Star
 
 1:00 AM	Silkworm Cocoon	4	East Shroud	(x22,y26)	★
 1:00 AM	Lightning Cluster	2	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1
@@ -207,6 +217,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 5:00 PM	Rosemary	1	East Shroud	(x22,y30)	★★★ (450)
 9:00 PM	Kidragora	7	East Shroud	(x13,y23)	★
 9:00 PM	Trillium Bulb	8	East Shroud	(x13,y23)	★
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00AM/PM	Rarefied Sharlayan Rock Salt	1	Labyrinthos	(x32,y21)	81	600 Min. Collectability
 12:00AM/PM	Rarefied Raw Ametrine	8	Labyrinthos	(x32,y21)	81	600 Min. Collectability
@@ -216,6 +227,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00AM/PM	Rarefied Bismuth Ore	6	Mare Lamentorum	(x16,y32)	83	600 Min. Collectability
 10:00AM/PM	Rarefied Annite	2	Elpis	(x8,y36)	90	★1	600 Min. Collectability
 10:00AM/PM	Rarefied Blue Zircon	7	Elpis	(x8,y36)	89	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00AM/PM	Raw Triplite	7	Amh Araeng	(x20,y29)	76	Perception 1421
 12:00AM/PM	Raw Onyx	7	The Tempest	(x16,y21)	80	Perception 1562
@@ -230,6 +242,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00AM/PM	Raw Petalite	8	Lakeland	(x29,y33)	78	Perception 1491
 8:00AM/PM	Rarefied Raw Onyx	7	The Tempest	(x25,y4)	80	600 Min. Collectability
 8:00AM/PM	Rarefied Sea Salt	7	The Tempest	(x25,y4)	77	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Ala Mhigan Salt Crystal	1	The Lochs	(x21,y29)	69	Perception 677
 12:00 AM/PM	Raw Star Spinel	8	The Ruby Sea	(x15,y5)	63	Perception 780
@@ -244,6 +257,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 8:00 AM/PM	Raw Rhodonite	7	The Peaks	(x26,y12)	70	Perception 846
 10:00 AM/PM	Rarefied Raw Star Spinel	8	The Ruby Sea	(x21,y34)	63	600 Min. Collectability
 10:00 AM/PM	Rarefied Gyr Abanian Alumen	2	The Fringes	(x32,y31)	80	★1	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Adamantite Ore	6	Azys Lla	(x24,y6)	60	Perception 408
 2:00 AM/PM	Rarefied Abalathian Spring Water	1	The Sea of Clouds	(x21,y12)	57	600 Min. Collectability
@@ -253,6 +267,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 4:00 AM/PM	Rarefied Limonite	4	The Dravanian Forelands	(x31,y32)	55	600 Min. Collectability
 10:00 AM/PM	Abalathian Rock Salt	1	The Sea of Clouds	(x8,y8)	56	Perception 353
 10:00 AM/PM	Red Quartz	6	The Sea of Clouds	(x8,y8)	58	Perception 371
+Time	Item	Slot #	Location	Coordinate	Extra	Star
 
 1:00 AM	Darksteel Ore	3	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	★
 1:00 AM	Pumice	1	Eastern La Noscea	(x17,y26)	★★★
@@ -293,9 +308,13 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 9:00 PM	Water Cluster	5	Mor Dhona	(x27,y10)
 9:00 PM	Ice Cluster	6	Mor Dhona	(x27,y10)
 9:00 PM	Earth Cluster	7	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8
+Gathering
 
+Botanist	Miner	Fisher
 
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
+
+Level	Type	Zone	Coordinate	Items	Extra
 
 5	Mineral Deposit	Central Thanalan	(x18,y25)	Muddy Water, Copper Ore, Wind Shard, Lightning Shard
 5	Mineral Deposit	Central Thanalan	(x24,y26)	Bone Chip, Wind Shard, Lightning Shard
@@ -384,9 +403,13 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 85	Mineral Deposit	Mare Lamentorum	(x29, y35)	Bismuth Ore, Lunar Staple (Level 85 Gathering Quest), Earth Crystal
 90	Mineral Deposit	Elpis	(x27, y11)	Elpis Staple (Level 88 Gathering Quest), Manganese Ore , Fire Crystal
 90	Rocky Outcrop	Elpis	(x14, y19)	Ambrosial Water, Annite, Raw Blue Zircon, Fire Crystal
+Gathering
 
+Botanist	Miner	Fisher
 
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
+
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Sykon	1	Elpis	(x25,y5)	87	600 Min Collectability
 12:00 AM/PM	Rarefied Elder Nutmeg	3	Elpis	(x25,y5)	90	600 Min Collectability
@@ -396,6 +419,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00 AM/PM	Rarefied Dark Rye	3	Labyrinthos	(x10,y22)	89	600 Min Collectability
 6:00 AM/PM	Rarefied Iceberg Lettuce	6	Labyrinthos	(x10,y22)	90	★1	600 Min Collectability
 8:00 AM/PM	Rarefied AR-Caean Cotton Boll	1	Ultima Thule	(x9,y33)	90	★1	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Broad Beans	2	Il Mheg	(x24,y36)	72	Perception 1312
 12:00 AM/PM	Mist Spinach	6	The Rak'tika Greatwood	(x34,y21)	78
@@ -409,6 +433,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 10:00 AM/PM	Peppermint	6	Lakeland	(x26,y20)	74	Perception 1080
 10:00 AM/PM	Rarefied Pixie Apple	2	Il Mheg	(x4,y23)	71	600 Min Collectability
 10:00 AM/PM	Rarefied Miracle Apple Log	6	Il Mheg	(x4,y23)	75	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Urunday Log	6	The Peaks	(x31,y7)	80	★1	600 Min Collectability
 12:00 AM/PM	Rarefied Pine Log	6	Yanxia	(x19,y14)	69	600 Min Collectability
@@ -422,6 +447,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00 AM/PM	Hallowed Basil	6	The Peaks	(x23,y16)	70	★1	Perception 750
 8:00 AM/PM	Lotus Root	7	Yanxia	(x28,y7)	66	Perception 638
 10:00 AM/PM	Bamboo Shoot	8	Yanxia	(x28,y25)	63	Perception 624
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Rarefied Dark Chestnut	2	The Dravanian Forelands	(x16,y36)	57	600 Min Collectability
 12:00 AM/PM	Rarefied Dark Chestnut Resin	4	The Dravanian Forelands	(x16,y36)	59	600 Min Collectability
@@ -442,6 +468,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 10:00 AM/PM	Rarefied Dark Chestnut Branch	3	The Dravanian Forelands	(x29,y30)	55	600 Min Collectability
 10:00 AM/PM	Rarefied Dark Chestnut Log	6	The Dravanian Forelands	(x29,y30)	53	600 Min Collectability
 10:00 AM/PM	Rarefied Dark Chestnut Sap	4	The Dravanian Forelands	(x29,y30)	51	600 Min Collectability
+Time	Item	Slot #	Location	Coordinate	Extra	Star
 
 1:00 AM	Silkworm Cocoon	4	East Shroud	(x22,y26)	★
 1:00 AM	Lightning Cluster	2	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1
@@ -490,6 +517,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 5:00 PM	Rosemary	1	East Shroud	(x22,y30)	★★★ (450)
 9:00 PM	Kidragora	7	East Shroud	(x13,y23)	★
 9:00 PM	Trillium Bulb	8	East Shroud	(x13,y23)	★
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00AM/PM	Rarefied Sharlayan Rock Salt	1	Labyrinthos	(x32,y21)	81	600 Min. Collectability
 12:00AM/PM	Rarefied Raw Ametrine	8	Labyrinthos	(x32,y21)	81	600 Min. Collectability
@@ -499,6 +527,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00AM/PM	Rarefied Bismuth Ore	6	Mare Lamentorum	(x16,y32)	83	600 Min. Collectability
 10:00AM/PM	Rarefied Annite	2	Elpis	(x8,y36)	90	★1	600 Min. Collectability
 10:00AM/PM	Rarefied Blue Zircon	7	Elpis	(x8,y36)	89	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00AM/PM	Raw Triplite	7	Amh Araeng	(x20,y29)	76	Perception 1421
 12:00AM/PM	Raw Onyx	7	The Tempest	(x16,y21)	80	Perception 1562
@@ -513,6 +542,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 6:00AM/PM	Raw Petalite	8	Lakeland	(x29,y33)	78	Perception 1491
 8:00AM/PM	Rarefied Raw Onyx	7	The Tempest	(x25,y4)	80	600 Min. Collectability
 8:00AM/PM	Rarefied Sea Salt	7	The Tempest	(x25,y4)	77	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Ala Mhigan Salt Crystal	1	The Lochs	(x21,y29)	69	Perception 677
 12:00 AM/PM	Raw Star Spinel	8	The Ruby Sea	(x15,y5)	63	Perception 780
@@ -527,6 +557,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 8:00 AM/PM	Raw Rhodonite	7	The Peaks	(x26,y12)	70	Perception 846
 10:00 AM/PM	Rarefied Raw Star Spinel	8	The Ruby Sea	(x21,y34)	63	600 Min. Collectability
 10:00 AM/PM	Rarefied Gyr Abanian Alumen	2	The Fringes	(x32,y31)	80	★1	600 Min. Collectability
+Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
 
 12:00 AM/PM	Adamantite Ore	6	Azys Lla	(x24,y6)	60	Perception 408
 2:00 AM/PM	Rarefied Abalathian Spring Water	1	The Sea of Clouds	(x21,y12)	57	600 Min. Collectability
@@ -536,6 +567,7 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 4:00 AM/PM	Rarefied Limonite	4	The Dravanian Forelands	(x31,y32)	55	600 Min. Collectability
 10:00 AM/PM	Abalathian Rock Salt	1	The Sea of Clouds	(x8,y8)	56	Perception 353
 10:00 AM/PM	Red Quartz	6	The Sea of Clouds	(x8,y8)	58	Perception 371
+Time	Item	Slot #	Location	Coordinate	Extra	Star
 
 1:00 AM	Darksteel Ore	3	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	★
 1:00 AM	Pumice	1	Eastern La Noscea	(x17,y26)	★★★
@@ -576,14 +608,19 @@ Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspo
 9:00 PM	Water Cluster	5	Mor Dhona	(x27,y10)
 9:00 PM	Ice Cluster	6	Mor Dhona	(x27,y10)
 9:00 PM	Earth Cluster	7	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8
+Gathering
 
+Botanist	Miner	Fisher
 
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
+
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Ancient Ilsabardian Celestial	6AM/PM 8AM/PM 10AM/PM	Potent Spice	1	Elpis Thavnair Ultima Thule	(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)	Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai
 Ancient	6AM/PM	Mempisang Log	6	Elpis	(x33.1,y14.7)	Mempisang Lumber
 Ilsabardian	8AM/PM	Golden Cocoon	4	Thavnair	(x25.4,y21.8)	Golden Silk
 Celestial	10AM/PM	Double-edged Herb	2	Ultima Thule	(x28.0,y13.1)	Grade 6 Strength Alkahest, Grade 6 Dexterity Alkahest, Grade 6 Vitality Alkahest, Grade 6 Intelligence Alkahest, Grade 6 Mind Alkahest
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Vrandtic	2AM/PM	Sandalwood Log	6	The Rak'tika Greatwood	(x24,y36)	Sandalwood Lumber
 Vrandtic	2AM/PM	Sandalwood Sap	4	The Rak'tika Greatwood	(x24,y36)	Pliable Glass Fiber
@@ -595,6 +632,7 @@ Vrandtic	4AM/PM	Duskblooms	4	Amh Araeng	(x32,y33)	Duskcourt Cloth
 Vrandtic	12AM/PM	Imperial Fern	4	Kholusia	(x28,y21)	Grade 3 Strength Alkahest, Grade 3 Dexterity Alkahest, Grade 3 Vitality Alkahest, Grade 3 Intelligence Alkahest, Grade 3 Mind Alkahest
 Vrandtic	12AM/PM	Tender Dill	5	Kholusia	(x28,y21)	Defthand's Dissolvent
 Vrandtic	10AM/PM	Raindrop Cotton Boll	4	The Rak'tika Greatwood	(x33,y13)	Saffron Cloth
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Gyr Abanian	6AM/PM	Torreya Log	6	The Lochs	(x11,y13)	Torreya Lumber
 Gyr Abanian	4AM/PM	Black Willow Log	6	The Fringes	(x15,y21)	Black Willow Lumber
@@ -604,6 +642,7 @@ Gyr Abanian	2AM/PM	Hingan Flax	4	The Peaks	(x24,y36)	True Linen
 Othardian	12AM/PM	Rhea	4	The Azim Steppe	(x20,y8)	Rhea Cloth
 Othardian	12AM/PM	Azim Cotton Boll	5	The Azim Steppe	(x20,y8)	Ala Mhigan Burdet
 Othardian	2AM/PM	Yanxian Cotton Boll	4	Yanxia	(x28,y35)	Stardust Cotton Cloth
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Coerthan	6AM/PM	Frost Cotton Boll	4	Coerthas Western Highlands	(x36.7,y13.0,z1.3)	Eikon Cloth
 Coerthan	6AM/PM	Dravanian Paprika	3	Coerthas Western Highlands	(x27,y33)	Seafood Stew, Loaghtan Steak, Pasta Ortolano, Shakshouka, Shakshouka Pot
@@ -618,11 +657,13 @@ Dravanian	12AM/PM	Teak Log	6	The Dravanian Hinterlands	(x6,y28)	Teak Lumber
 Abalathian	12AM/PM	Honeydew Almonds	2	The Sea of Clouds	(x24,y6)	Almond Cream Croissant
 Abalathian	2AM/PM	Wattle Bark	5	Azys Lla	(x22,y8)	Griffin Leather, Eikon Leather, Hemicyon Leather
 Abalathian	4AM/PM	Star Cotton Boll	4	Azys Lla	(x9,y31)	Star Velvet
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Ilsabardian Ancient Celestial	12AM/PM 4AM/PM 2AM/PM	Stonehard Water	2 1 1	Garlemald Elpis Mare Lamentorum	(x32.2,y34.8) (x13.5,y7.3) (x9.6,y23.1)	Grade 6 Tincture of Strength, Grade 6 Tincture of Dexterity, Grade 6 Tincture of Vitality, Grade 6 Tincture of Intelligence, Grade 6 Tincture of Mind
 Ilsabardian	12AM/PM	Rime Dolomite	1	Garlemald	(x32.2,y34.8)	Amynodon Leather
 Ancient	4AM/PM	Rhodium Sand	2	Elpis	(x13.5,y7.3)	Rhodium Ingot
 Celestial	2AM/PM	Lunar Adamantite Ore	6	Mare Lamentorum	(x9.6,y23.1)	Lunar Adamantite Ingot
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Vrandtic	10AM/PM	Tungsten Ore	3	The Tempest	(x32,y7)	Tungsten Steel Ingot
 Vrandtic	4AM/PM	Prismstone	7	Il Mheg	(x30,y21)	Prismatic Ingot
@@ -634,6 +675,7 @@ Vrandtic	4AM/PM	Hard Water	1	Kholusia	(x35,y12)	Grade 4 Strength Alkahest, Grade
 Vrandtic	6AM/PM	Purpure Shell Chip	1	The Tempest	(x33,y31)	Purpure Bead
 Vrandtic	10AM/PM	Ashen Alumen	2	Amh Araeng	(x20,y8)	Megalania Leather
 Vrandtic	2AM/PM	Solstice Stone	7	Il Mheg	(x35,y9)	Solstice Ingot
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Gyr Abanian	10AM/PM	Chromite Ore	6	The Peaks	(x23,y36)	Chromite Ingot, True Griffin Leather
 Gyr Abanian	10AM/PM	Gyr Abanian Spring Water	1	The Peaks	(x16.0,y33.9)	Ala Mhigan Burdet, Grade 3 Reisui of Strength, Grade 3 Reisui of Dexterity, Grade 3 Reisui of Vitality, Grade 3 Reisui of Intelligence, Grade 3 Reisui of Mind, Grade 2 Infusion of Strength, Grade 2 Infusion of Dexterity, Grade 2 Infusion of Vitality, Grade 2 Infusion of Intelligence, Grade 2 Infusion of Mind
@@ -644,6 +686,7 @@ Othardian	6AM/PM	Nightsteel Ore	3	The Ruby Sea	( x11,y23)	Nightsteel Ingot
 Othardian	8AM/PM	Silvergrace Ore	6	The Azim Steppe	(x23,y36)	Silvergrace Ingot
 Othardian	6AM/PM	Hawk's Eye	7	The Ruby Sea	(x23,y36)	Hawk's Eye Sand
 Othardian	8AM/PM	Azim Spring Water	1	The Azim Steppe	(x23,y36)	Grade 4 Reisui of Strength, Grade 4 Reisui of Dexterity, Grade 4 Reisui of Vitality, Grade 4 Reisui of Intelligence, Grade 4 Reisui of Mind, Grade 3 Infusion of Strength, Grade 3 Infusion of Dexterity, Grade 3 Infusion of Vitality, Grade 3 Infusion of Intelligence, Grade 3 Infusion of Mind
+Folklore Tome	Time	Item	Slot	Location	Coordinates	Used to make
 
 Coerthan	12AM/PM	Astral Moraine	4	Coerthas Western Highlands	(x37,y16)	Astral Oil, Shishi-odoshi, Tier 3 Aquarium, Tier 4 Aquarium
 Coerthan	12AM/PM	Violet Quartz	6	Coerthas Western Highlands	(x11,y23)	Aurum Regis Ingot
@@ -657,6 +700,7 @@ Abalathian	10AM/PM	Red Alumen	2	Azys Lla	(x35,y16)	Griffin Leather
 Abalathian	8AM/PM	Smithsonite Ore	2	The Sea of Clouds	(x38.1,y14.8,z2.2)	Eikon Iron Ingot
 Abalathian	8AM/PM	Meteorite	3	The Sea of Clouds	(x38.1,y14.8,z2.2)	Luminous Fiber
 Abalathian	6AM/PM	Luminium Ore	6	Azys Lla	(x5,y17)	Scintillant Ingot
+Folklore Tome	Time	Item	Location	Coordinates	Additional Info
 
 Ilsabardian	ANY	Basilosaurus	Thavnair	(x7.3,y7.6)	Fair Skies
 Ilsabardian	ANY	Labyrinthos Tilapia	Labyrinthos	(x20.5,y16.1)
@@ -664,7 +708,9 @@ Ilsabardian	ANY	Red Drum	Thavnair	(x30.8,y9.3)	Showers OR Clouds-> Fair Skies
 Celestial	ANY	Lunar Deathworm	Mare Lamentorum	(x31.0,y32.1)
 Celestial	10PM-4AM	Phallaina	Ultima Thule	(x25,y17)	1181 Min. Collectability
 Ancient	ANY	Mangar	Elpis	(x11,y19)	Clouds
+Folklore Tome	Time	Item	Location	Coordinates	Additional Info
 
+Folklore Tome	Time	Item	Location	Coordinates	Additional Info
 
 Gyr Abanian	ANY	Alligator Snapping Turtle	The Peaks	(x25,y32)
 Gyr Abanian	8AM-12PM	Bloodtail Zombie	Rhalgr's Reach	(x12,y6)
@@ -690,6 +736,7 @@ Gyr Abanian	8AM-12PM	The Undecided	The Peaks	(x23,y9)
 Gyr Abanian	ANY	Watcher Catfish	Rhalgr's Reach	(x11,y10)
 Gyr Abanian	12AM-4AM	Wraithfish	The Fringes	(x9,y29)	99 Min. Collectability
 Gyr Abanian	4PM-8PM	Xenacanthus	The Fringes	(x11,y18)
+Folklore Tome	Time	Item	Location	Coordinates	Additional Info
 
 Coerthan	10AM-2PM	Bishopfish	Coerthas Western Highlands	(x36,y6)
 Coerthan	12AM-6AM	Capelin	Coerthas Western Highlands	(x36,y6)	19 Min. Collectability
@@ -751,7 +798,9 @@ Abalathian	8AM-12PM	Paikiller	The Sea of Clouds	(x30,y39)
 Abalathian	5AM-7AM	Sea Butterfly	The Sea of Clouds	(x15,y7)
 Abalathian	ANY	Stupendemys	Azys Lla	(x40,y18)	650 Min. Collectability
 Abalathian	ANY	The Second One	The Sea of Clouds	(x7,y11)
+Gathering
 
+Botanist	Miner	Fisher
 
 Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Log Big Fishing Fishing Collectables Folklore Fish
 
