@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Fetches data from given doc,
  */
 public class ScrapAndStore {
-    private ArrayList<Elements> TableValues;//TDs
+    private ArrayList<Elements> TableValues;//Table values
     private Document ParsedPage;//Current page parsed
     private File file;
     private FileWriter fileWriter;
@@ -83,5 +83,7 @@ public class ScrapAndStore {
         this.ParsedPage = parsedPage;
     }
 
-
+    public ArrayList<Elements> getTableValues() {
+        return TableValues;
+    }
 }
