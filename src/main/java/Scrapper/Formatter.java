@@ -32,7 +32,7 @@ public class Formatter {
      * @return
      */
     private ArrayList<String> getRecordFromLine(String line) {
-        ArrayList<String> values = new ArrayList<String>();
+        ArrayList<String> values = new ArrayList<>();
         try (Scanner rowScanner = new Scanner(line)) {
             rowScanner.useDelimiter("\t");
             while (rowScanner.hasNext()) {
@@ -41,18 +41,25 @@ public class Formatter {
         }
         return values;
     }
-/*
 
- */
-    public void format(ArrayList<Elements> TableValues){
-        for (Elements element: TableValues){
-            switch (element.text()){
-                case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
+    /**
+     * Formats the file
+     */
+    public void format(){
+        try {
+            Scanner scanner = new Scanner(file);
+            String currentLine;
+            while(scanner.hasNextLine()){
+                currentLine = scanner.nextLine();
+                switch (currentLine){
+                    case
 
                 }
 
-            }
 
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
     }
 

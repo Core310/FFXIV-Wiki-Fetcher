@@ -37,7 +37,6 @@ public class Testing_Ground {
             Document doc ;//jsoup doc
 
         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
-        //System.out.println(getTableKey(doc));
         for (Elements elements : getTableKey(doc)) {
             String elementText = String.join("\t", elements.eachText());
             //System.out.println(elementText);
@@ -46,4 +45,4 @@ public class Testing_Ground {
         }
             fileWriter.close();
     }
-    }
+}
