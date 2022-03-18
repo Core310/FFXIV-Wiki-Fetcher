@@ -7,6 +7,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.rmi.UnexpectedException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -26,21 +27,34 @@ public class Formatter {
         this.file = file;
     }
 
-    /**
-     * Loads current line?
-     * @param line
-     * @return
-     */
-    private ArrayList<String> getRecordFromLine(String line) {
-        ArrayList<String> values = new ArrayList<>();
-        try (Scanner rowScanner = new Scanner(line)) {
-            rowScanner.useDelimiter("\t");
-            while (rowScanner.hasNext()) {
-                values.add(rowScanner.next());
+
+    private String getType(String curLine){
+        switch (curLine){
+            case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
+                return "FolkLore_Slot_UsedToMake";
+            }
+            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n":{
+                return "FolkLore_Regular";
+            }
+            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
+                return "Regular";
+            }
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n":{
+                return "TimeBasedStar";
+            }
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n":{
+                return "TimeBasedStar2";
+            }
+
+            //Ignore cases below
+            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n":
+            case "Botanist\tMiner\tFisher\n":
+            case "Gathering": {
+                return "Ignore";
             }
         }
-        return values;
-    }
+        return "Data";
+    }// TODO: 3/17/22 Document
 
     /**
      * Formats the file
@@ -49,13 +63,34 @@ public class Formatter {
         try {
             Scanner scanner = new Scanner(file);
             String currentLine;
+            String itemType;
             while(scanner.hasNextLine()){
                 currentLine = scanner.nextLine();
-                switch (currentLine){
-                    case
+                switch (getType(currentLine)){
+                    case "FolkLore_Slot_UsedToMake":{
+                        //should replace the line with blank space
+                        itemType = "FolkLore_Slot_UsedToMake";
 
-                }
+                    }
+                    case "FolkLore_Regular":{
 
+                    }
+                    case "Regular":{
+
+                    }
+                    case "TimeBasedStar":{
+
+                    }
+                    case "TimeBasedStar2":{
+
+                    }
+                    case "Ignore":{
+                        //should replace the line with blank space
+                    }
+                    case "Data":{
+                        //Replace current line with loaded itemType, start off with itemType then data
+                    }
+                }// TODO: 3/17/22 Load each case into a ITEM class, then repalce the current line
 
             }
         } catch (FileNotFoundException e) {
