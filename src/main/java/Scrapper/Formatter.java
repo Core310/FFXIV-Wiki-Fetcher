@@ -60,12 +60,15 @@ public class Formatter {
      * Formats the file
      */
     public void format(){
+        //todo load each line into a TSV array.
         try {
             Scanner scanner = new Scanner(file);
             String currentLine;
+            String csvValues[];
             String itemType;
             while(scanner.hasNextLine()){
                 currentLine = scanner.nextLine();
+                csvValues = currentLine.split("\t");
                 switch (getType(currentLine)){
                     case "FolkLore_Slot_UsedToMake":{
                         //should replace the line with blank space
@@ -73,11 +76,17 @@ public class Formatter {
 
                     }
                     case "FolkLore_Regular":{
+                        itemType = "FolkLore_Regular";
 
                     }
                     case "Regular":{
+                        itemType = "Regular";
+                        Regular_Node regular_node = new Regular_Node(
+                                csvValues[],
 
+                        );//per each item in
                     }
+                    // case"Level\tType\tZone\tCoordinate\tItems\tExtra\n"
                     case "TimeBasedStar":{
 
                     }

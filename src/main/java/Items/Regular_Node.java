@@ -20,12 +20,14 @@ public class Regular_Node implements Item {
      * @param extra
      */
     public Regular_Node(
-            String ItemName,
-            String TP,
             int Level,
-            String WikiLink,
-            String extra
-    ){
+            String Type,
+            String Zone,
+            String Cords,
+            String Items,
+            String Extra
+            ){
+        //            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
       this.ItemName = ItemName;
       this.TP = TP;
       this.Level = Level;
