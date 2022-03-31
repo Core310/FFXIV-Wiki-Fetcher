@@ -60,8 +60,8 @@ public class Formatter {
      * Formats the file
      */
     public void format(){
-        //todo load each line into a TSV array.
-        try {
+        //todo Replace current line in file
+        try {// TODO: 3/31/22 Use a buffer to read the whole file in, then repalce each line using the buffer
             Scanner scanner = new Scanner(file);
             String currentLine;
             String csvValues[];
@@ -81,10 +81,23 @@ public class Formatter {
                     }
                     case "Regular":{
                         itemType = "Regular";
-                        Regular_Node regular_node = new Regular_Node(
-                                csvValues[],
+                        Regular_Node regular_node;
+                        String[] Items = csvValues[4].split(",");
+                        for(int i =0;i<Items.length;i++){
+                            regular_node = new Regular_Node(
+                                    Integer.parseInt(csvValues[0]),
+                                    csvValues[1],
+                                    csvValues[2],
+                                    csvValues[3],
+                                    Items[i],
+                                    csvValues[5]
+                            );
+                            
 
-                        );//per each item in
+                        }
+                        //delete current line, loop thru Items arr and create new item for e/a
+
+
                     }
                     // case"Level\tType\tZone\tCoordinate\tItems\tExtra\n"
                     case "TimeBasedStar":{
