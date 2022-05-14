@@ -5,8 +5,8 @@ import Items.Regular_Node;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.File;
-import java.io.FileNotFoundException;
+
+import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +28,7 @@ public class Formatter {
     }
 
 
-    private String getType(String curLine){
+    private String getType(String curLine){//todo return data in enum format
         switch (curLine){
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
                 return "FolkLore_Slot_UsedToMake";
@@ -46,7 +46,7 @@ public class Formatter {
                 return "TimeBasedStar2";
             }
 
-            //Ignore cases below
+            //Ignore cases below possible fixme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n":
             case "Botanist\tMiner\tFisher\n":
             case "Gathering": {
@@ -57,23 +57,35 @@ public class Formatter {
     }// TODO: 3/17/22 Document
 
     /**
-     * Formats the file
+     * Formats the file by:
+     * Goes thru line by line. Searches for table HEADERS in wiki. Deletes these headers and stores the current item type
+     * (determined by header) in an internal variable. Each item from then on is determined from that internal
+     * variable. Eg. Gather header -> each item is now a Gather item. 
+     *
+     * Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
+     * This method creates several duplicate items.
      */
     public void format(){
         //todo Replace current line in file
         try {// TODO: 3/31/22 Use a buffer to read the whole file in, then repalce each line using the buffer
-            Scanner scanner = new Scanner(file);
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String currentLine;
             String csvValues[];
-            String itemType;
-            while(scanner.hasNextLine()){
-                currentLine = scanner.nextLine();
-                csvValues = currentLine.split("\t");
-                switch (getType(currentLine)){
-                    case "FolkLore_Slot_UsedToMake":{
-                        //should replace the line with blank space
-                        itemType = "FolkLore_Slot_UsedToMake";
+            String itemType = null;
 
+            while((currentLine = br.readLine()) != null){ // Look thru whole file
+                csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
+
+                switch (getType(currentLine)){ //Cases to find item type
+                    //If header: Set a new ItemType
+                    //Else if ignore, ignore
+                    //Else if data then use current ItemType to load data
+                    case "FolkLore_Slot_UsedToMake":{
+                        //Then replace the line with blank space
+                        itemType = "FolkLore_Slot_UsedToMake";
+						//todo delete current line
+						
                     }
                     case "FolkLore_Regular":{
                         itemType = "FolkLore_Regular";
@@ -81,23 +93,7 @@ public class Formatter {
                     }
                     case "Regular":{
                         itemType = "Regular";
-                        Regular_Node regular_node;
-                        String[] Items = csvValues[4].split(",");
-                        for(int i =0;i<Items.length;i++){
-                            regular_node = new Regular_Node(
-                                    Integer.parseInt(csvValues[0]),
-                                    csvValues[1],
-                                    csvValues[2],
-                                    csvValues[3],
-                                    Items[i],
-                                    csvValues[5]
-                            );
-                            
-
-                        }
-                        //delete current line, loop thru Items arr and create new item for e/a
-
-
+                        //delete current line
                     }
                     // case"Level\tType\tZone\tCoordinate\tItems\tExtra\n"
                     case "TimeBasedStar":{
@@ -107,15 +103,27 @@ public class Formatter {
 
                     }
                     case "Ignore":{
+						
                         //should replace the line with blank space
                     }
-                    case "Data":{
+                    case "Data":{ //Actual item data NOT a header
+						switch (itemType){
+                            case "Regular":{
+                                
+                            }
+                            
+                            
+                        }
+                        
+                        
                         //Replace current line with loaded itemType, start off with itemType then data
                     }
                 }// TODO: 3/17/22 Load each case into a ITEM class, then repalce the current line
 
             }
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

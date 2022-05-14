@@ -3,8 +3,7 @@ package Items;
 public interface Item {
     int getLevel();
     String getItemName();
-    String getTP();
-    String getWikiLink();
+    String getZone();
+    String getCords();
     String getExtra();
-
 }
