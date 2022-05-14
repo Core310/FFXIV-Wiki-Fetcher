@@ -27,7 +27,11 @@ public class Formatter {
         this.file = file;
     }
 
-
+    /**
+     * Returns item type
+     * @param curLine current line
+     * @return Item type in String format
+     */
     private String getType(String curLine){//todo return data in enum format
         switch (curLine){
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
@@ -54,7 +58,7 @@ public class Formatter {
             }
         }
         return "Data";
-    }// TODO: 3/17/22 Document
+    }
 
     /**
      * Formats the file by:
