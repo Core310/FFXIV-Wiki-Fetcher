@@ -28,14 +28,18 @@ public class Regular_Node implements Item {
             String Items,
             String Extra
             ){
-        //            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
-      this.ItemName = ItemName;
-      this.Zone = Zone;
-      this.Level = Level;
-      this.WikiLink = WikiLink;
-      this.extra = extra;
+
+        this.Level = Level;
+        this.Type = Type;
+        this.Zone = Zone;
+        this.Cords = Cords;
+        this.ItemName = Items;
+        this.extra = Extra;
     }
 
+    public String getType() {
+        return Type;
+    }
 
     public int getLevel() {
         return Level;
@@ -49,9 +53,11 @@ public class Regular_Node implements Item {
         return Zone;
     }
 
-    public String getWikiLink() {
-        return WikiLink;
+    @Override
+    public String getCords() {
+        return Cords;
     }
+
 
     public String getExtra() {
         return extra;
