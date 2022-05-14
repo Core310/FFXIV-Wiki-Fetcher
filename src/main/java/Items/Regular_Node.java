@@ -14,11 +14,12 @@ public class Regular_Node implements Item {
     /**
      * Default constructor. All arguments map to internal variables.
      * This covers the classes BNT and Miner
-     * @param ItemName
-     * @param TP
      * @param Level
-     * @param WikiLink
-     * @param extra
+     * @param Type
+     * @param Zone
+     * @param Cords
+     * @param Items
+     * @param Extra
      */
     public Regular_Node(
             int Level,
@@ -58,6 +59,17 @@ public class Regular_Node implements Item {
         return Cords;
     }
 
+    @Override
+    public String toString() {
+        return "Regular_Node{" +
+                "Level=" + Level +
+                ", Type='" + Type + '\'' +
+                ", Zone='" + Zone + '\'' +
+                ", Cords='" + Cords + '\'' +
+                ", ItemName='" + ItemName + '\'' +
+                ", extra='" + extra + '\'' +
+                '}';
+    }
 
     public String getExtra() {
         return extra;
