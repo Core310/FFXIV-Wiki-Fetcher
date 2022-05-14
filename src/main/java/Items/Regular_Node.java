@@ -58,6 +58,17 @@ public class Regular_Node implements Item {
         return Cords;
     }
 
+    @Override
+    public String toString() {
+        return "Regular_Node{" +
+                "Level=" + Level +
+                ", Type='" + Type + '\'' +
+                ", Zone='" + Zone + '\'' +
+                ", Cords='" + Cords + '\'' +
+                ", ItemName='" + ItemName + '\'' +
+                ", extra='" + extra + '\'' +
+                '}';
+    }
 
     public String getExtra() {
         return extra;
