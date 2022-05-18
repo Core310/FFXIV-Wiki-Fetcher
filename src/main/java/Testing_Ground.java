@@ -31,17 +31,15 @@ public class Testing_Ground {
     static final String FileName = "XIVGatherTest.TSV";
 
     public static void main(String[] args) throws IOException {
-        String a ="60\tRocky Outcrop\tThe Azim Steppe\t(x20, y14)\tSteppe Rock Salt, Flat Stone, Steppe Clay, Skystone (Namazu quest), Lightning Crystal\tNamazu Beast Tribe Required";
-                String[] Items = a.split(",");
-        for (String string:
-             Items) {
-            System.out.println(string);
-        }
+        //todo test itr thru and print each as dataType
+
+
+
         /**
          *
          *             File test = new File(FileName);
          *             FileWriter fileWriter = new FileWriter(test,false);
-         *             Document doc ;//jsoup doc\
+         *             Document doc ;//jsoup doc
          *
          *         doc = Jsoup.connect("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes").get();
          *         for (Elements elements : getTableKey(doc)) {

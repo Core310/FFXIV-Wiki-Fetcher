@@ -10,7 +10,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Fetches data from given doc,
+ * Fetches data from given doc.
+ *
+ * Process:
+ * Call constructor (load file to write to, use external filewriter).
+ * Use setPrasedPage to set link to fetch data from
+ * Call scrap to grab values
+ * Scrap calls Store which uses several other private methodsx
  */
 public class ScrapAndStore {
     private ArrayList<Elements> TableValues;//Table values
