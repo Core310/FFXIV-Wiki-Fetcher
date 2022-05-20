@@ -32,7 +32,7 @@ public class Formatter {
      * @param curLine current line
      * @return Item type in String format
      */
-    private String getType(String curLine){//todo return data in enum format
+    private String getType(String curLine){//Later todo return data in enum format
         switch (curLine){
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
                 return "FolkLore_Slot_UsedToMake";
@@ -70,7 +70,7 @@ public class Formatter {
      * This method creates several duplicate items.
      */
     public void format(){
-        //todo Replace current line in file
+        //todo Replace current line in file. Eventually, make all ITEMs in the first column for ease of fuzzy Search
         try {// TODO: 3/31/22 Use a buffer to read the whole file in, then repalce each line using the buffer
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));

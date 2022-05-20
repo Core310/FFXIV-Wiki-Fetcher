@@ -13,48 +13,60 @@ import java.util.Stack;
 
 public class MainFuzzy {
     private File file;
+    private int similarityThreshold = 95;
     MainFuzzy(File ItemFile){
         file = ItemFile;
     }// TODO: 12/31/2021 LATER, what shuld args be?
 
     /**
-     * @param SearchKey Finds closest value in given constructor file (should be item file).
-     *
+     * @param SearchKey Finds similar value in given constructor file (should be item file).
+     * Input an item to FIND. Loops thru the constructor file, returning at most 2 objects
      */
     public String SearchItem(String SearchKey){
         try {
             Stack<String> stack = new Stack<>();
             String curLine;
-            int similarityThreshold = 95;
             BufferedReader br = new BufferedReader(new FileReader(file));
             while ((curLine = br.readLine()) != null){
-                if(FuzzySearch.ratio(curLine,SearchKey) < similarityThreshold) continue; //If ratio between both strings is less than similarityThreshold skip
-                else if (similarityThreshold == 100 && stack.size() >= 2) {
+                if(FuzzySearch.ratio(curLine,SearchKey) < similarityThreshold)
+                    continue;
+
+                //If ratio between both strings is less than similarityThreshold skip
+                else if (similarityThreshold == 100 && stack.size() >= 2)
                     throw new UnexpectedException("Duplicate in given file found");
-                } //If similarityThreshold is 100 AND stack has 2 or more there must be a duplicate in the file
+
+                //If similarityThreshold is 100 AND stack has 2 or more there must be a duplicate in the file
                 else if (stack.size() >= 3) {
                     similarityThreshold++;
-                    br = new BufferedReader(File)
+                    br = new BufferedReader(new FileReader(file));
                     //todo TEST if br = new BufferedReader would work.
-                    //todo figure out how to set br to beginning of the file
-                }//If stack is geq 3 up the similarityThreshold and resetart
-
+                    //todo figure out how to set br to beginning of the file (above shold work?)
+                }
+                //If stack is geq 3 up the similarityThreshold and resetart
+                else if (stack.empty()) {
+                    throw new //todo create too vague similarityThreshold
+                }
 
                 stack.push(curLine);
-
-                //Create an array to store all values above 95. If > 3 then reset
-                //and
             }
 
-
+            //So the stack is at most 2 (if 3 exe last elif case
+            StringBuilder stringBuilder = new StringBuilder();
+            while (!stack.empty()) stringBuilder.append(stack.pop() + "\n");
 
             br.close(); //finally case
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            return stringBuilder.toString();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return null;// TODO: 3/11/22  
+    }
+
+    public void setSimilarityThreshold(int similarityThreshold) {
+        this.similarityThreshold = similarityThreshold;
+    }
+
+    public int getSimilarityThreshold() {
+        return similarityThreshold;
     }
 
     public static void main(String[] args) {
