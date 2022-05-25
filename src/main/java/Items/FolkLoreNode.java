@@ -1,19 +1,25 @@
 package Items;
 
-public class FolkLoreNode implements Item {
+public class FolkLoreNode extends FolkLoreFishing implements Item{
 
-    private String Folklore_Tome;
-
-    public FolkLoreNode(String Type, String Zone, String Cords, String Items,
-                        String Extra, String Folklore_Tome, String Time, String Slot){
-
+    private int slot;
+    public FolkLoreNode(String folkloreTome,String time,String item,
+                        String location, String cords, String additionalInfo, int slot){
+        super(folkloreTome,time,item,location,cords,additionalInfo);
+        this.slot = slot;
 
     }
 
 
-    @Override
-    public int getLevel() {
-        return 0;
+
+
+
+
+
+    //getters below
+
+    public int getSlot() {
+        return slot;
     }
 
     @Override

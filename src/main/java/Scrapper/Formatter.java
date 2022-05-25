@@ -1,16 +1,6 @@
 package Scrapper;
 
-import Items.Item;
-import Items.Regular_Node;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
 import java.io.*;
-import java.rmi.UnexpectedException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 
 /**
