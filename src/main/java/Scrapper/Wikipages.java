@@ -20,7 +20,7 @@ public enum Wikipages {
      */
     Wikipages(String string) {
         url = string;
-    }
+    }//todo delete?
 
     /**
      *

@@ -11,13 +11,14 @@ import java.util.Stack;
 //THIS SHOULD go into a diff proj, mainly the discord bot itself as this proj is mainly for
 //creating said CSV item file.
 
-public class MainFuzzy { //fixme this is broken!
+public class MainFuzzy { //fixme refractor to take out
     private File file; // File tto read from
     private int similarityThreshold = 95;// similarity when searching between 2 strings
     private int  stackCounter =0; // Counter to tell how many times stack size and empty cases are called
-    MainFuzzy(File ItemFile){
+    private Stack prevStackSearchItem;
+    public MainFuzzy(File ItemFile){
         file = ItemFile;
-    }// TODO: 12/31/2021 LATER, what shuld args be?
+    }
 
     /**
      * @param SearchKey Finds similar value in given constructor file (should be item file).
@@ -38,10 +39,9 @@ public class MainFuzzy { //fixme this is broken!
 
                 //If similarityThreshold is 100 AND stack has 2 or more there must be a duplicate in the file
                 else if (stack.size() >= 3) {
-
-
                     similarityThreshold++;
-                    stackCounter++;
+                    stackCounter++;//todo delete all isntances of stackCounter
+
                     SearchItem(SearchKey);//fixme test this recusive function
                 }
                 //If stack is geq 3 up the similarityThreshold and play tthe function again

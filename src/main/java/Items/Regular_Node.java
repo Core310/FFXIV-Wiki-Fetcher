@@ -18,7 +18,7 @@ public class Regular_Node implements Item {
      * @param Type
      * @param Zone
      * @param Cords
-     * @param Items
+     * @param Item
      * @param Extra
      */
     public Regular_Node(
@@ -26,17 +26,44 @@ public class Regular_Node implements Item {
             String Type,
             String Zone,
             String Cords,
-            String Items,
+            String Item,//When Item is loaded in, if a comma
+            //is detected, the Formatter should make
             String Extra
             ){
-
         this.Level = Level;
         this.Type = Type;
         this.Zone = Zone;
         this.Cords = Cords;
-        this.ItemName = Items;
+        this.ItemName = Item;
         this.extra = Extra;
     }
+
+    /**
+     * Used as a super constructor for Unspoiled node (as it doesn't take Type as a param)
+     * So only diff than public constructor is that has no Type argument.
+     *
+     * @param Level
+     * @param Zone
+     * @param Cords
+     * @param Item
+     * @param Extra
+     */
+    protected Regular_Node(
+            int Level,
+            String Zone,
+            String Cords,
+            String Item,//When Item is loaded in, if a comma
+            //is detected, the Formatter should make
+            String Extra
+    ){
+        this.Level = Level;
+        this.Zone = Zone;
+        this.Cords = Cords;
+        this.ItemName = Item;
+        this.extra = Extra;
+    }
+
+
 
     public String getType() {
         return Type;
