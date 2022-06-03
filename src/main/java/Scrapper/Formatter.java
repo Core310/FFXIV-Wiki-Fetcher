@@ -2,6 +2,7 @@ package Scrapper;
 
 import java.io.*;
 
+import static Scrapper.StaticItemTypes.*;
 
 /**
  * Formats a given argument file for reading. Should be called after the file is written into.
@@ -18,36 +19,34 @@ public class Formatter {
     }
 
     /**
-     * Returns item type
-     * @param curLine current line
-     * @return Item type in String format
+     * Sets a new item type if the current line is a table header that declares the current item type.
+     * @param curLine Current line to look at
+     * @return One of the StaticItemTypes
      */
-    private String getType(String curLine){//Later todo return data in enum format
+    private StaticItemTypes getType(String curLine){
         switch (curLine){
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
-                return "FolkLore_Slot_UsedToMake";
+                return FolkLoreFishing;
             }
             case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n":{
-                return "FolkLore_Regular";
+                return FolkLoreNode;
             }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
-                return "Regular";
+                return RegularNode;
             }
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n":{
-                return "TimeBasedStar";
-            }
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n":{
-                return "TimeBasedStar2";
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n":
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n": {
+                return UnspoiledNode;
             }
 
             //Ignore cases below possible fixme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n":
             case "Botanist\tMiner\tFisher\n":
             case "Gathering": {
-                return "Ignore";
+                return Delete;
             }
         }
-        return "Data";
+        return Ignore;
     }
 
     /**
@@ -75,32 +74,30 @@ public class Formatter {
                     //If header: Set a new ItemType
                     //Else if ignore, ignore
                     //Else if data then use current ItemType to load data
-                    case "FolkLore_Slot_UsedToMake":{
+                    case FolkLoreFishing:{
                         //Then replace the line with blank space
                         itemType = "FolkLore_Slot_UsedToMake";
 						//todo delete current line
 						
                     }
-                    case "FolkLore_Regular":{
+                    case FolkLoreNode:{
                         itemType = "FolkLore_Regular";
 
                     }
-                    case "Regular":{
+                    case RegularNode:{
                         itemType = "Regular";
                         //delete current line
                     }
                     // case"Level\tType\tZone\tCoordinate\tItems\tExtra\n"
-                    case "TimeBasedStar":{
+                    case UnspoiledNode:{
 
                     }
-                    case "TimeBasedStar2":{
 
-                    }
-                    case "Ignore":{
+                    case Delete:{
 						
                         //should replace the line with blank space
                     }
-                    case "Data":{ //Actual item data NOT a header
+                    case Ignore:{ //Actual item data NOT a header
 						switch (itemType){
                             case "Regular":{
                                 

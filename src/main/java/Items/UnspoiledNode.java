@@ -1,9 +1,11 @@
 package Items;
 
-public class UnspoiledNode extends Regular_Node implements Item {//The diff between this and Regular Node is the following:
+public class UnspoiledNode extends Regular_Node implements Item {
+    //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
-    int slot;
-    int star;
+    private int slot;
+    private int star;
+    String time;
 
     /**
      * Default and (should be) only constructor for Unspoiled.
@@ -25,9 +27,15 @@ public class UnspoiledNode extends Regular_Node implements Item {//The diff betw
         this.star = star;
 
     }
-
+    //todo add construcotr that doesnt include level somehow?
 
     //Getters
+
+
+    public String getTime() {
+        return time;
+    }
+
     public int getStar() {
         return star;
     }

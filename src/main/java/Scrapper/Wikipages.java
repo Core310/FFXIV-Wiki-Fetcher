@@ -15,12 +15,13 @@ public enum Wikipages {
     private final String url;
 
     /**
-     * Default constructor, this should not be used.
+     * Default constructor, this should not be used. Outside of this class
+     * This is needed to have a link attached to each enum declaration.
      * @param string String to assign to Enum values
      */
     Wikipages(String string) {
         url = string;
-    }//todo delete?
+    }
 
     /**
      *
