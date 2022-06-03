@@ -21,24 +21,4 @@ public class FolkLoreNode extends FolkLoreFishing implements Item{
     public int getSlot() {
         return slot;
     }
-
-    @Override
-    public String getItemName() {
-        return null;
-    }
-
-    @Override
-    public String getZone() {
-        return null;
-    }
-
-    @Override
-    public String getCords() {
-        return null;
-    }
-
-    @Override
-    public String getExtra() {
-        return null;
-    }
 }

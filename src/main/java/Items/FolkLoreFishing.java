@@ -3,12 +3,12 @@ package Items;
 
 //This one doesnt have slot and hass additional info. Else everything else is the same
 public class FolkLoreFishing implements Item{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
-    String folkloreTome;
-    String zone;
-    String cords;
-    String extra;
-    String name;
-    String time;
+    private String folkloreTome;
+    private String zone;
+    private String cords;
+    private String extra;
+    private String name;
+    private String time;
 
     public FolkLoreFishing(String folkloreTome,String time,String item,
                            String location, String cords, String additionalInfo){
@@ -28,23 +28,25 @@ public class FolkLoreFishing implements Item{ //FolkLore_Toem, Time, Item, Slot,
     public String getTime() {
         return time;
     }
+
+
     @Override
     public String getItemName() {
-        return null;
+        return name;
     }
 
     @Override
     public String getZone() {
-        return null;
+        return zone;
     }
 
     @Override
     public String getCords() {
-        return null;
+        return cords;
     }
 
     @Override
     public String getExtra() {
-        return null;
+        return extra;
     }
 }
