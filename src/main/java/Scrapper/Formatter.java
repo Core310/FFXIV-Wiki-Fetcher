@@ -1,5 +1,7 @@
 package Scrapper;
 
+import Items.Regular_Node;
+
 import java.io.*;
 
 import static Scrapper.StaticItemTypes.*;
@@ -9,6 +11,7 @@ import static Scrapper.StaticItemTypes.*;
  */
 public class Formatter {
     private File file;
+    private StaticItemTypes itemType;
 
     /**
      * Default constructor, should be the only one needed.
@@ -19,30 +22,35 @@ public class Formatter {
     }
 
     /**
-     * Sets a new item type if the current line is a table header that declares the current item type.
+     * Looks at current line, if is a header that describes an item type, sets global var itemType to whatever that current item is.
+     * If it is not an item, such as an ending header, or is data, it will return either Delete, or Ignore.
      * @param curLine Current line to look at
      * @return One of the StaticItemTypes
      */
-    private StaticItemTypes getType(String curLine){
+    private StaticItemTypes setCurrentType(String curLine){
         switch (curLine){
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
-                return FolkLoreFishing;
-            }
-            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n":{
+                itemType = FolkLoreNode;
                 return FolkLoreNode;
             }
+            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n":{
+                itemType = FolkLoreFishing;
+                return FolkLoreFishing;
+            }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
+                itemType = RegularNode;
                 return RegularNode;
             }
             case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n":
             case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n": {
+                itemType = UnspoiledNode;
                 return UnspoiledNode;
             }
 
             //Ignore cases below possible fixme?
-            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n":
-            case "Botanist\tMiner\tFisher\n":
-            case "Gathering": {
+            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n"
+            ,"Botanist\tMiner\tFisher\n",
+                    "Gathering":{
                 return Delete;
             }
         }
@@ -65,59 +73,51 @@ public class Formatter {
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String currentLine;
             String csvValues[];
-            String itemType = null;
 
-            while((currentLine = br.readLine()) != null){ // Look thru whole file
+            while((currentLine = br.readLine()) != null){ // Look thru whole file todo create method, accepts current line
                 csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
 
-                switch (getType(currentLine)){ //Cases to find item type
+                switch (setCurrentType(currentLine)){ //Cases to find item type
                     //If header: Set a new ItemType
-                    //Else if ignore, ignore
-                    //Else if data then use current ItemType to load data
-                    case FolkLoreFishing:{
-                        //Then replace the line with blank space
-                        itemType = "FolkLore_Slot_UsedToMake";
+                    //Else if data, use cur item type.
+                    case FolkLoreFishing, FolkLoreNode,RegularNode,UnspoiledNode,Delete:{
 						//todo delete current line
 						
                     }
-                    case FolkLoreNode:{
-                        itemType = "FolkLore_Regular";
 
-                    }
-                    case RegularNode:{
-                        itemType = "Regular";
-                        //delete current line
-                    }
-                    // case"Level\tType\tZone\tCoordinate\tItems\tExtra\n"
-                    case UnspoiledNode:{
-
-                    }
-
-                    case Delete:{
-						
-                        //should replace the line with blank space
-                    }
                     case Ignore:{ //Actual item data NOT a header
+                        StringBuilder stringBuilder = new StringBuilder();
 						switch (itemType){
-                            case "Regular":{
-                                
+                            case RegularNode:{
+                                stringBuilder.append(RegularNode.name());
+                                Regular_Node regularNode = new Regular_Node()
                             }
-                            
-                            
+                            case FolkLoreNode:{
+                                stringBuilder.append(FolkLoreNode.name());
+
+                            }
+                            case FolkLoreFishing:{
+                                stringBuilder.append(FolkLoreFishing.name());
+
+                            }
+                            case UnspoiledNode:{
+                                stringBuilder.append(UnspoiledNode.name());
+
+                            }
                         }
-                        
-                        
+
                         //Replace current line with loaded itemType, start off with itemType then data
                     }
                 }// TODO: 3/17/22 Load each case into a ITEM class, then repalce the current line
 
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+
+
 
     public void SortByItemName(){
 
@@ -136,8 +136,7 @@ public class Formatter {
      */
     public boolean CheckRemoveHeader(String string){
         String DuplicateStandardHeader = "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes";
-        if(string.equals(DuplicateStandardHeader)) return true;
-        return false;
+        return string.equals(DuplicateStandardHeader);
     }//Has O(1) Time as should be called when indexing thru file
 
     public boolean CheckRemoveDuplicate(String string, String prevString){

@@ -1,14 +1,11 @@
-import Scrapper.ScrapAndStore;
-import Scrapper.Wikipages;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+
+import static Scrapper.StaticItemTypes.*;
 
 public class Testing_Ground {
     private static ArrayList<Elements> getTableKey(Document document)
@@ -31,6 +28,8 @@ public class Testing_Ground {
     static final String FileName = "XIVGatherTest.TSV";
 
     public static void main(String[] args) throws IOException {
+        System.out.println(FolkLoreFishing.name());
+
         //todo test itr thru and print each as dataType
 
 

@@ -1,6 +1,6 @@
 package Items;
 
-public class UnspoiledNode extends Regular_Node implements Item {
+public class Unspoiled_Node extends Regular_Node implements Item {
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
     private int slot;
@@ -20,8 +20,8 @@ public class UnspoiledNode extends Regular_Node implements Item {
      * @param star
      * @param info
      */
-    public UnspoiledNode(String time, String item, int slot, String location,
-                         String cords, int level, int star, String info) {
+    public Unspoiled_Node(String time, String item, int slot, String location,
+                          String cords, int level, int star, String info) {
         super(level, location, cords, item, info);
         this.slot = slot;
         this.star = star;

@@ -2,7 +2,7 @@ package Items;
 
 
 //This one doesnt have slot and hass additional info. Else everything else is the same
-public class FolkLoreFishing implements Item{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
+public class FolkLore_Fishing implements Item{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
     private String folkloreTome;
     private String zone;
     private String cords;
@@ -10,8 +10,8 @@ public class FolkLoreFishing implements Item{ //FolkLore_Toem, Time, Item, Slot,
     private String name;
     private String time;
 
-    public FolkLoreFishing(String folkloreTome,String time,String item,
-                           String location, String cords, String additionalInfo){
+    public FolkLore_Fishing(String folkloreTome, String time, String item,
+                            String location, String cords, String additionalInfo){
         this.folkloreTome = folkloreTome;
         this.time = time;
         this.name = item;
