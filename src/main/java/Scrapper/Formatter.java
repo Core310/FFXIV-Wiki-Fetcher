@@ -86,27 +86,27 @@ public class Formatter {
                     }
 
                     case Ignore:{ //Actual item data NOT a header
-                        StringBuilder stringBuilder = new StringBuilder();
-						switch (itemType){
+                        StringBuilder FormattedItem = new StringBuilder();
+						switch (itemType){// TODO: 6/8/22 Use csv values to read in each node
                             case RegularNode:{
-                                stringBuilder.append(RegularNode.name());
-                                Regular_Node regularNode = new Regular_Node()
+                                FormattedItem.append(RegularNode.name());
+                                Regular_Node regularNode = new Regular_Node();
                             }
                             case FolkLoreNode:{
-                                stringBuilder.append(FolkLoreNode.name());
+                                FormattedItem.append(FolkLoreNode.name());
 
                             }
                             case FolkLoreFishing:{
-                                stringBuilder.append(FolkLoreFishing.name());
+                                FormattedItem.append(FolkLoreFishing.name());
 
                             }
                             case UnspoiledNode:{
-                                stringBuilder.append(UnspoiledNode.name());
+                                FormattedItem.append(UnspoiledNode.name());
 
                             }
                         }
 
-                        //Replace current line with loaded itemType, start off with itemType then data
+                        //Finally, replace current line with FormattedItem
                     }
                 }// TODO: 3/17/22 Load each case into a ITEM class, then repalce the current line
 
