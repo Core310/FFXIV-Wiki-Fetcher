@@ -1,6 +1,9 @@
 package Scrapper;
 
+import Items.FolkLore_Fishing;
+import Items.FolkLore_Node;
 import Items.Regular_Node;
+import Items.Unspoiled_Node;
 
 import java.io.*;
 
@@ -71,8 +74,8 @@ public class Formatter {
         try {// TODO: 3/31/22 Use a buffer to read the whole file in, then repalce each line using the buffer
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
-            String currentLine;
-            String csvValues[];
+            String currentLine; //Current line
+            String csvValues[];//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null){ // Look thru whole file todo create method, accepts current line
                 csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
@@ -90,18 +93,21 @@ public class Formatter {
 						switch (itemType){// TODO: 6/8/22 Use csv values to read in each node
                             case RegularNode:{
                                 FormattedItem.append(RegularNode.name());
-                                Regular_Node regularNode = new Regular_Node();
+                                FormattedItem.append(new Regular_Node());
+
                             }
                             case FolkLoreNode:{
                                 FormattedItem.append(FolkLoreNode.name());
-
+                                FormattedItem.append(new FolkLore_Node());
                             }
                             case FolkLoreFishing:{
                                 FormattedItem.append(FolkLoreFishing.name());
+                                FormattedItem.append(new FolkLore_Fishing());
 
                             }
                             case UnspoiledNode:{
                                 FormattedItem.append(UnspoiledNode.name());
+                                FormattedItem.append(new Unspoiled_Node());
 
                             }
                         }
@@ -129,19 +135,9 @@ public class Formatter {
          */
     }
 
-    /**
-     * Removes duplicate values as well as last page headers.
-     * Last page header is found at the end of each wiki page:
-     * "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes"
-     */
-    public boolean CheckRemoveHeader(String string){
-        String DuplicateStandardHeader = "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes,Fishing Locations Fishing Collectables Folklore Nodes";
-        return string.equals(DuplicateStandardHeader);
-    }//Has O(1) Time as should be called when indexing thru file
 
-    public boolean CheckRemoveDuplicate(String string, String prevString){
-        return string.equals(prevString);//returns true if duplicate
-    }
+
+
 
     //setters
 
