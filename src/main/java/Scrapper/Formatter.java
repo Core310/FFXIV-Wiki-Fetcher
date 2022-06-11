@@ -75,7 +75,7 @@ public class Formatter {
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String currentLine; //Current line
-            String csvValues[];//Current line read in as CSV in an array
+            String[] csvValues;//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null){ // Look thru whole file todo create method, accepts current line
                 csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
@@ -90,27 +90,61 @@ public class Formatter {
 
                     case Ignore:{ //Actual item data NOT a header
                         StringBuilder FormattedItem = new StringBuilder();
-						switch (itemType){// TODO: 6/8/22 Use csv values to read in each node
+						switch (itemType){ // TODO: 6/11/22 Put this switch case in a method instead
+                            // TODO: 6/8/22 Use csv values to read in each node
+                            //todo Create formatted toString in each class below
                             case RegularNode:{
-                                FormattedItem.append(RegularNode.name());
-                                FormattedItem.append(new Regular_Node());
+                                FormattedItem.append(RegularNode.name()+",");//Appends the name of the item first
+                                FormattedItem.append(new Regular_Node(
+                                        Integer.parseInt(csvValues[0]),
+                                        csvValues[1],
+                                        csvValues[2],
+                                        csvValues[3],
+                                        csvValues[4],
+                                        csvValues[5]
+                                        ).toString());
 
                             }
                             case FolkLoreNode:{
-                                FormattedItem.append(FolkLoreNode.name());
-                                FormattedItem.append(new FolkLore_Node());
+                                FormattedItem.append(FolkLoreNode.name()+",:");
+                                FormattedItem.append(new FolkLore_Node(
+                                        csvValues[0],
+                                        csvValues[1],
+                                        csvValues[2],
+                                        csvValues[3],
+                                        csvValues[4],
+                                        csvValues[5],
+                                        Integer.parseInt(csvValues[6])
+
+                                ).toString());
                             }
                             case FolkLoreFishing:{
-                                FormattedItem.append(FolkLoreFishing.name());
-                                FormattedItem.append(new FolkLore_Fishing());
+                                FormattedItem.append(FolkLoreFishing.name()+",");
+                                FormattedItem.append(new FolkLore_Fishing(
+                                        csvValues[0],
+                                        csvValues[1],
+                                        csvValues[2],
+                                        csvValues[3],
+                                        csvValues[4],
+                                        csvValues[5]
+                                ).toString());
 
                             }
                             case UnspoiledNode:{
-                                FormattedItem.append(UnspoiledNode.name());
-                                FormattedItem.append(new Unspoiled_Node());
+                                FormattedItem.append(UnspoiledNode.name() +",");
+                                FormattedItem.append(new Unspoiled_Node(
+                                        csvValues[0],
+                                        csvValues[1],
+                                        Integer.parseInt(csvValues[2]),
+                                        csvValues[3],
+                                        csvValues[4],
+                                        Integer.parseInt(csvValues[5]),
+                                        Integer.parseInt(csvValues[6]),
+                                        csvValues[7]
+                                ).toString());
 
                             }
-                        }
+                        } //End of switch case
 
                         //Finally, replace current line with FormattedItem
                     }
