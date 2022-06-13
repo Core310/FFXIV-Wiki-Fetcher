@@ -6,6 +6,7 @@ import Items.Regular_Node;
 import Items.Unspoiled_Node;
 
 import java.io.*;
+import java.rmi.UnexpectedException;
 
 import static Scrapper.StaticItemTypes.*;
 
@@ -13,8 +14,8 @@ import static Scrapper.StaticItemTypes.*;
  * Formats a given argument file for reading. Should be called after the file is written into.
  */
 public class Formatter {
-    private File file;
-    private StaticItemTypes itemType;
+    private File file;//File to read/write
+    private StaticItemTypes itemType; //Current Enum Item Type
 
     /**
      * Default constructor, should be the only one needed.
@@ -25,35 +26,34 @@ public class Formatter {
     }
 
     /**
+     * A helper method for format()
      * Looks at current line, if is a header that describes an item type, sets global var itemType to whatever that current item is.
-     * If it is not an item, such as an ending header, or is data, it will return either Delete, or Ignore.
+     * If it is not an item, such as an ending header, or is data, it will return either Delete, or Ignore where Ignore = data.
      * @param curLine Current line to look at
      * @return One of the StaticItemTypes
      */
     private StaticItemTypes setCurrentType(String curLine){
-        switch (curLine){
-            case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n":{
+        switch (curLine) {
+            case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n" -> {
                 itemType = FolkLoreNode;
                 return FolkLoreNode;
             }
-            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n":{
+            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n" -> {
                 itemType = FolkLoreFishing;
                 return FolkLoreFishing;
             }
-            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n": {
+            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n" -> {
                 itemType = RegularNode;
                 return RegularNode;
             }
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n":
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n": {
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n" -> {
                 itemType = UnspoiledNode;
                 return UnspoiledNode;
             }
 
+
             //Ignore cases below possible fixme?
-            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n"
-            ,"Botanist\tMiner\tFisher\n",
-                    "Gathering":{
+            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n", "Botanist\tMiner\tFisher\n", "Gathering" -> {
                 return Delete;
             }
         }
@@ -61,96 +61,113 @@ public class Formatter {
     }
 
     /**
+     * A helper method to format().
+     * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
+     * @return New line that should replace the old line.
+     */
+    private String formattedItem(String[] csvValues){// TODO: 13/06/2022 fix toString per each ITEM
+        StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
+        switch (itemType){ // TODO: 6/11/22 Put this switch case in a method instead
+            case RegularNode:{
+                FormattedItem.append(RegularNode.name());//Appends the name of the item first
+                FormattedItem.append(",");
+                FormattedItem.append(new Regular_Node(
+                        Integer.parseInt(csvValues[0]),
+                        csvValues[1],
+                        csvValues[2],
+                        csvValues[3],
+                        csvValues[4],
+                        csvValues[5]
+                ).toString());
+
+            }
+            case FolkLoreNode:{
+                FormattedItem.append(FolkLoreNode.name());
+                FormattedItem.append(",");
+                FormattedItem.append(new FolkLore_Node(
+                        csvValues[0],
+                        csvValues[1],
+                        csvValues[2],
+                        csvValues[3],
+                        csvValues[4],
+                        csvValues[5],
+                        Integer.parseInt(csvValues[6])
+
+                ).toString());
+            }
+            case FolkLoreFishing:{
+                FormattedItem.append(FolkLoreFishing.name());
+                FormattedItem.append(",");
+                FormattedItem.append(new FolkLore_Fishing(
+                        csvValues[0],
+                        csvValues[1],
+                        csvValues[2],
+                        csvValues[3],
+                        csvValues[4],
+                        csvValues[5]
+                ).toString());
+
+            }
+            case UnspoiledNode:{
+                FormattedItem.append(UnspoiledNode.name());
+                FormattedItem.append(",");
+                FormattedItem.append(new Unspoiled_Node(
+                        csvValues[0],
+                        csvValues[1],
+                        Integer.parseInt(csvValues[2]),
+                        csvValues[3],
+                        csvValues[4],
+                        Integer.parseInt(csvValues[5]),
+                        Integer.parseInt(csvValues[6]),
+                        csvValues[7]
+                ).toString());
+            }
+        } //End of switch case
+        return FormattedItem.toString();
+    }
+
+    /**
      * Formats the file by:
-     * Goes thru line by line. Searches for table HEADERS in wiki. Deletes these headers and stores the current item type
-     * (determined by header) in an internal variable. Each item from then on is determined from that internal
-     * variable. Eg. Gather header -> each item is now a Gather item. 
+     * Goes through line by line.
+     * [StaticItemTypes Method]
+     * Searches for table HEADERS in wiki which determines the current ITEMTYPE (internal var). This is obtained from the StaticItemTypes method.
+     * Eg. Gather header -> each item is now a Gather item.
+     *
+     * When a data line is found (normal table values) will execute
+     * [obtainItemString Method]
+     * This will format the current line according to the ITEMTYPE.
+     *
+     * Then this method will replace the current line
      *
      * Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
-     * This method creates several duplicate items.
+     * This method creates several duplicate items and has another method called later on.
      */
-    public void format(){
+    public void formatFile(){
         //todo Replace current line in file. Eventually, make all ITEMs in the first column for ease of fuzzy Search
-        try {// TODO: 3/31/22 Use a buffer to read the whole file in, then repalce each line using the buffer
+        try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
 
-            while((currentLine = br.readLine()) != null){ // Look thru whole file todo create method, accepts current line
+            while((currentLine = br.readLine()) != null){
                 csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
 
-                switch (setCurrentType(currentLine)){ //Cases to find item type
+                switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
-                    case FolkLoreFishing, FolkLoreNode,RegularNode,UnspoiledNode,Delete:{
-						//todo delete current line
-						
+                    case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
+                        //todo delete current line
+                        continue;
                     }
-
-                    case Ignore:{ //Actual item data NOT a header
-                        StringBuilder FormattedItem = new StringBuilder();
-						switch (itemType){ // TODO: 6/11/22 Put this switch case in a method instead
-                            // TODO: 6/8/22 Use csv values to read in each node
-                            //todo Create formatted toString in each class below
-                            case RegularNode:{
-                                FormattedItem.append(RegularNode.name()+",");//Appends the name of the item first
-                                FormattedItem.append(new Regular_Node(
-                                        Integer.parseInt(csvValues[0]),
-                                        csvValues[1],
-                                        csvValues[2],
-                                        csvValues[3],
-                                        csvValues[4],
-                                        csvValues[5]
-                                        ).toString());
-
-                            }
-                            case FolkLoreNode:{
-                                FormattedItem.append(FolkLoreNode.name()+",:");
-                                FormattedItem.append(new FolkLore_Node(
-                                        csvValues[0],
-                                        csvValues[1],
-                                        csvValues[2],
-                                        csvValues[3],
-                                        csvValues[4],
-                                        csvValues[5],
-                                        Integer.parseInt(csvValues[6])
-
-                                ).toString());
-                            }
-                            case FolkLoreFishing:{
-                                FormattedItem.append(FolkLoreFishing.name()+",");
-                                FormattedItem.append(new FolkLore_Fishing(
-                                        csvValues[0],
-                                        csvValues[1],
-                                        csvValues[2],
-                                        csvValues[3],
-                                        csvValues[4],
-                                        csvValues[5]
-                                ).toString());
-
-                            }
-                            case UnspoiledNode:{
-                                FormattedItem.append(UnspoiledNode.name() +",");
-                                FormattedItem.append(new Unspoiled_Node(
-                                        csvValues[0],
-                                        csvValues[1],
-                                        Integer.parseInt(csvValues[2]),
-                                        csvValues[3],
-                                        csvValues[4],
-                                        Integer.parseInt(csvValues[5]),
-                                        Integer.parseInt(csvValues[6]),
-                                        csvValues[7]
-                                ).toString());
-
-                            }
-                        } //End of switch case
-
-                        //Finally, replace current line with FormattedItem
+                    case Ignore -> { //Actual item data NOT a header
+                        formattedItem(csvValues);
+                        //todo Finally, replace current line with the FormattedItem string
+                        continue;
                     }
-                }// TODO: 3/17/22 Load each case into a ITEM class, then repalce the current line
-
-            }
+                }//End of switch statement
+                throw new UnexpectedException("No item type was assigned!"); //An item type should always be caught by the switch case
+            }//End of while statement
         } catch (IOException e) {
             e.printStackTrace();
         }
