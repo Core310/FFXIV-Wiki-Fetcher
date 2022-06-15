@@ -1,6 +1,6 @@
 package Items;
 
-public class FolkLore_Node extends FolkLore_Fishing implements Item{
+public class FolkLore_Node extends FolkLore_Fishing{
 
     private int slot;
     public FolkLore_Node(String folkloreTome, String time, String item,
@@ -10,15 +10,4 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
 
     }
 
-
-
-
-
-
-
-    //getters below
-
-    public int getSlot() {
-        return slot;
-    }
 }

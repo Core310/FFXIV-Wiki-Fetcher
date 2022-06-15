@@ -1,11 +1,11 @@
 package Items;
 
-public class Unspoiled_Node extends Regular_Node implements Item {
+public class Unspoiled_Node extends Regular_Node  {
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
     private int slot;
     private int star;
-    String time;
+    private String time;
 
     /**
      * Default and (should be) only constructor for Unspoiled.
@@ -22,25 +22,10 @@ public class Unspoiled_Node extends Regular_Node implements Item {
      */
     public Unspoiled_Node(String time, String item, int slot, String location,
                           String cords, int level, int star, String info) {
-        super(level, location, cords, item, info);
+        super(location,cords,item,level,info);
         this.slot = slot;
         this.star = star;
-
-    }
-    //todo add construcotr that doesnt include level somehow?
-
-    //Getters
-
-
-    public String getTime() {
-        return time;
+        this.time = time;
     }
 
-    public int getStar() {
-        return star;
-    }
-
-    public int getSlot() {
-        return slot;
-    }
 }

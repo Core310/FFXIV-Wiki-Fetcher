@@ -77,7 +77,6 @@ public class ScrapAndStore {
                 String elementText = String.join("\t",elements.eachText());//Grabs current arrayIndex and separates using delim
                 fileWriter.write(elementText);//Current Table cell
                 fileWriter.write("\n");//Line separator
-
             }
     }
     /**

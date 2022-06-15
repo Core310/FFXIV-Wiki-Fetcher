@@ -67,7 +67,7 @@ public class Formatter {
      */
     private String formattedItem(String[] csvValues){// TODO: 13/06/2022 fix toString per each ITEM
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
-        switch (itemType){ // TODO: 6/11/22 Put this switch case in a method instead
+        switch (itemType){
             case RegularNode:{
                 FormattedItem.append(RegularNode.name());//Appends the name of the item first
                 FormattedItem.append(",");
@@ -109,18 +109,22 @@ public class Formatter {
 
             }
             case UnspoiledNode:{
+                // TODO: 6/15/2022 How do I deal with a no level value? Sim what abt if no
+
+
                 FormattedItem.append(UnspoiledNode.name());
                 FormattedItem.append(",");
                 FormattedItem.append(new Unspoiled_Node(
-                        csvValues[0],
-                        csvValues[1],
-                        Integer.parseInt(csvValues[2]),
-                        csvValues[3],
-                        csvValues[4],
-                        Integer.parseInt(csvValues[5]),
+                        csvValues[0],//Time
+                        csvValues[1],//Item
+                        Integer.parseInt(csvValues[2]),//slot
+                        csvValues[3],//location
+                        csvValues[4],//cords
+                        Integer.parseInt(csvValues[5]), //level
                         Integer.parseInt(csvValues[6]),
                         csvValues[7]
-                ).toString());
+                )
+                        .toString());
             }
         } //End of switch case
         return FormattedItem.toString();
