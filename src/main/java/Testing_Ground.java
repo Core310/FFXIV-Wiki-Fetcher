@@ -35,10 +35,6 @@ public class Testing_Ground {
 
         //todo test itr thru and print each as dataType
 
-
-
-
-
                       File test = new File(FileName);
                       FileWriter fileWriter = new FileWriter(test,false);
                      Document doc ;//jsoup doc

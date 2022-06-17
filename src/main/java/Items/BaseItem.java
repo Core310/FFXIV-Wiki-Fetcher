@@ -3,6 +3,10 @@ package Items;
 /**
  * The constructor should NEVER be called.
  * This class is only used for overriding and inheritance.
+ *
+ * The first 3 columns should be as follows: itemName,zone,cords
+ *
+ * All methods/vars are either private or protected.
  */
 public abstract class BaseItem {
        private String zone; //aka location
@@ -26,19 +30,19 @@ public abstract class BaseItem {
        }
 
        //Getters are only needed on parent classes for the toString methods
-    public String getCords() {
+    protected String getCords() {
         return cords;
     }
 
-    public String getExtra() {
+    protected String getExtra() {
         return extra;
     }
 
-    public String getItemName() {
+    protected String getItemName() {
         return itemName;
     }
 
-    public String getZone() {
+    protected String getZone() {
         return zone;
     }
 }
