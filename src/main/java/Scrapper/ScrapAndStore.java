@@ -21,8 +21,8 @@ import java.util.ArrayList;
 public class ScrapAndStore {
     private ArrayList<Elements> TableValues;//Table values
     private Document ParsedPage;//Current page parsed
-    private File file;
-    private FileWriter fileWriter;
+    private final File file;
+    private final FileWriter fileWriter;
 
     /**
      * After creating this object, you must set the doc (setParsedPage)

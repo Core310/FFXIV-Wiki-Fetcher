@@ -8,11 +8,12 @@ package Items;
  *
  * All methods/vars are either private or protected.
  */
+@SuppressWarnings("all")
 public abstract class BaseItem {
-       private String zone; //aka location
-       private String cords;
-       private String itemName;
-       private String extra;
+       private final String zone; //aka location
+       private final String cords;
+       private final String itemName;
+       private final String extra;
 
        /**
         * Base constructor that is used for inheritance on its children.

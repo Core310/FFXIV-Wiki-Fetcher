@@ -6,8 +6,8 @@ import java.util.ArrayList;
  * All methods/vars are either private or protected.
  */
 public class ItemOutputFormatter {
-    private ArrayList<String> arrayList = new ArrayList<>();
-    private String delimiter = "\t";
+    private final ArrayList<String> arrayList = new ArrayList<>();
+    private final String delimiter = "\t";
 
     /**
      * Used for toString of the ITEMs in this module.

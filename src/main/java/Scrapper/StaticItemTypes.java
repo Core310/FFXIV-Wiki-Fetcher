@@ -11,6 +11,6 @@ public enum StaticItemTypes {
     RegularNode,
     UnspoiledNode,
     Delete,
-    Ignore; //Ignore is for Data
+    Ignore //Ignore is for Data
 
 }
