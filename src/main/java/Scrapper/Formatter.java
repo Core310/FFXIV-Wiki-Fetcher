@@ -178,10 +178,7 @@ public class Formatter {
     }
 
 
-
-
     public void SortByItemName(){
-
 
         /*
         //should sort file by item name, MUST be run after being formatted.
@@ -189,10 +186,6 @@ public class Formatter {
         //up a massivea mnt of memory? It's only run once so shuld b fine?
          */
     }
-
-
-
-
 
     //setters
 

@@ -24,5 +24,4 @@ public class main {
         fileWriter.close();
         //that SHOULD be all the code in main file as file is made and sorted and ready to be read.
     }
-
 }
