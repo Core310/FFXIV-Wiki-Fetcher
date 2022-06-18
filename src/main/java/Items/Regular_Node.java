@@ -4,7 +4,7 @@ package Items;
  * Ussed for regular node locations
  */
 public class Regular_Node extends BaseItem {
-    private int level;
+    private final int level;
     private String type;
 
     /**
@@ -35,6 +35,7 @@ public class Regular_Node extends BaseItem {
     /**
      * Used as a super constructor for Unspoiled node (as it doesn't take Type as a param)
      * So only diff than public constructor is that has no Type argument.
+     * Type argument is set to "n/a" by default since there is no type
      *
      * @param zone
      * @param cords
@@ -51,6 +52,14 @@ public class Regular_Node extends BaseItem {
     ){
         super(zone,cords,item,extra);
         this.level = level;
+        type = "n/a";
     }
 
+    @Override
+    public String toString() {
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
+        itemOutputFormatter.addElement(String.valueOf(level));
+        itemOutputFormatter.addElement(type);
+        return itemOutputFormatter.toString();
+    }
 }

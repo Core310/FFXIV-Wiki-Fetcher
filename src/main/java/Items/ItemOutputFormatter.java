@@ -10,10 +10,17 @@ public class ItemOutputFormatter {
     private final String delimiter = "\t";
 
     /**
-     * Used for toString of the ITEMs in this module.
+     * Params are for normalization and declutter. All params are shared by every item and will appear FIRST in their listing.
+     * @param itemName
+     * @param zone
+     * @param cords
+     * @param extra
      */
-    protected ItemOutputFormatter(){
-
+    protected ItemOutputFormatter(String itemName, String zone, String cords,String extra){
+        arrayList.add(itemName);
+        arrayList.add(zone);
+        arrayList.add(cords);
+        arrayList.add(extra);
     }
 
     protected void addElement(String element){
@@ -31,7 +38,7 @@ public class ItemOutputFormatter {
         for (String element:
              arrayList) {
             stringBuilder.append(element);
-            stringBuilder.append(delimiter);//Appends whatever is the desired delimiter todo this is bad pratice fixme
+            stringBuilder.append(delimiter);//Appends whatever is the desired delimiter
         }
         return stringBuilder.toString();
     }

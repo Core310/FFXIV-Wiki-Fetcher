@@ -56,7 +56,7 @@ public class MainFuzzy { //fixme refractor to take out
 
             if(currentStack.empty()){
                 similarityThreshold--;
-                stackCounter++;
+
                 SearchItem(SearchKey); //If stack is emptty
             }//fixme, what if executes first recur and then this is executed (if stack geq
             // 3 on last run and leq0 on this run.
@@ -65,7 +65,7 @@ public class MainFuzzy { //fixme refractor to take out
             //Wrapup bits below
             br.close();
             if(currentStack.size() > 5) return "Too vague!"; //Final case to see if input is too vague.
-            return stringBuilder.toString(); //todo wrap up the stack into a final output string
+            return ; //todo wrap up the stack into a final output string
 
         } catch (IOException e) {
             throw new RuntimeException(e);
