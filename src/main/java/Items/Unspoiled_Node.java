@@ -28,4 +28,14 @@ public class Unspoiled_Node extends Regular_Node  {
         this.time = time;
     }
 
+    @Override
+    public String toString() {
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
+        itemOutputFormatter.addElement(String.valueOf(getLevel()));
+        itemOutputFormatter.addElement(getType());
+        itemOutputFormatter.addElement(String.valueOf(slot));
+        itemOutputFormatter.addElement(String.valueOf(star));
+        itemOutputFormatter.addElement(time);
+        return itemOutputFormatter.toString();
+    }
 }

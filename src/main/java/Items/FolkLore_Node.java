@@ -1,5 +1,9 @@
 package Items;
 
+/**
+ * Only difference is an int, slot
+ * extends FolkLoreFishing as its base class
+ */
 public class FolkLore_Node extends FolkLore_Fishing{
 
     private final int slot;
@@ -10,6 +14,10 @@ public class FolkLore_Node extends FolkLore_Fishing{
 
     }
 
+    /**
+     *
+     * @return Output format as follows after standard items: time,folkloreTome, slot
+     */
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());

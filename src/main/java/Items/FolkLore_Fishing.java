@@ -25,10 +25,9 @@ public class FolkLore_Fishing extends BaseItem{ //FolkLore_Toem, Time, Item, Slo
     protected String getTime() {
         return time;
     }
-
     /**
-     * A customized toString method to normalize the first 3 rows in the file
-     * @return Formatted Item
+     *
+     * @return Output format as follows after standard items: time,folkLore
      */
     @Override
     public String toString() {

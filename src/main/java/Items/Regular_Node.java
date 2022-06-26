@@ -55,11 +55,24 @@ public class Regular_Node extends BaseItem {
         type = "n/a";
     }
 
+
+    /**
+     *
+     * @return Output format as follows after standard items: level,type
+     */
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
         itemOutputFormatter.addElement(String.valueOf(level));
         itemOutputFormatter.addElement(type);
         return itemOutputFormatter.toString();
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public String getType() {
+        return type;
     }
 }
