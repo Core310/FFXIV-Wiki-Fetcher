@@ -11,7 +11,7 @@ import java.rmi.UnexpectedException;
 import static Scrapper.StaticItemTypes.*;
 
 /**
- * Formats a given argument file for reading. Should be called after the file is written into.
+ * Puts an ITEM tag infront of each item for ease of reading.
  */
 public class Formatter {
     private File file;//File to read/write
@@ -65,8 +65,9 @@ public class Formatter {
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
      */
-    private String formattedItem(String[] csvValues){// TODO: 13/06/2022 fix toString per each ITEM
+    private String formattedItem(String[] csvValues){
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
+
         switch (itemType){
             case RegularNode:{
                 FormattedItem.append(RegularNode.name());//Appends the name of the item first
@@ -109,8 +110,11 @@ public class Formatter {
 
             }
             case UnspoiledNode:{
+                int level;
                 // TODO: 6/15/2022 How do I deal with a no level value? Sim what abt if no
+                if(csvValues[]){ //If no level value then put -1
 
+                }
 
                 FormattedItem.append(UnspoiledNode.name());
                 FormattedItem.append(",");
@@ -123,8 +127,8 @@ public class Formatter {
                         Integer.parseInt(csvValues[5]), //level
                         Integer.parseInt(csvValues[6]),
                         csvValues[7]
-                )
-                        .toString());
+                ).toString()
+                );
             }
         } //End of switch case
         return FormattedItem.toString();

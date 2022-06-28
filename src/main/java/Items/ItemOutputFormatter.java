@@ -11,10 +11,6 @@ public class ItemOutputFormatter {
 
     /**
      * Params are for normalization and declutter. All params are shared by every item and will appear FIRST in their listing.
-     * @param itemName
-     * @param zone
-     * @param cords
-     * @param extra
      */
     protected ItemOutputFormatter(String itemName, String zone, String cords,String extra){
         arrayList.add(itemName);
