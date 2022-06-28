@@ -35,16 +35,13 @@ public class MainFuzzy { //fixme refractor to take out
      */
     public String SearchItem(String SearchKey){
         try {
-            //This isn't a linked list b/c I only need the cur and prev stack
-
             String curLine;
             BufferedReader br = new BufferedReader(new FileReader(file));
 
             while ((curLine = br.readLine()) != null){
-                //If curLine and ratio of SearchKey does ! meet similarityThreshold
+                //Base case If curLine and ratio of SearchKey does ! meet similarityThreshold
                 if(FuzzySearch.ratio(curLine,SearchKey) < similarityThreshold)
                     continue;
-
 
                 // Edge case: If similarityThreshold is 100, and more than 1 value is returned there must be a dupe
                 else if (similarityThreshold == 100 && currentStack.size() >= 2)
@@ -52,19 +49,21 @@ public class MainFuzzy { //fixme refractor to take out
 
                 currentStack.push(curLine);
             } //end of while
+            br.close();
+            //Start of end case if states
             if(similarityThreshold <=90) return "Too vague!"; //Base case if string is too vague and doesnt match any.
 
             if(currentStack.empty()){
-                similarityThreshold--;
-
-                SearchItem(SearchKey); //If stack is emptty
+                if(prevStack.empty()){
+                    similarityThreshold--;
+                    currentStack = prevStack;
+                    currentStack.clear();
+                    SearchItem(SearchKey); //If stack is emptty
+                }
+                else if(!prevStack.empty()) return prevStack;
             }//fixme, what if executes first recur and then this is executed (if stack geq
             // 3 on last run and leq0 on this run.
 
-
-            //Wrapup bits below
-            br.close();
-            if(currentStack.size() > 5) return "Too vague!"; //Final case to see if input is too vague.
             return ; //todo wrap up the stack into a final output string
 
         } catch (IOException e) {
