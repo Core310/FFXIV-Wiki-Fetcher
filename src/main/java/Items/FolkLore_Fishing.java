@@ -6,16 +6,18 @@ public class FolkLore_Fishing extends BaseItem{ //FolkLore_Toem, Time, Item, Slo
     private final String folkloreTome;
     private final String time;
 
-    public FolkLore_Fishing(String folkloreTome,
-                            String time,
-                            String item,
-                            String location,
-                            String cords,
-                            String additionalInfo
+    public FolkLore_Fishing(
+            String item,
+            String location,
+            String cords,
+            String additionalInfo,//Base Item stuff
+
+            String time,
+            String folkloreTome
     ){
         super(location,cords,item,additionalInfo);
-        this.folkloreTome = folkloreTome;
         this.time = time;
+        this.folkloreTome = folkloreTome;
     }
 
     protected String getFolkloreTome() {

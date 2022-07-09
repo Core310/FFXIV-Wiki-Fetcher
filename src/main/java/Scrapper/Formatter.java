@@ -52,7 +52,7 @@ public class Formatter {
             }
 
 
-            //Ignore cases below possible fixme?
+            //Ignore cases below possible checkme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n", "Botanist\tMiner\tFisher\n", "Gathering" -> {
                 return Delete;
             }
@@ -65,7 +65,7 @@ public class Formatter {
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
      */
-    private String formattedItem(String[] csvValues){
+    private String formattedItem(String[] csvValues){//fixme
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
 
         switch (itemType){
@@ -74,11 +74,11 @@ public class Formatter {
                 FormattedItem.append(",");
                 FormattedItem.append(new Regular_Node(
                         Integer.parseInt(csvValues[0]),
-                        csvValues[1],
-                        csvValues[2],
-                        csvValues[3],
-                        csvValues[4],
-                        csvValues[5]
+                        csvValues[],
+                        csvValues[],
+                        csvValues[],
+                        csvValues[],
+                        csvValues[]
                 ).toString());
 
             }

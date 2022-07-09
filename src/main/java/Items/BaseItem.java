@@ -23,11 +23,11 @@ public abstract class BaseItem {
         * @param itemName
         * @param extra
         */
-       protected BaseItem(String zone, String cords, String itemName, String extra){
-              this.zone = zone;
-              this.cords = cords;
-              this.itemName = itemName;
-              this.extra = extra;
+       protected BaseItem(String itemName, String zone, String cords, String extra){
+           this.itemName = itemName;
+           this.zone = zone;
+           this.cords = cords;
+           this.extra = extra;
        }
 
        //Getters are only needed on parent classes for the toString methods

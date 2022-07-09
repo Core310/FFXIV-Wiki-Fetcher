@@ -7,8 +7,16 @@ package Items;
 public class FolkLore_Node extends FolkLore_Fishing{
 
     private final int slot;
-    public FolkLore_Node(String folkloreTome, String time, String item,
-                         String location, String cords, String additionalInfo, int slot){
+    public FolkLore_Node(
+            String item,
+            String location,
+            String cords,
+            String additionalInfo, //Base Item stuff
+
+            String folkloreTome,
+            String time,
+            int slot
+    ){
         super(folkloreTome,time,item,location,cords,additionalInfo);
         this.slot = slot;
 

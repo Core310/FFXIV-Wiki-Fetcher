@@ -11,21 +11,22 @@ public class Regular_Node extends BaseItem {
      * Default constructor. All arguments map to internal variables.
      * This covers the classes BNT and Miner.
      * When there is more than 1 item, make another of this item (creates mass duplicates).
-     * @param level
-     * @param type
+     * @param item
      * @param zone
      * @param cords
-     * @param item
      * @param extra
+     * @param level
+     * @param type
      */
     public Regular_Node(
-            int level,
-            String type,
-            String zone,
-            String cords,
             String item,//When Item is loaded in, if a comma
             //is detected, the Formatter should make several items
-            String extra
+            String zone,
+            String cords,
+            String extra, //Base Items
+
+            int level,
+            String type
             ){
         super(zone,cords,item,extra);
         this.level = level;
@@ -36,19 +37,20 @@ public class Regular_Node extends BaseItem {
      * Used as a super constructor for Unspoiled node (as it doesn't take Type as a param)
      * So only diff than public constructor is that has no Type argument.
      * Type argument is set to "n/a" by default since there is no type
-     *
+     * @param item
      * @param zone
      * @param cords
-     * @param item
      * @param extra
+     * @param level
      */
     protected Regular_Node(
+            String item,//When Item is loaded in, if a comma
+            //is detected, the Formatter should make several items
             String zone,
             String cords,
-            String item,//When Item is loaded in, if a comma
-            //is detected, the Formatter should make
-            int level,
-            String extra
+            String extra, //Base Items
+
+            int level
     ){
         super(zone,cords,item,extra);
         this.level = level;

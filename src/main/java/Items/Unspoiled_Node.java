@@ -8,21 +8,30 @@ public class Unspoiled_Node extends Regular_Node  {
     private String time;
 
     /**
-     * Default and (should be) only constructor for Unspoiled.
-     * If no level is found, input -1 for the level argument.
-     * todo check if null works instead of -1.
-     * @param time
+     *      * Default and (should be) only constructor for Unspoiled.
+     *      * If no level is found, input -1 for the level argument.
+     *      * todo check if null works instead of -1.
      * @param item
-     * @param slot
      * @param location
      * @param cords
+     * @param info
+     * @param time
+     * @param slot
      * @param level
      * @param star
-     * @param info
      */
-    public Unspoiled_Node(String time, String item, int slot, String location,
-                          String cords, int level, int star, String info) {
-        super(location,cords,item,level,info);
+    public Unspoiled_Node(
+            String item,
+            String location,
+            String cords,
+            String info,//Base Items
+
+            String time,
+            int slot,
+            int level,
+            int star
+    ) {
+        super(item,location,cords,info,level);
         this.slot = slot;
         this.star = star;
         this.time = time;
