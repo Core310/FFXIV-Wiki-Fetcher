@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
+/**
+ * Takes the first item in a TSV file to compare it to in findAllClosestValues
+ */
 public class FindItem {
     private final File file;
     private final ArrayList<String> currentArray = new ArrayList<>();
@@ -16,7 +19,7 @@ public class FindItem {
         this.file = file;
     }
 
-    public ArrayList<String> findAllCloestValues(String ItemName) {
+    public ArrayList<String> findAllClosestValues(String ItemName) {
         Scanner scanner;
         try {
             scanner = new Scanner(file);
