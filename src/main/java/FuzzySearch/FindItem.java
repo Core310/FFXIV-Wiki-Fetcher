@@ -8,7 +8,8 @@ import java.util.Objects;
 import java.util.Scanner;
 
 /**
- * Takes the first item in a TSV file to compare it to in findAllClosestValues
+ * After the main file has been loaded with data and formatted, this class is used to find a certain item.
+ * It has a default constructor to assign a file.
  */
 public class FindItem {
     private final File file;
@@ -19,6 +20,10 @@ public class FindItem {
         this.file = file;
     }
 
+    /**
+     * @param ItemName The item that is being searched for.
+     * @return All values which have the same ratio to ItemName
+     */
     public ArrayList<String> findAllClosestValues(String ItemName) {
         Scanner scanner;
         try {
@@ -29,7 +34,7 @@ public class FindItem {
         String curLine;
         String curItem;
         int currentRatio;
-        while (scanner.hasNext()){
+        while (scanner.hasNextLine()){
             curLine = scanner.nextLine();
             if(Objects.equals(curLine, "")) continue; //base case, if the line is null
             curItem = curLine.split("\t", -1)[0];//0 marks the position at which an item name should be at
