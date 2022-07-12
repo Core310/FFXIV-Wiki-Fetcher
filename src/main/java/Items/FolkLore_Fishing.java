@@ -11,13 +11,12 @@ public class FolkLore_Fishing extends BaseItem{ //FolkLore_Toem, Time, Item, Slo
             String location,
             String cords,
             String additionalInfo,//Base Item stuff
-
-            String time,
-            String folkloreTome
+            String folkloreTome,
+            String time
     ){
         super(location,cords,item,additionalInfo);
-        this.time = time;
         this.folkloreTome = folkloreTome;
+        this.time = time;
     }
 
     protected String getFolkloreTome() {

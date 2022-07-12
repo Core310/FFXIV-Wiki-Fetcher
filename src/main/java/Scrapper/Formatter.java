@@ -50,8 +50,6 @@ public class Formatter {
                 itemType = UnspoiledNode;
                 return UnspoiledNode;
             }
-
-
             //Ignore cases below possible checkme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n", "Botanist\tMiner\tFisher\n", "Gathering" -> {
                 return Delete;
@@ -65,68 +63,92 @@ public class Formatter {
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
      */
-    private String formattedItem(String[] csvValues){//fixme
+    private String formattedItem(String[] csvValues){//I should work idk
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
 
         switch (itemType){
-            case RegularNode:{
-                FormattedItem.append(RegularNode.name());//Appends the name of the item first
-                FormattedItem.append(",");
-                FormattedItem.append(new Regular_Node(
-                        Integer.parseInt(csvValues[0]),
-                        csvValues[],
-                        csvValues[],
-                        csvValues[],
-                        csvValues[],
-                        csvValues[]
-                ).toString());
+            case RegularNode:{// TODO: 7/12/2022
+                int numberOfItems = csvValues[4].split(",").length;
+                if(numberOfItems == 1){
+                    FormattedItem.append(RegularNode.name());//Appends the name of the item first
+                    FormattedItem.append("\t");
+                    FormattedItem.append(new Regular_Node(
+                            csvValues[4],//Item
+                            csvValues[2],//Zone
+                            csvValues[3],//Cords
+                            csvValues[5],//Extra
+                            //End of baseItem
+                            Integer.parseInt(csvValues[0]),//Level
+                            csvValues[1]//Type
+                    ).toString());
+                }
+                else {
+                    //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
+
+                    for (int i = 0; i < numberOfItems; i++) {
+                        FormattedItem.append(RegularNode.name());//Appends the name of the item first
+                        FormattedItem.append("\t");
+                        FormattedItem.append(new Regular_Node(
+                                csvValues[i],//Item
+                                csvValues[2],//Zone
+                                csvValues[3],//Cords
+                                csvValues[5],//Extra
+                                //End of baseItem
+                                Integer.parseInt(csvValues[0]),//Level
+                                csvValues[1]//Type
+                        ).toString());
+                        FormattedItem.append("\n"); // This should work but will likely be a future problem to look @
+                    }
+                }
+
 
             }
             case FolkLoreNode:{
                 FormattedItem.append(FolkLoreNode.name());
-                FormattedItem.append(",");
+                FormattedItem.append("\t");
                 FormattedItem.append(new FolkLore_Node(
-                        csvValues[0],
-                        csvValues[1],
-                        csvValues[2],
-                        csvValues[3],
-                        csvValues[4],
-                        csvValues[5],
-                        Integer.parseInt(csvValues[6])
+                        csvValues[2],//Item
+                        csvValues[4],//Zone
+                        csvValues[5],//Cords
+                        csvValues[6],//Extra
+                        //End of baseItem
+                        csvValues[0],//FolkloreTome
+                        csvValues[1],//Time
+                        Integer.parseInt(csvValues[3])//Slot
 
                 ).toString());
             }
             case FolkLoreFishing:{
                 FormattedItem.append(FolkLoreFishing.name());
-                FormattedItem.append(",");
+                FormattedItem.append("\t");
                 FormattedItem.append(new FolkLore_Fishing(
-                        csvValues[0],
-                        csvValues[1],
-                        csvValues[2],
-                        csvValues[3],
-                        csvValues[4],
-                        csvValues[5]
+                        csvValues[2],//Item
+                        csvValues[3],//Zone
+                        csvValues[4],//Cords
+                        csvValues[5],//Extra
+                        //End of baseItem
+                        csvValues[0],////FolkloreTome
+                        csvValues[1]//Time
                 ).toString());
 
             }
             case UnspoiledNode:{
-                int level;
-                // TODO: 6/15/2022 How do I deal with a no level value? Sim what abt if no
-                if(csvValues[]){ //If no level value then put -1
-
-                }
+                if(csvValues[5] == null){ // FIXME: 7/12/2022 This likely wont work
+                    csvValues[5] = String.valueOf(0);
+                }//Dealing with Level value being null
 
                 FormattedItem.append(UnspoiledNode.name());
-                FormattedItem.append(",");
+                FormattedItem.append("\t");
                 FormattedItem.append(new Unspoiled_Node(
-                        csvValues[0],//Time
                         csvValues[1],//Item
-                        Integer.parseInt(csvValues[2]),//slot
-                        csvValues[3],//location
-                        csvValues[4],//cords
-                        Integer.parseInt(csvValues[5]), //level
-                        Integer.parseInt(csvValues[6]),
-                        csvValues[7]
+                        csvValues[3],//Zone
+                        csvValues[4], //Cords
+                        csvValues[7],//Extra
+                        //End of baseItem
+                        csvValues[0],//Time
+                        Integer.parseInt(csvValues[2]),//Slot
+                        Integer.parseInt(csvValues[5]),//level
+                        csvValues[6].length() //star
                 ).toString()
                 );
             }
@@ -159,7 +181,7 @@ public class Formatter {
             String[] csvValues;//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null){
-                csvValues = currentLine.split("\t"); //Load all values into an array. Used to normalize iteems
+                csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize iteems
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
@@ -199,13 +221,5 @@ public class Formatter {
      */
     public void setFile(File file) {
         this.file = file;
-    }
-
-    /**
-     * Gets current file running
-     * @return Current instanced FILE object.
-     */
-    public File getFile() {
-        return file;
     }
 }
