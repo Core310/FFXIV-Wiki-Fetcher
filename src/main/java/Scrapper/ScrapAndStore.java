@@ -64,7 +64,6 @@ public class ScrapAndStore {
             //For some reason, After the th is stored, an extra line is added in the regular file.
             Table.add(td);
         }
-
         return Table;
     }
 
