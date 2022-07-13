@@ -197,7 +197,7 @@ public class Formatter {
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
 
-            while((currentLine = br.readLine()) != null) {// FIXME: 7/13/2022 This never runs
+            while((currentLine = br.readLine()) != null) {
                 System.out.println(currentLine);
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
 

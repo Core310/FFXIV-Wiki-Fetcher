@@ -60,8 +60,8 @@ public class ScrapAndStore {
             Elements td = element.select("td");
             if(th.text().length() > 1){
                 Table.add(th);
-            }
-            //For some reason, After the th is stored, an extra line is added in the regular file,this removes that extra line I think
+            }//Removes extra line (see below)
+            //For some reason, After the th is stored, an extra line is added in the regular file.
             Table.add(td);
         }
 
