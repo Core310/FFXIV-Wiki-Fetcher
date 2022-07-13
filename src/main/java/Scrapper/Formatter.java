@@ -58,7 +58,7 @@ public class Formatter {
                 return Delete;
             }
         }
-        return Ignore;// FIXME: 7/13/2022 This keeps running instead of finding the headrs
+        return Ignore;
     }
 
     /**
@@ -66,7 +66,7 @@ public class Formatter {
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
      */
-    private String formattedItem(String[] csvValues){//I should work idk
+    private String formattedItem(String[] csvValues){// FIXME: 7/13/2022
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
 
         switch (itemType){
@@ -104,8 +104,6 @@ public class Formatter {
                         FormattedItem.append("\n"); // This should work but will likely be a future problem to look @
                     }
                 }
-
-
             }
             case FolkLoreNode:{
                 FormattedItem.append(FolkLoreNode.name());
@@ -137,10 +135,6 @@ public class Formatter {
 
             }
             case UnspoiledNode:{
-                if(csvValues[5] == null){ // FIXME: 7/12/2022 This likely wont work
-                    csvValues[5] = String.valueOf(0);
-                }//Dealing with Level value being null
-
                 FormattedItem.append(UnspoiledNode.name());
                 FormattedItem.append("\t");
                 FormattedItem.append(new Unspoiled_Node(
@@ -158,7 +152,6 @@ public class Formatter {
             }
             case null:
                 try {
-                    System.out.println(itemType);
                     throw new UnexpectedException("There should always be an item type assigned");
                 } catch (UnexpectedException e) {
                     throw new RuntimeException(e);
@@ -166,9 +159,9 @@ public class Formatter {
             case Delete:
             case Ignore:
                 try {
-                    throw new UnexpectedException("These items should not appear");
+                    throw new UnexpectedException("These items should not appear here, check the main formatter method.");
                 } catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
+                     throw new RuntimeException(e);
                 }
         } //End of switch case
         return FormattedItem.toString();
