@@ -31,19 +31,20 @@ public class Formatter {
      */
     private StaticItemTypes setCurrentType(String curLine){
         switch (curLine) {
-            case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make\n" -> {
+            case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
                 itemType = FolkLoreNode;
                 return FolkLoreNode;
             }
-            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info\n" -> {
+            case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info" -> {
                 itemType = FolkLoreFishing;
                 return FolkLoreFishing;
             }
-            case "Level\tType\tZone\tCoordinate\tItems\tExtra\n" -> {
+            case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
                 itemType = RegularNode;
                 return RegularNode;
             }
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar\n" -> {
+
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
                 itemType = UnspoiledNode;
                 return UnspoiledNode;
             }
@@ -151,13 +152,17 @@ public class Formatter {
             }
             case null:
                 try {
-                    throw new UnexpectedException("There sohuld always be an item type assigned");
+                    throw new UnexpectedException("There should always be an item type assigned");
                 } catch (UnexpectedException e) {
                     throw new RuntimeException(e);
                 }
             case Delete:
             case Ignore:
-                break;
+                try {
+                    throw new UnexpectedException("These items should not appear");
+                } catch (UnexpectedException e) {
+                    throw new RuntimeException(e);
+                }
         } //End of switch case
         return FormattedItem.toString();
     }
@@ -184,11 +189,9 @@ public class Formatter {
             BufferedWriter bw = new BufferedWriter(new FileWriter(file,true));
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
-            System.out.println("Format File runs");
-
 
             while((currentLine = br.readLine()) != null) {// FIXME: 7/13/2022 This never runs
-                System.out.println("Iran");
+                System.out.println(currentLine);
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize iteems
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
@@ -197,14 +200,12 @@ public class Formatter {
                     case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
                         bw.write("");
                         //todo delete current line
-                        continue;
                     }
                     case Ignore -> { //Actual item data NOT a header
                         bw.write(formattedItem(csvValues));
-                        continue;
                     }
+                    case default -> {throw new UnexpectedException("All cases should have been covered");}
                 }//End of switch statement
-                throw new UnexpectedException("No item type was assigned!"); //An item type should always be caught by the switch case
             }//End of while statement
             br.close();
             bw.close();
