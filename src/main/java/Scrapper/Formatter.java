@@ -33,27 +33,32 @@ public class Formatter {
         switch (curLine) {
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
                 itemType = FolkLoreNode;
-                return FolkLoreNode;
+                return Delete;
             }
             case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info" -> {
                 itemType = FolkLoreFishing;
-                return FolkLoreFishing;
+                return Delete;
             }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
                 itemType = RegularNode;
-                return RegularNode;
+                return Delete;
             }
 
             case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
                 itemType = UnspoiledNode;
-                return UnspoiledNode;
+                return Delete;
             }
             //Ignore cases below possible checkme?
-            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n", "Botanist\tMiner\tFisher\n", "Gathering" -> {
+            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n",
+                    "Botanist\tMiner\tFisher\n",
+                    "Gathering",
+                    " ",
+                    ""
+                    -> {
                 return Delete;
             }
         }
-        return Ignore;
+        return Ignore;// FIXME: 7/13/2022 This keeps running instead of finding the headrs
     }
 
     /**
@@ -67,6 +72,8 @@ public class Formatter {
         switch (itemType){
             case RegularNode:{
                 int numberOfItems = csvValues[4].split(",").length;
+                if(csvValues[5] == null) csvValues[5] = "";
+
                 if(numberOfItems == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
@@ -82,7 +89,6 @@ public class Formatter {
                 }
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
-
                     for (int i = 0; i < numberOfItems; i++) {
                         FormattedItem.append(RegularNode.name());//Appends the name of the item first
                         FormattedItem.append("\t");
@@ -152,6 +158,7 @@ public class Formatter {
             }
             case null:
                 try {
+                    System.out.println(itemType);
                     throw new UnexpectedException("There should always be an item type assigned");
                 } catch (UnexpectedException e) {
                     throw new RuntimeException(e);
@@ -192,13 +199,14 @@ public class Formatter {
 
             while((currentLine = br.readLine()) != null) {// FIXME: 7/13/2022 This never runs
                 System.out.println(currentLine);
-                csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize iteems
+                csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
                     case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
                         bw.write("");
+                        System.out.println("Deleting cur line");
                         //todo delete current line
                     }
                     case Ignore -> { //Actual item data NOT a header
