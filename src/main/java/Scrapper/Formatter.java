@@ -14,14 +14,14 @@ import static Scrapper.StaticItemTypes.*;
  * Puts an ITEM tag infront of each item for ease of reading.
  */
 public class Formatter {
-    private File file;//File to read/write
+    private String file;//File to read/write
     private StaticItemTypes itemType; //Current Enum Item Type
 
     /**
      * Default constructor, should be the only one needed.
      * @param file File to run on.
      */
-    Formatter(File file){
+    public Formatter(String file){
         this.file = file;
     }
 
@@ -181,18 +181,19 @@ public class Formatter {
             String[] csvValues;//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null){
+                System.out.println("Iran");
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize iteems
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
                     case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
+                        bw.write("");
                         //todo delete current line
                         continue;
                     }
                     case Ignore -> { //Actual item data NOT a header
-                        formattedItem(csvValues);
-                        //todo Finally, replace current line with the FormattedItem string
+                        bw.write(formattedItem(csvValues));
                         continue;
                     }
                 }//End of switch statement
@@ -211,15 +212,5 @@ public class Formatter {
         //Should I load the whole entire file into an arraylist/array and take
         //up a massivea mnt of memory? It's only run once so shuld b fine?
          */
-    }
-
-    //setters
-
-    /**
-     * Sets the object to run on a new file. (Constructor forces a file by default).
-     * @param file New file to run on
-     */
-    public void setFile(File file) {
-        this.file = file;
     }
 }
