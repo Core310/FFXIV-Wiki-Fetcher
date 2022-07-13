@@ -1,9 +1,6 @@
 package Scrapper;
 
-import Items.FolkLore_Fishing;
-import Items.FolkLore_Node;
-import Items.Regular_Node;
-import Items.Unspoiled_Node;
+import Items.*;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
@@ -67,7 +64,7 @@ public class Formatter {
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
 
         switch (itemType){
-            case RegularNode:{// TODO: 7/12/2022
+            case RegularNode:{
                 int numberOfItems = csvValues[4].split(",").length;
                 if(numberOfItems == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
@@ -173,14 +170,15 @@ public class Formatter {
      * This method creates several duplicate items and has another method called later on.
      */
     public void formatFile(){
-        //todo Replace current line in file. Eventually, make all ITEMs in the first column for ease of fuzzy Search
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
+            System.out.println("Format File runs");
 
-            while((currentLine = br.readLine()) != null){
+
+            while((currentLine = br.readLine()) != null) {// FIXME: 7/13/2022 This never runs
                 System.out.println("Iran");
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize iteems
 
@@ -199,6 +197,8 @@ public class Formatter {
                 }//End of switch statement
                 throw new UnexpectedException("No item type was assigned!"); //An item type should always be caught by the switch case
             }//End of while statement
+            br.close();
+            bw.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
