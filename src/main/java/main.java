@@ -6,7 +6,6 @@ import java.io.*;
 
 public class main {
     static final String FileName = "XIVGather.TSV";
-
     public static void main(String[] args) throws IOException {
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather,false);
@@ -20,7 +19,6 @@ public class main {
         fileWriter.close();
 
         Formatter formatter = new Formatter(FileName);
-
-            formatter.formatFile();
+        formatter.formatFile();
     }
 }

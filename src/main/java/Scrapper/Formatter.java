@@ -149,6 +149,15 @@ public class Formatter {
                 ).toString()
                 );
             }
+            case null:
+                try {
+                    throw new UnexpectedException("There sohuld always be an item type assigned");
+                } catch (UnexpectedException e) {
+                    throw new RuntimeException(e);
+                }
+            case Delete:
+            case Ignore:
+                break;
         } //End of switch case
         return FormattedItem.toString();
     }
@@ -172,7 +181,7 @@ public class Formatter {
     public void formatFile(){
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
-            BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+            BufferedWriter bw = new BufferedWriter(new FileWriter(file,true));
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
             System.out.println("Format File runs");
