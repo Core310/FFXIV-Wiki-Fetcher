@@ -38,8 +38,11 @@ public class ScrapAndStore {
      */
     public void scrap() throws IOException {
         if(ParsedPage == null || file == null){
-            throw new UnsupportedOperationException("\n doc and file must be set (see setters)" +
-                    "\nExample: wikiScrapper.setParsedPage(*jsoupdocument*);\n"
+            throw new UnsupportedOperationException("""
+
+                     doc and file must be set (see setters)
+                    Example: wikiScrapper.setParsedPage(*jsoupdocument*);
+                    """
             );
         }//Base case if no setters are called
         TableValues = grabTable(ParsedPage);
@@ -47,23 +50,30 @@ public class ScrapAndStore {
     }
 
     /**
-     * Fetches table from given Document and loads each table into an array
-     * @param document should always be the internal private doc
+     * Fetches table from given Document and loads each table into an array. This includes blank table values (values with no text).
+     * @param doc should always be the internal private doc
      * @return Arraylist of all Tables
      */
-    private static ArrayList<Elements> grabTable(Document document)
+    private static ArrayList<Elements> grabTable(Document doc)
     {
-        ArrayList<Elements> Table = new ArrayList<>();
+        ArrayList<Elements> Table = new ArrayList<>();//Return arrayList
+        for(Element curTD : doc.select("td"))
+        {
+            if( !curTD.hasText()){
+                curTD.append("n");
+            }
+        }//This for loops deals with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
 
-        for(Element element : document.select("tr") ) {
+        for(Element element : doc.select("tr") ) {
             Elements th = element.select("th");
             Elements td = element.select("td");
             if(th.text().length() > 1){
                 Table.add(th);
             }//Removes extra line (see below)
             //For some reason, After the th is stored, an extra line is added in the regular file.
+
             Table.add(td);
-        }
+        }//The main for loop that adds values to the final return arrayList by looking through each table row.
         return Table;
     }
 

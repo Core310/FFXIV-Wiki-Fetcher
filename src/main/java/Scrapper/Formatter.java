@@ -72,7 +72,7 @@ public class Formatter {
         switch (itemType){
             case RegularNode:{
                 int numberOfItems = csvValues[4].split(",").length;
-                if(csvValues[5] == null) csvValues[5] = "";
+                if(csvValues[5] == null) csvValues[5] = ""; //Basically, the argument csvValues enver reaches a certain arr len b/c of blank table values
 
                 if(numberOfItems == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
@@ -191,7 +191,6 @@ public class Formatter {
             String[] csvValues;//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null) {
-                System.out.println(currentLine);
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
