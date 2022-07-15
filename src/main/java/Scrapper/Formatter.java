@@ -4,6 +4,7 @@ import Items.*;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
+import java.util.Arrays;
 
 import static Scrapper.StaticItemTypes.*;
 
@@ -49,10 +50,9 @@ public class Formatter {
                 return Delete;
             }
             //Ignore cases below possible checkme?
-            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Log Big Fishing Fishing Collectables Folklore Fish\n",
-                    "Botanist\tMiner\tFisher\n",
+            case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
+                    "Botanist\tMiner\tFisher",
                     "Gathering",
-                    " ",
                     ""
                     -> {
                 return Delete;
@@ -68,13 +68,11 @@ public class Formatter {
      */
     private String formattedItem(String[] csvValues){// FIXME: 7/13/2022
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
-
         switch (itemType){
             case RegularNode:{
-                int numberOfItems = csvValues[4].split(",").length;
-                if(csvValues[5] == null) csvValues[5] = ""; //Basically, the argument csvValues enver reaches a certain arr len b/c of blank table values
-
-                if(numberOfItems == 1){
+                System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
+                String splitItems[] = csvValues[4].split(",",-1);
+                if(splitItems.length == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
                     FormattedItem.append(new Regular_Node(
@@ -89,11 +87,11 @@ public class Formatter {
                 }
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
-                    for (int i = 0; i < numberOfItems; i++) {
+                    for (String splitItem : splitItems) {
                         FormattedItem.append(RegularNode.name());//Appends the name of the item first
                         FormattedItem.append("\t");
                         FormattedItem.append(new Regular_Node(
-                                csvValues[i],//Item
+                                splitItem, //Item
                                 csvValues[2],//Zone
                                 csvValues[3],//Cords
                                 csvValues[5],//Extra
@@ -104,6 +102,7 @@ public class Formatter {
                         FormattedItem.append("\n"); // This should work but will likely be a future problem to look @
                     }
                 }
+                break;
             }
             case FolkLoreNode:{
                 FormattedItem.append(FolkLoreNode.name());
@@ -119,6 +118,7 @@ public class Formatter {
                         Integer.parseInt(csvValues[3])//Slot
 
                 ).toString());
+                break;
             }
             case FolkLoreFishing:{
                 FormattedItem.append(FolkLoreFishing.name());
@@ -132,7 +132,7 @@ public class Formatter {
                         csvValues[0],////FolkloreTome
                         csvValues[1]//Time
                 ).toString());
-
+                break;
             }
             case UnspoiledNode:{
                 FormattedItem.append(UnspoiledNode.name());
@@ -149,6 +149,7 @@ public class Formatter {
                         csvValues[6].length() //star
                 ).toString()
                 );
+                break;
             }
             case null:
                 try {

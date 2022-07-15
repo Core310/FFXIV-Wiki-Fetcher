@@ -35,11 +35,12 @@ public class ScrapAndStore {
 
     /**
      * This function should be called when ready to run all the methods inside this class (so after setters are made).
+     * Helps create TableValues and calls Store();
      */
     public void scrap() throws IOException {
         if(ParsedPage == null || file == null){
-            throw new UnsupportedOperationException("""
-
+            throw new UnsupportedOperationException(
+                    """
                      doc and file must be set (see setters)
                     Example: wikiScrapper.setParsedPage(*jsoupdocument*);
                     """
@@ -50,6 +51,7 @@ public class ScrapAndStore {
     }
 
     /**
+     * Helps create arraylist TableValues.
      * Fetches table from given Document and loads each table into an array. This includes blank table values (values with no text).
      * @param doc should always be the internal private doc
      * @return Arraylist of all Tables
@@ -59,8 +61,8 @@ public class ScrapAndStore {
         ArrayList<Elements> Table = new ArrayList<>();//Return arrayList
         for(Element curTD : doc.select("td"))
         {
-            if( !curTD.hasText()){
-                curTD.append("n");
+            if(!curTD.hasText()){
+                curTD.append("\u00a0");//That append (\u00a0) creates a blank space
             }
         }//This for loops deals with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
 
@@ -71,7 +73,6 @@ public class ScrapAndStore {
                 Table.add(th);
             }//Removes extra line (see below)
             //For some reason, After the th is stored, an extra line is added in the regular file.
-
             Table.add(td);
         }//The main for loop that adds values to the final return arrayList by looking through each table row.
         return Table;
@@ -95,9 +96,5 @@ public class ScrapAndStore {
      */
     public void setParsedPage(Document parsedPage) {
         this.ParsedPage = parsedPage;
-    }
-
-    public ArrayList<Elements> getTableValues() {
-        return TableValues;
     }
 }
