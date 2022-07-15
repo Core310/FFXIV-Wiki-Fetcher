@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Objects;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -50,4 +51,15 @@ public class FindItem {
         }
         return currentArray;
     }
+
+    /**
+     * Returns one random value from the file matching ItemName.
+     * @param ItemName Item searching for
+     * @return Random value fetched from the method findAllClosestValues
+     */
+    public String findAnyMatching(String ItemName){
+        Random rand = new Random();
+        return findAllClosestValues(ItemName).get(rand.nextInt(findAllClosestValues(ItemName).size()));
+    }
+
 }
