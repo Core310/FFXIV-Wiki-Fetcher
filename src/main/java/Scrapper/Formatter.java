@@ -77,6 +77,7 @@ public class Formatter {
             case RegularNode:{
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
+
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
                     FormattedItem.append(
@@ -89,6 +90,7 @@ public class Formatter {
                             Integer.parseInt(csvValues[0]),//Level
                             csvValues[1]//Type
                     ));
+                    FormattedItem.append("\n");
                 }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
@@ -104,7 +106,7 @@ public class Formatter {
                                 Integer.parseInt(csvValues[0]),//Level
                                 csvValues[1]//Type
                         ));
-                        FormattedItem.append("\n"); // This should work but will likely be a future problem to look @
+                        FormattedItem.append("\n");
                     }
                 }
                 break;
@@ -112,6 +114,13 @@ public class Formatter {
             case FolkLoreNode:{
                 FormattedItem.append(FolkLoreNode.name());
                 FormattedItem.append("\t");
+                if(csvValues[3].equals(""))
+                    csvValues[3] = "-1";//Edge case for when no value found
+
+                if(csvValues[2].equals("Stonehard Water"))
+                    csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
+                //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
+
                 FormattedItem.append(new FolkLore_Node(
                         csvValues[2],//Item
                         csvValues[4],//Zone
@@ -122,7 +131,8 @@ public class Formatter {
                         csvValues[1],//Time
                         Integer.parseInt(csvValues[3])//Slot
 
-                ).toString());
+                ));
+                FormattedItem.append("\n");
                 break;
             }
             case FolkLoreFishing:{
@@ -136,7 +146,8 @@ public class Formatter {
                         //End of baseItem
                         csvValues[0],////FolkloreTome
                         csvValues[1]//Time
-                ).toString());
+                ));
+                FormattedItem.append("\n");
                 break;
             }
             case UnspoiledNode:{
@@ -160,7 +171,7 @@ public class Formatter {
             case ARRUnspoiledNode:{
                 FormattedItem.append(ARRUnspoiledNode.name());
                 FormattedItem.append("\t");
-                String slots[] = csvValues[2].split(",",-1);
+                String[] slots = csvValues[2].split(",",-1);
                 for(String slot: slots){
                     FormattedItem.append(new Unspoiled_Node(
                             csvValues[1],//Item
