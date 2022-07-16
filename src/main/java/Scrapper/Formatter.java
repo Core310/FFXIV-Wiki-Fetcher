@@ -71,7 +71,7 @@ public class Formatter {
         switch (itemType){
             case RegularNode:{
                 System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
-                String splitItems[] = csvValues[4].split(",",-1);
+                String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
@@ -83,7 +83,7 @@ public class Formatter {
                             //End of baseItem
                             Integer.parseInt(csvValues[0]),//Level
                             csvValues[1]//Type
-                    ).toString());
+                    ));
                 }
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
@@ -98,7 +98,7 @@ public class Formatter {
                                 //End of baseItem
                                 Integer.parseInt(csvValues[0]),//Level
                                 csvValues[1]//Type
-                        ).toString());
+                        ));
                         FormattedItem.append("\n"); // This should work but will likely be a future problem to look @
                     }
                 }
@@ -194,17 +194,14 @@ public class Formatter {
 
             while((currentLine = br.readLine()) != null) {
                 if(currentLine.isBlank())
-                    continue;
-                    //bw.write("");
+                    continue;//Because I continue, nothing is ever written to the new file and hence can be ignored.
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
                     case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
-                        bw.write("");
-                        System.out.println("Deleting cur line");
-                        //todo delete current line
+                        //Nothing is written to the tmp file and therefore the final file.
                     }
                     case Ignore -> { //Actual item data NOT a header
                         bw.write(formattedItem(csvValues));
