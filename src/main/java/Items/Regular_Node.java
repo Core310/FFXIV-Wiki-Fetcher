@@ -6,7 +6,6 @@ package Items;
 public class Regular_Node extends BaseItem {
     private final int level;
     private String type;
-
     /**
      * Default constructor. All arguments map to internal variables.
      * This covers the classes BNT and Miner.
@@ -28,7 +27,7 @@ public class Regular_Node extends BaseItem {
             int level,
             String type
             ){
-        super(zone,cords,item,extra);
+        super(item,zone,cords,extra);
         this.level = level;
         this.type = type;
     }
@@ -52,7 +51,7 @@ public class Regular_Node extends BaseItem {
 
             int level
     ){
-        super(zone,cords,item,extra);
+        super(item,zone,cords,extra);
         this.level = level;
         type = "n/a";
     }

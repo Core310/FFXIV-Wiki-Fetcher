@@ -12,7 +12,7 @@ import static Scrapper.StaticItemTypes.*;
  * Puts an ITEM tag infront of each item for ease of reading.
  */
 public class Formatter {
-    private String file;//File to read/write
+    private final String file;//File to read/write
     private StaticItemTypes itemType; //Current Enum Item Type
 
     /**
@@ -72,7 +72,6 @@ public class Formatter {
             case RegularNode:{
                 //System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
-                System.out.println(Arrays.toString(splitItems));
                 if(splitItems.length == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
@@ -86,13 +85,13 @@ public class Formatter {
                             Integer.parseInt(csvValues[0]),//Level
                             csvValues[1]//Type
                     ));
-                }
+                }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
                     for (String splitItem : splitItems) {
                         FormattedItem.append(RegularNode.name());//Appends the name of the item first
                         FormattedItem.append("\t");
-                        FormattedItem.append(new Regular_Node(
+                        FormattedItem.append(new Regular_Node(// FIXME: 7/16/22 Not printing out in correct format
                                 splitItem, //Item
                                 csvValues[2],//Zone
                                 csvValues[3],//Cords
