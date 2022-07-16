@@ -1,26 +1,26 @@
 package Items;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  * Used for toString of the ITEMs in this module.
  * All methods/vars are either private or protected.
  */
 public class ItemOutputFormatter {
-    private final ArrayList<String> arrayList = new ArrayList<>();
+    private final Queue<String> queue = new LinkedList<>();
     private final String delimiter = "\t";
-
     /**
      * Params are for normalization and declutter. All params are shared by every item and will appear FIRST in their listing.
      */
     protected ItemOutputFormatter(String itemName, String zone, String cords,String extra){
-        arrayList.add(itemName);
-        arrayList.add(zone);
-        arrayList.add(cords);
-        arrayList.add(extra);
+        String[] str = {itemName,zone,cords,extra};
+        queue.addAll(List.of(str));
     }
 
     protected void addElement(String element){
-        arrayList.add(element);
+        queue.add(element);
     }
 
 
@@ -31,14 +31,12 @@ public class ItemOutputFormatter {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (String element:
-             arrayList) {
-            stringBuilder.append(element);
+        while (!queue.isEmpty()) {
+            stringBuilder.append(queue.poll());
             stringBuilder.append(delimiter);//Appends whatever is the desired delimiter
         }
         return stringBuilder.toString();
     }
-
     //Append items to a custom array. Output by TSV using a for-loop
     //Use a method to set the delim
 

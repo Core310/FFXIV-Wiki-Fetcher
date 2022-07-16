@@ -66,16 +66,18 @@ public class Formatter {
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
      */
-    private String formattedItem(String[] csvValues){// FIXME: 7/13/2022
+    private String formattedItem(String[] csvValues){
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
         switch (itemType){
             case RegularNode:{
-                System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
+                //System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
+                System.out.println(Arrays.toString(splitItems));
                 if(splitItems.length == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
                     FormattedItem.append("\t");
-                    FormattedItem.append(new Regular_Node(
+                    FormattedItem.append(
+                            new Regular_Node(
                             csvValues[4],//Item
                             csvValues[2],//Zone
                             csvValues[3],//Cords
