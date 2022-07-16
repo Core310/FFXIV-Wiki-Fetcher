@@ -1,205 +1,1099 @@
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Rarefied Sykon	1	Elpis	(x25,y5)	87		600 Min Collectability
-12:00 AM/PM	Rarefied Elder Nutmeg	3	Elpis	(x25,y5)	90		600 Min Collectability
-12:00 AM/PM	Rarefied Coconut	2	Thavnair	(x14,y14)	85		600 Min Collectability
-2:00 AM/PM	Rarefied Palm Log	6	Thavnair	(x14,y14)	85		600 Min Collectability
-4:00 AM/PM	Rarefied Red Pine Log	6	Garlemald	(x35,y6)	83		600 Min Collectability
-6:00 AM/PM	Rarefied Dark Rye	3	Labyrinthos	(x10,y22)	89		600 Min Collectability
-6:00 AM/PM	Rarefied Iceberg Lettuce	6	Labyrinthos	(x10,y22)	90	★	600 Min Collectability
-8:00 AM/PM	Rarefied AR-Caean Cotton Boll	1	Ultima Thule	(x9,y33)	90	★	600 Min Collectability
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Broad Beans	2	Il Mheg	(x24,y36)	72		Perception 1312
-12:00 AM/PM	Mist Spinach	6	The Rak'tika Greatwood	(x34,y21)	78		
-2:00 AM/PM	Rarefied Amber Cloves	3	Amh Araeng	(x19,y20)	80		600 Min Collectability
-2:00 AM/PM	Rarefied Sandteak Log	6	Amh Araeng	(x19,y20)	77		600 Min Collectability
-4:00 AM/PM	Rarefied Coral	3	The Tempest	(x37,y12)	80	★	600 Min Collectability
-4:00 AM/PM	Rarefied Kelp	4	The Tempest	(x37,y12)	80	★	600 Min Collectability
-6:00 AM/PM	Lemonette	2	Kholusia	(x20,y27)	80		
-8:00 AM/PM	Rarefied White Oak Log	6	Kholusia	(x28,y33)	73		600 Min Collectability
-8:00 AM/PM	Russet Popoto	7	Amh Araeng	(x19,y16)	76		Perception 1421
-10:00 AM/PM	Peppermint	6	Lakeland	(x26,y20)	74		Perception 1080
-10:00 AM/PM	Rarefied Pixie Apple	2	Il Mheg	(x4,y23)	71		600 Min Collectability
-10:00 AM/PM	Rarefied Miracle Apple Log	6	Il Mheg	(x4,y23)	75		600 Min Collectability
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Rarefied Urunday Log	6	The Peaks	(x31,y7)	80	★	600 Min Collectability
-12:00 AM/PM	Rarefied Pine Log	6	Yanxia	(x19,y14)	69		600 Min Collectability
-12:00 AM/PM	Rarefied Pine Resin	4	Yanxia	(x19,y14)	67		600 Min Collectability
-2:00 AM/PM	Othardian Plum	2	The Azim Steppe	(x23,y16)	70		Perception 862
-2:00 AM/PM	Rarefied Larch Log	4	The Ruby Sea	(x6,y16)	61		600 Min Collectability
-2:00 AM/PM	Rarefied Larch Sap	6	The Ruby Sea	(x6,y16)	65		600 Min Collectability
-4:00 AM/PM	Rhalgr's Streak	1	The Lochs	(x8,y8)	70		Edgyth's Winning Streak Perception 690
-4:00 AM/PM	Jhammel Ginger	3	The Lochs	(x8,y8)	68		Perception 664
-4:00 AM/PM	Rarefied Shiitake Mushroom	7	The Ruby Sea	(x33,y9)	63		600 Min Collectability
-6:00 AM/PM	Hallowed Basil	6	The Peaks	(x23,y16)	70	★	Perception 750
-8:00 AM/PM	Lotus Root	7	Yanxia	(x28,y7)	66		Perception 638
-10:00 AM/PM	Bamboo Shoot	8	Yanxia	(x28,y25)	63		Perception 624
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Rarefied Dark Chestnut	2	The Dravanian Forelands	(x16,y36)	57		600 Min Collectability
-12:00 AM/PM	Rarefied Dark Chestnut Resin	4	The Dravanian Forelands	(x16,y36)	59		600 Min Collectability
-12:00 AM/PM	Dravanian Mistletoe	3	The Churning Mists	(x24,y6)	54		Perception 330
-12:00 AM/PM	Porcini	7	The Churning Mists	(x24,y6)	51		Perception 69
-2:00 AM/PM	Old World Fig Seeds	1	The Dravanian Forelands	(x26,y12)	50	★★★	
-2:00 AM/PM	Old World Fig	2	The Dravanian Forelands	(x26,y12)	50	★★★	Perception 220
-4:00 AM/PM	Cloud Banana	2	The Dravanian Hinterlands	(x19,y36)	57		Perception 356
-4:00 AM/PM	Morel	7	The Dravanian Hinterlands	(x19,y36)	59		Perception 384
-6:00 AM/PM	Heavens Lemon	2	The Sea of Clouds	(x35,y23)	56		Perception 353
-6:00 AM/PM	Abalathian Mistletoe	3	The Sea of Clouds	(x35,y23)	58		Perception 371
-8:00 AM/PM	Chysahl Greens	6	Coerthas Western Highlands	(x8,y9)	60		Perception 408
-10:00 AM/PM	Chives	1	Coerthas Western Highlands	(x31,y20)	55		Perception 351
-10:00 AM/PM	Pearl Sprout Seeds	2	Coerthas Western Highlands	(x31,y20)	52		
-10:00 AM/PM	Coerthan Tea Seeds	3	Coerthas Western Highlands	(x31,y20)	53		
-10:00 AM/PM	Pearl Sprouts	6	Coerthas Western Highlands	(x31,y20)	52		Perception 273
-10:00 AM/PM	Coerthan Tea Leaves	7	Coerthas Western Highlands	(x31,y20)	53		Perception 321
-10:00 AM/PM	Rarefied Dark Chestnut Branch	3	The Dravanian Forelands	(x29,y30)	55		600 Min Collectability
-10:00 AM/PM	Rarefied Dark Chestnut Log	6	The Dravanian Forelands	(x29,y30)	53		600 Min Collectability
-10:00 AM/PM	Rarefied Dark Chestnut Sap	4	The Dravanian Forelands	(x29,y30)	51		600 Min Collectability
-Time	Item	Slot #	Location	Coordinate	Extra	Star
-
-1:00 AM	Silkworm Cocoon	4	East Shroud	(x22,y26)		★
-1:00 AM	Lightning Cluster	2	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	
-1:00 AM	Fire Cluster	3	Mor Dhona	(x32,y11)		
-1:00 AM	Wind Cluster	4	Mor Dhona	(x32,y11)		
-1:00 AM	Water Cluster	5	Mor Dhona	(x32,y11)		
-1:00 AM	Ice Cluster	6	Mor Dhona	(x32,y11)		
-1:00 AM	Earth Cluster	7	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	
-2:00 AM	Fragrant Log	6	South Shroud	(x18,y23)		★
-2:00 AM	Shroud Tea Leaves	6	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	★★
-3:00 AM	Scarlet Sap	4	North Shroud	(x18,y26)		★★
-4:00 AM	Ebony Log	6	Middle La Noscea	(x23.2,y26.3)		★★★
-5:00 AM	Trillium	1	East Shroud	(x17,y19)		★
-5:00 AM	Honey Lemon	2	Eastern La Noscea	(x26,y32)		★
-5:00 AM	Honey Lemon Seeds	1	Eastern La Noscea	(x26,y32)		★
-5:00 AM	Lightning Cluster	2	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	
-5:00 AM	Fire Cluster	3	Mor Dhona	(x32,y11)		
-5:00 AM	Wind Cluster	4	Mor Dhona	(x32,y11)		
-5:00 AM	Water Cluster	5	Mor Dhona	(x32,y11)		
-5:00 AM	Ice Cluster	6	Mor Dhona	(x32,y11)		
-5:00 AM	Earth Cluster	7	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	
-6:00 AM	Young Cieldalaes Spinach	6	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	★★
-6:00 AM	Redolent Log	6	Central Shroud	(x30,y19)		★★
-7:00 AM	Blood Orange	2	Upper La Noscea	(x28,y25)		★★
-7:00 AM	Bamboo Stick	6	Upper La Noscea	(x28,y25)		★★
-8:00 AM	La Noscean Leek	6	Western La Noscea	(x34,y28)		★★
-8:00 AM	Mazlaya Greens	2	Western La Noscea	(x34,y28)		★
-8:00 AM	Waterfowl Feather (Rare)	1,5	Western La Noscea	(x34,y28)		★★
-9:00 AM	Apricot	2	Middle La Noscea	(x19,y16)		★★
-9:00 AM	Spruce Log	6	Coerthas Central Highlands	(x27,y12)		★
-9:00 AM	Prickly Pineapple Seeds	1	Eastern La Noscea	(x30,y26)		★
-9:00 AM	Prickly Pineapple	4	Eastern La Noscea	(x30,y26)		★
-9:00 AM	Lightning Cluster	2	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	
-9:00 AM	Fire Cluster	3	Mor Dhona	(x32,y11)		
-9:00 AM	Wind Cluster	4	Mor Dhona	(x32,y11)		
-9:00 AM	Water Cluster	5	Mor Dhona	(x32,y11)		
-9:00 AM	Ice Cluster	6	Mor Dhona	(x32,y11)		
-9:00 AM	Earth Cluster	7	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	
-10:00 AM	Cypress Log	6	Central Shroud	(x25,y29)		★★★
-1:00 PM	Vampire Plant	8	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	★
-1:00 PM	Black Truffle	7	Eastern Thanalan	(x12,y16)		★
-1:00 PM	Mazlaya Greens (Rare)	2	Eastern Thanalan	(x12,y16)		★
-1:00 PM	Dzemael Tomato	3	Eastern La Noscea	(x18,y26)		★
-1:00 PM	Dzemael Tomato Seeds (Rare)	1	Eastern La Noscea	(x18,y26)		★
-5:00 PM	Thavnairian Mistletoe	2	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	★
-5:00 PM	Rosemary	1	East Shroud	(x22,y30)		★★★ (450)
-9:00 PM	Kidragora	7	East Shroud	(x13,y23)		★
-9:00 PM	Trillium Bulb	8	East Shroud	(x13,y23)		★
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00AM/PM	Rarefied Sharlayan Rock Salt	1	Labyrinthos	(x32,y21)	81		600 Min. Collectability
-12:00AM/PM	Rarefied Raw Ametrine	8	Labyrinthos	(x32,y21)	81		600 Min. Collectability
-2:00AM/PM	Rarefied Eblan Alumen	3	Garlemald	(x12,y21)	84		600 Min. Collectability
-2:00AM/PM	Rarefied Phrygian Gold Ore	2	Garlemald	(x12,y21)	83		600 Min. Collectability
-4:00AM/PM	Rarefied Pewter Ore	6	Thavnair	(x32,y25)	90	★	600 Min. Collectability
-6:00AM/PM	Rarefied Bismuth Ore	6	Mare Lamentorum	(x16,y32)	83		600 Min. Collectability
-10:00AM/PM	Rarefied Annite	2	Elpis	(x8,y36)	90	★	600 Min. Collectability
-10:00AM/PM	Rarefied Blue Zircon	7	Elpis	(x8,y36)	89		600 Min. Collectability
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00AM/PM	Raw Triplite	7	Amh Araeng	(x20,y29)	76		Perception 1421
-12:00AM/PM	Raw Onyx	7	The Tempest	(x16,y21)	80		Perception 1562
-2:00AM/PM	Rarefied Reef Rock	7	The Tempest	(x33,y21)	79		600 Min. Collectability
-2:00AM/PM	Rarefied Tungsten Ore	7	The Tempest	(x33,y21)	80	★	600 Min. Collectability
-2:00AM/PM	Raw Hematite	8	Kholusia	(x33,y23)	70	★★	Perception 1350
-4:00AM/PM	Raw Lazurite	7	The Rak'tika Greatwood	(x19,y21)	74		Perception 1350
-4:00AM/PM	Rarefied Raw Petalite	8	Lakeland	(x36,y24)	75		600 Min. Collectability
-4:00AM/PM	Rarefied Titancopper Ore	6	Lakeland	(x36,y24)	71		600 Min. Collectability
-6:00AM/PM	Rarefied Raw Lazurite	7	The Rak'tika Greatwood	(x16,y18)	73		600 Min. Collectability
-6:00AM/PM	Raw Diaspore	6	Il Mheg	(x26,y13)	72		Perception 1312
-6:00AM/PM	Raw Petalite	8	Lakeland	(x29,y33)	78		Perception 1491
-8:00AM/PM	Rarefied Raw Onyx	7	The Tempest	(x25,y4)	80		600 Min. Collectability
-8:00AM/PM	Rarefied Sea Salt	7	The Tempest	(x25,y4)	77		600 Min. Collectability
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Ala Mhigan Salt Crystal	1	The Lochs	(x21,y29)	69		Perception 677
-12:00 AM/PM	Raw Star Spinel	8	The Ruby Sea	(x15,y5)	63		Perception 780
-2:00 AM/PM	Raw Triphane	6	The Fringes	(x24,y8)	60		Perception 552
-4:00 AM/PM	Raw Azurite	7	Azim Steppe	(x5,y29)	66		Perception 796
-6:00 AM/PM	Raw Imperial Jade	6	Yanxia	(x29,y9)	68		Perception 829
-6:00 AM/PM	Rarefied Raw Azurite	7	Azim Steppe	(x36,y26)	67		600 Min. Collectability
-6:00 AM/PM	Rarefied Silvergrace Ore	6	Azim Steppe	(x36,y26)	69		600 Min. Collectability
-8:00 AM/PM	Rarefied Raw Triphane	6	The Fringes	(x30,y13)	61		600 Min. Collectability
-8:00 AM/PM	Rarefied Raw Kyanite	7	The Fringes	(x30,y13)	65		600 Min. Collectability
-8:00 AM/PM	Pummelite	6	The Peaks	(x26,y12)	70		A Miner Success Perception 846
-8:00 AM/PM	Raw Rhodonite	7	The Peaks	(x26,y12)	70		Perception 846
-10:00 AM/PM	Rarefied Raw Star Spinel	8	The Ruby Sea	(x21,y34)	63		600 Min. Collectability
-10:00 AM/PM	Rarefied Gyr Abanian Alumen	2	The Fringes	(x32,y31)	80	★	600 Min. Collectability
-Time	Item	Slot #	Location	Coordinate	Level	Star	Additional Info
-
-12:00 AM/PM	Adamantite Ore	6	Azys Lla	(x24,y6)	60		Perception 408
-2:00 AM/PM	Rarefied Abalathian Spring Water	1	The Sea of Clouds	(x21,y12)	57		600 Min. Collectability
-2:00 AM/PM	Rarefied Aurum Regis Sand	2	The Sea of Clouds	(x21,y12)	59		600 Min. Collectability
-4:00 AM/PM	Rarefied Chalcocite	2	The Dravanian Forelands	(x31,y32)	53		600 Min. Collectability
-4:00 AM/PM	Rarefied Pyrite	3	The Dravanian Forelands	(x31,y32)	51		600 Min. Collectability
-4:00 AM/PM	Rarefied Limonite	4	The Dravanian Forelands	(x31,y32)	55		600 Min. Collectability
-10:00 AM/PM	Abalathian Rock Salt	1	The Sea of Clouds	(x8,y8)	56		Perception 353
-10:00 AM/PM	Red Quartz	6	The Sea of Clouds	(x8,y8)	58		Perception 371
-Time	Item	Slot #	Location	Coordinate	Extra	Star
-
-1:00 AM	Darksteel Ore	3	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	★
-1:00 AM	Pumice	1	Eastern La Noscea	(x17,y26)		★★★
-2:00 AM	Antumbral Rock	7	Eastern Thanalan	(x26,y19)		★★
-3:00 AM	Ferberite	6	Northern Thanalan	(x16,y19)		★★
-3:00 AM	Raw Topaz	7	Northern Thanalan	(x16,y19)		★★
-3:00 AM	Raw Iolite	8	Northern Thanalan	(x16,y19)		★★
-4:00 AM	Native Gold	6	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	★★
-4:00 AM	Raw Diamond	8	Central Thanalan	(x24,y16)		★★
-4:00 AM	Raw Emerald	7	Central Thanalan	(x24,y16)		★★
-4:00 AM	Platinum Ore	6	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	★★★
-5:00 AM	Water Cluster	5	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	★
-5:00 AM	Gold Sand	2	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	★
-6:00 AM	Umbral Rock	7	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	★
-9:00 AM	Gold Ore	6	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	★
-9:00 AM	Coblyn Larva	7	Eastern Thanalan	(x28,y22)		★
-1:00 PM	Lightning Cluster	2	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	
-1:00 PM	Fire Cluster	3	Mor Dhona	(x28,y12)		
-1:00 PM	Wind Cluster	4	Mor Dhona	(x28,y12)		
-1:00 PM	Water Cluster	5	Mor Dhona	(x28,y12)		
-1:00 PM	Ice Cluster	6	Mor Dhona	(x28,y12)		
-1:00 PM	Earth Cluster	7	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	
-5:00 PM	Volcanic Rock Salt	1	Eastern La Noscea	(x21,y32)		★
-5:00 PM	Lightning Cluster	2	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	
-5:00 PM	Fire Cluster	3	Mor Dhona	(x27,y10)		
-5:00 PM	Wind Cluster	4	Mor Dhona	(x27,y10)		
-5:00 PM	Water Cluster	5	Mor Dhona	(x27,y10)		
-5:00 PM	Ice Cluster	6	Mor Dhona	(x27,y10)		
-5:00 PM	Earth Cluster	7	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	
-5:00 PM	Virgin Basilisk Egg	6	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	★★★ (450)
-6:00 PM	Raw Ruby	7	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	★★
-6:00 PM	Raw Sapphire	8	Lower La Noscea	(x23,y21)		★★
-7:00 PM	Fire Cluster	3	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	★
-9:00 PM	Astral Rock	7	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	★
-9:00 PM	Lightning Cluster	2	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	
-9:00 PM	Fire Cluster	3	Mor Dhona	(x27,y10)		
-9:00 PM	Wind Cluster	4	Mor Dhona	(x27,y10)		
-9:00 PM	Water Cluster	5	Mor Dhona	(x27,y10)		
-9:00 PM	Ice Cluster	6	Mor Dhona	(x27,y10)		
-9:00 PM	Earth Cluster	7	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	
-Gathering
-
-Botanist	Miner	Fisher
-
-Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Locations Big Fishing Fishing Collectables Folklore Fish
-				
+RegularNode	Maple Branch	North Shroud	(x28,y26)		5	Mature Tree	
+RegularNode	 Latex	North Shroud	(x28,y26)		5	Mature Tree	
+RegularNode	 Maple Log	North Shroud	(x28,y26)		5	Mature Tree	
+RegularNode	 Earth Shard	North Shroud	(x28,y26)		5	Mature Tree	
+RegularNode	Beehive Chip	North Shroud	(x25,y27)		5	Mature Tree	
+RegularNode	 Cinnamon	North Shroud	(x25,y27)		5	Mature Tree	
+RegularNode	 Maple Sap	North Shroud	(x25,y27)		5	Mature Tree	
+RegularNode	 Earth Shard	North Shroud	(x25,y27)		5	Mature Tree	
+RegularNode	Allagan Snail	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	 Maple Branch	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	 Latex	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	 Maple Log	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	 Ice Shard	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	 Wind Shard	Central Shroud	(x23,y18)		5	Mature Tree	
+RegularNode	Cock Feather	Central Thanalan	(x22,y26)		10	Mature Tree	
+RegularNode	 Cloves	Central Thanalan	(x22,y26)		10	Mature Tree	
+RegularNode	 Lightning Shard	Central Thanalan	(x22,y26)		10	Mature Tree	
+RegularNode	Crow Feather	Central Shroud	(x25,y20)		10	Mature Tree	
+RegularNode	 Ash Branch	Central Shroud	(x25,y20)		10	Mature Tree	
+RegularNode	 Ash Log	Central Shroud	(x25,y20)		10	Mature Tree	
+RegularNode	 Tinolqa Mistletoe	Central Shroud	(x25,y20)		10	Mature Tree	
+RegularNode	 Wind Shard	Central Shroud	(x25,y20)		10	Mature Tree	
+RegularNode	Ash Branch	North Shroud	(x27,y24)		10	Mature Tree	
+RegularNode	 Ash Log	North Shroud	(x27,y24)		10	Mature Tree	
+RegularNode	 Tinolqa Mistletoe	North Shroud	(x27,y24)		10	Mature Tree	
+RegularNode	 Earth Shard	North Shroud	(x27,y24)		10	Mature Tree	
+RegularNode	Kukuru Bean	Lower La Noscea	(x32,y16)		10	Mature Tree	
+RegularNode	 La Noscean Orange	Lower La Noscea	(x32,y16)		10	Mature Tree	
+RegularNode	 Earth Shard	Lower La Noscea	(x32,y16)		10	Mature Tree	
+RegularNode	 La Noscean Orange Seeds (Hidden)	Lower La Noscea	(x32,y16)		10	Mature Tree	
+RegularNode	Buffalo Beans	Central Shroud	(x18,y19)		15	Lush Vegetation Patch	
+RegularNode	 Marjoram	Central Shroud	(x18,y19)		15	Lush Vegetation Patch	
+RegularNode	 Tree Toad	Central Shroud	(x18,y19)		15	Lush Vegetation Patch	
+RegularNode	 Humus	Central Shroud	(x18,y19)		15	Lush Vegetation Patch	
+RegularNode	 Wind Shard	Central Shroud	(x18,y19)		15	Lush Vegetation Patch	
+RegularNode	Carnation	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Cotton Boll	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Lavender	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Chanterelle	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Wind Shard	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Lavender Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	 Windlight Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch	
+RegularNode	Ruby Tomato	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 Sunset Wheat	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 Straw	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 La Noscean Lettuce	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 Fire Shard	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 La Noscean Lettuce Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	 Firelight Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch	
+RegularNode	Black Pepper	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	 Yellow Ginseng	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	 Alpine Parsnip	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	 Lightning Shard	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	 Black Pepper Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	 Levinlight Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch	
+RegularNode	Gridanian Chestnut	Central Shroud	(x20,y20)		15	Mature Tree	
+RegularNode	 Elm Log	Central Shroud	(x20,y20)		15	Mature Tree	
+RegularNode	 Wind Shard	Central Shroud	(x20,y20)		15	Mature Tree	
+RegularNode	Cinderfoot Olive	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Lowland Grapes	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Cieldalaes Spinach	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Highland Parsley	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Earth Shard	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Lowland Grape Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Olive Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	 Earthlight Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch	
+RegularNode	Rye	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Moko Grass	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Coerthan Carrot	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Grass Viper	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Water Shard	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Coerthan Carrot Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	 Waterlight Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch	
+RegularNode	Ogre Pumpkin	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	 Garlean Garlic	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	 Wild Onion	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	 Water Shard	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	 Garlic Cloves (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	 Wild Onion Set (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch	
+RegularNode	Nopales	Central Thanalan	(x21,y20)		20	Mature Tree	
+RegularNode	 Lightning Shard	Central Thanalan	(x21,y20)		20	Mature Tree	
+RegularNode	Grade 1 Carbonized Matter	Western La Noscea	(x26,y23)		20	Mature Tree	
+RegularNode	 Ice Shard	Western La Noscea	(x26,y23)		20	Mature Tree	
+RegularNode	Sun Lemon	Lower La Noscea	(x34,y17)		20	Mature Tree	
+RegularNode	 Earth Shard	Lower La Noscea	(x34,y17)		20	Mature Tree	
+RegularNode	 Sun Lemon Seeds (Hidden)	Lower La Noscea	(x34,y17)		20	Mature Tree	
+RegularNode	Lalafellin Lentil	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	 Island Seedling	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	 Paprika	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	 Ice Shard	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	 Paprika Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	 Icelight Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch	
+RegularNode	Popoto	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch	
+RegularNode	 White Scorpion	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch	
+RegularNode	 Desert Seedling	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch	
+RegularNode	 Fire Shard	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch	
+RegularNode	 Popoto Set (Hidden)	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch	
+RegularNode	Galago Mint	East Shroud	(x18,y28)		20	Lush Vegetation Patch	
+RegularNode	 Belladonna	East Shroud	(x18,y28)		20	Lush Vegetation Patch	
+RegularNode	 Gil Bun	East Shroud	(x18,y28)		20	Lush Vegetation Patch	
+RegularNode	 Shroud Seedling	East Shroud	(x18,y28)		20	Lush Vegetation Patch	
+RegularNode	 Wind Shard	East Shroud	(x18,y28)		20	Lush Vegetation Patch	
+RegularNode	Faerie Apple	East Shroud	(x15,y27)		20	Mature Tree	
+RegularNode	 Yew Branch	East Shroud	(x15,y27)		20	Mature Tree	
+RegularNode	 Yew Log	East Shroud	(x15,y27)		20	Mature Tree	
+RegularNode	 Wind Shard	East Shroud	(x15,y27)		20	Mature Tree	
+RegularNode	 Faerie Apple Seeds (Hidden)	East Shroud	(x15,y27)		20	Mature Tree	
+RegularNode	Gridanian Walnut	South Shroud	(x23,y21)		25	Mature Tree	
+RegularNode	 Walnut Log	South Shroud	(x23,y21)		25	Mature Tree	
+RegularNode	 Matron's Mistletoe	South Shroud	(x23,y21)		25	Mature Tree	
+RegularNode	 Ice Shard	South Shroud	(x23,y21)		25	Mature Tree	
+RegularNode	Ala Mhigan Mustard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Pearl Ginger	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Millioncorn	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Button Mushroom	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Fire Shard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Ala Mhigan Mustard Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Pearl Ginger Root (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	 Millioncorn Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch	
+RegularNode	Noble Grapes	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Pixie Plums	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Sticky Rice	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Chamomile	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Earth Shard	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Pixie Plum Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	 Chamomile Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch	
+RegularNode	Grey Pigment	South Shroud	(x16,y21)		30	Mature Tree	
+RegularNode	 Ice Shard	South Shroud	(x16,y21)		30	Mature Tree	
+RegularNode	 Ice Crystal	South Shroud	(x16,y21)		30	Mature Tree	
+RegularNode	Yellow Pigment	North Shroud	(x27,y22)		30	Mature Tree	
+RegularNode	 Brown Pigment	North Shroud	(x27,y22)		30	Mature Tree	
+RegularNode	 Earth Shard	North Shroud	(x27,y22)		30	Mature Tree	
+RegularNode	 Earth Crystal	North Shroud	(x27,y22)		30	Mature Tree	
+RegularNode	Green Pigment	Central Shroud	(x24,y30)		30	Mature Tree	
+RegularNode	 Wind Shard	Central Shroud	(x24,y30)		30	Mature Tree	
+RegularNode	 Wind Crystal	Central Shroud	(x24,y30)		30	Mature Tree	
+RegularNode	Purple Pigment	Central Thanalan	(x24,y31)		30	Mature Tree	
+RegularNode	 Lightning Shard	Central Thanalan	(x24,y31)		30	Mature Tree	
+RegularNode	 Lightning Crystal	Central Thanalan	(x24,y31)		30	Mature Tree	
+RegularNode	Red Pigment	Middle La Noscea	(x16,y13)		30	Mature Tree	
+RegularNode	 Fire Shard	Middle La Noscea	(x16,y13)		30	Mature Tree	
+RegularNode	 Fire Crystal	Middle La Noscea	(x16,y13)		30	Mature Tree	
+RegularNode	Blue Pigment	Eastern La Noscea	(x28,y33)		30	Mature Tree	
+RegularNode	 Water Shard	Eastern La Noscea	(x28,y33)		30	Mature Tree	
+RegularNode	 Water Crystal	Eastern La Noscea	(x28,y33)		30	Mature Tree	
+RegularNode	Chocobo Feather	South Shroud	(x26,y19)		30	Mature Tree	
+RegularNode	 Alligator Pear	South Shroud	(x26,y19)		30	Mature Tree	
+RegularNode	 Ice Shard	South Shroud	(x26,y19)		30	Mature Tree	
+RegularNode	Moor Leech	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Wizard Eggplant	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Jade Peas	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Midland Cabbage	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Earth Shard	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Wizard Eggplant Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	 Midland Cabbage Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch	
+RegularNode	Desert Saffron	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	 Laurel	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	 Aloe	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	 Bloodgrass	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	 Lightning Shard	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	 Yafaemi Wildgrass (Hidden)	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch	
+RegularNode	Dragon Pepper	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Midland Basil	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Mandrake	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Salt Leek	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Water Shard	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Midland Basil Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Mandrake Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch	
+RegularNode	Wildfowl Feather	South Shroud	(x17,y28)		35	Lush Vegetation Patch	
+RegularNode	 Flax	South Shroud	(x17,y28)		35	Lush Vegetation Patch	
+RegularNode	 White Truffle	South Shroud	(x17,y28)		35	Lush Vegetation Patch	
+RegularNode	 Ice Shard	South Shroud	(x17,y28)		35	Lush Vegetation Patch	
+RegularNode	 Linseed (Hidden)	South Shroud	(x17,y28)		35	Lush Vegetation Patch	
+RegularNode	Tarantula	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree	
+RegularNode	 Oak Branch	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree	
+RegularNode	 Oak Log	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree	
+RegularNode	 Ice Shard	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree	
+RegularNode	Iron Acorn	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	 Almonds	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	 Nutmeg	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	 Mahogany Log	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	 Water Shard	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	 Almond Seeds (Hidden)	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree	
+RegularNode	Maiden Artichoke	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Ramhorn Zucchini	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Mugwort	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Water Shard	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch	
+RegularNode	Blood Currants	South Shroud	(x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Thyme	South Shroud	(x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Ice Shard	South Shroud	(x21,y29)		40	Lush Vegetation Patch	
+RegularNode	 Blood Currant Seeds (Hidden)	South Shroud	(x21,y29)		40	Lush Vegetation Patch	
+RegularNode	Mirror Apple	Coerthas Central Highlands	(x23,y17)		45	Mature Tree	
+RegularNode	 Mistletoe	Coerthas Central Highlands	(x23,y17)		45	Mature Tree	
+RegularNode	 Ice Shard	Coerthas Central Highlands	(x23,y17)		45	Mature Tree	
+RegularNode	 Mirror Apple Seeds (Hidden)	Coerthas Central Highlands	(x23,y17)		45	Mature Tree	
+RegularNode	Rolanberry	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	 Sagolii Sage	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	 Dart Frog	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	 Black Scorpion	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	 Earth Shard	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	 Rolanberry Seeds (Hidden)	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch	
+RegularNode	Rosewood Log	East Shroud	(x16,y23)		50	Mature Tree	
+RegularNode	 Rosewood Branch	East Shroud	(x16,y23)		50	Mature Tree	
+RegularNode	 Wind Shard	East Shroud	(x16,y23)		50	Mature Tree	
+RegularNode	Thanalan Tea Leaves	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch	
+RegularNode	 Lava Toad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch	
+RegularNode	 Maiden Grass	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch	
+RegularNode	 Lightning Shard	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch	
+RegularNode	Water Crystal	Eastern La Noscea	(x17,y32)		50	Mature Tree	
+RegularNode	 Water Shard	Eastern La Noscea	(x17,y32)		50	Mature Tree	
+RegularNode	Lightning Crystal	Central Thanalan	(x29,y19)		50	Mature Tree	
+RegularNode	 Lightning Shard	Central Thanalan	(x29,y19)		50	Mature Tree	
+RegularNode	Fire Crystal	Middle La Noscea	(x19,y21)		50	Mature Tree	
+RegularNode	 Fire Shard	Middle La Noscea	(x19,y21)		50	Mature Tree	
+RegularNode	Cedar Branch	Coerthas Western Highlands	(x30,y32)		50	Mature Tree	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x30,y32)		50	Mature Tree	
+RegularNode	 Cedar Log	Coerthas Western Highlands	(x30,y32)		50	Mature Tree	
+RegularNode	Rainbow Cotton Boll	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch	
+RegularNode	 Mist Dill	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch	
+RegularNode	Cyclops Onion (Hidden)	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch	
+RegularNode	 Highland Wheat	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch	
+RegularNode	 Stalk of Ramie	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch	
+RegularNode	Dark Chestnut	The Dravanian Forelands	(x25,y25)		55	Mature Tree	
+RegularNode	 Dark Chestnut Branch	The Dravanian Forelands	(x25,y25)		55	Mature Tree	
+RegularNode	 Fire Crystal	The Dravanian Forelands	(x25,y25)		55	Mature Tree	
+RegularNode	 Dark Chestnut Log	The Dravanian Forelands	(x25,y25)		55	Mature Tree	
+RegularNode	Earth Crystal	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch	
+RegularNode	 Emerald Beans (Hidden)	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch	
+RegularNode	 Magma Beet	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch	
+RegularNode	Birch Log (Hidden)	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	 Birch Branch	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	 Water Crystal	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	 Birch Sap	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	 Cloud Mushroom	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	 Wind Widow	The Sea of Clouds	(x25,y34)		60	Mature Tree	
+RegularNode	Camphorwood Log	The Churning Mists	(x31,y30)		60	Mature Tree	
+RegularNode	 Camphorwood Branch	The Churning Mists	(x31,y30)		60	Mature Tree	
+RegularNode	 Earth Crystal	The Churning Mists	(x31,y30)		60	Mature Tree	
+RegularNode	Coneflower	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch	
+RegularNode	 Periwinkle	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch	
+RegularNode	 Rainbow Pigment	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch	
+RegularNode	Rue	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch	
+RegularNode	 Coriander	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch	
+RegularNode	 Whitefrost Cotton Boll	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch	
+RegularNode	Dandelion	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch	
+RegularNode	 Earth Crystal	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch	
+RegularNode	Sesame Seeds	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch	
+RegularNode	Cow Bitter	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch	
+RegularNode	 Periwinkle	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch	
+RegularNode	 Dated Radz-at-Han Coin	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch	
+RegularNode	 Gaelicatnip	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch	
+RegularNode	 Wind Crystal	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch	
+RegularNode	Bloodhemp	The Fringes	(x16,y7)		60	Lush Vegetation Patch	
+RegularNode	 Gyr Abanian Wheat	The Fringes	(x16,y7)		60	Lush Vegetation Patch	
+RegularNode	 Starcrack Sand	The Fringes	(x16,y7)		60	Lush Vegetation Patch	
+RegularNode	 Cotter Dynasty Relic	The Fringes	(x16,y7)		60	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	The Fringes	(x16,y7)		60	Lush Vegetation Patch	
+RegularNode	Yellow Kudzu Root (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch	
+RegularNode	 Peaks Pigment (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Peaks	(x13,y7)		60	Lush Vegetation Patch	
+RegularNode	Shishu Koban	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch	
+RegularNode	 Water Crystal	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch	
+RegularNode	Dry Branch	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Steppe Vine	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Steppe Rattan Lumber	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Azim Strawberry (Lvl 60 beast tribe quest)	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	Grazing Grass	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Duskglow Cocoon (Lvl 60 beast tribe quest)	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	Verdant Branch	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Steppe Tea Leaves	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	Steppe Safflowers	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Fava Beans	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Steppe Radish	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	Lightning Crystal	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	 Steppe Onion	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch	
+RegularNode	Beech Log	The Fringes	(x10,y16)		65	Mature Tree	
+RegularNode	 Loquat	The Fringes	(x10,y16)		65	Mature Tree	
+RegularNode	 Fire Crystal	The Fringes	(x10,y16)		65	Mature Tree	
+RegularNode	Kudzu Root	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	 Kudzu Vine	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	 Holy Basil	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	 Wild Popoto	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	 Harpoon Head	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	The Fringes	(x11,y26)		65	Lush Vegetation Patch	
+RegularNode	Phial of Thermal Fluid	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch	
+RegularNode	Buckwheat Kernels	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	 Sugar Beet	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	 Green Leek	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	 Mountain Popoto	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	 Pinch of Active Ingredients	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Peaks	(x13,y11)		65	Lush Vegetation Patch	
+RegularNode	Gem Algae	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch	
+RegularNode	 Ruby Cotton Boll	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch	
+RegularNode	 Ama Nori	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch	
+RegularNode	 Shisui Jewel	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch	
+RegularNode	 Water Crystal	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch	
+RegularNode	Soybeans	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch	
+RegularNode	 Cumin Seeds	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch	
+RegularNode	 Walker's Popoto (lvl 65 quest)	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch	
+RegularNode	 Water Crystal	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch	
+RegularNode	Cloudkin Feather	The Churning Mists	(x8,y15)		65	Lush Vegetation Patch	RegularNode	Shiitake Mushroom	The Ruby Sea	(x20,y9)		65	Mature Tree	
+RegularNode	 Larch Log	The Ruby Sea	(x20,y9)		65	Mature Tree	
+RegularNode	 Water Crystal	The Ruby Sea	(x20,y9)		65	Mature Tree	
+RegularNode	 Sparkstone	The Ruby Sea	(x20,y9)		65	Mature Tree	
+RegularNode	Pine Resin	Yanxia	(x36,y15)		65	Mature Tree	
+RegularNode	 Pine Log	Yanxia	(x36,y15)		65	Mature Tree	
+RegularNode	 Wind Crystal	Yanxia	(x36,y15)		65	Mature Tree	
+RegularNode	 Malleable Still Material	Yanxia	(x36,y15)		65	Mature Tree	
+RegularNode	Persimmon	The Fringes	(x10,y30)		70	Mature Tree	
+RegularNode	 Persimmon Leaf	The Fringes	(x10,y30)		70	Mature Tree	
+RegularNode	 Persimmon Log	The Fringes	(x10,y30)		70	Mature Tree	
+RegularNode	 Fire Crystal	The Fringes	(x10,y30)		70	Mature Tree	
+RegularNode	Ruby Tide Kelp	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch	
+RegularNode	 Water Crystal	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch	
+RegularNode	 Nanoriso (lvl 68 quest)	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch	
+RegularNode	Nipplewort	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	 Earth Crystal	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	 Sun Cabbage	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	 Fennel	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	 Chickweed	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	 Strong Steppe Spice	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch	
+RegularNode	Doman Eggplant	Yanxia	(x22,y10)		70	Lush Vegetation Patch	
+RegularNode	 Wind Crystal	Yanxia	(x22,y10)		70	Lush Vegetation Patch	
+RegularNode	 Yanxian Parsley	Yanxia	(x22,y10)		70	Lush Vegetation Patch	
+RegularNode	 Nagxian Cudweed	Yanxia	(x22,y10)		70	Lush Vegetation Patch	
+RegularNode	 Daikon Radish	Yanxia	(x22,y10)		70	Lush Vegetation Patch	
+RegularNode	Alyssum	The Peaks	(x26,y27)		70	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	The Peaks	(x26,y27)		70	Lush Vegetation Patch	
+RegularNode	 Gyr Abanian Carrot	The Peaks	(x26,y27)		70	Lush Vegetation Patch	
+RegularNode	 Twincoon	The Peaks	(x26,y27)		70	Lush Vegetation Patch	
+RegularNode	Zelkova Log	The Lochs	(x26,y9)		70	Mature Tree	
+RegularNode	 Ice Crystal	The Lochs	(x26,y9)		70	Mature Tree	
+RegularNode	 Hard Place Furnishing Materials	The Lochs	(x26,y9)		70	Mature Tree	
+RegularNode	Night Pepper	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch	
+RegularNode	 Animal Trace (Facet of Gathering Delivery)	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch	
+RegularNode	Frantoio	Lakeland	(x36,y24)		75	Mature Tree	
+RegularNode	 Earth Crystal	Lakeland	(x36,y24)		75	Mature Tree	
+RegularNode	Bright Flax	Lakeland	(x16,y23)		75	Lush Vegetation Patch	
+RegularNode	 Purple Carrot	Lakeland	(x16,y23)		75	Lush Vegetation Patch	
+RegularNode	 Animal Droppings (Facet of Gathering Delivery)	Lakeland	(x16,y23)		75	Lush Vegetation Patch	
+RegularNode	 Earth Crystal	Lakeland	(x16,y23)		75	Lush Vegetation Patch	
+RegularNode	White Oak Log	Kholusia	(x27,y22)		75	Mature Tree	
+RegularNode	 Ice Crystal	Kholusia	(x27,y22)		75	Mature Tree	
+RegularNode	Upland Wheat	Kholusia	(x16,y36)		75	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Kholusia	(x16,y36)		75	Lush Vegetation Patch	
+RegularNode	Pixie Apple	Il Mheg	(x30,y5)		75	Mature Tree	
+RegularNode	 Miracle Apple Log	Il Mheg	(x30,y5)		75	Mature Tree	
+RegularNode	 Water Crystal	Il Mheg	(x30,y5)		75	Mature Tree	
+RegularNode	Blood Tomato	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Garden Beet	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Iridescent Cocoon	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Curly Parsley	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Ancient Animal Skin (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Megafauna Leftovers (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	 Water Crystal	Il Mheg	(x11,y24)		75	Lush Vegetation Patch	
+RegularNode	Gianthive Chip	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree	
+RegularNode	 White Ash Log	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree	
+RegularNode	 Wind Crystal	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree	
+RegularNode	Royal Grapes	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch	
+RegularNode	 Pixie Floss Boll	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch	
+RegularNode	 Creamtop Mushroom	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch	
+RegularNode	 Wind Crystal	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch	
+RegularNode	Light Gerbera	Lakeland	(x23,y34)		80	Lush Vegetation Patch	
+RegularNode	 Lime Basil	Lakeland	(x23,y34)		80	Lush Vegetation Patch	
+RegularNode	 Tiger Lily	Lakeland	(x23,y34)		80	Lush Vegetation Patch	
+RegularNode	 Earth Crystal	Lakeland	(x23,y34)		80	Lush Vegetation Patch	
+RegularNode	Harcot	Lakeland	(x8,y9)		80	Mature Tree	
+RegularNode	 Lignum Vitae Log	Lakeland	(x8,y9)		80	Mature Tree	
+RegularNode	 Earth Crystal	Lakeland	(x8,y9)		80	Mature Tree	
+RegularNode	Black Aethersand	Kholusia	(x12,y14)		80	Lush Vegetation Patch	
+RegularNode	 Bomba Rice	Kholusia	(x12,y14)		80	Lush Vegetation Patch	
+RegularNode	 Coffee Beans	Kholusia	(x12,y14)		80	Lush Vegetation Patch	
+RegularNode	 Dwarven Cotton Boll	Kholusia	(x12,y14)		80	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Kholusia	(x12,y14)		80	Lush Vegetation Patch	
+RegularNode	Amber Cloves	Amh Araeng	(x15,y30)		80	Mature Tree	
+RegularNode	 Sandteak Log	Amh Araeng	(x15,y30)		80	Mature Tree	
+RegularNode	 Fire Crystal	Amh Araeng	(x15,y30)		80	Mature Tree	
+RegularNode	Fernleaf Lavender	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch	
+RegularNode	 Megafauna Trace (Facet of Gathering Delivery)	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch	
+RegularNode	 Sweet Alyssum	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch	
+RegularNode	 Wind Crystal	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch	
+RegularNode	Dark Hemp	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch	
+RegularNode	 Dark Rye	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch	
+RegularNode	 Iceberg Lettuce	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch	
+RegularNode	 Wind Crystal	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch	
+RegularNode	Horse Chestnut Log	Labyrinthos	(x17, y6)		85	Mature Tree	
+RegularNode	 Wind Crystal	Labyrinthos	(x17, y6)		85	Mature Tree	
+RegularNode	Coconut	Thavnair	(x18, y21)		85	Mature Tree	
+RegularNode	 Palm Log	Thavnair	(x18, y21)		85	Mature Tree	
+RegularNode	 Palm Syrup	Thavnair	(x18, y21)		85	Mature Tree	
+RegularNode	 Fire Crystal	Thavnair	(x18, y21)		85	Mature Tree	
+RegularNode	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x21, y11)		85	Lush Vegetation Patch	
+RegularNode	 Thavnairian Paprika	Thavnair	(x21, y11)		85	Lush Vegetation Patch	
+RegularNode	 Thavnairian Perilla Leaf	Thavnair	(x21, y11)		85	Lush Vegetation Patch	
+RegularNode	 Fire Crystal	Thavnair	(x21, y11)		85	Lush Vegetation Patch	
+RegularNode	Beet	Garlemald	(x25, y24)		85	Lush Vegetation Patch	
+RegularNode	 Cucumber	Garlemald	(x25, y24)		85	Lush Vegetation Patch	
+RegularNode	 Eblan Lentils	Garlemald	(x25, y24)		85	Lush Vegetation Patch	
+RegularNode	 Snow Flax	Garlemald	(x25, y24)		85	Lush Vegetation Patch	
+RegularNode	 Earth Crystal	Garlemald	(x25, y24)		85	Lush Vegetation Patch	
+RegularNode	Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x16, y27)		85	Mature Tree	
+RegularNode	 Red Pine Log	Garlemald	(x16, y27)		85	Mature Tree	
+RegularNode	 Earth Crystal	Garlemald	(x16, y27)		85	Mature Tree	
+RegularNode	Carrot of Happiness	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch	
+RegularNode	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch	
+RegularNode	 Ice Crystal	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch	
+RegularNode	Sykon	Elpis	(x9,y23)		90	Mature Tree	
+RegularNode	 Elder Nutmeg Seeds	Elpis	(x9,y23)		90	Mature Tree	
+RegularNode	 Ironwood Log	Elpis	(x9,y23)		90	Mature Tree	
+RegularNode	 Lightning Crystal	Elpis	(x9,y23)		90	Mature Tree	
+RegularNode	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x21,y24)		90	Lush Vegetation Patch	
+RegularNode	 Scarlet Moko Grass	Elpis	(x21,y24)		90	Lush Vegetation Patch	
+RegularNode	 Giant Popoto	Elpis	(x21,y24)		90	Lush Vegetation Patch	
+RegularNode	 Sideritis Leaves	Elpis	(x21,y24)		90	Lush Vegetation Patch	
+RegularNode	 Lightning Crystal	Elpis	(x21,y24)		90	Lush Vegetation Patch	
+RegularNode	AR-Caean Cotton Boll	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch	
+RegularNode	 Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch	
+RegularNode	 Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch	
+RegularNode	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch	
+RegularNode	 Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch	
+UnspoiledNode	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	null	1	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	null	3	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	null	2	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	null	6	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	null	3	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	null	6	1	6:00 AM/PM	
+UnspoiledNode	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	null	1	1	8:00 AM/PM	
+UnspoiledNode	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	null	2	0	12:00 AM/PM	
+UnspoiledNode	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	null	3	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	null	3	1	4:00 AM/PM	
+UnspoiledNode	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	null	4	1	4:00 AM/PM	
+UnspoiledNode	Lemonette	Kholusia	(x20,y27)		80	null	2	0	6:00 AM/PM	
+UnspoiledNode	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	null	6	0	8:00 AM/PM	
+UnspoiledNode	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	null	7	0	8:00 AM/PM	
+UnspoiledNode	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	null	2	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	null	6	1	12:00 AM/PM	
+UnspoiledNode	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	null	4	0	12:00 AM/PM	
+UnspoiledNode	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	null	2	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	null	4	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	null	1	0	4:00 AM/PM	
+UnspoiledNode	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	null	3	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	null	7	0	4:00 AM/PM	
+UnspoiledNode	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	null	6	1	6:00 AM/PM	
+UnspoiledNode	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	null	7	0	8:00 AM/PM	
+UnspoiledNode	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	null	8	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	null	2	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	null	4	0	12:00 AM/PM	
+UnspoiledNode	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	null	3	0	12:00 AM/PM	
+UnspoiledNode	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	null	7	0	12:00 AM/PM	
+UnspoiledNode	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	null	1	3	2:00 AM/PM	
+UnspoiledNode	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	null	2	3	2:00 AM/PM	
+UnspoiledNode	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	null	2	0	4:00 AM/PM	
+UnspoiledNode	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	null	7	0	4:00 AM/PM	
+UnspoiledNode	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	null	2	0	6:00 AM/PM	
+UnspoiledNode	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	null	3	0	6:00 AM/PM	
+UnspoiledNode	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	null	6	0	8:00 AM/PM	
+UnspoiledNode	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	null	1	0	10:00 AM/PM	
+UnspoiledNode	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	null	2	0	10:00 AM/PM	
+UnspoiledNode	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	null	3	0	10:00 AM/PM	
+UnspoiledNode	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	null	6	0	10:00 AM/PM	
+UnspoiledNode	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	null	7	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	null	3	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	null	4	0	10:00 AM/PM	
+ARRUnspoiledNode	Silkworm Cocoon	East Shroud	(x22,y26)		-1	null	4	1	1:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	1:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	1:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	1:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	1:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	1:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	1:00 AM	
+ARRUnspoiledNode	Fragrant Log	South Shroud	(x18,y23)		-1	null	6	1	2:00 AM	
+ARRUnspoiledNode	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	null	6	2	2:00 AM	
+ARRUnspoiledNode	Scarlet Sap	North Shroud	(x18,y26)		-1	null	4	2	3:00 AM	
+ARRUnspoiledNode	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	null	6	3	4:00 AM	
+ARRUnspoiledNode	Trillium	East Shroud	(x17,y19)		-1	null	1	1	5:00 AM	
+ARRUnspoiledNode	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	null	2	1	5:00 AM	
+ARRUnspoiledNode	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	null	1	1	5:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	5:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	5:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	5:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	5:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	5:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	5:00 AM	
+ARRUnspoiledNode	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	null	6	2	6:00 AM	
+ARRUnspoiledNode	Redolent Log	Central Shroud	(x30,y19)		-1	null	6	2	6:00 AM	
+ARRUnspoiledNode	Blood Orange	Upper La Noscea	(x28,y25)		-1	null	2	2	7:00 AM	
+ARRUnspoiledNode	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	null	6	2	7:00 AM	
+ARRUnspoiledNode	La Noscean Leek	Western La Noscea	(x34,y28)		-1	null	6	2	8:00 AM	
+ARRUnspoiledNode	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	null	2	1	8:00 AM	
+ARRUnspoiledNode	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	null	1	2	8:00 AM	
+Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	null	5	2	8:00 AM	
+ARRUnspoiledNode	Apricot	Middle La Noscea	(x19,y16)		-1	null	2	2	9:00 AM	
+ARRUnspoiledNode	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	null	6	1	9:00 AM	
+ARRUnspoiledNode	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	null	1	1	9:00 AM	
+ARRUnspoiledNode	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	null	4	1	9:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	9:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	9:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	9:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	9:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	9:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	9:00 AM	
+ARRUnspoiledNode	Cypress Log	Central Shroud	(x25,y29)		-1	null	6	3	10:00 AM	
+ARRUnspoiledNode	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	null	8	1	1:00 PM	
+ARRUnspoiledNode	Black Truffle	Eastern Thanalan	(x12,y16)		-1	null	7	1	1:00 PM	
+ARRUnspoiledNode	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	null	2	1	1:00 PM	
+ARRUnspoiledNode	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	null	3	1	1:00 PM	
+ARRUnspoiledNode	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	null	1	1	1:00 PM	
+ARRUnspoiledNode	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	null	2	1	5:00 PM	
+ARRUnspoiledNode	Rosemary	East Shroud	(x22,y30)		-1	null	1	9	5:00 PM	
+ARRUnspoiledNode	Kidragora	East Shroud	(x13,y23)		-1	null	7	1	9:00 PM	
+ARRUnspoiledNode	Trillium Bulb	East Shroud	(x13,y23)		-1	null	8	1	9:00 PM	
+UnspoiledNode	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	null	1	0	12:00AM/PM	
+UnspoiledNode	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	null	8	0	12:00AM/PM	
+UnspoiledNode	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	null	3	0	2:00AM/PM	
+UnspoiledNode	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	null	2	0	2:00AM/PM	
+UnspoiledNode	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	null	6	1	4:00AM/PM	
+UnspoiledNode	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	null	6	0	6:00AM/PM	
+UnspoiledNode	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	null	2	1	10:00AM/PM	
+UnspoiledNode	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	null	7	0	10:00AM/PM	
+UnspoiledNode	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	null	7	0	12:00AM/PM	
+UnspoiledNode	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	null	7	0	12:00AM/PM	
+UnspoiledNode	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	null	7	0	2:00AM/PM	
+UnspoiledNode	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	null	7	1	2:00AM/PM	
+UnspoiledNode	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	null	8	2	2:00AM/PM	
+UnspoiledNode	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	null	7	0	4:00AM/PM	
+UnspoiledNode	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	null	8	0	4:00AM/PM	
+UnspoiledNode	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	null	6	0	4:00AM/PM	
+UnspoiledNode	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	null	7	0	6:00AM/PM	
+UnspoiledNode	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	null	6	0	6:00AM/PM	
+UnspoiledNode	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	null	8	0	6:00AM/PM	
+UnspoiledNode	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	null	7	0	8:00AM/PM	
+UnspoiledNode	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	null	7	0	8:00AM/PM	
+UnspoiledNode	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	null	1	0	12:00 AM/PM	
+UnspoiledNode	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	null	8	0	12:00 AM/PM	
+UnspoiledNode	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	null	6	0	2:00 AM/PM	
+UnspoiledNode	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	null	7	0	4:00 AM/PM	
+UnspoiledNode	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	null	6	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	null	7	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	null	6	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	null	6	0	8:00 AM/PM	
+UnspoiledNode	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	null	7	0	8:00 AM/PM	
+UnspoiledNode	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	null	6	0	8:00 AM/PM	
+UnspoiledNode	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	null	7	0	8:00 AM/PM	
+UnspoiledNode	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	null	8	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	null	2	1	10:00 AM/PM	
+UnspoiledNode	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	null	1	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	null	2	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	null	2	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	null	3	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	null	4	0	4:00 AM/PM	
+UnspoiledNode	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	null	1	0	10:00 AM/PM	
+UnspoiledNode	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	null	6	0	10:00 AM/PM	
+ARRUnspoiledNode	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	null	3	1	1:00 AM	
+ARRUnspoiledNode	Pumice	Eastern La Noscea	(x17,y26)		-1	null	1	3	1:00 AM	
+ARRUnspoiledNode	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	null	7	2	2:00 AM	
+ARRUnspoiledNode	Ferberite	Northern Thanalan	(x16,y19)		-1	null	6	2	3:00 AM	
+ARRUnspoiledNode	Raw Topaz	Northern Thanalan	(x16,y19)		-1	null	7	2	3:00 AM	
+ARRUnspoiledNode	Raw Iolite	Northern Thanalan	(x16,y19)		-1	null	8	2	3:00 AM	
+ARRUnspoiledNode	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	null	6	2	4:00 AM	
+ARRUnspoiledNode	Raw Diamond	Central Thanalan	(x24,y16)		-1	null	8	2	4:00 AM	
+ARRUnspoiledNode	Raw Emerald	Central Thanalan	(x24,y16)		-1	null	7	2	4:00 AM	
+ARRUnspoiledNode	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	null	6	3	4:00 AM	
+ARRUnspoiledNode	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	null	5	1	5:00 AM	
+ARRUnspoiledNode	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	null	2	1	5:00 AM	
+ARRUnspoiledNode	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	null	7	1	6:00 AM	
+ARRUnspoiledNode	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	null	6	1	9:00 AM	
+ARRUnspoiledNode	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	null	7	1	9:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	null	2	0	1:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x28,y12)		-1	null	3	0	1:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x28,y12)		-1	null	4	0	1:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x28,y12)		-1	null	5	0	1:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x28,y12)		-1	null	6	0	1:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	null	7	0	1:00 PM	
+ARRUnspoiledNode	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	null	1	1	5:00 PM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	null	2	0	5:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x27,y10)		-1	null	3	0	5:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x27,y10)		-1	null	4	0	5:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x27,y10)		-1	null	5	0	5:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x27,y10)		-1	null	6	0	5:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	null	7	0	5:00 PM	
+ARRUnspoiledNode	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	null	6	9	5:00 PM	
+ARRUnspoiledNode	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	null	7	2	6:00 PM	
+ARRUnspoiledNode	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	null	8	2	6:00 PM	
+ARRUnspoiledNode	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	null	3	1	7:00 PM	
+ARRUnspoiledNode	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	null	7	1	9:00 PM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	null	2	0	9:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x27,y10)		-1	null	3	0	9:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x27,y10)		-1	null	4	0	9:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x27,y10)		-1	null	5	0	9:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x27,y10)		-1	null	6	0	9:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	null	7	0	9:00 PM	
+RegularNode	Muddy Water	Central Thanalan	(x18,y25)		5	Mineral Deposit	
+RegularNode	 Copper Ore	Central Thanalan	(x18,y25)		5	Mineral Deposit	
+RegularNode	 Wind Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit	
+RegularNode	 Lightning Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit	
+RegularNode	Bone Chip	Central Thanalan	(x24,y26)		5	Mineral Deposit	
+RegularNode	 Wind Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit	
+RegularNode	 Lightning Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit	
+RegularNode	Muddy Water	Western Thanalan	(x26,y25)		5	Mineral Deposit	
+RegularNode	 Copper Ore	Western Thanalan	(x26,y25)		5	Mineral Deposit	
+RegularNode	 Fire Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit	
+RegularNode	 Water Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit	
+RegularNode	Tin Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit	
+RegularNode	 Zinc Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit	
+RegularNode	 Soiled Femur	Central Thanalan	(x20,y22)		10	Mineral Deposit	
+RegularNode	 Lightning Shard	Central Thanalan	(x20,y22)		10	Mineral Deposit	
+RegularNode	Tin Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit	
+RegularNode	 Zinc Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit	
+RegularNode	 Soiled Femur	Western Thanalan	(x22,y28)		10	Mineral Deposit	
+RegularNode	 Obsidian	Western Thanalan	(x22,y28)		10	Mineral Deposit	
+RegularNode	 Water Shard	Western Thanalan	(x22,y28)		10	Mineral Deposit	
+RegularNode	Raw Sunstone	Lower La Noscea	(x27,y18)		10	Mineral Deposit	
+RegularNode	 Earth Shard	Lower La Noscea	(x27,y18)		10	Mineral Deposit	
+RegularNode	Raw Lapis Lazuli	North Shroud	(x28,y25)		10	Mineral Deposit	
+RegularNode	 Earth Shard	North Shroud	(x28,y25)		10	Mineral Deposit	
+RegularNode	 Potter's Clay	North Shroud	(x28,y25)		10	Mineral Deposit	
+RegularNode	Rock Salt	Central Thanalan	(x14,y23)		15	Rocky Outcrop	
+RegularNode	 Ragstone	Central Thanalan	(x14,y23)		15	Rocky Outcrop	
+RegularNode	 Fine Sand	Central Thanalan	(x14,y23)		15	Rocky Outcrop	
+RegularNode	 Lightning Shard	Central Thanalan	(x14,y23)		15	Rocky Outcrop	
+RegularNode	Iron Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop	
+RegularNode	 Cinnabar	Western Thanalan	(x24,y18)		15	Rocky Outcrop	
+RegularNode	 Copper Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop	
+RegularNode	 Water Shard	Western Thanalan	(x24,y18)		15	Rocky Outcrop	
+RegularNode	Iron Ore	Western Thanalan	(x27,y17)		15	Mineral Deposit	
+RegularNode	 Water Shard	Western Thanalan	(x27,y17)		15	Mineral Deposit	
+RegularNode	Raw Sphene	North Shroud	(x29,y22)		20	Mineral Deposit	
+RegularNode	 Earth Shard	North Shroud	(x29,y22)		20	Mineral Deposit	
+RegularNode	Alumen	Eastern Thanalan	(x17,y20)		20	Mineral Deposit	
+RegularNode	 Raw Malachite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit	
+RegularNode	 Raw Fluorite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit	
+RegularNode	 Fire Shard	Eastern Thanalan	(x17,y20)		20	Mineral Deposit	
+RegularNode	Sunrise Tellin	Western La Noscea	(x29,y22)		20	Mineral Deposit	
+RegularNode	 Raw Danburite	Western La Noscea	(x29,y22)		20	Mineral Deposit	
+RegularNode	 Ice Shard	Western La Noscea	(x29,y22)		20	Mineral Deposit	
+RegularNode	Grade 1 Carbonized Matter	Middle La Noscea	(x15,y10)		20	Rocky Outcrop	
+RegularNode	 Fire Shard	Middle La Noscea	(x15,y10)		20	Rocky Outcrop	
+RegularNode	Mudstone	Western La Noscea	(x26,y24)		20	Rocky Outcrop	
+RegularNode	 Ice Shard	Western La Noscea	(x26,y24)		20	Rocky Outcrop	
+RegularNode	 Limestone	Western La Noscea	(x26,y24)		20	Rocky Outcrop	
+RegularNode	Fire Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop	
+RegularNode	 Water Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop	
+RegularNode	 Lightning Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop	
+RegularNode	 Earth Shard	Upper La Noscea	(x12,y23)		25	Rocky Outcrop	
+RegularNode	Silver Sand	South Shroud	(x23,y21)		25	Rocky Outcrop	
+RegularNode	 Earth Rock	South Shroud	(x23,y21)		25	Rocky Outcrop	
+RegularNode	 Ice Rock	South Shroud	(x23,y21)		25	Rocky Outcrop	
+RegularNode	 Wind Rock	South Shroud	(x23,y21)		25	Rocky Outcrop	
+RegularNode	 Ice Shard	South Shroud	(x23,y21)		25	Rocky Outcrop	
+RegularNode	Effervescent Water	South Shroud	(x15,y19)		25	Mineral Deposit	
+RegularNode	 Silver Ore	South Shroud	(x15,y19)		25	Mineral Deposit	
+RegularNode	 Ice Shard	South Shroud	(x15,y19)		25	Mineral Deposit	
+RegularNode	Red Pigment	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop	
+RegularNode	 Fire Shard	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop	
+RegularNode	 Fire Crystal	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop	
+RegularNode	 Grade 1 Thanalan Topsoil (Rare)	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop	
+RegularNode	Blue Pigment	Western Thanalan	(x23,y23)		30	Rocky Outcrop	
+RegularNode	 Water Shard	Western Thanalan	(x23,y23)		30	Rocky Outcrop	
+RegularNode	 Water Crystal	Western Thanalan	(x23,y23)		30	Rocky Outcrop	
+RegularNode	Grey Pigment	Western La Noscea	(x31,y28)		30	Rocky Outcrop	
+RegularNode	 Ice Shard	Western La Noscea	(x31,y28)		30	Rocky Outcrop	
+RegularNode	 Ice Crystal	Western La Noscea	(x31,y28)		30	Rocky Outcrop	
+RegularNode	Yellow Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop	
+RegularNode	 Brown Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop	
+RegularNode	 Earth Shard	Lower La Noscea	(x26,y15)		30	Rocky Outcrop	
+RegularNode	 Earth Crystal	Lower La Noscea	(x26,y15)		30	Rocky Outcrop	
+RegularNode	 Grade 1 La Noscean Topsoil (Rare)	Lower La Noscea	(x26,y15)		30	Rocky Outcrop	
+RegularNode	Green Pigment	East Shroud	(x20,y27)		30	Rocky Outcrop	
+RegularNode	 Wind Shard	East Shroud	(x20,y27)		30	Rocky Outcrop	
+RegularNode	 Wind Crystal	East Shroud	(x20,y27)		30	Rocky Outcrop	
+RegularNode	 Grade 1 Shroud Topsoil (Rare)	East Shroud	(x20,y27)		30	Rocky Outcrop	
+RegularNode	Purple Pigment	Southern Thanalan	(x18,y11)		30	Rocky Outcrop	
+RegularNode	 Lightning Shard	Southern Thanalan	(x18,y11)		30	Rocky Outcrop	
+RegularNode	 Lightning Crystal	Southern Thanalan	(x18,y11)		30	Rocky Outcrop	
+RegularNode	Wyvern Obsidian	Eastern Thanalan	(x26,y17)		30	Mineral Deposit	
+RegularNode	 Saltpeter	Eastern Thanalan	(x26,y17)		30	Mineral Deposit	
+RegularNode	 Fire Shard	Eastern Thanalan	(x26,y17)		30	Mineral Deposit	
+RegularNode	Bomb Ash	Southern Thanalan	(x22,y29)		30	Rocky Outcrop	
+RegularNode	 Silex	Southern Thanalan	(x22,y29)		30	Rocky Outcrop	
+RegularNode	 Lightning Shard	Southern Thanalan	(x22,y29)		30	Rocky Outcrop	
+RegularNode	Siltstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop	
+RegularNode	 Brimstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop	
+RegularNode	Raw Garnet	Eastern La Noscea	(x28,y27)		35	Mineral Deposit	
+RegularNode	 Raw Aquamarine	Eastern La Noscea	(x28,y27)		35	Mineral Deposit	
+RegularNode	 Raw Goshenite	Eastern La Noscea	(x28,y27)		35	Mineral Deposit	
+RegularNode	 Water Shard	Eastern La Noscea	(x28,y27)		35	Mineral Deposit	
+RegularNode	Raw Peridot	Central Shroud	(x14,y21)		35	Mineral Deposit	
+RegularNode	 Raw Amethyst	Central Shroud	(x14,y21)		35	Mineral Deposit	
+RegularNode	 Granite	Central Shroud	(x14,y21)		35	Mineral Deposit	
+RegularNode	 Wind Shard	Central Shroud	(x14,y21)		35	Mineral Deposit	
+RegularNode	Mythril Sand	Southern Thanalan	(x17,y18)		35	Rocky Outcrop	
+RegularNode	 Lightning Shard	Southern Thanalan	(x17,y18)		35	Rocky Outcrop	
+RegularNode	Raw Heliodor	Southern Thanalan	(x25,y41)		35	Mineral Deposit	
+RegularNode	 Mythril Ore	Southern Thanalan	(x25,y41)		35	Mineral Deposit	
+RegularNode	 Lightning Shard	Southern Thanalan	(x25,y41)		35	Mineral Deposit	
+RegularNode	 Little Worm (Hidden)	Southern Thanalan	(x25,y41)		35	Mineral Deposit	
+RegularNode	Jade	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit	
+RegularNode	 Raw Zircon	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit	
+RegularNode	 Ice Shard	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit	
+RegularNode	Black Alumen	South Shroud	(x28,y22)		40	Mineral Deposit	
+RegularNode	 Raw Tourmaline	South Shroud	(x28,y22)		40	Mineral Deposit	
+RegularNode	 Raw Spinel	South Shroud	(x28,y22)		40	Mineral Deposit	
+RegularNode	 Ice Shard	South Shroud	(x28,y22)		40	Mineral Deposit	
+RegularNode	Grenade Ash	Northern Thanalan	(x21,y28)		40	Rocky Outcrop	
+RegularNode	 Wind Shard	Northern Thanalan	(x21,y28)		40	Rocky Outcrop	
+RegularNode	Electrum Ore	Upper La Noscea	(x30,y25)		45	Mineral Deposit	
+RegularNode	 Raw Turquoise	Upper La Noscea	(x30,y25)		45	Mineral Deposit	
+RegularNode	 Earth Shard	Upper La Noscea	(x30,y25)		45	Mineral Deposit	
+RegularNode	Electrum Sand	Upper La Noscea	(x28,y22)		45	Rocky Outcrop	
+RegularNode	 Marble	Upper La Noscea	(x28,y22)		45	Rocky Outcrop	
+RegularNode	 Earth Shard	Upper La Noscea	(x28,y22)		45	Rocky Outcrop	
+RegularNode	Raw Amber	Eastern Thanalan	(x12,y19)		45	Mineral Deposit	
+RegularNode	 Raw Rubellite	Eastern Thanalan	(x12,y19)		45	Mineral Deposit	
+RegularNode	 Fire Shard	Eastern Thanalan	(x12,y19)		45	Mineral Deposit	
+RegularNode	Cobalt Ore	Northern Thanalan	(x22,y24)		50	Mineral Deposit	
+RegularNode	 Adamantoise Shell	Northern Thanalan	(x22,y24)		50	Mineral Deposit	
+RegularNode	 Basilisk Egg	Northern Thanalan	(x22,y24)		50	Mineral Deposit	
+RegularNode	 Ogre Horn	Northern Thanalan	(x22,y24)		50	Mineral Deposit	
+RegularNode	 Wind Shard	Northern Thanalan	(x22,y24)		50	Mineral Deposit	
+RegularNode	Earth Shard	Lower La Noscea	(x22,y34)		50	Rocky Outcrop	
+RegularNode	 Earth Crystal	Lower La Noscea	(x22,y34)		50	Rocky Outcrop	
+RegularNode	 Grade 2 La Noscean Topsoil (Rare)	Lower La Noscea	(x22,y34)		50	Rocky Outcrop	
+RegularNode	Water Shard	Western Thanalan	(x18,y28)		50	Rocky Outcrop	
+RegularNode	 Grade 2 Thanalan Topsoil (Rare)	Western Thanalan	(x18,y28)		50	Rocky Outcrop	
+RegularNode	Wind Shard	East Shroud	(x18,y24)		50	Rocky Outcrop	
+RegularNode	 Wind Crystal	East Shroud	(x18,y24)		50	Rocky Outcrop	
+RegularNode	 Grade 2 Shroud Topsoil (Rare)	East Shroud	(x18,y24)		50	Rocky Outcrop	
+RegularNode	Ice Shard	Western La Noscea	(x34,y28)		50	Rocky Outcrop	
+RegularNode	 Ice Crystal	Western La Noscea	(x34,y28)		50	Rocky Outcrop	
+RegularNode	 Black Limestone (Hidden)	Western La Noscea	(x34,y28)		50	Rocky Outcrop	
+RegularNode	Dragon Obsidian	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit	
+RegularNode	Ice Crystal	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit	
+RegularNode	 Raw Larimar	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit	
+RegularNode	 Raw Mormorion	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit	
+RegularNode	 Mythrite Ore (Hidden)	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit	
+RegularNode	Mythrite Sand	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop	
+RegularNode	Phial of Thermal Fluid	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit	
+RegularNode	Raw Star Sapphire	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit	
+RegularNode	 Raw Star Ruby	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit	
+RegularNode	 Titanium Ore (Hidden)	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit	
+RegularNode	Dravanian Spring Water	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit	
+RegularNode	 Raw Tiger's Eye	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit	
+RegularNode	 Raw Agate	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit	
+RegularNode	Hardsilver Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Cloud Mica	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Earth Crystal	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Tektite	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Fossilized Dragon Bone	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Lumythrite Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	 Duskfall Moss	The Churning Mists	(x29,y18)		60	Rocky Outcrop	
+RegularNode	Steppe Rock Salt	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Flat Stone	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Clay	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Skystone (Namazu quest)	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	Pure White Silex	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Copper Ore	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Whetstone	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Obsidian	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Geode	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	Steppe Cinnabar	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Soapstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Mudstone Whetstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Mondite (Namazu quest)	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	Steppe Geode	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Pure White Silex	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Copper Ore	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Coal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	Steppe Mica	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Steppe Spring Water	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop	
+RegularNode	Hardsilver Ore (Hidden)	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit	
+RegularNode	 Raw Chrysolite	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit	
+RegularNode	 Wyrm Obsidian	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit	
+RegularNode	 Wind Crystal	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit	
+RegularNode	Abalathian Spring Water	The Sea of Clouds	(x33,y31)		60	Mineral Deposit	
+RegularNode	 Aurum Regis Sand	The Sea of Clouds	(x33,y31)		60	Mineral Deposit	
+RegularNode	 Lightning Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit	
+RegularNode	 Water Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit	
+RegularNode	Ice Stalagmite	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit	
+RegularNode	 Eventide Jade	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit	
+RegularNode	 Raw Citrine	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit	
+RegularNode	 Ice Crystal	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit	
+RegularNode	Beastkin Horn	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	 Fire Crystal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	 Eventide Jade	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	 Raw Carnelian	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	 Raw Opal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	 Rainbow Pigment	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit	
+RegularNode	Gyr Abanian Alumen	The Fringes	(x15,y12)		60	Mineral Deposit	
+RegularNode	 Starcrack Sand	The Fringes	(x15,y12)		60	Mineral Deposit	
+RegularNode	 Cotter Dynasty Relic	The Fringes	(x15,y12)		60	Mineral Deposit	
+RegularNode	 Wind Crystal	The Fringes	(x15,y12)		60	Mineral Deposit	
+RegularNode	Shishu Koban	The Ruby Sea	(x17,y33)		60	Mineral Deposit	
+RegularNode	 Water Crystal	The Ruby Sea	(x17,y33)		60	Mineral Deposit	
+RegularNode	Yellow Kudzu Root	The Peaks	(x35,y10)		60	Mineral Deposit	
+RegularNode	 Peaks Pigment	The Peaks	(x35,y10)		60	Mineral Deposit	
+RegularNode	 Earth Crystal	The Peaks	(x35,y10)		60	Mineral Deposit	
+RegularNode	Cloudkin Feather	The Churning Mists	(x34,25)		65	Rocky Outcrop	
+RegularNode	 Earth Crystal	The Churning Mists	(x34,25)		65	Rocky Outcrop	
+RegularNode	Koppranickel Sand	The Peaks	(x21,y13)		65	Rocky Outcrop	
+RegularNode	 Stiperstone	The Peaks	(x21,y13)		65	Rocky Outcrop	
+RegularNode	 Slate	The Peaks	(x21,y13)		65	Rocky Outcrop	
+RegularNode	 Pinch of Active Ingredients	The Peaks	(x21,y13)		65	Rocky Outcrop	
+RegularNode	 Earth Crystal	The Peaks	(x21,y13)		65	Rocky Outcrop	
+RegularNode	Diatomite	Ruby Sea	(x14,y16)		65	Rocky Outcrop	
+RegularNode	 Water Crystal	Ruby Sea	(x14,y16)		65	Rocky Outcrop	
+RegularNode	 Shisui Jewel	Ruby Sea	(x14,y16)		65	Rocky Outcrop	
+RegularNode	Koppranickel Ore	Ruby Sea	(x25,y35)		65	Mineral Deposit	
+RegularNode	 Feather Iron Ore (lvl 65 quest)	Ruby Sea	(x25,y35)		65	Mineral Deposit	
+RegularNode	 Water Crystal	Ruby Sea	(x25,y35)		65	Mineral Deposit	
+RegularNode	 Sparkstone	Ruby Sea	(x25,y35)		65	Mineral Deposit	
+RegularNode	Gyr Abanian Mineral Water	The Fringes	(x23,y13)		65	Mineral Deposit	
+RegularNode	 Raw Kyanite	The Fringes	(x23,y13)		65	Mineral Deposit	
+RegularNode	 Harpoon Head	The Fringes	(x23,y13)		65	Mineral Deposit	
+RegularNode	 Wind Crystal	The Fringes	(x23,y13)		65	Mineral Deposit	
+RegularNode	Doman Iron Ore	Yanxia	(x33,y22)		65	Mineral Deposit	
+RegularNode	 Crescent Spring Water	Yanxia	(x33,y22)		65	Mineral Deposit	
+RegularNode	 Fire Crystal	Yanxia	(x33,y22)		65	Mineral Deposit	
+RegularNode	 Malleable Still Material	Yanxia	(x33,y22)		65	Mineral Deposit	
+RegularNode	Durium Ore	Yanxia	(x36,y19)		70	Mineral Deposit	
+RegularNode	 Serpentine (lvl 68 quest)	Yanxia	(x36,y19)		70	Mineral Deposit	
+RegularNode	 Fire Crystal	Yanxia	(x36,y19)		70	Mineral Deposit	
+RegularNode	Durium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit	
+RegularNode	 Doman Iron Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit	
+RegularNode	 Palladium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit	
+RegularNode	 Strong Steppe Spice	The Azim Steppe	(x29,y15)		70	Mineral Deposit	
+RegularNode	 Lightning Crystal	The Azim Steppe	(x29,y15)		70	Mineral Deposit	
+RegularNode	Molybdenum Ore	The Lochs	(x10,y18)		70	Mineral Deposit	
+RegularNode	 Ice Crystal	The Lochs	(x10,y18)		70	Mineral Deposit	
+RegularNode	 Hard Place Furnishing Materials	The Lochs	(x10,y18)		70	Mineral Deposit	
+RegularNode	Yellow Alumen	Amh Araeng	(x30,y25)		70	Rocky Outcrop	
+RegularNode	 Coarse Saltpeter	Amh Araeng	(x30,y25)		70	Rocky Outcrop	
+RegularNode	 Animal Trace	Amh Araeng	(x30,y25)		70	Rocky Outcrop	
+RegularNode	 Wind Crystal	Amh Araeng	(x30,y25)		70	Rocky Outcrop	
+RegularNode	Highland Spring Water	Il Mheg	(x8,y20)		75	Mineral Deposit	
+RegularNode	 Megafauna Leftovers	Il Mheg	(x8,y20)		75	Mineral Deposit	
+RegularNode	 Water Crystal	Il Mheg	(x8,y20)		75	Mineral Deposit	
+RegularNode	 Truegold Ore	Il Mheg	(x8,y20)		75	Mineral Deposit	
+RegularNode	 Level 75 Miner Quest	Il Mheg	(x8,y20)		75	Mineral Deposit	
+RegularNode	Lightning Crystal	Lakeland	(26,y34)		75	Mineral Deposit	
+RegularNode	 Bluespirit Ore	Lakeland	(26,y34)		75	Mineral Deposit	
+RegularNode	 Animal Droppings	Lakeland	(26,y34)		75	Mineral Deposit	
+RegularNode	Truegold Sand	Kholusia	(x21,y30)		75	Rocky Outcrop	
+RegularNode	 Hard Mudstone	Kholusia	(x21,y30)		75	Rocky Outcrop	
+RegularNode	 Fire Crystal	Kholusia	(x21,y30)		75	Rocky Outcrop	
+RegularNode	Manasilver Sand	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop	
+RegularNode	 Water Crystal	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop	
+RegularNode	Underground Spring Water	Lakeland	(x35,y16)		80	Mineral Deposit	
+RegularNode	 Lightning Crystal	Lakeland	(x35,y16)		80	Mineral Deposit	
+RegularNode	 Titancopper Ore	Lakeland	(x35,y16)		80	Mineral Deposit	
+RegularNode	 Dimythrite Ore	Lakeland	(x35,y16)		80	Mineral Deposit	
+RegularNode	Extra Effervescent Water	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit	
+RegularNode	 Megafauna Trace	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit	
+RegularNode	 Water Crystal	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit	
+RegularNode	Volcanic Tuff	Kholusia	(x22,y16)		80	Rocky Outcrop	
+RegularNode	 Fire Crystal	Kholusia	(x22,y16)		80	Rocky Outcrop	
+RegularNode	 Black Aethersand (Level 80 Miner Quest)	Kholusia	(x22,y16)		80	Rocky Outcrop	
+RegularNode	Titancopper Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop	
+RegularNode	 Dimythrite Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop	
+RegularNode	 Wind Crystal	Amh Araeng	(x15,y12)		80	Rocky Outcrop	
+RegularNode	Chloroschist	Labyrinthos	(x23, y10)		85	Rocky Outcrop	
+RegularNode	 Eternity Ring Material (Level 90 Gathering Quest)	Labyrinthos	(x23, y10)		85	Rocky Outcrop	
+RegularNode	 High Durium Sand	Labyrinthos	(x23, y10)		85	Rocky Outcrop	
+RegularNode	 Water Crystal	Labyrinthos	(x23, y10)		85	Rocky Outcrop	
+RegularNode	Raw Ametrine	Labyrinthos	(x30, y9)		85	Mineral Deposit	
+RegularNode	 Sharlayan Rock Salt	Labyrinthos	(x30, y9)		85	Mineral Deposit	
+RegularNode	 Water Crystal	Labyrinthos	(x30, y9)		85	Mineral Deposit	
+RegularNode	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x11, y14)		85	Rocky Outcrop	
+RegularNode	 Pewter Ore	Thavnair	(x11, y14)		85	Rocky Outcrop	
+RegularNode	 Ice Crystal	Thavnair	(x11, y14)		85	Rocky Outcrop	
+RegularNode	High Durium Ore	Thavnair	(x18, y28)		85	Mineral Deposit	
+RegularNode	 Ice Crystal	Thavnair	(x18, y28)		85	Mineral Deposit	
+RegularNode	Eblan Alumen	Garlemald	(x20, y27)		85	Rocky Outcrop	
+RegularNode	 Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x20, y27)		85	Rocky Outcrop	
+RegularNode	 Phrygian Gold Ore	Garlemald	(x20, y27)		85	Rocky Outcrop	
+RegularNode	 Lightning Crystal	Garlemald	(x20, y27)		85	Rocky Outcrop	
+RegularNode	Bismuth Ore	Mare Lamentorum	(x29, y35)		85	Mineral Deposit	
+RegularNode	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x29, y35)		85	Mineral Deposit	
+RegularNode	 Earth Crystal	Mare Lamentorum	(x29, y35)		85	Mineral Deposit	
+RegularNode	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x27, y11)		90	Mineral Deposit	
+RegularNode	 Manganese Ore	Elpis	(x27, y11)		90	Mineral Deposit	
+RegularNode	 Fire Crystal	Elpis	(x27, y11)		90	Mineral Deposit	
+RegularNode	Ambrosial Water	Elpis	(x14, y19)		90	Rocky Outcrop	
+RegularNode	 Annite	Elpis	(x14, y19)		90	Rocky Outcrop	
+RegularNode	 Raw Blue Zircon	Elpis	(x14, y19)		90	Rocky Outcrop	
+RegularNode	 Fire Crystal	Elpis	(x14, y19)		90	Rocky Outcrop	
+RegularNode	Raw Star Quartz	Ultima Thule	(x21,y33)		90	Rocky Outcrop	
+RegularNode	 Wind Crystal	Ultima Thule	(x21,y33)		90	Rocky Outcrop	
+RegularNode	Chondrite	Ultima Thule	(x19,y13)		90	Mineral Deposit	
+RegularNode	 Wind Crystal	Ultima Thule	(x19,y13)		90	Mineral Deposit	
+UnspoiledNode	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	null	1	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	null	3	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	null	2	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	null	6	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	null	3	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	null	6	1	6:00 AM/PM	
+UnspoiledNode	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	null	1	1	8:00 AM/PM	
+UnspoiledNode	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	null	2	0	12:00 AM/PM	
+UnspoiledNode	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	null	3	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	null	3	1	4:00 AM/PM	
+UnspoiledNode	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	null	4	1	4:00 AM/PM	
+UnspoiledNode	Lemonette	Kholusia	(x20,y27)		80	null	2	0	6:00 AM/PM	
+UnspoiledNode	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	null	6	0	8:00 AM/PM	
+UnspoiledNode	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	null	7	0	8:00 AM/PM	
+UnspoiledNode	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	null	2	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	null	6	1	12:00 AM/PM	
+UnspoiledNode	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	null	4	0	12:00 AM/PM	
+UnspoiledNode	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	null	2	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	null	4	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	null	6	0	2:00 AM/PM	
+UnspoiledNode	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	null	1	0	4:00 AM/PM	
+UnspoiledNode	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	null	3	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	null	7	0	4:00 AM/PM	
+UnspoiledNode	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	null	6	1	6:00 AM/PM	
+UnspoiledNode	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	null	7	0	8:00 AM/PM	
+UnspoiledNode	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	null	8	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	null	2	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	null	4	0	12:00 AM/PM	
+UnspoiledNode	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	null	3	0	12:00 AM/PM	
+UnspoiledNode	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	null	7	0	12:00 AM/PM	
+UnspoiledNode	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	null	1	3	2:00 AM/PM	
+UnspoiledNode	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	null	2	3	2:00 AM/PM	
+UnspoiledNode	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	null	2	0	4:00 AM/PM	
+UnspoiledNode	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	null	7	0	4:00 AM/PM	
+UnspoiledNode	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	null	2	0	6:00 AM/PM	
+UnspoiledNode	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	null	3	0	6:00 AM/PM	
+UnspoiledNode	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	null	6	0	8:00 AM/PM	
+UnspoiledNode	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	null	1	0	10:00 AM/PM	
+UnspoiledNode	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	null	2	0	10:00 AM/PM	
+UnspoiledNode	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	null	3	0	10:00 AM/PM	
+UnspoiledNode	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	null	6	0	10:00 AM/PM	
+UnspoiledNode	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	null	7	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	null	3	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	null	6	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	null	4	0	10:00 AM/PM	
+ARRUnspoiledNode	Silkworm Cocoon	East Shroud	(x22,y26)		-1	null	4	1	1:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	1:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	1:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	1:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	1:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	1:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	1:00 AM	
+ARRUnspoiledNode	Fragrant Log	South Shroud	(x18,y23)		-1	null	6	1	2:00 AM	
+ARRUnspoiledNode	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	null	6	2	2:00 AM	
+ARRUnspoiledNode	Scarlet Sap	North Shroud	(x18,y26)		-1	null	4	2	3:00 AM	
+ARRUnspoiledNode	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	null	6	3	4:00 AM	
+ARRUnspoiledNode	Trillium	East Shroud	(x17,y19)		-1	null	1	1	5:00 AM	
+ARRUnspoiledNode	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	null	2	1	5:00 AM	
+ARRUnspoiledNode	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	null	1	1	5:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	5:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	5:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	5:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	5:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	5:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	5:00 AM	
+ARRUnspoiledNode	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	null	6	2	6:00 AM	
+ARRUnspoiledNode	Redolent Log	Central Shroud	(x30,y19)		-1	null	6	2	6:00 AM	
+ARRUnspoiledNode	Blood Orange	Upper La Noscea	(x28,y25)		-1	null	2	2	7:00 AM	
+ARRUnspoiledNode	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	null	6	2	7:00 AM	
+ARRUnspoiledNode	La Noscean Leek	Western La Noscea	(x34,y28)		-1	null	6	2	8:00 AM	
+ARRUnspoiledNode	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	null	2	1	8:00 AM	
+ARRUnspoiledNode	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	null	1	2	8:00 AM	
+Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	null	5	2	8:00 AM	
+ARRUnspoiledNode	Apricot	Middle La Noscea	(x19,y16)		-1	null	2	2	9:00 AM	
+ARRUnspoiledNode	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	null	6	1	9:00 AM	
+ARRUnspoiledNode	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	null	1	1	9:00 AM	
+ARRUnspoiledNode	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	null	4	1	9:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	null	2	0	9:00 AM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x32,y11)		-1	null	3	0	9:00 AM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x32,y11)		-1	null	4	0	9:00 AM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x32,y11)		-1	null	5	0	9:00 AM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x32,y11)		-1	null	6	0	9:00 AM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	null	7	0	9:00 AM	
+ARRUnspoiledNode	Cypress Log	Central Shroud	(x25,y29)		-1	null	6	3	10:00 AM	
+ARRUnspoiledNode	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	null	8	1	1:00 PM	
+ARRUnspoiledNode	Black Truffle	Eastern Thanalan	(x12,y16)		-1	null	7	1	1:00 PM	
+ARRUnspoiledNode	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	null	2	1	1:00 PM	
+ARRUnspoiledNode	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	null	3	1	1:00 PM	
+ARRUnspoiledNode	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	null	1	1	1:00 PM	
+ARRUnspoiledNode	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	null	2	1	5:00 PM	
+ARRUnspoiledNode	Rosemary	East Shroud	(x22,y30)		-1	null	1	9	5:00 PM	
+ARRUnspoiledNode	Kidragora	East Shroud	(x13,y23)		-1	null	7	1	9:00 PM	
+ARRUnspoiledNode	Trillium Bulb	East Shroud	(x13,y23)		-1	null	8	1	9:00 PM	
+UnspoiledNode	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	null	1	0	12:00AM/PM	
+UnspoiledNode	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	null	8	0	12:00AM/PM	
+UnspoiledNode	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	null	3	0	2:00AM/PM	
+UnspoiledNode	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	null	2	0	2:00AM/PM	
+UnspoiledNode	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	null	6	1	4:00AM/PM	
+UnspoiledNode	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	null	6	0	6:00AM/PM	
+UnspoiledNode	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	null	2	1	10:00AM/PM	
+UnspoiledNode	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	null	7	0	10:00AM/PM	
+UnspoiledNode	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	null	7	0	12:00AM/PM	
+UnspoiledNode	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	null	7	0	12:00AM/PM	
+UnspoiledNode	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	null	7	0	2:00AM/PM	
+UnspoiledNode	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	null	7	1	2:00AM/PM	
+UnspoiledNode	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	null	8	2	2:00AM/PM	
+UnspoiledNode	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	null	7	0	4:00AM/PM	
+UnspoiledNode	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	null	8	0	4:00AM/PM	
+UnspoiledNode	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	null	6	0	4:00AM/PM	
+UnspoiledNode	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	null	7	0	6:00AM/PM	
+UnspoiledNode	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	null	6	0	6:00AM/PM	
+UnspoiledNode	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	null	8	0	6:00AM/PM	
+UnspoiledNode	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	null	7	0	8:00AM/PM	
+UnspoiledNode	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	null	7	0	8:00AM/PM	
+UnspoiledNode	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	null	1	0	12:00 AM/PM	
+UnspoiledNode	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	null	8	0	12:00 AM/PM	
+UnspoiledNode	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	null	6	0	2:00 AM/PM	
+UnspoiledNode	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	null	7	0	4:00 AM/PM	
+UnspoiledNode	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	null	6	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	null	7	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	null	6	0	6:00 AM/PM	
+UnspoiledNode	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	null	6	0	8:00 AM/PM	
+UnspoiledNode	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	null	7	0	8:00 AM/PM	
+UnspoiledNode	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	null	6	0	8:00 AM/PM	
+UnspoiledNode	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	null	7	0	8:00 AM/PM	
+UnspoiledNode	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	null	8	0	10:00 AM/PM	
+UnspoiledNode	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	null	2	1	10:00 AM/PM	
+UnspoiledNode	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	null	6	0	12:00 AM/PM	
+UnspoiledNode	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	null	1	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	null	2	0	2:00 AM/PM	
+UnspoiledNode	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	null	2	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	null	3	0	4:00 AM/PM	
+UnspoiledNode	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	null	4	0	4:00 AM/PM	
+UnspoiledNode	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	null	1	0	10:00 AM/PM	
+UnspoiledNode	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	null	6	0	10:00 AM/PM	
+ARRUnspoiledNode	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	null	3	1	1:00 AM	
+ARRUnspoiledNode	Pumice	Eastern La Noscea	(x17,y26)		-1	null	1	3	1:00 AM	
+ARRUnspoiledNode	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	null	7	2	2:00 AM	
+ARRUnspoiledNode	Ferberite	Northern Thanalan	(x16,y19)		-1	null	6	2	3:00 AM	
+ARRUnspoiledNode	Raw Topaz	Northern Thanalan	(x16,y19)		-1	null	7	2	3:00 AM	
+ARRUnspoiledNode	Raw Iolite	Northern Thanalan	(x16,y19)		-1	null	8	2	3:00 AM	
+ARRUnspoiledNode	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	null	6	2	4:00 AM	
+ARRUnspoiledNode	Raw Diamond	Central Thanalan	(x24,y16)		-1	null	8	2	4:00 AM	
+ARRUnspoiledNode	Raw Emerald	Central Thanalan	(x24,y16)		-1	null	7	2	4:00 AM	
+ARRUnspoiledNode	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	null	6	3	4:00 AM	
+ARRUnspoiledNode	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	null	5	1	5:00 AM	
+ARRUnspoiledNode	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	null	2	1	5:00 AM	
+ARRUnspoiledNode	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	null	7	1	6:00 AM	
+ARRUnspoiledNode	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	null	6	1	9:00 AM	
+ARRUnspoiledNode	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	null	7	1	9:00 AM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	null	2	0	1:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x28,y12)		-1	null	3	0	1:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x28,y12)		-1	null	4	0	1:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x28,y12)		-1	null	5	0	1:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x28,y12)		-1	null	6	0	1:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	null	7	0	1:00 PM	
+ARRUnspoiledNode	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	null	1	1	5:00 PM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	null	2	0	5:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x27,y10)		-1	null	3	0	5:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x27,y10)		-1	null	4	0	5:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x27,y10)		-1	null	5	0	5:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x27,y10)		-1	null	6	0	5:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	null	7	0	5:00 PM	
+ARRUnspoiledNode	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	null	6	9	5:00 PM	
+ARRUnspoiledNode	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	null	7	2	6:00 PM	
+ARRUnspoiledNode	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	null	8	2	6:00 PM	
+ARRUnspoiledNode	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	null	3	1	7:00 PM	
+ARRUnspoiledNode	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	null	7	1	9:00 PM	
+ARRUnspoiledNode	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	null	2	0	9:00 PM	
+ARRUnspoiledNode	Fire Cluster	Mor Dhona	(x27,y10)		-1	null	3	0	9:00 PM	
+ARRUnspoiledNode	Wind Cluster	Mor Dhona	(x27,y10)		-1	null	4	0	9:00 PM	
+ARRUnspoiledNode	Water Cluster	Mor Dhona	(x27,y10)		-1	null	5	0	9:00 PM	
+ARRUnspoiledNode	Ice Cluster	Mor Dhona	(x27,y10)		-1	null	6	0	9:00 PM	
+ARRUnspoiledNode	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	null	7	0	9:00 PM	

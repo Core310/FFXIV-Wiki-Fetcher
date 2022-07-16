@@ -152,23 +152,29 @@ public class Formatter {
                         Integer.parseInt(csvValues[2]),//Slot
                         Integer.parseInt(csvValues[5]),//level
                         csvValues[6].length() //star
-                ).toString()
+                )
                 );
+                FormattedItem.append("\n");
                 break;
             }
             case ARRUnspoiledNode:{
                 FormattedItem.append(ARRUnspoiledNode.name());
                 FormattedItem.append("\t");
-                FormattedItem.append(new Unspoiled_Node(
-                        csvValues[1],//Item
-                        csvValues[3],//Zone
-                        csvValues[4], //Cords
-                        csvValues[5],//Extra
-                        //End of baseItem
-                        csvValues[0],//Time
-                        Integer.parseInt(csvValues[2]),//Slot
-                        csvValues[6].length() //star
-                ));
+                String slots[] = csvValues[2].split(",",-1);
+                for(String slot: slots){
+                    FormattedItem.append(new Unspoiled_Node(
+                            csvValues[1],//Item
+                            csvValues[3],//Zone
+                            csvValues[4], //Cords
+                            csvValues[5],//Extra
+                            //End of baseItem
+                            csvValues[0],//Time
+                            Integer.parseInt(slot),//Slot
+                            csvValues[6].length() //star
+                    ));
+                    FormattedItem.append("\n");
+                }
+                break;
             }//When an unspoiled node is an ARR one use this instead.
 
             case null:
