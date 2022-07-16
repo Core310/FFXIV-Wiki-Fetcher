@@ -1,118 +1,3 @@
-Level	Type	Zone	Coordinate	Items	Extra
-
-5	Mature Tree	North Shroud	(x28,y26)	Maple Branch, Latex, Maple Log, Earth Shard	
-5	Mature Tree	North Shroud	(x25,y27)	Beehive Chip, Cinnamon, Maple Sap, Earth Shard	
-5	Mature Tree	Central Shroud	(x23,y18)	Allagan Snail, Maple Branch, Latex, Maple Log, Ice Shard, Wind Shard	
-10	Mature Tree	Central Thanalan	(x22,y26)	Cock Feather, Cloves, Lightning Shard	
-10	Mature Tree	Central Shroud	(x25,y20)	Crow Feather, Ash Branch, Ash Log, Tinolqa Mistletoe, Wind Shard	
-10	Mature Tree	North Shroud	(x27,y24)	Ash Branch, Ash Log, Tinolqa Mistletoe, Earth Shard	
-10	Mature Tree	Lower La Noscea	(x32,y16)	Kukuru Bean, La Noscean Orange, Earth Shard, La Noscean Orange Seeds (Hidden)	
-15	Lush Vegetation Patch	Central Shroud	(x18,y19)	Buffalo Beans, Marjoram, Tree Toad, Humus, Wind Shard	
-15	Lush Vegetation Patch	Central Shroud	(x22,y24)	Carnation, Cotton Boll, Lavender, Chanterelle, Wind Shard, Lavender Seeds (Hidden), Windlight Seeds (Hidden)	
-15	Lush Vegetation Patch	Middle La Noscea	(x22,y19)	Ruby Tomato, Sunset Wheat, Straw, La Noscean Lettuce, Fire Shard, La Noscean Lettuce Seeds (Hidden), Firelight Seeds (Hidden)	
-15	Lush Vegetation Patch	Central Thanalan	(x25,y20)	Black Pepper, Yellow Ginseng, Alpine Parsnip, Lightning Shard, Black Pepper Seeds (Hidden), Levinlight Seeds (Hidden)	
-15	Mature Tree	Central Shroud	(x20,y20)	Gridanian Chestnut, Elm Log, Wind Shard	
-15	Lush Vegetation Patch	Lower La Noscea	(x26,y22)	Cinderfoot Olive, Lowland Grapes, Cieldalaes Spinach, Highland Parsley, Earth Shard, Lowland Grape Seeds (Hidden), Olive Seeds (Hidden), Earthlight Seeds (Hidden)	
-15	Lush Vegetation Patch	Western Thanalan	(x23,y18)	Rye, Moko Grass, Coerthan Carrot, Grass Viper, Water Shard, Coerthan Carrot Seeds (Hidden), Waterlight Seeds (Hidden)	
-15	Lush Vegetation Patch	Western Thanalan	(x23,y23)	Ogre Pumpkin, Garlean Garlic, Wild Onion, Water Shard, Garlic Cloves (Hidden), Wild Onion Set (Hidden)	
-20	Mature Tree	Central Thanalan	(x21,y20)	Nopales, Lightning Shard	
-20	Mature Tree	Western La Noscea	(x26,y23)	Grade 1 Carbonized Matter, Ice Shard	
-20	Mature Tree	Lower La Noscea	(x34,y17)	Sun Lemon, Earth Shard, Sun Lemon Seeds (Hidden)	
-20	Lush Vegetation Patch	Western La Noscea	(x31,y28)	Lalafellin Lentil, Island Seedling, Paprika, Ice Shard, Paprika Seeds (Hidden), Icelight Seeds (Hidden)	
-20	Lush Vegetation Patch	Eastern Thanalan	(x16,y27)	Popoto, White Scorpion, Desert Seedling, Fire Shard, Popoto Set (Hidden)	
-20	Lush Vegetation Patch	East Shroud	(x18,y28)	Galago Mint, Belladonna, Gil Bun, Shroud Seedling, Wind Shard	
-20	Mature Tree	East Shroud	(x15,y27)	Faerie Apple, Yew Branch, Yew Log, Wind Shard, Faerie Apple Seeds (Hidden)	
-25	Mature Tree	South Shroud	(x23,y21)	Gridanian Walnut, Walnut Log, Matron's Mistletoe, Ice Shard	
-25	Lush Vegetation Patch	Eastern Thanalan	(x14,y20)	Ala Mhigan Mustard, Pearl Ginger, Millioncorn, Button Mushroom, Fire Shard, Ala Mhigan Mustard Seeds (Hidden), Pearl Ginger Root (Hidden), Millioncorn Seeds (Hidden)	
-25	Lush Vegetation Patch	Upper La Noscea	(x14,y24)	Noble Grapes, Pixie Plums, Sticky Rice, Chamomile, Earth Shard, Pixie Plum Seeds (Hidden), Chamomile Seeds (Hidden)	
-30	Mature Tree	South Shroud	(x16,y21)	Grey Pigment, Ice Shard, Ice Crystal	
-30	Mature Tree	North Shroud	(x27,y22)	Yellow Pigment, Brown Pigment, Earth Shard, Earth Crystal	
-30	Mature Tree	Central Shroud	(x24,y30)	Green Pigment, Wind Shard, Wind Crystal	
-30	Mature Tree	Central Thanalan	(x24,y31)	Purple Pigment, Lightning Shard, Lightning Crystal	
-30	Mature Tree	Middle La Noscea	(x16,y13)	Red Pigment, Fire Shard, Fire Crystal	
-30	Mature Tree	Eastern La Noscea	(x28,y33)	Blue Pigment, Water Shard, Water Crystal	
-30	Mature Tree	South Shroud	(x26,y19)	Chocobo Feather, Alligator Pear, Ice Shard	
-30	Lush Vegetation Patch	North Shroud	(x22,y25)	Moor Leech, Wizard Eggplant, Jade Peas, Midland Cabbage, Earth Shard, Wizard Eggplant Seeds (Hidden), Midland Cabbage Seeds (Hidden)	
-35	Lush Vegetation Patch	Southern Thanalan	Little Ala Mhigo (x20,y7)	Desert Saffron, Laurel, Aloe, Bloodgrass, Lightning Shard, Yafaemi Wildgrass (Hidden)	
-35	Lush Vegetation Patch	Eastern La Noscea	Costa Del Sol (x26,y30)	Dragon Pepper, Midland Basil, Mandrake, Salt Leek, Water Shard, Midland Basil Seeds (Hidden, Rare), Mandrake Seeds (Hidden, Rare)	
-35	Lush Vegetation Patch	South Shroud	(x17,y28)	Wildfowl Feather, Flax, White Truffle, Ice Shard, Linseed (Hidden)	
-35	Mature Tree	South Shroud	Camp Tranquil (x16,y30)	Tarantula, Oak Branch, Oak Log, Ice Shard	
-40	Mature Tree	Eastern La Noscea	Wineport (x19,y25)	Iron Acorn, Almonds, Nutmeg, Mahogany Log, Water Shard, Almond Seeds (Hidden)	
-40	Lush Vegetation Patch	Eastern La Noscea	Wineport (x21,y29)	Maiden Artichoke, Ramhorn Zucchini, Mugwort, Water Shard	
-40	Lush Vegetation Patch	South Shroud	(x21,y29)	Blood Currants, Thyme, Ice Shard, Blood Currant Seeds (Hidden)	
-45	Mature Tree	Coerthas Central Highlands	(x23,y17)	Mirror Apple, Mistletoe, Ice Shard, Mirror Apple Seeds (Hidden)	
-45	Lush Vegetation Patch	Upper La Noscea	(x35,y24)	Rolanberry, Sagolii Sage, Dart Frog, Black Scorpion, Earth Shard, Rolanberry Seeds (Hidden)	
-50	Mature Tree	East Shroud	(x16,y23)	Rosewood Log, Rosewood Branch, Wind Shard	
-50	Lush Vegetation Patch	Southern Thanalan	(x13,y31)	Thanalan Tea Leaves, Lava Toad, Maiden Grass, Lightning Shard	
-50	Mature Tree	Eastern La Noscea	(x17,y32)	Water Crystal, Water Shard	
-50	Mature Tree	Central Thanalan	(x29,y19)	Lightning Crystal, Lightning Shard	
-50	Mature Tree	Middle La Noscea	(x19,y21)	Fire Crystal, Fire Shard	
-50	Mature Tree	Coerthas Western Highlands	(x30,y32)	Cedar Branch, Ice Crystal, Cedar Log	
-55	Lush Vegetation Patch	Coerthas Western Highlands	(x17,y16)	Rainbow Cotton Boll, Ice Crystal, Mist Dill	
-55	Lush Vegetation Patch	The Dravanian Forelands	(x36,y20)	Cyclops Onion (Hidden), Highland Wheat, Stalk of Ramie, Fire Crystal	
-55	Mature Tree	The Dravanian Forelands	(x25,y25)	Dark Chestnut, Dark Chestnut Branch, Fire Crystal, Dark Chestnut Log	
-55	Lush Vegetation Patch	The Churning Mists	(x20,y21)	Earth Crystal, Emerald Beans (Hidden), Magma Beet	
-60	Mature Tree	The Sea of Clouds	(x25,y34)	Birch Log (Hidden), Birch Branch, Water Crystal, Birch Sap, Cloud Mushroom, Wind Widow	
-60	Mature Tree	The Churning Mists	(x31,y30)	Camphorwood Log, Camphorwood Branch, Earth Crystal	
-60	Lush Vegetation Patch	The Dravanian Forelands	(x10,y33)	Coneflower, Periwinkle, Rainbow Pigment, Fire Crystal	
-60	Lush Vegetation Patch	Coerthas Western Highlands	(x12,y14)	Rue, Coriander, Ice Crystal, Whitefrost Cotton Boll	
-60	Lush Vegetation Patch	The Churning Mists	(x20,y31)	Dandelion, Earth Crystal	
-60	Lush Vegetation Patch	The Sea of Clouds	(x23,y10)	Sesame Seeds, Lightning Crystal	
-60	Lush Vegetation Patch	The Dravanian Hinterlands	(x14,y19)	Cow Bitter, Periwinkle, Dated Radz-at-Han Coin, Gaelicatnip, Wind Crystal	
-60	Lush Vegetation Patch	The Fringes	(x16,y7)	Bloodhemp, Gyr Abanian Wheat, Starcrack Sand, Cotter Dynasty Relic, Fire Crystal	
-60	Lush Vegetation Patch	The Peaks	(x13,y7)	Yellow Kudzu Root (Lvl 60★), Peaks Pigment (Lvl 60★), Lightning Crystal	
-60	Lush Vegetation Patch	The Ruby Sea	(x37,y18)	Shishu Koban, Water Crystal	
-60	Lush Vegetation Patch	The Azim Steppe	(x10,y13)	Dry Branch, Steppe Vine, Steppe Rattan Lumber, Azim Strawberry (Lvl 60 beast tribe quest), Lightning Crystal	Namazu Beast Tribe Required
-60	Lush Vegetation Patch	The Azim Steppe	(x24,y20)	Grazing Grass, Lightning Crystal, Duskglow Cocoon (Lvl 60 beast tribe quest)	Namazu Beast Tribe Required
-60	Lush Vegetation Patch	The Azim Steppe	(x20,14)	Verdant Branch, Steppe Tea Leaves, Lightning Crystal	Namazu Beast Tribe Required
-60	Lush Vegetation Patch	The Azim Steppe	(x33,12)	Steppe Safflowers, Fava Beans, Lightning Crystal, Steppe Radish	Namazu Beast Tribe Required
-60	Lush Vegetation Patch	The Azim Steppe	(x33,32)	Lightning Crystal, Steppe Onion	Namazu Beast Tribe Required
-65	Mature Tree	The Fringes	(x10,y16)	Beech Log, Loquat, Fire Crystal	
-65	Lush Vegetation Patch	The Fringes	(x11,y26)	Kudzu Root, Kudzu Vine, Holy Basil, Wild Popoto, Harpoon Head, Fire Crystal	
-65	Lush Vegetation Patch	Coerthas Western Highlands	(x32,y15)	Phial of Thermal Fluid, Ice Crystal	
-65	Lush Vegetation Patch	The Peaks	(x13,y11)	Buckwheat Kernels, Sugar Beet, Green Leek, Mountain Popoto, Pinch of Active Ingredients, Lightning Crystal	
-65	Lush Vegetation Patch	The Ruby Sea	(x26,y19)	Gem Algae, Ruby Cotton Boll, Ama Nori, Shisui Jewel, Water Crystal	
-65	Lush Vegetation Patch	The Ruby Sea	(x7,y8)	Soybeans, Cumin Seeds, Walker's Popoto (lvl 65 quest), Water Crystal	
-65	Lush Vegetation Patch	The Churning Mists	(x8,y15)	Cloudkin Feather	
-65	Mature Tree	The Ruby Sea	(x20,y9)	Shiitake Mushroom, Larch Log, Water Crystal, Sparkstone	
-65	Mature Tree	Yanxia	(x36,y15)	Pine Resin, Pine Log, Wind Crystal, Malleable Still Material	
-70	Mature Tree	The Fringes	(x10,y30)	Persimmon, Persimmon Leaf, Persimmon Log, Fire Crystal	
-70	Lush Vegetation Patch	The Ruby Sea	(x11,y13)	Ruby Tide Kelp, Water Crystal, Nanoriso (lvl 68 quest)	
-70	Lush Vegetation Patch	The Azim Steppe	(x14,y26)	Nipplewort, Earth Crystal, Sun Cabbage, Fennel, Chickweed, Strong Steppe Spice	
-70	Lush Vegetation Patch	Yanxia	(x22,y10)	Doman Eggplant, Wind Crystal, Yanxian Parsley, Nagxian Cudweed, Daikon Radish	
-70	Lush Vegetation Patch	The Peaks	(x26,y27)	Alyssum, Lightning Crystal, Gyr Abanian Carrot, Twincoon	
-70	Mature Tree	The Lochs	(x26,y9)	Zelkova Log, Ice Crystal, Hard Place Furnishing Materials	
-70	Lush Vegetation Patch	Amh Araeng	(x31,y15)	Night Pepper, Animal Trace (Facet of Gathering Delivery), Fire Crystal	
-75	Mature Tree	Lakeland	(x36,y24)	Frantoio, Earth Crystal	
-75	Lush Vegetation Patch	Lakeland	(x16,y23)	Bright Flax, Purple Carrot, Animal Droppings (Facet of Gathering Delivery), Earth Crystal	
-75	Mature Tree	Kholusia	(x27,y22)	White Oak Log, Ice Crystal	
-75	Lush Vegetation Patch	Kholusia	(x16,y36)	Upland Wheat, Ice Crystal	
-75	Mature Tree	Il Mheg	(x30,y5)	Pixie Apple, Miracle Apple Log, Water Crystal	
-75	Lush Vegetation Patch	Il Mheg	(x11,y24)	Blood Tomato, Garden Beet, Iridescent Cocoon, Curly Parsley, Ancient Animal Skin (Facet of Gathering Delivery), Megafauna Leftovers (Facet of Gathering Delivery), Water Crystal	
-75	Mature Tree	The Rak'tika Greatwood	(x12,y20)	Gianthive Chip, White Ash Log, Wind Crystal	
-75	Lush Vegetation Patch	The Rak'tika Greatwood	(x16,y29)	Royal Grapes, Pixie Floss Boll, Creamtop Mushroom, Wind Crystal	
-80	Lush Vegetation Patch	Lakeland	(x23,y34)	Light Gerbera, Lime Basil, Tiger Lily, Earth Crystal	
-80	Mature Tree	Lakeland	(x8,y9)	Harcot, Lignum Vitae Log, Earth Crystal	
-80	Lush Vegetation Patch	Kholusia	(x12,y14)	Black Aethersand, Bomba Rice, Coffee Beans, Dwarven Cotton Boll, Ice Crystal	
-80	Mature Tree	Amh Araeng	(x15,y30)	Amber Cloves, Sandteak Log, Fire Crystal	
-80	Lush Vegetation Patch	The Rak'tika Greatwood	(x24,y28)	Fernleaf Lavender, Megafauna Trace (Facet of Gathering Delivery), Sweet Alyssum, Wind Crystal	
-85	Lush Vegetation Patch	Labyrinthos	(x29, y18)	Dark Hemp, Dark Rye, Iceberg Lettuce, Wind Crystal	
-85	Mature Tree	Labyrinthos	(x17, y6)	Horse Chestnut Log, Wind Crystal	
-85	Mature Tree	Thavnair	(x18, y21)	Coconut, Palm Log, Palm Syrup, Fire Crystal	
-85	Lush Vegetation Patch	Thavnair	(x21, y11)	Hannish Staple (Level 80 Gathering Quest), Thavnairian Paprika, Thavnairian Perilla Leaf, Fire Crystal	
-85	Lush Vegetation Patch	Garlemald	(x25, y24)	Beet, Cucumber, Eblan Lentils, Snow Flax, Earth Crystal	
-85	Mature Tree	Garlemald	(x16, y27)	Garlean Staple (Level 83 Gathering Quest), Red Pine Log, Earth Crystal	
-85	Lush Vegetation Patch	Mare Lamentorum	(x34, y28)	Carrot of Happiness, Lunar Staple (Level 85 Gathering Quest), Ice Crystal	
-90	Mature Tree	Elpis	(x9,y23)	Sykon, Elder Nutmeg Seeds, Ironwood Log, Lightning Crystal	
-90	Lush Vegetation Patch	Elpis	(x21,y24)	Elpis Staple (Level 88 Gathering Quest), Scarlet Moko Grass, Giant Popoto, Sideritis Leaves, Lightning Crystal	
-90	Lush Vegetation Patch	Ultima Thule	(x14,y28)	AR-Caean Cotton Boll, Alien Onion, Water Crystal	
-90	Lush Vegetation Patch	Ultima Thule	(x8,y22)	Integral Log, Water Crystal	
-Gathering
-
-Botanist	Miner	Fisher
-
-Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Locations Big Fishing Fishing Collectables Folklore Fish
-				
 RegularNode	North Shroud	(x28,y26)	Maple Branch		5	Mature Tree	
 RegularNode	North Shroud	(x28,y26)	 Latex		5	Mature Tree	
 RegularNode	North Shroud	(x28,y26)	 Maple Log		5	Mature Tree	
@@ -530,4 +415,19 @@ RegularNode	Garlemald	(x16, y27)	Garlean Staple (Level 83 Gathering Quest)		85	M
 RegularNode	Garlemald	(x16, y27)	 Red Pine Log		85	Mature Tree	
 RegularNode	Garlemald	(x16, y27)	 Earth Crystal		85	Mature Tree	
 RegularNode	Mare Lamentorum	(x34, y28)	Carrot of Happiness		85	Lush Vegetation Patch	
-RegularNode	Mare Lamentorum	(x34, y28)	 Lunar Stap
+RegularNode	Mare Lamentorum	(x34, y28)	 Lunar Staple (Level 85 Gathering Quest)		85	Lush Vegetation Patch	
+RegularNode	Mare Lamentorum	(x34, y28)	 Ice Crystal		85	Lush Vegetation Patch	
+RegularNode	Elpis	(x9,y23)	Sykon		90	Mature Tree	
+RegularNode	Elpis	(x9,y23)	 Elder Nutmeg Seeds		90	Mature Tree	
+RegularNode	Elpis	(x9,y23)	 Ironwood Log		90	Mature Tree	
+RegularNode	Elpis	(x9,y23)	 Lightning Crystal		90	Mature Tree	
+RegularNode	Elpis	(x21,y24)	Elpis Staple (Level 88 Gathering Quest)		90	Lush Vegetation Patch	
+RegularNode	Elpis	(x21,y24)	 Scarlet Moko Grass		90	Lush Vegetation Patch	
+RegularNode	Elpis	(x21,y24)	 Giant Popoto		90	Lush Vegetation Patch	
+RegularNode	Elpis	(x21,y24)	 Sideritis Leaves		90	Lush Vegetation Patch	
+RegularNode	Elpis	(x21,y24)	 Lightning Crystal		90	Lush Vegetation Patch	
+RegularNode	Ultima Thule	(x14,y28)	AR-Caean Cotton Boll		90	Lush Vegetation Patch	
+RegularNode	Ultima Thule	(x14,y28)	 Alien Onion		90	Lush Vegetation Patch	
+RegularNode	Ultima Thule	(x14,y28)	 Water Crystal		90	Lush Vegetation Patch	
+RegularNode	Ultima Thule	(x8,y22)	Integral Log		90	Lush Vegetation Patch	
+RegularNode	Ultima Thule	(x8,y22)	 Water Crystal		90	Lush Vegetation Patch	

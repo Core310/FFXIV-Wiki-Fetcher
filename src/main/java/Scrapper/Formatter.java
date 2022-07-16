@@ -186,12 +186,16 @@ public class Formatter {
      */
     public void formatFile(){
         try {
+            File tmp = File.createTempFile("tmp", "");//Creates a tmp file to write to, then finally replaces the main file.
             BufferedReader br = new BufferedReader(new FileReader(file));
-            BufferedWriter bw = new BufferedWriter(new FileWriter(file,true));
+            BufferedWriter bw = new BufferedWriter(new FileWriter(tmp));
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
 
             while((currentLine = br.readLine()) != null) {
+                if(currentLine.isBlank())
+                    continue;
+                    //bw.write("");
                 csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
@@ -208,8 +212,14 @@ public class Formatter {
                     case default -> {throw new UnexpectedException("All cases should have been covered");}
                 }//End of switch statement
             }//End of while statement
+
             br.close();
             bw.close();
+
+            File oldFile = new File(file);
+            if (oldFile.delete())
+                tmp.renameTo(oldFile);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
