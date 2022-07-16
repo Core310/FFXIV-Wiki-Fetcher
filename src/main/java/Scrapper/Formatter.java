@@ -45,7 +45,7 @@ public class Formatter {
                 return Delete;
             }
 
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info\n", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
                 itemType = UnspoiledNode;
                 return Delete;
             }
@@ -68,9 +68,9 @@ public class Formatter {
      */
     private String formattedItem(String[] csvValues){
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
+        System.out.println(Arrays.toString(csvValues));
         switch (itemType){
             case RegularNode:{
-                //System.out.println(Arrays.toString(csvValues) +" " + csvValues.length); // TODO: 7/16/2022 Delete me
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
                     FormattedItem.append(RegularNode.name());//Appends the name of the item first
@@ -91,7 +91,7 @@ public class Formatter {
                     for (String splitItem : splitItems) {
                         FormattedItem.append(RegularNode.name());//Appends the name of the item first
                         FormattedItem.append("\t");
-                        FormattedItem.append(new Regular_Node(// FIXME: 7/16/22 Not printing out in correct format
+                        FormattedItem.append(new Regular_Node(
                                 splitItem, //Item
                                 csvValues[2],//Zone
                                 csvValues[3],//Cords
