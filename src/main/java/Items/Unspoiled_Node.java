@@ -8,9 +8,8 @@ public class Unspoiled_Node extends Regular_Node  {
     private String time;
 
     /**
-     *      * Default and (should be) only constructor for Unspoiled.
-     *      * If no level is found, input -1 for the level argument.
-     *      * todo check if null works instead of -1.
+     *      * Default constructor for Unspoiled.
+     *      * If no level is found, use alternate constructor
      * @param item
      * @param location
      * @param cords
@@ -36,6 +35,34 @@ public class Unspoiled_Node extends Regular_Node  {
         this.star = star;
         this.time = time;
     }
+
+    /**
+     * Constructor used for ARR nodes
+     * @param item
+     * @param location
+     * @param cords
+     * @param info
+     * @param time
+     * @param slot
+     * @param star
+     */
+    public Unspoiled_Node(
+            String item,
+            String location,
+            String cords,
+            String info,//Base Items
+
+            String time,
+            int slot,
+            int star
+    ) {
+        super(item,location,cords,info,-1);
+        this.slot = slot;
+        this.star = star;
+        this.time = time;
+    }
+
+
 
     @Override
     public String toString() {

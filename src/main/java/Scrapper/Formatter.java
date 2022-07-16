@@ -136,6 +136,7 @@ public class Formatter {
                 break;
             }
             case UnspoiledNode:{
+
                 FormattedItem.append(UnspoiledNode.name());
                 FormattedItem.append("\t");
                 FormattedItem.append(new Unspoiled_Node(
