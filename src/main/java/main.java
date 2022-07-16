@@ -20,5 +20,6 @@ public class main {
 
         Formatter formatter = new Formatter(FileName);
         formatter.formatFile();
+
     }
 }

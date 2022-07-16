@@ -37,8 +37,8 @@ public class FindItem {
         int currentRatio;
         while (scanner.hasNextLine()){
             curLine = scanner.nextLine();
-            if(Objects.equals(curLine, "")) continue; //base case, if the line is null
-            curItem = curLine.split("\t", -1)[0];//0 marks the position at which an item name should be at
+            if(Objects.equals(curLine, "")) continue; //base case, if the line is null todo delete me?
+            curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at
             currentRatio = FuzzySearch.ratio(curItem,ItemName);
             if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
