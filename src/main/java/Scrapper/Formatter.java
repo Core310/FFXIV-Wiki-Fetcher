@@ -44,11 +44,15 @@ public class Formatter {
                 itemType = RegularNode;
                 return Delete;
             }
-
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info", "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info" -> {
                 itemType = UnspoiledNode;
                 return Delete;
             }
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" ->{
+                itemType = ARRUnspoiledNode;
+                return Delete;
+            }
+
             //Ignore cases below possible checkme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
                     "Botanist\tMiner\tFisher",
@@ -136,7 +140,6 @@ public class Formatter {
                 break;
             }
             case UnspoiledNode:{
-
                 FormattedItem.append(UnspoiledNode.name());
                 FormattedItem.append("\t");
                 FormattedItem.append(new Unspoiled_Node(
@@ -153,6 +156,21 @@ public class Formatter {
                 );
                 break;
             }
+            case ARRUnspoiledNode:{
+                FormattedItem.append(ARRUnspoiledNode.name());
+                FormattedItem.append("\t");
+                FormattedItem.append(new Unspoiled_Node(
+                        csvValues[1],//Item
+                        csvValues[3],//Zone
+                        csvValues[4], //Cords
+                        csvValues[5],//Extra
+                        //End of baseItem
+                        csvValues[0],//Time
+                        Integer.parseInt(csvValues[2]),//Slot
+                        csvValues[6].length() //star
+                ));
+            }//When an unspoiled node is an ARR one use this instead.
+
             case null:
                 try {
                     throw new UnexpectedException("There should always be an item type assigned");

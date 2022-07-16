@@ -10,6 +10,7 @@ public enum StaticItemTypes {
     FolkLoreNode,
     RegularNode,
     UnspoiledNode,
+    ARRUnspoiledNode, //For ARR variant of unspoiled nodes (does not include level)
     Delete,
     Ignore //Ignore is for Data
 
