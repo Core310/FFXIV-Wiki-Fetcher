@@ -21,6 +21,12 @@ on:
     - cron: '25 14 * * 4'
 
 jobs:
+  actions:
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.3.0
+      with:
+        java-version: 18
+
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
