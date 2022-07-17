@@ -20,7 +20,7 @@
                     <encoding>UTF-8</encoding>
                     <compilerArgs>
                         <arg>-enable-preview</arg>
-                        <arg>-Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false clean package</arg>
+                        <arg>-Dhttp.keepAlive=true -Dmaven.wagon.http.pool=true clean package</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>
