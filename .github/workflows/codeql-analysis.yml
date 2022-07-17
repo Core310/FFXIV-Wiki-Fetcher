@@ -10,7 +10,7 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
-JAVA_TOOL_OPTIONS:  -Dhttp.keepAlive=true
+
 on:
   push:
     branches: [ "main" ]
