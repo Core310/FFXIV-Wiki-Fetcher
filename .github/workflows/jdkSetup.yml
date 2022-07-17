@@ -1,15 +1,7 @@
 - name: Setup Java Development Kits built by Oracle
-  # You may pin to the exact commit or the version.
-  # uses: oracle-actions/setup-java@a105e460d316d55d7bb98345001a4d85cd2367b7
-  uses: oracle-actions/setup-java@v1.1.2
-  with:
-    # Site to download JDK from: `oracle.com` or `jdk.java.net`
-    website: # default is oracle.com
-    # Feature release number or project name, defaults to `18`
-    release: # default is 18
-    # Additional version information, defaults to `latest`
-    version: # default is latest
-    # Install the downloaded JDK archive file by running actions/setup-java, default to `true`
-    install: # default is true
-    # URI of JDK archive file to download
-    uri: # optional
+steps:
+  - name: 'Set up latest Oracle JDK 17'
+    uses: oracle-actions/setup-java@v1
+    with:
+      website: oracle.com
+      release: 18
