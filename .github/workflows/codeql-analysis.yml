@@ -64,7 +64,7 @@ jobs:
 
      - run: |
        echo "Run, Build Application using script"
-       .Core310/FFXIV-Wiki-Fetcher/src/main/java
+       ./location_of_script_within_repo/buildscript.sh
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
