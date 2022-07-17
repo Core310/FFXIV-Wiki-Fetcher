@@ -1,25 +1,15 @@
-# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
-
-name: Java CI with Maven
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 11
-      uses: actions/setup-java@v3
-      with:
-        java-version: '11'
-        distribution: 'temurin'
-        cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+- name: Setup Java Development Kits built by Oracle
+  # You may pin to the exact commit or the version.
+  # uses: oracle-actions/setup-java@a105e460d316d55d7bb98345001a4d85cd2367b7
+  uses: oracle-actions/setup-java@v1.1.2
+  with:
+    # Site to download JDK from: `oracle.com` or `jdk.java.net`
+    website: # default is oracle.com
+    # Feature release number or project name, defaults to `18`
+    release: # default is 18
+    # Additional version information, defaults to `latest`
+    version: # default is latest
+    # Install the downloaded JDK archive file by running actions/setup-java, default to `true`
+    install: # default is true
+    # URI of JDK archive file to download
+    uri: # optional
