@@ -10,6 +10,11 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
+init:
+- name: Initialize CodeQL
+  uses: github/codeql-action/init@v2
+  with:
+    debug: true
 
 on:
   push:
