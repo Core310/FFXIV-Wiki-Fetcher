@@ -21,9 +21,12 @@ on:
     - cron: '25 14 * * 4'
 
 jobs:
-  actions:
-    - name: Setup Java Development Kits built by Oracle
-    uses: oracle-actions/setup-java@v1.1.2
+  steps:
+  - name: 'Set up latest Oracle JDK 17'
+    uses: oracle-actions/setup-java@v1
+    with:
+      website: oracle.com
+      release: 18
 
 
   analyze:
