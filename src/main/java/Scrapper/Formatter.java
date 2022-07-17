@@ -240,10 +240,9 @@ public class Formatter {
                     case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
                         //Nothing is written to the tmp file and therefore the final file.
                     }
-                    case Ignore -> { //Actual item data NOT a header
-                        bw.write(formattedItem(csvValues));
-                    }
-                    case default -> {throw new UnexpectedException("All cases should have been covered");}
+                    case Ignore -> //Actual item data NOT a header
+                            bw.write(formattedItem(csvValues));
+                    case default -> throw new UnexpectedException("All cases should have been covered");
                 }//End of switch statement
             }//End of while statement
 
@@ -257,15 +256,5 @@ public class Formatter {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-
-    public void SortByItemName(){
-
-        /*
-        //should sort file by item name, MUST be run after being formatted.
-        //Should I load the whole entire file into an arraylist/array and take
-        //up a massivea mnt of memory? It's only run once so shuld b fine?
-         */
     }
 }

@@ -3,21 +3,13 @@ package Items;
 public class Unspoiled_Node extends Regular_Node  {
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
-    private int slot;
-    private int star;
-    private String time;
+    private final int slot;
+    private final int star;
+    private final String time;
 
     /**
      *      * Default constructor for Unspoiled.
      *      * If no level is found, use alternate constructor
-     * @param item
-     * @param location
-     * @param cords
-     * @param info
-     * @param time
-     * @param slot
-     * @param level
-     * @param star
      */
     public Unspoiled_Node(
             String item,
@@ -38,13 +30,6 @@ public class Unspoiled_Node extends Regular_Node  {
 
     /**
      * Constructor used for ARR nodes
-     * @param item
-     * @param location
-     * @param cords
-     * @param info
-     * @param time
-     * @param slot
-     * @param star
      */
     public Unspoiled_Node(
             String item,

@@ -1,4 +1,3 @@
-package FuzzySearch;
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 
 import java.io.File;
@@ -9,6 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
+ * FuzzySearch implementation to find an ITEM in the file.
  * After the main file has been loaded with data and formatted, this class is used to find a certain item.
  * It has a default constructor to assign a file.
  */
@@ -16,6 +16,8 @@ public class FindItem {
     private final File file;
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int highestRatio =0;
+
+    private final int itemCsvValue = 1;//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
 
     public FindItem(File file){
         this.file = file;
@@ -37,8 +39,8 @@ public class FindItem {
         int currentRatio;
         while (scanner.hasNextLine()){
             curLine = scanner.nextLine();
-            if(Objects.equals(curLine, "")) continue; //base case, if the line is null todo delete me?
-            curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at
+            if(Objects.equals(curLine, "")) continue; //base case, if the line is null
+            curItem = curLine.split("\t", -1)[itemCsvValue];
             currentRatio = FuzzySearch.ratio(curItem,ItemName);
             if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
