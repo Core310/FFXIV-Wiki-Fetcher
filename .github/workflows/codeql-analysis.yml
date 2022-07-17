@@ -18,7 +18,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
   schedule:
-    - cron: '20 13 * * 0'
+    - cron: '25 14 * * 4'
 
 jobs:
   analyze:
@@ -53,8 +53,8 @@ jobs:
         # queries: security-extended,security-and-quality
 
         
-    # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
-    # If this step fails, then you should remove it and run the build manually (see below)
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
@@ -64,7 +64,6 @@ jobs:
 
      - run: |
        echo "Run, Build Application using script"
-       ./location_of_script_within_repo/buildscript.sh
+       .Core310/FFXIV-Wiki-Fetcher/src/main/java
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+
