@@ -10,11 +10,6 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
-init:
-- name: Initialize CodeQL
-  uses: github/codeql-action/init@v2
-  with:
-    debug: true
 
 on:
   push:
@@ -26,6 +21,12 @@ on:
     - cron: '25 14 * * 4'
 
 jobs:
+  init:
+  - name: Initialize CodeQL
+  uses: github/codeql-action/init@v2
+  with:
+    debug: true
+
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
