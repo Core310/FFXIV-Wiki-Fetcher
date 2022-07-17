@@ -21,14 +21,6 @@ on:
     - cron: '25 14 * * 4'
 
 jobs:
-  steps:
-  - name: 'Set up latest Oracle JDK 17'
-    uses: oracle-actions/setup-java@v1
-    with:
-      website: oracle.com
-      release: 18
-
-
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
@@ -45,6 +37,13 @@ jobs:
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
     steps:
+  - name: 'Set up latest Oracle JDK 17'
+    uses: oracle-actions/setup-java@v1
+    with:
+      website: oracle.com
+      release: 18
+
+
     - name: Checkout repository
       uses: actions/checkout@v3
 
