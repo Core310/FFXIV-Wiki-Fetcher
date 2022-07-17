@@ -1,4 +1,4 @@
-package Items;
+package Scrapper.Items;
 
 public class Unspoiled_Node extends Regular_Node  {
     //The diff between this and Regular Node is the following:

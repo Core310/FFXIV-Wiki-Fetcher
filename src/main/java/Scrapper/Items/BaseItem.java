@@ -1,4 +1,4 @@
-package Items;
+package Scrapper.Items;
 
 /**
  * The constructor should NEVER be called.

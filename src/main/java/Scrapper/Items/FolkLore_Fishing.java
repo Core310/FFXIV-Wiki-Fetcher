@@ -1,4 +1,4 @@
-package Items;
+package Scrapper.Items;
 
 
 //This one doesnt have slot and hass additional info. Else everything else is the same

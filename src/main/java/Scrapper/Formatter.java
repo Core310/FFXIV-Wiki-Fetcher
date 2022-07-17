@@ -1,6 +1,9 @@
 package Scrapper;
 
-import Items.*;
+import Scrapper.Items.FolkLore_Fishing;
+import Scrapper.Items.FolkLore_Node;
+import Scrapper.Items.Regular_Node;
+import Scrapper.Items.Unspoiled_Node;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
