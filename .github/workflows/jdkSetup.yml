@@ -1,6 +1,7 @@
 name: Setup Java Development Kits built by Oracle
 on: [pull_request]
 
+jobs:
 steps:
   - name: 'Set up latest Oracle JDK 18'
     uses: oracle-actions/setup-java@v1
