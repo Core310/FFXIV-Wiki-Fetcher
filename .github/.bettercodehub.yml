@@ -1,1 +1,3 @@
 component_depth: 6
+exclude:
+- /ffxiv-gatherbuddy-file-creator/src/main/java/Scrapper/Items/.*
