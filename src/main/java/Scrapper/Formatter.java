@@ -190,13 +190,6 @@ public class Formatter {
                 }
                 break;
             }//When an unspoiled node is an ARR one use this instead.
-
-            case null:
-                try {
-                    throw new UnexpectedException("There should always be an item type assigned");
-                } catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
-                }
             case Delete:
             case Ignore:
                 try {
@@ -204,6 +197,7 @@ public class Formatter {
                 } catch (UnexpectedException e) {
                      throw new RuntimeException(e);
                 }
+
         } //End of switch case
         return FormattedItem.toString();
     }
@@ -245,7 +239,6 @@ public class Formatter {
                     }
                     case Ignore -> //Actual item data NOT a header
                             bw.write(formattedItem(csvValues));
-                    case default -> throw new UnexpectedException("All cases should have been covered");
                 }//End of switch statement
             }//End of while statement
 
