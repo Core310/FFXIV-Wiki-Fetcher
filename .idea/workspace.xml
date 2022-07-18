@@ -156,7 +156,7 @@
       <workItem from="1658040554695" duration="3304000" />
       <workItem from="1658045994532" duration="2530000" />
       <workItem from="1658156909353" duration="541000" />
-      <workItem from="1658157499481" duration="706000" />
+      <workItem from="1658157499481" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="Beeg refractor.&#10;I madee a new method called formattedItem which returns the formatted line if the line is data.&#10;Renamed format() to formatFile to make it more accurate to what the method does.&#10;Reflected javadocs and todos on the changes.">
       <created>1655127929964</created>
