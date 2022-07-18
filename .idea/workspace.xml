@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="366bae2e-26cb-4a4c-a086-7aebcc63f529" name="Changes" comment="Removed example pictures.&#10;Disabled java preview feature" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="openjdk-18" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="openjdk-18" />
+  </component>
+  <component name="ProjectId" id="2ATBj3x0oUXjAQM39hcV9PsIKok" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Tab-separated (TSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Tab-separated (TSV)_id&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Inteliji/IntelliJ IDEA 2022.1.2/java versions&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gant&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Testing_Ground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing_Ground" />
+      <module name="ffxiv-gatherbuddy-file-creator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="ffxiv-gatherbuddy-file-creator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testEnviro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testEnviro" />
+      <module name="ffxiv-gatherbuddy-file-creator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.testEnviro" />
+        <item itemvalue="Application.Testing_Ground" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="366bae2e-26cb-4a4c-a086-7aebcc63f529" name="Changes" comment="" />
+      <created>1655023866584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655023866584</updated>
+      <workItem from="1655023868597" duration="854000" />
+      <workItem from="1655118327924" duration="691000" />
+      <workItem from="1655127440464" duration="4058000" />
+      <workItem from="1655133971056" duration="353000" />
+      <workItem from="1655134546969" duration="488000" />
+      <workItem from="1655135055490" duration="1902000" />
+      <workItem from="1655134368719" duration="2350000" />
+      <workItem from="1655137257759" duration="1474000" />
+      <workItem from="1655289981864" duration="9269000" />
+      <workItem from="1655458382023" duration="3391000" />
+      <workItem from="1655474171360" duration="767000" />
+      <workItem from="1655484690121" duration="1121000" />
+      <workItem from="1655483932901" duration="862000" />
+      <workItem from="1655561400369" duration="2357000" />
+      <workItem from="1655903266891" duration="4129000" />
+      <workItem from="1656306994497" duration="1995000" />
+      <workItem from="1656328422152" duration="1139000" />
+      <workItem from="1656401839307" duration="1226000" />
+      <workItem from="1656412698703" duration="1192000" />
+      <workItem from="1656488543144" duration="593000" />
+      <workItem from="1656492701752" duration="637000" />
+      <workItem from="1657374532173" duration="808000" />
+      <workItem from="1657381119360" duration="2020000" />
+      <workItem from="1657381288776" duration="2169000" />
+      <workItem from="1657424186256" duration="1168000" />
+      <workItem from="1657559190255" duration="2426000" />
+      <workItem from="1657616630324" duration="982000" />
+      <workItem from="1657624517002" duration="3695000" />
+      <workItem from="1657672328415" duration="1519000" />
+      <workItem from="1657674592337" duration="37000" />
+      <workItem from="1657684487786" duration="9183000" />
+      <workItem from="1657811451636" duration="783000" />
+      <workItem from="1657897157426" duration="7684000" />
+      <workItem from="1657905050434" duration="7084000" />
+      <workItem from="1657955978142" duration="1768000" />
+      <workItem from="1657983477081" duration="1494000" />
+      <workItem from="1658041808885" duration="2724000" />
+      <workItem from="1658040866118" duration="699000" />
+      <workItem from="1658040554695" duration="3304000" />
+      <workItem from="1658045994532" duration="2530000" />
+      <workItem from="1658156909353" duration="541000" />
+      <workItem from="1658157499481" duration="706000" />
+    </task>
+    <task id="LOCAL-00001" summary="Beeg refractor.&#10;I madee a new method called formattedItem which returns the formatted line if the line is data.&#10;Renamed format() to formatFile to make it more accurate to what the method does.&#10;Reflected javadocs and todos on the changes.">
+      <created>1655127929964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655127929964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="massive overhaul of the ITEM types. Instead of having a useless interface, I repalced it with a new abstract class, BaseItem.java. All items will extend from this base item. &#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1655291472287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655291472287</updated>
+    </task>
+    <task id="LOCAL-00003" summary="massive overhaul of the ITEM types. Instead of having a useless interface, I repalced it with a new abstract class, BaseItem.java. All items will extend from this base item. &#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1655291503750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655291503750</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&#10;Created new ItemOutputFormatter to reduce clutter when making the custom toString methods for each ITEM. In the middle of implementing it in FolkLore_Fishing.java (see the comment in the toString method).&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1655483699240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655483699240</updated>
+    </task>
+    <task id="LOCAL-00005" summary="General Code cleanup&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1655484480679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655484480679</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Midway doing the customToString for regular and unspoil node.&#10;Wanting to make an interface to reduce redundency in the beginning statement of &#10;        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());&#10;&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1655572892688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655572892688</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Zombied in FuzzySearch under a method called findItem. &#10;&#10;TODO RIGHT NOW:&#10;- Put in comments for FindItem. Its done.&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1657376753366</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657376753366</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Zombied in FuzzySearch under a method called findItem. &#10;&#10;TODO RIGHT NOW:&#10;- Put in comments for FindItem. Its done.&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)">
+      <created>1657376794615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657376794615</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reformatted all ITEM constructors.&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- See todoist for the rest">
+      <created>1657383147307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657383147307</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished formattedItem method in Formatter.java&#10;Tidy FolkLore_Fishing.java&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- See todoist for the rest">
+      <created>1657627042235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657627042236</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Formatter.java bugged deleting everything due to formatFile method in Formatter.java">
+      <created>1657684688674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657684688674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="deleted testing ground no use&#10;Small changes to formatter, still bug fixen">
+      <created>1657687191334</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657687191334</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed formatter setCurType method cases.">
+      <created>1657687551356</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657687551356</updated>
+    </task>
+    <task id="LOCAL-00014" summary="everything is kidna working.&#10;Just need to find out how to deal with null/blank values in the table">
+      <created>1657686503963</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686503963</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added xtra comment in ScrapAndStore.java&#10;Removed fixme comment in Formatter.java">
+      <created>1657686802639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686802639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added xtra comment in ScrapAndStore.java&#10;Removed fixme comment in Formatter.java">
+      <created>1657686832505</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657686832505</updated>
+    </task>
+    <task id="LOCAL-00017" summary="managed to find empty lines">
+      <created>1657901305495</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657901305495</updated>
+    </task>
+    <task id="LOCAL-00018" summary="kinda working.&#10;Currently some lines give completely null values (I need 2 somehow check if the entire row is null and not print it)">
+      <created>1657904905556</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657904905556</updated>
+    </task>
+    <task id="LOCAL-00019" summary="managed to write to new file, regular nodes work i hope">
+      <created>1657947362526</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657947362526</updated>
+    </task>
+    <task id="LOCAL-00020" summary="removed some toString, and cleaned up formatFile">
+      <created>1657947941017</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657947941017</updated>
+    </task>
+    <task id="LOCAL-00021" summary="removed some toString, and cleaned up formatFile">
+      <created>1657947968229</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657947968229</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Created new ARRUnspoiledNode type to catch ARR cases.&#10;BUG: Not assigning ARRUnspoiledNode when detected.">
+      <created>1657956635465</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657956635465</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Hopefully everything works now!">
+      <created>1657986390035</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657986390035</updated>
+    </task>
+    <task id="LOCAL-00024" summary="confirmmed all works now, still several todos&#10;(Refer to todoist)">
+      <created>1657986599966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657986599966</updated>
+    </task>
+    <task id="LOCAL-00025" summary="code cleanup">
+      <created>1658042470135</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658042470136</updated>
+    </task>
+    <task id="LOCAL-00026" summary="More code cleaning.&#10;Moved ITEMS package into Scrapper package">
+      <created>1658040391512</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658040391512</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Removed example pictures.&#10;Disabled java preview feature">
+      <created>1658157984420</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157984420</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Removed example pictures.&#10;Disabled java preview feature">
+      <created>1658157996652</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1658157996652</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="massive overhaul of the ITEM types. Instead of having a useless interface, I repalced it with a new abstract class, BaseItem.java. All items will extend from this base item. &#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)" />
+    <MESSAGE value="&#10;Created new ItemOutputFormatter to reduce clutter when making the custom toString methods for each ITEM. In the middle of implementing it in FolkLore_Fishing.java (see the comment in the toString method).&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)" />
+    <MESSAGE value="General Code cleanup&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)" />
+    <MESSAGE value="&#10;Midway doing the customToString for regular and unspoil node.&#10;Wanting to make an interface to reduce redundency in the beginning statement of &#10;        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());&#10;&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)" />
+    <MESSAGE value="Zombied in FuzzySearch under a method called findItem. &#10;&#10;TODO RIGHT NOW:&#10;- Put in comments for FindItem. Its done.&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- Customized the toString for each ITEM (see pkg)" />
+    <MESSAGE value="Reformatted all ITEM constructors.&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- See todoist for the rest" />
+    <MESSAGE value="Finished formattedItem method in Formatter.java&#10;Tidy FolkLore_Fishing.java&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- See todoist for the rest" />
+    <MESSAGE value="Formatter.java bugged deleting everything due to formatFile method in Formatter.java&#10;&#10;Still have not:&#10;- Write to file in any way&#10;   - Delete/Format line (see Formatter)&#10;- See todoist for the rest" />
+    <MESSAGE value="Formatter.java bugged deleting everything due to formatFile method in Formatter.java" />
+    <MESSAGE value="deleted testing ground no use&#10;Small changes to formatter, still bug fixen" />
+    <MESSAGE value="fixed formatter setCurType method cases." />
+    <MESSAGE value="everything is kidna working.&#10;Just need to find out how to deal with null/blank values in the table" />
+    <MESSAGE value="added xtra comment in ScrapAndStore.java&#10;Removed fixme comment in Formatter.java" />
+    <MESSAGE value="managed to find empty lines" />
+    <MESSAGE value="kinda working.&#10;Currently some lines give completely null values (I need 2 somehow check if the entire row is null and not print it)" />
+    <MESSAGE value="managed to write to new file, regular nodes work i hope" />
+    <MESSAGE value="removed some toString, and cleaned up formatFile" />
+    <MESSAGE value="For some reason not catching new type here" />
+    <MESSAGE value="Created new ARRUnspoiledNode type to catch ARR cases.&#10;BUG: Not assigning ARRUnspoiledNode when detected." />
+    <MESSAGE value="Hopefully everything works now!" />
+    <MESSAGE value="confirmmed all works now" />
+    <MESSAGE value="confirmmed all works now, still several todos&#10;(Refer to todoist)" />
+    <MESSAGE value="code cleanup" />
+    <MESSAGE value="More code cleaning.&#10;Moved ITEMS package into Scrapper package" />
+    <MESSAGE value="Removed example pictures.&#10;Disabled java preview feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed example pictures.&#10;Disabled java preview feature" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="23" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
