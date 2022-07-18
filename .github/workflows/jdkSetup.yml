@@ -15,6 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
@@ -27,3 +28,8 @@ jobs:
 
       - name: Setup Java Development Kits built by Oracle
         uses: oracle-actions/setup-java@v1.1.2
+
+    steps: 
+      - bash: | 
+        LOG_PARAMS='-Dorg.slf4j.simpleLogger.defaultLogLevel=error -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn' 
+        mvn test -Dmaven.wagon.http.pool=false -Dsurefire.rerunFailingTestsCount=3 $LOG_PARAMS -f $(pomFilePath) 
