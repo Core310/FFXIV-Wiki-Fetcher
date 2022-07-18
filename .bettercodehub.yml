@@ -1,3 +1,6 @@
 component_depth: 6
-exclude:
-- /Items/.*
+languages:
+- name: java
+  production:
+      exclude:
+          - /Items/.*
