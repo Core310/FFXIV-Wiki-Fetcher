@@ -1,14 +1,19 @@
 # CURRENTLY WIP
 
 # FFXIV Wiki Scrapper
-
-This libary is used for searching for DOH/DOL (aka gathering classes). 
-
+This library searches for DOH/DOL items (aka gathering classes).
 
 
+## Usage
+Use FindItem.findAllClosestValues or FindItem.findAnyMatching to search for an item.
+To build the file yourself run main. makeFile().
 
-# Contributing 
-Dependencies:
+## Development:
+Contributing is greatly appreciated, please download the following dependencies.
+[me.xdrop:fuzzywuzzy 1.4.0] (https://github.com/xdrop/fuzzywuzzy)
+[jsoup 1.15.2](https://jsoup.org/)
+Should you need, the JavaDoc can be found on this repository’s website. (todo)
 
-# Disclaimer
-FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2022 SQUARE ENIX CO., LTD. All Rights Reserved. I am not affiliated with SQUARE ENIX CO., LTD. in any way.
+---
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
+FINAL FANTASY XIV © SQUARE ENIX CO., LTD.
