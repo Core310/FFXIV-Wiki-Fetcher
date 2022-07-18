@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**Bug Desciription**
+**Bug Description**
 
-**Reproduce** 
-(If applicable)
+**Reproduction** 
+(If applicable/needed)
 
 **Expected behaviour and actual outcome**
