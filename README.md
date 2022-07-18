@@ -1,7 +1,6 @@
 # CURRENTLY WIP
 
 # FFXIV Wiki Scrapper
-[![BCH compliance](https://bettercodehub.com/edge/badge/Core310/FFXIV-Wiki-Fetcher?branch=main)](https://bettercodehub.com/)
 
 This libary is used for searching for DOH/DOL (aka gathering classes). 
 
