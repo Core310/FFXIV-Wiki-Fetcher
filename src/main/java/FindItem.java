@@ -1,4 +1,5 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
+import scrapper.items.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -28,9 +29,14 @@ public class FindItem {
     public void findAllClosestValues(String itemName){
         ArrayList<ArrayList<String>> nestedFormattedReturn = new ArrayList<>();
         ArrayList<String> arrayList = HelperFindAllClosestValues(itemName);
+        Item item;
         for(String curLine: arrayList){
-            String[] curItem = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
-
+            String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
+            String curItem = delimLine[0];//0 is index where ItemName is stored
+            switch (curItem){
+                case "FolkLoreFishing":
+                    item = new FolkLore_Fishing(delimLine[1], 2,3,4,5,6)// TODO: 7/20/2022 Make method that auto loads each argument
+            }
 
         }
 
