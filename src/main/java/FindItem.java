@@ -26,8 +26,12 @@ public class FindItem {
     }
 
     public void findAllClosestValues(String itemName){
-        for(String str: HelperFindAllClosestValues(itemName)){
-            System.out.println(str);
+        ArrayList<ArrayList<String>> nestedFormattedReturn = new ArrayList<>();
+        ArrayList<String> arrayList = HelperFindAllClosestValues(itemName);
+        for(String curLine: arrayList){
+            String[] curItem = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
+
+
         }
 
 
@@ -39,7 +43,7 @@ public class FindItem {
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName
      */
-    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {// FIXME: 7/19/2022
+    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {
         Scanner scanner;
         try {
             scanner = new Scanner(file);

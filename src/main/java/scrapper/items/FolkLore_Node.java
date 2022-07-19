@@ -4,7 +4,7 @@ package scrapper.items;
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
  */
-public class FolkLore_Node extends FolkLore_Fishing{
+public class FolkLore_Node extends FolkLore_Fishing implements Item{
 
     private final int slot;
     public FolkLore_Node(
