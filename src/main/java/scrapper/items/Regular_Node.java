@@ -1,4 +1,4 @@
-package Scrapper.Items;
+package scrapper.items;
 
 /**
  * Ussed for regular node locations

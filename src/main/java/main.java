@@ -1,4 +1,4 @@
-import Scrapper.*;
+import scrapper.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -16,7 +16,7 @@ public class main {
      */
     private static void searchFile(){
         FindItem findItem = new FindItem(new File ("XIVGather.TSV"));
-        System.out.println(findItem.findAllClosestValues("Lava Tode"));
+        System.out.println(findItem.HelperFindAllClosestValues("Lava Tode"));
     }
 
     /**

@@ -1,12 +1,10 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
-
 /**
  * FuzzySearch implementation to find an ITEM in the file.
  * After the main file has been loaded with data and formatted, this class is used to find a certain item.
@@ -23,11 +21,22 @@ public class FindItem {
         this.file = file;
     }
 
+
+    public ArrayList<ArrayList<String>> findAllClosestValues(String itemName){
+        for(String curLine: HelperFindAllClosestValues(itemName)){
+
+
+        }
+
+    }
+
+
+
     /**
-     * @param ItemName The item that is being searched for.
+     * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName
      */
-    public ArrayList<String> findAllClosestValues(String ItemName) {
+    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {
         Scanner scanner;
         try {
             scanner = new Scanner(file);
@@ -37,11 +46,11 @@ public class FindItem {
         String curLine;
         String curItem;
         int currentRatio;
-        while (scanner.hasNextLine()){
+        while (scanner.hasNextLine()){//Loop thru file
             curLine = scanner.nextLine();
             if(Objects.equals(curLine, "")) continue; //base case, if the line is null
             curItem = curLine.split("\t", -1)[itemCsvValue];
-            currentRatio = FuzzySearch.ratio(curItem,ItemName);
+            currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
@@ -50,18 +59,19 @@ public class FindItem {
                 currentArray.clear();
                 currentArray.add(curLine);
             }
-        }
+        }//end of while
         return currentArray;
     }
 
     /**
      * Returns one random value from the file matching ItemName.
-     * @param ItemName Item searching for
+     * @param itemName Item searching for
      * @return Random value fetched from the method findAllClosestValues
      */
-    public String findAnyMatching(String ItemName){
+    protected String findAnyMatching(String itemName){
         Random rand = new Random();
-        return findAllClosestValues(ItemName).get(rand.nextInt(findAllClosestValues(ItemName).size()));
+        return HelperFindAllClosestValues(itemName).get(rand.nextInt(HelperFindAllClosestValues(itemName).size()));
     }
+
 
 }

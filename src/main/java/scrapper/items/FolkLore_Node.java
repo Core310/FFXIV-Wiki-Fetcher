@@ -1,4 +1,4 @@
-package Scrapper.Items;
+package scrapper.items;
 
 /**
  * Only difference is an int, slot

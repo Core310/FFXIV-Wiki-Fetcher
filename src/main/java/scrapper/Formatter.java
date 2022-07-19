@@ -1,15 +1,15 @@
-package Scrapper;
+package scrapper;
 
-import Scrapper.Items.FolkLore_Fishing;
-import Scrapper.Items.FolkLore_Node;
-import Scrapper.Items.Regular_Node;
-import Scrapper.Items.Unspoiled_Node;
+import scrapper.items.FolkLore_Fishing;
+import scrapper.items.FolkLore_Node;
+import scrapper.items.Regular_Node;
+import scrapper.items.Unspoiled_Node;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.Arrays;
 
-import static Scrapper.StaticItemTypes.*;
+import static scrapper.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading.

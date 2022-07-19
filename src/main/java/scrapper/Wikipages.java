@@ -1,4 +1,4 @@
-package Scrapper;
+package scrapper;
 
 /**
  * Contains all links that are to be searched.
