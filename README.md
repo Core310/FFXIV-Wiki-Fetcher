@@ -6,11 +6,13 @@ Use FindItem.findAllClosestValues or FindItem.findAnyMatching to search for an i
 To build the file yourself run main. makeFile().
 
 ## Development:
-Contributing is greatly appreciated, please download the following dependencies if you are planning to do so.
-[me.xdrop:fuzzywuzzy 1.4.0] (https://github.com/xdrop/fuzzywuzzy)
-[jsoup 1.15.2](https://jsoup.org/)
+Contributing is greatly appreciated.
 
-Should you need, the JavaDoc can be found on this repository’s website.
+Please download the following dependencies if you are planning to do so.
+- [me.xdrop:fuzzywuzzy 1.4.0](https://github.com/xdrop/fuzzywuzzy)
+- [jsoup 1.15.2](https://jsoup.org/)
+
+Should you need, a JavaDoc can be found on this repository’s website.
 
 ---
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
