@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
+
 /**
  * FuzzySearch implementation to find an ITEM in the file.
  * After the main file has been loaded with data and formatted, this class is used to find a certain item.
@@ -26,24 +27,27 @@ public class FindItem {
         }
     }
 
-    public void findAllClosestValues(String itemName){
+    public String findAllClosestValues(String itemName){
         ArrayList<ArrayList<String>> nestedFormattedReturn = new ArrayList<>();
         ArrayList<String> arrayList = HelperFindAllClosestValues(itemName);
-        Item item;
+        Item item = null;
         for(String curLine: arrayList){
             String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
             String curItem = delimLine[0];//0 is index where ItemName is stored
             switch (curItem){
                 case "FolkLoreFishing":
-                    item = new FolkLore_Fishing(delimLine[1], 2,3,4,5,6)// TODO: 7/20/2022 Make method that auto loads each argument
+                    item = new FolkLore_Fishing(delimLine[1],
+                            delimLine[2],
+                            delimLine[3],
+                            delimLine[4],
+                            delimLine[5],
+                            delimLine[6]);
+                // TODO: 7/20/2022 Make method that auto loads each argument
             }
-
         }
-
-
+        assert item != null;
+        return item.toString();
     }
-
-
 
     /**
      * @param itemName The item that is being searched for.
