@@ -16,8 +16,15 @@ public class main {
      */
     private static void searchFile(){
         FindItem findItem = new FindItem(new File ("XIVGather.TSV"));
-        //findItem.HelperFindAllClosestValues("lava getr");
-        findItem.findAllClosestValues("lava getr");
+        for(String a: findItem.HelperFindAllClosestValues("lava tode")){
+            System.out.println(a);
+        }
+
+        for(String a: findItem.HelperFindAllClosestValues("lava getr")){
+            System.out.println(a);
+        }
+
+        //findItem.findAllClosestValues("lava getr");
     }
 
     /**
