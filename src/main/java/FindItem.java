@@ -77,6 +77,7 @@ public class FindItem {
                 currentArray.add(curLine);
             }
         }//end of while
+        scanner.close();
         return currentArray;
     }
 
