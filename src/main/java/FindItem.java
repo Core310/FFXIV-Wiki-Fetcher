@@ -15,8 +15,6 @@ public class FindItem {
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int highestRatio =0;
 
-    private final int itemCsvValuePosition = 1;//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
-
     public FindItem(File file){
         this.file = file;
     }
@@ -42,7 +40,7 @@ public class FindItem {
                             delimLine[4],
                             delimLine[5],
                             delimLine[6]);
-                // TODO: 7/20/2022 Make method that auto loads each argument
+                // TODO: 7/20/2022 Make method that auto loads each argument (how would I do this)
             }
         }
         assert item != null;
@@ -50,25 +48,29 @@ public class FindItem {
     }
 
     /**
+     * Loops through file finding the highest matching value and return all in array.
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName
      */
-    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {
-        Scanner scanner;
+    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {// FIXME: 7/20/2022 While itemName updates, the array does not
+        Scanner sc;
+        System.out.println("----------");
         try {
-            scanner = new Scanner(file);
+            sc = new Scanner(file);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
         String curLine;
         String curItem;
         int currentRatio;
-        while (scanner.hasNextLine()){//Loop thru file
-            curLine = scanner.nextLine();
-            if(Objects.equals(curLine, "")) continue; //base case, if the line is null
+        while (sc.hasNextLine()){//Loop through file
+            curLine = sc.nextLine();
+            //1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
+            int itemCsvValuePosition = 1;
             curItem = curLine.split("\t", -1)[itemCsvValuePosition];
             currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(currentRatio == highestRatio) {
+                System.out.println(curLine);
                 currentArray.add(curLine);
             }
             else if (currentRatio > highestRatio) {
@@ -77,7 +79,7 @@ public class FindItem {
                 currentArray.add(curLine);
             }
         }//end of while
-        scanner.close();
+        sc.close();
         return currentArray;
     }
 

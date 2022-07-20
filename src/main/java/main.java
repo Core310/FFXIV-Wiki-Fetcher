@@ -3,6 +3,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.*;
+import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
 public class main {
@@ -16,12 +17,15 @@ public class main {
      */
     private static void searchFile(){
         FindItem findItem = new FindItem(new File ("XIVGather.TSV"));
-        for(String a: findItem.HelperFindAllClosestValues("lava tode")){
+        ArrayList<String> arr;
+
+        arr = findItem.HelperFindAllClosestValues("lava tode");
+        for(String a: arr){
             System.out.println(a);
         }
-
-        for(String a: findItem.HelperFindAllClosestValues("lava getr")){
-            System.out.println(a);
+        arr = findItem.HelperFindAllClosestValues("lava getr");
+        for(String b: arr){
+            System.out.println(b);
         }
 
         //findItem.findAllClosestValues("lava getr");
