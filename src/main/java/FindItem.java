@@ -13,8 +13,6 @@ import java.util.*;
 public class FindItem {
     private final File file;
     private final ArrayList<String> currentArray = new ArrayList<>();
-    private int highestRatio =0;
-
     public FindItem(File file){
         this.file = file;
     }
@@ -54,23 +52,21 @@ public class FindItem {
      */
     protected ArrayList<String> HelperFindAllClosestValues(String itemName) {// FIXME: 7/20/2022 While itemName updates, the array does not
         Scanner sc;
-        System.out.println("----------");
         try {
             sc = new Scanner(file);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+        int highestRatio =0;
         String curLine;
         String curItem;
         int currentRatio;
         while (sc.hasNextLine()){//Loop through file
             curLine = sc.nextLine();
-            //1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
-            int itemCsvValuePosition = 1;
-            curItem = curLine.split("\t", -1)[itemCsvValuePosition];
-            currentRatio = FuzzySearch.ratio(curItem,itemName);
+
+            curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
+            currentRatio = FuzzySearch.ratio(curItem,itemName);// FIXME: 7/21/2022 Likely error line? itemName is still updated, as well as current ratio
             if(currentRatio == highestRatio) {
-                System.out.println(curLine);
                 currentArray.add(curLine);
             }
             else if (currentRatio > highestRatio) {
