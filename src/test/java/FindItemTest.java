@@ -12,21 +12,21 @@ class FindItemTest {
         ArrayList<String> curTest;
 
         expectedOutput = new ArrayList<>();
-        expectedOutput.add("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch\t");
+        expectedOutput.add("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch");
         curTest = findItem.HelperFindAllClosestValues("lava tode");
         assertEquals(expectedOutput,curTest);
 
         expectedOutput.clear();
-        expectedOutput.add("REGULAR_NODE\t Magma Beet\tThe Churning Mists\t(x20,y21)\t\t55\tLush Vegetation Patch\t");
-        expectedOutput.add("REGULAR_NODE\t Fava Beans\tThe Azim Steppe\t(x33,12)\tNamazu Beast Tribe Required\t60\tLush Vegetation Patch\t");
-        expectedOutput.add("REGULAR_NODE\tZelkova Log\tThe Lochs\t(x26,y9)\t\t70\tMature Tree\t");
+        expectedOutput.add("REGULAR_NODE\t Magma Beet\tThe Churning Mists\t(x20,y21)\t\t55\tLush Vegetation Patch");
+        expectedOutput.add("REGULAR_NODE\t Fava Beans\tThe Azim Steppe\t(x33,12)\tNamazu Beast Tribe Required\t60\tLush Vegetation Patch");
+        expectedOutput.add("REGULAR_NODE\tZelkova Log\tThe Lochs\t(x26,y9)\t\t70\tMature Tree");
         curTest = findItem.HelperFindAllClosestValues("lava getr");
         assertEquals(expectedOutput,curTest);
         //End of regular node tests
 
         expectedOutput.clear();
-        expectedOutput.add("UNSPOILED_NODE\tRarefied Annite\tElpis\t(x8,y36)\t600 Min. Collectability\t90\tn/a\t2\t1\t10:00AM/PM\t");
-        expectedOutput.add("UNSPOILED_NODE\tRarefied Pyrite\tThe Dravanian Forelands\t(x31,y32)\t600 Min. Collectability\t51\tn/a\t3\t0\t4:00 AM/PM\t");
+        expectedOutput.add("UNSPOILED_NODE\tRarefied Annite\tElpis\t(x8,y36)\t600 Min. Collectability\t90\tn/a\t2\t1\t10:00AM/PM");
+        expectedOutput.add("UNSPOILED_NODE\tRarefied Pyrite\tThe Dravanian Forelands\t(x31,y32)\t600 Min. Collectability\t51\tn/a\t3\t0\t4:00 AM/PM");
         curTest = findItem.HelperFindAllClosestValues("rarefiend stuff");
         assertEquals(expectedOutput,curTest);
 
@@ -38,9 +38,10 @@ class FindItemTest {
     void findAnyMatching() {
         String curTest;
         curTest = findItem.findAnyMatching("Lava Tode");// Reg node test
-        assertEquals("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch\t",curTest);//Should only have one close value matching
+        assertEquals("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch",curTest);//Should only have one close value matching
         curTest = findItem.findAnyMatching("r drk rye");// Unspoil node test
-        assertEquals("REGULAR_NODE\t Dark Rye\tLabyrinthos\t(x29, y18)\t\t85\tLush Vegetation Patch\t",curTest);// FIXME: 7/21/2022 Duplicates in file
+        assertEquals("REGULAR_NODE\t Dark Rye\tLabyrinthos\t(x29, y18)\t\t85\tLush Vegetation Patch",curTest);// FIXME: 7/21/2022 Duplicates in file
+        curTest = findItem.findAnyMatching(" Level 75 Miner Quest"); //A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations
 
 
     }
