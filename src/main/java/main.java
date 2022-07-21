@@ -8,8 +8,8 @@ import java.util.ArrayList;
 @SuppressWarnings("ALL")
 public class main {
     static final String FileName = "XIVGather.TSV";
-    public static void main(String[] args) {
-        searchFile();
+    public static void main(String[] args) throws IOException {
+        makeFile();
     }
 
     /**

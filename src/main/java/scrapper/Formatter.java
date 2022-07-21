@@ -7,7 +7,6 @@ import scrapper.items.Unspoiled_Node;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
-import java.util.Arrays;
 
 import static scrapper.StaticItemTypes.*;
 
@@ -36,24 +35,24 @@ public class Formatter {
     private StaticItemTypes setCurrentType(String curLine){
         switch (curLine) {
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
-                itemType = FolkLoreNode;
-                return Delete;
+                itemType = FOLK_LORE_NODE;
+                return DELETE;
             }
             case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info" -> {
-                itemType = FolkLoreFishing;
-                return Delete;
+                itemType = FOLK_LORE_FISHING;
+                return DELETE;
             }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
-                itemType = RegularNode;
-                return Delete;
+                itemType = REGULAR_NODE;
+                return DELETE;
             }
             case "Time\tItem\tSlot #\tLocation\tCoordinate\tLevel\tStar\tAdditional Info" -> {
-                itemType = UnspoiledNode;
-                return Delete;
+                itemType = UNSPOILED_NODE;
+                return DELETE;
             }
             case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" ->{
-                itemType = ARRUnspoiledNode;
-                return Delete;
+                itemType = ARR_UNSPOILED_NODE;
+                return DELETE;
             }
 
             //Ignore cases below possible checkme?
@@ -62,10 +61,10 @@ public class Formatter {
                     "Gathering",
                     ""
                     -> {
-                return Delete;
+                return DELETE;
             }
         }
-        return Ignore;
+        return IGNORE;
     }
 
     /**
@@ -74,15 +73,15 @@ public class Formatter {
      * @return New line that should replace the old line.
      */
     private String formattedItem(String[] csvValues){
-        StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
+        StringBuilder formattedItem = new StringBuilder(); //String to replace the current line read in
         switch (itemType){
-            case RegularNode:{
+            case REGULAR_NODE:{
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
 
-                    FormattedItem.append(RegularNode.name());//Appends the name of the item first
-                    FormattedItem.append("\t");
-                    FormattedItem.append(
+                    formattedItem.append(REGULAR_NODE.name());//Appends the name of the item first
+                    formattedItem.append("\t");
+                    formattedItem.append(
                             new Regular_Node(
                             csvValues[4],//Item
                             csvValues[2],//Zone
@@ -92,14 +91,14 @@ public class Formatter {
                             Integer.parseInt(csvValues[0]),//Level
                             csvValues[1]//Type
                     ));
-                    FormattedItem.append("\n");
+                    formattedItem.append("\n");
                 }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
                     for (String splitItem : splitItems) {
-                        FormattedItem.append(RegularNode.name());//Appends the name of the item first
-                        FormattedItem.append("\t");
-                        FormattedItem.append(new Regular_Node(
+                        formattedItem.append(REGULAR_NODE.name());//Appends the name of the item first
+                        formattedItem.append("\t");
+                        formattedItem.append(new Regular_Node(
                                 splitItem, //Item
                                 csvValues[2],//Zone
                                 csvValues[3],//Cords
@@ -108,22 +107,22 @@ public class Formatter {
                                 Integer.parseInt(csvValues[0]),//Level
                                 csvValues[1]//Type
                         ));
-                        FormattedItem.append("\n");
+                        formattedItem.append("\n");
                     }
                 }
                 break;
             }
-            case FolkLoreNode:{
-                FormattedItem.append(FolkLoreNode.name());
-                FormattedItem.append("\t");
+            case FOLK_LORE_NODE:{
+                formattedItem.append(FOLK_LORE_NODE.name());
+                formattedItem.append("\t");
                 if(csvValues[3].equals(""))
                     csvValues[3] = "-1";//Edge case for when no value found
 
                 if(csvValues[2].equals("Stonehard Water"))
                     csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
                 //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
-
-                FormattedItem.append(new FolkLore_Node(
+                System.out.println(csvValues[2]);//This is correct value todo del me
+                formattedItem.append(new FolkLore_Node(
                         csvValues[2],//Item
                         csvValues[4],//Zone
                         csvValues[5],//Cords
@@ -134,13 +133,13 @@ public class Formatter {
                         Integer.parseInt(csvValues[3])//Slot
 
                 ));
-                FormattedItem.append("\n");
+                formattedItem.append("\n");
                 break;
             }
-            case FolkLoreFishing:{
-                FormattedItem.append(FolkLoreFishing.name());
-                FormattedItem.append("\t");
-                FormattedItem.append(new FolkLore_Fishing(
+            case FOLK_LORE_FISHING:{
+                formattedItem.append(FOLK_LORE_FISHING.name());
+                formattedItem.append("\t");
+                formattedItem.append(new FolkLore_Fishing(
                         csvValues[2],//Item
                         csvValues[3],//Zone
                         csvValues[4],//Cords
@@ -149,13 +148,13 @@ public class Formatter {
                         csvValues[0],////FolkloreTome
                         csvValues[1]//Time
                 ));
-                FormattedItem.append("\n");
+                formattedItem.append("\n");
                 break;
             }
-            case UnspoiledNode:{
-                FormattedItem.append(UnspoiledNode.name());
-                FormattedItem.append("\t");
-                FormattedItem.append(new Unspoiled_Node(
+            case UNSPOILED_NODE:{
+                formattedItem.append(UNSPOILED_NODE.name());
+                formattedItem.append("\t");
+                formattedItem.append(new Unspoiled_Node(
                         csvValues[1],//Item
                         csvValues[3],//Zone
                         csvValues[4], //Cords
@@ -167,15 +166,15 @@ public class Formatter {
                         csvValues[6].length() //star
                 )
                 );
-                FormattedItem.append("\n");
+                formattedItem.append("\n");
                 break;
             }
-            case ARRUnspoiledNode:{
-                FormattedItem.append(ARRUnspoiledNode.name());
-                FormattedItem.append("\t");
+            case ARR_UNSPOILED_NODE:{
+                formattedItem.append(ARR_UNSPOILED_NODE.name());
+                formattedItem.append("\t");
                 String[] slots = csvValues[2].split(",",-1);
                 for(String slot: slots){
-                    FormattedItem.append(new Unspoiled_Node(
+                    formattedItem.append(new Unspoiled_Node(
                             csvValues[1],//Item
                             csvValues[3],//Zone
                             csvValues[4], //Cords
@@ -185,12 +184,12 @@ public class Formatter {
                             Integer.parseInt(slot),//Slot
                             csvValues[6].length() //star
                     ));
-                    FormattedItem.append("\n");
+                    formattedItem.append("\n");
                 }
                 break;
             }//When an unspoiled node is an ARR one use this instead.
-            case Delete:
-            case Ignore:
+            case DELETE:
+            case IGNORE:
                 try {
                     throw new UnexpectedException("These items should not appear here, check the main formatter method.");
                 } catch (UnexpectedException e) {
@@ -198,7 +197,7 @@ public class Formatter {
                 }
 
         } //End of switch case
-        return FormattedItem.toString();
+        return formattedItem.toString();
     }
 
     /**
@@ -233,10 +232,10 @@ public class Formatter {
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
-                    case FolkLoreFishing, FolkLoreNode, RegularNode, UnspoiledNode, Delete -> {
+                    case FOLK_LORE_FISHING, FOLK_LORE_NODE, REGULAR_NODE, UNSPOILED_NODE, DELETE -> {
                         //Nothing is written to the tmp file and therefore the final file.
                     }
-                    case Ignore -> //Actual item data NOT a header
+                    case IGNORE -> //Actual item data NOT a header
                             bw.write(formattedItem(csvValues));
                 }//End of switch statement
             }//End of while statement
