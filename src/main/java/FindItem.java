@@ -65,7 +65,7 @@ public class FindItem {
             curLine = sc.nextLine();
 
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
-            currentRatio = FuzzySearch.ratio(curItem,itemName);// FIXME: 7/21/2022 Likely error line? itemName is still updated, as well as current ratio
+            currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
