@@ -64,10 +64,11 @@ public class FindItem {
         int currentRatio;
         while (sc.hasNextLine()){//Loop through file
             curLine = sc.nextLine();
-
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
-            if(currentRatio == highestRatio) {
+            if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}//Weird typo edge case. If more appear make an array and loop through to skip them.
+
+            else if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
             else if (currentRatio > highestRatio) {
@@ -77,8 +78,7 @@ public class FindItem {
             }
         }//end of while
         //This code below removes any duplicates
-        LinkedHashSet<String> tmp = new LinkedHashSet();
-        tmp.addAll(currentArray);
+        LinkedHashSet<String> tmp = new LinkedHashSet(currentArray);
         currentArray.clear();
         currentArray.addAll(tmp);
         tmp.clear();

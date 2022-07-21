@@ -40,9 +40,13 @@ class FindItemTest {
         curTest = findItem.findAnyMatching("Lava Tode");// Reg node test
         assertEquals("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch",curTest);//Should only have one close value matching
         curTest = findItem.findAnyMatching("r drk rye");// Unspoil node test
-        assertEquals("REGULAR_NODE\t Dark Rye\tLabyrinthos\t(x29, y18)\t\t85\tLush Vegetation Patch",curTest);// FIXME: 7/21/2022 Duplicates in file
-        curTest = findItem.findAnyMatching(" Level 75 Miner Quest"); //A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations
-
+        assertEquals("REGULAR_NODE\t Dark Rye\tLabyrinthos\t(x29, y18)\t\t85\tLush Vegetation Patch",curTest);
+        curTest = findItem.findAnyMatching(" Level 75 Miner Quest"); //A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations.
+        assertEquals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit",curTest);//LOOK AT ME
+        /*
+         IF THE ABOVE CASE FAILS THAT MEANS A THE TYPO HAS BEEN FIXED. Go to line 69~ of FindItem.java or find the following code:
+                     if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}
+         */
 
     }
 }

@@ -15,11 +15,11 @@ public class main {
     /**
      * Test  method to search the file for certain values.
      */
-    private static void searchFile() {
+    private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<String> arr;
 
-        arr = findItem.HelperFindAllClosestValues("rarefiend stuff");
+        arr = findItem.HelperFindAllClosestValues(itemnam);
         for (String a : arr) {
             System.out.println(a);
         }

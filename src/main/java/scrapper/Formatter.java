@@ -7,6 +7,7 @@ import scrapper.items.Unspoiled_Node;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
+import java.util.Arrays;
 
 import static scrapper.StaticItemTypes.*;
 
@@ -194,7 +195,6 @@ public class Formatter {
                 } catch (UnexpectedException e) {
                      throw new RuntimeException(e);
                 }
-
         } //End of switch case
         return formattedItem.toString();
     }

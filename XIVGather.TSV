@@ -432,7 +432,7 @@ REGULAR_NODE	 Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	 Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
 REGULAR_NODE	 Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
+""	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	n/a	3	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	2	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	6	0	2:00 AM/PM
