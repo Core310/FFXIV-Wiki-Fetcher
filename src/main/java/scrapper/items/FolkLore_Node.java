@@ -17,9 +17,8 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
             String time,
             int slot
     ){
-        super(folkloreTome,time,item,location,cords,additionalInfo);
+        super(item,location,cords,additionalInfo,folkloreTome,time);
         this.slot = slot;
-
     }
 
     /**

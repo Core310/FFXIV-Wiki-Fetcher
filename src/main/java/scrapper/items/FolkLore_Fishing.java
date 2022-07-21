@@ -6,7 +6,7 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
     private final String folkloreTome;
     private final String time;
 
-    public FolkLore_Fishing(
+    public  FolkLore_Fishing(
             String item,
             String location,
             String cords,
@@ -14,7 +14,7 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
             String folkloreTome,
             String time
     ){
-        super(location,cords,item,additionalInfo);
+        super(item,location,cords,additionalInfo);
         this.folkloreTome = folkloreTome;
         this.time = time;
     }

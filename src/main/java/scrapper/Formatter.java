@@ -121,7 +121,7 @@ public class Formatter {
                 if(csvValues[2].equals("Stonehard Water"))
                     csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
                 //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
-                System.out.println(csvValues[2]);//This is correct value todo del me
+
                 formattedItem.append(new FolkLore_Node(
                         csvValues[2],//Item
                         csvValues[4],//Zone
@@ -131,7 +131,6 @@ public class Formatter {
                         csvValues[0],//FolkloreTome
                         csvValues[1],//Time
                         Integer.parseInt(csvValues[3])//Slot
-
                 ));
                 formattedItem.append("\n");
                 break;
