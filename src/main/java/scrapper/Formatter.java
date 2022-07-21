@@ -75,7 +75,6 @@ public class Formatter {
      */
     private String formattedItem(String[] csvValues){
         StringBuilder FormattedItem = new StringBuilder(); //String to replace the current line read in
-        System.out.println(Arrays.toString(csvValues));
         switch (itemType){
             case RegularNode:{
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process

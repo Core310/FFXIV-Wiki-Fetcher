@@ -15,20 +15,15 @@ public class main {
     /**
      * Test  method to search the file for certain values.
      */
-    private static void searchFile(){
-        FindItem findItem = new FindItem(new File ("XIVGather.TSV"));
+    private static void searchFile() {
+        FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<String> arr;
 
-        arr = findItem.HelperFindAllClosestValues("lava tode");
-        for(String a: arr){
+        arr = findItem.HelperFindAllClosestValues("rarefiend stuff");
+        for (String a : arr) {
             System.out.println(a);
         }
-        arr = findItem.HelperFindAllClosestValues("lava getr");
-        for(String b: arr){
-            System.out.println(b);
-        }
-
-        //findItem.findAllClosestValues("lava getr");
+        System.out.println(arr.toString());
     }
 
     /**

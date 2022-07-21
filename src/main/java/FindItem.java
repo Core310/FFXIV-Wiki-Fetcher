@@ -17,12 +17,6 @@ public class FindItem {
         this.file = file;
     }
 
-    protected void outArray(ArrayList<String> arrayList){
-        for(String a: arrayList){
-            System.out.println(a);
-        }
-    }
-
     public String findAllClosestValues(String itemName){
         ArrayList<ArrayList<String>> nestedFormattedReturn = new ArrayList<>();
         ArrayList<String> arrayList = HelperFindAllClosestValues(itemName);
