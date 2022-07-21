@@ -13,7 +13,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ffxiv-gatherbuddy-file-creator" options="-enable-preview &quot;-Dhttp.keepAlive=true -Dmaven.wagon.http.pool=true clean package&quot;" />
+      <module name="ffxiv-gatherbuddy-file-creator" options="" />
     </option>
   </component>
 </project>

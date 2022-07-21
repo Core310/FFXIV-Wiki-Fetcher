@@ -1,10 +1,10 @@
-package Scrapper.Items;
+package scrapper.items;
 
 /**
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
  */
-public class FolkLore_Node extends FolkLore_Fishing{
+public class FolkLore_Node extends FolkLore_Fishing implements Item{
 
     private final int slot;
     public FolkLore_Node(
@@ -17,9 +17,8 @@ public class FolkLore_Node extends FolkLore_Fishing{
             String time,
             int slot
     ){
-        super(folkloreTome,time,item,location,cords,additionalInfo);
+        super(item,location,cords,additionalInfo,folkloreTome,time);
         this.slot = slot;
-
     }
 
     /**

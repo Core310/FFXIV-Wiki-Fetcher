@@ -1,4 +1,4 @@
-package Scrapper.Items;
+package scrapper.items;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,12 +1,12 @@
-package Scrapper.Items;
+package scrapper.items;
 
 
 //This one doesnt have slot and hass additional info. Else everything else is the same
-public class FolkLore_Fishing extends BaseItem{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
+public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
     private final String folkloreTome;
     private final String time;
 
-    public FolkLore_Fishing(
+    public  FolkLore_Fishing(
             String item,
             String location,
             String cords,
@@ -14,7 +14,7 @@ public class FolkLore_Fishing extends BaseItem{ //FolkLore_Toem, Time, Item, Slo
             String folkloreTome,
             String time
     ){
-        super(location,cords,item,additionalInfo);
+        super(item,location,cords,additionalInfo);
         this.folkloreTome = folkloreTome;
         this.time = time;
     }

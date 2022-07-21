@@ -1,22 +1,29 @@
-import Scrapper.*;
+import scrapper.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.*;
+import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
 public class main {
     static final String FileName = "XIVGather.TSV";
-    public static void main(String[] args) {
-        searchFile();
+    public static void main(String[] args) throws IOException {
+        makeFile();
     }
 
     /**
      * Test  method to search the file for certain values.
      */
-    private static void searchFile(){
-        FindItem findItem = new FindItem(new File ("XIVGather.TSV"));
-        System.out.println(findItem.findAllClosestValues("Lava Tode"));
+    private static void searchFile() {
+        FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+        ArrayList<String> arr;
+
+        arr = findItem.HelperFindAllClosestValues("rarefiend stuff");
+        for (String a : arr) {
+            System.out.println(a);
+        }
+        System.out.println(arr.toString());
     }
 
     /**

@@ -1,9 +1,9 @@
-package Scrapper.Items;
+package scrapper.items;
 
 /**
  * Ussed for regular node locations
  */
-public class Regular_Node extends BaseItem {
+public class Regular_Node extends BaseItem implements Item{
     private final int level;
     private final String type;
     /**
