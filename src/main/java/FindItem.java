@@ -17,6 +17,12 @@ public class FindItem {
         this.file = file;
     }
 
+    /**
+     * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
+     * Eg. (todo)
+     * input: Lava tode
+     * output:
+     */
     public String findAllClosestValues(String itemName){
         ArrayList<ArrayList<String>> nestedFormattedReturn = new ArrayList<>();
         ArrayList<String> arrayList = HelperFindAllClosestValues(itemName);
@@ -41,10 +47,11 @@ public class FindItem {
 
     /**
      * Loops through file finding the highest matching value and return all in array.
+     * Called helper as returns the raw data values.
      * @param itemName The item that is being searched for.
-     * @return All values which have the same ratio to ItemName
+     * @return All values which have the same ratio to ItemName.
      */
-    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {// FIXME: 7/20/2022 While itemName updates, the array does not
+    protected ArrayList<String> HelperFindAllClosestValues(String itemName) {
         Scanner sc;
         try {
             sc = new Scanner(file);
@@ -69,6 +76,13 @@ public class FindItem {
                 currentArray.add(curLine);
             }
         }//end of while
+        //This code below removes any duplicates
+        LinkedHashSet<String> tmp = new LinkedHashSet();
+        tmp.addAll(currentArray);
+        currentArray.clear();
+        currentArray.addAll(tmp);
+        tmp.clear();
+
         sc.close();
         return currentArray;
     }
