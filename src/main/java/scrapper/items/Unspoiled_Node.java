@@ -50,10 +50,13 @@ public class Unspoiled_Node extends Regular_Node implements Item{
     }
 
     public Unspoiled_Node(String[] arr) {
-        super(arr[0],arr[1],arr[2],arr[3], Integer.parseInt(arr[4]));
-        slot = Integer.parseInt(arr[5]);
-        star = Integer.parseInt(arr[6]);
-        time = arr[7];
+        super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
+        if(arr[6].equals("n/a"))
+            slot = -1;
+        else
+            slot = Integer.parseInt(arr[6]);
+        star = Integer.parseInt(arr[7]);
+        time = arr[8];
     }
 
     @Override

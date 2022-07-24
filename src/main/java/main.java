@@ -9,7 +9,8 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("Level 75 Miner Quest");
+        FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+        System.out.println(findItem.findAllClosestAsMap("Waterfowl Feather (Rare)").toString());
     }
 
     /**

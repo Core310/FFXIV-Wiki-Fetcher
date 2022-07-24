@@ -26,9 +26,9 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
      * @param arr array to input instead of manual input.
      */
     public FolkLore_Fishing(String[] arr){
-        super(arr[0],arr[1],arr[2],arr[3]);
-        folkloreTome = arr[4];
-        time = arr[5];
+        super(arr[1],arr[2],arr[3],arr[4]);
+        folkloreTome = arr[5];
+        time = arr[6];
     }// TODO: 7/24/2022 Test me, not sure if works
 
     protected String getFolkloreTome() {

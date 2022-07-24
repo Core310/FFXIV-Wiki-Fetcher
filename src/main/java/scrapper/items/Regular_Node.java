@@ -48,9 +48,12 @@ public class Regular_Node extends BaseItem implements Item{
     }
 
     public Regular_Node(String[] arr) {
-        super(arr[0],arr[1],arr[2],arr[3]);
-        level = Integer.parseInt(arr[4]);
-        type = arr[5];
+        super(arr[1],arr[2],arr[3],arr[4]);
+        if(arr[5].equals(""))
+            level = -1;
+        else
+            level = Integer.parseInt(arr[5]);
+        type = arr[6];
     }
 
 
