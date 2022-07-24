@@ -1,5 +1,7 @@
 package scrapper.items;
 
+import java.util.LinkedHashMap;
+
 /**
  * The constructor should NEVER be called.
  * This class is only used for overriding and inheritance.
@@ -28,6 +30,19 @@ public abstract class BaseItem {
            this.zone = zone;
            this.cords = cords;
            this.extra = extra;
+       }
+
+    /**
+     * Used to support ITEM classes (such as Regular_Node)
+     * @return Constructor arguments with a header for value name.
+     */
+       protected LinkedHashMap<String,String> BaseLinkedHashMap(){
+           LinkedHashMap<String,String> lhm = new LinkedHashMap<>();
+           lhm.put("Item",getItemName());
+           lhm.put("Zone",getZone());
+           lhm.put("Coordinates",getCords());
+           lhm.put("Extra Information",getExtra());
+           return lhm;
        }
 
        //Getters are only needed on parent classes for the toString methods

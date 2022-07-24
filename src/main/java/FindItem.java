@@ -78,7 +78,7 @@ public class FindItem {
             }
         }//end of while
         //This code below removes any duplicates
-        LinkedHashSet<String> tmp = new LinkedHashSet(currentArray);
+        LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
         currentArray.clear();
         currentArray.addAll(tmp);
         tmp.clear();

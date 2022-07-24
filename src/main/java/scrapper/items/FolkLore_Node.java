@@ -1,5 +1,7 @@
 package scrapper.items;
 
+import java.util.LinkedHashMap;
+
 /**
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
@@ -32,5 +34,17 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
         itemOutputFormatter.addElement(getFolkloreTome());//This is from the extended class
         itemOutputFormatter.addElement(String.valueOf(slot));
         return itemOutputFormatter.toString();
+    }
+
+    /**
+     * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
+     */
+    @Override
+    public LinkedHashMap<String, String> toLinkedHashmap() {
+        LinkedHashMap<String,String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.put("FolkLore Tome",getFolkloreTome());
+        lhm.put("Time",getTime());
+        lhm.put("Slot", String.valueOf(slot));
+        return lhm;
     }
 }
