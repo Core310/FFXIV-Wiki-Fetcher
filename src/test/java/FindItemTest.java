@@ -5,8 +5,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FindItemTest {
     FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+
     @org.junit.jupiter.api.Test
-    void HelperFindAllClosestValues() {
+    void findAllClosestAsMap(){
+
+    }
+
+    @org.junit.jupiter.api.Test
+    void FindAllClosest() {
         ArrayList<String> expectedOutput;
         ArrayList<String> curTest;
 
