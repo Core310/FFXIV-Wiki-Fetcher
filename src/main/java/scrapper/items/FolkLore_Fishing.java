@@ -21,6 +21,16 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
         this.time = time;
     }
 
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
+    public FolkLore_Fishing(String[] arr){
+        super(arr[0],arr[1],arr[2],arr[3]);
+        folkloreTome = arr[4];
+        time = arr[5];
+    }// TODO: 7/24/2022 Test me, not sure if works
+
     protected String getFolkloreTome() {
         return folkloreTome;
     }
@@ -51,6 +61,4 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
         lhm.put("Time",getTime());
         return lhm;
     }
-//todo in toString part (how the item will be stored), makesure getExtra should return with the string Extra: ...
-
 }

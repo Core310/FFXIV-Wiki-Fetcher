@@ -47,6 +47,12 @@ public class Regular_Node extends BaseItem implements Item{
         type = "n/a";
     }
 
+    public Regular_Node(String[] arr) {
+        super(arr[0],arr[1],arr[2],arr[3]);
+        level = Integer.parseInt(arr[4]);
+        type = arr[5];
+    }
+
 
     /**
      *

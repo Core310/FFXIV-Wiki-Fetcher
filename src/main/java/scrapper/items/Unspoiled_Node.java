@@ -49,7 +49,12 @@ public class Unspoiled_Node extends Regular_Node implements Item{
         this.time = time;
     }
 
-
+    public Unspoiled_Node(String[] arr) {
+        super(arr[0],arr[1],arr[2],arr[3], Integer.parseInt(arr[4]));
+        slot = Integer.parseInt(arr[5]);
+        star = Integer.parseInt(arr[6]);
+        time = arr[7];
+    }
 
     @Override
     public String toString() {

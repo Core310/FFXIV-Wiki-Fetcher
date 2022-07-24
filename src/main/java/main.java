@@ -19,7 +19,7 @@ public class main {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<String> arr;
 
-        arr = findItem.HelperFindAllClosestValues(itemnam);
+        arr = findItem.FindAllClosest(itemnam);
         for (String a : arr) {
             System.out.println(a);
         }

@@ -23,6 +23,11 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
         this.slot = slot;
     }
 
+    public FolkLore_Node(String[] arr) {
+        super(arr[0],arr[1],arr[2],arr[3],arr[4],arr[5]);
+        slot = Integer.parseInt(arr[6]);
+    }
+
     /**
      *
      * @return Output format as follows after standard items: time,folkloreTome, slot

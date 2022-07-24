@@ -12,6 +12,5 @@ public enum StaticItemTypes {
     UNSPOILED_NODE,
     ARR_UNSPOILED_NODE, //For ARR variant of unspoiled nodes (does not include level)
     DELETE,
-    IGNORE //Ignore is for Data
-
+    IGNORE; //Ignore is for Data
 }
