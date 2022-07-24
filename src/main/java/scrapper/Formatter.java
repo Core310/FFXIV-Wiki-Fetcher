@@ -170,10 +170,10 @@ public class Formatter {
                 break;
             }
             case ARR_UNSPOILED_NODE:{
-                formattedItem.append(ARR_UNSPOILED_NODE.name());
-                formattedItem.append("\t");
                 String[] slots = csvValues[2].split(",",-1);
                 for(String slot: slots){
+                    formattedItem.append(ARR_UNSPOILED_NODE.name());
+                    formattedItem.append("\t");
                     formattedItem.append(new Unspoiled_Node(
                             csvValues[1],//Item
                             csvValues[3],//Zone

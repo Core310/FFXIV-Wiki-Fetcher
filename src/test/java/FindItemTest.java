@@ -31,6 +31,12 @@ class FindItemTest {
         assertEquals(expectedOutput,curTest);
 
         expectedOutput.clear();
+        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\tn/a\t1\t2\t8:00 AM");
+        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\tn/a\t5\t2\t8:00 AM");
+        curTest = findItem.HelperFindAllClosestValues("Waterfowl Feather (Rare)");
+        assertEquals(expectedOutput,curTest);
+
+        expectedOutput.clear();
         //End of Unspoiled
     }
 
@@ -41,12 +47,8 @@ class FindItemTest {
         assertEquals("REGULAR_NODE\t Lava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch",curTest);//Should only have one close value matching
         curTest = findItem.findAnyMatching("r drk rye");// Unspoil node test
         assertEquals("REGULAR_NODE\t Dark Rye\tLabyrinthos\t(x29, y18)\t\t85\tLush Vegetation Patch",curTest);
-        curTest = findItem.findAnyMatching(" Level 75 Miner Quest"); //A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations.
-        assertEquals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit",curTest);//LOOK AT ME
-        /*
-         IF THE ABOVE CASE FAILS THAT MEANS A THE TYPO HAS BEEN FIXED. Go to line 69~ of FindItem.java or find the following code:
-                     if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}
-         */
+        curTest = findItem.findAnyMatching(" Level 75 Miner Quest");
+        //^^ A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations. This is typo is already accounted for in FindItem.java
 
     }
 }

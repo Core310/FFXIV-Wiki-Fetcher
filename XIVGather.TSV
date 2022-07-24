@@ -432,7 +432,7 @@ REGULAR_NODE	 Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	 Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
 REGULAR_NODE	 Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-""	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
+UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	n/a	3	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	2	0	12:00 AM/PM
 UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	6	0	2:00 AM/PM
@@ -510,7 +510,7 @@ ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	n/a	6	2	7:00 AM
 ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	n/a	6	2	8:00 AM
 ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	n/a	2	1	8:00 AM
 ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	1	2	8:00 AM
-Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
 ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	n/a	2	2	9:00 AM
 ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	n/a	6	1	9:00 AM
 ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	n/a	1	1	9:00 AM
@@ -996,7 +996,7 @@ ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	n/a	6	2	7:00 AM
 ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	n/a	6	2	8:00 AM
 ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	n/a	2	1	8:00 AM
 ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	1	2	8:00 AM
-Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
 ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	n/a	2	2	9:00 AM
 ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	n/a	6	1	9:00 AM
 ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	n/a	1	1	9:00 AM
