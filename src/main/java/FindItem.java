@@ -27,7 +27,7 @@ public class FindItem {
      * output:
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
-        ArrayList<String> rawData = FindAllClosest(itemName);//Used to loop thru all values found.
+        ArrayList<String> rawData = findAllClosest(itemName);//Used to loop thru all values found.
         ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted
         Item item;
         for(String curLine: rawData){
@@ -72,7 +72,7 @@ public class FindItem {
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName.
      */
-    protected ArrayList<String> FindAllClosest(String itemName) {
+    protected ArrayList<String> findAllClosest(String itemName) {
         Scanner sc;
         try {
             sc = new Scanner(file);
@@ -115,7 +115,7 @@ public class FindItem {
      */
     protected String findAnyMatching(String itemName){
         Random rand = new Random();
-        return FindAllClosest(itemName).get(rand.nextInt(FindAllClosest(itemName).size()));
+        return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
 
 

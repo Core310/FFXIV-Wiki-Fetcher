@@ -9,8 +9,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        FindItem findItem = new FindItem(new File("XIVGather.TSV"));
-        System.out.println(findItem.findAllClosestAsMap("Waterfowl Feather (Rare)").toString());
+        searchFile("emye log");
     }
 
     /**
@@ -20,11 +19,10 @@ public class main {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<String> arr;
 
-        arr = findItem.FindAllClosest(itemnam);
+        arr = findItem.findAllClosest(itemnam);
         for (String a : arr) {
             System.out.println(a);
         }
-        System.out.println(arr.toString());
     }
 
     /**
