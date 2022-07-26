@@ -26,7 +26,7 @@ jobs:
         uses: mikepenz/action-junit-report@v3
         if: always() # always run even if the previous step fails
         with:
-          report_paths: '**/build/test-results/test/TEST-*.xml'
+          report_paths: 'Test Results - FindItemTest.xml'
 
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
