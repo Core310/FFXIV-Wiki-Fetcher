@@ -17,12 +17,6 @@ jobs:
         with:
           java-version: 18
 
-
-      - name: Checkout Code
-        uses: actions/checkout@v1
-      - name: Build with Ant
-        run: ant -noinput -buildfile build.xml
-
       - name: Build and Run Tests
         run: mvn test # execute your tests generating test results
       - name: Publish Test Report
