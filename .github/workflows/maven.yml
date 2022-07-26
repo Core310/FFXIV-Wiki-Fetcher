@@ -8,6 +8,11 @@ on:
     branches: [ "main" ]
 
 jobs:
+  permissions:
+    actions: read
+    pull-requests: read
+    repository-projects: read
+    checks: read
   build:
 
     runs-on: ubuntu-latest
