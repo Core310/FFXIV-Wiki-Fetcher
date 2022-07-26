@@ -9,12 +9,13 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup JDK Latest
-        uses: oracle-actions/setup-java@v1.1.2
+    - uses: actions/checkout@v3
+    - name: Set up JDK latest
+      uses: actions/setup-java@v3
       with:
         distribution: 'temurin'
         cache: maven
