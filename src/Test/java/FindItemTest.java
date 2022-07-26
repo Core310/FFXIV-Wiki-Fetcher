@@ -1,5 +1,3 @@
-import org.junit.jupiter.api.Test;
-
 import java.io.File;
 import java.util.ArrayList;
 
@@ -7,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FindItemTest {
     FindItem findItem = new FindItem(new File("XIVGather.TSV"));
-    @Test
+    @org.junit.jupiter.api.Test
     void findAllClosestAsMap(){
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     void findAllClosest() {
         ArrayList<String> expectedOutput;
         ArrayList<String> curTest;
@@ -60,7 +58,7 @@ class FindItemTest {
         //end of folkFish
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     void findAnyMatching() {
         String curTest;
         curTest = findItem.findAnyMatching("Lava Tode");// Reg node test
