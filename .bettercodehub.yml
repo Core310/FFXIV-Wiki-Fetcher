@@ -1,6 +1,10 @@
 component_depth: 6
 languages:
 - name: java
+on:
+  pull_request:
+    branches: [ "main" ]
+
   production:
       exclude:
           - /src/main/java/scrapper/items/.*
