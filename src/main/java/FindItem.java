@@ -36,7 +36,7 @@ public class FindItem {
             String curItem = delimLine[0];//0 is index where ItemName is stored
 
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
-            if (StaticItemTypes.FOLK_LORE_FISHING.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
+            if (StaticItemTypes.FOLK_LORE_FISHING_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
                 item = new FolkLore_Fishing(delimLine);
                 outputList.add(item.toLinkedHashmap());

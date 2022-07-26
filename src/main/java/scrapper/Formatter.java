@@ -7,7 +7,6 @@ import scrapper.items.Unspoiled_Node;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
-import java.util.Arrays;
 
 import static scrapper.StaticItemTypes.*;
 
@@ -40,7 +39,7 @@ public class Formatter {
                 return DELETE;
             }
             case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info" -> {
-                itemType = FOLK_LORE_FISHING;
+                itemType = FOLK_LORE_FISHING_NODE;
                 return DELETE;
             }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
@@ -76,7 +75,7 @@ public class Formatter {
     private String formattedItem(String[] csvValues){
         StringBuilder formattedItem = new StringBuilder(); //String to replace the current line read in
         switch (itemType){
-            case REGULAR_NODE:{
+            case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function 
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
 
@@ -136,8 +135,8 @@ public class Formatter {
                 formattedItem.append("\n");
                 break;
             }
-            case FOLK_LORE_FISHING:{
-                formattedItem.append(FOLK_LORE_FISHING.name());
+            case FOLK_LORE_FISHING_NODE:{
+                formattedItem.append(FOLK_LORE_FISHING_NODE.name());
                 formattedItem.append("\t");
                 formattedItem.append(new FolkLore_Fishing(
                         csvValues[2],//Item
@@ -231,7 +230,7 @@ public class Formatter {
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
-                    case FOLK_LORE_FISHING, FOLK_LORE_NODE, REGULAR_NODE, UNSPOILED_NODE, DELETE -> {
+                    case FOLK_LORE_FISHING_NODE, FOLK_LORE_NODE, REGULAR_NODE, UNSPOILED_NODE, DELETE -> {
                         //Nothing is written to the tmp file and therefore the final file.
                     }
                     case IGNORE -> //Actual item data NOT a header
