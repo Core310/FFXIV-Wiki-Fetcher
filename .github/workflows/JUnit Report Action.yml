@@ -1,3 +1,5 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 name: build
 on:
   pull_request:
@@ -25,6 +27,6 @@ jobs:
         if: always() # always run even if the previous step fails
         with:
           report_paths: '**/build/test-results/test/TEST-*.xml'
-          
+
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
