@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build and Run Tests
+    name: Junit Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
