@@ -18,7 +18,7 @@ import java.util.ArrayList;
  * Call scrap to grab values
  * Scrap calls Store which uses several other private methodsx
  */
-public class ScrapAndStore {
+public class MakeFile {
     private ArrayList<Elements> TableValues;//Table values
     private Document ParsedPage;//Current page parsed
     private final File file;
@@ -28,7 +28,7 @@ public class ScrapAndStore {
      * After creating this object, you must set the doc (setParsedPage)
      * @param file File to store into.
      */
-    public ScrapAndStore(File file, FileWriter fileWriter) {
+    public MakeFile(File file, FileWriter fileWriter) {
         this.file = file;
         this.fileWriter = fileWriter;
     }

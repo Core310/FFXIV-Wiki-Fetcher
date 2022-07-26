@@ -35,6 +35,7 @@ public class ItemOutputFormatter {
             stringBuilder.append(queue.poll());
             stringBuilder.append(delimiter);//Appends whatever is the desired delimiter
         }
+        stringBuilder.deleteCharAt(stringBuilder.length()-1);
         return stringBuilder.toString();
     }
     //Append items to a custom array. Output by TSV using a for-loop

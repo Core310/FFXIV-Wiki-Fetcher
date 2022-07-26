@@ -1,5 +1,7 @@
 package scrapper.items;
 
+import java.util.LinkedHashMap;
+
 /**
  * Ussed for regular node locations
  */
@@ -45,6 +47,15 @@ public class Regular_Node extends BaseItem implements Item{
         type = "n/a";
     }
 
+    public Regular_Node(String[] arr) {
+        super(arr[1],arr[2],arr[3],arr[4]);
+        if(arr[5].equals(""))
+            level = -1;
+        else
+            level = Integer.parseInt(arr[5]);
+        type = arr[6];
+    }
+
 
     /**
      *
@@ -64,5 +75,15 @@ public class Regular_Node extends BaseItem implements Item{
 
     public String getType() {
         return type;
+    }
+
+    /**
+     * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
+     */
+    @Override
+    public LinkedHashMap<String, String> toLinkedHashmap() {
+        LinkedHashMap<String,String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.put("Level", String.valueOf(getLevel()));
+        return lhm;
     }
 }

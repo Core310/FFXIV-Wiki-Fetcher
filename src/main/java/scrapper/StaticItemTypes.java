@@ -6,12 +6,15 @@ package scrapper;
  * Ignore is for data.
  */
 public enum StaticItemTypes {
-    FOLK_LORE_FISHING,
     FOLK_LORE_NODE,
     REGULAR_NODE,
     UNSPOILED_NODE,
     ARR_UNSPOILED_NODE, //For ARR variant of unspoiled nodes (does not include level)
-    DELETE,
-    IGNORE //Ignore is for Data
 
+    FISHING_NODE,
+    FOLK_LORE_FISHING_NODE,
+    BIG_FISH_NODE,
+    FISHING_COLLECTABLES_NODE,
+    DELETE,
+    IGNORE; //Ignore is for Data
 }

@@ -2,7 +2,7 @@
 This library searches for DOH/DOL items (aka gathering classes).
 
 ## Usage
-Use FindItem.findAllClosestValues or FindItem.findAnyMatching to search for an item.
+Use findAllClosestAsMap or FindItem.findAnyMatching to search for an item.
 To build the file yourself run main. makeFile().
 
 ## Development:

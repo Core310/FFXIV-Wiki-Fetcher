@@ -1,5 +1,7 @@
 package scrapper.items;
 
+import java.util.LinkedHashMap;
+
 public class Unspoiled_Node extends Regular_Node implements Item{
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
@@ -47,7 +49,15 @@ public class Unspoiled_Node extends Regular_Node implements Item{
         this.time = time;
     }
 
-
+    public Unspoiled_Node(String[] arr) {
+        super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
+        if(arr[6].equals("n/a"))
+            slot = -1;
+        else
+            slot = Integer.parseInt(arr[6]);
+        star = Integer.parseInt(arr[7]);
+        time = arr[8];
+    }
 
     @Override
     public String toString() {
@@ -59,4 +69,17 @@ public class Unspoiled_Node extends Regular_Node implements Item{
         itemOutputFormatter.addElement(time);
         return itemOutputFormatter.toString();
     }
+
+    /**
+     * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
+     */
+    @Override
+    public LinkedHashMap<String, String> toLinkedHashmap() {
+        LinkedHashMap<String, String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.put("Time",time);
+        lhm.put("Slot", String.valueOf(slot));
+        lhm.put("Star", String.valueOf(star));
+        return lhm;
+    }
+
 }
