@@ -26,6 +26,3 @@ jobs:
           distribution: 'adopt'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
-
-      - name: Run Unit Tests
-        run: src/test/java/FindItemTest.java
