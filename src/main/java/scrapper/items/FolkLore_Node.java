@@ -50,6 +50,9 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
     @Override
     public LinkedHashMap<String, String> toLinkedHashmap() {
         LinkedHashMap<String,String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.remove("Extra Information");//In folklore, this is called used to make instead of extra info
+        //see here: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Miner
+        lhm.put("Used to make",getExtra());
         lhm.put("FolkLore Tome",getFolkloreTome());
         lhm.put("Time",getTime());
         lhm.put("Slot", String.valueOf(slot));
