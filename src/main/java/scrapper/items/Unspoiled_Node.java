@@ -5,8 +5,7 @@ import java.util.LinkedHashMap;
 public class Unspoiled_Node extends Regular_Node implements Item{
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
-    private final int slot;
-    private final int star;
+    private final int slot,star;
     private final String time;
 
     /**

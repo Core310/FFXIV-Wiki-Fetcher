@@ -12,10 +12,7 @@ import java.util.LinkedHashMap;
  */
 @SuppressWarnings("all")
 public abstract class BaseItem {
-       private final String zone; //aka location
-       private final String cords;
-       private final String itemName;
-       private final String extra;
+       private final String zone,cords,itemName,extra; //zone aka location
 
        /**
         * Base constructor that is used for inheritance on its children.
