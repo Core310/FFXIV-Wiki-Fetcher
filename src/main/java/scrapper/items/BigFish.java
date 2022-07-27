@@ -28,7 +28,12 @@ public class BigFish extends BaseItem implements Item{
         this.bait = bait;
         this.mooch = mooch;
         this.gathering = gathering;
-    }// TODO: 7/28/2022 when mapping out, extra = desynthRewards
+    }
+
+    public BigFish(String[] arr) {
+        super("a","b","c","d");//delete this line
+        // TODO:7/26/22 once I find out how the item is exactly formatted.
+    }
 
     /**
      * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
@@ -46,5 +51,17 @@ public class BigFish extends BaseItem implements Item{
         lhm.put("Mooch",mooch);
         lhm.put("Gathering",gathering);
         return lhm;
+    }
+
+    @Override
+    public String toString() {
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
+        itemOutputFormatter.addElement(fishingHole);
+        itemOutputFormatter.addElement(ezoraTime);
+        itemOutputFormatter.addElement(weather);
+        itemOutputFormatter.addElement(bait);
+        itemOutputFormatter.addElement(mooch);
+        itemOutputFormatter.addElement(gathering);
+        return itemOutputFormatter.toString();
     }
 }

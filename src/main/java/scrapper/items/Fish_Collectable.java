@@ -9,7 +9,7 @@ public class Fish_Collectable extends BaseItem implements Item{
      * Base constructor that is used for inheritance on its children.
      *
      */
-    protected Fish_Collectable(String itemName,
+    public Fish_Collectable(String itemName,
                                String zone,
                                String cords,
                                String extra, //End of base item super class)
@@ -26,6 +26,11 @@ public class Fish_Collectable extends BaseItem implements Item{
         this.scripts = scripts;
     }
 
+    public Fish_Collectable(String[] arr) {
+        super("a","b","c","d");//delete this line
+        // TODO:7/26/22 once I find out how the item is exactly formatted.
+    }
+
     /**
      * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
      */
@@ -37,5 +42,15 @@ public class Fish_Collectable extends BaseItem implements Item{
         lhm.put("Time and Weather",timeWeather);
         lhm.put("Scripts",scripts);
         return lhm;
+    }
+
+    @Override
+    public String toString() {
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
+        itemOutputFormatter.addElement(minCollectability);
+        itemOutputFormatter.addElement(catchMethod);
+        itemOutputFormatter.addElement(timeWeather);
+        itemOutputFormatter.addElement(scripts);
+        return itemOutputFormatter.toString();
     }
 }

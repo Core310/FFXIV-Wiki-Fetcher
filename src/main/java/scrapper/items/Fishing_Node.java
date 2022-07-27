@@ -31,7 +31,7 @@ public class Fishing_Node extends BaseItem implements Item{
      */
     public Fishing_Node(String[] arr) {
         super("a","b","c","d");//delete this line
-        // TODO: 7/26/22 once I find out how the item is exactly formatted.
+        // TODO:7/26/22 once I find out how the item is exactly formatted.
     }
 
     /**
