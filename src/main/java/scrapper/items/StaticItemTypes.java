@@ -1,4 +1,4 @@
-package scrapper;
+package scrapper.items;
 
 /**
  * Triggers these item types when looking at a header. Delete is for cases that can be deleted

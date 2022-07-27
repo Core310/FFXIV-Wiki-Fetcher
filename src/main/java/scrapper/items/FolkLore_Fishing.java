@@ -3,7 +3,7 @@ package scrapper.items;
 
 import java.util.LinkedHashMap;
 
-//This one doesnt have slot and hass additional info. Else everything else is the same
+//This one doesn't have slot and hass additional info. Else everything else is the same
 public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
     private final String folkloreTome;
     private final String time;

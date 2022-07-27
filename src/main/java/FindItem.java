@@ -1,5 +1,5 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-import scrapper.StaticItemTypes;
+import scrapper.items.StaticItemTypes;
 import scrapper.items.*;
 import java.io.File;
 import java.io.FileNotFoundException;

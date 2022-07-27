@@ -1,14 +1,11 @@
 package scrapper;
 
-import scrapper.items.FolkLore_Fishing;
-import scrapper.items.FolkLore_Node;
-import scrapper.items.Regular_Node;
-import scrapper.items.Unspoiled_Node;
+import scrapper.items.*;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
 
-import static scrapper.StaticItemTypes.*;
+import static scrapper.items.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading.
