@@ -31,6 +31,11 @@ public class Fish_Collectable extends BaseItem implements Item{
      */
     @Override
     public LinkedHashMap<String, String> toLinkedHashmap() {
-        return null;
+        LinkedHashMap<String,String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.put("Minimum Collectability",minCollectability);
+        lhm.put("Catch Method",catchMethod);
+        lhm.put("Time and Weather",timeWeather);
+        lhm.put("Scripts",scripts);
+        return lhm;
     }
 }
