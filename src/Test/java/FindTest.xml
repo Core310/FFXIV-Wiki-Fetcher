@@ -1,8 +1,0 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<suite name = "Junit Suite">
-    <test name = "Junit xml test">
-        <classes>
-            <class name = "FindItemTest" />
-        </classes>
-    </test>
-</suite>
