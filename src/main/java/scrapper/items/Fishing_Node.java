@@ -56,9 +56,7 @@ public class Fishing_Node extends BaseItem implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(type);
-        itemOutputFormatter.addElement(fishingLog);
-        itemOutputFormatter.addElement(fishingLog);
+        itemOutputFormatter.addElements(new String[]{type,fishingLog,fish});
         return itemOutputFormatter.toString();
     }
 }

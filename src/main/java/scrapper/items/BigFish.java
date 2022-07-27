@@ -56,12 +56,7 @@ public class BigFish extends BaseItem implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(fishingHole);
-        itemOutputFormatter.addElement(ezoraTime);
-        itemOutputFormatter.addElement(weather);
-        itemOutputFormatter.addElement(bait);
-        itemOutputFormatter.addElement(mooch);
-        itemOutputFormatter.addElement(gathering);
+        itemOutputFormatter.addElements(new String[]{fishingHole,ezoraTime,weather,bait,mooch,gathering});
         return itemOutputFormatter.toString();
     }
 }

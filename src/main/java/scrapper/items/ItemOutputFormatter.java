@@ -19,8 +19,9 @@ public class ItemOutputFormatter {
         queue.addAll(List.of(str));
     }
 
-    protected void addElement(String element){
-        queue.add(element);
+    protected void addElements(String element[]){
+        for(String curElement:element)
+            queue.add(curElement);
     }
 
 

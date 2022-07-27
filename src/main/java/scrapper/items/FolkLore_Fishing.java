@@ -46,8 +46,7 @@ public class FolkLore_Fishing extends BaseItem implements Item{ //FolkLore_Toem,
     public String toString() {
         //in the toString of itemOutputFormatter, it should autoload the following: itemName,location,cords,addedInfo. Figure out how 2 do this?
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(time);
-        itemOutputFormatter.addElement(folkloreTome);
+        itemOutputFormatter.addElements(new String[]{time,folkloreTome});
         return itemOutputFormatter.toString();
     }
 

@@ -61,11 +61,7 @@ public class Unspoiled_Node extends Regular_Node implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(String.valueOf(getLevel()));
-        itemOutputFormatter.addElement(getType());
-        itemOutputFormatter.addElement(String.valueOf(slot));
-        itemOutputFormatter.addElement(String.valueOf(star));
-        itemOutputFormatter.addElement(time);
+        itemOutputFormatter.addElements(new String[]{time, String.valueOf(slot), String.valueOf(getLevel()), String.valueOf(star)});
         return itemOutputFormatter.toString();
     }
 

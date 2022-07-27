@@ -38,9 +38,7 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(getTime()); //this is from the extended class
-        itemOutputFormatter.addElement(getFolkloreTome());//This is from the extended class
-        itemOutputFormatter.addElement(String.valueOf(slot));
+        itemOutputFormatter.addElements(new String[]{getFolkloreTome(),getTime(),String.valueOf(slot)}); //this is from the extended class
         return itemOutputFormatter.toString();
     }
 

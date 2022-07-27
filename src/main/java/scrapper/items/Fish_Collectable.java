@@ -47,10 +47,7 @@ public class Fish_Collectable extends BaseItem implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(minCollectability);
-        itemOutputFormatter.addElement(catchMethod);
-        itemOutputFormatter.addElement(timeWeather);
-        itemOutputFormatter.addElement(scripts);
+        itemOutputFormatter.addElements(new String[]{minCollectability,catchMethod,timeWeather,scripts});
         return itemOutputFormatter.toString();
     }
 }

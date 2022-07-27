@@ -64,8 +64,7 @@ public class Regular_Node extends BaseItem implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElement(String.valueOf(level));
-        itemOutputFormatter.addElement(type);
+        itemOutputFormatter.addElements(new String[]{String.valueOf(level),type});
         return itemOutputFormatter.toString();
     }
 
