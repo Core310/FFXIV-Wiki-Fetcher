@@ -4,6 +4,7 @@ import scrapper.items.*;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
+import java.util.Arrays;
 
 import static scrapper.items.StaticItemTypes.*;
 
@@ -55,11 +56,11 @@ public class Formatter {
                 itemType = FISHING_NODE;
                 return DELETE;
             }
-            case "Fish,Zone,Fishing Hole,\"(X,Y)\",Eorzea Time,Weather,Bait,Mooch,Gathering,Desynth Rewards" ->{
+            case "Fish\tZone\tFishing Hole\t(X,Y)\tEorzea Time\tWeather\tBait\tMooch\tGathering\tDesynth Rewards" ->{
                 itemType = BIG_FISH_NODE;
                 return DELETE;
             }
-            case "Item,Min. Collectability,Location,Catch Method,Time/Weather,Scrips,Additional Info" ->{
+            case "Item\tMin. Collectability\tLocation\tCatch Method\tTime/Weather\tScrips\tAdditional Info" ->{
                 itemType = FISHING_COLLECTABLES_NODE;
                 return DELETE;
             }
@@ -199,16 +200,20 @@ public class Formatter {
             case FISHING_NODE:{
                 String[] fish = csvValues[4].split(",",-1);
                 for(String curFish: fish){
+                    stringBuilder.append(FISHING_NODE );
+                    stringBuilder.append("\t");
+
                     csvValues[3] = csvValues[3].replaceAll("\\)","");//Replace the ')' in the cords
                     //See here https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
-                    String[] zoneAndCords = csvValues[3].split("\\(",1);//Make cords and zone seperate
+                    String[] zoneAndCords = csvValues[3].split("\\(");//Make cords and zone seperate
                     //zone = 0, cords =1
-                    if(zoneAndCords.length >2)
+                    if(zoneAndCords.length != 2)
                         try {
                             throw new UnexpectedException("Array must be atmost length of 2");
                         } catch (UnexpectedException e) {
                             throw new RuntimeException(e);
                         }
+                    System.out.println(Arrays.toString(csvValues));
 
                     stringBuilder.append(new Fishing_Node(
                     curFish,//fish
@@ -220,11 +225,14 @@ public class Formatter {
                     csvValues[0],//Fishing log
                     Integer.parseInt(csvValues[1])//level
                     ));
+                    stringBuilder.append("\n");
                 }
                 break;
             }
 
             case BIG_FISH_NODE:{
+                stringBuilder.append(BIG_FISH_NODE );
+                stringBuilder.append("\t");
                 stringBuilder.append(new BigFish(
                 csvValues[0],//fish
                 csvValues[1],//Zone
@@ -238,9 +246,12 @@ public class Formatter {
                 csvValues[7],//mooch,
                 csvValues[8] //gathering
                 ));
+                stringBuilder.append("\n");
                 break;
             }
             case FISHING_COLLECTABLES_NODE:{
+                stringBuilder.append(FISHING_COLLECTABLES_NODE );
+                stringBuilder.append("\t");
                 stringBuilder.append(new Fish_Collectable(
                 csvValues[0],//Item
                 csvValues[2],//Zone
@@ -252,6 +263,7 @@ public class Formatter {
                 csvValues[4],//timeWeather
                 csvValues[5] //scripts
                     ));
+                stringBuilder.append("\n");
                 break;
             }
 
