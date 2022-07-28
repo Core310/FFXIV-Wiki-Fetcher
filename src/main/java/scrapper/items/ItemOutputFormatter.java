@@ -1,5 +1,6 @@
 package scrapper.items;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -19,9 +20,8 @@ public class ItemOutputFormatter {
         queue.addAll(List.of(str));
     }
 
-    protected void addElements(String element[]){
-        for(String curElement:element)
-            queue.add(curElement);
+    protected void addElements(String[] element){
+        queue.addAll(Arrays.asList(element));
     }
 
 

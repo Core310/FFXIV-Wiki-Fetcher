@@ -9,16 +9,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        File XIVGather = new File(FileName);
-        FileWriter fileWriter = new FileWriter(XIVGather,false);
-        MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
-        Document doc ;//jsoup doc
-        for(Wikipages wikipages: Wikipages.values()){
-            doc = Jsoup.connect(wikipages.toString()).get();
-            makeFile.setParsedPage(doc);//Fetches webpage data to extract
-            makeFile.scrap();//extracts data and stores in argument file
-        }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
-        fileWriter.close();
+        makeFile();
     }
 
     /**
