@@ -105,6 +105,7 @@ public class Formatter {
                 }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
+                    csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
                     for (String splitItem : splitItems) {
                         stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\t");
@@ -179,6 +180,8 @@ public class Formatter {
                 break;
             }
             case ARR_UNSPOILED_NODE:{
+                csvValues[2] = csvValues[2].replaceAll(" ","");//get rid of white space
+
                 String[] slots = csvValues[2].split(",",-1);
                 for(String slot: slots){
                     stringBuilder.append(ARR_UNSPOILED_NODE.name());
@@ -198,6 +201,7 @@ public class Formatter {
                 break;
             }//When an unspoiled node is an ARR one use this instead.
             case FISHING_NODE:{
+                csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
                 String[] fish = csvValues[4].split(",",-1);
                 for(String curFish: fish){
                     stringBuilder.append(FISHING_NODE );
@@ -213,8 +217,6 @@ public class Formatter {
                         } catch (UnexpectedException e) {
                             throw new RuntimeException(e);
                         }
-                    System.out.println(Arrays.toString(csvValues));
-
                     stringBuilder.append(new Fishing_Node(
                     curFish,//fish
                     zoneAndCords[0], //Zone

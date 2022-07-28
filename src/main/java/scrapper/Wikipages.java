@@ -4,11 +4,11 @@ package scrapper;
  * Contains all links that are to be searched.
  */
 public enum Wikipages {
-    //BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
-    //BNT_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes"),
-    //MNR_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations"),
-    //MNR_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes"),
-    //FOLK_LORE_NODE("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes"),
+    BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
+    BNT_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes"),
+    MNR_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations"),
+    MNR_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes"),
+    FOLK_LORE_NODE("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes"),
     FSH_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations"),
     FSH_BIG_NODE("https://ffxiv.consolegameswiki.com/wiki/Big_Fishing"),
     FSH_COLLECT_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables");
