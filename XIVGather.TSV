@@ -1,1328 +1,514 @@
-REGULAR_NODE	Maple Branch	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	 Latex	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	 Maple Log	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	 Earth Shard	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	Beehive Chip	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	 Cinnamon	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	 Maple Sap	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	 Earth Shard	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	Allagan Snail	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	 Maple Branch	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	 Latex	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	 Maple Log	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	 Ice Shard	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	 Wind Shard	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	Cock Feather	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	 Cloves	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	Crow Feather	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	 Ash Branch	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	 Ash Log	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	 Tinolqa Mistletoe	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	 Wind Shard	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	Ash Branch	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	 Ash Log	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	 Tinolqa Mistletoe	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	 Earth Shard	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	Kukuru Bean	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	 La Noscean Orange	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	 Earth Shard	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	 La Noscean Orange Seeds (Hidden)	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	Buffalo Beans	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Marjoram	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Tree Toad	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Humus	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Wind Shard	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	Carnation	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Cotton Boll	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Lavender	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Chanterelle	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Wind Shard	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Lavender Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	 Windlight Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	Ruby Tomato	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Sunset Wheat	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Straw	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 La Noscean Lettuce	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Fire Shard	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 La Noscean Lettuce Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	 Firelight Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	Black Pepper	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	 Yellow Ginseng	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	 Alpine Parsnip	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	 Black Pepper Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	 Levinlight Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	Gridanian Chestnut	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	 Elm Log	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	 Wind Shard	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	Cinderfoot Olive	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Lowland Grapes	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Cieldalaes Spinach	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Highland Parsley	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Earth Shard	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Lowland Grape Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Olive Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	 Earthlight Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	Rye	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Moko Grass	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Coerthan Carrot	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Grass Viper	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Coerthan Carrot Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	 Waterlight Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	Ogre Pumpkin	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	 Garlean Garlic	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	 Wild Onion	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	 Garlic Cloves (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	 Wild Onion Set (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	Nopales	Central Thanalan	(x21,y20)		20	Mature Tree
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x21,y20)		20	Mature Tree
-REGULAR_NODE	Grade 1 Carbonized Matter	Western La Noscea	(x26,y23)		20	Mature Tree
-REGULAR_NODE	 Ice Shard	Western La Noscea	(x26,y23)		20	Mature Tree
-REGULAR_NODE	Sun Lemon	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	 Earth Shard	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	 Sun Lemon Seeds (Hidden)	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	Lalafellin Lentil	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Island Seedling	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Paprika	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Ice Shard	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Paprika Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Icelight Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	Popoto	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	 White Scorpion	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	 Desert Seedling	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	 Popoto Set (Hidden)	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	Galago Mint	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Belladonna	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Gil Bun	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Shroud Seedling	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	 Wind Shard	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	Faerie Apple	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	 Yew Branch	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	 Yew Log	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	 Wind Shard	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	 Faerie Apple Seeds (Hidden)	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	Gridanian Walnut	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	 Walnut Log	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	 Matron's Mistletoe	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	 Ice Shard	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	Ala Mhigan Mustard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Pearl Ginger	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Millioncorn	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Button Mushroom	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Ala Mhigan Mustard Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Pearl Ginger Root (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	 Millioncorn Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	Noble Grapes	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Pixie Plums	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Sticky Rice	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Chamomile	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Earth Shard	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Pixie Plum Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	 Chamomile Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	Grey Pigment	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	 Ice Shard	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	 Ice Crystal	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	Yellow Pigment	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	 Brown Pigment	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	 Earth Shard	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	 Earth Crystal	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	Green Pigment	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	 Wind Shard	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	 Wind Crystal	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	Purple Pigment	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	 Lightning Crystal	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	Red Pigment	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	 Fire Shard	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	 Fire Crystal	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	Blue Pigment	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	 Water Shard	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	 Water Crystal	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	Chocobo Feather	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	 Alligator Pear	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	 Ice Shard	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	Moor Leech	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Wizard Eggplant	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Jade Peas	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Midland Cabbage	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Earth Shard	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Wizard Eggplant Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	 Midland Cabbage Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	Desert Saffron	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	 Laurel	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	 Aloe	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	 Bloodgrass	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	 Yafaemi Wildgrass (Hidden)	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	Dragon Pepper	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Midland Basil	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Mandrake	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Salt Leek	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Water Shard	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Midland Basil Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Mandrake Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	Wildfowl Feather	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	 Flax	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	 White Truffle	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	 Ice Shard	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	 Linseed (Hidden)	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	Tarantula	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	 Oak Branch	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	 Oak Log	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	 Ice Shard	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	Iron Acorn	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	 Almonds	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	 Nutmeg	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	 Mahogany Log	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	 Water Shard	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	 Almond Seeds (Hidden)	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	Maiden Artichoke	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Ramhorn Zucchini	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Mugwort	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Water Shard	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	Blood Currants	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Thyme	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Ice Shard	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	 Blood Currant Seeds (Hidden)	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	Mirror Apple	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	 Mistletoe	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	 Ice Shard	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	 Mirror Apple Seeds (Hidden)	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	Rolanberry	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	 Sagolii Sage	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	 Dart Frog	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	 Black Scorpion	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	 Earth Shard	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	 Rolanberry Seeds (Hidden)	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	Rosewood Log	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	 Rosewood Branch	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	 Wind Shard	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	Thanalan Tea Leaves	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	 Lava Toad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	 Maiden Grass	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	Water Crystal	Eastern La Noscea	(x17,y32)		50	Mature Tree
-REGULAR_NODE	 Water Shard	Eastern La Noscea	(x17,y32)		50	Mature Tree
-REGULAR_NODE	Lightning Crystal	Central Thanalan	(x29,y19)		50	Mature Tree
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x29,y19)		50	Mature Tree
-REGULAR_NODE	Fire Crystal	Middle La Noscea	(x19,y21)		50	Mature Tree
-REGULAR_NODE	 Fire Shard	Middle La Noscea	(x19,y21)		50	Mature Tree
-REGULAR_NODE	Cedar Branch	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	 Cedar Log	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	Rainbow Cotton Boll	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	 Mist Dill	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	Cyclops Onion (Hidden)	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	 Highland Wheat	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	 Stalk of Ramie	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	Dark Chestnut	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	 Dark Chestnut Branch	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	 Dark Chestnut Log	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	Earth Crystal	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	 Emerald Beans (Hidden)	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	 Magma Beet	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	Birch Log (Hidden)	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	 Birch Branch	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	 Water Crystal	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	 Birch Sap	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	 Cloud Mushroom	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	 Wind Widow	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	Camphorwood Log	The Churning Mists	(x31,y30)		60	Mature Tree
-REGULAR_NODE	 Camphorwood Branch	The Churning Mists	(x31,y30)		60	Mature Tree
-REGULAR_NODE	 Earth Crystal	The Churning Mists	(x31,y30)		60	Mature Tree
-REGULAR_NODE	Coneflower	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	 Periwinkle	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	 Rainbow Pigment	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	Rue	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	 Coriander	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	 Whitefrost Cotton Boll	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	Dandelion	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch
-REGULAR_NODE	 Earth Crystal	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch
-REGULAR_NODE	Sesame Seeds	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
-REGULAR_NODE	Cow Bitter	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	 Periwinkle	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	 Dated Radz-at-Han Coin	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	 Gaelicatnip	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	 Wind Crystal	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	Bloodhemp	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Gyr Abanian Wheat	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Starcrack Sand	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Cotter Dynasty Relic	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	Yellow Kudzu Root (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Peaks Pigment (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	Shishu Koban	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
-REGULAR_NODE	Dry Branch	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Steppe Vine	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Steppe Rattan Lumber	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Azim Strawberry (Lvl 60 beast tribe quest)	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	Grazing Grass	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Duskglow Cocoon (Lvl 60 beast tribe quest)	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	Verdant Branch	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Steppe Tea Leaves	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	Steppe Safflowers	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Fava Beans	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Steppe Radish	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	Lightning Crystal	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	 Steppe Onion	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	Beech Log	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	 Loquat	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	 Fire Crystal	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	Kudzu Root	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	 Kudzu Vine	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	 Holy Basil	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	 Wild Popoto	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	 Harpoon Head	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	Phial of Thermal Fluid	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	Buckwheat Kernels	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	 Sugar Beet	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	 Green Leek	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	 Mountain Popoto	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	 Pinch of Active Ingredients	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	Gem Algae	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	 Ruby Cotton Boll	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	 Ama Nori	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	 Shisui Jewel	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	Soybeans	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	 Cumin Seeds	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	 Walker's Popoto (lvl 65 quest)	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	Cloudkin Feather	The Churning Mists	(x8,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	Shiitake Mushroom	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	 Larch Log	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	 Sparkstone	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	Pine Resin	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	 Pine Log	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	 Wind Crystal	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	 Malleable Still Material	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	Persimmon	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	 Persimmon Leaf	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	 Persimmon Log	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	 Fire Crystal	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	Ruby Tide Kelp	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
-REGULAR_NODE	 Nanoriso (lvl 68 quest)	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
-REGULAR_NODE	Nipplewort	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	 Earth Crystal	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	 Sun Cabbage	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	 Fennel	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	 Chickweed	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	 Strong Steppe Spice	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	Doman Eggplant	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	 Wind Crystal	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	 Yanxian Parsley	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	 Nagxian Cudweed	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	 Daikon Radish	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	Alyssum	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	 Gyr Abanian Carrot	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	 Twincoon	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	Zelkova Log	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	 Ice Crystal	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	 Hard Place Furnishing Materials	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	Night Pepper	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
-REGULAR_NODE	 Animal Trace (Facet of Gathering Delivery)	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
-REGULAR_NODE	Frantoio	Lakeland	(x36,y24)		75	Mature Tree
-REGULAR_NODE	 Earth Crystal	Lakeland	(x36,y24)		75	Mature Tree
-REGULAR_NODE	Bright Flax	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	 Purple Carrot	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	 Animal Droppings (Facet of Gathering Delivery)	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	 Earth Crystal	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	White Oak Log	Kholusia	(x27,y22)		75	Mature Tree
-REGULAR_NODE	 Ice Crystal	Kholusia	(x27,y22)		75	Mature Tree
-REGULAR_NODE	Upland Wheat	Kholusia	(x16,y36)		75	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Kholusia	(x16,y36)		75	Lush Vegetation Patch
-REGULAR_NODE	Pixie Apple	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	 Miracle Apple Log	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	 Water Crystal	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	Blood Tomato	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Garden Beet	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Iridescent Cocoon	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Curly Parsley	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Ancient Animal Skin (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Megafauna Leftovers (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	Gianthive Chip	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	 White Ash Log	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	Royal Grapes	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	 Pixie Floss Boll	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	 Creamtop Mushroom	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	Light Gerbera	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	 Lime Basil	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	 Tiger Lily	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	 Earth Crystal	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	Harcot	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	 Lignum Vitae Log	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	 Earth Crystal	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	Black Aethersand	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	 Bomba Rice	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	 Coffee Beans	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	 Dwarven Cotton Boll	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	Amber Cloves	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	 Sandteak Log	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	 Fire Crystal	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	Fernleaf Lavender	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	 Megafauna Trace (Facet of Gathering Delivery)	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	 Sweet Alyssum	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	Dark Hemp	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	 Dark Rye	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	 Iceberg Lettuce	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	 Wind Crystal	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	Horse Chestnut Log	Labyrinthos	(x17, y6)		85	Mature Tree
-REGULAR_NODE	 Wind Crystal	Labyrinthos	(x17, y6)		85	Mature Tree
-REGULAR_NODE	Coconut	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	 Palm Log	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	 Palm Syrup	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	 Fire Crystal	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	 Thavnairian Paprika	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	 Thavnairian Perilla Leaf	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	 Fire Crystal	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	Beet	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	 Cucumber	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	 Eblan Lentils	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	 Snow Flax	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	 Earth Crystal	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	 Red Pine Log	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	 Earth Crystal	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	Carrot of Happiness	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
-REGULAR_NODE	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
-REGULAR_NODE	 Ice Crystal	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
-REGULAR_NODE	Sykon	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	 Elder Nutmeg Seeds	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	 Ironwood Log	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	 Lightning Crystal	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	 Scarlet Moko Grass	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	 Giant Popoto	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	 Sideritis Leaves	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	 Lightning Crystal	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	AR-Caean Cotton Boll	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	 Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-REGULAR_NODE	 Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	n/a	3	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	n/a	6	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	n/a	3	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	n/a	6	1	6:00 AM/PM
-UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	n/a	1	1	8:00 AM/PM
-UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	n/a	3	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	n/a	3	1	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	n/a	4	1	4:00 AM/PM
-UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		80	n/a	2	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	n/a	2	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	n/a	6	1	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	n/a	4	0	12:00 AM/PM
-UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	n/a	2	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	n/a	4	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	n/a	1	0	4:00 AM/PM
-UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	n/a	3	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	n/a	6	1	6:00 AM/PM
-UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	n/a	8	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	n/a	4	0	12:00 AM/PM
-UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	n/a	3	0	12:00 AM/PM
-UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	n/a	7	0	12:00 AM/PM
-UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	n/a	1	3	2:00 AM/PM
-UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	n/a	2	3	2:00 AM/PM
-UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	n/a	2	0	4:00 AM/PM
-UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	n/a	2	0	6:00 AM/PM
-UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	n/a	3	0	6:00 AM/PM
-UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	n/a	1	0	10:00 AM/PM
-UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	n/a	2	0	10:00 AM/PM
-UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	n/a	3	0	10:00 AM/PM
-UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	n/a	7	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	n/a	3	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	n/a	4	0	10:00 AM/PM
-ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		-1	n/a	4	1	1:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	1:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	1:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	1:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	1:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	1:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	1:00 AM
-ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		-1	n/a	6	1	2:00 AM
-ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	n/a	6	2	2:00 AM
-ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		-1	n/a	4	2	3:00 AM
-ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	n/a	6	3	4:00 AM
-ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		-1	n/a	1	1	5:00 AM
-ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	n/a	2	1	5:00 AM
-ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	n/a	1	1	5:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	5:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	5:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	5:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	5:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	5:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	5:00 AM
-ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	n/a	6	2	6:00 AM
-ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		-1	n/a	6	2	6:00 AM
-ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		-1	n/a	2	2	7:00 AM
-ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	n/a	6	2	7:00 AM
-ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	n/a	6	2	8:00 AM
-ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	n/a	2	1	8:00 AM
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	1	2	8:00 AM
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
-ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	n/a	2	2	9:00 AM
-ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	n/a	6	1	9:00 AM
-ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	n/a	1	1	9:00 AM
-ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	n/a	4	1	9:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	9:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	9:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	9:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	9:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	9:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	9:00 AM
-ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		-1	n/a	6	3	10:00 AM
-ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	n/a	8	1	1:00 PM
-ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		-1	n/a	7	1	1:00 PM
-ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	n/a	2	1	1:00 PM
-ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	n/a	3	1	1:00 PM
-ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	n/a	1	1	1:00 PM
-ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	n/a	2	1	5:00 PM
-ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		-1	n/a	1	9	5:00 PM
-ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	n/a	7	1	9:00 PM
-ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	n/a	8	1	9:00 PM
-UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	n/a	1	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	n/a	8	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	n/a	3	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	n/a	2	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	n/a	6	1	4:00AM/PM
-UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	n/a	6	0	6:00AM/PM
-UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	n/a	2	1	10:00AM/PM
-UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	n/a	7	0	10:00AM/PM
-UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	n/a	7	0	12:00AM/PM
-UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	n/a	7	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	n/a	7	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	n/a	7	1	2:00AM/PM
-UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	n/a	8	2	2:00AM/PM
-UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	n/a	7	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	n/a	8	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	n/a	6	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	n/a	7	0	6:00AM/PM
-UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	n/a	6	0	6:00AM/PM
-UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	n/a	8	0	6:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	n/a	7	0	8:00AM/PM
-UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	n/a	7	0	8:00AM/PM
-UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	n/a	1	0	12:00 AM/PM
-UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	n/a	8	0	12:00 AM/PM
-UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	n/a	6	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	n/a	7	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	n/a	6	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	n/a	8	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	n/a	2	1	10:00 AM/PM
-UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	n/a	1	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	n/a	2	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	n/a	2	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	n/a	3	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	n/a	4	0	4:00 AM/PM
-UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	n/a	1	0	10:00 AM/PM
-UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	n/a	6	0	10:00 AM/PM
-ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	n/a	3	1	1:00 AM
-ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		-1	n/a	1	3	1:00 AM
-ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	n/a	7	2	2:00 AM
-ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		-1	n/a	6	2	3:00 AM
-ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		-1	n/a	7	2	3:00 AM
-ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		-1	n/a	8	2	3:00 AM
-ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	n/a	6	2	4:00 AM
-ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		-1	n/a	8	2	4:00 AM
-ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		-1	n/a	7	2	4:00 AM
-ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	n/a	6	3	4:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	n/a	5	1	5:00 AM
-ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	n/a	2	1	5:00 AM
-ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	n/a	7	1	6:00 AM
-ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	n/a	6	1	9:00 AM
-ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	n/a	7	1	9:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	n/a	2	0	1:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		-1	n/a	3	0	1:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		-1	n/a	4	0	1:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		-1	n/a	5	0	1:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		-1	n/a	6	0	1:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	n/a	7	0	1:00 PM
-ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	n/a	1	1	5:00 PM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	n/a	2	0	5:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	n/a	3	0	5:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	n/a	4	0	5:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	n/a	5	0	5:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	n/a	6	0	5:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	n/a	7	0	5:00 PM
-ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	n/a	6	9	5:00 PM
-ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	n/a	7	2	6:00 PM
-ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	n/a	8	2	6:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	n/a	3	1	7:00 PM
-ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	n/a	7	1	9:00 PM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	n/a	2	0	9:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	n/a	3	0	9:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	n/a	4	0	9:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	n/a	5	0	9:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	n/a	6	0	9:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	n/a	7	0	9:00 PM
-REGULAR_NODE	Muddy Water	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	 Copper Ore	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	 Wind Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	Bone Chip	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	 Wind Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	Muddy Water	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	 Copper Ore	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	 Fire Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	 Water Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	Tin Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	 Zinc Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	 Soiled Femur	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	Tin Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	 Zinc Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	 Soiled Femur	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	 Obsidian	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	 Water Shard	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	Raw Sunstone	Lower La Noscea	(x27,y18)		10	Mineral Deposit
-REGULAR_NODE	 Earth Shard	Lower La Noscea	(x27,y18)		10	Mineral Deposit
-REGULAR_NODE	Raw Lapis Lazuli	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	 Earth Shard	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	 Potter's Clay	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	Rock Salt	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	 Ragstone	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	 Fine Sand	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	 Lightning Shard	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	Iron Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	 Cinnabar	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	 Copper Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	 Water Shard	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	Iron Ore	Western Thanalan	(x27,y17)		15	Mineral Deposit
-REGULAR_NODE	 Water Shard	Western Thanalan	(x27,y17)		15	Mineral Deposit
-REGULAR_NODE	Raw Sphene	North Shroud	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	 Earth Shard	North Shroud	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	Alumen	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	 Raw Malachite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	 Raw Fluorite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	Sunrise Tellin	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	 Raw Danburite	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	 Ice Shard	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	Grade 1 Carbonized Matter	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
-REGULAR_NODE	 Fire Shard	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
-REGULAR_NODE	Mudstone	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	 Ice Shard	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	 Limestone	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	Fire Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	 Water Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	 Lightning Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	 Earth Shard	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	Silver Sand	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	 Earth Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	 Ice Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	 Wind Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	 Ice Shard	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	Effervescent Water	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	 Silver Ore	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	 Ice Shard	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	Red Pigment	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	 Fire Crystal	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	 Grade 1 Thanalan Topsoil (Rare)	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	Blue Pigment	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	 Water Crystal	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	Grey Pigment	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	 Ice Shard	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	 Ice Crystal	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	Yellow Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	 Brown Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	 Earth Shard	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	 Earth Crystal	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	 Grade 1 La Noscean Topsoil (Rare)	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	Green Pigment	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	 Wind Shard	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	 Wind Crystal	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	 Grade 1 Shroud Topsoil (Rare)	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	Purple Pigment	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	Wyvern Obsidian	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	 Saltpeter	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	Bomb Ash	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
-REGULAR_NODE	 Silex	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
-REGULAR_NODE	Siltstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop
-REGULAR_NODE	 Brimstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop
-REGULAR_NODE	Raw Garnet	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	 Raw Aquamarine	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	 Raw Goshenite	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	 Water Shard	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	Raw Peridot	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	 Raw Amethyst	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	 Granite	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	 Wind Shard	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	Mythril Sand	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
-REGULAR_NODE	Raw Heliodor	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	 Mythril Ore	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	 Little Worm (Hidden)	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	Jade	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	 Raw Zircon	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	 Ice Shard	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	Black Alumen	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	 Raw Tourmaline	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	 Raw Spinel	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	 Ice Shard	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	Grenade Ash	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
-REGULAR_NODE	 Wind Shard	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
-REGULAR_NODE	Electrum Ore	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	 Raw Turquoise	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	 Earth Shard	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	Electrum Sand	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	 Marble	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	 Earth Shard	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	Raw Amber	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	 Raw Rubellite	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	Cobalt Ore	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	 Adamantoise Shell	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	 Basilisk Egg	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	 Ogre Horn	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	 Wind Shard	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	Earth Shard	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	 Earth Crystal	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	 Grade 2 La Noscean Topsoil (Rare)	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	Water Shard	Western Thanalan	(x18,y28)		50	Rocky Outcrop
-REGULAR_NODE	 Grade 2 Thanalan Topsoil (Rare)	Western Thanalan	(x18,y28)		50	Rocky Outcrop
-REGULAR_NODE	Wind Shard	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	 Wind Crystal	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	 Grade 2 Shroud Topsoil (Rare)	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	Ice Shard	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	 Ice Crystal	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	 Black Limestone (Hidden)	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	Dragon Obsidian	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
-REGULAR_NODE	Ice Crystal	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	 Raw Larimar	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	 Raw Mormorion	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	 Mythrite Ore (Hidden)	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	Mythrite Sand	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
-REGULAR_NODE	Phial of Thermal Fluid	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
-REGULAR_NODE	Raw Star Sapphire	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	 Raw Star Ruby	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	 Titanium Ore (Hidden)	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	Dravanian Spring Water	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	 Raw Tiger's Eye	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	 Raw Agate	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	Hardsilver Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Cloud Mica	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Earth Crystal	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Tektite	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Fossilized Dragon Bone	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Lumythrite Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	 Duskfall Moss	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	Steppe Rock Salt	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Flat Stone	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Clay	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Skystone (Namazu quest)	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Pure White Silex	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Copper Ore	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Whetstone	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Obsidian	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Geode	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Steppe Cinnabar	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Soapstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Mudstone Whetstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Mondite (Namazu quest)	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Steppe Geode	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Pure White Silex	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Copper Ore	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Coal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Steppe Mica	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Steppe Spring Water	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Hardsilver Ore (Hidden)	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	 Raw Chrysolite	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	 Wyrm Obsidian	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	 Wind Crystal	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	Abalathian Spring Water	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	 Aurum Regis Sand	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	 Lightning Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	 Water Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	Ice Stalagmite	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	 Eventide Jade	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	 Raw Citrine	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	Beastkin Horn	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	 Eventide Jade	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	 Raw Carnelian	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	 Raw Opal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	 Rainbow Pigment	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	Gyr Abanian Alumen	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	 Starcrack Sand	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	 Cotter Dynasty Relic	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	 Wind Crystal	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	Shishu Koban	The Ruby Sea	(x17,y33)		60	Mineral Deposit
-REGULAR_NODE	 Water Crystal	The Ruby Sea	(x17,y33)		60	Mineral Deposit
-REGULAR_NODE	Yellow Kudzu Root	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	 Peaks Pigment	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	 Earth Crystal	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	Cloudkin Feather	The Churning Mists	(x34,25)		65	Rocky Outcrop
-REGULAR_NODE	 Earth Crystal	The Churning Mists	(x34,25)		65	Rocky Outcrop
-REGULAR_NODE	Koppranickel Sand	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	 Stiperstone	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	 Slate	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	 Pinch of Active Ingredients	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	 Earth Crystal	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	Diatomite	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	 Water Crystal	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	 Shisui Jewel	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	Koppranickel Ore	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	 Feather Iron Ore (lvl 65 quest)	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	 Water Crystal	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	 Sparkstone	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	Gyr Abanian Mineral Water	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	 Raw Kyanite	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	 Harpoon Head	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	 Wind Crystal	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	Doman Iron Ore	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	 Crescent Spring Water	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	 Fire Crystal	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	 Malleable Still Material	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	Durium Ore	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	 Serpentine (lvl 68 quest)	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	 Fire Crystal	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	Durium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	 Doman Iron Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	 Palladium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	 Strong Steppe Spice	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	Molybdenum Ore	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	 Ice Crystal	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	 Hard Place Furnishing Materials	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	Yellow Alumen	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	 Coarse Saltpeter	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	 Animal Trace	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	 Wind Crystal	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	Highland Spring Water	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	 Megafauna Leftovers	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	 Water Crystal	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	 Truegold Ore	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	 Level 75 Miner Quest	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	Lightning Crystal	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	 Bluespirit Ore	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	 Animal Droppings	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	Truegold Sand	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	 Hard Mudstone	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	 Fire Crystal	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	Manasilver Sand	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
-REGULAR_NODE	 Water Crystal	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
-REGULAR_NODE	Underground Spring Water	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	 Lightning Crystal	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	 Titancopper Ore	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	 Dimythrite Ore	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	Extra Effervescent Water	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	 Megafauna Trace	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	 Water Crystal	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	Volcanic Tuff	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	 Fire Crystal	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	 Black Aethersand (Level 80 Miner Quest)	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	Titancopper Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
-REGULAR_NODE	 Dimythrite Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
-REGULAR_NODE	 Wind Crystal	Amh Araeng	(x15,y12)		80	Rocky Outcrop
-REGULAR_NODE	Chloroschist	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	 Eternity Ring Material (Level 90 Gathering Quest)	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	 High Durium Sand	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	 Water Crystal	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	Raw Ametrine	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	 Sharlayan Rock Salt	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	 Water Crystal	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	 Pewter Ore	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	 Ice Crystal	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	High Durium Ore	Thavnair	(x18, y28)		85	Mineral Deposit
-REGULAR_NODE	 Ice Crystal	Thavnair	(x18, y28)		85	Mineral Deposit
-REGULAR_NODE	Eblan Alumen	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	 Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	 Phrygian Gold Ore	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	 Lightning Crystal	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	Bismuth Ore	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	 Earth Crystal	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	 Manganese Ore	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	 Fire Crystal	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	Ambrosial Water	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	 Annite	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	 Raw Blue Zircon	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	 Fire Crystal	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	Raw Star Quartz	Ultima Thule	(x21,y33)		90	Rocky Outcrop
-REGULAR_NODE	 Wind Crystal	Ultima Thule	(x21,y33)		90	Rocky Outcrop
-REGULAR_NODE	Chondrite	Ultima Thule	(x19,y13)		90	Mineral Deposit
-REGULAR_NODE	 Wind Crystal	Ultima Thule	(x19,y13)		90	Mineral Deposit
-UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	n/a	1	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	n/a	3	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	n/a	6	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	n/a	3	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	n/a	6	1	6:00 AM/PM
-UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	n/a	1	1	8:00 AM/PM
-UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	n/a	3	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	n/a	3	1	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	n/a	4	1	4:00 AM/PM
-UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		80	n/a	2	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	n/a	2	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	n/a	6	1	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	n/a	4	0	12:00 AM/PM
-UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	n/a	2	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	n/a	4	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	n/a	1	0	4:00 AM/PM
-UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	n/a	3	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	n/a	6	1	6:00 AM/PM
-UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	n/a	8	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	n/a	2	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	n/a	4	0	12:00 AM/PM
-UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	n/a	3	0	12:00 AM/PM
-UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	n/a	7	0	12:00 AM/PM
-UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	n/a	1	3	2:00 AM/PM
-UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	n/a	2	3	2:00 AM/PM
-UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	n/a	2	0	4:00 AM/PM
-UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	n/a	2	0	6:00 AM/PM
-UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	n/a	3	0	6:00 AM/PM
-UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	n/a	1	0	10:00 AM/PM
-UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	n/a	2	0	10:00 AM/PM
-UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	n/a	3	0	10:00 AM/PM
-UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	n/a	7	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	n/a	3	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	n/a	6	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	n/a	4	0	10:00 AM/PM
-ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		-1	n/a	4	1	1:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	1:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	1:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	1:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	1:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	1:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	1:00 AM
-ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		-1	n/a	6	1	2:00 AM
-ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	n/a	6	2	2:00 AM
-ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		-1	n/a	4	2	3:00 AM
-ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	n/a	6	3	4:00 AM
-ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		-1	n/a	1	1	5:00 AM
-ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	n/a	2	1	5:00 AM
-ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	n/a	1	1	5:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	5:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	5:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	5:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	5:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	5:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	5:00 AM
-ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	n/a	6	2	6:00 AM
-ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		-1	n/a	6	2	6:00 AM
-ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		-1	n/a	2	2	7:00 AM
-ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	n/a	6	2	7:00 AM
-ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	n/a	6	2	8:00 AM
-ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	n/a	2	1	8:00 AM
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	1	2	8:00 AM
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	n/a	5	2	8:00 AM
-ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	n/a	2	2	9:00 AM
-ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	n/a	6	1	9:00 AM
-ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	n/a	1	1	9:00 AM
-ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	n/a	4	1	9:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	n/a	2	0	9:00 AM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	n/a	3	0	9:00 AM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	n/a	4	0	9:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	n/a	5	0	9:00 AM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	n/a	6	0	9:00 AM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	n/a	7	0	9:00 AM
-ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		-1	n/a	6	3	10:00 AM
-ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	n/a	8	1	1:00 PM
-ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		-1	n/a	7	1	1:00 PM
-ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	n/a	2	1	1:00 PM
-ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	n/a	3	1	1:00 PM
-ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	n/a	1	1	1:00 PM
-ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	n/a	2	1	5:00 PM
-ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		-1	n/a	1	9	5:00 PM
-ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	n/a	7	1	9:00 PM
-ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	n/a	8	1	9:00 PM
-UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	n/a	1	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	n/a	8	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	n/a	3	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	n/a	2	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	n/a	6	1	4:00AM/PM
-UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	n/a	6	0	6:00AM/PM
-UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	n/a	2	1	10:00AM/PM
-UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	n/a	7	0	10:00AM/PM
-UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	n/a	7	0	12:00AM/PM
-UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	n/a	7	0	12:00AM/PM
-UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	n/a	7	0	2:00AM/PM
-UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	n/a	7	1	2:00AM/PM
-UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	n/a	8	2	2:00AM/PM
-UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	n/a	7	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	n/a	8	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	n/a	6	0	4:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	n/a	7	0	6:00AM/PM
-UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	n/a	6	0	6:00AM/PM
-UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	n/a	8	0	6:00AM/PM
-UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	n/a	7	0	8:00AM/PM
-UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	n/a	7	0	8:00AM/PM
-UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	n/a	1	0	12:00 AM/PM
-UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	n/a	8	0	12:00 AM/PM
-UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	n/a	6	0	2:00 AM/PM
-UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	n/a	7	0	4:00 AM/PM
-UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	n/a	6	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	n/a	7	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	n/a	6	0	6:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	n/a	6	0	8:00 AM/PM
-UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	n/a	7	0	8:00 AM/PM
-UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	n/a	8	0	10:00 AM/PM
-UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	n/a	2	1	10:00 AM/PM
-UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	n/a	6	0	12:00 AM/PM
-UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	n/a	1	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	n/a	2	0	2:00 AM/PM
-UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	n/a	2	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	n/a	3	0	4:00 AM/PM
-UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	n/a	4	0	4:00 AM/PM
-UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	n/a	1	0	10:00 AM/PM
-UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	n/a	6	0	10:00 AM/PM
-ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	n/a	3	1	1:00 AM
-ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		-1	n/a	1	3	1:00 AM
-ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	n/a	7	2	2:00 AM
-ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		-1	n/a	6	2	3:00 AM
-ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		-1	n/a	7	2	3:00 AM
-ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		-1	n/a	8	2	3:00 AM
-ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	n/a	6	2	4:00 AM
-ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		-1	n/a	8	2	4:00 AM
-ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		-1	n/a	7	2	4:00 AM
-ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	n/a	6	3	4:00 AM
-ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	n/a	5	1	5:00 AM
-ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	n/a	2	1	5:00 AM
-ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	n/a	7	1	6:00 AM
-ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	n/a	6	1	9:00 AM
-ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	n/a	7	1	9:00 AM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	n/a	2	0	1:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		-1	n/a	3	0	1:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		-1	n/a	4	0	1:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		-1	n/a	5	0	1:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		-1	n/a	6	0	1:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	n/a	7	0	1:00 PM
-ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	n/a	1	1	5:00 PM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	n/a	2	0	5:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	n/a	3	0	5:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	n/a	4	0	5:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	n/a	5	0	5:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	n/a	6	0	5:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	n/a	7	0	5:00 PM
-ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	n/a	6	9	5:00 PM
-ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	n/a	7	2	6:00 PM
-ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	n/a	8	2	6:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	n/a	3	1	7:00 PM
-ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	n/a	7	1	9:00 PM
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	n/a	2	0	9:00 PM
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	n/a	3	0	9:00 PM
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	n/a	4	0	9:00 PM
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	n/a	5	0	9:00 PM
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	n/a	6	0	9:00 PM
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	n/a	7	0	9:00 PM
-FOLK_LORE_NODE	Potent Spice	Elpis Thavnair Ultima Thule	(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)	Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai	6AM/PM 8AM/PM 10AM/PM	Ancient Ilsabardian Celestial	1
-FOLK_LORE_NODE	Mempisang Log	Elpis	(x33.1,y14.7)	Mempisang Lumber	6AM/PM	Ancient	6
-FOLK_LORE_NODE	Golden Cocoon	Thavnair	(x25.4,y21.8)	Golden Silk	8AM/PM	Ilsabardian	4
-FOLK_LORE_NODE	Thavnairian Corn	Thavnair	(x25.4,y21.8)	Hannish Fiber	8AM/PM	Ilsabardian	-1
-FOLK_LORE_NODE	Double-edged Herb	Ultima Thule	(x28.0,y13.1)	Grade 6 Strength Alkahest, Grade 6 Dexterity Alkahest, Grade 6 Vitality Alkahest, Grade 6 Intelligence Alkahest, Grade 6 Mind Alkahest	10AM/PM	Celestial	2
-FOLK_LORE_NODE	Sandalwood Log	The Rak'tika Greatwood	(x24,y36)	Sandalwood Lumber	2AM/PM	Vrandtic	6
-FOLK_LORE_NODE	Sandalwood Sap	The Rak'tika Greatwood	(x24,y36)	Pliable Glass Fiber	2AM/PM	Vrandtic	4
-FOLK_LORE_NODE	Merbau Log	Il Mheg	(x36,y27)	Merbau Lumber	8AM/PM	Vrandtic	6
-FOLK_LORE_NODE	Silver Beech Log	Amh Araeng	(x16,y10)	Silver Beech Lumber	6AM/PM	Vrandtic	6
-FOLK_LORE_NODE	Wattle Petribark	Lakeland	(x16,y10)	Thylacoleo Leather	12AM/PM	Vrandtic	5
-FOLK_LORE_NODE	Ethereal Cocoon	Lakeland	(x26,y10)	Ethereal Silk	8AM/PM	Vrandtic	4
-FOLK_LORE_NODE	Duskblooms	Amh Araeng	(x32,y33)	Duskcourt Cloth	4AM/PM	Vrandtic	4
-FOLK_LORE_NODE	Imperial Fern	Kholusia	(x28,y21)	Grade 3 Strength Alkahest, Grade 3 Dexterity Alkahest, Grade 3 Vitality Alkahest, Grade 3 Intelligence Alkahest, Grade 3 Mind Alkahest	12AM/PM	Vrandtic	4
-FOLK_LORE_NODE	Tender Dill	Kholusia	(x28,y21)	Defthand's Dissolvent	12AM/PM	Vrandtic	5
-FOLK_LORE_NODE	Raindrop Cotton Boll	The Rak'tika Greatwood	(x33,y13)	Saffron Cloth	10AM/PM	Vrandtic	4
-FOLK_LORE_NODE	Torreya Log	The Lochs	(x11,y13)	Torreya Lumber	6AM/PM	Gyr Abanian	6
-FOLK_LORE_NODE	Black Willow Log	The Fringes	(x15,y21)	Black Willow Lumber	4AM/PM	Gyr Abanian	6
-FOLK_LORE_NODE	Hardened Veteran Tree Sap	The Fringes	(x15,y21)	Veteran Tree Sap	4AM/PM	Gyr Abanian	4
-FOLK_LORE_NODE	Urunday Log	The Peaks	(x32,y10)	Urunday Lumber	4AM/PM	Gyr Abanian	6
-FOLK_LORE_NODE	Hingan Flax	The Peaks	(x24,y36)	True Linen	2AM/PM	Gyr Abanian	4
-FOLK_LORE_NODE	Rhea	The Azim Steppe	(x20,y8)	Rhea Cloth	12AM/PM	Othardian	4
-FOLK_LORE_NODE	Azim Cotton Boll	The Azim Steppe	(x20,y8)	Ala Mhigan Burdet	12AM/PM	Othardian	5
-FOLK_LORE_NODE	Yanxian Cotton Boll	Yanxia	(x28,y35)	Stardust Cotton Cloth	2AM/PM	Othardian	4
-FOLK_LORE_NODE	Frost Cotton Boll	Coerthas Western Highlands	(x36.7,y13.0,z1.3)	Eikon Cloth	6AM/PM	Coerthan	4
-FOLK_LORE_NODE	Dravanian Paprika	Coerthas Western Highlands	(x27,y33)	Seafood Stew, Loaghtan Steak, Pasta Ortolano, Shakshouka, Shakshouka Pot	6AM/PM	Coerthan	3
-FOLK_LORE_NODE	Vanilla Beans	Coerthas Western Highlands	(x23,y21)	Creme Brulee, Spiced Cider, Apple Strudel	6AM/PM	Coerthan	3
-FOLK_LORE_NODE	Old-growth Camphorwood Log	The Churning Mists	(x11.6,y10.6,z3.3)	Treated Camphorwood Lumber	8AM/PM	Dravanian	6
-FOLK_LORE_NODE	Crystallized Sap	The Churning Mists	(x11.6,y10.6,z3.3)	Luminous Fiber	8AM/PM	Dravanian	4
-FOLK_LORE_NODE	Brown Mushroom	The Churning Mists	(x12,y37)	Wildwood Scrambled Eggs, Priestly Omelette	10AM/PM	Dravanian	7
-FOLK_LORE_NODE	Seventh Heaven	The Churning Mists	(x16,y36)	Astral Oil	4AM/PM	Dravanian	1
-FOLK_LORE_NODE	Noble Sage	The Dravanian Forelands	(x33,y30)	Supramax-Potion of Strength, Supramax-Potion of Dexterity, Supramax-Potion of Vitality, Supramax-Potion of Intelligence, Supramax-Potion of Mind	6AM/PM	Dravanian	1
-FOLK_LORE_NODE	Snurbleberry	The Dravanian Hinterlands	(x39,y26)	Snurbleberry Tart and Nameday Cake	10AM/PM	Dravanian	2
-FOLK_LORE_NODE	Teak Log	The Dravanian Hinterlands	(x6,y28)	Teak Lumber	12AM/PM	Dravanian	6
-FOLK_LORE_NODE	Honeydew Almonds	The Sea of Clouds	(x24,y6)	Almond Cream Croissant	12AM/PM	Abalathian	2
-FOLK_LORE_NODE	Wattle Bark	Azys Lla	(x22,y8)	Griffin Leather, Eikon Leather, Hemicyon Leather	2AM/PM	Abalathian	5
-FOLK_LORE_NODE	Star Cotton Boll	Azys Lla	(x9,y31)	Star Velvet	4AM/PM	Abalathian	4
-FOLK_LORE_NODE	Stonehard Water	Garlemald Elpis Mare Lamentorum	(x32.2,y34.8) (x13.5,y7.3) (x9.6,y23.1)	Grade 6 Tincture of Strength, Grade 6 Tincture of Dexterity, Grade 6 Tincture of Vitality, Grade 6 Tincture of Intelligence, Grade 6 Tincture of Mind	12AM/PM 4AM/PM 2AM/PM	Ilsabardian Ancient Celestial	1
-FOLK_LORE_NODE	Rime Dolomite	Garlemald	(x32.2,y34.8)	Amynodon Leather	12AM/PM	Ilsabardian	1
-FOLK_LORE_NODE	Raw Eblan Danburite	Garlemald	(x32.2,y34.8)	Eblan Danburite	12AM/PM	Ilsabardian	8
-FOLK_LORE_NODE	Rhodium Sand	Elpis	(x13.5,y7.3)	Rhodium Ingot	4AM/PM	Ancient	2
-FOLK_LORE_NODE	Lunar Adamantite Ore	Mare Lamentorum	(x9.6,y23.1)	Lunar Adamantite Ingot	2AM/PM	Celestial	6
-FOLK_LORE_NODE	Tungsten Ore	The Tempest	(x32,y7)	Tungsten Steel Ingot	10AM/PM	Vrandtic	3
-FOLK_LORE_NODE	Prismstone	Il Mheg	(x30,y21)	Prismatic Ingot	4AM/PM	Vrandtic	7
-FOLK_LORE_NODE	Beryllium Ore	Il Mheg	(x30,y21)	Alumina Whetstone	4AM/PM	Vrandtic	5
-FOLK_LORE_NODE	Fireheart Cobalt	Lakeland	(x5,y34)	Cobalt Alloy Ingot	2AM/PM	Vrandtic	6
-FOLK_LORE_NODE	Brashgold Ore	Lakeland	(x5,y34)	Brashgold Plate	2AM/PM	Vrandtic	7
-FOLK_LORE_NODE	Dolomite	The Rak'tika Greatwood	(x8,y30)	Duraluminum Ingot	8AM/PM	Vrandtic	6
-FOLK_LORE_NODE	Hard Water	Kholusia	(x35,y12)	Grade 4 Strength Alkahest, Grade 4 Dexterity Alkahest, Grade 4 Vitality Alkahest, Grade 4 Intelligence Alkahest, Grade 4 Mind Alkahest	4AM/PM	Vrandtic	1
-FOLK_LORE_NODE	Purpure Shell Chip	The Tempest	(x33,y31)	Purpure Bead	6AM/PM	Vrandtic	1
-FOLK_LORE_NODE	Ashen Alumen	Amh Araeng	(x20,y8)	Megalania Leather	10AM/PM	Vrandtic	2
-FOLK_LORE_NODE	Solstice Stone	Il Mheg	(x35,y9)	Solstice Ingot	2AM/PM	Vrandtic	7
-FOLK_LORE_NODE	Chromite Ore	The Peaks	(x23,y36)	Chromite Ingot, True Griffin Leather	10AM/PM	Gyr Abanian	6
-FOLK_LORE_NODE	Gyr Abanian Spring Water	The Peaks	(x16.0,y33.9)	Ala Mhigan Burdet, Grade 3 Reisui of Strength, Grade 3 Reisui of Dexterity, Grade 3 Reisui of Vitality, Grade 3 Reisui of Intelligence, Grade 3 Reisui of Mind, Grade 2 Infusion of Strength, Grade 2 Infusion of Dexterity, Grade 2 Infusion of Vitality, Grade 2 Infusion of Intelligence, Grade 2 Infusion of Mind	10AM/PM	Gyr Abanian	1
-FOLK_LORE_NODE	Gyr Abanian Ore	The Fringes	(x31,y27)	Chigusa Ingot	12AM/PM	Gyr Abanian	3
-FOLK_LORE_NODE	Evergleam Ore	The Lochs	(x22,y13)	Evergleam Ingot	10AM/PM	Gyr Abanian	6
-FOLK_LORE_NODE	Palladium Ore	Yanxia	(x20.5,y10.4))	Palladium Ingot	4AM/PM	Othardian	6
-FOLK_LORE_NODE	Nightsteel Ore	The Ruby Sea	( x11,y23)	Nightsteel Ingot	6AM/PM	Othardian	3
-FOLK_LORE_NODE	Silvergrace Ore	The Azim Steppe	(x23,y36)	Silvergrace Ingot	8AM/PM	Othardian	6
-FOLK_LORE_NODE	Hawk's Eye	The Ruby Sea	(x23,y36)	Hawk's Eye Sand	6AM/PM	Othardian	7
-FOLK_LORE_NODE	Azim Spring Water	The Azim Steppe	(x23,y36)	Grade 4 Reisui of Strength, Grade 4 Reisui of Dexterity, Grade 4 Reisui of Vitality, Grade 4 Reisui of Intelligence, Grade 4 Reisui of Mind, Grade 3 Infusion of Strength, Grade 3 Infusion of Dexterity, Grade 3 Infusion of Vitality, Grade 3 Infusion of Intelligence, Grade 3 Infusion of Mind	8AM/PM	Othardian	1
-FOLK_LORE_NODE	Astral Moraine	Coerthas Western Highlands	(x37,y16)	Astral Oil, Shishi-odoshi, Tier 3 Aquarium, Tier 4 Aquarium	12AM/PM	Coerthan	4
-FOLK_LORE_NODE	Violet Quartz	Coerthas Western Highlands	(x11,y23)	Aurum Regis Ingot	12AM/PM	Coerthan	6
-FOLK_LORE_NODE	Tungstite	Coerthas Western Highlands	(x10,y9)	Heavy Metal Ingot	2AM/PM	Coerthan	4
-FOLK_LORE_NODE	Lumythrite Ore	The Churning Mists	(x6.2,y20.3,z3.4)	High Mythrite Ingot	2AM/PM	Dravanian	2
-FOLK_LORE_NODE	Aurum Regis Ore	The Churning Mists	(x11,y38)	Aurum Regis Ingot	2AM/PM	Dravanian	6
-FOLK_LORE_NODE	Blue Quartz	The Dravanian Hinterlands	(x11,y16)	Adamantite Ingot	6AM/PM	Dravanian	7
-FOLK_LORE_NODE	Zeolite Ore	The Dravanian Hinterlands	(x13,y31)	Grade 3 Strength Dissolvent, Grade 3 Dexterity Dissolvent, Grade 3 Vitality Dissolvent, Grade 3 Intelligence Dissolvent, Grade 3 Mind Dissolvent	8AM/PM	Dravanian	4
-FOLK_LORE_NODE	Sun Mica	The Sea of Clouds	(x35,y39)	Adamantite Ingot, Boltmaster's Needle, Wrapped Adamantite Culinary Knife, Balanced Adamantite Scythe, Sun Mica Grinding Wheel	4AM/PM	Abalathian	2
-FOLK_LORE_NODE	Red Alumen	Azys Lla	(x35,y16)	Griffin Leather	10AM/PM	Abalathian	2
-FOLK_LORE_NODE	Smithsonite Ore	The Sea of Clouds	(x38.1,y14.8,z2.2)	Eikon Iron Ingot	8AM/PM	Abalathian	2
-FOLK_LORE_NODE	Meteorite	The Sea of Clouds	(x38.1,y14.8,z2.2)	Luminous Fiber	8AM/PM	Abalathian	3
-FOLK_LORE_NODE	Luminium Ore	Azys Lla	(x5,y17)	Scintillant Ingot	6AM/PM	Abalathian	6
-FOLK_LORE_FISHING	Basilosaurus	Thavnair	(x7.3,y7.6)		ANY	Ilsabardian
-FOLK_LORE_FISHING	Labyrinthos Tilapia	Labyrinthos	(x20.5,y16.1)		ANY	Ilsabardian
-FOLK_LORE_FISHING	Red Drum	Thavnair	(x30.8,y9.3)		ANY	Ilsabardian
-FOLK_LORE_FISHING	Lunar Deathworm	Mare Lamentorum	(x31.0,y32.1)		ANY	Celestial
-FOLK_LORE_FISHING	Phallaina	Ultima Thule	(x25,y17)	1181 Min. Collectability	10PM-4AM	Celestial
-FOLK_LORE_FISHING	Mangar	Elpis	(x11,y19)		ANY	Ancient
-FOLK_LORE_FISHING	Aapoak	The Tempest	(x6,y14)	314 Min. Collectability	12PM-4PM	Vrandtic
-FOLK_LORE_FISHING	Blue Crab	Kholusia	(x8,y32)		ANY	Vrandtic
-FOLK_LORE_FISHING	Giant Taimen	Kholusia	(x8,y32)	1900 Gathering required	ANY	Vrandtic
-FOLK_LORE_FISHING	Henodus	Kholusia	(x35,y36)	157 Min. Collectability	4PM-12AM	Vrandtic
-FOLK_LORE_FISHING	Henodus Grandis	Kholusia	(x35,y36)	1950 Gathering required	10PM-12AM	Vrandtic
-FOLK_LORE_FISHING	Loose Pendant	The Crystarium	(x13,y16)		6PM-10PM	Vrandtic
-FOLK_LORE_FISHING	Moonlight Guppy	Lakeland	(x12,y21)	1950 Gathering required	6AM-8AM	Vrandtic
-FOLK_LORE_FISHING	Ondo Sigh	The Tempest	(x11,y7)		12PM-2PM	Vrandtic
-FOLK_LORE_FISHING	Pearl Pipira	The Rak'tika Greatwood	(x10,y21)	1950 Gathering required	5PM-8PM	Vrandtic
-FOLK_LORE_FISHING	Platinum Guppy	Lakeland	(x12,y21)	9 Min. Collectability	ANY	Vrandtic
-FOLK_LORE_FISHING	Steel Fan	Kholusia	(x29,y21)	1950 Gathering required	ANY	Vrandtic
-FOLK_LORE_FISHING	Sunken Tome	Il Mheg	(x22,y9)	1950 Gathering required	12PM-4PM	Vrandtic
-FOLK_LORE_FISHING	Sweetmeat Mussel	The Tempest	(x12,y11)		ANY	Vrandtic
-FOLK_LORE_FISHING	The Jaws of Undeath	Lakeland	(x9,y38)		4PM-12AM	Vrandtic
-FOLK_LORE_FISHING	The Ondotaker	The Tempest	(x37,y7)	1950 Gathering required	8AM-10AM	Vrandtic
-FOLK_LORE_FISHING	The Unforgiven	Lakeland	(x15.7,y25.5)		ANY	Vrandtic
-FOLK_LORE_FISHING	White Ronso	Kholusia	(x30,y27)		12AM-2AM	Vrandtic
-FOLK_LORE_FISHING	Alligator Snapping Turtle	The Peaks	(x25,y32)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Bloodtail Zombie	Rhalgr's Reach	(x12,y6)		8AM-12PM	Gyr Abanian
-FOLK_LORE_FISHING	Bondsplitter	The Peaks	(x6,y15)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Cardinalfish	The Fringes	(x13,y31)		7PM-11PM	Gyr Abanian
-FOLK_LORE_FISHING	Corpse Chub	The Fringes	(x27,y16)		8PM-12AM	Gyr Abanian
-FOLK_LORE_FISHING	Diamond-eye	The Lochs	(x21,y21)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Downstream Loach	The Fringes	(x19,y4)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Hardhead Trout	The Fringes	(x11,y18)		4PM-8PM	Gyr Abanian
-FOLK_LORE_FISHING	Hemon	The Peaks	(x25,y32)		2PM-8PM	Gyr Abanian
-FOLK_LORE_FISHING	Hookstealer	Rhalgr's Reach	(x11,y14)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Lily of the Veil	The Peaks	(x9,y37)		12PM-4PM	Gyr Abanian
-FOLK_LORE_FISHING	Mirage Mahi	The Fringes	(x27,y16)		4AM-8AM	Gyr Abanian
-FOLK_LORE_FISHING	Moksha	The Peaks	(x31,y17)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Redtail	Rhalgr's Reach	(x12,y6)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Rockfish	The Peaks	(x9,y37)		12PM-4PM	Gyr Abanian
-FOLK_LORE_FISHING	Saltmill	The Lochs	(x21,y21)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Sapphire Fan	The Fringes	(x9,y29)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Sculptor	The Lochs	(x21,y21)	785 Min. Collectability	ANY	Gyr Abanian
-FOLK_LORE_FISHING	The Archbishop	The Fringes	(x13,y31)		11AM-4PM	Gyr Abanian
-FOLK_LORE_FISHING	The Last Tear	The Peaks	(x31,y7)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	The Undecided	The Peaks	(x23,y9)		8AM-12PM	Gyr Abanian
-FOLK_LORE_FISHING	Watcher Catfish	Rhalgr's Reach	(x11,y10)		ANY	Gyr Abanian
-FOLK_LORE_FISHING	Wraithfish	The Fringes	(x9,y29)	99 Min. Collectability	12AM-4AM	Gyr Abanian
-FOLK_LORE_FISHING	Xenacanthus	The Fringes	(x11,y18)		4PM-8PM	Gyr Abanian
-FOLK_LORE_FISHING	Argonautica	The Ruby Sea	(x 22.1,y 11.0)		Any	Othardian
-FOLK_LORE_FISHING	Axelrod	Yanxia	(x20,y24)		12AM-8AM	Othardian
-FOLK_LORE_FISHING	Banderole	The Azim Steppe	(x29,y20)		12AM-8AM	Othardian
-FOLK_LORE_FISHING	Blade Skipper	The Azim Steppe	(x17,y18)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	Bokuden	Yanxia	(x14,y7)		12PM-2PM	Othardian
-FOLK_LORE_FISHING	Bonsai Fish	Shirogane	(x10,y11)		ANY	Othardian
-FOLK_LORE_FISHING	Duskfish	The Azim Steppe	(x23,y23)		8AM-4PM	Othardian
-FOLK_LORE_FISHING	Elder Gourami	The Azim Steppe	(x16,y14)		ANY	Othardian
-FOLK_LORE_FISHING	Firelight Goldfish	Yanxia	(x29,y6)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	Garden Skipper	The Azim Steppe	(x31,y26)		8AM-12PM	Othardian
-FOLK_LORE_FISHING	Green Prismfish	Yanxia	(x29,y6)		12AM-4PM	Othardian
-FOLK_LORE_FISHING	Guppy	The Azim Steppe	(x23,y23)		4PM-8PM	Othardian
-FOLK_LORE_FISHING	Hagoromo Bijin	Yanxia	(x11.0,y33.0)		ANY	Othardian
-FOLK_LORE_FISHING	Hagoromo Koi	Yanxia	(x36,y23)		ANY	Othardian
-FOLK_LORE_FISHING	Hak Bitterling	The Azim Steppe	(x29,y20)		12AM-4AM	Othardian
-FOLK_LORE_FISHING	Hanatatsu	Kugane	(x12,y10.5)		ANY	Othardian
-FOLK_LORE_FISHING	Harutsuge	The Ruby Sea	(x32.5,y8.3)		ANY	Othardian
-FOLK_LORE_FISHING	Hermit's End	Yanxia	(x29.5,y15.5)		8PM-12AM	Othardian
-FOLK_LORE_FISHING	Indigo Prismfish	Yanxia	(x29,y6)		12AM-4AM	Othardian
-FOLK_LORE_FISHING	Ku'er	The Ruby Sea	(x38.4,y38.5)		12AM-8AM	Othardian
-FOLK_LORE_FISHING	Liopleurodon	The Ruby Sea	(x25.9,y33.3)		ANY	Othardian
-FOLK_LORE_FISHING	Nhaama's Treasure	The Azim Steppe	(x12.4,y33.1)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	Pinhead	The Ruby Sea	(x 8.5,y 12.0)		4PM-12AM	Othardian
-FOLK_LORE_FISHING	Pomegranate Trout	Yanxia	(x34.7,y14.0)		ANY	Othardian
-FOLK_LORE_FISHING	Princess Killifish	Shirogane	(x10,y11)		4AM-6AM	Othardian
-FOLK_LORE_FISHING	Rakshasa	The Ruby Sea	(x 8.3,y 26.6)		ANY	Othardian
-FOLK_LORE_FISHING	Red Prismfish	Yanxia	(x29,y6)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	Ribbon Eel	Kugane	(x12,y10.5)		ANY	Othardian
-FOLK_LORE_FISHING	Rising Dragon	Kugane	(x12,y10.5)		ANY	Othardian
-FOLK_LORE_FISHING	Seven Stars	The Ruby Sea	(x34.6,y19.7)		10AM-6PM	Othardian
-FOLK_LORE_FISHING	Shrieker	The Ruby Sea	(x25.9,y33.3)		ANY	Othardian
-FOLK_LORE_FISHING	Silken Koi	Yanxia	(x36,y23)	314 Min. Collectability	ANY	Othardian
-FOLK_LORE_FISHING	Suiten Ippeki	Yanxia	(x11,y13)		4PM-12AM	Othardian
-FOLK_LORE_FISHING	Sweatfish	The Azim Steppe	(x23,y23)	Aetherial Reduction	ANY	Othardian
-FOLK_LORE_FISHING	Swordfish	The Ruby Sea	(x 22.1,y 11.0)	456 Min. Collectability	8AM-4PM	Othardian
-FOLK_LORE_FISHING	The Gambler	Shirogane	(x8,y14)		ANY	Othardian
-FOLK_LORE_FISHING	The Ruby Dragon	The Ruby Sea	(x38.4,y38.5)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	The Unconditional	The Azim Steppe	(x12.4,y33.1)		5AM-7AM	Othardian
-FOLK_LORE_FISHING	The Unraveled Bow	Yanxia	(x31,y7)		12PM-4PM	Othardian
-FOLK_LORE_FISHING	The Vegetarian	The Ruby Sea	(x25.9,y33.3)		8PM-12AM	Othardian
-FOLK_LORE_FISHING	The Winter Queen	The Ruby Sea	(x 32.5,y 8.3)		4PM-8PM	Othardian
-FOLK_LORE_FISHING	The Word of God	The Azim Steppe	(x16,y14)		8PM-12AM	Othardian
-FOLK_LORE_FISHING	Triplespine	The Ruby Sea	(x8.5,y12.0)		5AM-7AM	Othardian
-FOLK_LORE_FISHING	Ukiki	The Ruby Sea	(x25.0,y33.0)		8AM-12PM	Othardian
-FOLK_LORE_FISHING	Usuginu Octopus	The Ruby Sea	(x34.6,y19.7)		ANY	Othardian
-FOLK_LORE_FISHING	Violet Prismfish	Yanxia	(x29,y6)		12AM-4AM	Othardian
-FOLK_LORE_FISHING	Warden of the Seven Hues	Yanxia	(x29,y6)		12AM-4PM	Othardian
-FOLK_LORE_FISHING	White Goldfish	Yanxia	(x29,y6)		4AM-8AM	Othardian
-FOLK_LORE_FISHING	Yat Khan	The Azim Steppe	(x22,y28)		ANY	Othardian
-FOLK_LORE_FISHING	Bishopfish	Coerthas Western Highlands	(x36,y6)		10AM-2PM	Coerthan
-FOLK_LORE_FISHING	Capelin	Coerthas Western Highlands	(x36,y6)	19 Min. Collectability	12AM-6AM	Coerthan
-FOLK_LORE_FISHING	Charibenet	Coerthas Western Highlands	(x36,y6)		5PM-3AM	Coerthan
-FOLK_LORE_FISHING	Coerthan Clione	Coerthas Western Highlands	(x28,y18)		12AM-4AM	Coerthan
-FOLK_LORE_FISHING	Coerthan Oyster	Coerthas Western Highlands	(x13,y8)		ANY	Coerthan
-FOLK_LORE_FISHING	La Reale	Coerthas Western Highlands	(x14,y15)		ANY	Coerthan
-FOLK_LORE_FISHING	Merciless	Coerthas Western Highlands	(x13,y8)		ANY	Coerthan
-FOLK_LORE_FISHING	Mountain Kraken	Coerthas Western Highlands	(x21,y11)		ANY	Coerthan
-FOLK_LORE_FISHING	Priestfish	Coerthas Western Highlands	(x36,y6)		ANY	Coerthan
-FOLK_LORE_FISHING	Spring Urchin	Coerthas Western Highlands	(x8,y10)		ANY	Coerthan
-FOLK_LORE_FISHING	The Impaler	Coerthas Western Highlands	(x8,y10)		ANY	Coerthan
-FOLK_LORE_FISHING	Amber Salamander	The Dravanian Forelands	(x31,y5)	622 Min. Collectability	6AM-11AM	Dravanian
-FOLK_LORE_FISHING	Armor Fish	The Dravanian Hinterlands	(x22,y35)		1AM-4AM	Dravanian
-FOLK_LORE_FISHING	Armored Catfish	The Dravanian Hinterlands	(x22,y35)		ANY	Dravanian
-FOLK_LORE_FISHING	Berserker Betta	The Dravanian Hinterlands	(x20,y25)		ANY	Dravanian
-FOLK_LORE_FISHING	Bloodchaser	The Churning Mists	(x20,y6)		ANY	Dravanian
-FOLK_LORE_FISHING	Bobgoblin Bass	The Dravanian Hinterlands	(x20,y25)		2AM-6AM	Dravanian
-FOLK_LORE_FISHING	Dimorphodon	The Churning Mists	(x18,y39)		ANY	Dravanian
-FOLK_LORE_FISHING	Gnomefish	The Dravanian Hinterlands	(x11,y24)		ANY	Dravanian
-FOLK_LORE_FISHING	Goblin Bass	The Dravanian Hinterlands	(x20,y25)		12AM-6AM	Dravanian
-FOLK_LORE_FISHING	Hraesvelgr's Tear	The Dravanian Forelands	(x7,y5)		2AM-6AM	Dravanian
-FOLK_LORE_FISHING	Lava Snail	The Dravanian Forelands	(x7,y5)		ANY	Dravanian
-FOLK_LORE_FISHING	Lavalord	The Dravanian Forelands	(x7,y5)		10AM-5PM	Dravanian
-FOLK_LORE_FISHING	Loosetongue	The Dravanian Hinterlands	(x22,y35)	1039 Min. Collectability	1PM-8PM	Dravanian
-FOLK_LORE_FISHING	Madam Butterfly	The Dravanian Hinterlands	(x11,y24)		9PM-2AM	Dravanian
-FOLK_LORE_FISHING	Meteortoise	The Dravanian Forelands	(x13,y13)		ANY	Dravanian
-FOLK_LORE_FISHING	Moggle Mogpom	The Churning Mists	(x8,y34), (x14,y35)		10AM-1PM	Dravanian
-FOLK_LORE_FISHING	Nyctosaur	The Churning Mists	(x20,y6)		ANY	Dravanian
-FOLK_LORE_FISHING	Problematicus	The Dravanian Forelands	(x7,y5)		4AM-2PM	Dravanian
-FOLK_LORE_FISHING	Raimdellopterus	The Churning Mists	(x20,y6)		4AM-8AM	Dravanian
-FOLK_LORE_FISHING	Riddle	The Dravanian Forelands	(x19,y10)		8AM-3PM	Dravanian
-FOLK_LORE_FISHING	Scaleripper	The Dravanian Forelands	(x31,y10)		ANY	Dravanian
-FOLK_LORE_FISHING	Sunsail	The Churning Mists	(x29,y25)		3PM-5PM	Dravanian
-FOLK_LORE_FISHING	The Dreamweaver	The Dravanian Forelands	(x26,y26)		10PM-2AM	Dravanian
-FOLK_LORE_FISHING	The Lord of Lords	The Dravanian Forelands	(x7,y5)		8AM-4PM	Dravanian
-FOLK_LORE_FISHING	The Soul of the Martyr	The Churning Mists	(x29,y25)		4AM-6AM	Dravanian
-FOLK_LORE_FISHING	The Speaker	The Dravanian Hinterlands	(x22,y35)		ANY	Dravanian
-FOLK_LORE_FISHING	Thousand Fin	The Churning Mists	(x9,y8)		ANY	Dravanian
-FOLK_LORE_FISHING	Thunderscale	The Dravanian Forelands	(x31,y5)		6AM-8AM	Dravanian
-FOLK_LORE_FISHING	Twin-tongued Carp	The Dravanian Forelands	(x30,y14)		12PM-4PM	Dravanian
-FOLK_LORE_FISHING	Vidofnir	The Churning Mists	(x36,y30)		8AM-10AM	Dravanian
-FOLK_LORE_FISHING	Aetherochemical Compound #666	Azys Lla	(x30,y6)		ANY	Abalathian
-FOLK_LORE_FISHING	Allagan Bladeshark	Azys Lla	(x21,y21)		ANY	Abalathian
-FOLK_LORE_FISHING	Aphotic Pirarucu	Azys Lla	(x10,y31)		10PM-2AM	Abalathian
-FOLK_LORE_FISHING	Barreleye	Azys Lla	(x21,y21)	393 Min. Collectability	ANY	Abalathian
-FOLK_LORE_FISHING	Basking Shark	The Sea of Clouds	(x15,y7)		ANY	Abalathian
-FOLK_LORE_FISHING	Ceti	Azys Lla	(x6,y16)		6PM-10PM	Abalathian
-FOLK_LORE_FISHING	Cirrostratus	The Sea of Clouds	(x14,y38)		ANY	Abalathian
-FOLK_LORE_FISHING	Crystal Pigeon	Azys Lla	(x40,y18)		ANY	Abalathian
-FOLK_LORE_FISHING	Fleece Stingray	The Sea of Clouds	(x14,y38)		ANY	Abalathian
-FOLK_LORE_FISHING	Functional Proto-hropken	Azys Lla	(x21,y21)		ANY	Abalathian
-FOLK_LORE_FISHING	Heavens Coral	The Sea of Clouds	(x15,y7)		ANY	Abalathian
-FOLK_LORE_FISHING	Hundred-eyed Axolotl	Azys Lla	(x6,y35)		6AM-10AM	Abalathian
-FOLK_LORE_FISHING	Inkfish	The Sea of Clouds	(x29,y35)		2PM-4PM	Abalathian
-FOLK_LORE_FISHING	Oliphant's Trunk	Azys Lla	(x6,y16)		6PM-12AM	Abalathian
-FOLK_LORE_FISHING	Opabinia	Azys Lla	(x21,y21)		ANY	Abalathian
-FOLK_LORE_FISHING	Paikiller	The Sea of Clouds	(x30,y39)		8AM-12PM	Abalathian
-FOLK_LORE_FISHING	Sea Butterfly	The Sea of Clouds	(x15,y7)		5AM-7AM	Abalathian
-FOLK_LORE_FISHING	Stupendemys	Azys Lla	(x40,y18)	650 Min. Collectability	ANY	Abalathian
-FOLK_LORE_FISHING	The Second One	The Sea of Clouds	(x7,y11)		ANY	Abalathian
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Limsa Lominsa Upper Decks	1	Ocean fishing	Limsa Lominsa Upper Decks (X:10, Y:11)	Merlthor Goby, Malm Kelp, Ocean Cloud, Coral Butterfly, Goldenfin, Lominsan Anchovy, Finger Shrimp, Harbor Herring, Blue Octopus	Lugworm, Pill Bug, Goby Ball, Rat Tail, Floating Minnow, Steel Jig, Versatile Lure, Heavy Steel Jig, Spoon Worm
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Limsa Lominsa Lower Decks	1	Ocean fishing	Limsa Lominsa Lower Decks (X:7, Y:12)	Merlthor Goby, Malm Kelp, Ocean Cloud, Coral Butterfly, Octomammoth, Lominsan Anchovy, Finger Shrimp, Harbor Herring, Blue Octopus	Lugworm, Pill Bug, Goby Ball, Rat Tail, Floating Minnow, Steel Jig, Versatile Lure, Heavy Steel Jig, Spoon Worm
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: West Agelyss River	1	Freshwater fishing	Middle La Noscea (X:20, Y:18)	Princess Trout, Crayfish, Chub, Dwarf Catfish, Gudgeon, La Noscean Perch, Great Gudgeon	Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Zephyr Drift	1	Ocean fishing	Middle La Noscea (X:18, Y:22)	Angelfish, Merlthor Goby, Coral Butterfly, Lominsan Anchovy, Finger Shrimp, Ocean Cloud, Sea Cucumber, Harbor Herring, Blue Octopus, Zalera	Spoon Worm, Floating Minnow, Lugworm, Heavy Steel Jig, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Rogue River	1	Freshwater fishing	Middle La Noscea (X:22, Y:22)	Princess Trout, Crayfish, Chub, Dwarf Catfish, La Noscean Perch, Beguiler Chub	Floating Minnow, Moth Pupa, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Nym River	5	Freshwater fishing	Middle La Noscea (X:18, Y:14)	Princess Trout, Chub, Dwarf Catfish, Dusk Goby, Gudgeon, Maiden Carp, La Noscean Perch, High Perch	Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Honey Worm, Sinking Minnow, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Summerford	5	Ocean fishing	Middle La Noscea (X:14, Y:15)	Merlthor Goby, Silver Shark, Finger Shrimp, Ocean Cloud, Harbor Herring, Vongola Clam, Blue Octopus, Ogre Barracuda, White Coral, Gigantshark	Spoon Worm, Floating Minnow, Lugworm, Glowworm, Heavy Steel Jig, Sinking Minnow, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Woad Whisper Canyon	15	Freshwater fishing	Middle La Noscea (X:20, Y:12)	Dwarf Catfish, Dusk Goby, River Crab, La Noscean Perch, Eunuch Crayfish, Copperfish, Glass Perch, Crystal Perch	Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: The Mourning Widow	1	Freshwater fishing	Lower La Noscea (X:24, Y:23)	Princess Trout, Crayfish, Chub, Dwarf Catfish, Dusk Goby, Gudgeon, Maiden Carp, Caterwauler	Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Moraby Bay	5	Ocean fishing	Lower La Noscea (X:26, Y:26)	Merlthor Goby, Malm Kelp, Ocean Cloud, Sea Cucumber, Vongola Clam, Moraby Flounder, Pebble Crab, Blue Octopus, Oschon's Print	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Candlekeep Quay	10	Ocean fishing	Lower La Noscea (X:20, Y:39)	Tiger Cod, Lominsan Anchovy, Vongola Clam, Moraby Flounder, Pebble Crab, Rothlyt Oyster, Shall Shell, Sabertooth Cod	Spoon Worm, Floating Minnow, Lugworm, Northern Krill, Yumizuno, Steel Jig, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Cedarwood	10	Ocean fishing	Lower La Noscea (X:35, Y:17)	Merlthor Goby, Tiger Cod, Ocean Cloud, Harbor Herring, Moraby Flounder, Pebble Crab, Blue Octopus, Leafy Seadragon, Syldra	Spoon Worm, Floating Minnow, Lugworm, Northern Krill, Yumizuno, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Oschon's Torch	10	Ocean fishing	Lower La Noscea (X:24, Y:39)	Tiger Cod, Sea Cucumber, Vongola Clam, Moraby Flounder, Pebble Crab, Rothlyt Oyster, Silver Sovereign, Mahi-mahi	Spoon Worm, Northern Krill, Yumizuno, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Empty Heart	15	Freshwater fishing	Lower La Noscea (X:21, Y:35)	Dusk Goby, Acorn Snail, Crimson Crayfish, Faerie Bass, Moat Carp, Eunuch Crayfish, Copperfish, Grip Killifish, Faerie Queen	Midge Basket, Streamer, Spinnerbait, Spinner, Sinking Minnow, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Moraby Drydocks	15	Ocean fishing	Lower La Noscea (X:26, Y:34)	Merlthor Goby, Tiger Cod, Ocean Cloud, Harbor Herring, Moraby Flounder, Pebble Crab, Rothlyt Oyster, Navigator's Dagger, Blue Octopus, Jacques the Snipper	Spoon Worm, Floating Minnow, Yumizuno, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Blind Iron Mines	20	Freshwater fishing	Lower La Noscea (X:27, Y:15)	Bone Crayfish, Blindfish, Acorn Snail, Lamp Marimo, Cupfish	Moth Pupa, Glowworm, Spinnerbait, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: The Salt Strand	20	Ocean fishing	Lower La Noscea (X:17, Y:36)	Blowfish, Sea Bo, Sea Cucumber, Pebble Crab, Helmet Crab, Razor Clam, Black Sole, Tiny Tortoise, Meteor Survivor	Spoon Worm, Floating Minnow, Northern Krill, Yumizuno, Steel Jig, Shrimp Cage Feeder, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: South Bloodshore	25	Ocean fishing	Eastern La Noscea (X:32, Y:34)	Bianaq Bream, Fullmoon Sardine, Merlthor Goby, Sea Bo, Coral Butterfly, Silver Shark, Blue Octopus, Blue Coral, Gigant Clam, The Greatest Bream in the World	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Heavy Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Costa del Sol	30	Ocean fishing	Eastern La Noscea (X:32, Y:29)	Bianaq Bream, Ash Tuna, Angelfish, Blowfish, Indigo Herring, Fullmoon Sardine, Merlthor Goby, Lavender Remora, Silver Shark, Little Thalaos, Shark Tuna	Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure
+Fishing Log: Hidden Falls	35	Freshwater fishing	Eastern La Noscea (X:30, Y:23)	Crimson Crayfish, Dark Sleeper, Mitten Crab, Spotted Puffer, Discus, Kobold Puffer, The Salter	Floating Minnow, Midge Basket, Stem Borer, Glowworm, Streamer, Spinnerbait, Snurble Fly, Herring Ball, Honey Worm, Sinking Minnow, Syrphid Basket, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: North Bloodshore	35	Ocean fishing	Eastern La Noscea (X:32, Y:24)	Ash Tuna, Harbor Herring, Ogre Barracuda, Black Sole, Sea Pickle, Whitelip Oyster, Balloonfish, Red Coral, Mazlaya Marlin, Bombardfish	Spoon Worm, Floating Minnow, Glowworm, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: East Agelyss River	40	Freshwater fishing	Eastern La Noscea (X:20, Y:25)	Copperfish, Lamprey, Mitten Crab, Discus, Loyal Pleco, Archerfish, Agelyss Carp, Monke Onke, The Drowned Sniper	Floating Minnow, Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Streamer, Spinnerbait, Snurble Fly, Honey Worm, Butterworm, Versatile Lure
+Fishing Log: Raincatcher Gully	40	Freshwater fishing	Eastern La Noscea (X:20, Y:30)	Copperfish, Lamprey, Mitten Crab, Giant Bass, Discus, Loyal Pleco, Thunderbolt Sculpin, Archerfish, Agelyss Carp, The Terpsichorean	Floating Minnow, Midge Basket, Stem Borer, Mythril Spoon Lure, Glowworm, Streamer, Spinnerbait, Rainbow Spoon Lure, Snurble Fly, Spinner, Honey Worm, Syrphid Basket, Butterworm, Versatile Lure
+Fishing Log: The Juggernaut	40	Freshwater fishing	Eastern La Noscea (X:17, Y:32)	Mudcrab, Copperfish, Silverfish, Lamprey, Grip Killifish, Sludgeskipper, Vampire Lampern, Mirrorscale	Floating Minnow, Midge Basket, Stem Borer, Streamer, Spinnerbait, Snurble Fly, Spinner, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Versatile Lure
+Fishing Log: Red Mantis Falls	45	Freshwater fishing	Eastern La Noscea (X:15, Y:27)	Knifefish, Silverfish, Goldfish, Clown Loach, Mitten Crab, Discus, Agelyss Carp, Jungle Catfish, Timeworn Goatskin Map, Imperial Goldfish	Stem Borer, Glowworm, Streamer, Spinnerbait, Rainbow Spoon Lure, Snurble Fly, Spinner, Honey Worm, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Versatile Lure
+Fishing Log: North Isle of Endless Summer	50	Ocean fishing	Eastern La Noscea (X:36, Y:26)	Blowfish, Merlthor Goby, Wahoo, Leafy Seadragon, Little Thalaos, Shall Shell, Giant Squid, Megalodon, Castaway Chocobo Chick, Little Perykos	Spoon Worm, Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Heavy Steel Jig, Sinking Minnow, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Rhotano Sea (Privateer Forecastle)	50	Ocean fishing	Eastern La Noscea (X:39, Y:24)	Ash Tuna, Blowfish, Finger Shrimp, Harbor Herring, Ogre Barracuda, Balloonfish, Red Coral, Mazlaya Marlin, Gigant Octopus, The Old Man in the Sea	Spoon Worm, Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Rhotano Sea (Privateer Sterncastle)	50	Ocean fishing	Eastern La Noscea (X:38, Y:24)	Blowfish, Merlthor Goby, Wahoo, Leafy Seadragon, Rock Lobster, Little Thalaos, Shall Shell, Giant Squid, Megalodon, Nepto Dragon	Spoon Worm, Floating Minnow, Lugworm, Northern Krill, Yumizuno, Herring Ball, Sinking Minnow, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Swiftperch	10	Ocean fishing	Western La Noscea (X:34, Y:32)	Tiger Cod, Lominsan Anchovy, Harbor Herring, Moraby Flounder, Pebble Crab, Rothlyt Oyster, Blue Octopus, White Coral, Halibut, Armorer (Seafood)	Spoon Worm, Floating Minnow, Lugworm, Northern Krill, Yumizuno, Heavy Steel Jig, Sinking Minnow, Steel Jig, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: The Brewer's Beacon	15	Ocean fishing	Western La Noscea (X:30, Y:30.8)	Harbor Herring, Helmet Crab, Rothlyt Oyster, Navigator's Dagger, Ogre Barracuda, White Coral, Gigant Octopus, Navigator's Brand	Spoon Worm, Floating Minnow, Yumizuno, Heavy Steel Jig, Sinking Minnow, Steel Jig, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Saltwater Boilie, Versatile Lure
+Fishing Log: Skull Valley	15	Ocean fishing	Western La Noscea (X:25, Y:27)	Merlthor Goby, Tiger Cod, Rothlyt Oyster, Blue Octopus, Razor Clam, Wahoo, Goosefish, Junkmonger (Seafood)	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Heavy Steel Jig, Steel Jig, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Halfstone	35	Ocean fishing	Western La Noscea (X:17, Y:20)	Lavender Remora, Saber Sardine, Sea Pickle, Hammerhead Shark, Whitelip Oyster, Balloonfish, Blue Coral, The Lone Ripper	Spoon Worm, Floating Minnow, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Crab Ball, Versatile Lure
+Fishing Log: Isles of Umbra Northshore	40	Ocean fishing	Western La Noscea (X:15, Y:29)	Fullmoon Sardine, Merlthor Goby, Lavender Remora, Silver Shark, Ocean Cloud, Wahoo, Red Coral, Pike Eel, Sunfish, Timeworn Leather Map, Helmsman's Hand	Spoon Worm, Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Sapsa Spawning Grounds	45	Ocean fishing	Western La Noscea (X:17, Y:15)	Fullmoon Sardine, Sea Devil, Nautilus, Whitelip Oyster, Red Coral, Blacklip Oyster, Timeworn Goatskin Map, The Captain's Chalice	Spoon Worm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Versatile Lure
+Fishing Log: The Ship Graveyard	45	Ocean fishing	Western La Noscea (X:15, Y:35)	Merlthor Goby, Wahoo, Red Coral, Blacklip Oyster, Pike Eel, Mummer Wrasse, Plaice, Giant Squid, Megalodon, Timeworn Goatskin Map, Frilled Shark	Spoon Worm, Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Isles of Umbra Southshore	50	Ocean fishing	Western La Noscea (X:12, Y:36)	Fullmoon Sardine, Sea Devil, Nautilus, Red Coral, Blacklip Oyster, Mummer Wrasse, Plaice, Coelacanth, Timeworn Goatskin Map, Timeworn Peisteskin Map, Endoceras, Coelacanthus	Spoon Worm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Versatile Lure
+Fishing Log: Reaver Hide	50	Ocean fishing	Western La Noscea (X:14, Y:12)	Merlthor Goby, Lominsan Anchovy, Wahoo, Red Coral, Blacklip Oyster, Rock Lobster, Dinichthys, Timeworn Boarskin Map, Timeworn Peisteskin Map, Seahag	Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Herring Ball, Sinking Minnow, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Oakwood	20	Freshwater fishing	Upper La Noscea (X:13, Y:24)	River Crab, Faerie Bass, Jade Eel, Pond Mussel, Warmwater Trout, Four-eyed Fish, Dark Bass, Common Sculpin, Coeurlfish, Toramafish	Floating Minnow, Midge Basket, Stem Borer, Glowworm, Streamer, Spinnerbait, Spinner, Honey Worm, Brass Spoon Lure, Butterworm, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Fool Falls	20	Freshwater fishing	Upper La Noscea (X:9, Y:20)	Crimson Crayfish, River Crab, Jade Eel, Copperfish, Bluebell Salmon, Warmwater Trout, Four-eyed Fish, Dark Bass, Fall Jumper, Joan of Trout	Floating Minnow, Midge Basket, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Bronze Lake Shallows	30	Freshwater fishing	Upper La Noscea (X:33, Y:24)	Crimson Crayfish, River Crab, Faerie Bass, Jade Eel, Pond Mussel, Worm of Nym	Mythril Spoon Lure, Snurble Fly, Wildfowl Fly, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Bass Ball, Butterworm, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Northeast Bronze Lake	35	Freshwater fishing	Upper La Noscea (X:27, Y:22)	Jade Eel, Pond Mussel, Four-eyed Fish, Silverfish, Bonytongue, Mitten Crab, Giant Bass, Bronze Lake Trout, Giant Catfish, King of the Spring	Floating Minnow, Mythril Spoon Lure, Streamer, Spinnerbait, Rainbow Spoon Lure, Honey Worm, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Bass Ball, Butterworm, Crow Fly, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Northwest Bronze Lake	35	Freshwater fishing	Outer La Noscea (X:19, Y:18)	Jade Eel, Pond Mussel, Four-eyed Fish, Silverfish, Bonytongue, Mitten Crab, Giant Bass, Bronze Lake Trout, Giant Catfish, King of the Spring	Floating Minnow, Mythril Spoon Lure, Streamer, Spinnerbait, Honey Worm, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Bass Ball, Butterworm, Crow Fly, Versatile Lure
+Fishing Log: The Long Climb	40	Freshwater fishing	Outer La Noscea (X:15, Y:11)	Warmwater Trout, Giant Bass, Bronze Lake Trout, Ignus Snail, Thunderbolt Sculpin, Giant Donko, Timeworn Leather Map, Thundergut	Topwater Frog, Stem Borer, Mythril Spoon Lure, Caddisfly Larva, Spinnerbait, Spinner, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Mist	30	Ocean fishing	Mist (X:11, Y:10)	Harbor Herring, Blue Octopus, Blowfish, Bianaq Bream, Indigo Herring, Ash Tuna, Fullmoon Sardine, Nautilus, Twitchbeard	Floating Minnow, Pill Bug, Spoon Worm, Shrimp Cage Feeder, Steel Jig, Yumizuno, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Jadeite Flood	5	Freshwater fishing	New Gridania (X:12, Y:13)	Crayfish, Pipira, Gudgeon, Maiden Carp, Moat Carp, Raincaller, Stormdancer	Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Lower Black Tea Brook	5	Freshwater fishing	New Gridania (X:10, Y:11)	Crayfish, Pipira, Gudgeon, Maiden Carp, Moat Carp, Bloody Brewer	Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Upper Black Tea Brook	5	Freshwater fishing	Old Gridania (X:11, Y:8)	Crayfish, Pipira, Gudgeon, Maiden Carp, Moat Carp, Carp Diem	Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Whispering Gorge	5	Freshwater fishing	Old Gridania (X:15, Y:6)	Crayfish, Pipira, Gudgeon, Maiden Carp, Moat Carp, Raincaller, Matron Carp	Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: The Vein	5	Freshwater fishing	Central Shroud (X:22, Y:21)	Crayfish, Striped Goby, Pipira, Gudgeon, Brass Loach, Maiden Carp, Eunuch Crayfish, Chirurgeon	Moth Pupa, Mythril Spoon Lure, Honey Worm, Sinking Minnow, Chocobo Fly, Crow Fly, Crayfish Ball, Versatile Lure
+Fishing Log: The Mirror	15	Freshwater fishing	Central Shroud (X:26, Y:28)	Bone Crayfish, Pipira, Gudgeon, Brass Loach, Maiden Carp, Moat Carp, Ghost Carp, Tricolored Carp	Moth Pupa, Midge Basket, Streamer, Rainbow Spoon Lure, Spinner, Syrphid Basket, Chocobo Fly, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Everschade	30	Freshwater fishing	Central Shroud (X:15, Y:24)	Ala Mhigan Fighting Fish, Black Eel, Spotted Pleco, Bonytongue, Mitten Crab, Levinlight, Monke Onke	Floating Minnow, Midge Basket, Streamer, Spinnerbait, Wildfowl Fly, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Chocobo Fly, Bass Ball, Brass Spoon Lure, Butterworm, Crow Fly, Versatile Lure
+Fishing Log: Haukke Manor	35	Freshwater fishing	Central Shroud (X:10, Y:22)	Mudskipper, Ala Mhigan Fighting Fish, Mudcrab, Silverfish, Monke Onke, Bloodbath (Seafood)	Floating Minnow, Streamer, Honey Worm, Bloodworm, Versatile Lure
+Fishing Log: Hopeseed Pond	35	Freshwater fishing	Central Shroud (X:13, Y:21)	Black Ghost, Mudskipper, Seema, Ala Mhigan Fighting Fish, Mudcrab, Black Eel, Clown Loach, The Green Jester	Floating Minnow, Midge Basket, Streamer, Honey Worm, Bass Ball, Crow Fly, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Sweetbloom Pier	15	Freshwater fishing	East Shroud (X:10, Y:22)	Striped Goby, Bone Crayfish, Pipira, Maiden Carp, River Crab, Dark Sleeper, Eunuch Crayfish, Dark Ambusher	Midge Basket, Caddisfly Larva, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Freshwater Boilie, Versatile Lure
+Fishing Log: Springripple Brook	15	Freshwater fishing	East Shroud (X:24, Y:25)	Brass Loach, Maiden Carp, Rainbow Trout, River Crab, Ala Mhigan Fighting Fish, Eunuch Crayfish, Bluebell Salmon, Moldva	Floating Minnow, Midge Basket, Caddisfly Larva, Chocobo Fly, Bass Ball, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Sanctum of the Twelve	20	Freshwater fishing	East Shroud (X:17, Y:16)	Bone Crayfish, Acorn Snail, River Crab, Moat Carp, Pond Mussel, Dark Bass, The Assassin, Tricolored Carp	Floating Minnow, Midge Basket, Mythril Spoon Lure, Silver Spoon Lure, Bass Ball, Brass Spoon Lure, Butterworm, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Verdant Drop	25	Freshwater fishing	East Shroud (X:20, Y:21)	Rainbow Trout, River Crab, Black Eel, Copperfish, Climbing Perch, Yugr'am Salmon, Spotted Pleco, Fall Jumper, Sylphsbane	Floating Minnow, Midge Basket, Mythril Spoon Lure, Streamer, Silver Spoon Lure, Chocobo Fly, Bass Ball, Brass Spoon Lure, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Sylphlands	45	Freshwater fishing	East Shroud (X:26, Y:20)	Common Sculpin, Giant Bass, Velodyna Carp, Oakroot, Southern Pike, Mushroom Crab, Timeworn Goatskin Map, Magicked Mushroom	Topwater Frog, Mythril Spoon Lure, Glowworm, Rainbow Spoon Lure, Sinking Minnow, Silver Spoon Lure, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Upper Hathoeva River	20	Freshwater fishing	South Shroud (X:18, Y:19)	Rainbow Trout, River Crab, Ala Mhigan Fighting Fish, Black Eel, Faerie Bass, Dark Sleeper, Eunuch Crayfish, Velodyna Carp, Vip Viper	Floating Minnow, Mythril Spoon Lure, Wildfowl Fly, Honey Worm, Sinking Minnow, Bass Ball, Brass Spoon Lure, Butterworm, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: East Hathoeva River	25	Freshwater fishing	South Shroud (X:24, Y:22)	Rainbow Trout, Mudcrab, Black Eel, Faerie Bass, Dark Sleeper, Eunuch Crayfish, Copperfish, Velodyna Carp, The Grinner	Floating Minnow, Midge Basket, Wildfowl Fly, Honey Worm, Sinking Minnow, Syrphid Basket, Bass Ball, Butterworm, Bloodworm, Versatile Lure
+Fishing Log: Lower Hathoeva River	25	Freshwater fishing	South Shroud (X:18, Y:24)	Rainbow Trout, Ala Mhigan Fighting Fish, Mudcrab, Black Eel, Faerie Bass, Eunuch Crayfish, Climbing Perch, Yugr'am Salmon, Velodyna Carp, Floating Boulder	Floating Minnow, Midge Basket, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Chocobo Fly, Bass Ball, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Goblinblood	30	Freshwater fishing	South Shroud (X:27, Y:21)	Black Ghost, Ala Mhigan Fighting Fish, Mudcrab, Dark Bass, Five-ilm Pleco, Silverfish, Yugr'am Salmon, Bonytongue, Goblin Perch, The Gobfather	Floating Minnow, Midge Basket, Rainbow Spoon Lure, Honey Worm, Sinking Minnow, Silver Spoon Lure, Chocobo Fly, Bass Ball, Brass Spoon Lure, Crow Fly, Versatile Lure
+Fishing Log: Middle Hathoeva River	30	Freshwater fishing	South Shroud (X:19, Y:22)	Rainbow Trout, Seema, Dark Sleeper, Five-ilm Pleco, Yugr'am Salmon, Mitten Crab, Armored Pleco, Velodyna Carp, The Sinker	Mythril Spoon Lure, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Chocobo Fly, Bass Ball, Crow Fly, Bloodworm, Versatile Lure
+Fishing Log: Rootslake	35	Freshwater fishing	South Shroud (X:18, Y:29)	Bone Crayfish, Climbing Perch, Root Skipper, Mitten Crab, Armored Pleco, Judgment Staff, Son of Levin	Floating Minnow, Midge Basket, Mythril Spoon Lure, Caddisfly Larva, Spinnerbait, Silver Spoon Lure, Syrphid Basket, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Freshwater Boilie, Versatile Lure
+Fishing Log: Urth's Gift	45	Freshwater fishing	South Shroud (X:32, Y:23)	Ala Mhigan Fighting Fish, Bonytongue, Mitten Crab, Velodyna Carp, Southern Pike, Boxing Pleco, Takitaro, Timeworn Goatskin Map, Namitaro, Giant Takitaro, Monke Onke	Topwater Frog, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Streamer, Spinner, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Crow Fly, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Fallgourd Float	15	Freshwater fishing	North Shroud (X:21, Y:24)	Striped Goby, Brass Loach, Maiden Carp, Rainbow Trout, Ala Mhigan Fighting Fish, Faerie Bass, Dark Sleeper, Shadow Catfish, Judgeray	Moth Pupa, Midge Basket, Mythril Spoon Lure, Caddisfly Larva, Wildfowl Fly, Sinking Minnow, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Murmur Rills	15	Freshwater fishing	North Shroud (X:26, Y:25)	Brass Loach, Maiden Carp, Rainbow Trout, River Crab, Bluebell Salmon, Blue Widow, Tricolored Carp	Floating Minnow, Midge Basket, Caddisfly Larva, Streamer, Wildfowl Fly, Chocobo Fly, Bass Ball, Brass Spoon Lure, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Freshwater Boilie, Versatile Lure
+Fishing Log: Proud Creek	40	Freshwater fishing	North Shroud (X:20, Y:20)	Seema, Pond Mussel, Mitten Crab, Golden Loach, Loyal Pleco, Oakroot, Southern Pike, Pirarucu, Timeworn Leather Map, Shadowstreak	Topwater Frog, Stem Borer, Mythril Spoon Lure, Caddisfly Larva, Streamer, Spinnerbait, Rainbow Spoon Lure, Crow Fly, Freshwater Boilie, Versatile Lure
+Fishing Log: Lake Tahtotl	50	Freshwater fishing	North Shroud (X:18, Y:19)	Mudcrab, Pond Mussel, Silverfish, Assassin Betta, Goldfish, Bonytongue, Boxing Pleco, Bowfin, Timeworn Peisteskin Map, Cornelia	Floating Minnow, Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Streamer, Rainbow Spoon Lure, Wildfowl Fly, Honey Worm, Silver Spoon Lure, Chocobo Fly, Brass Spoon Lure, Crow Fly, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Lavender Beds	30	Freshwater fishing	The Lavender Beds (X:, Y:)	Pipira, Dark Sleeper, Ala Mhigan Fighting Fish, Tricolored Carp, Shadow Catfish, Spotted Pleco, Bonytongue, Monke Onke, Sweetnewt	Floating Minnow, Crow Fly, Crayfish Ball, Bloodworm, Butterworm, Midge Basket, Bass Ball, Silver Spoon Lure, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Nophica's Wells	5	Freshwater fishing	Western Thanalan (X:24, Y:21)	Bone Crayfish, Dusk Goby, Gudgeon, Brass Loach, Maiden Carp, Eunuch Crayfish, Copperfish, Glimmerscale	Moth Pupa, Midge Basket, Caddisfly Larva, Streamer, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: The Footfalls	10	Freshwater fishing	Western Thanalan (X:17, Y:15)	Crayfish, Acorn Snail, Mudskipper, Mudcrab, Faerie Bass, Eunuch Crayfish, Copperfish, Mud Golem	Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Rainbow Spoon Lure, Wildfowl Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Vesper Bay	15	Ocean fishing	Western Thanalan (X:11, Y:12)	Tiger Cod, Lominsan Anchovy, Harbor Herring, Pebble Crab, Rothlyt Oyster, Blue Octopus, Rivet Oyster	Floating Minnow, Lugworm, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Crescent Cove	20	Ocean fishing	Western Thanalan (X:14, Y:18)	Blowfish, Lominsan Anchovy, Razor Clam, Saber Sardine, Monkfish, Spotted Puffer, Rock Lobster, Fingers	Spoon Worm, Floating Minnow, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Wildfowl Fly, Herring Ball, Honey Worm, Sinking Minnow, Shrimp Cage Feeder, Crab Ball, Rat Tail, Versatile Lure
+Fishing Log: The Silver Bazaar	25	Ocean fishing	Western Thanalan (X:15, Y:29)	Indigo Herring, Tiger Cod, Lominsan Anchovy, Pebble Crab, Rothlyt Oyster, Hammerhead Shark, Haraldr Haddock, Rock Lobster, Dirty Herry	Spoon Worm, Lugworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Cape Westwind	45	Ocean fishing	Western Thanalan (X:9, Y:6)	Merlthor Goby, Silver Shark, Sea Devil, Wahoo, Haraldr Haddock, Whitelip Oyster, Blacklip Oyster, Plaice, Timeworn Goatskin Map, Titanic Sawfish, Pirate's Bane	Spoon Worm, Floating Minnow, Lugworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+Fishing Log: Moondrip	45	Freshwater fishing	Western Thanalan (X:17, Y:6)	Blindfish, Silverfish, Assassin Betta, Grip Killifish, Garpike, Timeworn Goatskin Map, Ndendecki	Topwater Frog, Stem Borer, Honey Worm, Silver Spoon Lure, Chocobo Fly, Versatile Lure
+Fishing Log: Parata's Peace	50	Freshwater fishing	Western Thanalan (X:15, Y:6)	Silverfish, Grip Killifish, Ignus Snail, Sludgeskipper, Boltfish, Ilsabardian Bass, Vampire Lampern, Timeworn Peisteskin Map, Bat-o'-Nine-Tails	Topwater Frog, Stem Borer, Mythril Spoon Lure, Caddisfly Larva, Spinnerbait, Spinner, Honey Worm, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Upper Soot Creek	5	Freshwater fishing	Central Thanalan (X:23, Y:18)	Bone Crayfish, Dusk Goby, Brass Loach, Maiden Carp, Dark Bass, Dream Goby	Moth Pupa, Midge Basket, Caddisfly Larva, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Lower Soot Creek	10	Freshwater fishing	Central Thanalan (X:16, Y:23)	Bone Crayfish, Dusk Goby, Brass Loach, Maiden Carp, Dark Bass, Aegis Shrimp, Slime King	Moth Pupa, Caddisfly Larva, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: The Clutch	10	Freshwater fishing	Central Thanalan (X:29, Y:21)	Bone Crayfish, Dusk Goby, Brass Loach, Maiden Carp, Dark Bass, Old Softie	Moth Pupa, Midge Basket, Caddisfly Larva, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: The Unholy Heir	15	Freshwater fishing	Central Thanalan (X:27, Y:19)	Bone Crayfish, Acorn Snail, Maiden Carp, Mudskipper, Mudcrab, Dark Bass, Aegis Shrimp, Dark Knight (Seafood)	Floating Minnow, Moth Pupa, Midge Basket, Caddisfly Larva, Bass Ball, Brass Spoon Lure, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: North Drybone	15	Freshwater fishing	Eastern Thanalan (X:13, Y:20)	Dusk Goby, Acorn Snail, Mudskipper, Mudcrab, Faerie Bass, Bone Cleaner, Marrow Sucker	Midge Basket, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Sinking Minnow, Silver Spoon Lure, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: South Drybone	15	Freshwater fishing	Eastern Thanalan (X:17, Y:24)	Dusk Goby, Acorn Snail, Mudskipper, Mudcrab, Faerie Bass, Bone Cleaner, Mud Pilgrim	Floating Minnow, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Rainbow Spoon Lure, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Yugr'am River	30	Freshwater fishing	Eastern Thanalan (X:25, Y:22)	Black Eel, Warmwater Trout, Dark Bass, Yugr'am Salmon, Mitten Crab, Trader Eel, The Warden's Wand	Floating Minnow, Stem Borer, Spinnerbait, Rainbow Spoon Lure, Honey Worm, Syrphid Basket, Bass Ball, Brass Spoon Lure, Butterworm, Versatile Lure
+Fishing Log: The Burning Wall	50	Freshwater fishing	Eastern Thanalan (X:29, Y:24)	Knifefish, Yugr'am Salmon, Bonytongue, Discus, Ignus Snail, Loyal Pleco, Southern Pike, Sundisc, Gigantpole (Minion), Timeworn Leather Map, The Thousand-year Itch	Topwater Frog, Stem Borer, Mythril Spoon Lure, Caddisfly Larva, Rainbow Spoon Lure, Snurble Fly, Spinner, Honey Worm, Silver Spoon Lure, Chocobo Fly, Bass Ball, Brass Spoon Lure, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Burnt Lizard Creek	25	Freshwater fishing	Southern Thanalan (X:21, Y:15)	Copperfish, Warmwater Trout, Dark Bass, Lamprey, Plaguefish, Old Hollow Eyes	Floating Minnow, Midge Basket, Spinnerbait, Silver Spoon Lure, Syrphid Basket, Bass Ball, Crow Fly, Versatile Lure
+Fishing Log: Forgotten Springs	35	Freshwater fishing	Southern Thanalan (X:15, Y:31)	Copperfish, Warmwater Trout, Lamprey, Plaguefish, Ropefish, Clown Loach, Golden Loach, Iron Noose	Floating Minnow, Midge Basket, Streamer, Spinner, Honey Worm, Silver Spoon Lure, Syrphid Basket, Bass Ball, Butterworm, Versatile Lure
+Fishing Log: Sagolii Desert	35	Dunefishing	Southern Thanalan (X:12, Y:35)	Sandfish, Storm Rider, Sand Bream, Dustfish, Antlion Slug, Dune Manta, Sagolii Monkfish, Helicoprion, Magic Carpet	Rolling Stone, Sand Gecko, Sand Leech, Versatile Lure
+Fishing Log: Sagolii Dunes	35	Dunefishing	Southern Thanalan (X:27, Y:38)	Storm Rider, Sand Bream, Desert Catfish, Dustfish, Dune Manta, Caravan Eel, Olgoi-Khorkhoi	Rolling Stone, Sand Gecko, Sand Leech, Versatile Lure
+Fishing Log: Zahar'ak	35	Freshwater fishing	Southern Thanalan (X:25, Y:20)	Mudcrab, Moat Carp, Plaguefish, Clown Loach, Discus, Ignus Snail, Paglth'an Discus, Discobolus	Topwater Frog, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Streamer, Spinnerbait, Rainbow Spoon Lure, Wildfowl Fly, Honey Worm, Bass Ball, Crow Fly, Freshwater Boilie, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Bluefog	40	Freshwater fishing	Northern Thanalan (X:24, Y:25)	Bone Crayfish, Knifefish, Silverfish, Common Sculpin, Giant Bass, Golden Loach, Ignus Snail, Garpike, Alligator Garfish, Hannibal	Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Spinnerbait, Spinner, Silver Spoon Lure, Chocobo Fly, Versatile Lure
+Fishing Log: Ceruleum Field	45	Freshwater fishing	Northern Thanalan (X:16, Y:20)	Silverfish, Goldfish, Grip Killifish, Ignus Snail, Sludgeskipper, Boltfish, Ilsabardian Bass, Wootz Knifefish, Timeworn Goatskin Map, Wootz Knifefish Zenith	Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Streamer, Spinnerbait, Snurble Fly, Spinner, Honey Worm, Silver Spoon Lure, Syrphid Basket, Chocobo Fly, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: The Goblet	30	Freshwater fishing	The Goblet (X:, Y:)	Brass Loach, Dark Bass, Copperfish, Eunuch Crayfish, Faerie Bass, Lamprey, Silverfish, Goldfish, Spearnose	Crayfish Ball, Caddisfly Larva, Bloodworm, Midge Basket, Butterworm, Crow Fly, Floating Minnow, Brass Spoon Lure, Silver Spoon Lure, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: Coerthas River	35	Freshwater fishing	Coerthas Central Highlands (X:20, Y:30)	Striped Goby, Maiden Carp, Rainbow Trout, Seema, Kissing Trout, Giant Bass, Crimson Trout, Daniffen's Mark	Moth Pupa, Topwater Frog, Stem Borer, Caddisfly Larva, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Daniffen Pass	35	Freshwater fishing	Coerthas Central Highlands (X:13, Y:23)	Striped Goby, Blindfish, Lamp Marimo, Abalathian Smelt, Golden Loach, Cave Cherax, Charon's Lantern	Floating Minnow, Moth Pupa, Stem Borer, Mythril Spoon Lure, Glowworm, Spinner, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Syrphid Basket, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Dragonhead Latrines	40	Freshwater fishing	Coerthas Central Highlands (X:28, Y:17)	Striped Goby, Rainbow Trout, Seema, Abalathian Smelt, Kissing Trout, Crimson Trout, Timeworn Leather Map, Dawn Maiden	Floating Minnow, Moth Pupa, Midge Basket, Caddisfly Larva, Streamer, Wildfowl Fly, Honey Worm, Syrphid Basket, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+Fishing Log: Exploratory Ice Hole	40	Freshwater fishing	Coerthas Central Highlands (X:6, Y:22)	Lamp Marimo, Abalathian Smelt, Kissing Trout, Northern Pike, The Matriarch	Topwater Frog, Mythril Spoon Lure, Wildfowl Fly, Honey Worm, Sinking Minnow, Silver Spoon Lure, Chocobo Fly, Versatile Lure
+Fishing Log: The Nail	40	Freshwater fishing	Coerthas Central Highlands (X:16, Y:21)	Striped Goby, Abalathian Smelt, Kissing Trout, Giant Bass, Crimson Trout, Bronze Lake Trout, Northern Pike, Emperor Fish, Timeworn Leather Map, Starbright	Moth Pupa, Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Snurble Fly, Spinner, Wildfowl Fly, Honey Worm, Silver Spoon Lure, Syrphid Basket, Crow Fly, Versatile Lure
+Fishing Log: Sea of Clouds	45	Cloudfishing	Coerthas Central Highlands (X:13, Y:14)	Cloud Jellyfish, Skyfish, Cloud Cutter, Blind Manta, Rift Sailor, Timeworn Goatskin Map, Anomalocaris	Balloon Bug, Hoverworm, Versatile Lure
+Fishing Log: Snowcloak	45	Freshwater fishing	Coerthas Central Highlands (X:, Y:)	Rainbow Trout, Seema, Crimson Trout, Wandering Sculpin, Timeworn Goatskin Map, Blue Corpse	Topwater Frog, Caddisfly Larva, Spinner, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Bloodworm, Versatile Lure
+Fishing Log: The Weeping Saint	45	Freshwater fishing	Coerthas Central Highlands (X:31, Y:7)	Lamp Marimo, Abalathian Smelt, Common Sculpin, Angry Pike, Giant Bass, Crimson Trout, Northern Pike, Timeworn Goatskin Map, Darkstar	Stem Borer, Glowworm, Caddisfly Larva, Streamer, Spinnerbait, Rainbow Spoon Lure, Snurble Fly, Honey Worm, Silver Spoon Lure, Syrphid Basket, Freshwater Boilie, Stonefly Nymph, Versatile Lure
+Fishing Log: Witchdrop	50	Cloudfishing	Coerthas Central Highlands (X:33.2, Y:18)	Cloud Jellyfish, Skyfish, Cloud Cutter, Blind Manta, Rift Sailor, Saucerfish, Rhamphorhynchus, Timeworn Peisteskin Map, Shonisaurus, Mahar	Hoverworm, Versatile Lure
+Fishing Log	Level	Type	Coordinates	Fish	Bait Used
+
+Fishing Log: North Silvertear	45	Freshwater fishing	Mor Dhona (X:24, Y:12)	Lamp Marimo, Silverfish, Assassin Betta, Goldfish, Ignus Snail, Sludgeskipper, Ilsabardian Bass, Heliobatis, Timeworn Goatskin Map, Aetherlouse	Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Snurble Fly, Spinner, Silver Spoon Lure, Versatile Lure
+Fishing Log: Singing Shards	45	Freshwater fishing	Mor Dhona (X:28, Y:10)	Lamp Marimo, Mudcrab, Knifefish, Silverfish, Bonytongue, Giant Bass, Garpike, Ilsabardian Bass, Timeworn Goatskin Map, Blood Red Bonytongue	Mythril Spoon Lure, Glowworm, Caddisfly Larva, Spinnerbait, Honey Worm, Silver Spoon Lure, Versatile Lure
+Fishing Log: The Deep Tangle	45	Freshwater fishing	Mor Dhona (X:12, Y:11)	Ala Mhigan Fighting Fish, Knifefish, Dark Bass, Mitten Crab, Giant Bass, Ignus Snail, Boxing Pleco, Timeworn Goatskin Map, Ignus Horn, Monke Onke	Topwater Frog, Stem Borer, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Streamer, Spinnerbait, Spinner, Versatile Lure
+Fishing Log: Rathefrost	50	Freshwater fishing	Mor Dhona (X:18, Y:17)	Lamp Marimo, Knifefish, Silverfish, Assassin Betta, Goldfish, Giant Bass, Ilsabardian Bass, Poxpike, Timeworn Peisteskin Map, Void Bass	Stem Borer, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Spinner, Versatile Lure
+Fishing Log: The North Shards	50	Freshwater fishing	Mor Dhona (X:31, Y:6)	Lamp Marimo, Silverfish, Assassin Betta, Goldfish, Giant Bass, Ignus Snail, Ilsabardian Bass, Morinabaligi, Timeworn Peisteskin Map, Kuno the Killer, Canavan	Stem Borer, Mythril Spoon Lure, Glowworm, Spinnerbait, Spinner, Honey Worm, Syrphid Basket, Versatile Lure
+Fishing Log: The Tangle	50	Freshwater fishing	Mor Dhona (X:14, Y:13)	Bone Crayfish, Ala Mhigan Fighting Fish, Silverfish, Assassin Betta, Sludgeskipper, Boltfish, Ilsabardian Bass, Cadaver Carp, Timeworn Boarskin Map, Timeworn Peisteskin Map, Ninja Betta	Floating Minnow, Moth Pupa, Topwater Frog, Mythril Spoon Lure, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Spinner, Wildfowl Fly, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Brass Spoon Lure, Crow Fly, Crayfish Ball, Versatile Lure
+Gathering
+
+Botanist	Miner	Fisher
+
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Locations Big Fishing Fishing Collectables Folklore Fish
+				
+Fish	Zone	Fishing Hole	(X,Y)	Eorzea Time	Weather	Bait	Mooch	Gathering	Desynth Rewards
+
+Goldenfin	Limsa Lominsa Upper Decks	Limsa Lominsa Upper Decks	Any	9 AM to 2 PM	Any	Pill Bug		301+	Venture
+Octomammoth	Limsa Lominsa Lower Decks	Limsa Lominsa Lower Decks	Any	7 AM to 5 PM	Any	Pill Bug, Floating Minnow	Harbor Herring	301+	Sea Breeze Summer Pareo, Blue Summer Maro
+Zalera	Middle La Noscea	Zephyr Drift	(18,21)	9 AM to 2 PM	Any	Rat Tail		335+	Paralyzing Potion
+Beguiler Chub	Middle La Noscea	Rogue River	(22,22)	9 AM to 2 PM	Any	Moth Pupa		308+	
+Great Gudgeon	Middle La Noscea	West Agelyss River	(20,18)	Anytime	Any	Crayfish Ball		301+	
+Gigantshark	Middle La Noscea	Summerford	(14,15)	Anytime	Clear Skies Fair Skies	Floating Minnow	Harbor Herring	301+	Sea Breeze Summer Halter, South Seas Talisman
+High Perch	Middle La Noscea	Nym River	(17,14)	5 AM to 8 AM	Any	Sinking Minnow		301+	
+Crystal Perch	Middle La Noscea	Woad Whisper Canyon	(21,12)	Anytime	Clouds Fog Wind	Butterworm		301+	Zircon
+Caterwauler	Lower La Noscea	The Mourning Widow	(24,22)	Anytime	Clear Skies Fair Skies Rain	Moth Pupa		301+	
+Oschon's Print	Lower La Noscea	Moraby Bay	(26,25)	Anytime	Any	Goby Ball		301+	
+Syldra	Lower La Noscea	Cedarwood	(34,17)	Anytime	Rain	Spoon Worm		339+	
+Silver Sovereign	Lower La Noscea	Oschon's Torch	(24,39)	Anytime	Any	Yumizuno		301+	Venture
+Sabertooth Cod	Lower La Noscea	Candlekeep Quay	(20,39)	4 PM to 10 PM	Any	Goby Ball, Rat Tail		315+	Aetheryte Ring
+Jacques the Snipper	Lower La Noscea	Moraby Drydocks	(26,34)	9 PM to 3 AM	Any	Goby Ball, Rat Tail		301+	Aqueous Whetstone
+Faerie Queen	Lower La Noscea	Empty Heart	(21,34)	Anytime	Clouds Fog Wind	Spinnerbait		351+	
+Meteor Survivor	Lower La Noscea	The Salt Strand	(17,35)	3 AM to 5 AM	Clouds Fog Wind	Rat Tail		340+	
+Cupfish	Lower La Noscea	Blind Iron Mines	(26,15)	5 PM to 7 PM	Clear Skies	Syrphid Basket		340+	Minium
+The Greatest Bream in the World	Eastern La Noscea	South Bloodshore	(32,34)	8 PM to 10 PM	Clear Skies	Shrimp Cage Feeder		343+	Oschon Roselle Capeline
+Shark Tuna	Eastern La Noscea	Costa del Sol	(34,29)	7 PM to 9 PM	Clear Skies	Spoon Worm	Fullmoon Sardine	339+	Summer Sandals
+Bombardfish	Eastern La Noscea	North Bloodshore	(32,24)	9 AM to 2 PM	Clear Skies	Herring Ball		347+	
+The Old Man in the Sea	Eastern La Noscea	Rhotano Sea (Privateer Forecastle)	(39,24)	Anytime	From Rain to Clear Skies (a weather chain)	Pill Bug	Harbor Herring, then Ogre Barracuda	393+	
+Nepto Dragon	Eastern La Noscea	Rhotano Sea (Privateer Sterncastle)	(38,24)	Anytime	Rain Showers	Northern Krill	Little Thalaos Catch 3x to trigger Fisher's Intuition, then use Northern Krill again. Can also mooch Merlthor Goby.	403+	Savage Might Materia IV
+The Salter	Eastern La Noscea	Hidden Falls	(31,23)	5 PM to 8 PM	Clear Skies	Honey Worm		357+	
+The Drowned Sniper	Eastern La Noscea	East Agelyss River	(21,25)	Anytime	Clear Skies	Snurble Fly		349+	Brass Ring
+The Terpsichorean	Eastern La Noscea	Raincatcher Gully	(20,30)	Anytime	Fog	Honey Worm		359+	
+Mirrorscale	Eastern La Noscea	The Juggernaut	(16,31)	9 AM to 4 PM	Clear Skies Fair Skies	Midge Basket	Copperfish	357+	Silver Ring
+Imperial Goldfish	Eastern La Noscea	Red Mantis Falls	(15,27)	Anytime	Any	Honey Worm	Silverfish to Goldfish to Jungle Catfish Do 3x for Fisher's Intuition, then mooch Silverfish again.	372+	
+Armorer	Western La Noscea	Swiftperch	(33,30)	7 PM to 4 AM	Any	Northern Krill		308+	
+Junkmonger	Western La Noscea	Skull Valley	(27,29)	4 PM to 2 AM	Any	Pill Bug	Merlthor Goby, then Wahoo	311+	Militia Earrings
+Navigator's Brand	Western La Noscea	The Brewer's Beacon	(30,30)	8 AM to 3 PM	Any	Yumizuno		290+	
+The Lone Ripper	Western La Noscea	Halfstone	(16,22)	Anytime	Gales	Heavy Steel Jig		353+	Waterproof Cotton Cloth
+Helmsman's Hand	Western La Noscea	Isles of Umbra Northshore	(15,29)	9 AM to 2 PM	Clouds	Pill Bug	Ocean Cloud	360+	
+Frilled Shark	Western La Noscea	The Ship Graveyard	(15,35)	8 PM to 1 AM	Gales Wind	Floating Minnow	Fullmoon Sardine	373+	Coronal Summer Halter, Ti Leaf Lei
+The Captain's Chalice	Western La Noscea	Sapsa Spawning Grounds	(16,14)	11 PM to 1 AM	Any	Steel Jig	Fullmoon Sardine	358+	
+Toramafish	Upper La Noscea	Oakwood	(15,23)	5 PM to 8 PM	Clouds Fog	Spinnerbait	Common Sculpin	336+	Gold Roselle Capeline
+Joan of Trout	Upper La Noscea	Fool Falls	(9,20)	4 AM to 6 AM	Any	Crow Fly		339+	
+Worm of Nym	Upper La Noscea	Bronze Lake Shallows	(33,24)	7 PM to 10 PM	Clouds	Butterworm		359+	Jadeite
+King of the Spring	Upper La Noscea Outer La Noscea	Northeast Bronze Lake Northwest Bronze Lake	(27,22)	4 PM to 6 PM	Clear Skies Thunder	Spinnerbait		359+	
+Thundergut	Outer La Noscea	The Long Climb	(15,11)	7 PM to 11 PM	Rain	Stem Borer		349+	
+Twitchbeard	Mist	Mist	(10,10)	4 AM to 6 AM	Clear Skies	Spoon Worm	Fullmoon Sardine	384+	Red Summer Maro, Red Summer Pareo
+Stormdancer	New Gridania	Jadeite Flood	(12,14)	5 PM to 2 AM	Rain	Stem Borer		301+	
+Bloody Brewer	New Gridania	Lower Black Tea Brook	(10,11)	Anytime	Clear Skies Fair Skies	Crayfish Ball		301+	Spoken Blood
+Matron Carp	Old Gridania	Whispering Gorge	(16,6)	3 PM to 9 PM	Any	Bloodworm		301+	
+Carp Diem	Old Gridania	Upper Black Tea Brook	(8,8)	9 AM to 2 PM	Clouds Fog	Crow Fly		301+	
+Chirurgeon	Central Shroud	The Vein	(22,22)	Anytime	Clear Skies Clouds Fair Skies Rain	Moth Pupa	Striped Goby	301+	Aqueous Whetstone
+Ghost Carp	Central Shroud	The Mirror	(25,27)	9 PM to 3 AM	Rain	Butterworm		301+	
+Levinlight	Central Shroud	Everschade	(15,24)	6 PM to 10 PM	Clouds Rain	Syrphid Basket		349+	Astral Eye
+Bloodbath	Central Shroud	Haukke Manor	(10,23)	Anytime	Thunder	Honey Worm	Silverfish	350+	Gold Roselle Capeline
+The Green Jester	Central Shroud	Hopeseed Pond	(13,21)	6 PM to 9 PM	Any	Honey Worm		357+	
+Dark Ambusher	East Shroud	Sweetbloom Pier	(10,22)	9 PM to 3 AM	Clear Skies Clouds Fair Skies	Moth Pupa	Striped Goby	344+	
+Moldva	East Shroud	Springripple Brook	(24,25)	6 PM to 1 AM	Clear Skies Clouds Fair Skies	Midge Basket	Ala Mhigan Fighting Fish	331+	
+The Assassin	East Shroud	Sanctum of the Twelve	(17,16)	9 PM to 10 PM	Clear Skies Clouds	Butterworm		357+	
+Sylphsbane	East Shroud	Verdant Drop	(20,21)	Anytime	Rain	Butterworm	Copperfish	348+	
+Blue Widow	North Shroud	Murmur Rills	(26,25)	9 PM to 2 PM	Any	Floating Minnow		325+	
+Judgeray	North Shroud	Fallgourd Float	(21,24)	5 PM to 9 PM	Any	Wildfowl Fly		344+	Potent Poisoning Potion
+Shadowstreak	North Shroud	Proud Creek	(20,20)	4 AM to 9 AM	Fog	Topwater Frog		368+	
+Cornelia	North Shroud	Lake Tahtotl	(17,19)	Anytime	Any	Rainbow Spoon Lure	Use Glowworm to catch Boxing Pleco 5x to trigger Fisher's Intuition (4 min buff), then switch to Rainbow Spoon Lure.	378+	
+Son of Levin	South Shroud	Rootslake	(18,29)	Anytime	Thunderstorms	Caddisfly Larva		349+	Eye of Lightning
+The Gobfather	South Shroud	Goblinblood	(27,21)	12 AM to 6 AM	Thunderstorms	Honey Worm	Silverfish	378+	Nicked Viking Sword
+Vip Viper	South Shroud	Upper Hathoeva River	(18,19)	6 PM to 7 PM	Clear Skies	Butterworm		367+	
+Floating Boulder	South Shroud	Lower Hathoeva River	(18,24)	1 AM to 5 AM	Clouds Fog	Bass Ball		358+	
+The Grinner	South Shroud	East Hathoeva River	(24,22)	Anytime	Any	Syrphid Basket		339+	
+The Sinker	South Shroud	Middle Hathoeva River	(19,22)	10 PM to 3 AM	Clear Skies	Sinking Minnow		352+	
+Sweetnewt	Lavender Beds	Lavender Beds	Any	11 PM to 3 AM	Fog	Midge Basket	Ala Mhigan Fighting Fish	359+	Waterproof Cotton Cloth
+Glimmerscale	Western Thanalan	Nophica's Wells	(24,21)	Anytime	Clear Skies Fair Skies	Butterworm		301+	Copper Ring
+Mud Golem	Western Thanalan	The Footfalls	(17,15)	9 PM to 3 AM	Any	Butterworm		310+	Mudstone
+Rivet Oyster	Western Thanalan	Vesper Bay	(11,14)	Anytime	Any	Heavy Steel Jig		356+	
+Fingers	Western Thanalan	Crescent Cove	(14,18)	5 PM to 6 PM	Clear Skies Clouds	Northern Krill		361+	Toadskin Ring
+Dirty Herry	Western Thanalan	The Silver Bazaar	(15,29)	8 PM to 9 PM	Clear Skies Clouds	Northern Krill		343+	
+Dream Goby	Central Thanalan	Upper Soot Creek	(23,18)	5 PM to 3 AM	Clear Skies Dust Storms Fair Skies	Crayfish Ball		301+	
+Slime King	Central Thanalan	Lower Soot Creek	(16,23)	5 PM to 12 AM	Clouds Dust Storms	Crayfish Ball		357+	
+Old Softie	Central Thanalan	The Clutch	(29,21)	4 PM to 10 PM	Any	Bloodworm		301+	
+Dark Knight	Central Thanalan	The Unholy Heir	(27,19)	Anytime	Clouds Dust Storms Fog	Crow Fly		301+	
+Marrow Sucker	Eastern Thanalan	North Drybone	(13,20)	8 PM to 3 AM	Rain	Syrphid Basket		301+	Bone Chip
+Mud Pilgrim	Eastern Thanalan	South Drybone	(17,24)	5 PM to 7 AM	Rain	Midge Basket		301+	
+The Warden's Wand	Eastern Thanalan	Yugr'am River	(25,22)	5 PM to 7 PM	Clear Skies	Honey Worm		338+	Native Gold
+The Thousand-year Itch	Eastern Thanalan	The Burning Wall	(30,26)	Anytime	Fog	Stem Borer		349+	
+Olgoi-Khorkhoi	Southern Thanalan	Sagolii Dunes	(27,37)	Anytime	Heat Waves	Sand Leech	Storm Rider	348+	Waterproof Cotton Cloth
+Magic Carpet	Southern Thanalan	Sagolii Desert	(12,35)	9 AM to 4 PM	Heat Waves	Sand Leech	Storm Rider	359?	Summer Sandals
+Old Hollow Eyes	Southern Thanalan	Burnt Lizard Creek	(21,15)	Anytime	Fog	Midge Basket	Copperfish	344+	
+Discobolus	Southern Thanalan	Zahar'ak	(25,21)	12 PM to 4 PM	Heat Waves	Glowworm		368+	
+Iron Noose	Southern Thanalan	Forgotten Springs	(15,31)	Anytime	Fog	Spinner		348+	
+Hannibal	Northern Thanalan	Bluefog	(24,25)	1 AM to 4 AM	Fog	Spinner	Common Sculpin	367+	Peiste Skin
+Spearnose	The Goblet	The Goblet	Any	9 PM to 12 AM	Clouds Fog	Caddisfly Larva		349+	
+The Matriarch	Coerthas Central Highlands	Exploratory Ice Hole	(6,22)	Anytime	Any	Honey Worm	Abalathian Smelt	349+	
+Anomalocaris	Coerthas Central Highlands	Sea of Clouds	(13,14)	10 AM to 2 PM	Clear Skies	Hoverworm		358+	
+Charon's Lantern	Coerthas Central Highlands	Daniffen Pass	(13,23)	12 AM to 3 AM	Blizzards Snow	Glowworm		349+	
+Daniffen's Mark	Coerthas Central Highlands	Coerthas River	(20,30)	3 AM to 9 AM	Blizzards	Wildfowl Fly		347+	
+Dawn Maiden	Coerthas Central Highlands	Dragonhead Latrines	(28,17)	5 AM to 7 AM	Clear Skies Fair Skies	Wildfowl Fly		349+	
+Starbright	Coerthas Central Highlands	The Nail	(16,21)	9 PM to 2 AM	Clear Skies	Syrphid Basket	Abalathian Smelt	350+	Astral Eye
+Mahar	Coerthas Central Highlands	Witchdrop	(33,19)	Anytime	Blizzards after Clear Skies or Fair Skies	Hoverworm Balloon Bug	Cloud Cutter	363+	Eye of Ice
+Shonisaurus	Coerthas Central Highlands	Witchdrop	(33,19)	Anytime	Blizzards after Clear Skies or Fair Skies	Hoverworm Balloon Bug	Cloud Cutter then Mahar	403+	Battledance Materia IV
+Aetherlouse	Mor Dhona	North Silvertear	(24,13)	3 AM to 1 PM	Gloom	Glowworm		345+	
+Void Bass	Mor Dhona	Rathefrost	(19,18)	Anytime	Any	Glowworm			
+Ninja Betta	Mor Dhona	The Tangle	(14,13)	6 PM to 9 AM	Gloom	Honey Worm	Silverfish then Assassin Betta	359+	Assassin Fry
+Ignus Horn	Mor Dhona	The Deep Tangle	(12,11)	Anytime	Clear Skies or Fair Skies after Gloom	Glowworm		383+	
+Blood Red Bonytongue	Mor Dhona	Singing Shards	(28,8)	4 AM to 1 PM	Fog after Clear Skies or Fair Skies	Honey Worm	Silverfish	375+	
+Canavan	Mor Dhona	The North Shards	(31,6)	8 AM to 6 PM	Gloom	Honey Worm	Silverfish then Goldfish	387+	
+Kuno the Killer	Mor Dhona	The North Shards	(31,6)	9 AM to 11 PM	Gloom	Honey Worm	Silverfish then Assassin Betta Must catch Canavan first to get Fisher's Intuition	399+	The Emperor's New Ring Heavens' Eye Materia IV
+Fish	Zone	Fishing Hole	(X,Y)	Eorzea Time	Weather	Bait	Mooch	Gathering	Desynth Rewards
+
+Fat Purse	Coerthas Western Highlands	Riversmeet	(24,24)	Anytime	Any	Brute Leech			
+La Reale	Coerthas Western Highlands	Ashpool	(14,15)	Anytime	Any	Brute Leech			
+Bishopfish	Coerthas Western Highlands	Clearpool	(36,6)	10 AM to 2 PM	Clear Skies	Brute Leech			Savage Might Materia IV
+Charibenet	Coerthas Western Highlands	Clearpool	(36,6)	12 AM to 3 AM	Blizzards	Purse Web Spider	Ice Faerie Must catch 5x Ice Faerie first to get Fisher's Intuition		Piety Materia IV
+Hailfinder	Coerthas Western Highlands	Greytail Falls	(35,26)	Anytime	Blizzards after Snow or Blizzards	Red Balloon	Glacier Core		Quicktongue Materia IV, Quicktongue Materia V
+Captain Nemo	Coerthas Western Highlands	South Banepool	(21,11)	Anytime	Blizzards after Snow	Brute Leech			
+Flarefish	Coerthas Western Highlands	Unfrozen Pond	(28,18)	10 AM to 4 PM	Blizzards	Metal Spinner	Ice Faerie		Savage Aim Materia IV, Savage Aim Materia V
+Merciless	Coerthas Western Highlands	West Banepool	(13,8)	Anytime	Blizzards after Snow or Blizzards	Caddisfly Larva	Ice Faerie		
+Inkfish	The Sea of Clouds	Voor Sian Siran	(29,35)	2 PM to 4 PM	Any	Brute Leech			Savage Might Materia V, Soot Black Dye
+Cirrostratus	The Sea of Clouds	Cloudtop	(14,38)	10 AM to 1 PM	Clear Skies or Fair Skies	Giant Crane Fly			
+Basking Shark	The Sea of Clouds	Mok Oogl Island	(15,7)	Anytime	Clear Skies after Fog	Metal Spinner	Sky Faerie		Quickarm Materia IV
+Sea Butterfly	The Sea of Clouds	Mok Oogl Island	(15,7)	5 AM to 7 AM	Clear Skies	Giant Crane Fly	Must catch 3x Scorpionfly and 3x Sky Faerie first to get Fisher's Intuition		Invisible Silk, New World Macrame
+The Second One	The Sea of Clouds	The Blue Window	(7,11)	Anytime	Wind	Giant Crane Fly			
+Paikiller	The Sea of Clouds	The Eddies	(30,39)	8 AM to 12 PM	Clear Skies after Fog	Bladed Steel Jig	Bullfrog		Savage Aim Materia IV, Savage Aim Materia V
+Scaleripper	The Dravanian Forelands	The Hundred Throes	(31,10)	Anytime	Clouds, Dust Storms, or Fog	Brute Leech			Quickarm Materia IV
+Riddle	The Dravanian Forelands	Anyx Old	(19,10)	8 AM to 4 PM	Clear Skies after Clear Skies	Magma Worm	Granite Crab		Fieldcraft Demimateria II
+The Lord of Lords	The Dravanian Forelands	Halo	(7,5)	8 AM to 4 PM	Clear Skies or Fair Skies after Clouds, Dust Storms, or Fog	Metal Spinner	Granite Crab		Scintillant Ingot, Sun Mica
+Problematicus	The Dravanian Forelands	Halo	(7,5)	10 AM to 3 PM	Clear Skies or Fair Skies	Metal Spinner	Granite Crab Must catch 3x Fossiltongue and 5x Granite Crab first to get Fisher's Intuition		
+Meteortoise	The Dravanian Forelands	Mourn	(13,13)	Anytime	Any	Magma Worm	Granite Crab		Quicktongue Materia IV, Quicktongue Materia V
+The Dreamweaver	The Dravanian Forelands	The Smoldering Wastes	(26.6,26.1)	10 PM to 2 AM	Clouds, Dust Storms, or Fog	Brute Leech			
+Hraesvelgr's Tear	The Dravanian Forelands	West Mourn	(9,7)	Anytime	Any	Magma Worm			Glass Fiber, Luminous Fiber
+Twin-tongued Carp	The Dravanian Forelands	Whilom River	(30,14)	12 PM to 4 PM	Clear Skies after Clouds or Dust Storms	Brute Leech			Heavens' Eye Materia IV, Heavens' Eye Materia V
+Vidofnir	The Churning Mists	Eil Tohm	(36,30)	8 AM to 10 AM	Any	Brute Leech			Piety Materia V
+Moggle Mogpom	The Churning Mists	Greensward	(8,34) (14,35)	10 AM to 1 PM	Clear Skies after Gales	Brute Leech			Savage Might Materia IV
+The Soul of the Martyr	The Churning Mists	Landlord Colony	(29,25)	4 AM to 6 AM	Clear Skies or Fair Skies	Giant Crane Fly			
+Dimorphodon	The Churning Mists	Sohm Al Summit	(18,39)	Anytime	Gales after Clear Skies	Giant Crane Fly	Rudderfish		Savage Might Materia IV, Savage Might Materia V
+Bloodchaser	The Churning Mists	Tharl Oom Khash	(20,6)	Anytime	Gales after Clear Skies	Giant Crane Fly			Quicktongue Materia IV, Quicktongue Materia V
+Raimdellopterus	The Churning Mists	Tharl Oom Khash	(20,6)	5 AM to 8 AM	Gales	Giant Crane Fly	Rudderfish Must catch 5x Rudderfish first to get Fisher's Intuition		Savage Might Materia IV, Wool Top
+Thousand Fin	The Churning Mists	Weston Waters	(9,8)	Anytime	Gales after Clouds	Brute Leech			Magnanimous Mogcrown, Moogle Miniature
+The Ewer King	The Dravanian Hinterlands	Thaliak River	(23,23)	Anytime	Any	Bladed Steel Jig	Sweetfish		
+Bobgoblin Bass	The Dravanian Hinterlands	Middle Thaliak River	(20,25)	2 AM to 6 AM	Showers after Rain	Goblin Jig	Sweetfish		Quicktongue Materia IV
+Madam Butterfly	The Dravanian Hinterlands	Quickspill Delta	(11,24)	9 PM to 2 AM	Clear Skies	Purse Web Spider	Hedgemole Cricket		Piety Materia IV, Piety Materia V
+The Speaker	The Dravanian Hinterlands	Upper Thaliak River	(22,35)	Anytime	Showers after Clouds or Fog	Purse Web Spider	Hedgemole Cricket		Quicktongue Materia V
+Armor Fish	The Dravanian Hinterlands	Upper Thaliak River	(22,35)	1 AM to 4 AM	Clear Skies	Purse Web Spider	Hedgemole Cricket Must catch 6x Hedgemole Cricket first to get Fisher's Intuition		Glass Fiber
+Augmented High Allagan Helmet	Azys Lla	Alpha Quadrant	(16,12)	Anytime	Any	Fiend Worm	Platinum Fish		Allagan Wootz Nugget, Wootz Ingot
+Aetherochemical Compound #666	Azys Lla	Aetherochemical Spill	(30,6)	Anytime	Any	Fiend Worm	Platinum Fish		Mudstone Whetstone, Allagan Catalyst
+Aphotic Pirarucu	Azys Lla	Delta Quadrant	(10,31)	10 PM to 2 AM	Clouds	Purse Web Spider	Aether Eye		Quickarm Materia V
+Ceti	Azys Lla	Hyperstellar Downconverter	(6,16)	6 PM to 10 PM	Thunder after Clouds	Fiend Worm			Quickarm Materia IV, Quickarm Materia V
+Allagan Bladeshark	Azys Lla	The Flagship	(21,21)	Anytime	Thunder after Clouds	Fiend Worm	Platinum Fish		Savage Aim Materia IV, Savage Aim Materia V
+Opabinia	Azys Lla	The Flagship	(21,21)	Anytime	Thunder	Fiend Worm	Platinum Fish Must catch 3x Functional Proto-hropken first to get Fisher's Intuition		
+Crystal Pigeon	Azys Lla	The Habisphere	(40,18)	Anytime	Thunder after Fair Skies	Giant Crane Fly	Rudderfish		Piety Materia IV, Piety Materia V
+Hundred-eyed Axolotl	Azys Lla	The Pappus Tree	(6,35)	6 AM to 10 AM	Fair Skies Thunder Clouds	Purse Web Spider	Aether Eye		Heavens' Eye Materia IV
+Fish	Zone	Fishing Hole	(X,Y)	Eorzea Time	Weather	Bait	Mooch	Gathering	Desynth Rewards
+
+Downstream Loach	The Fringes	The Velodyna River	(19.1,4.3)	Anytime	Fog	Stonefly Larva			Raw Triphane
+Sapphire Fan	The Fringes	Dimwold	(9.6,29)	Anytime	Thunder	Stonefly Larva			Heavens' Eye Materia VI, Star Sapphire
+Corpse Chub	The Fringes	Mirage Creek	(27.5,16.5)	8 PM to 12 AM	Clear Skies	Stonefly Larva			Savage Aim Materia V, Savage Aim Materia VI
+The Archbishop	The Fringes	The Comet's Tail	(13,31)	12 PM to 4 PM	Any	Suspending Minnow			Cane of the Round, Piety Materia VI
+Hardhead Trout	The Fringes	Timmon Beck	(11.4,18.0)	4 PM to 8 PM	Any	Stonefly Larva			Battledance Materia V, Battledance Materia VI
+Xenacanthus	The Fringes	Timmon Beck	(11.4,18.0)	4 PM to 8 PM	Any	Stonefly Larva	Hardhead Trout		
+Hookstealer	Rhalgr's Reach	Upper Mirage Creek	(11,14)	Anytime	Any	Midge Larva	Gyr Abanian Trout		Suspending Minnow
+Watcher Catfish	Rhalgr's Reach	Rhalgr's Reach	(11,10)	Anytime	Thunder	Midge Larva	Gyr Abanian Trout		Quickarm Materia V, Quickarm Materia VI
+Bloodtail Zombie	Rhalgr's Reach	The Outer Fist	(12,6)	8 AM to 12 PM	Any	Salmon Roe	Balloon Frog		
+Bondsplitter	The Peaks	Grymm & Enid	(6.5,15.6)	Anytime	Dust Storms	Suspending Minnow			
+Drepanaspis	The Peaks	Grymm & Enid	(6.5,15.6)	Anytime	Dust Storms	Suspending Minnow	Must catch 2x Bondsplitter first to get Fisher's Intuition		
+The Last Tear	The Peaks	Heather Falls	(31.8,7.1)	Anytime	Fair Skies after Fog	Salmon Roe			Savage Might Materia VI
+Lily of the Veil	The Peaks	The Arms of Meed	(9.3,37.5)	Anytime	Fair Skies after Clear Skies	Suspending Minnow			Savage Might Materia V, Savage Might Materia VI
+Hemon	The Peaks	The Bull's Bath	(25.0,32.7)	4 PM to 8 PM	Clouds	Suspending Minnow			Heavens' Eye Materia V
+Moksha	The Peaks	The Ephor	(31,17)	Anytime	Clear Skies after Clouds or Fog or Wind or Dust Storms	Suspending Minnow			Piety Materia VI
+The Undecided	The Peaks	The Slow Wash	(23.5,9.0)	8 AM to 12 PM	Any	Midge Larva	Gyr Abanian Trout		Battledance Materia VI
+Diamond-eye	The Lochs	Loch Seld	(21,21)	Anytime	Clear Skies	Silkworm	Rock Saltfish		Diamond, Ala Mhigan Salt Crystal
+Stethacanthus	The Lochs	Loch Seld	(21,21)	4 PM to 6 PM	Thunderstorms	Silkworm	Rock Saltfish Must catch 2x Sculptor first to get Fisher's Intuition		
+Rising Dragon	Kugane	Kugane Piers	Any	Anytime	Any	Metal Spinner	Ruby Shrimp		Savage Might Materia V, Savage Might Materia VI
+The Gambler	Shirogane	Shirogane	(8,14)	Anytime	Any	Blue Bobbit			Quicktongue Materia VI, Potent Poisoning Potion
+Princess Killifish	Shirogane	The Silver Canal	(10,11)	4 AM to 6 AM	Any	Nightcrawler			
+Ku'er	The Ruby Sea	The Ruby Price	(38.4,38.5)	12 AM to 8 AM	Clouds after Thunder	Blue Bobbit			Savage Might Materia VI, Grade 2 Infusion of Strength
+The Ruby Dragon	The Ruby Sea	The Ruby Price	(38.4,38.5)	4 AM to 8 AM	Clouds after Thunder	Blue Bobbit	Ku'er		
+The Vegetarian	The Ruby Sea	Hells' Lid	(25.9,33.3)	8 PM to 12 AM	Thunder	Live Shrimp	Ruby Shrimp		Savage Might Materia V, Savage Might Materia VI
+Pinhead	The Ruby Sea	Isari	(8.5,12.0)	4 PM to 12 AM	Thunder after Clear Skies or Fair Skies	Live Shrimp			Bombfish Spine, Battledance Materia VI
+Argonautica	The Ruby Sea	Onokoro	(22.1,11.0)	4 PM to 12 AM	Wind	Live Shrimp	Ruby Shrimp		Heavens' Eye Materia V, Heavens' Eye Materia VI
+The Winter Queen	The Ruby Sea	Shoal Rock	(32.5,8.3)	4 PM to 8 PM	Any	Blue Bobbit			Pink Cherry Blossom Corsage, Savage Aim Materia VI
+Seven Stars	The Ruby Sea	The Isle of Bekko	(34.6,19.7)	10 AM to 6 PM	Fair Skies after Thunder	Blue Bobbit			Shark Oil, Battledance Materia VI
+Rakshasa	The Ruby Sea	The Isle of Zekki	(8.3,26.6)	Anytime	Thunder	Metal Spinner	Ruby Shrimp		
+Hermit's End	Yanxia	Namai	(29.5,15.5)	8 PM to 12 AM	Clear Skies	Stonefly Larva			Gatherer's Guile Materia VI
+Suiten Ippeki	Yanxia	Mercantile Docks	(14,14)	4 PM to 12 AM	Showers after Fair Skies	Stonefly Larva			Craftsman's Competence Materia V, Craftsman's Competence Materia VI
+Hagoromo Koi	Yanxia	Plum Spring	(36,23)	Anytime	Fog	Stonefly Larva			Thavnairian Silk, Quicktongue Materia VI
+The Unraveled Bow	Yanxia	Prism Canyon	(31,7)	12 PM to 4 PM	Fog	Suspending Minnow			Imperial Jade, Heavens' Eye Materia VI
+Warden of the Seven Hues	Yanxia	Prism Lake	(29,6)	12 AM to 4 PM	Clear Skies or Fair Skies after Fair Skies	Stonefly Larva	Must catch 3x Indigo Prismfish, 3x Firelight Goldfish, and 5x Green Prismfish first to get Fisher's Intuition		
+Pomegranate Trout	Yanxia	The Heron's Nest	(34.7,14.0)	Anytime	Rain	Nightcrawler			Crimson Pepper, Savage Aim Materia VI
+Glarramundi	Yanxia	The Heron's Way	(35.6,17.0)	Anytime	Clear Skies after Fair Skies	Suspending Minnow			Onishi Dogi
+Axelrod	Yanxia	The One River (East)	(20,24)	12 AM to 8 AM	Fair Skies after Clouds	Stonefly Larva			
+Hagoromo Bijin	Yanxia	The One River (West)	(11.0,33.0)	Anytime	Clear Skies or Fair Skies after Clouds	Stonefly Larva			Thavnairian Silk, Quicktongue Materia VI
+Banderole	The Azim Steppe	Hak Khaal	(29,20)	12 AM to 8 AM	Fog after Fair Skies	Nightcrawler	Zagas Khaal		Quickarm Materia VI
+Duskfish	The Azim Steppe	Azim Khaat	(23,23)	8 AM to 4 PM	Clouds after Rain or Gales	Nightcrawler	Zagas Khaal		
+Nhaama's Treasure	The Azim Steppe	Dotharl Khaa	(12.4,33.1)	4 AM to 8 AM	Clear Skies or Fair Skies after Rain	Suspending Minnow			Heavens' Eye Materia V
+The Unconditional	The Azim Steppe	Dotharl Khaa	(12.4,33.1)	5 AM to 7 AM	Clear Skies after Rain	Stonefly Larva			Veteran Tree Sap, Stormsap
+Yat Khan	The Azim Steppe	Lower Yat Khaal	(22,28)	Anytime	Gales	Stonefly Larva			
+Garden Skipper	The Azim Steppe	Nem Khaal	(31,26)	8 AM to 12 PM	Clear Skies after Fair Skies	Midge Larva			Quickarm Materia VI
+The Word of God	The Azim Steppe	Tao Khaal	(16,14)	8 PM to 12 AM	Any	Stonefly Larva			Quickarm Materia VI, Stormsap
+Blade Skipper	The Azim Steppe	Upper Yat Khaal	(17,18)	4 AM to 8 AM	Fog	Suspending Minnow			
+Fish	Zone	Fishing Hole	(X,Y)	Eorzea Time	Weather	Bait	Mooch	Gathering	Desynth Rewards
+
+Loose Pendant	The Crystarium	Crystarium Personal Suites	(12.0,16.0)	6 PM to 9 PM	Any	Baitbugs			
+The Sinsteeped	The Crystarium	The Quadrivium	(10.0,15.0)	10 PM to 12 AM	Clear Skies Fair Skies	Fruit Worm		1900+	
+Aster Trivi	The Crystarium	The Trivium	(8.0,7.0)	10 PM to 12 AM	From Clear Skies to Clear Skies (a weather chain)	Marble Nymph		2150+	
+Winged Dame	Eulmore - The Buttress	The Derelicts	(11.0,11.0)	12 PM to 7 PM	Clear Skies	Squid Strip			Quicktongue Materia VII
+Sweetheart	Lakeland	The Rift of Sighs	(31.0,11.0)	Anytime	Clear Skies or Fair Skies after Fog	Baitbugs		1900+	
+The Unforgiven	Lakeland	The Source	(13.0,29.0)	Anytime	Fog	Baitbugs			Heavens' Eye Materia VIII
+Python Discus	Lakeland	Sullen	(19.0,35.0)	Anytime	Thunderstorms after Rain	Fruit Worm		2150+	
+Moonlight Guppy	Lakeland	The Rusted Reservoir	(12.0,21.0)	6 AM to 8 AM	Fair Skies after Clear Skies	Baitbugs		1950+	
+The Jaws of Undeath	Lakeland	The Isle of Ken	(9.0,37.0)	4 PM to 12 AM	Clouds or Fog after Clear Skies or Fair Skies	Baitbugs			
+Listracanthus	Lakeland	The Isle of Ken	(9.0,37.0)	4 PM to 12 AM	Fog after Clear Skies or Fair Skies	Baitbugs	The Jaws of Undeath	2250+	Duskcourt Cloth
+White Ronso	Kholusia	Lower Watts River	(30.0,27.0)	12 AM to 2 AM	Any	Baitbugs			Heavens' Eye Materia VIII
+Bronze Sole	Kholusia	Sharptongue Drip	(20.0,24.0)	Anytime	Rain	Marble Nymph			
+Steel Fan	Kholusia	White Oil Falls	(29.0,21.0)	Anytime	Fog after Clouds	Marble Nymph		1950+	Spirit Extract
+Henodus Grandis	Kholusia	The Eastern Kholusian Coast	(35.0,35.0)	10 PM to 12 AM	Clouds	Short Bill Minnow	Spearhead Squid	1950+	
+Steel Razor	Kholusia	The Western Kholusian Coast	(8.0,35.0)	6 AM to 8 AM	Any	Moyebi Shrimp		2150+	
+Shadeshifter	Kholusia	Seagazer Shoals	(16.0,35.0)	10 AM to 2 PM	Gales after Clear Skies or Fair Skies	Squid Strip		2150+	
+Aquamaton	Kholusia	Seagazer Shoals	(16.0,35.0)	10 AM to 4 PM	Gales after Clear Skies or Fair Skies	Short Bill Minnow	Must catch 5x Shapeshifter and 1x Shadeshifter first to get Fisher's Intuition	2250+	
+Giant Taimen	Kholusia	Upper Watts River	(27.0,14.0)	Anytime	Any	Baitbugs		1900+	
+The Horned King	Amh Araeng	The River of Sand	(31.0,12.0)	12 AM to 6 AM	Dust Storms	Jerked Ovim	Hornhelm		
+Cinder Surprise	Amh Araeng	The River of Sand	(31.0,12.0)	12 AM to 2 AM	Heat Waves after Dust Storms	Desert Dessert Frog	Must catch 10x Sand Egg first to get Fisher's Intuition	2250+	
+Nabaath Saw	Amh Araeng	The Nabaath Severance	(31.0,31.0)	6 AM to 10 AM	Heat Waves after Clear Skies or Fair Skies or Heat Waves	Jerked Ovim	Desert Saw	2150+	
+Ambling Caltrop	Amh Araeng	The Hills of Amber	(15.0,14.0)	12 PM to 4 PM	Clear Skies	Desert Dessert Frog	Web-footed Sand Gecko		
+Leannisg	Il Mheg	Handmirror Lake	(4.0,22.0)	6 AM to 8 AM	Rain	Marble Nymph		1900+	Dried Hi-Ether
+The Sound of Fury	Il Mheg	Longmirror Lake	(21.0,22.0)	8 PM to 12 AM	Clear Skies Fair Skies	Baitbugs			Savage Aim Materia VIII
+Ealad Skaan	Il Mheg	Longmirror Lake	(21.0,22.0)	11 PM to 12 AM	Clear Skies after Thunderstorms	Baitbugs		2250+	
+Gold Hammer	Il Mheg	Saint Fathric's Temple	(34.0,26.0)	Anytime	Clear Skies after Clear Skies or Fair Skies	Baitbugs		1900+	
+Sunken Tome	Il Mheg	The Haughty One	(22.0,9.0)	12 PM to 4 PM	Thunderstorms after Fair Skies	Marble Nymph		1950+	
+Fae Rainbow	Il Mheg	The Jealous One	(25.0,9.0)	Anytime	Fog after Clear Skies or Fair Skies	Marble Nymph			Dried Hi-Ether
+Dammroen Herring	Il Mheg	The Spoiled One	(28.0,13.0)	Anytime	Any	Baitbugs		2150+	Spirit Extract
+Celestial	Il Mheg	Father Collard's Failings	(28.0,13.0)	7 AM to 5 PM	Clear Skies after Thunderstorms	Baitbugs		2150+	Piety Materia VIII
+Priest of Yx'Lokwa	The Rak'tika Greatwood	Lake Tusi Mek'ta	(28.0,13.0)	10 AM to 12 PM	Any	Robber Ball	Clown Tetra then Eryops		Battledance Materia VIII
+Greater Serpent of Ronka	The Rak'tika Greatwood	Lake Tusi Mek'ta	(28.0,13.0)	10 AM to 12 PM	Any	Robber Ball	Clown Tetra to Eryops to Priest of Yx'Lokwa	2250+	
+Golden Pipira	The Rak'tika Greatwood	Mjrl's Tears	(25.2,36.6)	6 AM to 7 AM	Any	Robber Ball		2150+	
+Recordkiller	The Rak'tika Greatwood	South Mjrl's Regret	(24.0,31.0)	6 PM to 12 AM	Fog after Clear Skies or Fair Skies	Baitbugs		1900+	
+Black Jet	The Rak'tika Greatwood	Mjrl's Tears	(25.2,36.6)	2 AM to 12 PM	Clouds or Fog after Fair Skies	Robber Ball			Battledance Materia VIII
+Pearl Pipira	The Rak'tika Greatwood	The Red Chalice	(9.0,20.0)	5 PM to 8 PM	Fog	Robber Ball	Diamond Pipira	1950+	
+Deephaunt	The Rak'tika Greatwood	Woven Oath	(7.0,16.0)	2 AM to 6 AM	Fog after Clouds	Baitbugs		2150+	
+Mora Tecta	The Tempest	Northwest Caliban Gorge	(11.0,10.0)	10 PM to 12 AM	Fair Skies	Short Bill Minnow		2150+	Savage Might Materia VIII, Spirit Extract
+Lancetfish	The Tempest	Northwest Caliban Gorge	(11.0,10.0)	10 PM to 12 AM	Clouds after Fair Skies	Squid Strip	Must catch 2x Mora Tecta first to get Fisher's Intuition	2250+	
+Starchaser	The Tempest	Purpure	(33.0,30.0)	6 AM to 10 AM	Clouds	Squid Strip			
+The Ondotaker	The Tempest	Where the Dry Return	(37.0,7.0)	8 AM to 10 AM	Clouds after Clear Skies	Squid Strip		1950+	
+The Mother of All Pancakes	The Tempest	East Caliban Gap	(8.0,15.0)	12 AM to 3 AM	Clear Skies after Clouds	Squid Strip		1900+	Dried Hi-Ether
+Ondo Sigh	The Tempest	The Flounders' Floor	(8.0,15.0)	12 PM to 2 PM	Clear Skies Fair Skies	Squid Strip			Gatherer's Guerdon Materia VIII
+Opal Shrimp	The Tempest	The Norvrandt Slope	(29.0,14.0)	6 PM to 8 PM	Clear Skies after Fair Skies or Clear Skies or Clouds	Squid Strip		1900+	Dried Hi-Ether
+Maru Crab	The Tempest	West Caliban Gap	(6.0,13.0)	4 PM to 8 PM	Clouds	Short Bill Minnow	Ancient Shrimp	2150+	Battledance Materia VIII
+Fish	Zone	Fishing Hole	(X,Y)	Eorzea Time	Weather	Bait	Mooch	Gathering	Desynth Rewards
+
+Aetherolectric Guitarfish	Old Sharlayan	Scholar's Harbor	(11.6,16.0)	8 PM to 12 AM	Any	Mackerel Strip			
+Jumbo Snook	Labyrinthos	Unmoved Source Alpha	(17.7,5.3)	6 PM to 10 PM	Clouds	Mayfly			
+Earful	Radz-at-Han	Meghaduta	(5.5,11.0)	4 AM to 8 AM	ANY	Mayfly			
+Hippo Frog	Thavnair	Giantsgall Grounds	(21.1,8.2)	Anytime	Showers	Mayfly			
+Rimepike	Garlemald	The Eblan Thaw	(11.3,30.4)	Anytime	Snow	Gold Salmon Roe	Cerule Core		
+Foun Ahlm	Ultima Thule	Apohelos 18-β	(9.3,30.8)	10 AM to 2 PM	Umbral Wind	Chimera Worm			
+Forbiddingway	Ultima Thule	Limne 18	(7.3,35.4)	09 AM to 12 PM	Astromagnetic Storm	Stardust			
+Gathering
+
+Botanist	Miner	Fisher
+
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Locations Big Fishing Fishing Collectables Folklore Fish
+				
+Item	Min. Collectability	Location	Catch Method	Time/Weather	Scrips	Additional Info
+
+Topminnow	18	Unmoved Source Alpha	Gold Salmon Roe, Sky Spoon Lure, Mayfly		66 White	
+Othardian Wrasse	181	Exile	Spearfishing		30 White	
+Shogun's Kabuto	400	Northwestern Onokoro	Spearfishing		38 White	Truth of Oceans + Cloudy Catshark x10
+Pipefish	31	Northwestern Onokoro	Spearfishing		53 White	Truth of Oceans + Cloudy Catshark x10
+Seema Duta	188	Meghaduta	Gold Salmon Roe, Leech, Sky Spoon Lure, Mayfly		68 White	
+Pantherscale Grouper	217	Yedlihmad	Shrimp Ball, Mackerel Strip		63 White	
+Xiphactinus	423	Outer Akyaali	Spearfishing		45 White	Truth of Oceans + Hedonfish x10
+Fleeting Brand	244	The Frozen Fissure	Grey Worm, Chimera Worm		108 White	Can be Mooched from Calicia
+Forgeflame	211	Ksiroda	Leech, Sky Spoon Lure, Mayfly		83 White	
+Banana Eel	385	Pavana's Remorse	Leech, Sky Spoon Lure, Mayfly		80 White	
+Kitefin Shark	425	Northeastern Bekko	Spearfishing		35 Purple	
+Tebqeyiq Smelt	33	Outer Akyaali	Spearfishing		170 Purple	Truth of Oceans + Hedonfish x10
+Echinos	330	Limne 3-α	Panic Jig, Stardust		75 Purple	
+Foun Myhk	433	Apohelos 18-β	Grey Worm, Chimera Worm		79 Purple	
+Phallaina	1181	Limne 3-β	Panic Jig, Stardust	10PM to 4AM	1,400 Purple	Mooched from Horizon Event
+Mangar	501	Rumination's Ramble	Gold Salmon Roe	Clouds	146 Purple	Mooched from Albino Loach
+Lunar Deathworm	1181	The Chlorophospond	Grey Worm	Fair Skies	291 Purple	Mooched from Calicia
+Basilosaurus	1055	The Perfumed Tides	Mackerel Strip	Fair Skies	209 Purple	Mooched from Puff-paya
+Red Drum	417	The Wakeful Torana	Leech, Sky Spoon Lure, Mayfly	Showers/ Clouds -> Fair Skies	68 Purple	
+Labyrinthos Tilapia	398	Deepmoat	Leech	8AM-4PM	94 Purple	Mooched from Astacus Aetherius
+Item	Min. Collectability	Location	Catch Method	Time/Weather	Scrips	Additional Info
+
+Albino Caiman	346	The Rift of Sighs	Robber Ball		20 White	
+Little Bismarck	362	Eastern Isle of Ken	Spearfishing		20 White	Truth of Oceans + Noblefish x10
+Bothriolepis	417	Eastern Isle of Ken	Spearfishing		28 White	Truth of Oceans + Noblefish x10
+Weedy Seadragon	62	The Eastern Kholusian Coast	Short Bill Minnow		26 White	
+Golden Lobster	96	Saint Fathric's Temple	Marble Nymph		27 White	
+Rak'tika Goby	29	Deep Lake Tusi Mek'ta	Spearfishing		25 White	Truth of Oceans + Treescale x10
+Elder Pixie	62	East Longmirror Lake	Spearfishing		25 White	Truth of Oceans + Sauldia Ruby x10
+Viis Ear	31	Deep Lake Tusi Mek'ta	Spearfishing		33 White	Truth of Oceans + Treescale x10
+Blue Mountain Bubble	181	East Longmirror Lake	Spearfishing		33 White	Truth of Oceans + Sauldia Ruby x10
+Diamond Pipira	201	The Red Chalice	Robber Ball	12PM-8PM	41 White	
+Eryops	314	Lake Tusi Mek'ta	Robber Ball		260 White	Mooched from Clown Tetra
+Winged Hatchetfish	6	Upper Watts River	Robber Ball		41 White	
+Pancake Octopus	31	East Caliban Gap	Squid Strip		40 White	
+Ondo Harpoon	236	The Flounders' Floor	Squid Strip		49 White	
+Aapoak	314	West Caliban Gap	Short Bill Minnow	Clear Skies 12PM-4PM	1,050 White	Mooched from Ancient Shrimp
+Darkdweller	14	Woven Oath	Baitbugs	Fog 12AM-8AM	60 White	
+Toadhead	26	Father Collard's Failings	Baitbugs	Clear Skies	95 White	
+Thorned Lizard	944	The Hills of Amber	Desert Dessert Frog	Clear Skies/ Fair Skies/ Heat Waves 10AM-6PM	467 White	Mooched from Web-footed Sand Gecko
+Henodus	157	The Eastern Kholusian Coast	Short Bill Minnow	Clouds/ Fog 12AM-8AM	367 White	Mooched from Spearhead Squid
+Platinum Guppy	9	The Rusted Reservoir	Baitbugs	Clear Skies	101 White	
+Item	Min. Collectability	Location	Catch Method	Time/Weather	Scrips	Additional Info
+
+Velodyna Grass Carp	315	The Velodyna River	Metal Spinner, Nightcrawler, Salmon Roe, Stonefly Larva, Suspending Minnow		46 White	
+Butterfly Fish	53	Shoal Rock	Blue Bobbit, Bream Lure, Live Shrimp, Metal Spinner		41 White	
+Yanxian Koi	206	The One River (East)	Metal Spinner, Nightcrawler, Stonefly Larva, Suspending Minnow		41 White	
+Killifish	5	Nem Khaal The Silver Canal	Midge Larva Midge Larva, Stonefly Larva	Clear Skies	68 White	
+Mitsukuri Shark	395	The Eastern Ruby Sea	Spearfishing		18 White	Truth of Oceans + Bashful Batfish x7
+Silken Sunfish	370	Loch Seld Deep Lakebed	Spearfishing		18 White	Truth of Oceans + Mercenary Crab x7
+Eternal Eye	20	Azim Khaat Southern Lakebed	Spearfishing		18 White	Truth of Oceans + Glaring Perch x10
+Cherubfish	129	The Sunken Junk's South Side	Spearfishing		18 White	Truth of Oceans + Ichthyosaur x10
+Mosasaur	402	Loch Seld Deep Lakebed	Spearfishing		23 White	Truth of Oceans + Mercenary Crab x7
+Soul of the Stallion	25	Azim Khaat Southern Lakebed	Spearfishing		23 White	Truth of Oceans + Glaring Perch x10
+Fangshi	147	The Sunken Junk's South Side	Spearfishing		23 White	Truth of Oceans + Ichthyosaur x10
+Thousandfang	403	The Eastern Ruby Sea	Spearfishing		23 White	Truth of Oceans + Bashful Batfish x7
+Tao Bitterling	23	Tao Khaal	Midge Larva, Stonefly Larva, Suspending Minnow		44 White	
+Samurai Fish	7	Doma Castle	Midge Larva, Stonefly Larva		46 White	
+Daio Squid	470	The Isle of Zekki	Blue Bobbit, Bream Lure		30 White	Can be Mooched from Ruby Shrimp
+Seraphim	23	The One River (West)	Stonefly Larva, Suspending Minnow	4PM-12AM	37 White	
+Ala Mhigan Ribbon	19	The Arms of Meed	Stonefly Larva, Suspending Minnow		40 White	
+Wraithfish	99	Dimwold	Stonefly Larva	Fog 12AM-4AM	90 White	
+Swordfish	456	Onokoro	Blue Bobbit	Clouds/ Wind 8AM-4PM	45 White	Can be Mooched
+Deemster	377	The Ephor	Stonefly Larva	Wind	68 White	
+Silken Koi	314	Plum Spring	Stonefly Larva	Rain	89 White	
+Sculptor	785	Loch Seld	Silkworm	Thunderstorms 12PM-6PM	700 White	Mooched from Rock Saltfish
+Item	Min. Collectability	Location	Catch Method	Time/Weather	Scrips	Additional Info
+
+Glacier Core	141	Greytail Falls	Balloon Bug, Red Balloon, Giant Crane Fly	Blizzards/ Snow	26 White	Can be Mooched from Skyworm
+Icepick	49	South Banepool, Unfrozen Pond	Caddisfly Larva, Stonefly Nymph, Purse Web Spider, Goblin Jig, Brute Leech		11 White	
+Whilom Catfish	209	Whilom River, The Smoldering Wastes, The Hundred Throes	Metal Spinner, Stonefly Nymph, Purse Web Spider, Goblin Jig, Brute Leech, Bladed Steel Jig	Clouds/ Fog/ Dust Storms	63 White	Can be Mooched from Blueclaw Shrimp
+Sorcerer Fish	294	Unfrozen Pond	Caddisfly Larva, Stonefly Nymph, Goblin Jig, Brute Leech	8AM-8PM	24 White	Mooched from Abalathian Smelt or Ice Faerie
+Bubble Eye	74	Voor Sian Siran	Stonefly Nymph, Purse Web Spider, Brute Leech, Metal Spinner	10AM-6PM	18 White	Can be Mooched from Hedgemole Cricket
+Dravanian Squeaker	72	Weston Waters	Stonefly Nymph, Purse Web Spider, Brute Leech	4PM-7PM	33 White	
+Warmwater Bichir	311	The Smoldering Wastes	Purse Web Spider, Brute Leech	9PM-3AM	32 White	Can be Mooched from Blueclaw Shrimp or Marble Oscar
+Noontide Oscar	118	Eil Tohm	Purse Web Spider, Brute Leech		30 White	
+Weston Bowfin	171	Weston Waters	Brute Leech, Goblin Jig	8AM-12PM	33 White	
+Illuminati Perch	376	Thaliak River	Stonefly Nymph, Brute Leech, Goblin Jig		26 White	Mooched from Hedgemole Cricket or Sweetfish
+Dravanian Smelt	19	The Hundred Throes	Brute Leech		66 White	
+Vampiric Tapestry	557	Mok Oogl Island	Giant Crane Fly		10 White	Can be Mooched from Sky Faerie
+Thunderbolt Eel	346	The Iron Feast	Bladed Steel Jig, Brute Leech, Stonefly Nymph	10PM-4AM	109 White	Mooched from Blueclaw Shrimp
+Tiny Axolotl	137	The Pappus Tree	Bladed Steel Jig, Brute Leech, Purse Web Spider	9PM-12AM	34 White	Can be Mooched from Aether Eye
+Moogle Spirit	508	Mok Oogl Island	Giant Crane Fly		31 White	Can be Mooched from Sky Faerie
+Amber Salamander	622	The Iron Feast	Brute Leech, Stonefly Nymph	6AM-12PM	75 White	
+Capelin	19	Clearpool	Stonefly Nymph, Brute Leech	12AM-6AM	39 White	
+Loosetongue	1039	Upper Thaliak River	Brute Leech	1PM-8PM	69 White	Can be Mooched from Hedgemole Cricket or Sweetfish
+Barreleye	393	The Flagship	Fiend Worm	Thunder	700 White	Mooched from Platinum Fish
+Stupendemys	650	The Habisphere	Giant Crane Fly		53 White	Can be Mooched from Rudderfish
+Gathering
+
+Botanist	Miner	Fisher
+
+Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes	Fishing Locations Big Fishing Fishing Collectables Folklore Fish
+				
