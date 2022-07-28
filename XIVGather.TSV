@@ -1,437 +1,437 @@
-REGULAR_NODE	MapleBranch	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	Latex	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	MapleLog	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	EarthShard	North Shroud	(x28,y26)		5	Mature Tree
-REGULAR_NODE	BeehiveChip	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	Cinnamon	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	MapleSap	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	EarthShard	North Shroud	(x25,y27)		5	Mature Tree
-REGULAR_NODE	AllaganSnail	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	MapleBranch	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	Latex	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	MapleLog	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	IceShard	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	WindShard	Central Shroud	(x23,y18)		5	Mature Tree
-REGULAR_NODE	CockFeather	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	Cloves	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	LightningShard	Central Thanalan	(x22,y26)		10	Mature Tree
-REGULAR_NODE	CrowFeather	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	AshBranch	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	AshLog	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	TinolqaMistletoe	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	WindShard	Central Shroud	(x25,y20)		10	Mature Tree
-REGULAR_NODE	AshBranch	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	AshLog	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	TinolqaMistletoe	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	EarthShard	North Shroud	(x27,y24)		10	Mature Tree
-REGULAR_NODE	KukuruBean	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	LaNosceanOrange	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	EarthShard	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	LaNosceanOrangeSeeds(Hidden)	Lower La Noscea	(x32,y16)		10	Mature Tree
-REGULAR_NODE	BuffaloBeans	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	Marjoram	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	TreeToad	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	Humus	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	WindShard	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	Maple Branch	North Shroud	(x28,y26)		5	Mature Tree
+REGULAR_NODE	 Latex	North Shroud	(x28,y26)		5	Mature Tree
+REGULAR_NODE	 Maple Log	North Shroud	(x28,y26)		5	Mature Tree
+REGULAR_NODE	 Earth Shard	North Shroud	(x28,y26)		5	Mature Tree
+REGULAR_NODE	Beehive Chip	North Shroud	(x25,y27)		5	Mature Tree
+REGULAR_NODE	 Cinnamon	North Shroud	(x25,y27)		5	Mature Tree
+REGULAR_NODE	 Maple Sap	North Shroud	(x25,y27)		5	Mature Tree
+REGULAR_NODE	 Earth Shard	North Shroud	(x25,y27)		5	Mature Tree
+REGULAR_NODE	Allagan Snail	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	 Maple Branch	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	 Latex	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	 Maple Log	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	 Ice Shard	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	 Wind Shard	Central Shroud	(x23,y18)		5	Mature Tree
+REGULAR_NODE	Cock Feather	Central Thanalan	(x22,y26)		10	Mature Tree
+REGULAR_NODE	 Cloves	Central Thanalan	(x22,y26)		10	Mature Tree
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x22,y26)		10	Mature Tree
+REGULAR_NODE	Crow Feather	Central Shroud	(x25,y20)		10	Mature Tree
+REGULAR_NODE	 Ash Branch	Central Shroud	(x25,y20)		10	Mature Tree
+REGULAR_NODE	 Ash Log	Central Shroud	(x25,y20)		10	Mature Tree
+REGULAR_NODE	 Tinolqa Mistletoe	Central Shroud	(x25,y20)		10	Mature Tree
+REGULAR_NODE	 Wind Shard	Central Shroud	(x25,y20)		10	Mature Tree
+REGULAR_NODE	Ash Branch	North Shroud	(x27,y24)		10	Mature Tree
+REGULAR_NODE	 Ash Log	North Shroud	(x27,y24)		10	Mature Tree
+REGULAR_NODE	 Tinolqa Mistletoe	North Shroud	(x27,y24)		10	Mature Tree
+REGULAR_NODE	 Earth Shard	North Shroud	(x27,y24)		10	Mature Tree
+REGULAR_NODE	Kukuru Bean	Lower La Noscea	(x32,y16)		10	Mature Tree
+REGULAR_NODE	 La Noscean Orange	Lower La Noscea	(x32,y16)		10	Mature Tree
+REGULAR_NODE	 Earth Shard	Lower La Noscea	(x32,y16)		10	Mature Tree
+REGULAR_NODE	 La Noscean Orange Seeds (Hidden)	Lower La Noscea	(x32,y16)		10	Mature Tree
+REGULAR_NODE	Buffalo Beans	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Marjoram	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Tree Toad	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Humus	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Wind Shard	Central Shroud	(x18,y19)		15	Lush Vegetation Patch
 REGULAR_NODE	Carnation	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	CottonBoll	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	Lavender	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	Chanterelle	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	WindShard	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	LavenderSeeds(Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	WindlightSeeds(Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
-REGULAR_NODE	RubyTomato	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	SunsetWheat	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	Straw	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	LaNosceanLettuce	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	FireShard	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	LaNosceanLettuceSeeds(Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	FirelightSeeds(Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
-REGULAR_NODE	BlackPepper	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	YellowGinseng	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	AlpineParsnip	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	LightningShard	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	BlackPepperSeeds(Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	LevinlightSeeds(Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
-REGULAR_NODE	GridanianChestnut	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	ElmLog	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	WindShard	Central Shroud	(x20,y20)		15	Mature Tree
-REGULAR_NODE	CinderfootOlive	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	LowlandGrapes	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	CieldalaesSpinach	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	HighlandParsley	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	EarthShard	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	LowlandGrapeSeeds(Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	OliveSeeds(Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
-REGULAR_NODE	EarthlightSeeds(Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Cotton Boll	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	 Lavender	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	 Chanterelle	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	 Wind Shard	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	 Lavender Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	 Windlight Seeds (Hidden)	Central Shroud	(x22,y24)		15	Lush Vegetation Patch
+REGULAR_NODE	Ruby Tomato	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Sunset Wheat	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Straw	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 La Noscean Lettuce	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Fire Shard	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 La Noscean Lettuce Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	 Firelight Seeds (Hidden)	Middle La Noscea	(x22,y19)		15	Lush Vegetation Patch
+REGULAR_NODE	Black Pepper	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	 Yellow Ginseng	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	 Alpine Parsnip	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	 Black Pepper Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	 Levinlight Seeds (Hidden)	Central Thanalan	(x25,y20)		15	Lush Vegetation Patch
+REGULAR_NODE	Gridanian Chestnut	Central Shroud	(x20,y20)		15	Mature Tree
+REGULAR_NODE	 Elm Log	Central Shroud	(x20,y20)		15	Mature Tree
+REGULAR_NODE	 Wind Shard	Central Shroud	(x20,y20)		15	Mature Tree
+REGULAR_NODE	Cinderfoot Olive	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Lowland Grapes	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Cieldalaes Spinach	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Highland Parsley	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Earth Shard	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Lowland Grape Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Olive Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
+REGULAR_NODE	 Earthlight Seeds (Hidden)	Lower La Noscea	(x26,y22)		15	Lush Vegetation Patch
 REGULAR_NODE	Rye	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	MokoGrass	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	CoerthanCarrot	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	GrassViper	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	WaterShard	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	CoerthanCarrotSeeds(Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	WaterlightSeeds(Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
-REGULAR_NODE	OgrePumpkin	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	GarleanGarlic	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	WildOnion	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	WaterShard	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	GarlicCloves(Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
-REGULAR_NODE	WildOnionSet(Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Moko Grass	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	 Coerthan Carrot	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	 Grass Viper	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	 Coerthan Carrot Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	 Waterlight Seeds (Hidden)	Western Thanalan	(x23,y18)		15	Lush Vegetation Patch
+REGULAR_NODE	Ogre Pumpkin	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Garlean Garlic	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Wild Onion	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Garlic Cloves (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
+REGULAR_NODE	 Wild Onion Set (Hidden)	Western Thanalan	(x23,y23)		15	Lush Vegetation Patch
 REGULAR_NODE	Nopales	Central Thanalan	(x21,y20)		20	Mature Tree
-REGULAR_NODE	LightningShard	Central Thanalan	(x21,y20)		20	Mature Tree
-REGULAR_NODE	Grade1CarbonizedMatter	Western La Noscea	(x26,y23)		20	Mature Tree
-REGULAR_NODE	IceShard	Western La Noscea	(x26,y23)		20	Mature Tree
-REGULAR_NODE	SunLemon	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	EarthShard	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	SunLemonSeeds(Hidden)	Lower La Noscea	(x34,y17)		20	Mature Tree
-REGULAR_NODE	LalafellinLentil	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	IslandSeedling	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	Paprika	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	IceShard	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	PaprikaSeeds(Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	IcelightSeeds(Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x21,y20)		20	Mature Tree
+REGULAR_NODE	Grade 1 Carbonized Matter	Western La Noscea	(x26,y23)		20	Mature Tree
+REGULAR_NODE	 Ice Shard	Western La Noscea	(x26,y23)		20	Mature Tree
+REGULAR_NODE	Sun Lemon	Lower La Noscea	(x34,y17)		20	Mature Tree
+REGULAR_NODE	 Earth Shard	Lower La Noscea	(x34,y17)		20	Mature Tree
+REGULAR_NODE	 Sun Lemon Seeds (Hidden)	Lower La Noscea	(x34,y17)		20	Mature Tree
+REGULAR_NODE	Lalafellin Lentil	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Island Seedling	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Paprika	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Ice Shard	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Paprika Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Icelight Seeds (Hidden)	Western La Noscea	(x31,y28)		20	Lush Vegetation Patch
 REGULAR_NODE	Popoto	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	WhiteScorpion	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	DesertSeedling	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	FireShard	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	PopotoSet(Hidden)	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
-REGULAR_NODE	GalagoMint	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	Belladonna	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	GilBun	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	ShroudSeedling	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	WindShard	East Shroud	(x18,y28)		20	Lush Vegetation Patch
-REGULAR_NODE	FaerieApple	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	YewBranch	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	YewLog	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	WindShard	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	FaerieAppleSeeds(Hidden)	East Shroud	(x15,y27)		20	Mature Tree
-REGULAR_NODE	GridanianWalnut	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	WalnutLog	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	Matron'sMistletoe	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	IceShard	South Shroud	(x23,y21)		25	Mature Tree
-REGULAR_NODE	AlaMhiganMustard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	PearlGinger	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	Millioncorn	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	ButtonMushroom	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	FireShard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	AlaMhiganMustardSeeds(Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	PearlGingerRoot(Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	MillioncornSeeds(Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
-REGULAR_NODE	NobleGrapes	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	PixiePlums	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	StickyRice	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	Chamomile	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	EarthShard	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	PixiePlumSeeds(Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	ChamomileSeeds(Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
-REGULAR_NODE	GreyPigment	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	IceShard	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	IceCrystal	South Shroud	(x16,y21)		30	Mature Tree
-REGULAR_NODE	YellowPigment	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	BrownPigment	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	EarthShard	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	EarthCrystal	North Shroud	(x27,y22)		30	Mature Tree
-REGULAR_NODE	GreenPigment	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	WindShard	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	WindCrystal	Central Shroud	(x24,y30)		30	Mature Tree
-REGULAR_NODE	PurplePigment	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	LightningShard	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	LightningCrystal	Central Thanalan	(x24,y31)		30	Mature Tree
-REGULAR_NODE	RedPigment	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	FireShard	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	FireCrystal	Middle La Noscea	(x16,y13)		30	Mature Tree
-REGULAR_NODE	BluePigment	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	WaterShard	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	WaterCrystal	Eastern La Noscea	(x28,y33)		30	Mature Tree
-REGULAR_NODE	ChocoboFeather	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	AlligatorPear	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	IceShard	South Shroud	(x26,y19)		30	Mature Tree
-REGULAR_NODE	MoorLeech	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	WizardEggplant	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	JadePeas	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	MidlandCabbage	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	EarthShard	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	WizardEggplantSeeds(Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	MidlandCabbageSeeds(Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
-REGULAR_NODE	DesertSaffron	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	Laurel	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	Aloe	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	Bloodgrass	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	LightningShard	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	YafaemiWildgrass(Hidden)	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
-REGULAR_NODE	DragonPepper	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	MidlandBasil	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	Mandrake	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	SaltLeek	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	WaterShard	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	MidlandBasilSeeds(Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	MandrakeSeeds(Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
-REGULAR_NODE	WildfowlFeather	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	Flax	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	WhiteTruffle	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	IceShard	South Shroud	(x17,y28)		35	Lush Vegetation Patch
-REGULAR_NODE	Linseed(Hidden)	South Shroud	(x17,y28)		35	Lush Vegetation Patch
+REGULAR_NODE	 White Scorpion	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
+REGULAR_NODE	 Desert Seedling	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
+REGULAR_NODE	 Popoto Set (Hidden)	Eastern Thanalan	(x16,y27)		20	Lush Vegetation Patch
+REGULAR_NODE	Galago Mint	East Shroud	(x18,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Belladonna	East Shroud	(x18,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Gil Bun	East Shroud	(x18,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Shroud Seedling	East Shroud	(x18,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	 Wind Shard	East Shroud	(x18,y28)		20	Lush Vegetation Patch
+REGULAR_NODE	Faerie Apple	East Shroud	(x15,y27)		20	Mature Tree
+REGULAR_NODE	 Yew Branch	East Shroud	(x15,y27)		20	Mature Tree
+REGULAR_NODE	 Yew Log	East Shroud	(x15,y27)		20	Mature Tree
+REGULAR_NODE	 Wind Shard	East Shroud	(x15,y27)		20	Mature Tree
+REGULAR_NODE	 Faerie Apple Seeds (Hidden)	East Shroud	(x15,y27)		20	Mature Tree
+REGULAR_NODE	Gridanian Walnut	South Shroud	(x23,y21)		25	Mature Tree
+REGULAR_NODE	 Walnut Log	South Shroud	(x23,y21)		25	Mature Tree
+REGULAR_NODE	 Matron's Mistletoe	South Shroud	(x23,y21)		25	Mature Tree
+REGULAR_NODE	 Ice Shard	South Shroud	(x23,y21)		25	Mature Tree
+REGULAR_NODE	Ala Mhigan Mustard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Pearl Ginger	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Millioncorn	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Button Mushroom	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Ala Mhigan Mustard Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Pearl Ginger Root (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	 Millioncorn Seeds (Hidden)	Eastern Thanalan	(x14,y20)		25	Lush Vegetation Patch
+REGULAR_NODE	Noble Grapes	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Pixie Plums	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Sticky Rice	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Chamomile	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Earth Shard	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Pixie Plum Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	 Chamomile Seeds (Hidden)	Upper La Noscea	(x14,y24)		25	Lush Vegetation Patch
+REGULAR_NODE	Grey Pigment	South Shroud	(x16,y21)		30	Mature Tree
+REGULAR_NODE	 Ice Shard	South Shroud	(x16,y21)		30	Mature Tree
+REGULAR_NODE	 Ice Crystal	South Shroud	(x16,y21)		30	Mature Tree
+REGULAR_NODE	Yellow Pigment	North Shroud	(x27,y22)		30	Mature Tree
+REGULAR_NODE	 Brown Pigment	North Shroud	(x27,y22)		30	Mature Tree
+REGULAR_NODE	 Earth Shard	North Shroud	(x27,y22)		30	Mature Tree
+REGULAR_NODE	 Earth Crystal	North Shroud	(x27,y22)		30	Mature Tree
+REGULAR_NODE	Green Pigment	Central Shroud	(x24,y30)		30	Mature Tree
+REGULAR_NODE	 Wind Shard	Central Shroud	(x24,y30)		30	Mature Tree
+REGULAR_NODE	 Wind Crystal	Central Shroud	(x24,y30)		30	Mature Tree
+REGULAR_NODE	Purple Pigment	Central Thanalan	(x24,y31)		30	Mature Tree
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x24,y31)		30	Mature Tree
+REGULAR_NODE	 Lightning Crystal	Central Thanalan	(x24,y31)		30	Mature Tree
+REGULAR_NODE	Red Pigment	Middle La Noscea	(x16,y13)		30	Mature Tree
+REGULAR_NODE	 Fire Shard	Middle La Noscea	(x16,y13)		30	Mature Tree
+REGULAR_NODE	 Fire Crystal	Middle La Noscea	(x16,y13)		30	Mature Tree
+REGULAR_NODE	Blue Pigment	Eastern La Noscea	(x28,y33)		30	Mature Tree
+REGULAR_NODE	 Water Shard	Eastern La Noscea	(x28,y33)		30	Mature Tree
+REGULAR_NODE	 Water Crystal	Eastern La Noscea	(x28,y33)		30	Mature Tree
+REGULAR_NODE	Chocobo Feather	South Shroud	(x26,y19)		30	Mature Tree
+REGULAR_NODE	 Alligator Pear	South Shroud	(x26,y19)		30	Mature Tree
+REGULAR_NODE	 Ice Shard	South Shroud	(x26,y19)		30	Mature Tree
+REGULAR_NODE	Moor Leech	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Wizard Eggplant	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Jade Peas	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Midland Cabbage	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Earth Shard	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Wizard Eggplant Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	 Midland Cabbage Seeds (Hidden)	North Shroud	(x22,y25)		30	Lush Vegetation Patch
+REGULAR_NODE	Desert Saffron	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	 Laurel	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	 Aloe	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	 Bloodgrass	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	 Yafaemi Wildgrass (Hidden)	Southern Thanalan	Little Ala Mhigo (x20,y7)		35	Lush Vegetation Patch
+REGULAR_NODE	Dragon Pepper	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Midland Basil	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Mandrake	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Salt Leek	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Water Shard	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Midland Basil Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Mandrake Seeds (Hidden	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	 Rare)	Eastern La Noscea	Costa Del Sol (x26,y30)		35	Lush Vegetation Patch
+REGULAR_NODE	Wildfowl Feather	South Shroud	(x17,y28)		35	Lush Vegetation Patch
+REGULAR_NODE	 Flax	South Shroud	(x17,y28)		35	Lush Vegetation Patch
+REGULAR_NODE	 White Truffle	South Shroud	(x17,y28)		35	Lush Vegetation Patch
+REGULAR_NODE	 Ice Shard	South Shroud	(x17,y28)		35	Lush Vegetation Patch
+REGULAR_NODE	 Linseed (Hidden)	South Shroud	(x17,y28)		35	Lush Vegetation Patch
 REGULAR_NODE	Tarantula	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	OakBranch	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	OakLog	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	IceShard	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
-REGULAR_NODE	IronAcorn	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	Almonds	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	Nutmeg	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	MahoganyLog	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	WaterShard	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	AlmondSeeds(Hidden)	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
-REGULAR_NODE	MaidenArtichoke	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	RamhornZucchini	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	Mugwort	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	WaterShard	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	BloodCurrants	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	Thyme	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	IceShard	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	BloodCurrantSeeds(Hidden)	South Shroud	(x21,y29)		40	Lush Vegetation Patch
-REGULAR_NODE	MirrorApple	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	Mistletoe	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	IceShard	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
-REGULAR_NODE	MirrorAppleSeeds(Hidden)	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
+REGULAR_NODE	 Oak Branch	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
+REGULAR_NODE	 Oak Log	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
+REGULAR_NODE	 Ice Shard	South Shroud	Camp Tranquil (x16,y30)		35	Mature Tree
+REGULAR_NODE	Iron Acorn	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	 Almonds	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	 Nutmeg	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	 Mahogany Log	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	 Water Shard	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	 Almond Seeds (Hidden)	Eastern La Noscea	Wineport (x19,y25)		40	Mature Tree
+REGULAR_NODE	Maiden Artichoke	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Ramhorn Zucchini	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Mugwort	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Water Shard	Eastern La Noscea	Wineport (x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	Blood Currants	South Shroud	(x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Thyme	South Shroud	(x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Ice Shard	South Shroud	(x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	 Blood Currant Seeds (Hidden)	South Shroud	(x21,y29)		40	Lush Vegetation Patch
+REGULAR_NODE	Mirror Apple	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
+REGULAR_NODE	 Mistletoe	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
+REGULAR_NODE	 Ice Shard	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
+REGULAR_NODE	 Mirror Apple Seeds (Hidden)	Coerthas Central Highlands	(x23,y17)		45	Mature Tree
 REGULAR_NODE	Rolanberry	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	SagoliiSage	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	DartFrog	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	BlackScorpion	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	EarthShard	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	RolanberrySeeds(Hidden)	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
-REGULAR_NODE	RosewoodLog	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	RosewoodBranch	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	WindShard	East Shroud	(x16,y23)		50	Mature Tree
-REGULAR_NODE	ThanalanTeaLeaves	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	LavaToad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	MaidenGrass	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	LightningShard	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	Eastern La Noscea	(x17,y32)		50	Mature Tree
-REGULAR_NODE	WaterShard	Eastern La Noscea	(x17,y32)		50	Mature Tree
-REGULAR_NODE	LightningCrystal	Central Thanalan	(x29,y19)		50	Mature Tree
-REGULAR_NODE	LightningShard	Central Thanalan	(x29,y19)		50	Mature Tree
-REGULAR_NODE	FireCrystal	Middle La Noscea	(x19,y21)		50	Mature Tree
-REGULAR_NODE	FireShard	Middle La Noscea	(x19,y21)		50	Mature Tree
-REGULAR_NODE	CedarBranch	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	CedarLog	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
-REGULAR_NODE	RainbowCottonBoll	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	MistDill	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
-REGULAR_NODE	CyclopsOnion(Hidden)	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	HighlandWheat	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	StalkofRamie	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
-REGULAR_NODE	DarkChestnut	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	DarkChestnutBranch	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	FireCrystal	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	DarkChestnutLog	The Dravanian Forelands	(x25,y25)		55	Mature Tree
-REGULAR_NODE	EarthCrystal	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	EmeraldBeans(Hidden)	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	MagmaBeet	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
-REGULAR_NODE	BirchLog(Hidden)	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	BirchBranch	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	WaterCrystal	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	BirchSap	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	CloudMushroom	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	WindWidow	The Sea of Clouds	(x25,y34)		60	Mature Tree
-REGULAR_NODE	CamphorwoodLog	The Churning Mists	(x31,y30)		60	Mature Tree
-REGULAR_NODE	CamphorwoodBranch	The Churning Mists	(x31,y30)		60	Mature Tree
-REGULAR_NODE	EarthCrystal	The Churning Mists	(x31,y30)		60	Mature Tree
+REGULAR_NODE	 Sagolii Sage	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
+REGULAR_NODE	 Dart Frog	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
+REGULAR_NODE	 Black Scorpion	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
+REGULAR_NODE	 Earth Shard	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
+REGULAR_NODE	 Rolanberry Seeds (Hidden)	Upper La Noscea	(x35,y24)		45	Lush Vegetation Patch
+REGULAR_NODE	Rosewood Log	East Shroud	(x16,y23)		50	Mature Tree
+REGULAR_NODE	 Rosewood Branch	East Shroud	(x16,y23)		50	Mature Tree
+REGULAR_NODE	 Wind Shard	East Shroud	(x16,y23)		50	Mature Tree
+REGULAR_NODE	Thanalan Tea Leaves	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
+REGULAR_NODE	 Lava Toad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
+REGULAR_NODE	 Maiden Grass	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch
+REGULAR_NODE	Water Crystal	Eastern La Noscea	(x17,y32)		50	Mature Tree
+REGULAR_NODE	 Water Shard	Eastern La Noscea	(x17,y32)		50	Mature Tree
+REGULAR_NODE	Lightning Crystal	Central Thanalan	(x29,y19)		50	Mature Tree
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x29,y19)		50	Mature Tree
+REGULAR_NODE	Fire Crystal	Middle La Noscea	(x19,y21)		50	Mature Tree
+REGULAR_NODE	 Fire Shard	Middle La Noscea	(x19,y21)		50	Mature Tree
+REGULAR_NODE	Cedar Branch	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
+REGULAR_NODE	 Cedar Log	Coerthas Western Highlands	(x30,y32)		50	Mature Tree
+REGULAR_NODE	Rainbow Cotton Boll	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
+REGULAR_NODE	 Mist Dill	Coerthas Western Highlands	(x17,y16)		55	Lush Vegetation Patch
+REGULAR_NODE	Cyclops Onion (Hidden)	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
+REGULAR_NODE	 Highland Wheat	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
+REGULAR_NODE	 Stalk of Ramie	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x36,y20)		55	Lush Vegetation Patch
+REGULAR_NODE	Dark Chestnut	The Dravanian Forelands	(x25,y25)		55	Mature Tree
+REGULAR_NODE	 Dark Chestnut Branch	The Dravanian Forelands	(x25,y25)		55	Mature Tree
+REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x25,y25)		55	Mature Tree
+REGULAR_NODE	 Dark Chestnut Log	The Dravanian Forelands	(x25,y25)		55	Mature Tree
+REGULAR_NODE	Earth Crystal	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
+REGULAR_NODE	 Emerald Beans (Hidden)	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
+REGULAR_NODE	 Magma Beet	The Churning Mists	(x20,y21)		55	Lush Vegetation Patch
+REGULAR_NODE	Birch Log (Hidden)	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	 Birch Branch	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	 Water Crystal	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	 Birch Sap	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	 Cloud Mushroom	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	 Wind Widow	The Sea of Clouds	(x25,y34)		60	Mature Tree
+REGULAR_NODE	Camphorwood Log	The Churning Mists	(x31,y30)		60	Mature Tree
+REGULAR_NODE	 Camphorwood Branch	The Churning Mists	(x31,y30)		60	Mature Tree
+REGULAR_NODE	 Earth Crystal	The Churning Mists	(x31,y30)		60	Mature Tree
 REGULAR_NODE	Coneflower	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	Periwinkle	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	RainbowPigment	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
+REGULAR_NODE	 Periwinkle	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
+REGULAR_NODE	 Rainbow Pigment	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x10,y33)		60	Lush Vegetation Patch
 REGULAR_NODE	Rue	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	Coriander	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
-REGULAR_NODE	WhitefrostCottonBoll	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
+REGULAR_NODE	 Coriander	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
+REGULAR_NODE	 Whitefrost Cotton Boll	Coerthas Western Highlands	(x12,y14)		60	Lush Vegetation Patch
 REGULAR_NODE	Dandelion	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch
-REGULAR_NODE	EarthCrystal	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch
-REGULAR_NODE	SesameSeeds	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
-REGULAR_NODE	CowBitter	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	Periwinkle	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	DatedRadz-at-HanCoin	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	Gaelicatnip	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
-REGULAR_NODE	WindCrystal	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	The Churning Mists	(x20,y31)		60	Lush Vegetation Patch
+REGULAR_NODE	Sesame Seeds	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Sea of Clouds	(x23,y10)		60	Lush Vegetation Patch
+REGULAR_NODE	Cow Bitter	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
+REGULAR_NODE	 Periwinkle	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
+REGULAR_NODE	 Dated Radz-at-Han Coin	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
+REGULAR_NODE	 Gaelicatnip	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
+REGULAR_NODE	 Wind Crystal	The Dravanian Hinterlands	(x14,y19)		60	Lush Vegetation Patch
 REGULAR_NODE	Bloodhemp	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	GyrAbanianWheat	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	StarcrackSand	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	CotterDynastyRelic	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	The Fringes	(x16,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	YellowKudzuRoot(Lvl60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	PeaksPigment(Lvl60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Peaks	(x13,y7)		60	Lush Vegetation Patch
-REGULAR_NODE	ShishuKoban	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
-REGULAR_NODE	DryBranch	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeVine	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeRattanLumber	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	AzimStrawberry(Lvl60beasttribequest)	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	GrazingGrass	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	DuskglowCocoon(Lvl60beasttribequest)	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	VerdantBranch	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeTeaLeaves	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeSafflowers	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	FavaBeans	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeRadish	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	SteppeOnion	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
-REGULAR_NODE	BeechLog	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	Loquat	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	FireCrystal	The Fringes	(x10,y16)		65	Mature Tree
-REGULAR_NODE	KudzuRoot	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	KudzuVine	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	HolyBasil	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	WildPopoto	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	HarpoonHead	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	The Fringes	(x11,y26)		65	Lush Vegetation Patch
-REGULAR_NODE	PhialofThermalFluid	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	BuckwheatKernels	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	SugarBeet	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	GreenLeek	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	MountainPopoto	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	PinchofActiveIngredients	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Peaks	(x13,y11)		65	Lush Vegetation Patch
-REGULAR_NODE	GemAlgae	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	RubyCottonBoll	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	AmaNori	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	ShisuiJewel	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
+REGULAR_NODE	 Gyr Abanian Wheat	The Fringes	(x16,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	 Starcrack Sand	The Fringes	(x16,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	 Cotter Dynasty Relic	The Fringes	(x16,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	The Fringes	(x16,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	Yellow Kudzu Root (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	 Peaks Pigment (Lvl 60★)	The Peaks	(x13,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Peaks	(x13,y7)		60	Lush Vegetation Patch
+REGULAR_NODE	Shishu Koban	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x37,y18)		60	Lush Vegetation Patch
+REGULAR_NODE	Dry Branch	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Steppe Vine	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Steppe Rattan Lumber	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Azim Strawberry (Lvl 60 beast tribe quest)	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x10,y13)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	Grazing Grass	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Duskglow Cocoon (Lvl 60 beast tribe quest)	The Azim Steppe	(x24,y20)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	Verdant Branch	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Steppe Tea Leaves	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x20,14)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	Steppe Safflowers	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Fava Beans	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Steppe Radish	The Azim Steppe	(x33,12)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	Lightning Crystal	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	 Steppe Onion	The Azim Steppe	(x33,32)	Namazu Beast Tribe Required	60	Lush Vegetation Patch
+REGULAR_NODE	Beech Log	The Fringes	(x10,y16)		65	Mature Tree
+REGULAR_NODE	 Loquat	The Fringes	(x10,y16)		65	Mature Tree
+REGULAR_NODE	 Fire Crystal	The Fringes	(x10,y16)		65	Mature Tree
+REGULAR_NODE	Kudzu Root	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	 Kudzu Vine	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	 Holy Basil	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	 Wild Popoto	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	 Harpoon Head	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	The Fringes	(x11,y26)		65	Lush Vegetation Patch
+REGULAR_NODE	Phial of Thermal Fluid	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x32,y15)		65	Lush Vegetation Patch
+REGULAR_NODE	Buckwheat Kernels	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	 Sugar Beet	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	 Green Leek	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	 Mountain Popoto	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	 Pinch of Active Ingredients	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Peaks	(x13,y11)		65	Lush Vegetation Patch
+REGULAR_NODE	Gem Algae	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
+REGULAR_NODE	 Ruby Cotton Boll	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
+REGULAR_NODE	 Ama Nori	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
+REGULAR_NODE	 Shisui Jewel	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x26,y19)		65	Lush Vegetation Patch
 REGULAR_NODE	Soybeans	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	CuminSeeds	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	Walker'sPopoto(lvl65quest)	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
-REGULAR_NODE	CloudkinFeather	The Churning Mists	(x8,y15)		65	Lush Vegetation Patch
-REGULAR_NODE	ShiitakeMushroom	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	LarchLog	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	Sparkstone	The Ruby Sea	(x20,y9)		65	Mature Tree
-REGULAR_NODE	PineResin	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	PineLog	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	WindCrystal	Yanxia	(x36,y15)		65	Mature Tree
-REGULAR_NODE	MalleableStillMaterial	Yanxia	(x36,y15)		65	Mature Tree
+REGULAR_NODE	 Cumin Seeds	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
+REGULAR_NODE	 Walker's Popoto (lvl 65 quest)	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x7,y8)		65	Lush Vegetation Patch
+REGULAR_NODE	Cloudkin Feather	The Churning Mists	(x8,y15)		65	Lush Vegetation Patch
+REGULAR_NODE	Shiitake Mushroom	The Ruby Sea	(x20,y9)		65	Mature Tree
+REGULAR_NODE	 Larch Log	The Ruby Sea	(x20,y9)		65	Mature Tree
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x20,y9)		65	Mature Tree
+REGULAR_NODE	 Sparkstone	The Ruby Sea	(x20,y9)		65	Mature Tree
+REGULAR_NODE	Pine Resin	Yanxia	(x36,y15)		65	Mature Tree
+REGULAR_NODE	 Pine Log	Yanxia	(x36,y15)		65	Mature Tree
+REGULAR_NODE	 Wind Crystal	Yanxia	(x36,y15)		65	Mature Tree
+REGULAR_NODE	 Malleable Still Material	Yanxia	(x36,y15)		65	Mature Tree
 REGULAR_NODE	Persimmon	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	PersimmonLeaf	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	PersimmonLog	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	FireCrystal	The Fringes	(x10,y30)		70	Mature Tree
-REGULAR_NODE	RubyTideKelp	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
-REGULAR_NODE	Nanoriso(lvl68quest)	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
+REGULAR_NODE	 Persimmon Leaf	The Fringes	(x10,y30)		70	Mature Tree
+REGULAR_NODE	 Persimmon Log	The Fringes	(x10,y30)		70	Mature Tree
+REGULAR_NODE	 Fire Crystal	The Fringes	(x10,y30)		70	Mature Tree
+REGULAR_NODE	Ruby Tide Kelp	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
+REGULAR_NODE	 Nanoriso (lvl 68 quest)	The Ruby Sea	(x11,y13)		70	Lush Vegetation Patch
 REGULAR_NODE	Nipplewort	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	EarthCrystal	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	SunCabbage	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	Fennel	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	Chickweed	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	StrongSteppeSpice	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
-REGULAR_NODE	DomanEggplant	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	WindCrystal	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	YanxianParsley	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	NagxianCudweed	Yanxia	(x22,y10)		70	Lush Vegetation Patch
-REGULAR_NODE	DaikonRadish	Yanxia	(x22,y10)		70	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
+REGULAR_NODE	 Sun Cabbage	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
+REGULAR_NODE	 Fennel	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
+REGULAR_NODE	 Chickweed	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
+REGULAR_NODE	 Strong Steppe Spice	The Azim Steppe	(x14,y26)		70	Lush Vegetation Patch
+REGULAR_NODE	Doman Eggplant	Yanxia	(x22,y10)		70	Lush Vegetation Patch
+REGULAR_NODE	 Wind Crystal	Yanxia	(x22,y10)		70	Lush Vegetation Patch
+REGULAR_NODE	 Yanxian Parsley	Yanxia	(x22,y10)		70	Lush Vegetation Patch
+REGULAR_NODE	 Nagxian Cudweed	Yanxia	(x22,y10)		70	Lush Vegetation Patch
+REGULAR_NODE	 Daikon Radish	Yanxia	(x22,y10)		70	Lush Vegetation Patch
 REGULAR_NODE	Alyssum	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	GyrAbanianCarrot	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	Twincoon	The Peaks	(x26,y27)		70	Lush Vegetation Patch
-REGULAR_NODE	ZelkovaLog	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	IceCrystal	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	HardPlaceFurnishingMaterials	The Lochs	(x26,y9)		70	Mature Tree
-REGULAR_NODE	NightPepper	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
-REGULAR_NODE	AnimalTrace(FacetofGatheringDelivery)	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	The Peaks	(x26,y27)		70	Lush Vegetation Patch
+REGULAR_NODE	 Gyr Abanian Carrot	The Peaks	(x26,y27)		70	Lush Vegetation Patch
+REGULAR_NODE	 Twincoon	The Peaks	(x26,y27)		70	Lush Vegetation Patch
+REGULAR_NODE	Zelkova Log	The Lochs	(x26,y9)		70	Mature Tree
+REGULAR_NODE	 Ice Crystal	The Lochs	(x26,y9)		70	Mature Tree
+REGULAR_NODE	 Hard Place Furnishing Materials	The Lochs	(x26,y9)		70	Mature Tree
+REGULAR_NODE	Night Pepper	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
+REGULAR_NODE	 Animal Trace (Facet of Gathering Delivery)	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	Amh Araeng	(x31,y15)		70	Lush Vegetation Patch
 REGULAR_NODE	Frantoio	Lakeland	(x36,y24)		75	Mature Tree
-REGULAR_NODE	EarthCrystal	Lakeland	(x36,y24)		75	Mature Tree
-REGULAR_NODE	BrightFlax	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	PurpleCarrot	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	AnimalDroppings(FacetofGatheringDelivery)	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	EarthCrystal	Lakeland	(x16,y23)		75	Lush Vegetation Patch
-REGULAR_NODE	WhiteOakLog	Kholusia	(x27,y22)		75	Mature Tree
-REGULAR_NODE	IceCrystal	Kholusia	(x27,y22)		75	Mature Tree
-REGULAR_NODE	UplandWheat	Kholusia	(x16,y36)		75	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Kholusia	(x16,y36)		75	Lush Vegetation Patch
-REGULAR_NODE	PixieApple	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	MiracleAppleLog	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	WaterCrystal	Il Mheg	(x30,y5)		75	Mature Tree
-REGULAR_NODE	BloodTomato	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	GardenBeet	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	IridescentCocoon	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	CurlyParsley	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	AncientAnimalSkin(FacetofGatheringDelivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	MegafaunaLeftovers(FacetofGatheringDelivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
-REGULAR_NODE	GianthiveChip	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	WhiteAshLog	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	WindCrystal	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
-REGULAR_NODE	RoyalGrapes	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	PixieFlossBoll	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	CreamtopMushroom	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	WindCrystal	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
-REGULAR_NODE	LightGerbera	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	LimeBasil	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	TigerLily	Lakeland	(x23,y34)		80	Lush Vegetation Patch
-REGULAR_NODE	EarthCrystal	Lakeland	(x23,y34)		80	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	Lakeland	(x36,y24)		75	Mature Tree
+REGULAR_NODE	Bright Flax	Lakeland	(x16,y23)		75	Lush Vegetation Patch
+REGULAR_NODE	 Purple Carrot	Lakeland	(x16,y23)		75	Lush Vegetation Patch
+REGULAR_NODE	 Animal Droppings (Facet of Gathering Delivery)	Lakeland	(x16,y23)		75	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	Lakeland	(x16,y23)		75	Lush Vegetation Patch
+REGULAR_NODE	White Oak Log	Kholusia	(x27,y22)		75	Mature Tree
+REGULAR_NODE	 Ice Crystal	Kholusia	(x27,y22)		75	Mature Tree
+REGULAR_NODE	Upland Wheat	Kholusia	(x16,y36)		75	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Kholusia	(x16,y36)		75	Lush Vegetation Patch
+REGULAR_NODE	Pixie Apple	Il Mheg	(x30,y5)		75	Mature Tree
+REGULAR_NODE	 Miracle Apple Log	Il Mheg	(x30,y5)		75	Mature Tree
+REGULAR_NODE	 Water Crystal	Il Mheg	(x30,y5)		75	Mature Tree
+REGULAR_NODE	Blood Tomato	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Garden Beet	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Iridescent Cocoon	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Curly Parsley	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Ancient Animal Skin (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Megafauna Leftovers (Facet of Gathering Delivery)	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	Il Mheg	(x11,y24)		75	Lush Vegetation Patch
+REGULAR_NODE	Gianthive Chip	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
+REGULAR_NODE	 White Ash Log	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
+REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x12,y20)		75	Mature Tree
+REGULAR_NODE	Royal Grapes	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
+REGULAR_NODE	 Pixie Floss Boll	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
+REGULAR_NODE	 Creamtop Mushroom	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
+REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x16,y29)		75	Lush Vegetation Patch
+REGULAR_NODE	Light Gerbera	Lakeland	(x23,y34)		80	Lush Vegetation Patch
+REGULAR_NODE	 Lime Basil	Lakeland	(x23,y34)		80	Lush Vegetation Patch
+REGULAR_NODE	 Tiger Lily	Lakeland	(x23,y34)		80	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	Lakeland	(x23,y34)		80	Lush Vegetation Patch
 REGULAR_NODE	Harcot	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	LignumVitaeLog	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	EarthCrystal	Lakeland	(x8,y9)		80	Mature Tree
-REGULAR_NODE	BlackAethersand	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	BombaRice	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	CoffeeBeans	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	DwarvenCottonBoll	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Kholusia	(x12,y14)		80	Lush Vegetation Patch
-REGULAR_NODE	AmberCloves	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	SandteakLog	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	FireCrystal	Amh Araeng	(x15,y30)		80	Mature Tree
-REGULAR_NODE	FernleafLavender	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	MegafaunaTrace(FacetofGatheringDelivery)	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	SweetAlyssum	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	WindCrystal	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
-REGULAR_NODE	DarkHemp	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	DarkRye	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	IcebergLettuce	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	WindCrystal	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
-REGULAR_NODE	HorseChestnutLog	Labyrinthos	(x17, y6)		85	Mature Tree
-REGULAR_NODE	WindCrystal	Labyrinthos	(x17, y6)		85	Mature Tree
+REGULAR_NODE	 Lignum Vitae Log	Lakeland	(x8,y9)		80	Mature Tree
+REGULAR_NODE	 Earth Crystal	Lakeland	(x8,y9)		80	Mature Tree
+REGULAR_NODE	Black Aethersand	Kholusia	(x12,y14)		80	Lush Vegetation Patch
+REGULAR_NODE	 Bomba Rice	Kholusia	(x12,y14)		80	Lush Vegetation Patch
+REGULAR_NODE	 Coffee Beans	Kholusia	(x12,y14)		80	Lush Vegetation Patch
+REGULAR_NODE	 Dwarven Cotton Boll	Kholusia	(x12,y14)		80	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Kholusia	(x12,y14)		80	Lush Vegetation Patch
+REGULAR_NODE	Amber Cloves	Amh Araeng	(x15,y30)		80	Mature Tree
+REGULAR_NODE	 Sandteak Log	Amh Araeng	(x15,y30)		80	Mature Tree
+REGULAR_NODE	 Fire Crystal	Amh Araeng	(x15,y30)		80	Mature Tree
+REGULAR_NODE	Fernleaf Lavender	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
+REGULAR_NODE	 Megafauna Trace (Facet of Gathering Delivery)	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
+REGULAR_NODE	 Sweet Alyssum	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
+REGULAR_NODE	 Wind Crystal	The Rak'tika Greatwood	(x24,y28)		80	Lush Vegetation Patch
+REGULAR_NODE	Dark Hemp	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
+REGULAR_NODE	 Dark Rye	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
+REGULAR_NODE	 Iceberg Lettuce	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
+REGULAR_NODE	 Wind Crystal	Labyrinthos	(x29, y18)		85	Lush Vegetation Patch
+REGULAR_NODE	Horse Chestnut Log	Labyrinthos	(x17, y6)		85	Mature Tree
+REGULAR_NODE	 Wind Crystal	Labyrinthos	(x17, y6)		85	Mature Tree
 REGULAR_NODE	Coconut	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	PalmLog	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	PalmSyrup	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	FireCrystal	Thavnair	(x18, y21)		85	Mature Tree
-REGULAR_NODE	HannishStaple(Level80GatheringQuest)	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	ThavnairianPaprika	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	ThavnairianPerillaLeaf	Thavnair	(x21, y11)		85	Lush Vegetation Patch
-REGULAR_NODE	FireCrystal	Thavnair	(x21, y11)		85	Lush Vegetation Patch
+REGULAR_NODE	 Palm Log	Thavnair	(x18, y21)		85	Mature Tree
+REGULAR_NODE	 Palm Syrup	Thavnair	(x18, y21)		85	Mature Tree
+REGULAR_NODE	 Fire Crystal	Thavnair	(x18, y21)		85	Mature Tree
+REGULAR_NODE	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x21, y11)		85	Lush Vegetation Patch
+REGULAR_NODE	 Thavnairian Paprika	Thavnair	(x21, y11)		85	Lush Vegetation Patch
+REGULAR_NODE	 Thavnairian Perilla Leaf	Thavnair	(x21, y11)		85	Lush Vegetation Patch
+REGULAR_NODE	 Fire Crystal	Thavnair	(x21, y11)		85	Lush Vegetation Patch
 REGULAR_NODE	Beet	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	Cucumber	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	EblanLentils	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	SnowFlax	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	EarthCrystal	Garlemald	(x25, y24)		85	Lush Vegetation Patch
-REGULAR_NODE	GarleanStaple(Level83GatheringQuest)	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	RedPineLog	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	EarthCrystal	Garlemald	(x16, y27)		85	Mature Tree
-REGULAR_NODE	CarrotofHappiness	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
-REGULAR_NODE	LunarStaple(Level85GatheringQuest)	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
-REGULAR_NODE	IceCrystal	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
+REGULAR_NODE	 Cucumber	Garlemald	(x25, y24)		85	Lush Vegetation Patch
+REGULAR_NODE	 Eblan Lentils	Garlemald	(x25, y24)		85	Lush Vegetation Patch
+REGULAR_NODE	 Snow Flax	Garlemald	(x25, y24)		85	Lush Vegetation Patch
+REGULAR_NODE	 Earth Crystal	Garlemald	(x25, y24)		85	Lush Vegetation Patch
+REGULAR_NODE	Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x16, y27)		85	Mature Tree
+REGULAR_NODE	 Red Pine Log	Garlemald	(x16, y27)		85	Mature Tree
+REGULAR_NODE	 Earth Crystal	Garlemald	(x16, y27)		85	Mature Tree
+REGULAR_NODE	Carrot of Happiness	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
+REGULAR_NODE	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
+REGULAR_NODE	 Ice Crystal	Mare Lamentorum	(x34, y28)		85	Lush Vegetation Patch
 REGULAR_NODE	Sykon	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	ElderNutmegSeeds	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	IronwoodLog	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	LightningCrystal	Elpis	(x9,y23)		90	Mature Tree
-REGULAR_NODE	ElpisStaple(Level88GatheringQuest)	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	ScarletMokoGrass	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	GiantPopoto	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	SideritisLeaves	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	LightningCrystal	Elpis	(x21,y24)		90	Lush Vegetation Patch
-REGULAR_NODE	AR-CaeanCottonBoll	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	AlienOnion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
-REGULAR_NODE	IntegralLog	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-REGULAR_NODE	WaterCrystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
+REGULAR_NODE	 Elder Nutmeg Seeds	Elpis	(x9,y23)		90	Mature Tree
+REGULAR_NODE	 Ironwood Log	Elpis	(x9,y23)		90	Mature Tree
+REGULAR_NODE	 Lightning Crystal	Elpis	(x9,y23)		90	Mature Tree
+REGULAR_NODE	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x21,y24)		90	Lush Vegetation Patch
+REGULAR_NODE	 Scarlet Moko Grass	Elpis	(x21,y24)		90	Lush Vegetation Patch
+REGULAR_NODE	 Giant Popoto	Elpis	(x21,y24)		90	Lush Vegetation Patch
+REGULAR_NODE	 Sideritis Leaves	Elpis	(x21,y24)		90	Lush Vegetation Patch
+REGULAR_NODE	 Lightning Crystal	Elpis	(x21,y24)		90	Lush Vegetation Patch
+REGULAR_NODE	AR-Caean Cotton Boll	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
+REGULAR_NODE	 Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
+REGULAR_NODE	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
+REGULAR_NODE	 Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
 UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	1	87	0
 UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	3	90	0
 UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	12:00 AM/PM	2	85	0
@@ -612,312 +612,312 @@ ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		9:00 PM	4	-1	0
 ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		9:00 PM	5	-1	0
 ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		9:00 PM	6	-1	0
 ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	9:00 PM	7	-1	0
-REGULAR_NODE	MuddyWater	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	CopperOre	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	WindShard	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	LightningShard	Central Thanalan	(x18,y25)		5	Mineral Deposit
-REGULAR_NODE	BoneChip	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	WindShard	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	LightningShard	Central Thanalan	(x24,y26)		5	Mineral Deposit
-REGULAR_NODE	MuddyWater	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	CopperOre	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	FireShard	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	WaterShard	Western Thanalan	(x26,y25)		5	Mineral Deposit
-REGULAR_NODE	TinOre	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	ZincOre	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	SoiledFemur	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	LightningShard	Central Thanalan	(x20,y22)		10	Mineral Deposit
-REGULAR_NODE	TinOre	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	ZincOre	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	SoiledFemur	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	Obsidian	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	WaterShard	Western Thanalan	(x22,y28)		10	Mineral Deposit
-REGULAR_NODE	RawSunstone	Lower La Noscea	(x27,y18)		10	Mineral Deposit
-REGULAR_NODE	EarthShard	Lower La Noscea	(x27,y18)		10	Mineral Deposit
-REGULAR_NODE	RawLapisLazuli	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	EarthShard	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	Potter'sClay	North Shroud	(x28,y25)		10	Mineral Deposit
-REGULAR_NODE	RockSalt	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	Ragstone	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	FineSand	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	LightningShard	Central Thanalan	(x14,y23)		15	Rocky Outcrop
-REGULAR_NODE	IronSand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	Cinnabar	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	CopperSand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	WaterShard	Western Thanalan	(x24,y18)		15	Rocky Outcrop
-REGULAR_NODE	IronOre	Western Thanalan	(x27,y17)		15	Mineral Deposit
-REGULAR_NODE	WaterShard	Western Thanalan	(x27,y17)		15	Mineral Deposit
-REGULAR_NODE	RawSphene	North Shroud	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	EarthShard	North Shroud	(x29,y22)		20	Mineral Deposit
+REGULAR_NODE	Muddy Water	Central Thanalan	(x18,y25)		5	Mineral Deposit
+REGULAR_NODE	 Copper Ore	Central Thanalan	(x18,y25)		5	Mineral Deposit
+REGULAR_NODE	 Wind Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit
+REGULAR_NODE	Bone Chip	Central Thanalan	(x24,y26)		5	Mineral Deposit
+REGULAR_NODE	 Wind Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x24,y26)		5	Mineral Deposit
+REGULAR_NODE	Muddy Water	Western Thanalan	(x26,y25)		5	Mineral Deposit
+REGULAR_NODE	 Copper Ore	Western Thanalan	(x26,y25)		5	Mineral Deposit
+REGULAR_NODE	 Fire Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit
+REGULAR_NODE	 Water Shard	Western Thanalan	(x26,y25)		5	Mineral Deposit
+REGULAR_NODE	Tin Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit
+REGULAR_NODE	 Zinc Ore	Central Thanalan	(x20,y22)		10	Mineral Deposit
+REGULAR_NODE	 Soiled Femur	Central Thanalan	(x20,y22)		10	Mineral Deposit
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x20,y22)		10	Mineral Deposit
+REGULAR_NODE	Tin Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit
+REGULAR_NODE	 Zinc Ore	Western Thanalan	(x22,y28)		10	Mineral Deposit
+REGULAR_NODE	 Soiled Femur	Western Thanalan	(x22,y28)		10	Mineral Deposit
+REGULAR_NODE	 Obsidian	Western Thanalan	(x22,y28)		10	Mineral Deposit
+REGULAR_NODE	 Water Shard	Western Thanalan	(x22,y28)		10	Mineral Deposit
+REGULAR_NODE	Raw Sunstone	Lower La Noscea	(x27,y18)		10	Mineral Deposit
+REGULAR_NODE	 Earth Shard	Lower La Noscea	(x27,y18)		10	Mineral Deposit
+REGULAR_NODE	Raw Lapis Lazuli	North Shroud	(x28,y25)		10	Mineral Deposit
+REGULAR_NODE	 Earth Shard	North Shroud	(x28,y25)		10	Mineral Deposit
+REGULAR_NODE	 Potter's Clay	North Shroud	(x28,y25)		10	Mineral Deposit
+REGULAR_NODE	Rock Salt	Central Thanalan	(x14,y23)		15	Rocky Outcrop
+REGULAR_NODE	 Ragstone	Central Thanalan	(x14,y23)		15	Rocky Outcrop
+REGULAR_NODE	 Fine Sand	Central Thanalan	(x14,y23)		15	Rocky Outcrop
+REGULAR_NODE	 Lightning Shard	Central Thanalan	(x14,y23)		15	Rocky Outcrop
+REGULAR_NODE	Iron Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
+REGULAR_NODE	 Cinnabar	Western Thanalan	(x24,y18)		15	Rocky Outcrop
+REGULAR_NODE	 Copper Sand	Western Thanalan	(x24,y18)		15	Rocky Outcrop
+REGULAR_NODE	 Water Shard	Western Thanalan	(x24,y18)		15	Rocky Outcrop
+REGULAR_NODE	Iron Ore	Western Thanalan	(x27,y17)		15	Mineral Deposit
+REGULAR_NODE	 Water Shard	Western Thanalan	(x27,y17)		15	Mineral Deposit
+REGULAR_NODE	Raw Sphene	North Shroud	(x29,y22)		20	Mineral Deposit
+REGULAR_NODE	 Earth Shard	North Shroud	(x29,y22)		20	Mineral Deposit
 REGULAR_NODE	Alumen	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	RawMalachite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	RawFluorite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	FireShard	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
-REGULAR_NODE	SunriseTellin	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	RawDanburite	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	IceShard	Western La Noscea	(x29,y22)		20	Mineral Deposit
-REGULAR_NODE	Grade1CarbonizedMatter	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
-REGULAR_NODE	FireShard	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
+REGULAR_NODE	 Raw Malachite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
+REGULAR_NODE	 Raw Fluorite	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x17,y20)		20	Mineral Deposit
+REGULAR_NODE	Sunrise Tellin	Western La Noscea	(x29,y22)		20	Mineral Deposit
+REGULAR_NODE	 Raw Danburite	Western La Noscea	(x29,y22)		20	Mineral Deposit
+REGULAR_NODE	 Ice Shard	Western La Noscea	(x29,y22)		20	Mineral Deposit
+REGULAR_NODE	Grade 1 Carbonized Matter	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
+REGULAR_NODE	 Fire Shard	Middle La Noscea	(x15,y10)		20	Rocky Outcrop
 REGULAR_NODE	Mudstone	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	IceShard	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	Limestone	Western La Noscea	(x26,y24)		20	Rocky Outcrop
-REGULAR_NODE	FireRock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	WaterRock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	LightningRock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	EarthShard	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
-REGULAR_NODE	SilverSand	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	EarthRock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	IceRock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	WindRock	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	IceShard	South Shroud	(x23,y21)		25	Rocky Outcrop
-REGULAR_NODE	EffervescentWater	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	SilverOre	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	IceShard	South Shroud	(x15,y19)		25	Mineral Deposit
-REGULAR_NODE	RedPigment	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	FireShard	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	FireCrystal	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	Grade1ThanalanTopsoil(Rare)	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
-REGULAR_NODE	BluePigment	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	WaterShard	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	WaterCrystal	Western Thanalan	(x23,y23)		30	Rocky Outcrop
-REGULAR_NODE	GreyPigment	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	IceShard	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	IceCrystal	Western La Noscea	(x31,y28)		30	Rocky Outcrop
-REGULAR_NODE	YellowPigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	BrownPigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	EarthShard	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	EarthCrystal	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	Grade1LaNosceanTopsoil(Rare)	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
-REGULAR_NODE	GreenPigment	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	WindShard	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	WindCrystal	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	Grade1ShroudTopsoil(Rare)	East Shroud	(x20,y27)		30	Rocky Outcrop
-REGULAR_NODE	PurplePigment	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	LightningShard	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
-REGULAR_NODE	WyvernObsidian	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	Saltpeter	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	FireShard	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
-REGULAR_NODE	BombAsh	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
-REGULAR_NODE	Silex	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
-REGULAR_NODE	LightningShard	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
+REGULAR_NODE	 Ice Shard	Western La Noscea	(x26,y24)		20	Rocky Outcrop
+REGULAR_NODE	 Limestone	Western La Noscea	(x26,y24)		20	Rocky Outcrop
+REGULAR_NODE	Fire Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
+REGULAR_NODE	 Water Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
+REGULAR_NODE	 Lightning Rock	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
+REGULAR_NODE	 Earth Shard	Upper La Noscea	(x12,y23)		25	Rocky Outcrop
+REGULAR_NODE	Silver Sand	South Shroud	(x23,y21)		25	Rocky Outcrop
+REGULAR_NODE	 Earth Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
+REGULAR_NODE	 Ice Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
+REGULAR_NODE	 Wind Rock	South Shroud	(x23,y21)		25	Rocky Outcrop
+REGULAR_NODE	 Ice Shard	South Shroud	(x23,y21)		25	Rocky Outcrop
+REGULAR_NODE	Effervescent Water	South Shroud	(x15,y19)		25	Mineral Deposit
+REGULAR_NODE	 Silver Ore	South Shroud	(x15,y19)		25	Mineral Deposit
+REGULAR_NODE	 Ice Shard	South Shroud	(x15,y19)		25	Mineral Deposit
+REGULAR_NODE	Red Pigment	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
+REGULAR_NODE	 Fire Crystal	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
+REGULAR_NODE	 Grade 1 Thanalan Topsoil (Rare)	Eastern Thanalan	(x23,y19)		30	Rocky Outcrop
+REGULAR_NODE	Blue Pigment	Western Thanalan	(x23,y23)		30	Rocky Outcrop
+REGULAR_NODE	 Water Shard	Western Thanalan	(x23,y23)		30	Rocky Outcrop
+REGULAR_NODE	 Water Crystal	Western Thanalan	(x23,y23)		30	Rocky Outcrop
+REGULAR_NODE	Grey Pigment	Western La Noscea	(x31,y28)		30	Rocky Outcrop
+REGULAR_NODE	 Ice Shard	Western La Noscea	(x31,y28)		30	Rocky Outcrop
+REGULAR_NODE	 Ice Crystal	Western La Noscea	(x31,y28)		30	Rocky Outcrop
+REGULAR_NODE	Yellow Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
+REGULAR_NODE	 Brown Pigment	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
+REGULAR_NODE	 Earth Shard	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
+REGULAR_NODE	 Earth Crystal	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
+REGULAR_NODE	 Grade 1 La Noscean Topsoil (Rare)	Lower La Noscea	(x26,y15)		30	Rocky Outcrop
+REGULAR_NODE	Green Pigment	East Shroud	(x20,y27)		30	Rocky Outcrop
+REGULAR_NODE	 Wind Shard	East Shroud	(x20,y27)		30	Rocky Outcrop
+REGULAR_NODE	 Wind Crystal	East Shroud	(x20,y27)		30	Rocky Outcrop
+REGULAR_NODE	 Grade 1 Shroud Topsoil (Rare)	East Shroud	(x20,y27)		30	Rocky Outcrop
+REGULAR_NODE	Purple Pigment	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	Southern Thanalan	(x18,y11)		30	Rocky Outcrop
+REGULAR_NODE	Wyvern Obsidian	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
+REGULAR_NODE	 Saltpeter	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x26,y17)		30	Mineral Deposit
+REGULAR_NODE	Bomb Ash	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
+REGULAR_NODE	 Silex	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x22,y29)		30	Rocky Outcrop
 REGULAR_NODE	Siltstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop
-REGULAR_NODE	Brimstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop
-REGULAR_NODE	RawGarnet	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	RawAquamarine	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	RawGoshenite	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	WaterShard	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
-REGULAR_NODE	RawPeridot	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	RawAmethyst	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	Granite	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	WindShard	Central Shroud	(x14,y21)		35	Mineral Deposit
-REGULAR_NODE	MythrilSand	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
-REGULAR_NODE	LightningShard	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
-REGULAR_NODE	RawHeliodor	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	MythrilOre	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	LightningShard	Southern Thanalan	(x25,y41)		35	Mineral Deposit
-REGULAR_NODE	LittleWorm(Hidden)	Southern Thanalan	(x25,y41)		35	Mineral Deposit
+REGULAR_NODE	 Brimstone	Upper La Noscea	(x12,y26)		30	Rocky Outcrop
+REGULAR_NODE	Raw Garnet	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
+REGULAR_NODE	 Raw Aquamarine	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
+REGULAR_NODE	 Raw Goshenite	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
+REGULAR_NODE	 Water Shard	Eastern La Noscea	(x28,y27)		35	Mineral Deposit
+REGULAR_NODE	Raw Peridot	Central Shroud	(x14,y21)		35	Mineral Deposit
+REGULAR_NODE	 Raw Amethyst	Central Shroud	(x14,y21)		35	Mineral Deposit
+REGULAR_NODE	 Granite	Central Shroud	(x14,y21)		35	Mineral Deposit
+REGULAR_NODE	 Wind Shard	Central Shroud	(x14,y21)		35	Mineral Deposit
+REGULAR_NODE	Mythril Sand	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x17,y18)		35	Rocky Outcrop
+REGULAR_NODE	Raw Heliodor	Southern Thanalan	(x25,y41)		35	Mineral Deposit
+REGULAR_NODE	 Mythril Ore	Southern Thanalan	(x25,y41)		35	Mineral Deposit
+REGULAR_NODE	 Lightning Shard	Southern Thanalan	(x25,y41)		35	Mineral Deposit
+REGULAR_NODE	 Little Worm (Hidden)	Southern Thanalan	(x25,y41)		35	Mineral Deposit
 REGULAR_NODE	Jade	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	RawZircon	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	IceShard	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
-REGULAR_NODE	BlackAlumen	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	RawTourmaline	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	RawSpinel	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	IceShard	South Shroud	(x28,y22)		40	Mineral Deposit
-REGULAR_NODE	GrenadeAsh	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
-REGULAR_NODE	WindShard	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
-REGULAR_NODE	ElectrumOre	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	RawTurquoise	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	EarthShard	Upper La Noscea	(x30,y25)		45	Mineral Deposit
-REGULAR_NODE	ElectrumSand	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	Marble	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	EarthShard	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
-REGULAR_NODE	RawAmber	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	RawRubellite	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	FireShard	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
-REGULAR_NODE	CobaltOre	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	AdamantoiseShell	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	BasiliskEgg	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	OgreHorn	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	WindShard	Northern Thanalan	(x22,y24)		50	Mineral Deposit
-REGULAR_NODE	EarthShard	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	EarthCrystal	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	Grade2LaNosceanTopsoil(Rare)	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
-REGULAR_NODE	WaterShard	Western Thanalan	(x18,y28)		50	Rocky Outcrop
-REGULAR_NODE	Grade2ThanalanTopsoil(Rare)	Western Thanalan	(x18,y28)		50	Rocky Outcrop
-REGULAR_NODE	WindShard	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	WindCrystal	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	Grade2ShroudTopsoil(Rare)	East Shroud	(x18,y24)		50	Rocky Outcrop
-REGULAR_NODE	IceShard	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	IceCrystal	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	BlackLimestone(Hidden)	Western La Noscea	(x34,y28)		50	Rocky Outcrop
-REGULAR_NODE	DragonObsidian	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	RawLarimar	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	RawMormorion	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	MythriteOre(Hidden)	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
-REGULAR_NODE	MythriteSand	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
-REGULAR_NODE	PhialofThermalFluid	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
-REGULAR_NODE	RawStarSapphire	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	RawStarRuby	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	TitaniumOre(Hidden)	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
-REGULAR_NODE	DravanianSpringWater	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	RawTiger'sEye	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	RawAgate	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
-REGULAR_NODE	HardsilverSand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	CloudMica	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	EarthCrystal	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	Tektite	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	FossilizedDragonBone	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	LumythriteSand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	DuskfallMoss	The Churning Mists	(x29,y18)		60	Rocky Outcrop
-REGULAR_NODE	SteppeRockSalt	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	FlatStone	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeClay	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Skystone(Namazuquest)	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	PureWhiteSilex	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeCopperOre	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeWhetstone	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeObsidian	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeGeode	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeCinnabar	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeSoapstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeMudstoneWhetstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	Mondite(Namazuquest)	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeGeode	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	PureWhiteSilex	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeCopperOre	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeCoal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeMica	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	SteppeSpringWater	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
-REGULAR_NODE	HardsilverOre(Hidden)	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	RawChrysolite	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	WyrmObsidian	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	WindCrystal	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
-REGULAR_NODE	AbalathianSpringWater	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	AurumRegisSand	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	LightningCrystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	WaterCrystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
-REGULAR_NODE	IceStalagmite	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	EventideJade	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	RawCitrine	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	IceCrystal	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
-REGULAR_NODE	BeastkinHorn	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	FireCrystal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	EventideJade	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	RawCarnelian	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	RawOpal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	RainbowPigment	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
-REGULAR_NODE	GyrAbanianAlumen	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	StarcrackSand	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	CotterDynastyRelic	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	WindCrystal	The Fringes	(x15,y12)		60	Mineral Deposit
-REGULAR_NODE	ShishuKoban	The Ruby Sea	(x17,y33)		60	Mineral Deposit
-REGULAR_NODE	WaterCrystal	The Ruby Sea	(x17,y33)		60	Mineral Deposit
-REGULAR_NODE	YellowKudzuRoot	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	PeaksPigment	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	EarthCrystal	The Peaks	(x35,y10)		60	Mineral Deposit
-REGULAR_NODE	CloudkinFeather	The Churning Mists	(x34,25)		65	Rocky Outcrop
-REGULAR_NODE	EarthCrystal	The Churning Mists	(x34,25)		65	Rocky Outcrop
-REGULAR_NODE	KoppranickelSand	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	Stiperstone	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	Slate	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	PinchofActiveIngredients	The Peaks	(x21,y13)		65	Rocky Outcrop
-REGULAR_NODE	EarthCrystal	The Peaks	(x21,y13)		65	Rocky Outcrop
+REGULAR_NODE	 Raw Zircon	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
+REGULAR_NODE	 Ice Shard	Coerthas Central Highlands	(x24,y19)		40	Mineral Deposit
+REGULAR_NODE	Black Alumen	South Shroud	(x28,y22)		40	Mineral Deposit
+REGULAR_NODE	 Raw Tourmaline	South Shroud	(x28,y22)		40	Mineral Deposit
+REGULAR_NODE	 Raw Spinel	South Shroud	(x28,y22)		40	Mineral Deposit
+REGULAR_NODE	 Ice Shard	South Shroud	(x28,y22)		40	Mineral Deposit
+REGULAR_NODE	Grenade Ash	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
+REGULAR_NODE	 Wind Shard	Northern Thanalan	(x21,y28)		40	Rocky Outcrop
+REGULAR_NODE	Electrum Ore	Upper La Noscea	(x30,y25)		45	Mineral Deposit
+REGULAR_NODE	 Raw Turquoise	Upper La Noscea	(x30,y25)		45	Mineral Deposit
+REGULAR_NODE	 Earth Shard	Upper La Noscea	(x30,y25)		45	Mineral Deposit
+REGULAR_NODE	Electrum Sand	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
+REGULAR_NODE	 Marble	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
+REGULAR_NODE	 Earth Shard	Upper La Noscea	(x28,y22)		45	Rocky Outcrop
+REGULAR_NODE	Raw Amber	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
+REGULAR_NODE	 Raw Rubellite	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
+REGULAR_NODE	 Fire Shard	Eastern Thanalan	(x12,y19)		45	Mineral Deposit
+REGULAR_NODE	Cobalt Ore	Northern Thanalan	(x22,y24)		50	Mineral Deposit
+REGULAR_NODE	 Adamantoise Shell	Northern Thanalan	(x22,y24)		50	Mineral Deposit
+REGULAR_NODE	 Basilisk Egg	Northern Thanalan	(x22,y24)		50	Mineral Deposit
+REGULAR_NODE	 Ogre Horn	Northern Thanalan	(x22,y24)		50	Mineral Deposit
+REGULAR_NODE	 Wind Shard	Northern Thanalan	(x22,y24)		50	Mineral Deposit
+REGULAR_NODE	Earth Shard	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
+REGULAR_NODE	 Earth Crystal	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
+REGULAR_NODE	 Grade 2 La Noscean Topsoil (Rare)	Lower La Noscea	(x22,y34)		50	Rocky Outcrop
+REGULAR_NODE	Water Shard	Western Thanalan	(x18,y28)		50	Rocky Outcrop
+REGULAR_NODE	 Grade 2 Thanalan Topsoil (Rare)	Western Thanalan	(x18,y28)		50	Rocky Outcrop
+REGULAR_NODE	Wind Shard	East Shroud	(x18,y24)		50	Rocky Outcrop
+REGULAR_NODE	 Wind Crystal	East Shroud	(x18,y24)		50	Rocky Outcrop
+REGULAR_NODE	 Grade 2 Shroud Topsoil (Rare)	East Shroud	(x18,y24)		50	Rocky Outcrop
+REGULAR_NODE	Ice Shard	Western La Noscea	(x34,y28)		50	Rocky Outcrop
+REGULAR_NODE	 Ice Crystal	Western La Noscea	(x34,y28)		50	Rocky Outcrop
+REGULAR_NODE	 Black Limestone (Hidden)	Western La Noscea	(x34,y28)		50	Rocky Outcrop
+REGULAR_NODE	Dragon Obsidian	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x28,y27)		50	Mineral Deposit
+REGULAR_NODE	Ice Crystal	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
+REGULAR_NODE	 Raw Larimar	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
+REGULAR_NODE	 Raw Mormorion	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
+REGULAR_NODE	 Mythrite Ore (Hidden)	Coerthas Western Highlands	(x31,y12)		55	Mineral Deposit
+REGULAR_NODE	Mythrite Sand	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x16,y12)		55	Rocky Outcrop
+REGULAR_NODE	Phial of Thermal Fluid	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x22,y35)		55	Mineral Deposit
+REGULAR_NODE	Raw Star Sapphire	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
+REGULAR_NODE	 Raw Star Ruby	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
+REGULAR_NODE	 Titanium Ore (Hidden)	The Dravanian Forelands	(x30,y16)		55	Mineral Deposit
+REGULAR_NODE	Dravanian Spring Water	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
+REGULAR_NODE	 Raw Tiger's Eye	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
+REGULAR_NODE	 Raw Agate	The Dravanian Forelands	(x27,y31)		55	Mineral Deposit
+REGULAR_NODE	Hardsilver Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Cloud Mica	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Earth Crystal	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Tektite	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Fossilized Dragon Bone	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Lumythrite Sand	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	 Duskfall Moss	The Churning Mists	(x29,y18)		60	Rocky Outcrop
+REGULAR_NODE	Steppe Rock Salt	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Flat Stone	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Clay	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Skystone (Namazu quest)	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x20, y14)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	Pure White Silex	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Copper Ore	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Whetstone	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Obsidian	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Geode	The Azim Steppe	(x25, y20)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	Steppe Cinnabar	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Soapstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Mudstone Whetstone	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Mondite (Namazu quest)	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x33, y32)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	Steppe Geode	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Pure White Silex	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Copper Ore	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Coal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x11, y13)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	Steppe Mica	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Steppe Spring Water	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x35, y11)	Namazu Beast Tribe Required	60	Rocky Outcrop
+REGULAR_NODE	Hardsilver Ore (Hidden)	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
+REGULAR_NODE	 Raw Chrysolite	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
+REGULAR_NODE	 Wyrm Obsidian	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
+REGULAR_NODE	 Wind Crystal	The Dravanian Hinterlands	(x27,y24)		60	Mineral Deposit
+REGULAR_NODE	Abalathian Spring Water	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
+REGULAR_NODE	 Aurum Regis Sand	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
+REGULAR_NODE	 Lightning Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
+REGULAR_NODE	 Water Crystal	The Sea of Clouds	(x33,y31)		60	Mineral Deposit
+REGULAR_NODE	Ice Stalagmite	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
+REGULAR_NODE	 Eventide Jade	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
+REGULAR_NODE	 Raw Citrine	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
+REGULAR_NODE	 Ice Crystal	Coerthas Western Highlands	(x23,y30)		60	Mineral Deposit
+REGULAR_NODE	Beastkin Horn	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	 Fire Crystal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	 Eventide Jade	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	 Raw Carnelian	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	 Raw Opal	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	 Rainbow Pigment	The Dravanian Forelands	(x20,y26)		60	Mineral Deposit
+REGULAR_NODE	Gyr Abanian Alumen	The Fringes	(x15,y12)		60	Mineral Deposit
+REGULAR_NODE	 Starcrack Sand	The Fringes	(x15,y12)		60	Mineral Deposit
+REGULAR_NODE	 Cotter Dynasty Relic	The Fringes	(x15,y12)		60	Mineral Deposit
+REGULAR_NODE	 Wind Crystal	The Fringes	(x15,y12)		60	Mineral Deposit
+REGULAR_NODE	Shishu Koban	The Ruby Sea	(x17,y33)		60	Mineral Deposit
+REGULAR_NODE	 Water Crystal	The Ruby Sea	(x17,y33)		60	Mineral Deposit
+REGULAR_NODE	Yellow Kudzu Root	The Peaks	(x35,y10)		60	Mineral Deposit
+REGULAR_NODE	 Peaks Pigment	The Peaks	(x35,y10)		60	Mineral Deposit
+REGULAR_NODE	 Earth Crystal	The Peaks	(x35,y10)		60	Mineral Deposit
+REGULAR_NODE	Cloudkin Feather	The Churning Mists	(x34,25)		65	Rocky Outcrop
+REGULAR_NODE	 Earth Crystal	The Churning Mists	(x34,25)		65	Rocky Outcrop
+REGULAR_NODE	Koppranickel Sand	The Peaks	(x21,y13)		65	Rocky Outcrop
+REGULAR_NODE	 Stiperstone	The Peaks	(x21,y13)		65	Rocky Outcrop
+REGULAR_NODE	 Slate	The Peaks	(x21,y13)		65	Rocky Outcrop
+REGULAR_NODE	 Pinch of Active Ingredients	The Peaks	(x21,y13)		65	Rocky Outcrop
+REGULAR_NODE	 Earth Crystal	The Peaks	(x21,y13)		65	Rocky Outcrop
 REGULAR_NODE	Diatomite	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	WaterCrystal	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	ShisuiJewel	Ruby Sea	(x14,y16)		65	Rocky Outcrop
-REGULAR_NODE	KoppranickelOre	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	FeatherIronOre(lvl65quest)	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	WaterCrystal	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	Sparkstone	Ruby Sea	(x25,y35)		65	Mineral Deposit
-REGULAR_NODE	GyrAbanianMineralWater	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	RawKyanite	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	HarpoonHead	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	WindCrystal	The Fringes	(x23,y13)		65	Mineral Deposit
-REGULAR_NODE	DomanIronOre	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	CrescentSpringWater	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	FireCrystal	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	MalleableStillMaterial	Yanxia	(x33,y22)		65	Mineral Deposit
-REGULAR_NODE	DuriumOre	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	Serpentine(lvl68quest)	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	FireCrystal	Yanxia	(x36,y19)		70	Mineral Deposit
-REGULAR_NODE	DuriumSand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	DomanIronSand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	PalladiumSand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	StrongSteppeSpice	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	LightningCrystal	The Azim Steppe	(x29,y15)		70	Mineral Deposit
-REGULAR_NODE	MolybdenumOre	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	IceCrystal	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	HardPlaceFurnishingMaterials	The Lochs	(x10,y18)		70	Mineral Deposit
-REGULAR_NODE	YellowAlumen	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	CoarseSaltpeter	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	AnimalTrace	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	WindCrystal	Amh Araeng	(x30,y25)		70	Rocky Outcrop
-REGULAR_NODE	HighlandSpringWater	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	MegafaunaLeftovers	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	WaterCrystal	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	TruegoldOre	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	Level75MinerQuest	Il Mheg	(x8,y20)		75	Mineral Deposit
-REGULAR_NODE	LightningCrystal	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	BluespiritOre	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	AnimalDroppings	Lakeland	(26,y34)		75	Mineral Deposit
-REGULAR_NODE	TruegoldSand	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	HardMudstone	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	FireCrystal	Kholusia	(x21,y30)		75	Rocky Outcrop
-REGULAR_NODE	ManasilverSand	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
-REGULAR_NODE	WaterCrystal	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
-REGULAR_NODE	UndergroundSpringWater	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	LightningCrystal	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	TitancopperOre	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	DimythriteOre	Lakeland	(x35,y16)		80	Mineral Deposit
-REGULAR_NODE	ExtraEffervescentWater	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	MegafaunaTrace	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	WaterCrystal	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
-REGULAR_NODE	VolcanicTuff	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	FireCrystal	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	BlackAethersand(Level80MinerQuest)	Kholusia	(x22,y16)		80	Rocky Outcrop
-REGULAR_NODE	TitancopperSand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
-REGULAR_NODE	DimythriteSand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
-REGULAR_NODE	WindCrystal	Amh Araeng	(x15,y12)		80	Rocky Outcrop
+REGULAR_NODE	 Water Crystal	Ruby Sea	(x14,y16)		65	Rocky Outcrop
+REGULAR_NODE	 Shisui Jewel	Ruby Sea	(x14,y16)		65	Rocky Outcrop
+REGULAR_NODE	Koppranickel Ore	Ruby Sea	(x25,y35)		65	Mineral Deposit
+REGULAR_NODE	 Feather Iron Ore (lvl 65 quest)	Ruby Sea	(x25,y35)		65	Mineral Deposit
+REGULAR_NODE	 Water Crystal	Ruby Sea	(x25,y35)		65	Mineral Deposit
+REGULAR_NODE	 Sparkstone	Ruby Sea	(x25,y35)		65	Mineral Deposit
+REGULAR_NODE	Gyr Abanian Mineral Water	The Fringes	(x23,y13)		65	Mineral Deposit
+REGULAR_NODE	 Raw Kyanite	The Fringes	(x23,y13)		65	Mineral Deposit
+REGULAR_NODE	 Harpoon Head	The Fringes	(x23,y13)		65	Mineral Deposit
+REGULAR_NODE	 Wind Crystal	The Fringes	(x23,y13)		65	Mineral Deposit
+REGULAR_NODE	Doman Iron Ore	Yanxia	(x33,y22)		65	Mineral Deposit
+REGULAR_NODE	 Crescent Spring Water	Yanxia	(x33,y22)		65	Mineral Deposit
+REGULAR_NODE	 Fire Crystal	Yanxia	(x33,y22)		65	Mineral Deposit
+REGULAR_NODE	 Malleable Still Material	Yanxia	(x33,y22)		65	Mineral Deposit
+REGULAR_NODE	Durium Ore	Yanxia	(x36,y19)		70	Mineral Deposit
+REGULAR_NODE	 Serpentine (lvl 68 quest)	Yanxia	(x36,y19)		70	Mineral Deposit
+REGULAR_NODE	 Fire Crystal	Yanxia	(x36,y19)		70	Mineral Deposit
+REGULAR_NODE	Durium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
+REGULAR_NODE	 Doman Iron Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
+REGULAR_NODE	 Palladium Sand	The Azim Steppe	(x29,y15)		70	Mineral Deposit
+REGULAR_NODE	 Strong Steppe Spice	The Azim Steppe	(x29,y15)		70	Mineral Deposit
+REGULAR_NODE	 Lightning Crystal	The Azim Steppe	(x29,y15)		70	Mineral Deposit
+REGULAR_NODE	Molybdenum Ore	The Lochs	(x10,y18)		70	Mineral Deposit
+REGULAR_NODE	 Ice Crystal	The Lochs	(x10,y18)		70	Mineral Deposit
+REGULAR_NODE	 Hard Place Furnishing Materials	The Lochs	(x10,y18)		70	Mineral Deposit
+REGULAR_NODE	Yellow Alumen	Amh Araeng	(x30,y25)		70	Rocky Outcrop
+REGULAR_NODE	 Coarse Saltpeter	Amh Araeng	(x30,y25)		70	Rocky Outcrop
+REGULAR_NODE	 Animal Trace	Amh Araeng	(x30,y25)		70	Rocky Outcrop
+REGULAR_NODE	 Wind Crystal	Amh Araeng	(x30,y25)		70	Rocky Outcrop
+REGULAR_NODE	Highland Spring Water	Il Mheg	(x8,y20)		75	Mineral Deposit
+REGULAR_NODE	 Megafauna Leftovers	Il Mheg	(x8,y20)		75	Mineral Deposit
+REGULAR_NODE	 Water Crystal	Il Mheg	(x8,y20)		75	Mineral Deposit
+REGULAR_NODE	 Truegold Ore	Il Mheg	(x8,y20)		75	Mineral Deposit
+REGULAR_NODE	 Level 75 Miner Quest	Il Mheg	(x8,y20)		75	Mineral Deposit
+REGULAR_NODE	Lightning Crystal	Lakeland	(26,y34)		75	Mineral Deposit
+REGULAR_NODE	 Bluespirit Ore	Lakeland	(26,y34)		75	Mineral Deposit
+REGULAR_NODE	 Animal Droppings	Lakeland	(26,y34)		75	Mineral Deposit
+REGULAR_NODE	Truegold Sand	Kholusia	(x21,y30)		75	Rocky Outcrop
+REGULAR_NODE	 Hard Mudstone	Kholusia	(x21,y30)		75	Rocky Outcrop
+REGULAR_NODE	 Fire Crystal	Kholusia	(x21,y30)		75	Rocky Outcrop
+REGULAR_NODE	Manasilver Sand	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
+REGULAR_NODE	 Water Crystal	The Rak'tika Greatwood	(x17,y19)		75	Rocky Outcrop
+REGULAR_NODE	Underground Spring Water	Lakeland	(x35,y16)		80	Mineral Deposit
+REGULAR_NODE	 Lightning Crystal	Lakeland	(x35,y16)		80	Mineral Deposit
+REGULAR_NODE	 Titancopper Ore	Lakeland	(x35,y16)		80	Mineral Deposit
+REGULAR_NODE	 Dimythrite Ore	Lakeland	(x35,y16)		80	Mineral Deposit
+REGULAR_NODE	Extra Effervescent Water	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
+REGULAR_NODE	 Megafauna Trace	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
+REGULAR_NODE	 Water Crystal	The Rak'tika Greatwood	(x23,y28)		80	Mineral Deposit
+REGULAR_NODE	Volcanic Tuff	Kholusia	(x22,y16)		80	Rocky Outcrop
+REGULAR_NODE	 Fire Crystal	Kholusia	(x22,y16)		80	Rocky Outcrop
+REGULAR_NODE	 Black Aethersand (Level 80 Miner Quest)	Kholusia	(x22,y16)		80	Rocky Outcrop
+REGULAR_NODE	Titancopper Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
+REGULAR_NODE	 Dimythrite Sand	Amh Araeng	(x15,y12)		80	Rocky Outcrop
+REGULAR_NODE	 Wind Crystal	Amh Araeng	(x15,y12)		80	Rocky Outcrop
 REGULAR_NODE	Chloroschist	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	EternityRingMaterial(Level90GatheringQuest)	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	HighDuriumSand	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	WaterCrystal	Labyrinthos	(x23, y10)		85	Rocky Outcrop
-REGULAR_NODE	RawAmetrine	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	SharlayanRockSalt	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	WaterCrystal	Labyrinthos	(x30, y9)		85	Mineral Deposit
-REGULAR_NODE	HannishStaple(Level80GatheringQuest)	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	PewterOre	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	IceCrystal	Thavnair	(x11, y14)		85	Rocky Outcrop
-REGULAR_NODE	HighDuriumOre	Thavnair	(x18, y28)		85	Mineral Deposit
-REGULAR_NODE	IceCrystal	Thavnair	(x18, y28)		85	Mineral Deposit
-REGULAR_NODE	EblanAlumen	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	GarleanStaple(Level83GatheringQuest)	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	PhrygianGoldOre	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	LightningCrystal	Garlemald	(x20, y27)		85	Rocky Outcrop
-REGULAR_NODE	BismuthOre	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	LunarStaple(Level85GatheringQuest)	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	EarthCrystal	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
-REGULAR_NODE	ElpisStaple(Level88GatheringQuest)	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	ManganeseOre	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	FireCrystal	Elpis	(x27, y11)		90	Mineral Deposit
-REGULAR_NODE	AmbrosialWater	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	Annite	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	RawBlueZircon	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	FireCrystal	Elpis	(x14, y19)		90	Rocky Outcrop
-REGULAR_NODE	RawStarQuartz	Ultima Thule	(x21,y33)		90	Rocky Outcrop
-REGULAR_NODE	WindCrystal	Ultima Thule	(x21,y33)		90	Rocky Outcrop
+REGULAR_NODE	 Eternity Ring Material (Level 90 Gathering Quest)	Labyrinthos	(x23, y10)		85	Rocky Outcrop
+REGULAR_NODE	 High Durium Sand	Labyrinthos	(x23, y10)		85	Rocky Outcrop
+REGULAR_NODE	 Water Crystal	Labyrinthos	(x23, y10)		85	Rocky Outcrop
+REGULAR_NODE	Raw Ametrine	Labyrinthos	(x30, y9)		85	Mineral Deposit
+REGULAR_NODE	 Sharlayan Rock Salt	Labyrinthos	(x30, y9)		85	Mineral Deposit
+REGULAR_NODE	 Water Crystal	Labyrinthos	(x30, y9)		85	Mineral Deposit
+REGULAR_NODE	Hannish Staple (Level 80 Gathering Quest)	Thavnair	(x11, y14)		85	Rocky Outcrop
+REGULAR_NODE	 Pewter Ore	Thavnair	(x11, y14)		85	Rocky Outcrop
+REGULAR_NODE	 Ice Crystal	Thavnair	(x11, y14)		85	Rocky Outcrop
+REGULAR_NODE	High Durium Ore	Thavnair	(x18, y28)		85	Mineral Deposit
+REGULAR_NODE	 Ice Crystal	Thavnair	(x18, y28)		85	Mineral Deposit
+REGULAR_NODE	Eblan Alumen	Garlemald	(x20, y27)		85	Rocky Outcrop
+REGULAR_NODE	 Garlean Staple (Level 83 Gathering Quest)	Garlemald	(x20, y27)		85	Rocky Outcrop
+REGULAR_NODE	 Phrygian Gold Ore	Garlemald	(x20, y27)		85	Rocky Outcrop
+REGULAR_NODE	 Lightning Crystal	Garlemald	(x20, y27)		85	Rocky Outcrop
+REGULAR_NODE	Bismuth Ore	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
+REGULAR_NODE	 Lunar Staple (Level 85 Gathering Quest)	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
+REGULAR_NODE	 Earth Crystal	Mare Lamentorum	(x29, y35)		85	Mineral Deposit
+REGULAR_NODE	Elpis Staple (Level 88 Gathering Quest)	Elpis	(x27, y11)		90	Mineral Deposit
+REGULAR_NODE	 Manganese Ore	Elpis	(x27, y11)		90	Mineral Deposit
+REGULAR_NODE	 Fire Crystal	Elpis	(x27, y11)		90	Mineral Deposit
+REGULAR_NODE	Ambrosial Water	Elpis	(x14, y19)		90	Rocky Outcrop
+REGULAR_NODE	 Annite	Elpis	(x14, y19)		90	Rocky Outcrop
+REGULAR_NODE	 Raw Blue Zircon	Elpis	(x14, y19)		90	Rocky Outcrop
+REGULAR_NODE	 Fire Crystal	Elpis	(x14, y19)		90	Rocky Outcrop
+REGULAR_NODE	Raw Star Quartz	Ultima Thule	(x21,y33)		90	Rocky Outcrop
+REGULAR_NODE	 Wind Crystal	Ultima Thule	(x21,y33)		90	Rocky Outcrop
 REGULAR_NODE	Chondrite	Ultima Thule	(x19,y13)		90	Mineral Deposit
-REGULAR_NODE	WindCrystal	Ultima Thule	(x19,y13)		90	Mineral Deposit
+REGULAR_NODE	 Wind Crystal	Ultima Thule	(x19,y13)		90	Mineral Deposit
 UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	1	87	0
 UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	3	90	0
 UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	12:00 AM/PM	2	85	0

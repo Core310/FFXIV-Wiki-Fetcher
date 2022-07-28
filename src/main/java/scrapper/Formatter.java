@@ -85,10 +85,10 @@ public class Formatter {
     private String formattedItem(String[] csvValues){
         StringBuilder stringBuilder = new StringBuilder(); //String to replace the current line read in
         switch (itemType){
-            case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function
-                csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
+            case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function 
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
+
                     stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                     stringBuilder.append("\t");
                     stringBuilder.append(
@@ -105,6 +105,7 @@ public class Formatter {
                 }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
+                    csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
                     for (String splitItem : splitItems) {
                         stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\t");
