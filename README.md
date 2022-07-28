@@ -3,8 +3,19 @@ This library searches for DOH/DOL items (aka gathering classes).
 
 ## Usage
 Use findAllClosestAsMap or FindItem.findAnyMatching to search for an item.
-To build the file yourself run main. makeFile().
 
+```
+findAllClosestAsMap TODO
+```
+
+```
+findAnyMatching TODO
+```
+
+To build the file yourself run main. makeFile() like so: TODO
+```
+makeFile();
+```
 ## Development:
 Contributing is greatly appreciated.
 
