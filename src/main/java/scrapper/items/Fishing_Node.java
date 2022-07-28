@@ -3,26 +3,27 @@ package scrapper.items;
 import java.util.LinkedHashMap;
 
 public class Fishing_Node extends BaseItem implements Item{
-    private String fishingLog, type, fish;
+    private String fishingLog, type;
+    private int level;
 
     /**
      * Base constructor that is used for inheritance on its children.
      *
      */
-    public Fishing_Node(String itemName,
+    public Fishing_Node(String fish,
                         String zone,
                         String cords,
-                        String extra,//In the case of fishing called Bait Used
+                        String baitUsed,//aka extra
                         //End of base items
                         String type,
                         String fishingLog,
-                        String fish
+                        int level
 
     ) {
-        super(itemName, zone, cords, extra);
+        super(fish, zone, cords, baitUsed);
         this.type = type;
         this.fishingLog = fishingLog;
-        this.fish = fish;
+        this.level = level;
     }
 
     /**
@@ -43,9 +44,10 @@ public class Fishing_Node extends BaseItem implements Item{
         lhm.remove("Extra Information");//In fishing, this is called "bait used" instead of extra info
         //see here: https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
         lhm.put("Bait Used",getExtra());
+
         lhm.put("Type",type);
         lhm.put("Fishing Log",fishingLog);
-        lhm.remove("Fish",fish);
+        lhm.put("Level", String.valueOf(level));
         return lhm;
     }
 
@@ -56,7 +58,7 @@ public class Fishing_Node extends BaseItem implements Item{
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElements(new String[]{type,fishingLog,fish});
+        itemOutputFormatter.addElements(new String[]{type,fishingLog, String.valueOf(level)});
         return itemOutputFormatter.toString();
     }
 }

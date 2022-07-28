@@ -199,47 +199,61 @@ public class Formatter {
             case FISHING_NODE:{
                 String[] fish = csvValues[4].split(",",-1);
                 for(String curFish: fish){
+                    csvValues[3] = csvValues[3].replaceAll("\\)","");//Replace the ')' in the cords
+                    //See here https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
+                    String[] zoneAndCords = csvValues[3].split("\\(",1);//Make cords and zone seperate
+                    //zone = 0, cords =1
+                    if(zoneAndCords.length >2)
+                        try {
+                            throw new UnexpectedException("Array must be atmost length of 2");
+                        } catch (UnexpectedException e) {
+                            throw new RuntimeException(e);
+                        }
+
                     stringBuilder.append(new Fishing_Node(
-                    csvValues[],
-                    csvValues[],
-                    csvValues[],
-                    csvValues[],
-                    csvValues[],
-                    csvValues[]
+                    curFish,//fish
+                    zoneAndCords[0], //Zone
+                    zoneAndCords[1], //Cords
+                    csvValues[5],//baitUsed
+
+                    csvValues[2],//type
+                    csvValues[0],//Fishing log
+                    Integer.parseInt(csvValues[1])//level
                     ));
                 }
                 break;
-            }// TODO: 7/28/2022
+            }
 
             case BIG_FISH_NODE:{
                 stringBuilder.append(new BigFish(
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[]
+                csvValues[0],//fish
+                csvValues[1],//Zone
+                csvValues[3],//Cords
+                csvValues[9],//desynthRewards
 
+                csvValues[2],//fishingHole,
+                csvValues[4],//ezoraTime,
+                csvValues[5],//weather,
+                csvValues[6],//bait,
+                csvValues[7],//mooch,
+                csvValues[8] //gathering
                 ));
                 break;
-            }// TODO: 7/28/2022
+            }
             case FISHING_COLLECTABLES_NODE:{
                 stringBuilder.append(new Fish_Collectable(
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
-                csvValues[],
+                csvValues[0],//Item
+                csvValues[2],//Zone
+                "n/a",//Cords
+                csvValues[6],//Extra
 
+                csvValues[1],//minCollectability
+                csvValues[3],//catchMethod
+                csvValues[4],//timeWeather
+                csvValues[5] //scripts
                     ));
                 break;
-            }// TODO: 7/28/2022
+            }
 
             case DELETE:
             case IGNORE:
@@ -284,7 +298,7 @@ public class Formatter {
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType
                     //Else if data, use cur item type.
-                    case FOLK_LORE_FISHING_NODE, FOLK_LORE_NODE, REGULAR_NODE, UNSPOILED_NODE, DELETE -> {
+                    case DELETE -> {
                         //Nothing is written to the tmp file and therefore the final file.
                     }
                     case IGNORE -> //Actual item data NOT a header

@@ -9,17 +9,17 @@ public class BigFish extends BaseItem implements Item{
      * Base constructor that is used for inheritance on its children.
      *
      */
-    protected BigFish(String fish,
-                      String zone,
-                      String cords,
-                      String desynthRewards,//aka extraEnd of base item super class
+    public BigFish(String fish,
+                   String zone,
+                   String cords,
+                   String desynthRewards,//aka extraEnd of base item super class
 
-                      String fishingHole,
-                      String ezoraTime,
-                      String weather,
-                      String bait,
-                      String mooch,
-                      String gathering
+                   String fishingHole,
+                   String ezoraTime,
+                   String weather,
+                   String bait,
+                   String mooch,
+                   String gathering
     ) {
         super(fish, zone, cords, desynthRewards);
         this.fishingHole = fishingHole;
