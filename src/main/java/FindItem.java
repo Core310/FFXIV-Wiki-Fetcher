@@ -23,9 +23,9 @@ public class FindItem {
     /**
      * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
      * Multiple items will be stored in an arraylist with arguments of the Map.
-     * Eg. (todo)
-     * input: Lava todo
-     * output:
+     * E.g. FindItem.findAllClosestAsMap(input);
+     * input: Lava toad
+     * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
         ArrayList<String> rawData = findAllClosest(itemName);//Used to loop through all values found.
