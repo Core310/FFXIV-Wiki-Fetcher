@@ -87,8 +87,8 @@ public class Formatter {
         switch (itemType){
             case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function 
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
+                stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                 if(splitItems.length == 1){
-                    stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                     stringBuilder.append("\t");
                     stringBuilder.append(
                             new Regular_Node(
@@ -105,7 +105,6 @@ public class Formatter {
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
                     for (String splitItem : splitItems) {
-                        stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\t");
                         if(splitItem.charAt(0) == ' ')
                             splitItem = splitItem.replaceFirst(" ", "");
@@ -118,6 +117,7 @@ public class Formatter {
                                 Integer.parseInt(csvValues[0]),//Level
                                 csvValues[1]//Type
                         ));
+                        stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\n");
                     }
                 }
@@ -205,11 +205,11 @@ public class Formatter {
             case FISHING_NODE:{
                 String[] fish = csvValues[4].split(",",-1);
                 for(String curFish: fish){
+                    stringBuilder.append(FISHING_NODE );
+                    stringBuilder.append("\t");
                     if(curFish.charAt(0) == ' ')
                         curFish = curFish.replaceFirst(" ", "");
 
-                    stringBuilder.append(FISHING_NODE );
-                    stringBuilder.append("\t");
 
                     csvValues[3] = csvValues[3].replaceAll("\\)","");//Replace the ')' in the cords
                     //See here https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
