@@ -2,20 +2,26 @@
 This library searches for DOH/DOL items (aka gathering classes).
 
 ## Usage
-Use findAllClosestAsMap or FindItem.findAnyMatching to search for an item.
+To build the file yourself run `makeFile();` in main.java
+
+---
+
+Use `findAllClosestAsMap` to find all closest items and return each item as a key/value pair. 
+Keys are headers in the original wiki table.
 
 ```
-findAllClosestAsMap TODO
+FindItem.findAllClosestAsMap("Lava Toad");
 ```
+Should output: `[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]`
 
-```
-findAnyMatching TODO
-```
+---
 
-To build the file yourself run main. makeFile() like so: TODO
+Use `FindItem.findAnyMatching` to search for an item and return a random item by its raw data.
 ```
-makeFile();
+FindItem.findAnyMatching("Lava Toad"); 
 ```
+Should output `REGULAR_NODE	Lava Toad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch`
+
 ## Development:
 Contributing is greatly appreciated.
 
