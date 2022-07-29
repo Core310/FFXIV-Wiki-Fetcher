@@ -1,6 +1,8 @@
-import scrapper.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import scrapper.fileCreator.Formatter;
+import scrapper.fileCreator.MakeFile;
+import scrapper.fileCreator.Wikipages;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -9,7 +11,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("emye log");
+        searchFile("Etebalr");
     }
 
     /**
@@ -19,10 +21,17 @@ public class main {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<String> arr;
 
+
         arr = findItem.findAllClosest(itemnam);
         for (String a : arr) {
             System.out.println(a);
         }
+        /*
+        System.out.println("--- findCloestAsMap");
+
+        System.out.println(findItem.findAllClosestAsMap(itemnam));
+         */
+
     }
 
     /**
