@@ -2,6 +2,7 @@
 This library searches for DOH/DOL items (aka gathering classes).
 
 ## Usage
+
 To build the file yourself run `makeFile();` in main.java
 
 ---
@@ -21,7 +22,6 @@ Returns a String.
 ```
 FindItem.findAnyMatching("Lava Toad"); 
 ```
-Should output `REGULAR_NODE	Lava Toad	Southern Thanalan	(x13,y31)		50	Lush Vegetation Patch`
 
 ## Development:
 Contributing is greatly appreciated.
