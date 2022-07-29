@@ -172,9 +172,9 @@ public class Formatter {
                         csvValues[4], //Cords
                         csvValues[7],//Extra
                         //End of baseItem
+                        Integer.parseInt(csvValues[5]),//level
                         csvValues[0],//Time
                         Integer.parseInt(csvValues[2]),//Slot
-                        Integer.parseInt(csvValues[5]),//level
                         csvValues[6].length() //star
                 )
                 );
@@ -195,6 +195,7 @@ public class Formatter {
                             csvValues[5],//Extra
                             //End of baseItem
                             csvValues[0],//Time
+
                             Integer.parseInt(slot),//Slot
                             csvValues[6].length() //star
                     ));

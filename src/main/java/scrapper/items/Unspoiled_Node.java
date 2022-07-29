@@ -18,9 +18,9 @@ public class Unspoiled_Node extends Regular_Node implements Item{
             String cords,
             String info,//Base Items
 
+            int level,
             String time,
             int slot,
-            int level,
             int star
     ) {
         super(item,location,cords,info,level);
@@ -50,18 +50,15 @@ public class Unspoiled_Node extends Regular_Node implements Item{
 
     public Unspoiled_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
-        if(arr[6].equals("n/a"))
-            slot = -1;
-        else
-            slot = Integer.parseInt(arr[6]);
-        star = Integer.parseInt(arr[7]);
-        time = arr[8];
+        time = arr[6];
+        slot = Integer.parseInt(arr[7]);
+        star = Integer.parseInt(arr[8]);
     }
 
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElements(new String[]{time, String.valueOf(slot), String.valueOf(getLevel()), String.valueOf(star)});
+        itemOutputFormatter.addElements(new String[]{String.valueOf(getLevel()),time, String.valueOf(slot), String.valueOf(star)});
         return itemOutputFormatter.toString();
     }
 
@@ -71,6 +68,7 @@ public class Unspoiled_Node extends Regular_Node implements Item{
     @Override
     public LinkedHashMap<String, String> toLinkedHashmap() {
         LinkedHashMap<String, String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        lhm.put("Level", String.valueOf(getLevel()));
         lhm.put("Time",time);
         lhm.put("Slot", String.valueOf(slot));
         lhm.put("Star", String.valueOf(star));

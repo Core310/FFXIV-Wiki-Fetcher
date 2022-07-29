@@ -31,7 +31,7 @@ public class FindItem {
         ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted
         Item item;
         for(String curLine: rawData){
-
+            System.out.println(curLine);
             String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
             String curItem = delimLine[0];//0 is index where ItemName is stored
 

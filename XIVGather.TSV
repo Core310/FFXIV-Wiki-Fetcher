@@ -432,186 +432,186 @@ REGULAR_NODE	Alien Onion	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	Water Crystal	Ultima Thule	(x14,y28)		90	Lush Vegetation Patch
 REGULAR_NODE	Integral Log	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
 REGULAR_NODE	Water Crystal	Ultima Thule	(x8,y22)		90	Lush Vegetation Patch
-UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	1	87	0
-UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	3	90	0
-UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	12:00 AM/PM	2	85	0
-UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	2:00 AM/PM	6	85	0
-UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	4:00 AM/PM	6	83	0
-UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	6:00 AM/PM	3	89	0
-UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	6:00 AM/PM	6	90	1
-UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	8:00 AM/PM	1	90	1
-UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	12:00 AM/PM	2	72	0
-UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		12:00 AM/PM	6	78	0
-UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	2:00 AM/PM	3	80	0
-UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	2:00 AM/PM	6	77	0
-UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	4:00 AM/PM	3	80	1
-UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	4:00 AM/PM	4	80	1
-UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		6:00 AM/PM	2	80	0
-UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	8:00 AM/PM	6	73	0
-UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	8:00 AM/PM	7	76	0
-UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	10:00 AM/PM	6	74	0
-UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	10:00 AM/PM	2	71	0
-UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	10:00 AM/PM	6	75	0
-UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	12:00 AM/PM	6	80	1
-UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	12:00 AM/PM	6	69	0
-UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	12:00 AM/PM	4	67	0
-UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	2:00 AM/PM	2	70	0
-UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	2:00 AM/PM	4	61	0
-UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	2:00 AM/PM	6	65	0
-UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	4:00 AM/PM	1	70	0
-UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	4:00 AM/PM	3	68	0
-UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	4:00 AM/PM	7	63	0
-UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	6:00 AM/PM	6	70	1
-UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	8:00 AM/PM	7	66	0
-UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	10:00 AM/PM	8	63	0
-UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	12:00 AM/PM	2	57	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	12:00 AM/PM	4	59	0
-UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	12:00 AM/PM	3	54	0
-UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	12:00 AM/PM	7	51	0
-UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		2:00 AM/PM	1	50	3
-UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	2:00 AM/PM	2	50	3
-UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	4:00 AM/PM	2	57	0
-UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	4:00 AM/PM	7	59	0
-UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	6:00 AM/PM	2	56	0
-UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	6:00 AM/PM	3	58	0
-UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	8:00 AM/PM	6	60	0
-UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	10:00 AM/PM	1	55	0
-UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		10:00 AM/PM	2	52	0
-UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		10:00 AM/PM	3	53	0
-UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	10:00 AM/PM	6	52	0
-UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	10:00 AM/PM	7	53	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	3	55	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	6	53	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	4	51	0
-ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		1:00 AM	4	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	1:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		1:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		1:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		1:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		1:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	1:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		2:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	2:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		3:00 AM	4	-1	2
-ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		4:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		5:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		5:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		5:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	5:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		5:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		5:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		5:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		5:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	5:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	6:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		6:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		7:00 AM	2	-1	2
-ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		7:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		8:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		8:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		8:00 AM	1	-1	2
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		8:00 AM	5	-1	2
-ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		9:00 AM	2	-1	2
-ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		9:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		9:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		9:00 AM	4	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	9:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		9:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		9:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		9:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		9:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	9:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		10:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	1:00 PM	8	-1	1
-ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		1:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		1:00 PM	2	-1	1
-ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		1:00 PM	3	-1	1
-ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		1:00 PM	1	-1	1
-ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	5:00 PM	2	-1	1
-ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		5:00 PM	1	-1	9
-ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		9:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		9:00 PM	8	-1	1
-UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	12:00AM/PM	1	81	0
-UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	12:00AM/PM	8	81	0
-UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	2:00AM/PM	3	84	0
-UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	2:00AM/PM	2	83	0
-UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	4:00AM/PM	6	90	1
-UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	6:00AM/PM	6	83	0
-UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	10:00AM/PM	2	90	1
-UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	10:00AM/PM	7	89	0
-UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	12:00AM/PM	7	76	0
-UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	12:00AM/PM	7	80	0
-UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	2:00AM/PM	7	79	0
-UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	2:00AM/PM	7	80	1
-UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	2:00AM/PM	8	70	2
-UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	4:00AM/PM	7	74	0
-UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	4:00AM/PM	8	75	0
-UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	4:00AM/PM	6	71	0
-UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	6:00AM/PM	7	73	0
-UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	6:00AM/PM	6	72	0
-UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	6:00AM/PM	8	78	0
-UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	8:00AM/PM	7	80	0
-UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	8:00AM/PM	7	77	0
-UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	12:00 AM/PM	1	69	0
-UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	12:00 AM/PM	8	63	0
-UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	2:00 AM/PM	6	60	0
-UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	4:00 AM/PM	7	66	0
-UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	6:00 AM/PM	6	68	0
-UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	6:00 AM/PM	7	67	0
-UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	6:00 AM/PM	6	69	0
-UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	8:00 AM/PM	6	61	0
-UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	8:00 AM/PM	7	65	0
-UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	8:00 AM/PM	6	70	0
-UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	8:00 AM/PM	7	70	0
-UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	10:00 AM/PM	8	63	0
-UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	10:00 AM/PM	2	80	1
-UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	12:00 AM/PM	6	60	0
-UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	2:00 AM/PM	1	57	0
-UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	2:00 AM/PM	2	59	0
-UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	2	53	0
-UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	3	51	0
-UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	4	55	0
-UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	10:00 AM/PM	1	56	0
-UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	10:00 AM/PM	6	58	0
-ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	1:00 AM	3	-1	1
-ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		1:00 AM	1	-1	3
-ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		2:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		3:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		3:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		3:00 AM	8	-1	2
-ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	4:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		4:00 AM	8	-1	2
-ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		4:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	4:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	5:00 AM	5	-1	1
-ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	5:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	6:00 AM	7	-1	1
-ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	9:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		9:00 AM	7	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	1:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		1:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		1:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		1:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		1:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	1:00 PM	7	-1	0
-ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		5:00 PM	1	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	5:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		5:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		5:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		5:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		5:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	5:00 PM	7	-1	0
-ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	5:00 PM	6	-1	9
-ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	6:00 PM	7	-1	2
-ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		6:00 PM	8	-1	2
-ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	7:00 PM	3	-1	1
-ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	9:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	9:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		9:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		9:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		9:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		9:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	9:00 PM	7	-1	0
+UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	12:00 AM/PM	1	0
+UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	12:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	12:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	4:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	6:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	6:00 AM/PM	6	1
+UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	8:00 AM/PM	1	1
+UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	12:00 AM/PM	2	0
+UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	2:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	4:00 AM/PM	3	1
+UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	4:00 AM/PM	4	1
+UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		80	6:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	8:00 AM/PM	6	0
+UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	8:00 AM/PM	7	0
+UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	10:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	12:00 AM/PM	6	1
+UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	12:00 AM/PM	4	0
+UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	2:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	2:00 AM/PM	4	0
+UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	4:00 AM/PM	1	0
+UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	4:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	4:00 AM/PM	7	0
+UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	6:00 AM/PM	6	1
+UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	8:00 AM/PM	7	0
+UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	10:00 AM/PM	8	0
+UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	12:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	12:00 AM/PM	4	0
+UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	12:00 AM/PM	3	0
+UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	12:00 AM/PM	7	0
+UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	2:00 AM/PM	1	3
+UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	2:00 AM/PM	2	3
+UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	4:00 AM/PM	2	0
+UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	4:00 AM/PM	7	0
+UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	6:00 AM/PM	2	0
+UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	6:00 AM/PM	3	0
+UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	8:00 AM/PM	6	0
+UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	10:00 AM/PM	1	0
+UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	10:00 AM/PM	2	0
+UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	10:00 AM/PM	3	0
+UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	10:00 AM/PM	6	0
+UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	10:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	10:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	10:00 AM/PM	4	0
+ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		-1	1:00 AM	4	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	1:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	1:00 AM	7	0
+ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		-1	2:00 AM	6	1
+ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	2:00 AM	6	2
+ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		-1	3:00 AM	4	2
+ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	4:00 AM	6	3
+ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		-1	5:00 AM	1	1
+ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	5:00 AM	2	1
+ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	5:00 AM	1	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	5:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	5:00 AM	7	0
+ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	6:00 AM	6	2
+ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		-1	6:00 AM	6	2
+ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		-1	7:00 AM	2	2
+ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	7:00 AM	6	2
+ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	8:00 AM	6	2
+ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	8:00 AM	2	1
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	8:00 AM	1	2
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	8:00 AM	5	2
+ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	9:00 AM	2	2
+ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	9:00 AM	6	1
+ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	9:00 AM	1	1
+ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	9:00 AM	4	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	9:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	9:00 AM	7	0
+ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		-1	10:00 AM	6	3
+ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	1:00 PM	8	1
+ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		-1	1:00 PM	7	1
+ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	1:00 PM	2	1
+ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	1:00 PM	3	1
+ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	1:00 PM	1	1
+ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	5:00 PM	2	1
+ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		-1	5:00 PM	1	9
+ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	9:00 PM	7	1
+ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	9:00 PM	8	1
+UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	1	0
+UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	2:00AM/PM	3	0
+UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	2:00AM/PM	2	0
+UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	4:00AM/PM	6	1
+UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	6:00AM/PM	6	0
+UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	10:00AM/PM	2	1
+UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	10:00AM/PM	7	0
+UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	12:00AM/PM	7	0
+UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	12:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	2:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	2:00AM/PM	7	1
+UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	2:00AM/PM	8	2
+UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	4:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	4:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	4:00AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	6:00AM/PM	7	0
+UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	6:00AM/PM	6	0
+UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	6:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	8:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	8:00AM/PM	7	0
+UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	12:00 AM/PM	1	0
+UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	12:00 AM/PM	8	0
+UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	2:00 AM/PM	6	0
+UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	4:00 AM/PM	7	0
+UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	6:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	6:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	6:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	8:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	8:00 AM/PM	7	0
+UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	8:00 AM/PM	6	0
+UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	8:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	10:00 AM/PM	8	0
+UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	10:00 AM/PM	2	1
+UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	2:00 AM/PM	1	0
+UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	2:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	4:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	4:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	4:00 AM/PM	4	0
+UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	10:00 AM/PM	1	0
+UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	10:00 AM/PM	6	0
+ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	1:00 AM	3	1
+ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		-1	1:00 AM	1	3
+ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	2:00 AM	7	2
+ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		-1	3:00 AM	6	2
+ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		-1	3:00 AM	7	2
+ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		-1	3:00 AM	8	2
+ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	4:00 AM	6	2
+ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		-1	4:00 AM	8	2
+ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		-1	4:00 AM	7	2
+ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	4:00 AM	6	3
+ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	5:00 AM	5	1
+ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	5:00 AM	2	1
+ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	6:00 AM	7	1
+ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	9:00 AM	6	1
+ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	9:00 AM	7	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	1:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	1:00 PM	7	0
+ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	5:00 PM	1	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	5:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	5:00 PM	7	0
+ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	5:00 PM	6	9
+ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	6:00 PM	7	2
+ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	6:00 PM	8	2
+ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	7:00 PM	3	1
+ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	9:00 PM	7	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	9:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	9:00 PM	7	0
 REGULAR_NODE	Muddy Water	Central Thanalan	(x18,y25)		5	Mineral Deposit
 REGULAR_NODE	Copper Ore	Central Thanalan	(x18,y25)		5	Mineral Deposit
 REGULAR_NODE	Wind Shard	Central Thanalan	(x18,y25)		5	Mineral Deposit
@@ -918,186 +918,186 @@ REGULAR_NODE	Raw Star Quartz	Ultima Thule	(x21,y33)		90	Rocky Outcrop
 REGULAR_NODE	Wind Crystal	Ultima Thule	(x21,y33)		90	Rocky Outcrop
 REGULAR_NODE	Chondrite	Ultima Thule	(x19,y13)		90	Mineral Deposit
 REGULAR_NODE	Wind Crystal	Ultima Thule	(x19,y13)		90	Mineral Deposit
-UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	1	87	0
-UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	12:00 AM/PM	3	90	0
-UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	12:00 AM/PM	2	85	0
-UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	2:00 AM/PM	6	85	0
-UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	4:00 AM/PM	6	83	0
-UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	6:00 AM/PM	3	89	0
-UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	6:00 AM/PM	6	90	1
-UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	8:00 AM/PM	1	90	1
-UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	12:00 AM/PM	2	72	0
-UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		12:00 AM/PM	6	78	0
-UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	2:00 AM/PM	3	80	0
-UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	2:00 AM/PM	6	77	0
-UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	4:00 AM/PM	3	80	1
-UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	4:00 AM/PM	4	80	1
-UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		6:00 AM/PM	2	80	0
-UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	8:00 AM/PM	6	73	0
-UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	8:00 AM/PM	7	76	0
-UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	10:00 AM/PM	6	74	0
-UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	10:00 AM/PM	2	71	0
-UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	10:00 AM/PM	6	75	0
-UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	12:00 AM/PM	6	80	1
-UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	12:00 AM/PM	6	69	0
-UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	12:00 AM/PM	4	67	0
-UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	2:00 AM/PM	2	70	0
-UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	2:00 AM/PM	4	61	0
-UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	2:00 AM/PM	6	65	0
-UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	4:00 AM/PM	1	70	0
-UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	4:00 AM/PM	3	68	0
-UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	4:00 AM/PM	7	63	0
-UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	6:00 AM/PM	6	70	1
-UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	8:00 AM/PM	7	66	0
-UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	10:00 AM/PM	8	63	0
-UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	12:00 AM/PM	2	57	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	12:00 AM/PM	4	59	0
-UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	12:00 AM/PM	3	54	0
-UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	12:00 AM/PM	7	51	0
-UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		2:00 AM/PM	1	50	3
-UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	2:00 AM/PM	2	50	3
-UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	4:00 AM/PM	2	57	0
-UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	4:00 AM/PM	7	59	0
-UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	6:00 AM/PM	2	56	0
-UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	6:00 AM/PM	3	58	0
-UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	8:00 AM/PM	6	60	0
-UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	10:00 AM/PM	1	55	0
-UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		10:00 AM/PM	2	52	0
-UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		10:00 AM/PM	3	53	0
-UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	10:00 AM/PM	6	52	0
-UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	10:00 AM/PM	7	53	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	3	55	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	6	53	0
-UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	10:00 AM/PM	4	51	0
-ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		1:00 AM	4	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	1:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		1:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		1:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		1:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		1:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	1:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		2:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	2:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		3:00 AM	4	-1	2
-ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		4:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		5:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		5:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		5:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	5:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		5:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		5:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		5:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		5:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	5:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	6:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		6:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		7:00 AM	2	-1	2
-ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		7:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		8:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		8:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		8:00 AM	1	-1	2
-ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		8:00 AM	5	-1	2
-ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		9:00 AM	2	-1	2
-ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		9:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		9:00 AM	1	-1	1
-ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		9:00 AM	4	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	9:00 AM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		9:00 AM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		9:00 AM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		9:00 AM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		9:00 AM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	9:00 AM	7	-1	0
-ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		10:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	1:00 PM	8	-1	1
-ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		1:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		1:00 PM	2	-1	1
-ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		1:00 PM	3	-1	1
-ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		1:00 PM	1	-1	1
-ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	5:00 PM	2	-1	1
-ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		5:00 PM	1	-1	9
-ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		9:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		9:00 PM	8	-1	1
-UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	12:00AM/PM	1	81	0
-UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	12:00AM/PM	8	81	0
-UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	2:00AM/PM	3	84	0
-UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	2:00AM/PM	2	83	0
-UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	4:00AM/PM	6	90	1
-UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	6:00AM/PM	6	83	0
-UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	10:00AM/PM	2	90	1
-UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	10:00AM/PM	7	89	0
-UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	12:00AM/PM	7	76	0
-UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	12:00AM/PM	7	80	0
-UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	2:00AM/PM	7	79	0
-UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	2:00AM/PM	7	80	1
-UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	2:00AM/PM	8	70	2
-UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	4:00AM/PM	7	74	0
-UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	4:00AM/PM	8	75	0
-UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	4:00AM/PM	6	71	0
-UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	6:00AM/PM	7	73	0
-UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	6:00AM/PM	6	72	0
-UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	6:00AM/PM	8	78	0
-UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	8:00AM/PM	7	80	0
-UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	8:00AM/PM	7	77	0
-UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	12:00 AM/PM	1	69	0
-UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	12:00 AM/PM	8	63	0
-UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	2:00 AM/PM	6	60	0
-UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	4:00 AM/PM	7	66	0
-UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	6:00 AM/PM	6	68	0
-UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	6:00 AM/PM	7	67	0
-UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	6:00 AM/PM	6	69	0
-UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	8:00 AM/PM	6	61	0
-UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	8:00 AM/PM	7	65	0
-UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	8:00 AM/PM	6	70	0
-UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	8:00 AM/PM	7	70	0
-UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	10:00 AM/PM	8	63	0
-UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	10:00 AM/PM	2	80	1
-UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	12:00 AM/PM	6	60	0
-UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	2:00 AM/PM	1	57	0
-UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	2:00 AM/PM	2	59	0
-UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	2	53	0
-UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	3	51	0
-UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	4:00 AM/PM	4	55	0
-UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	10:00 AM/PM	1	56	0
-UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	10:00 AM/PM	6	58	0
-ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	1:00 AM	3	-1	1
-ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		1:00 AM	1	-1	3
-ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		2:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		3:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		3:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		3:00 AM	8	-1	2
-ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	4:00 AM	6	-1	2
-ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		4:00 AM	8	-1	2
-ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		4:00 AM	7	-1	2
-ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	4:00 AM	6	-1	3
-ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	5:00 AM	5	-1	1
-ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	5:00 AM	2	-1	1
-ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	6:00 AM	7	-1	1
-ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	9:00 AM	6	-1	1
-ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		9:00 AM	7	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	1:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		1:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		1:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		1:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		1:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	1:00 PM	7	-1	0
-ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		5:00 PM	1	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	5:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		5:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		5:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		5:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		5:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	5:00 PM	7	-1	0
-ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	5:00 PM	6	-1	9
-ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	6:00 PM	7	-1	2
-ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		6:00 PM	8	-1	2
-ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	7:00 PM	3	-1	1
-ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	9:00 PM	7	-1	1
-ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	9:00 PM	2	-1	0
-ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		9:00 PM	3	-1	0
-ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		9:00 PM	4	-1	0
-ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		9:00 PM	5	-1	0
-ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		9:00 PM	6	-1	0
-ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	9:00 PM	7	-1	0
+UNSPOILED_NODE	Rarefied Sykon	Elpis	(x25,y5)	600 Min Collectability	87	12:00 AM/PM	1	0
+UNSPOILED_NODE	Rarefied Elder Nutmeg	Elpis	(x25,y5)	600 Min Collectability	90	12:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Coconut	Thavnair	(x14,y14)	600 Min Collectability	85	12:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Palm Log	Thavnair	(x14,y14)	600 Min Collectability	85	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Red Pine Log	Garlemald	(x35,y6)	600 Min Collectability	83	4:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Dark Rye	Labyrinthos	(x10,y22)	600 Min Collectability	89	6:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Iceberg Lettuce	Labyrinthos	(x10,y22)	600 Min Collectability	90	6:00 AM/PM	6	1
+UNSPOILED_NODE	Rarefied AR-Caean Cotton Boll	Ultima Thule	(x9,y33)	600 Min Collectability	90	8:00 AM/PM	1	1
+UNSPOILED_NODE	Broad Beans	Il Mheg	(x24,y36)	Perception 1312	72	12:00 AM/PM	2	0
+UNSPOILED_NODE	Mist Spinach	The Rak'tika Greatwood	(x34,y21)		78	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Amber Cloves	Amh Araeng	(x19,y20)	600 Min Collectability	80	2:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Sandteak Log	Amh Araeng	(x19,y20)	600 Min Collectability	77	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Coral	The Tempest	(x37,y12)	600 Min Collectability	80	4:00 AM/PM	3	1
+UNSPOILED_NODE	Rarefied Kelp	The Tempest	(x37,y12)	600 Min Collectability	80	4:00 AM/PM	4	1
+UNSPOILED_NODE	Lemonette	Kholusia	(x20,y27)		80	6:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied White Oak Log	Kholusia	(x28,y33)	600 Min Collectability	73	8:00 AM/PM	6	0
+UNSPOILED_NODE	Russet Popoto	Amh Araeng	(x19,y16)	Perception 1421	76	8:00 AM/PM	7	0
+UNSPOILED_NODE	Peppermint	Lakeland	(x26,y20)	Perception 1080	74	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Pixie Apple	Il Mheg	(x4,y23)	600 Min Collectability	71	10:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Miracle Apple Log	Il Mheg	(x4,y23)	600 Min Collectability	75	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Urunday Log	The Peaks	(x31,y7)	600 Min Collectability	80	12:00 AM/PM	6	1
+UNSPOILED_NODE	Rarefied Pine Log	Yanxia	(x19,y14)	600 Min Collectability	69	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Pine Resin	Yanxia	(x19,y14)	600 Min Collectability	67	12:00 AM/PM	4	0
+UNSPOILED_NODE	Othardian Plum	The Azim Steppe	(x23,y16)	Perception 862	70	2:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Larch Log	The Ruby Sea	(x6,y16)	600 Min Collectability	61	2:00 AM/PM	4	0
+UNSPOILED_NODE	Rarefied Larch Sap	The Ruby Sea	(x6,y16)	600 Min Collectability	65	2:00 AM/PM	6	0
+UNSPOILED_NODE	Rhalgr's Streak	The Lochs	(x8,y8)	Edgyth's Winning Streak Perception 690	70	4:00 AM/PM	1	0
+UNSPOILED_NODE	Jhammel Ginger	The Lochs	(x8,y8)	Perception 664	68	4:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Shiitake Mushroom	The Ruby Sea	(x33,y9)	600 Min Collectability	63	4:00 AM/PM	7	0
+UNSPOILED_NODE	Hallowed Basil	The Peaks	(x23,y16)	Perception 750	70	6:00 AM/PM	6	1
+UNSPOILED_NODE	Lotus Root	Yanxia	(x28,y7)	Perception 638	66	8:00 AM/PM	7	0
+UNSPOILED_NODE	Bamboo Shoot	Yanxia	(x28,y25)	Perception 624	63	10:00 AM/PM	8	0
+UNSPOILED_NODE	Rarefied Dark Chestnut	The Dravanian Forelands	(x16,y36)	600 Min Collectability	57	12:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Resin	The Dravanian Forelands	(x16,y36)	600 Min Collectability	59	12:00 AM/PM	4	0
+UNSPOILED_NODE	Dravanian Mistletoe	The Churning Mists	(x24,y6)	Perception 330	54	12:00 AM/PM	3	0
+UNSPOILED_NODE	Porcini	The Churning Mists	(x24,y6)	Perception 69	51	12:00 AM/PM	7	0
+UNSPOILED_NODE	Old World Fig Seeds	The Dravanian Forelands	(x26,y12)		50	2:00 AM/PM	1	3
+UNSPOILED_NODE	Old World Fig	The Dravanian Forelands	(x26,y12)	Perception 220	50	2:00 AM/PM	2	3
+UNSPOILED_NODE	Cloud Banana	The Dravanian Hinterlands	(x19,y36)	Perception 356	57	4:00 AM/PM	2	0
+UNSPOILED_NODE	Morel	The Dravanian Hinterlands	(x19,y36)	Perception 384	59	4:00 AM/PM	7	0
+UNSPOILED_NODE	Heavens Lemon	The Sea of Clouds	(x35,y23)	Perception 353	56	6:00 AM/PM	2	0
+UNSPOILED_NODE	Abalathian Mistletoe	The Sea of Clouds	(x35,y23)	Perception 371	58	6:00 AM/PM	3	0
+UNSPOILED_NODE	Chysahl Greens	Coerthas Western Highlands	(x8,y9)	Perception 408	60	8:00 AM/PM	6	0
+UNSPOILED_NODE	Chives	Coerthas Western Highlands	(x31,y20)	Perception 351	55	10:00 AM/PM	1	0
+UNSPOILED_NODE	Pearl Sprout Seeds	Coerthas Western Highlands	(x31,y20)		52	10:00 AM/PM	2	0
+UNSPOILED_NODE	Coerthan Tea Seeds	Coerthas Western Highlands	(x31,y20)		53	10:00 AM/PM	3	0
+UNSPOILED_NODE	Pearl Sprouts	Coerthas Western Highlands	(x31,y20)	Perception 273	52	10:00 AM/PM	6	0
+UNSPOILED_NODE	Coerthan Tea Leaves	Coerthas Western Highlands	(x31,y20)	Perception 321	53	10:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Branch	The Dravanian Forelands	(x29,y30)	600 Min Collectability	55	10:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Log	The Dravanian Forelands	(x29,y30)	600 Min Collectability	53	10:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Dark Chestnut Sap	The Dravanian Forelands	(x29,y30)	600 Min Collectability	51	10:00 AM/PM	4	0
+ARR_UNSPOILED_NODE	Silkworm Cocoon	East Shroud	(x22,y26)		-1	1:00 AM	4	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	1:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	1:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	1:00 AM	7	0
+ARR_UNSPOILED_NODE	Fragrant Log	South Shroud	(x18,y23)		-1	2:00 AM	6	1
+ARR_UNSPOILED_NODE	Shroud Tea Leaves	Central Shroud	(x16,y20)	Mazlaya Greens Slot 1, Dark Matter Cluster Slot 5	-1	2:00 AM	6	2
+ARR_UNSPOILED_NODE	Scarlet Sap	North Shroud	(x18,y26)		-1	3:00 AM	4	2
+ARR_UNSPOILED_NODE	Ebony Log	Middle La Noscea	(x23.2,y26.3)		-1	4:00 AM	6	3
+ARR_UNSPOILED_NODE	Trillium	East Shroud	(x17,y19)		-1	5:00 AM	1	1
+ARR_UNSPOILED_NODE	Honey Lemon	Eastern La Noscea	(x26,y32)		-1	5:00 AM	2	1
+ARR_UNSPOILED_NODE	Honey Lemon Seeds	Eastern La Noscea	(x26,y32)		-1	5:00 AM	1	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	5:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	5:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	5:00 AM	7	0
+ARR_UNSPOILED_NODE	Young Cieldalaes Spinach	Lower La Noscea	(x32,y11)	Mazlaya Greens Slot 1	-1	6:00 AM	6	2
+ARR_UNSPOILED_NODE	Redolent Log	Central Shroud	(x30,y19)		-1	6:00 AM	6	2
+ARR_UNSPOILED_NODE	Blood Orange	Upper La Noscea	(x28,y25)		-1	7:00 AM	2	2
+ARR_UNSPOILED_NODE	Bamboo Stick	Upper La Noscea	(x28,y25)		-1	7:00 AM	6	2
+ARR_UNSPOILED_NODE	La Noscean Leek	Western La Noscea	(x34,y28)		-1	8:00 AM	6	2
+ARR_UNSPOILED_NODE	Mazlaya Greens	Western La Noscea	(x34,y28)		-1	8:00 AM	2	1
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	8:00 AM	1	2
+ARR_UNSPOILED_NODE	Waterfowl Feather (Rare)	Western La Noscea	(x34,y28)		-1	8:00 AM	5	2
+ARR_UNSPOILED_NODE	Apricot	Middle La Noscea	(x19,y16)		-1	9:00 AM	2	2
+ARR_UNSPOILED_NODE	Spruce Log	Coerthas Central Highlands	(x27,y12)		-1	9:00 AM	6	1
+ARR_UNSPOILED_NODE	Prickly Pineapple Seeds	Eastern La Noscea	(x30,y26)		-1	9:00 AM	1	1
+ARR_UNSPOILED_NODE	Prickly Pineapple	Eastern La Noscea	(x30,y26)		-1	9:00 AM	4	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x32,y11)	Unaspected Crystal Slot 1	-1	9:00 AM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x32,y11)		-1	9:00 AM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x32,y11)	Dark Matter Cluster Slot 8	-1	9:00 AM	7	0
+ARR_UNSPOILED_NODE	Cypress Log	Central Shroud	(x25,y29)		-1	10:00 AM	6	3
+ARR_UNSPOILED_NODE	Vampire Plant	Coerthas Central Highlands	(x27,y24)	Dark Matter Cluster Slot 5	-1	1:00 PM	8	1
+ARR_UNSPOILED_NODE	Black Truffle	Eastern Thanalan	(x12,y16)		-1	1:00 PM	7	1
+ARR_UNSPOILED_NODE	Mazlaya Greens (Rare)	Eastern Thanalan	(x12,y16)		-1	1:00 PM	2	1
+ARR_UNSPOILED_NODE	Dzemael Tomato	Eastern La Noscea	(x18,y26)		-1	1:00 PM	3	1
+ARR_UNSPOILED_NODE	Dzemael Tomato Seeds (Rare)	Eastern La Noscea	(x18,y26)		-1	1:00 PM	1	1
+ARR_UNSPOILED_NODE	Thavnairian Mistletoe	Coerthas Central Highlands	(x8,y13)	Dark Matter Cluster, Unaspected Crystal	-1	5:00 PM	2	1
+ARR_UNSPOILED_NODE	Rosemary	East Shroud	(x22,y30)		-1	5:00 PM	1	9
+ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	9:00 PM	7	1
+ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	9:00 PM	8	1
+UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	1	0
+UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	2:00AM/PM	3	0
+UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	2:00AM/PM	2	0
+UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	4:00AM/PM	6	1
+UNSPOILED_NODE	Rarefied Bismuth Ore	Mare Lamentorum	(x16,y32)	600 Min. Collectability	83	6:00AM/PM	6	0
+UNSPOILED_NODE	Rarefied Annite	Elpis	(x8,y36)	600 Min. Collectability	90	10:00AM/PM	2	1
+UNSPOILED_NODE	Rarefied Blue Zircon	Elpis	(x8,y36)	600 Min. Collectability	89	10:00AM/PM	7	0
+UNSPOILED_NODE	Raw Triplite	Amh Araeng	(x20,y29)	Perception 1421	76	12:00AM/PM	7	0
+UNSPOILED_NODE	Raw Onyx	The Tempest	(x16,y21)	Perception 1562	80	12:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Reef Rock	The Tempest	(x33,y21)	600 Min. Collectability	79	2:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Tungsten Ore	The Tempest	(x33,y21)	600 Min. Collectability	80	2:00AM/PM	7	1
+UNSPOILED_NODE	Raw Hematite	Kholusia	(x33,y23)	Perception 1350	70	2:00AM/PM	8	2
+UNSPOILED_NODE	Raw Lazurite	The Rak'tika Greatwood	(x19,y21)	Perception 1350	74	4:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Raw Petalite	Lakeland	(x36,y24)	600 Min. Collectability	75	4:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Titancopper Ore	Lakeland	(x36,y24)	600 Min. Collectability	71	4:00AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Lazurite	The Rak'tika Greatwood	(x16,y18)	600 Min. Collectability	73	6:00AM/PM	7	0
+UNSPOILED_NODE	Raw Diaspore	Il Mheg	(x26,y13)	Perception 1312	72	6:00AM/PM	6	0
+UNSPOILED_NODE	Raw Petalite	Lakeland	(x29,y33)	Perception 1491	78	6:00AM/PM	8	0
+UNSPOILED_NODE	Rarefied Raw Onyx	The Tempest	(x25,y4)	600 Min. Collectability	80	8:00AM/PM	7	0
+UNSPOILED_NODE	Rarefied Sea Salt	The Tempest	(x25,y4)	600 Min. Collectability	77	8:00AM/PM	7	0
+UNSPOILED_NODE	Ala Mhigan Salt Crystal	The Lochs	(x21,y29)	Perception 677	69	12:00 AM/PM	1	0
+UNSPOILED_NODE	Raw Star Spinel	The Ruby Sea	(x15,y5)	Perception 780	63	12:00 AM/PM	8	0
+UNSPOILED_NODE	Raw Triphane	The Fringes	(x24,y8)	Perception 552	60	2:00 AM/PM	6	0
+UNSPOILED_NODE	Raw Azurite	Azim Steppe	(x5,y29)	Perception 796	66	4:00 AM/PM	7	0
+UNSPOILED_NODE	Raw Imperial Jade	Yanxia	(x29,y9)	Perception 829	68	6:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Azurite	Azim Steppe	(x36,y26)	600 Min. Collectability	67	6:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Silvergrace Ore	Azim Steppe	(x36,y26)	600 Min. Collectability	69	6:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Triphane	The Fringes	(x30,y13)	600 Min. Collectability	61	8:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Raw Kyanite	The Fringes	(x30,y13)	600 Min. Collectability	65	8:00 AM/PM	7	0
+UNSPOILED_NODE	Pummelite	The Peaks	(x26,y12)	A Miner Success Perception 846	70	8:00 AM/PM	6	0
+UNSPOILED_NODE	Raw Rhodonite	The Peaks	(x26,y12)	Perception 846	70	8:00 AM/PM	7	0
+UNSPOILED_NODE	Rarefied Raw Star Spinel	The Ruby Sea	(x21,y34)	600 Min. Collectability	63	10:00 AM/PM	8	0
+UNSPOILED_NODE	Rarefied Gyr Abanian Alumen	The Fringes	(x32,y31)	600 Min. Collectability	80	10:00 AM/PM	2	1
+UNSPOILED_NODE	Adamantite Ore	Azys Lla	(x24,y6)	Perception 408	60	12:00 AM/PM	6	0
+UNSPOILED_NODE	Rarefied Abalathian Spring Water	The Sea of Clouds	(x21,y12)	600 Min. Collectability	57	2:00 AM/PM	1	0
+UNSPOILED_NODE	Rarefied Aurum Regis Sand	The Sea of Clouds	(x21,y12)	600 Min. Collectability	59	2:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Chalcocite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	53	4:00 AM/PM	2	0
+UNSPOILED_NODE	Rarefied Pyrite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	51	4:00 AM/PM	3	0
+UNSPOILED_NODE	Rarefied Limonite	The Dravanian Forelands	(x31,y32)	600 Min. Collectability	55	4:00 AM/PM	4	0
+UNSPOILED_NODE	Abalathian Rock Salt	The Sea of Clouds	(x8,y8)	Perception 353	56	10:00 AM/PM	1	0
+UNSPOILED_NODE	Red Quartz	The Sea of Clouds	(x8,y8)	Perception 371	58	10:00 AM/PM	6	0
+ARR_UNSPOILED_NODE	Darksteel Ore	Coerthas Central Highlands	(x27,y19)	Gregarious Worm Slot 1	-1	1:00 AM	3	1
+ARR_UNSPOILED_NODE	Pumice	Eastern La Noscea	(x17,y26)		-1	1:00 AM	1	3
+ARR_UNSPOILED_NODE	Antumbral Rock	Eastern Thanalan	(x26,y19)		-1	2:00 AM	7	2
+ARR_UNSPOILED_NODE	Ferberite	Northern Thanalan	(x16,y19)		-1	3:00 AM	6	2
+ARR_UNSPOILED_NODE	Raw Topaz	Northern Thanalan	(x16,y19)		-1	3:00 AM	7	2
+ARR_UNSPOILED_NODE	Raw Iolite	Northern Thanalan	(x16,y19)		-1	3:00 AM	8	2
+ARR_UNSPOILED_NODE	Native Gold	Central Thanalan	(x24,y16)	Gregarious Worm Slot 1	-1	4:00 AM	6	2
+ARR_UNSPOILED_NODE	Raw Diamond	Central Thanalan	(x24,y16)		-1	4:00 AM	8	2
+ARR_UNSPOILED_NODE	Raw Emerald	Central Thanalan	(x24,y16)		-1	4:00 AM	7	2
+ARR_UNSPOILED_NODE	Platinum Ore	Southern Thanalan	(x19,y8)	Gregarious Worm Slot 1	-1	4:00 AM	6	3
+ARR_UNSPOILED_NODE	Water Cluster	Western Thanalan	(x18,y27)	Grade 3 Thanalan Topsoil Slot 8	-1	5:00 AM	5	1
+ARR_UNSPOILED_NODE	Gold Sand	Eastern Thanalan	(x25,y22)	Dark Matter Cluster Slot 4	-1	5:00 AM	2	1
+ARR_UNSPOILED_NODE	Umbral Rock	South Shroud	(x16,y31)	Grade 3 Shroud Topsoil Slot 8	-1	6:00 AM	7	1
+ARR_UNSPOILED_NODE	Gold Ore	Eastern Thanalan	(x28,y22)	Gregarious Worm Slot 1	-1	9:00 AM	6	1
+ARR_UNSPOILED_NODE	Coblyn Larva	Eastern Thanalan	(x28,y22)		-1	9:00 AM	7	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x28,y12)	Unaspected Crystal Slot 1	-1	1:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x28,y12)		-1	1:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x28,y12)	Dark Matter Cluster Slot 8	-1	1:00 PM	7	0
+ARR_UNSPOILED_NODE	Volcanic Rock Salt	Eastern La Noscea	(x21,y32)		-1	5:00 PM	1	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	5:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	5:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	5:00 PM	7	0
+ARR_UNSPOILED_NODE	Virgin Basilisk Egg	Northern Thanalan	(x24,y26)	Gregarious Worm Slot 1	-1	5:00 PM	6	9
+ARR_UNSPOILED_NODE	Raw Ruby	Lower La Noscea	(x23,y21)	Gregarious Worm Slot 1	-1	6:00 PM	7	2
+ARR_UNSPOILED_NODE	Raw Sapphire	Lower La Noscea	(x23,y21)		-1	6:00 PM	8	2
+ARR_UNSPOILED_NODE	Fire Cluster	Middle La Noscea	(x25,y27)	Grade 3 La Noscean Topsoil slot 8	-1	7:00 PM	3	1
+ARR_UNSPOILED_NODE	Astral Rock	Coerthas Central Highlands	(x23,y23)	Dark Matter Cluster Slot 1	-1	9:00 PM	7	1
+ARR_UNSPOILED_NODE	Lightning Cluster	Mor Dhona	(x27,y10)	Unaspected Crystal Slot 1	-1	9:00 PM	2	0
+ARR_UNSPOILED_NODE	Fire Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	3	0
+ARR_UNSPOILED_NODE	Wind Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	4	0
+ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	5	0
+ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	6	0
+ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	9:00 PM	7	0
 FOLK_LORE_NODE	Potent Spice	Elpis Thavnair Ultima Thule	(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)	Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai	Ancient Ilsabardian Celestial	6AM/PM 8AM/PM 10AM/PM	1
 FOLK_LORE_NODE	Mempisang Log	Elpis	(x33.1,y14.7)	Mempisang Lumber	Ancient	6AM/PM	6
 FOLK_LORE_NODE	Golden Cocoon	Thavnair	(x25.4,y21.8)	Golden Silk	Ilsabardian	8AM/PM	4
