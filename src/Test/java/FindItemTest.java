@@ -6,10 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FindItemTest {
     private ArrayList<String> expected, actual;
-    private FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+    private final FindItem findItem = new FindItem(new File("XIVGather.TSV"));
 
     /**
      * Provides a custom input for assertEquals. This updates class values expected,actual so that assertEquals only uses those values.
+     * It then runs assertEquals on the two inputs
      * @param expected expected output
      * @param actual actual output
      */
@@ -17,6 +18,8 @@ class FindItemTest {
         this.expected.clear();
         this.expected.addAll(List.of(expected));
         this.actual = actual;
+        assertEquals(this.expected,this.actual);
+
     }
 
     @org.junit.jupiter.api.Test
@@ -31,13 +34,11 @@ class FindItemTest {
                 "REGULAR_NODE\tLava Toad\tSouthern Thanalan\t(x13,y31)\t\t50\tLush Vegetation Patch"},
                 findItem.findAllClosest("lava tode"));
 
-
         findAllClosetHelper(new String[]{
                 "REGULAR_NODE\tBeech Log\tThe Fringes\t(x10,y16)\t\t65\tMature Tree",
                 "REGULAR_NODE\tGem Algae\tThe Ruby Sea\t(x26,y19)\t\t65\tLush Vegetation Patch"},
                 findItem.findAllClosest("emye log")
                 );
-        assertEquals(expected,actual);
 
         //assertEquals(expectedOutput,curTest);
         //End of regular node tests
@@ -47,7 +48,6 @@ class FindItemTest {
                 "UNSPOILED_NODE\tRarefied Pyrite\tThe Dravanian Forelands\t(x31,y32)\t600 Min. Collectability\t51\t4:00 AM/PM\t3\t0"},
                 findItem.findAllClosest("rarefiend stuff")
                 );
-        assertEquals(expected,actual);
         //End of Unspoiled
 
         findAllClosetHelper(new String[]{
@@ -55,7 +55,6 @@ class FindItemTest {
                 "ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\t8:00 AM\t5\t2"},
                 findItem.findAllClosest("Waterfowl Feather (Rare)")
                 );
-        assertEquals(expected,actual);
         //End of ARRUnspoiled
 
         findAllClosetHelper(new String[]{
@@ -63,7 +62,6 @@ class FindItemTest {
         "FOLK_LORE_NODE\tSandalwood Sap\tThe Rak'tika Greatwood\t(x24,y36)\tPliable Glass Fiber\tVrandtic\t2AM/PM\t4"},
                 findItem.findAllClosest("Sandalwood")
                 );
-        assertEquals(expected,actual);
 
         //End of folklore
 
@@ -72,7 +70,6 @@ class FindItemTest {
         "FISHING_COLLECTABLES_NODE\tBasilosaurus\tThe Perfumed Tides\tn/a\tMooched from Puff-paya\t1055\tMackerel Strip\tFair Skies\t209 Purple"},
                 findItem.findAllClosest("Basilosaurus")
                 );
-        assertEquals(expected,actual);
         //end of folkFish
         // TODO: 7/29/2022
 
