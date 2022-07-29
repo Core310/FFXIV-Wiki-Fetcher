@@ -326,7 +326,6 @@ public class Formatter {
             File oldFile = new File(file);
             if (oldFile.delete())
                 tmp.renameTo(oldFile);
-
         } catch (IOException e) {
             e.printStackTrace();
         }

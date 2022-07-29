@@ -73,7 +73,7 @@ class FindItemTest {
         curTest = findItem.findAnyMatching("rarefield gyrr aabania");
         assertEquals("UNSPOILED_NODE\tRarefied Gyr Abanian Alumen\tThe Fringes\t(x32,y31)\t600 Min. Collectability\t10:00 AM/PM\t2\t80\t1",curTest);
         curTest = findItem.findAnyMatching("adamite ore");
-        assertEquals("UNSPOILED_NODE\tAdamantite Ore\tAzys Lla\t(x24,y6)\tPerception 408\t60\tn/a\t6\t0\t12:00 AM/PM",curTest);
+        assertEquals("UNSPOILED_NODE\tAdamantite Ore\tAzys Lla\t(x24,y6)\tPerception 408\t12:00 AM/PM\t6\t60\t0",curTest);
         //End of unspoil
 
         curTest = findItem.findAnyMatching("nat gol");

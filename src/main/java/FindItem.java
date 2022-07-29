@@ -1,8 +1,8 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 import scrapper.items.StaticItemTypes;
 import scrapper.items.*;
-import java.io.File;
-import java.io.FileNotFoundException;
+
+import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
@@ -68,14 +68,14 @@ public class FindItem {
 
     /**
      * Loops through file finding the highest matching value and return all in array.
-     * Called helper as returns the raw data values.
+     * <p> Called helper as returns the raw data values. <p> Acts as parent class for other 'find' methods.
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName.
      */
     protected ArrayList<String> findAllClosest(String itemName) {
-        Scanner sc;
+        BufferedReader br;
         try {
-            sc = new Scanner(file);
+            br =  new BufferedReader(new FileReader(file));
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -83,12 +83,17 @@ public class FindItem {
         String curLine;
         String curItem;
         int currentRatio;
-        while (sc.hasNextLine()){//Loop through file
-            curLine = sc.nextLine();
+        while (true){
+            try {
+                if (((curLine = br.readLine()) == null)) break;
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }//Loop through file
+
+
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}//Weird typo edge case. If more appear make an array and loop through to skip them.
-
             else if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
@@ -103,8 +108,12 @@ public class FindItem {
         currentArray.clear();
         currentArray.addAll(tmp);
         tmp.clear();
+        try {
+            br.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
-        sc.close();
         return currentArray;
     }
 
