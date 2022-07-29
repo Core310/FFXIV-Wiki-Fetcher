@@ -6,7 +6,7 @@ import scrapper.readers.items.baseNode.Item;
 import java.util.LinkedHashMap;
 
 public class Fishing_Node extends BaseItem implements Item {
-    private String type, fishingLog;
+    private final String type, fishingLog;
     private int level;
 
     /**

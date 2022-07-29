@@ -16,5 +16,5 @@ public enum StaticItemTypes {
     BIG_FISH_NODE,
     FISHING_COLLECTABLES_NODE,
     DELETE,
-    IGNORE; //Ignore is for Data
+    IGNORE //Ignore is for Data
 }

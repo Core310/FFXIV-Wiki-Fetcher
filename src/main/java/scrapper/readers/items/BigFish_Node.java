@@ -6,7 +6,7 @@ import scrapper.readers.items.baseNode.Item;
 import java.util.LinkedHashMap;
 
 public class BigFish_Node extends BaseItem implements Item {
-    private String fishingHole, ezoraTime, weather, bait, mooch, gathering;
+    private final String fishingHole, ezoraTime, weather, bait, mooch, gathering;
 
     /**
      * Base constructor that is used for inheritance on its children.

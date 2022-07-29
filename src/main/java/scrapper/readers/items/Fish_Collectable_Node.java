@@ -6,7 +6,7 @@ import scrapper.readers.items.baseNode.Item;
 import java.util.LinkedHashMap;
 
 public class Fish_Collectable_Node extends BaseItem implements Item {
-    private String minCollectability,catchMethod, timeWeather,scripts;
+    private final String minCollectability,catchMethod, timeWeather,scripts;
 
     /**
      * Base constructor that is used for inheritance on its children.

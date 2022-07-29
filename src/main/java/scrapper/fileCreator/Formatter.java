@@ -285,20 +285,16 @@ public class Formatter {
     }
 
     /**
-     * Formats the file by:
-     * Goes through line by line.
-     * [StaticItemTypes Method]
+     * Formats the file by: Goes through line by line.
+     * <p>[StaticItemTypes Method]
      * Searches for table HEADERS in wiki which determines the current ITEMTYPE (internal var). This is obtained from the StaticItemTypes method.
-     * Eg. Gather header -> each item is now a Gather item.
-     *
-     * When a data line is found (normal table values) will execute
-     * [obtainItemString Method]
-     * This will format the current line according to the ITEMTYPE.
-     *
-     * Then this method will replace the current line
-     *
-     * Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
-     * This method creates several duplicate items and has another method called later on.
+     * <p>Eg. Gather header -> each item is now a Gather item.
+     * <p>When a data line is found (normal table values) will execute
+     * <p>[obtainItemString Method]
+     * <p>This will format the current line according to the ITEMTYPE.
+     * <p>Then this method will replace the current line <p>
+     * <p>Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
+     * <p>This method creates several duplicate items and has another method called later on.
      */
     public void formatFile(){
         try {

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  * Fetches data from given doc.
- *
+ *<p>
  * Process:
  * Call constructor (load file to write to, use external filewriter).
  * Use setPrasedPage to set link to fetch data from

@@ -75,10 +75,6 @@ public class Regular_Node extends BaseItem implements Item {
         return level;
     }
 
-    public String getType() {
-        return type;
-    }
-
     /**
      * @return ItemType in LinkedHashmap form. Keys represent what the value is. For example, key = level, value = 5.
      */

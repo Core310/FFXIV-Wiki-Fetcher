@@ -5,7 +5,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FindItemTest {
-    private ArrayList<String> expected, actual;
+    private ArrayList<String> expected;
     private final FindItem findItem = new FindItem(new File("XIVGather.TSV"));
 
     /**
@@ -17,8 +17,7 @@ class FindItemTest {
     private void findAllClosetHelper(String[] expected, ArrayList<String> actual){
         this.expected.clear();
         this.expected.addAll(List.of(expected));
-        this.actual = actual;
-        assertEquals(this.expected,this.actual);
+        assertEquals(this.expected, actual);
 
     }
 
