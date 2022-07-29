@@ -5,24 +5,24 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
-public class BigFish extends BaseItem implements Item {
+public class BigFish_Node extends BaseItem implements Item {
     private String fishingHole, ezoraTime, weather, bait, mooch, gathering;
 
     /**
      * Base constructor that is used for inheritance on its children.
      *
      */
-    public BigFish(String fish,
-                   String zone,
-                   String cords,
-                   String desynthRewards,//aka extraEnd of base item super class
+    public BigFish_Node(String fish,
+                        String zone,
+                        String cords,
+                        String desynthRewards,//aka extraEnd of base item super class
 
-                   String fishingHole,
-                   String ezoraTime,
-                   String weather,
-                   String bait,
-                   String mooch,
-                   String gathering
+                        String fishingHole,
+                        String ezoraTime,
+                        String weather,
+                        String bait,
+                        String mooch,
+                        String gathering
     ) {
         super(fish, zone, cords, desynthRewards);
         this.fishingHole = fishingHole;
@@ -33,7 +33,7 @@ public class BigFish extends BaseItem implements Item {
         this.gathering = gathering;
     }
 
-    public BigFish(String[] arr) {
+    public BigFish_Node(String[] arr) {
         super("a","b","c","d");//delete this line
         // TODO:7/26/22 once I find out how the item is exactly formatted.
     }

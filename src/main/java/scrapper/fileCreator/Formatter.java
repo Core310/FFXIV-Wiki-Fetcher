@@ -135,7 +135,7 @@ public class Formatter {
                     csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
                 //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
 
-                stringBuilder.append(new FolkLore_Node(
+                stringBuilder.append(new FolkLore_NodeNode(
                         csvValues[2],//Item
                         csvValues[4],//Zone
                         csvValues[5],//Cords
@@ -151,7 +151,7 @@ public class Formatter {
             case FOLK_LORE_FISHING_NODE:{
                 stringBuilder.append(FOLK_LORE_FISHING_NODE.name());
                 stringBuilder.append("\t");
-                stringBuilder.append(new FolkLore_Fishing(
+                stringBuilder.append(new FolkLore_Fishing_Node(
                         csvValues[2],//Item
                         csvValues[3],//Zone
                         csvValues[4],//Cords
@@ -238,7 +238,7 @@ public class Formatter {
             case BIG_FISH_NODE:{
                 stringBuilder.append(BIG_FISH_NODE );
                 stringBuilder.append("\t");
-                stringBuilder.append(new BigFish(
+                stringBuilder.append(new BigFish_Node(
                 csvValues[0],//fish
                 csvValues[1],//Zone
                 csvValues[3],//Cords
@@ -257,7 +257,7 @@ public class Formatter {
             case FISHING_COLLECTABLES_NODE:{
                 stringBuilder.append(FISHING_COLLECTABLES_NODE );
                 stringBuilder.append("\t");
-                stringBuilder.append(new Fish_Collectable(
+                stringBuilder.append(new Fish_Collectable_Node(
                 csvValues[0],//Item
                 csvValues[2],//Zone
                 "n/a",//Cords

@@ -30,8 +30,8 @@ class FindItemTest {
         //End of regular node tests
 
         expectedOutput.clear();
-        expectedOutput.add("UNSPOILED_NODE\tRarefied Annite\tElpis\t(x8,y36)\t600 Min. Collectability\t10:00AM/PM\t2\t90\t1");
-        expectedOutput.add("UNSPOILED_NODE\tRarefied Pyrite\tThe Dravanian Forelands\t(x31,y32)\t600 Min. Collectability\t4:00 AM/PM\t3\t51\t0");
+        expectedOutput.add("UNSPOILED_NODE\tRarefied Annite\tElpis\t(x8,y36)\t600 Min. Collectability\t90\t10:00AM/PM\t2\t1");
+        expectedOutput.add("UNSPOILED_NODE\tRarefied Pyrite\tThe Dravanian Forelands\t(x31,y32)\t600 Min. Collectability\t51\t4:00 AM/PM\t3\t0");
         curTest = findItem.findAllClosest("rarefiend stuff");
         assertEquals(expectedOutput,curTest);
         //End of Unspoiled
@@ -79,7 +79,8 @@ class FindItemTest {
 
         //End of arrUnspoil
         curTest = findItem.findAnyMatching("Potent Spice");
-        assertEquals("FOLK_LORE_NODE\tPotent Spice\tElpis Thavnair Ultima Thule\t(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)\tArchon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai\t6AM/PM 8AM/PM 10AM/PM\tAncient Ilsabardian Celestial\t1",
+        assertEquals("FOLK_LORE_NODE\tPotent Spice\tElpis Thavnair Ultima Thule\t(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)\tArchon Burger, Beef Stroganoff, Peach Juice, Peach Tart, " +
+                        "Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai\tAncient Ilsabardian Celestial\t6AM/PM 8AM/PM 10AM/PM\t1",
                 curTest);
         //End of folklore
         curTest = findItem.findAnyMatching("Basilosaurus");

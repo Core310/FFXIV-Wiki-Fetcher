@@ -8,10 +8,10 @@ import java.util.LinkedHashMap;
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
  */
-public class FolkLore_Node extends FolkLore_Fishing implements Item {
+public class FolkLore_NodeNode extends FolkLore_Fishing_Node implements Item {
 
     private final int slot;
-    public FolkLore_Node(
+    public FolkLore_NodeNode(
             String item,
             String location,
             String cords,
@@ -28,7 +28,7 @@ public class FolkLore_Node extends FolkLore_Fishing implements Item {
      * Used when file is already formatted.
      * @param arr array to input instead of manual input.
      */
-    public FolkLore_Node(String[] arr) {
+    public FolkLore_NodeNode(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4],arr[5],arr[6]);
         slot = Integer.parseInt(arr[7]);
     }

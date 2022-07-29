@@ -24,11 +24,11 @@ public class FindItem {
      * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
      * Multiple items will be stored in an arraylist with arguments of the Map.
      * Eg. (todo)
-     * input: Lava tode
+     * input: Lava todo
      * output:
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
-        ArrayList<String> rawData = findAllClosest(itemName);//Used to loop thru all values found.
+        ArrayList<String> rawData = findAllClosest(itemName);//Used to loop through all values found.
         ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted
         Item item;
         for(String curLine: rawData){
@@ -39,11 +39,11 @@ public class FindItem {
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
             if (StaticItemTypes.FOLK_LORE_FISHING_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
-                item = new FolkLore_Fishing(delimLine);
+                item = new FolkLore_Fishing_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
-                item = new FolkLore_Node(delimLine);
+                item = new FolkLore_NodeNode(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.REGULAR_NODE.toString().equals(curItem)) {
@@ -58,7 +58,16 @@ public class FindItem {
                 item = new Unspoiled_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
-            else try {
+            else if (StaticItemTypes.FISHING_NODE.toString().equals(curItem)) {
+                item = new Fishing_Node(delimLine);
+                outputList.add(item.toLinkedHashmap());
+            } else if (StaticItemTypes.BIG_FISH_NODE.toString().equals(curItem)) {
+                item = new BigFish_Node(delimLine);
+                outputList.add(item.toLinkedHashmap());
+            } else if (StaticItemTypes.FISHING_COLLECTABLES_NODE.toString().equals(curItem)) {
+                item = new Fish_Collectable_Node(delimLine);
+                outputList.add(item.toLinkedHashmap());
+            } else try {
                     throw new UnexpectedException("Wrong static item type assigned");
                 } catch (UnexpectedException e) {
                     throw new RuntimeException(e);

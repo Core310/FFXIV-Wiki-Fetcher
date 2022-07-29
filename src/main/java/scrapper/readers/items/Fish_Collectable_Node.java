@@ -5,22 +5,22 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
-public class Fish_Collectable extends BaseItem implements Item {
+public class Fish_Collectable_Node extends BaseItem implements Item {
     private String minCollectability,catchMethod, timeWeather,scripts;
 
     /**
      * Base constructor that is used for inheritance on its children.
      *
      */
-    public Fish_Collectable(String itemName,
-                               String zone,
-                               String cords,
-                               String extra, //End of base item super class)
+    public Fish_Collectable_Node(String itemName,
+                                 String zone,
+                                 String cords,
+                                 String extra, //End of base item super class)
 
-                               String minCollectability,
-                               String catchMethod,
-                               String timeWeather,
-                               String scripts)
+                                 String minCollectability,
+                                 String catchMethod,
+                                 String timeWeather,
+                                 String scripts)
     {
         super(itemName, zone, cords, extra);
         this.minCollectability = minCollectability;
@@ -29,7 +29,7 @@ public class Fish_Collectable extends BaseItem implements Item {
         this.scripts = scripts;
     }
 
-    public Fish_Collectable(String[] arr) {
+    public Fish_Collectable_Node(String[] arr) {
         super("a","b","c","d");//delete this line
         // TODO:7/26/22 once I find out how the item is exactly formatted.
     }
