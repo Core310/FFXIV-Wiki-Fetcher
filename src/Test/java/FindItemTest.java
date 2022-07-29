@@ -66,13 +66,16 @@ class FindItemTest {
         //End of reg nodee
 
         curTest = findItem.findAnyMatching("rarefield gyrr aabania");
-        assertEquals("UNSPOILED_NODE\tRarefied Gyr Abanian Alumen\tThe Fringes\t(x32,y31)\t600 Min. Collectability\t10:00 AM/PM\t2\t80\t1",curTest);
+        assertEquals("UNSPOILED_NODE\tRarefied Gyr Abanian Alumen\tThe Fringes\t(x32,y31)\t600 Min. Collectability\t80\t10:00 AM/PM\t2\t1",curTest);
         curTest = findItem.findAnyMatching("adamite ore");
-        assertEquals("UNSPOILED_NODE\tAdamantite Ore\tAzys Lla\t(x24,y6)\tPerception 408\t12:00 AM/PM\t6\t60\t0",curTest);
+        assertEquals("UNSPOILED_NODE\tAdamantite Ore\tAzys Lla\t(x24,y6)\tPerception 408\t60\t12:00 AM/PM\t6\t0",curTest);
+        curTest = findItem.findAnyMatching("Pummelite");
+        assertEquals("UNSPOILED_NODE\tPummelite\tThe Peaks\t(x26,y12)\tA Miner Success Perception 846\t70\t8:00 AM/PM\t6\t0",curTest);
+
         //End of unspoil
 
         curTest = findItem.findAnyMatching("nat gol");
-        assertEquals("ARR_UNSPOILED_NODE\tNative Gold\tCentral Thanalan\t(x24,y16)\tGregarious Worm Slot 1\t-1\tn/a\t6\t2\t4:00 AM",curTest);// FIXME: 7/29/2022 expected is correct, actual is wrong
+        assertEquals("ARR_UNSPOILED_NODE\tNative Gold\tCentral Thanalan\t(x24,y16)\tGregarious Worm Slot 1\t-1\t4:00 AM\t6\t2",curTest);
 
         //End of arrUnspoil
         curTest = findItem.findAnyMatching("Potent Spice");
