@@ -66,7 +66,7 @@ class FindItemTest {
         //End of folklore
         findAllClosetHelper(new String[]{
                 "FOLK_LORE_FISHING_NODE	The Archbishop	The Fringes	(x13,y31)		11AM-4PM	Gyr Abanian",
-                "BIG_FISH_NODE	The Archbishop	The Fringes	(13,31)	Cane of the Round, Piety Materia VI	The Comet's Tail	12 PM to 4 PM	Any	Suspending Minnow"},
+                "BIG_FISH_NODE\tThe Archbishop\tThe Fringes\t(13,31)\tCane of the Round, Piety Materia VI\tThe Comet's Tail\t12 PM to 4 PM\tAny\tSuspending Minnow\t\t"},
                 findItem.findAllClosest("the archbitch")
                 );
 
@@ -95,10 +95,11 @@ class FindItemTest {
 
         findAllClosetHelper(new String[]{
         "FOLK_LORE_FISHING_NODE	Hookstealer	Rhalgr's Reach	(x11,y14)		ANY	Gyr Abanian",
-        "FISHING_NODE	Caterwauler	Lower La Noscea 	X:24, Y:23	Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloo",
+        "FISHING_NODE	Caterwauler	Lower La Noscea 	X:24, Y:23	Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure	Freshwater fishing	Fishing Log: The Mourning Widow	1",
         "BIG_FISH_NODE	Caterwauler	Lower La Noscea	(24,22)		The Mourning Widow	Anytime	Clear Skies Fair Skies Rain	Moth Pupa		301+",
         "BIG_FISH_NODE	Hookstealer	Rhalgr's Reach	(11,14)	Suspending Minnow	Upper Mirage Creek	Anytime	Any	Midge Larva	Gyr Abanian Trout	",
         "FISHING_COLLECTABLES_NODE	Eternal Eye	Azim Khaat Southern Lakebed	n/a	Truth of Oceans + Glaring Perch x10	20	Spearfishing		18 White"
+
         }, findItem.findAllClosest("Etebalr"));
 
         //End of Collect FSH
