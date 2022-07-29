@@ -1,11 +1,14 @@
-package scrapper.items;
+package scrapper.readers.items;
+
+import scrapper.readers.items.baseNode.BaseItem;
+import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
 /**
  * Ussed for regular node locations
  */
-public class Regular_Node extends BaseItem implements Item{
+public class Regular_Node extends BaseItem implements Item {
     private final int level;
     private final String type;
     /**

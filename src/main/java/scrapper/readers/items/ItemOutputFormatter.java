@@ -1,4 +1,4 @@
-package scrapper.items;
+package scrapper.readers.items;
 
 import java.util.Arrays;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package scrapper.items;
+package scrapper.readers.items.baseNode;
 
 /**
  * Triggers these item types when looking at a header. Delete is for cases that can be deleted

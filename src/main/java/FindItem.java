@@ -1,6 +1,7 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-import scrapper.items.StaticItemTypes;
-import scrapper.items.*;
+import scrapper.readers.items.baseNode.StaticItemTypes;
+import scrapper.readers.items.*;
+import scrapper.readers.items.baseNode.Item;
 
 import java.io.*;
 import java.rmi.UnexpectedException;

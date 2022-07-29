@@ -1,6 +1,8 @@
-import scrapper.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import scrapper.fileCreator.Formatter;
+import scrapper.fileCreator.MakeFile;
+import scrapper.fileCreator.Wikipages;
 
 import java.io.*;
 import java.util.ArrayList;

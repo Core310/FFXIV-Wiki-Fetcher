@@ -1,4 +1,4 @@
-package scrapper;
+package scrapper.fileCreator;
 
 /**
  * Contains all links that are to be searched.

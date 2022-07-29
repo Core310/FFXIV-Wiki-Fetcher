@@ -1,4 +1,4 @@
-package scrapper.items;
+package scrapper.readers.items.baseNode;
 
 import java.util.LinkedHashMap;
 

@@ -1,4 +1,6 @@
-package scrapper.items;
+package scrapper.readers.items;
+
+import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
@@ -6,7 +8,7 @@ import java.util.LinkedHashMap;
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
  */
-public class FolkLore_Node extends FolkLore_Fishing implements Item{
+public class FolkLore_Node extends FolkLore_Fishing implements Item {
 
     private final int slot;
     public FolkLore_Node(

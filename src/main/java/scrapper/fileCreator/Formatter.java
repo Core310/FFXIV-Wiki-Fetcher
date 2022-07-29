@@ -1,12 +1,12 @@
-package scrapper;
+package scrapper.fileCreator;
 
-import scrapper.items.*;
+import scrapper.readers.items.*;
+import scrapper.readers.items.baseNode.StaticItemTypes;
 
 import java.io.*;
 import java.rmi.UnexpectedException;
-import java.util.Arrays;
 
-import static scrapper.items.StaticItemTypes.*;
+import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading.

@@ -1,8 +1,11 @@
-package scrapper.items;
+package scrapper.readers.items;
+
+import scrapper.readers.items.baseNode.BaseItem;
+import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
-public class BigFish extends BaseItem implements Item{
+public class BigFish extends BaseItem implements Item {
     private String fishingHole, ezoraTime, weather, bait, mooch, gathering;
 
     /**
