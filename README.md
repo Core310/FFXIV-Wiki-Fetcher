@@ -7,7 +7,7 @@ To build the file yourself run `makeFile();` in main.java
 ---
 
 Use `findAllClosestAsMap` to find all closest items and return each item as a key/value pair. 
-Keys are headers in the original wiki table.
+Keys are headers in the original wiki table. Returns a ArrayList<LinkedHashMap<String,String>>.
 
 ```
 FindItem.findAllClosestAsMap("Lava Toad");
@@ -17,6 +17,7 @@ Should output: `[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31),
 ---
 
 Use `FindItem.findAnyMatching` to search for an item and return a random item by its raw data.
+Returns a String.
 ```
 FindItem.findAnyMatching("Lava Toad"); 
 ```

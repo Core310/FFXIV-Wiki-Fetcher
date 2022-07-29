@@ -132,7 +132,7 @@ public class FindItem {
      * @param itemName Item searching for
      * @return Random value fetched from the method findAllClosestAsMap
      */
-    protected String findAnyMatching(String itemName){
+    public String findAnyMatching(String itemName){
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
