@@ -55,6 +55,12 @@ class FindItemTest {
         curTest = findItem.findAllClosest("Basilosaurus");
         assertEquals(expectedOutput,curTest);
         //end of folkFish
+        // TODO: 7/29/2022
+        //End of FSH
+
+        //End of Big FSH
+
+        //End of Collect FSH
     }
 
     @org.junit.jupiter.api.Test
@@ -88,8 +94,14 @@ class FindItemTest {
                 curTest);
         //End of folklore
 
-
+// TODO: 7/29/2022
         //end of folkFish
+
+        //End of FSH
+
+        //End of Big FSH
+
+        //End of Collect FSH
 
     }
 }

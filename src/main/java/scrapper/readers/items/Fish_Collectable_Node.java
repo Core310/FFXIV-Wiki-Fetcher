@@ -30,8 +30,11 @@ public class Fish_Collectable_Node extends BaseItem implements Item {
     }
 
     public Fish_Collectable_Node(String[] arr) {
-        super("a","b","c","d");//delete this line
-        // TODO:7/26/22 once I find out how the item is exactly formatted.
+        super(arr[1],arr[2],arr[3],arr[4]);
+        minCollectability = arr[5];
+        catchMethod = arr[6];
+        timeWeather = arr[7];
+        scripts = arr[8];
     }
 
     /**

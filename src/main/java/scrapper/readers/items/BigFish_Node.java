@@ -34,8 +34,14 @@ public class BigFish_Node extends BaseItem implements Item {
     }
 
     public BigFish_Node(String[] arr) {
-        super("a","b","c","d");//delete this line
-        // TODO:7/26/22 once I find out how the item is exactly formatted.
+        super(arr[1],arr[2],arr[3],arr[4]);
+        fishingHole = arr[5];
+        ezoraTime = arr[6];
+        weather = arr[7];
+        bait = arr[8];
+        mooch = arr[9];
+        gathering = arr[10];
+
     }
 
     /**

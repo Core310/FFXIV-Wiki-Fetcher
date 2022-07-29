@@ -6,7 +6,7 @@ import scrapper.readers.items.baseNode.Item;
 import java.util.LinkedHashMap;
 
 public class Fishing_Node extends BaseItem implements Item {
-    private String fishingLog, type;
+    private String type, fishingLog;
     private int level;
 
     /**
@@ -34,8 +34,10 @@ public class Fishing_Node extends BaseItem implements Item {
      * @param arr array to input instead of manual input.
      */
     public Fishing_Node(String[] arr) {
-        super("a","b","c","d");//delete this line
-        // TODO:7/26/22 once I find out how the item is exactly formatted.
+        super(arr[1],arr[2],arr[3],arr[4]);
+        type = arr[5];
+        fishingLog = arr[6];
+
     }
 
     /**
