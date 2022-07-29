@@ -64,6 +64,11 @@ class FindItemTest {
                 );
 
         //End of folklore
+        findAllClosetHelper(new String[]{
+                "FOLK_LORE_FISHING_NODE	The Archbishop	The Fringes	(x13,y31)		11AM-4PM	Gyr Abanian",
+                "BIG_FISH_NODE	The Archbishop	The Fringes	(13,31)	Cane of the Round, Piety Materia VI	The Comet's Tail	12 PM to 4 PM	Any	Suspending Minnow"},
+                findItem.findAllClosest("the archbitch")
+                );
 
         findAllClosetHelper(new String[]{
                 "FOLK_LORE_FISHING_NODE\tBasilosaurus\tThavnair\t(x7.3,y7.6)\t\tANY\tIlsabardian",
@@ -78,9 +83,23 @@ class FindItemTest {
         "FISHING_NODE	Coral Butterfly	Eastern La Noscea 	X:32, Y:34	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Heavy Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure	Ocean fishing	Fishing Log: South Bloodshore	25"
         },findItem.findAllClosest("coralbyutter") );
         //End of FSH
-
-
+        findAllClosetHelper(new String[]{
+                "FISHING_NODE	Oschon's Print	Lower La Noscea 	X:26, Y:26	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Rat Tail, Goby Ball, Pill Bug, Versatile Lure	Ocean fishing	Fishing Log: Moraby Bay	5",
+                "BIG_FISH_NODE	Oschon's Print	Lower La Noscea	(26,25)		Moraby Bay	Anytime	Any	Goby Ball		301+",},
+                findItem.findAllClosest("Oschon"));
         //End of Big FSH
+        findAllClosetHelper(new String[]{
+        "FISHING_NODE	Silver Sovereign	Lower La Noscea 	X:24, Y:39	Spoon Worm, Northern Krill, Yumizuno, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure	Ocean fishing	Fishing Log: Oschon's Torch	10",
+        "BIG_FISH_NODE	Silver Sovereign	Lower La Noscea	(24,39)	Venture	Oschon's Torch	Anytime	Any	Yumizuno		301+"
+        }, findItem.findAllClosest("Silver Sovereign"));
+
+        findAllClosetHelper(new String[]{
+        "FOLK_LORE_FISHING_NODE	Hookstealer	Rhalgr's Reach	(x11,y14)		ANY	Gyr Abanian",
+        "FISHING_NODE	Caterwauler	Lower La Noscea 	X:24, Y:23	Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloo",
+        "BIG_FISH_NODE	Caterwauler	Lower La Noscea	(24,22)		The Mourning Widow	Anytime	Clear Skies Fair Skies Rain	Moth Pupa		301+",
+        "BIG_FISH_NODE	Hookstealer	Rhalgr's Reach	(11,14)	Suspending Minnow	Upper Mirage Creek	Anytime	Any	Midge Larva	Gyr Abanian Trout	",
+        "FISHING_COLLECTABLES_NODE	Eternal Eye	Azim Khaat Southern Lakebed	n/a	Truth of Oceans + Glaring Perch x10	20	Spearfishing		18 White"
+        }, findItem.findAllClosest("Etebalr"));
 
         //End of Collect FSH
     }
@@ -115,14 +134,17 @@ class FindItemTest {
                 findItem.findAnyMatching("Potent Spice"));
         //End of folklore
 
-// TODO: 7/29/2022
-        //end of folkFish
 
-        //End of FSH
-        assertEquals("BIG_FISH_NODE\tSilver Sovereign\tLower La Noscea\t(24,39)\tVenture\tOschon's Torch\tAnytime\tAny\tYumizuno\t\t301+",
-                findItem.findAnyMatching("silver soverign"));
+        //end of folkFish (none b/c a lot of overlap)
+
+        //End of FSH (none b/c a lot of overlap)
+
         //End of Big FSH
+        assertEquals("FISHING_COLLECTABLES_NODE\tPancake Octopus\tEast Caliban Gap\tn/a\t\t31\tSquid Strip\t\t40 White",
+                findItem.findAnyMatching("Pancake otco"));
 
+        assertEquals("FISHING_COLLECTABLES_NODE\tDiamond Pipira\tThe Red Chalice\tn/a\t\t201\tRobber Ball\t12PM-8PM\t41 White",
+                findItem.findAnyMatching("Diamond pepi"));
         //End of Collect FSH
 
     }

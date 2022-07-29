@@ -33,6 +33,7 @@ Please download the following dependencies if you are planning to do so.
 
 Should you need, a JavaDoc can be found on this repository’s website.
 
+
 ---
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
 FINAL FANTASY XIV © SQUARE ENIX CO., LTD.
