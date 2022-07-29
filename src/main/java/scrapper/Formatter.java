@@ -109,6 +109,8 @@ public class Formatter {
                     for (String splitItem : splitItems) {
                         stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\t");
+                        if(splitItem.charAt(0) == ' ')
+                            splitItem = splitItem.replaceFirst(" ", "");
                         stringBuilder.append(new Regular_Node(
                                 splitItem, //Item
                                 csvValues[2],//Zone
