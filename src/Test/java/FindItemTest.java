@@ -37,19 +37,23 @@ class FindItemTest {
         //End of Unspoiled
 
         expectedOutput.clear();
-        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\tn/a\t1\t2\t8:00 AM");
-        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\tn/a\t5\t2\t8:00 AM");
+        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\t8:00 AM\t1\t2");
+        expectedOutput.add("ARR_UNSPOILED_NODE\tWaterfowl Feather (Rare)\tWestern La Noscea\t(x34,y28)\t\t-1\t8:00 AM\t5\t2");
         curTest = findItem.findAllClosest("Waterfowl Feather (Rare)");
         assertEquals(expectedOutput,curTest);
         //End of ARRUnspoiled
 
         expectedOutput.clear();
-        expectedOutput.add("FOLK_LORE_NODE\tSandalwood Log\tThe Rak'tika Greatwood\t(x24,y36)\tSandalwood Lumber\t2AM/PM\tVrandtic\t6");
-        expectedOutput.add("FOLK_LORE_NODE\tSandalwood Sap\tThe Rak'tika Greatwood\t(x24,y36)\tPliable Glass Fiber\t2AM/PM\tVrandtic\t4");
+        expectedOutput.add("FOLK_LORE_NODE\tSandalwood Log\tThe Rak'tika Greatwood\t(x24,y36)\tSandalwood Lumber\tVrandtic\t2AM/PM\t6");
+        expectedOutput.add("FOLK_LORE_NODE\tSandalwood Sap\tThe Rak'tika Greatwood\t(x24,y36)\tPliable Glass Fiber\tVrandtic\t2AM/PM\t4");
         curTest = findItem.findAllClosest("Sandalwood");
         assertEquals(expectedOutput,curTest);
         //End of folklore
-
+        expectedOutput.clear();
+        expectedOutput.add("FOLK_LORE_FISHING_NODE\tBasilosaurus\tThavnair\t(x7.3,y7.6)\t\tANY\tIlsabardian");
+        expectedOutput.add("FISHING_COLLECTABLES_NODE\tBasilosaurus\tThe Perfumed Tides\tn/a\tMooched from Puff-paya\t1055\tMackerel Strip\tFair Skies\t209 Purple");
+        curTest = findItem.findAllClosest("Basilosaurus");
+        assertEquals(expectedOutput,curTest);
         //end of folkFish
     }
 
@@ -83,8 +87,7 @@ class FindItemTest {
                         "Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai\tAncient Ilsabardian Celestial\t6AM/PM 8AM/PM 10AM/PM\t1",
                 curTest);
         //End of folklore
-        curTest = findItem.findAnyMatching("Basilosaurus");
-        assertEquals("FOLK_LORE_FISHING\tBasilosaurus\tThavnair\t(x7.3,y7.6)\t\tANY\tIlsabardian",curTest);
+
 
         //end of folkFish
 
