@@ -88,7 +88,6 @@ public class Formatter {
             case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function 
                 String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
                 if(splitItems.length == 1){
-
                     stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                     stringBuilder.append("\t");
                     stringBuilder.append(
@@ -105,7 +104,6 @@ public class Formatter {
                 }//Currently, this should never run.
                 else {
                     //Looks through all items separated by CSV, Creates a new item, and then creates a new line with another new item.
-                    csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
                     for (String splitItem : splitItems) {
                         stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                         stringBuilder.append("\t");
@@ -182,10 +180,11 @@ public class Formatter {
                 break;
             }
             case ARR_UNSPOILED_NODE:{
-                csvValues[2] = csvValues[2].replaceAll(" ","");//get rid of white space
-
                 String[] slots = csvValues[2].split(",",-1);
                 for(String slot: slots){
+                    if(slot.charAt(0) == ' ')
+                        slot = slot.replaceFirst(" ", "");
+
                     stringBuilder.append(ARR_UNSPOILED_NODE.name());
                     stringBuilder.append("\t");
                     stringBuilder.append(new Unspoiled_Node(
@@ -204,9 +203,11 @@ public class Formatter {
                 break;
             }//When an unspoiled node is an ARR one use this instead.
             case FISHING_NODE:{
-                csvValues[4] = csvValues[4].replaceAll(" ","");//get rid of white space
                 String[] fish = csvValues[4].split(",",-1);
                 for(String curFish: fish){
+                    if(curFish.charAt(0) == ' ')
+                        curFish = curFish.replaceFirst(" ", "");
+
                     stringBuilder.append(FISHING_NODE );
                     stringBuilder.append("\t");
 

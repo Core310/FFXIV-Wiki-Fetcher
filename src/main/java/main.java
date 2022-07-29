@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("coralbyutter");
+        makeFile();
     }
 
     /**

@@ -71,9 +71,14 @@ class FindItemTest {
                 findItem.findAllClosest("Basilosaurus")
                 );
         //end of folkFish
-        // TODO: 7/29/2022
-
+        findAllClosetHelper(new String[]{
+        "FISHING_NODE	Coral Butterfly	Limsa Lominsa Upper Decks 	X:10, Y:11	Lugworm, Pill Bug, Goby Ball, Rat Tail, Floating Minnow, Steel Jig, Versatile Lure, Heavy Steel Jig, Spoon Worm	Ocean fishing	Fishing Log: Limsa Lominsa Upper Decks	1",
+        "FISHING_NODE	Coral Butterfly	Limsa Lominsa Lower Decks 	X:7, Y:12	Lugworm, Pill Bug, Goby Ball, Rat Tail, Floating Minnow, Steel Jig, Versatile Lure, Heavy Steel Jig, Spoon Worm	Ocean fishing	Fishing Log: Limsa Lominsa Lower Decks	1",
+        "FISHING_NODE	Coral Butterfly	Middle La Noscea 	X:18, Y:22	Spoon Worm, Floating Minnow, Lugworm, Heavy Steel Jig, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure	Ocean fishing	Fishing Log: Zephyr Drift	1",
+        "FISHING_NODE	Coral Butterfly	Eastern La Noscea 	X:32, Y:34	Spoon Worm, Floating Minnow, Lugworm, Yumizuno, Heavy Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Goby Ball, Pill Bug, Versatile Lure	Ocean fishing	Fishing Log: South Bloodshore	25"
+        },findItem.findAllClosest("coralbyutter") );
         //End of FSH
+
 
         //End of Big FSH
 
@@ -114,7 +119,8 @@ class FindItemTest {
         //end of folkFish
 
         //End of FSH
-
+        assertEquals("BIG_FISH_NODE\tSilver Sovereign\tLower La Noscea\t(24,39)\tVenture\tOschon's Torch\tAnytime\tAny\tYumizuno\t\t301+",
+                findItem.findAnyMatching("silver soverign"));
         //End of Big FSH
 
         //End of Collect FSH
