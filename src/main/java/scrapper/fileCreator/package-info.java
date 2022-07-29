@@ -1,5 +1,4 @@
 /**
- * Inside this file contains everything needed to scrap data from the wiki.
- * The Formatter Class
+ * Contains everything needed to scrap data from the wiki and format it.
  */
 package scrapper.fileCreator;
