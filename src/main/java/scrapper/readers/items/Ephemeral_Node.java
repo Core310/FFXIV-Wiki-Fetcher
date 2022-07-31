@@ -1,6 +1,5 @@
 package scrapper.readers.items;
 
-import scrapper.readers.items.ItemOutputFormatter;
 import scrapper.readers.items.baseNode.BaseItem;
 import scrapper.readers.items.baseNode.Item;
 
