@@ -1,5 +1,4 @@
 package scrapper.readers.items;
-
 import scrapper.readers.items.baseNode.BaseItem;
 import scrapper.readers.items.baseNode.Item;
 
@@ -8,6 +7,7 @@ import java.util.LinkedHashMap;
 public class Ephemeral_Node extends BaseItem implements Item {
     private final String time;
     private final String tp;
+
 
     /**
      *
