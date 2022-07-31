@@ -1,6 +1,5 @@
 package scrapper.fileCreator;
 
-import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.StaticItemTypes;
 
 import java.io.*;
@@ -26,11 +25,12 @@ public class Formatter {
     }
 
     /**
-     * A helper method for format()
+     * A helper method for formattedItem()
      * Looks at current line, if is a header that describes an item type, sets global var itemType to whatever that current item is.
      * If it is not an item, such as an ending header, or is data, it will return either Delete, or Ignore where Ignore = data.
      * @param curLine Current line to look at
      * @return One of the StaticItemTypes
+     *
      */
     private StaticItemTypes setCurrentType(String curLine){
         switch (curLine) {
@@ -55,15 +55,23 @@ public class Formatter {
                 return DELETE;
             }
             case "Fishing Log\tLevel\tType\tCoordinates\tFish\tBait Used" ->{
-                itemType = FISHING_NODE;
+                itemType = FISH_NODE;
                 return DELETE;
             }
             case "Fish\tZone\tFishing Hole\t(X,Y)\tEorzea Time\tWeather\tBait\tMooch\tGathering\tDesynth Rewards" ->{
-                itemType = BIG_FISH_NODE;
+                itemType = FISH_BIG_NODE;
                 return DELETE;
             }
             case "Item\tMin. Collectability\tLocation\tCatch Method\tTime/Weather\tScrips\tAdditional Info" ->{
-                itemType = FISHING_COLLECTABLES_NODE;
+                itemType = FISH_COLLECTABLES_NODE;
+                return DELETE;
+            }
+            case "Time\tZone\tCoordinates\tClosest Teleport\tItems\tItems gained from Aetherial Reduction" ->{
+                itemType = EPHEMERAL_NODE;
+                return DELETE;
+            }
+            case "Conditions\tZone\tCoordinates\tClosest Teleport\tFish Name\tWeather\tBait\tItems gained from Aetherial Reduction"->{
+                itemType = EPHEMERAL_FISH_NODE;
                 return DELETE;
             }
 
@@ -71,7 +79,8 @@ public class Formatter {
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
                     "Botanist\tMiner\tFisher",
                     "Gathering",
-                    ""
+                    "",
+                    "Aethersand wanted\tGained from"
                     -> {
                 return DELETE;
             }
@@ -109,17 +118,25 @@ public class Formatter {
                 stringBuilder = itemBuilder.build_ARR_UNSPOILED_NODE(csvValues);
                 break;
             }//When an unspoiled node is an ARR one use this instead.
-            case FISHING_NODE:{
+            case FISH_NODE:{
                 stringBuilder = itemBuilder.build_FISHING_NODE(csvValues);
                 break;
             }
 
-            case BIG_FISH_NODE:{
+            case FISH_BIG_NODE:{
                 stringBuilder = itemBuilder.build_BIG_FISH_NODE(csvValues);
                 break;
             }
-            case FISHING_COLLECTABLES_NODE:{
+            case FISH_COLLECTABLES_NODE:{
                 stringBuilder = itemBuilder.build_FISHING_COLLECTABLES_NODE(csvValues);
+                break;
+            }
+            case EPHEMERAL_NODE:{
+                stringBuilder = itemBuilder.build_EPHEMERAL_NODE(csvValues);
+                break;
+            }
+            case EPHEMERAL_FISH_NODE:{
+                stringBuilder = itemBuilder.build_EPHEMERAL_FISH_NODE(csvValues);
                 break;
             }
 

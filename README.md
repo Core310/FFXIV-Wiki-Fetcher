@@ -6,7 +6,7 @@ This library searches for DOH/DOL items (aka gathering classes).
 To build the file yourself run `makeFile();` in main.java
 
 ---
-
+ 
 Use `findAllClosestAsMap` to find all closest items and return each item as a key/value pair. 
 Keys are headers in the original wiki table. Returns a ArrayList<LinkedHashMap<String,String>>.
 

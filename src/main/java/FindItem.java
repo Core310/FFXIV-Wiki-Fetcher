@@ -58,13 +58,13 @@ public class FindItem {
                 item = new Unspoiled_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
-            else if (StaticItemTypes.FISHING_NODE.toString().equals(curItem)) {
+            else if (StaticItemTypes.FISH_NODE.toString().equals(curItem)) {
                 item = new Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.BIG_FISH_NODE.toString().equals(curItem)) {
+            } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
                 item = new Fish_Big_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FISHING_COLLECTABLES_NODE.toString().equals(curItem)) {
+            } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else try {

@@ -8,6 +8,9 @@ import java.io.*;
 import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
+/**
+ * @see Wikipages
+ */
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
@@ -49,6 +52,6 @@ public class main {
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         fileWriter.close();
 
-        Formatter formatter = new Formatter(FileName);
+        //Formatter formatter = new Formatter(FileName);
     }
 }

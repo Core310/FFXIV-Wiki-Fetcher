@@ -11,10 +11,12 @@ public enum StaticItemTypes {
     UNSPOILED_NODE,
     ARR_UNSPOILED_NODE, //For ARR variant of unspoiled nodes (does not include level)
 
-    FISHING_NODE,
+    FISH_NODE,
     FOLK_LORE_FISHING_NODE,
-    BIG_FISH_NODE,
-    FISHING_COLLECTABLES_NODE,
+    FISH_BIG_NODE,
+    FISH_COLLECTABLES_NODE,
+    EPHEMERAL_FISH_NODE,
+    EPHEMERAL_NODE,
     DELETE,
     IGNORE //Ignore is for Data
 }

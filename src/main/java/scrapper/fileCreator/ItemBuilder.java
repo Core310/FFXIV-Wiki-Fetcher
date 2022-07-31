@@ -141,7 +141,7 @@ public class ItemBuilder {
 
         String[] fish = csvValues[4].split(",",-1);
         for(String curFish: fish){
-            stringBuilder.append(FISHING_NODE );
+            stringBuilder.append(FISH_NODE);
             stringBuilder.append("\t");
             if(curFish.charAt(0) == ' ')
                 curFish = curFish.replaceFirst(" ", "");
@@ -173,8 +173,7 @@ public class ItemBuilder {
     }
 
     protected StringBuilder build_BIG_FISH_NODE(String[] csvValues){
-
-        stringBuilder.append(BIG_FISH_NODE );
+        stringBuilder.append(FISH_BIG_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Fish_Big_Node(
                 csvValues[0],//fish
@@ -195,7 +194,7 @@ public class ItemBuilder {
 
     protected StringBuilder build_FISHING_COLLECTABLES_NODE(String[] csvValues){
 
-        stringBuilder.append(FISHING_COLLECTABLES_NODE );
+        stringBuilder.append(FISH_COLLECTABLES_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Fish_Collectable_Node(
                 csvValues[0],//Item
@@ -207,6 +206,38 @@ public class ItemBuilder {
                 csvValues[3],//catchMethod
                 csvValues[4],//timeWeather
                 csvValues[5] //scripts
+        ));
+        stringBuilder.append("\n");
+        return stringBuilder;
+    }
+
+    protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues){
+        stringBuilder.append(EPHEMERAL_NODE);
+        stringBuilder.append("\t");
+        stringBuilder.append(new Ephemeral_Node(
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+
+        ));
+        stringBuilder.append("\n");
+        return stringBuilder;
+    }
+
+    protected StringBuilder build_EPHEMERAL_FISH_NODE(String[] csvValues){
+        stringBuilder.append(EPHEMERAL_FISH_NODE);
+        stringBuilder.append("\t");
+        stringBuilder.append(new Ephemeral_Fish_Node(
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+        csvValues[],//
+
         ));
         stringBuilder.append("\n");
         return stringBuilder;

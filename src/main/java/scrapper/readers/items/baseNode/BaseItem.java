@@ -9,6 +9,7 @@ import java.util.LinkedHashMap;
  * The first 4 columns/inputs should be as follows: itemName,zone,cords,extra
  *
  * All methods/vars are either private or protected.
+ * @see scrapper.fileCreator.Formatter
  */
 @SuppressWarnings("all")
 public abstract class BaseItem {
