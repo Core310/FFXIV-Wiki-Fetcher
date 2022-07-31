@@ -5,16 +5,16 @@ package scrapper.fileCreator;
  * @see MakeFile setParsedPage
  */
 public enum Wikipages {
-    BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
-    BNT_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes"),
-    MNR_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations"),
-    MNR_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes"),
-    FOLK_LORE_NODE("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes"),
-    FSH_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations"),
-    FSH_BIG_NODE("https://ffxiv.consolegameswiki.com/wiki/Big_Fishing"),
-    FSH_COLLECT_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables");
+    //BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
+    //BNT_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes"),
+    //MNR_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations"),
+    //MNR_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes"),
+    //FOLK_LORE_NODE("https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes"),
+    //FSH_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations"),
+    //FSH_BIG_NODE("https://ffxiv.consolegameswiki.com/wiki/Big_Fishing"),
+    //FSH_COLLECT_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables");
 
-    //EphemeralNode("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes") // TODO: 2/2/2022 Emph nodes need a reader/parser
+    EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // TODO: 2/2/2022 Emph nodes need a reader/parser
 
 
     private final String url;
