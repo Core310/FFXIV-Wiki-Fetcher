@@ -43,7 +43,7 @@ public class FindItem {
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
-                item = new FolkLore_NodeNode(delimLine);
+                item = new FolkLore_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.REGULAR_NODE.toString().equals(curItem)) {

@@ -62,7 +62,7 @@ public class ItemBuilder {
             csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
         //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
 
-        stringBuilder.append(new FolkLore_NodeNode(
+        stringBuilder.append(new FolkLore_Node(
                 csvValues[2],//Item
                 csvValues[4],//Zone
                 csvValues[5],//Cords
