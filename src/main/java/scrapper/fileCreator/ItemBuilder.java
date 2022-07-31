@@ -6,6 +6,10 @@ import java.rmi.UnexpectedException;
 
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
+/**
+ * Formats items inputted by csvValues in the switch case statement of formatter
+ * @see Formatter formattedItem
+ */
 public class ItemBuilder {
     private StringBuilder stringBuilder = new StringBuilder();
 

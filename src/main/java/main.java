@@ -50,6 +50,5 @@ public class main {
         fileWriter.close();
 
         Formatter formatter = new Formatter(FileName);
-        formatter.formatFile();
     }
 }

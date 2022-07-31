@@ -5,6 +5,10 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations">Fishing wiki link</a>
+ * @see BaseItem
+ */
 public class Fishing_Node extends BaseItem implements Item {
     private final String type, fishingLog;
     private int level;

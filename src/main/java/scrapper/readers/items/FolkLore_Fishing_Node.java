@@ -6,8 +6,12 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
-//This one doesn't have slot and hass additional info. Else everything else is the same
-public class FolkLore_Fishing_Node extends BaseItem implements Item { //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Fisher">wiki link</a>
+ * @see BaseItem
+ * This class does not have additional info and slot. All else is the same as regularNode class
+ */
+public class FolkLore_Fishing_Node extends BaseItem implements Item { //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info -wiki stuff
     private final String folkloreTome;
     private final String time;
 

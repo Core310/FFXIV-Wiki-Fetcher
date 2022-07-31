@@ -5,6 +5,10 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Fisher">Folklore fishing link</a>
+ * @see BaseItem
+ */
 public class BigFish_Node extends BaseItem implements Item {
     private final String fishingHole, ezoraTime, weather, bait, mooch, gathering;
 

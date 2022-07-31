@@ -7,6 +7,9 @@ import java.util.LinkedHashMap;
 /**
  * Only difference is an int, slot
  * extends FolkLoreFishing as its base class
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Big_Fishing">wiki link</a>
+ * @see FolkLore_Fishing_Node
+ * @see scrapper.readers.items.baseNode.BaseItem
  */
 public class FolkLore_NodeNode extends FolkLore_Fishing_Node implements Item {
 

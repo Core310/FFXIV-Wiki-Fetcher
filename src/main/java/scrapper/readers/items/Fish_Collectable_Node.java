@@ -5,6 +5,10 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables">Collectable wiki link</a>
+ * @see BaseItem
+ */
 public class Fish_Collectable_Node extends BaseItem implements Item {
     private final String minCollectability,catchMethod, timeWeather,scripts;
 

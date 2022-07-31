@@ -2,6 +2,7 @@ package scrapper.fileCreator;
 
 /**
  * Contains all links that are to be searched.
+ * @see MakeFile setParsedPage
  */
 public enum Wikipages {
     BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),

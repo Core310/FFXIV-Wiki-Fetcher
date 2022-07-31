@@ -10,6 +10,7 @@ import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading.
+ * @see ItemBuilder
  */
 public class Formatter {
     private final String file;//File to read/write
@@ -21,6 +22,7 @@ public class Formatter {
      */
     public Formatter(String file){
         this.file = file;
+        formatFile();
     }
 
     /**
@@ -81,12 +83,13 @@ public class Formatter {
      * A helper method to format().
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
      * @return New line that should replace the old line.
+     * @see ItemBuilder
      */
     private String formattedItem(String[] csvValues){
         ItemBuilder itemBuilder = new ItemBuilder();
         StringBuilder stringBuilder = new StringBuilder(); //String to replace the current line read in
         switch (itemType){
-            case REGULAR_NODE:{// TODO: 7/26/22 Put all cases into an its own seperate function
+            case REGULAR_NODE:{
                 stringBuilder = itemBuilder.build_REGULAR_NODE(csvValues);
                 break;
             }
