@@ -46,6 +46,7 @@ public class Ephemeral_Fish_Node extends BaseItem implements Item {
         lhm.put("Closest Teleport",tp);
         lhm.put("Weather",weather);
         lhm.put("Bait",bait);
+        lhm.put("Conditions",conditions);
         return lhm;
     }
 
@@ -56,7 +57,7 @@ public class Ephemeral_Fish_Node extends BaseItem implements Item {
     @Override
     public String toString() {
         ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElements(new String[]{tp,weather,bait});
+        itemOutputFormatter.addElements(new String[]{tp,weather,bait,conditions});
         return itemOutputFormatter.toString();
     }
 }
