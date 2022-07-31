@@ -215,12 +215,12 @@ public class ItemBuilder {
         stringBuilder.append(EPHEMERAL_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Ephemeral_Node(
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
+        csvValues[4],//item todo have for loop for mutli items
+        csvValues[1],//zone
+        csvValues[2],//cords
+        csvValues[5],//extra
+        csvValues[0],//time
+        csvValues[3]//tp
 
         ));
         stringBuilder.append("\n");
@@ -231,13 +231,14 @@ public class ItemBuilder {
         stringBuilder.append(EPHEMERAL_FISH_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Ephemeral_Fish_Node(
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-        csvValues[],//
-
+        csvValues[4],//fish
+        csvValues[1],//zone
+        csvValues[2],//cord
+        csvValues[7],//extra
+        csvValues[3],//tp
+        csvValues[5],//weather
+        csvValues[6],//bait
+        csvValues[0]//conditions
         ));
         stringBuilder.append("\n");
         return stringBuilder;
