@@ -157,7 +157,7 @@ public class ItemBuilder {
                 } catch (UnexpectedException e) {
                     throw new RuntimeException(e);
                 }
-            stringBuilder.append(new Fishing_Node(
+            stringBuilder.append(new Fish_Node(
                     curFish,//fish
                     zoneAndCords[0], //Zone
                     zoneAndCords[1], //Cords
@@ -176,7 +176,7 @@ public class ItemBuilder {
 
         stringBuilder.append(BIG_FISH_NODE );
         stringBuilder.append("\t");
-        stringBuilder.append(new BigFish_Node(
+        stringBuilder.append(new Fish_Big_Node(
                 csvValues[0],//fish
                 csvValues[1],//Zone
                 csvValues[3],//Cords

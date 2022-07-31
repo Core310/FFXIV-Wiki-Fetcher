@@ -52,6 +52,10 @@ public class Regular_Node extends BaseItem implements Item {
         type = "n/a";
     }
 
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
     public Regular_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4]);
         if(arr[5].equals(""))

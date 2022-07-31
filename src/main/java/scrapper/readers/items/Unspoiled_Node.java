@@ -55,7 +55,10 @@ public class Unspoiled_Node extends Regular_Node implements Item {
         this.star = star;
         this.time = time;
     }
-
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
     public Unspoiled_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
         time = arr[6];

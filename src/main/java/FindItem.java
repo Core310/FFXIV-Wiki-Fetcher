@@ -59,10 +59,10 @@ public class FindItem {
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.FISHING_NODE.toString().equals(curItem)) {
-                item = new Fishing_Node(delimLine);
+                item = new Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.BIG_FISH_NODE.toString().equals(curItem)) {
-                item = new BigFish_Node(delimLine);
+                item = new Fish_Big_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISHING_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);

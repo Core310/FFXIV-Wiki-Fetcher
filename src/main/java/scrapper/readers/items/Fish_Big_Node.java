@@ -9,24 +9,24 @@ import java.util.LinkedHashMap;
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Fisher">Folklore fishing link</a>
  * @see BaseItem
  */
-public class BigFish_Node extends BaseItem implements Item {
+public class Fish_Big_Node extends BaseItem implements Item {
     private final String fishingHole, ezoraTime, weather, bait, mooch, gathering;
 
     /**
      * Base constructor that is used for inheritance on its children.
      *
      */
-    public BigFish_Node(String fish,
-                        String zone,
-                        String cords,
-                        String desynthRewards,//aka extraEnd of base item super class
+    public Fish_Big_Node(String fish,
+                         String zone,
+                         String cords,
+                         String desynthRewards,//aka extraEnd of base item super class
 
-                        String fishingHole,
-                        String ezoraTime,
-                        String weather,
-                        String bait,
-                        String mooch,
-                        String gathering
+                         String fishingHole,
+                         String ezoraTime,
+                         String weather,
+                         String bait,
+                         String mooch,
+                         String gathering
     ) {
         super(fish, zone, cords, desynthRewards);
         this.fishingHole = fishingHole;
@@ -36,8 +36,11 @@ public class BigFish_Node extends BaseItem implements Item {
         this.mooch = mooch;
         this.gathering = gathering;
     }
-
-    public BigFish_Node(String[] arr) {
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
+    public Fish_Big_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4]);
         fishingHole = arr[5];
         ezoraTime = arr[6];
