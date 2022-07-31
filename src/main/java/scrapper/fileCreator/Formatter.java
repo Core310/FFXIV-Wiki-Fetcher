@@ -39,7 +39,7 @@ public class Formatter {
                 return DELETE;
             }
             case "Folklore Tome\tTime\tItem\tLocation\tCoordinates\tAdditional Info" -> {
-                itemType = FOLK_LORE_FISHING_NODE;
+                itemType = FOLK_LORE_FISH_NODE;
                 return DELETE;
             }
             case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
@@ -74,13 +74,16 @@ public class Formatter {
                 itemType = EPHEMERAL_FISH_NODE;
                 return DELETE;
             }
+            case "Aethersand wanted\tGained from"->{
+                itemType = SKIP;
+                return DELETE;
+            }
 
             //Ignore cases below possible checkme?
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
                     "Botanist\tMiner\tFisher",
                     "Gathering",
-                    "",
-                    "Aethersand wanted\tGained from"
+                    ""
                     -> {
                 return DELETE;
             }
@@ -106,8 +109,8 @@ public class Formatter {
                 stringBuilder = itemBuilder.build_FOLK_LORE_NODE(csvValues);
                 break;
             }
-            case FOLK_LORE_FISHING_NODE:{
-                stringBuilder = itemBuilder.build_FOLK_LORE_FISHING_NODE(csvValues);
+            case FOLK_LORE_FISH_NODE:{
+                stringBuilder = itemBuilder.build_FOLK_LORE_FISH_NODE(csvValues);
                 break;
             }
             case UNSPOILED_NODE:{
@@ -119,16 +122,16 @@ public class Formatter {
                 break;
             }//When an unspoiled node is an ARR one use this instead.
             case FISH_NODE:{
-                stringBuilder = itemBuilder.build_FISHING_NODE(csvValues);
+                stringBuilder = itemBuilder.build_FISH_NODE(csvValues);
                 break;
             }
 
             case FISH_BIG_NODE:{
-                stringBuilder = itemBuilder.build_BIG_FISH_NODE(csvValues);
+                stringBuilder = itemBuilder.build_FISH_BIG_NODE(csvValues);
                 break;
             }
             case FISH_COLLECTABLES_NODE:{
-                stringBuilder = itemBuilder.build_FISHING_COLLECTABLES_NODE(csvValues);
+                stringBuilder = itemBuilder.build_FISH_COLLECTABLES_NODE(csvValues);
                 break;
             }
             case EPHEMERAL_NODE:{

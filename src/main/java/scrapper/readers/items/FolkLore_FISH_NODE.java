@@ -11,11 +11,11 @@ import java.util.LinkedHashMap;
  * @see BaseItem
  * This class does not have additional info and slot. All else is the same as regularNode class
  */
-public class FolkLore_Fishing_Node extends BaseItem implements Item { //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info -wiki stuff
+public class FolkLore_FISH_NODE extends BaseItem implements Item { //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info -wiki stuff
     private final String folkloreTome;
     private final String time;
 
-    public FolkLore_Fishing_Node(
+    public FolkLore_FISH_NODE(
             String item,
             String location,
             String cords,
@@ -32,7 +32,7 @@ public class FolkLore_Fishing_Node extends BaseItem implements Item { //FolkLore
      * Used when file is already formatted.
      * @param arr array to input instead of manual input.
      */
-    public FolkLore_Fishing_Node(String[] arr){
+    public FolkLore_FISH_NODE(String[] arr){
         super(arr[1],arr[2],arr[3],arr[4]);
         folkloreTome = arr[5];
         time = arr[6];

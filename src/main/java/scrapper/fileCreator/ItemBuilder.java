@@ -3,6 +3,7 @@ package scrapper.fileCreator;
 import scrapper.readers.items.*;
 
 import java.rmi.UnexpectedException;
+import java.util.Arrays;
 
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
@@ -76,11 +77,11 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FOLK_LORE_FISHING_NODE(String[] csvValues){
+    protected StringBuilder build_FOLK_LORE_FISH_NODE(String[] csvValues){
 
-        stringBuilder.append(FOLK_LORE_FISHING_NODE.name());
+        stringBuilder.append(FOLK_LORE_FISH_NODE.name());
         stringBuilder.append("\t");
-        stringBuilder.append(new FolkLore_Fishing_Node(
+        stringBuilder.append(new FolkLore_FISH_NODE(
                 csvValues[2],//Item
                 csvValues[3],//Zone
                 csvValues[4],//Cords
@@ -137,7 +138,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FISHING_NODE (String[] csvValues){
+    protected StringBuilder build_FISH_NODE (String[] csvValues){
 
         String[] fish = csvValues[4].split(",",-1);
         for(String curFish: fish){
@@ -172,7 +173,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_BIG_FISH_NODE(String[] csvValues){
+    protected StringBuilder build_FISH_BIG_NODE(String[] csvValues){
         stringBuilder.append(FISH_BIG_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Fish_Big_Node(
@@ -192,7 +193,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FISHING_COLLECTABLES_NODE(String[] csvValues){
+    protected StringBuilder build_FISH_COLLECTABLES_NODE(String[] csvValues){
 
         stringBuilder.append(FISH_COLLECTABLES_NODE);
         stringBuilder.append("\t");
@@ -212,18 +213,38 @@ public class ItemBuilder {
     }
 
     protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues){
-        stringBuilder.append(EPHEMERAL_NODE);
-        stringBuilder.append("\t");
-        stringBuilder.append(new Ephemeral_Node(
-        csvValues[4],//item todo have for loop for mutli items
-        csvValues[1],//zone
-        csvValues[2],//cords
-        csvValues[5],//extra
-        csvValues[0],//time
-        csvValues[3]//tp
+        System.out.println(csvValues[4]);
+        if(csvValues[4].contains(",")){
+            String[] items = csvValues[4].split(",",-1);
+            for(String curItem: items){
+                stringBuilder.append(EPHEMERAL_NODE);
+                stringBuilder.append("\t");
+                stringBuilder.append(new Ephemeral_Node(
+                        curItem,
+                        csvValues[1],//zone
+                        csvValues[2],//cords
+                        csvValues[5],//extra
+                        csvValues[0],//time
+                        csvValues[3]//tp
+                ));
+                stringBuilder.append("\n");
+            }
+        }
+        else{
+            stringBuilder.append(EPHEMERAL_NODE);
+            stringBuilder.append("\t");
 
-        ));
-        stringBuilder.append("\n");
+            stringBuilder.append(new Ephemeral_Node(
+                    csvValues[4],//item todo have for loop for mutli items
+                    csvValues[1],//zone
+                    csvValues[2],//cords
+                    csvValues[5],//extra
+                    csvValues[0],//time
+                    csvValues[3]//tp
+
+            ));
+            stringBuilder.append("\n");
+        }
         return stringBuilder;
     }
 
