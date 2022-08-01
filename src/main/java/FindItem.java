@@ -55,10 +55,10 @@ public class FindItem {
     }
 
     /**
-     * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
-     * Multiple items will be stored in an arraylist with arguments of the Map.
-     * E.g. FindItem.findAllClosestAsMap(input);
-     * input: Lava toad
+     * Outputs each case neatly with ALL values, and descriptors for each item argument. (eg. this is the folk lore tome)
+     * <p>Multiple items will be stored in an arraylist with arguments of the Map.</p>
+     * <p>E.g. FindItem.findAllClosestAsMap(input);</p>
+     * <p>input: Lava toad</p>
      * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
@@ -161,11 +161,12 @@ public class FindItem {
     }
 
     /**
+     * Used for testing
      * Returns one random value from the file matching ItemName.
      * @param itemName Item searching for
      * @return Random value fetched from the method findAllClosestAsMap
      */
-    public String findAnyMatching(String itemName){
+    protected String findAnyMatching(String itemName){
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
