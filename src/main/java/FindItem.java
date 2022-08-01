@@ -21,6 +21,40 @@ public class FindItem {
     }
 
     /**
+     * The main and likely only method you want to use here. It will output the most important info. For example:
+     * <p>Item: Inkfish</p>
+     * <p>Zone: The Sea of Clouds</p>
+     * <p>Coordinates: (x29,y35)</p>
+     * <p>Time: 2PM-4PM</p>
+     * <p>FolkLore Tome: Abalathian</p>
+     * If looking for raw or full data, look at findAllClosestAsMap and findAllClosest
+     * @see FindItem findAllClosestAsMap
+     * @see FindItem findAllClosest
+     * @param itemName item to find
+     * @return Neatly outputted items
+     */
+    public ArrayList<String> essentialFindAllClosestAsMap(String itemName){
+        ArrayList<String> rtrn = new ArrayList<>();//Return value
+
+        for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
+            rtrn.add("Item: " + lhm.get("Item"));
+            rtrn.add("Zone: " + lhm.get("Zone"));
+            rtrn.add("Coordinates: " + lhm.get("Coordinates"));
+
+            if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
+                rtrn.add("Extra Information: " + lhm.get("Extra Information"));
+            if(lhm.get("Bait Used") != null)
+                rtrn.add("Bait Used: " + lhm.get("Bait Used"));
+            if(lhm.get("Time") != null)
+                rtrn.add("Time: " + lhm.get("Time"));
+            if(lhm.get("FolkLore Tome") != null)
+                rtrn.add("FolkLore Tome: " + lhm.get("FolkLore Tome"));
+            rtrn.add("\n");
+        }
+        return rtrn;// TODO: 8/1/2022 If array contains +1 itemName delete it
+    }
+
+    /**
      * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
      * Multiple items will be stored in an arraylist with arguments of the Map.
      * E.g. FindItem.findAllClosestAsMap(input);

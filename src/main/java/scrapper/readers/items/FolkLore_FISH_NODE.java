@@ -34,8 +34,8 @@ public class FolkLore_FISH_NODE extends BaseItem implements Item { //FolkLore_To
      */
     public FolkLore_FISH_NODE(String[] arr){
         super(arr[1],arr[2],arr[3],arr[4]);
-        folkloreTome = arr[5];
-        time = arr[6];
+        time = arr[5];
+        folkloreTome = arr[6];
     }
 
     protected String getFolkloreTome() {

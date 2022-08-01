@@ -61,7 +61,7 @@ public class Fish_Big_Node extends BaseItem implements Item {
         //see here: https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
         lhm.put("Desynth Rewards",getExtra());
         lhm.put("Fishing Hole", fishingHole);
-        lhm.put("Ezora Time", ezoraTime);
+        lhm.put("Time", ezoraTime);
         lhm.put("Weather",weather);
         lhm.put("Bait",bait);
         lhm.put("Mooch",mooch);

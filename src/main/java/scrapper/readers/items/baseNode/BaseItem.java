@@ -39,7 +39,8 @@ public abstract class BaseItem {
            lhm.put("Item",getItemName());
            lhm.put("Zone",getZone());
            lhm.put("Coordinates",getCords());
-           lhm.put("Extra Information",getExtra());
+           if(getExtra() != "")
+            lhm.put("Extra Information",getExtra());
            return lhm;
        }
 
