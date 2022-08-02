@@ -1,27 +1,41 @@
 # FFXIV Wiki scrapper
-This library searches for DOH/DOL items (aka gathering classes).
+This library searches for DOH/DOL gathering nodes (aka gathering classes) from 
+the [consolegameswiki](https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes) 
+and outputs them in a neat and readable format.
 
-## Usage
+- Currently, does not support the 
+[Ephemeral_Nodes](https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes) page
+
+## Download
+Download the latest zip from [releases](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases).
+
+This zip contains FindItem and XIVGather. 
+
+The rest of the files are used to build XIVGather in the event of a wiki update. 
+It is recommended to remake XIVGather upon any wiki updates.
+
+## Usage as a library
 
 To build the file yourself run `makeFile();` in main.java
 
 ---
- 
+(Preferred) Use `essentialFindAllClosestAsMap` to find and neatly output the most 
+important item data. May result in a large output if input is too vague.
+
+Outputs: `[Item: Crayfish
+Zone: Central Shrouds
+Coordinates: X:22, Y:21
+Bait Used: Moth Pupa, Mythril Spoon Lure, Honey Worm, 
+Sinking Minnow, Chocobo Fly, Crow Fly, Crayfish Ball, Versatile Lure
+]`
+
 Use `findAllClosestAsMap` to find all closest items and return each item as a key/value pair. 
 Keys are headers in the original wiki table. Returns a ArrayList<LinkedHashMap<String,String>>.
 
-```
-FindItem.findAllClosestAsMap("Lava Toad");
-```
-Should output: `[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]`
+Outputs: `[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]`
 
----
-
-Use `FindItem.findAnyMatching` to search for an item and return a random item by its raw data.
-Returns a String.
-```
-FindItem.findAnyMatching("Lava Toad"); 
-```
+Use `findAnyMatching` to search for an item and return a random item by its raw data.
+Returns a String. 
 
 ## Development:
 Contributing is greatly appreciated.
@@ -33,6 +47,8 @@ Please download the following dependencies if you are planning to do so.
 
 Should you need, a JavaDoc can be found on this repository’s website.
 
+Before sending a pull request, please run the test cases (they will automatically run again when you 
+submit your PR). If any case fails, please fix it and explain the change in your PR.
 
 ---
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.<br />
