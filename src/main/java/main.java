@@ -48,6 +48,7 @@ public class main {
         MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
         Document doc ;//jsoup doc
         for(Wikipages wikipages: Wikipages.values()){
+            Jsoup.clean();
             doc = Jsoup.connect(wikipages.toString()).get();
             makeFile.setParsedPage(doc);//Fetches webpage data to extract
             makeFile.scrap();//extracts data and stores in argument file

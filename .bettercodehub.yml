@@ -3,4 +3,4 @@ languages:
 - name: java
   production:
       exclude:
-          - /src/main/java/scrapper/items/.*
+          - /src/main/java/scrapper/nodesAndReaders/.*
