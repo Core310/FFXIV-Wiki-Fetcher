@@ -10,13 +10,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Fetches data from given doc.
+ * Fetches data from given doc (link).
+ *<p> Without Formatter.java, builds raw data (useful for debugging).
  *<p>
  * Process:
- * Call constructor (load file to write to, use external filewriter).
- * Use setPrasedPage to set link to fetch data from
- * Call scrap to grab values
- * Scrap calls Store which uses several other private methodsx
+ * <p> Call constructor (load file to write to, use external filewriter).
+ * <p> Use setPrasedPage to set link to fetch data from
+ * <p> Call scrap to grab values
+ * <p> Scrap calls Store internally and finally writes to file.
+ * @see Formatter
  */
 public class MakeFile {
     private ArrayList<Elements> TableValues;//Table values

@@ -4,11 +4,11 @@ import java.util.LinkedHashMap;
 
 /**
  * The constructor should NEVER be called directly.
- * This class is only used for overriding and inheritance.
+ * <p>This class is only used for overriding and inheritance.
  *
- * The first 4 columns/inputs should be as follows: itemName,zone,cords,extra
+ * <p>The first 4 columns/inputs should be as follows: itemName,zone,cords,extra
  *
- * All methods/vars are either private or protected.
+ * <p>All methods/vars are either private or protected.
  * @see scrapper.fileCreator.Formatter
  */
 @SuppressWarnings("all")

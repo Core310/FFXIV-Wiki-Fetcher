@@ -8,8 +8,11 @@ import java.rmi.UnexpectedException;
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
- * Puts an ITEM tag infront of each item for ease of reading.
+ * Puts an ITEM tag infront of each item for ease of reading and formats every item.
+ * <p>Order of methods run: formatFile -> setCurrentType -> formattedItem</p>
+ * Simply call the constructor to run this class.
  * @see ItemBuilder
+ * @see MakeFile
  */
 public class Formatter {
     private final String file;//File to read/write
@@ -166,7 +169,7 @@ public class Formatter {
      * <p>Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
      * <p>This method creates several duplicate items and has another method called later on.
      */
-    public void formatFile(){
+    private void formatFile(){
         try {
             File tmp = File.createTempFile("tmp", "");//Creates a tmp file to write to, then finally replaces the main file.
             BufferedReader br = new BufferedReader(new FileReader(file));

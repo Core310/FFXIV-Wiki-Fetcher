@@ -4,6 +4,8 @@ package scrapper.readers.items.baseNode;
  * Triggers these item types when looking at a header. Delete is for cases that can be deleted
  * (such as the ending table).
  * Ignore is for data.
+ * @see scrapper.fileCreator.Formatter
+ * @see scrapper.fileCreator.ItemBuilder
  */
 public enum StaticItemTypes {
     FOLK_LORE_NODE,
