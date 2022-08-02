@@ -49,18 +49,18 @@ public class FindItem {
         ArrayList<StringBuilder> rtrnArray = new ArrayList<>();//Return value
         for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("Item: " + lhm.get("Item") + "\n");
-            stringBuilder.append("Zone: " + lhm.get("Zone")+ "\n");
-            stringBuilder.append("Coordinates: " + lhm.get("Coordinates")+ "\n");
+            stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
+            stringBuilder.append("Zone: ").append(lhm.get("Zone")).append("\n");
+            stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
 
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
-                stringBuilder.append("Extra Information: " + lhm.get("Extra Information")+ "\n");
+                stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
             if(lhm.get("Bait Used") != null)
-                stringBuilder.append("Bait Used: " + lhm.get("Bait Used")+ "\n");
+                stringBuilder.append("Bait Used: ").append(lhm.get("Bait Used")).append("\n");
             if(lhm.get("Time") != null)
-                stringBuilder.append("Time: " + lhm.get("Time"));
+                stringBuilder.append("Time: ").append(lhm.get("Time"));
             if(lhm.get("FolkLore Tome") != null)
-                stringBuilder.append("FolkLore Tome: " + lhm.get("FolkLore Tome")+ "\n");
+                stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
             rtrnArray.add(stringBuilder);
         }
         return rtrnArray;// TODO: 8/1/2022 If array contains +1 itemName delete it

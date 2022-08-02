@@ -27,9 +27,59 @@ class FindItemTest {
         assertEquals(this.expected, actual);
     }
 
-
+    /**
+     * This test is honestly a little overkill. Look at the other tests first for debugging before looking at this one.
+     */
     @org.junit.jupiter.api.Test
     void essentialFindAllClosestAsMap(){
+        assertEquals(
+                """
+                        [Item: Crayfish
+                        Zone: Middle La Noscea\s
+                        Coordinates: X:20, Y:18
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Middle La Noscea\s
+                        Coordinates: X:22, Y:22
+                        Bait Used: Floating Minnow, Moth Pupa, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Lower La Noscea\s
+                        Coordinates: X:24, Y:23
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: New Gridania\s
+                        Coordinates: X:12, Y:13
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: New Gridania\s
+                        Coordinates: X:10, Y:11
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Old Gridania\s
+                        Coordinates: X:11, Y:8
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Old Gridania\s
+                        Coordinates: X:15, Y:6
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Central Shroud\s
+                        Coordinates: X:22, Y:21
+                        Bait Used: Moth Pupa, Mythril Spoon Lure, Honey Worm, Sinking Minnow, Chocobo Fly, Crow Fly, Crayfish Ball, Versatile Lure
+                        , Item: Crayfish
+                        Zone: Western Thanalan\s
+                        Coordinates: X:17, Y:15
+                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Rainbow Spoon Lure, Wildfowl Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        ]""",
+                findItem.essentialFindAllClosestAsMap("crayon fish").toString()
+                );
+
+        assertEquals("""
+                [Item: Lava Toad
+                Zone: Southern Thanalan
+                Coordinates: (x13,y31)
+                ]""",findItem.essentialFindAllClosestAsMap("guava tode").toString());
+
         assertEquals("""
                 [Item: Inkfish
                 Zone: The Sea of Clouds
