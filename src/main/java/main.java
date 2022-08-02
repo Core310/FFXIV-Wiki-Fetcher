@@ -1,5 +1,6 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.safety.Safelist;
 import scrapper.fileCreator.Formatter;
 import scrapper.fileCreator.MakeFile;
 import scrapper.fileCreator.Wikipages;
@@ -14,7 +15,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("guava tod");
+        makeFile();
     }
 
     /**
@@ -39,7 +40,8 @@ public class main {
         MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
         Document doc ;//jsoup doc
         for(Wikipages wikipages: Wikipages.values()){
-            doc = Jsoup.connect(wikipages.toString()).get();
+            String link = Jsoup.clean(wikipages.toString(), Safelist.basic());//*may* produce a bug. Delete this line if tes cases do not run.
+            doc = Jsoup.connect(link).get();
             makeFile.setParsedPage(doc);//Fetches webpage data to extract
             makeFile.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper

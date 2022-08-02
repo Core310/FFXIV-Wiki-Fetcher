@@ -6,6 +6,10 @@ and outputs them in a neat and readable format.
 - Currently, does not support the 
 [Ephemeral_Nodes](https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes) page
 
+## QuickStart
+Use `FindItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
+
+
 ## Download
 Download the latest zip from [releases](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases).
 
