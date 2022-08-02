@@ -25,13 +25,39 @@ class FindItemTest {
         this.expected.clear();
         this.expected.addAll(List.of(expected));
         assertEquals(this.expected, actual);
-
     }
+
 
     @org.junit.jupiter.api.Test
     void essentialFindAllClosestAsMap(){
-        findItem.essentialFindAllClosestAsMap("lava tode");
-
+        assertEquals("""
+                [Item: Inkfish
+                Zone: The Sea of Clouds
+                Coordinates: (x29,y35)
+                Time: 2PM-4PMFolkLore Tome: Abalathian
+                , Item: Cupfish
+                Zone: Lower La Noscea\s
+                Coordinates: X:27, Y:15
+                Bait Used: Moth Pupa, Glowworm, Spinnerbait, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                , Item: Sunfish
+                Zone: Western La Noscea\s
+                Coordinates: X:15, Y:29
+                Bait Used: Spoon Worm, Floating Minnow, Lugworm, Glowworm, Northern Krill, Yumizuno, Krill Cage Feeder, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Rat Tail, Goby Ball, Pill Bug, Versatile Lure
+                , Item: Skyfish
+                Zone: Coerthas Central Highlands\s
+                Coordinates: X:13, Y:14
+                Bait Used: Balloon Bug, Hoverworm, Versatile Lure
+                , Item: Skyfish
+                Zone: Coerthas Central Highlands\s
+                Coordinates: X:33.2, Y:18
+                Bait Used: Hoverworm, Versatile Lure
+                , Item: Cupfish
+                Zone: Lower La Noscea
+                Coordinates: (26,15)
+                Time: 5 PM to 7 PM, Item: Inkfish
+                Zone: The Sea of Clouds
+                Coordinates: (29,35)
+                Time: 2 PM to 4 PM]""",findItem.essentialFindAllClosestAsMap("fishie").toString());
     }
 
     @org.junit.jupiter.api.Test
