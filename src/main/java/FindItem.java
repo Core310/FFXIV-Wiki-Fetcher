@@ -20,38 +20,50 @@ public class FindItem {
         this.file = file;
     }
 
+
+
     /**
-     * The main and likely only method you want to use here. It will output the most important info. For example:
+     * The main helper method to findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
      * <p>Zone: The Sea of Clouds</p>
      * <p>Coordinates: (x29,y35)</p>
      * <p>Time: 2PM-4PM</p>
      * <p>FolkLore Tome: Abalathian</p>
      * If looking for raw or full data, look at findAllClosestAsMap and findAllClosest
+     * <p>Recommended setup to output this method:</p>
+     * <pre>
+     * <code>
+     * arr = findItem.essentialFindAllClosestAsMap(itemnam);
+     * for (StringBuilder a : arr) {
+     *    System.out.println(a);
+     *         }
+     *
+     * </pre>
+     *
      * @see FindItem findAllClosestAsMap
      * @see FindItem findAllClosest
      * @param itemName item to find
      * @return Neatly outputted items
      */
-    public ArrayList<String> essentialFindAllClosestAsMap(String itemName){
-        ArrayList<String> rtrn = new ArrayList<>();//Return value
-
+    public ArrayList<StringBuilder > essentialFindAllClosestAsMap(String itemName){
+        ArrayList<StringBuilder> rtrnArray = new ArrayList<>();//Return value
         for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
-            rtrn.add("Item: " + lhm.get("Item"));
-            rtrn.add("Zone: " + lhm.get("Zone"));
-            rtrn.add("Coordinates: " + lhm.get("Coordinates"));
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append("Item: " + lhm.get("Item") + "\n");
+            stringBuilder.append("Zone: " + lhm.get("Zone")+ "\n");
+            stringBuilder.append("Coordinates: " + lhm.get("Coordinates")+ "\n");
 
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
-                rtrn.add("Extra Information: " + lhm.get("Extra Information"));
+                stringBuilder.append("Extra Information: " + lhm.get("Extra Information")+ "\n");
             if(lhm.get("Bait Used") != null)
-                rtrn.add("Bait Used: " + lhm.get("Bait Used"));
+                stringBuilder.append("Bait Used: " + lhm.get("Bait Used")+ "\n");
             if(lhm.get("Time") != null)
-                rtrn.add("Time: " + lhm.get("Time"));
+                stringBuilder.append("Time: " + lhm.get("Time"));
             if(lhm.get("FolkLore Tome") != null)
-                rtrn.add("FolkLore Tome: " + lhm.get("FolkLore Tome"));
-            rtrn.add("\n");
+                stringBuilder.append("FolkLore Tome: " + lhm.get("FolkLore Tome")+ "\n");
+            rtrnArray.add(stringBuilder);
         }
-        return rtrn;// TODO: 8/1/2022 If array contains +1 itemName delete it
+        return rtrnArray;// TODO: 8/1/2022 If array contains +1 itemName delete it
     }
 
     /**

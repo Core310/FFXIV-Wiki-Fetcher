@@ -4,15 +4,22 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests one of each item
+ */
 class FindItemTest {
     private ArrayList<String> expected;
     private final FindItem findItem = new FindItem(new File("XIVGather.TSV"));
 
     /**
-     * Provides a custom input for assertEquals. This updates class values expected,actual so that assertEquals only uses those values.
+     * Provides a custom input for assertEquals.
+     *
+     * <p>Usage for findAllClosest </p>This updates class values expected,actual so that assertEquals only uses those values.
      * It then runs assertEquals on the two inputs
      * @param expected expected output
      * @param actual actual output
+     * @see FindItem
+     * @see FindItemTest findAllCloses-test
      */
     private void findAllClosetHelper(String[] expected, ArrayList<String> actual){
         this.expected.clear();
@@ -22,7 +29,8 @@ class FindItemTest {
     }
 
     @org.junit.jupiter.api.Test
-    void findAllClosestAsMap(){
+    void essentialFindAllClosestAsMap(){
+        findItem.essentialFindAllClosestAsMap("lava tode");
 
     }
 

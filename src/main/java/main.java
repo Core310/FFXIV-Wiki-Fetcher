@@ -22,20 +22,13 @@ public class main {
      */
     private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
-        ArrayList<String> arr;
+        ArrayList<StringBuilder> arr;
 
 
         arr = findItem.essentialFindAllClosestAsMap(itemnam);
-        for (String a : arr) {
+        for (StringBuilder a : arr) {
             System.out.println(a);
         }
-
-        System.out.println(findItem.findAllClosest(itemnam));
-
-        System.out.println("--- findCloestAsMap");
-
-        System.out.println(findItem.findAllClosestAsMap(itemnam));
-
 
     }
 
