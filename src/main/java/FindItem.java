@@ -7,7 +7,7 @@ import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
-
+@SuppressWarnings("ALL")
 /**
  * FuzzySearch implementation to find an ITEM in the file.
  * After the main file has been loaded with data and formatted, this class is used to find a certain item.
@@ -15,7 +15,7 @@ import java.util.*;
  */
 public class FindItem {
     private final File file;
-    private ArrayList<String> currentArray = new ArrayList<>();
+    private final ArrayList<String> currentArray = new ArrayList<>();
     public FindItem(File file){
         this.file = file;
     }
@@ -65,7 +65,7 @@ public class FindItem {
                 stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
             rtrnArray.add(stringBuilder);
         }
-        return rtrnArray;// TODO: 8/1/2022 If array contains +1 itemName delete it
+        return rtrnArray;
     }
 
     /**

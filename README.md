@@ -9,6 +9,9 @@ and outputs them in a neat and readable format.
 ## QuickStart
 Use `FindItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
 
+Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear. 
+(They will only differ in where they are found etc etc). Use the value `-1` to unbind the number of duplicate (set to infinite).
+Using the values `0` or `1` will produce no duplicates.
 
 ## Download
 Download the latest zip from [releases](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases).
