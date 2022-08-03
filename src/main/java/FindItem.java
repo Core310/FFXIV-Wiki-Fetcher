@@ -7,7 +7,7 @@ import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
-
+@SuppressWarnings("ALL")
 /**
  * FuzzySearch implementation to find an ITEM in the file.
  * After the main file has been loaded with data and formatted, this class is used to find a certain item.
@@ -19,12 +19,58 @@ public class FindItem {
     public FindItem(File file){
         this.file = file;
     }
+    private int numberOfDuplicateItems =-1;//Use the value -1 to set for
+    // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
     /**
-     * Outputs each case neatly, with descriptors for each item argument. (eg. this is the folk lore tome)
-     * Multiple items will be stored in an arraylist with arguments of the Map.
-     * E.g. FindItem.findAllClosestAsMap(input);
-     * input: Lava toad
+     * The main helper method to findItem. It will output the most important info. For example:
+     * <p>Item: Inkfish</p>
+     * <p>Zone: The Sea of Clouds</p>
+     * <p>Coordinates: (x29,y35)</p>
+     * <p>Time: 2PM-4PM</p>
+     * <p>FolkLore Tome: Abalathian</p>
+     * If looking for raw or full data, look at findAllClosestAsMap and findAllClosest
+     * <p>Recommended setup to output this method:</p>
+     * <pre>
+     * <code>
+     * arr = findItem.essentialFindAllClosestAsMap(itemnam);
+     * for (StringBuilder a : arr) {
+     *    System.out.println(a);
+     *         }
+     *
+     * </pre>
+     *
+     * @see FindItem findAllClosestAsMap
+     * @see FindItem findAllClosest
+     * @param itemName item to find
+     * @return Neatly outputted items
+     */
+    public ArrayList<StringBuilder > essentialFindAllClosestAsMap(String itemName){
+        ArrayList<StringBuilder> rtrnArray = new ArrayList<>();//Return value
+        for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
+            stringBuilder.append("Zone: ").append(lhm.get("Zone")).append("\n");
+            stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
+
+            if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
+                stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
+            if(lhm.get("Bait Used") != null)
+                stringBuilder.append("Bait Used: ").append(lhm.get("Bait Used")).append("\n");
+            if(lhm.get("Time") != null)
+                stringBuilder.append("Time: ").append(lhm.get("Time"));
+            if(lhm.get("FolkLore Tome") != null)
+                stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
+            rtrnArray.add(stringBuilder);
+        }
+        return rtrnArray;
+    }
+
+    /**
+     * Outputs each case neatly with ALL values, and descriptors for each item argument. (eg. this is the folk lore tome)
+     * <p>Multiple items will be stored in an arraylist with arguments of the Map.</p>
+     * <p>E.g. FindItem.findAllClosestAsMap(input);</p>
+     * <p>input: Lava toad</p>
      * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
@@ -32,18 +78,17 @@ public class FindItem {
         ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted
         Item item;
         for(String curLine: rawData){
-            System.out.println(curLine);
             String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
             String curItem = delimLine[0];//0 is index where ItemName is stored
 
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
-            if (StaticItemTypes.FOLK_LORE_FISHING_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
+            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
-                item = new FolkLore_Fishing_Node(delimLine);
+                item = new FolkLore_FISH_NODE(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
-                item = new FolkLore_NodeNode(delimLine);
+                item = new FolkLore_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.REGULAR_NODE.toString().equals(curItem)) {
@@ -58,13 +103,13 @@ public class FindItem {
                 item = new Unspoiled_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
-            else if (StaticItemTypes.FISHING_NODE.toString().equals(curItem)) {
-                item = new Fishing_Node(delimLine);
+            else if (StaticItemTypes.FISH_NODE.toString().equals(curItem)) {
+                item = new Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.BIG_FISH_NODE.toString().equals(curItem)) {
-                item = new BigFish_Node(delimLine);
+            } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
+                item = new Fish_Big_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FISHING_COLLECTABLES_NODE.toString().equals(curItem)) {
+            } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else try {
@@ -100,7 +145,6 @@ public class FindItem {
                 throw new RuntimeException(e);
             }//Loop through file
 
-
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}//Weird typo edge case. If more appear make an array and loop through to skip them.
@@ -113,6 +157,7 @@ public class FindItem {
                 currentArray.add(curLine);
             }
         }//end of while
+
         //This code below removes any duplicates
         LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
         currentArray.clear();
@@ -124,18 +169,53 @@ public class FindItem {
             throw new RuntimeException(e);
         }
 
+
+        removeDuplicate();
+
         return currentArray;
     }
 
     /**
+     * Helper method for findAllClosest
+     *<p>Creates a hashmap w/ key = duplicate & value = no. times found in currentArray</p>
+     * @see FindItem setNumberOfDuplicateItems();
+     * @see FindItem NumberOfDuplicateItems
+     */
+    private void removeDuplicate(){
+        if(currentArray.size() ==1 || numberOfDuplicateItems == -1)
+            return;//base case
+        HashMap<String,Integer> hmap = new HashMap<>();
+        String curItem;
+        for(int i =0;i<currentArray.size();i++){
+            curItem = currentArray.get(i).split("\t",-1)[1];// should grab  the item name (i hope)
+
+            if(!hmap.containsKey(curItem)){
+                hmap.put(curItem,1);
+            }
+            else if (hmap.containsKey(curItem)) {
+                if(hmap.get(curItem) >= numberOfDuplicateItems){
+                    currentArray.remove(i);
+                    i--;
+                    continue;
+                }
+                hmap.put(curItem,hmap.get(curItem)+1);
+            }
+        }
+    }
+
+
+    /**
+     * Used for testing
      * Returns one random value from the file matching ItemName.
      * @param itemName Item searching for
      * @return Random value fetched from the method findAllClosestAsMap
      */
-    public String findAnyMatching(String itemName){
+    protected String findAnyMatching(String itemName){
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
 
-
+    public void setNumberOfDuplicateItems(int numberOfDuplicateItems) {
+        this.numberOfDuplicateItems = numberOfDuplicateItems;
+    }
 }

@@ -3,12 +3,13 @@ package scrapper.readers.items.baseNode;
 import java.util.LinkedHashMap;
 
 /**
- * The constructor should NEVER be called.
- * This class is only used for overriding and inheritance.
+ * The constructor should NEVER be called directly.
+ * <p>This class is only used for overriding and inheritance.
  *
- * The first 3 columns should be as follows: itemName,zone,cords
+ * <p>The first 4 columns/inputs should be as follows: itemName,zone,cords,extra
  *
- * All methods/vars are either private or protected.
+ * <p>All methods/vars are either private or protected.
+ * @see scrapper.fileCreator.Formatter
  */
 @SuppressWarnings("all")
 public abstract class BaseItem {
@@ -38,7 +39,8 @@ public abstract class BaseItem {
            lhm.put("Item",getItemName());
            lhm.put("Zone",getZone());
            lhm.put("Coordinates",getCords());
-           lhm.put("Extra Information",getExtra());
+           if(getExtra() != "")
+            lhm.put("Extra Information",getExtra());
            return lhm;
        }
 

@@ -6,7 +6,9 @@ import scrapper.readers.items.baseNode.Item;
 import java.util.LinkedHashMap;
 
 /**
- * Ussed for regular node locations
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations">link to BNT reg node</a>
+ * <p> <a href="https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations">link to MNR reg node</a></p>
+ * @see BaseItem
  */
 public class Regular_Node extends BaseItem implements Item {
     private final int level;
@@ -50,6 +52,10 @@ public class Regular_Node extends BaseItem implements Item {
         type = "n/a";
     }
 
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
     public Regular_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4]);
         if(arr[5].equals(""))
