@@ -5,7 +5,11 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
-public class Fishing_Node extends BaseItem implements Item {
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations">Fishing wiki link</a>
+ * @see BaseItem
+ */
+public class Fish_Node extends BaseItem implements Item {
     private final String type, fishingLog;
     private int level;
 
@@ -13,14 +17,14 @@ public class Fishing_Node extends BaseItem implements Item {
      * Base constructor that is used for inheritance on its children.
      *
      */
-    public Fishing_Node(String fish,
-                        String zone,
-                        String cords,
-                        String baitUsed,//aka extra
-                        //End of base items
-                        String type,
-                        String fishingLog,
-                        int level
+    public Fish_Node(String fish,
+                     String zone,
+                     String cords,
+                     String baitUsed,//aka extra
+                     //End of base items
+                     String type,
+                     String fishingLog,
+                     int level
 
     ) {
         super(fish, zone, cords, baitUsed);
@@ -33,7 +37,7 @@ public class Fishing_Node extends BaseItem implements Item {
      * Used when file is already formatted.
      * @param arr array to input instead of manual input.
      */
-    public Fishing_Node(String[] arr) {
+    public Fish_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4]);
         type = arr[5];
         fishingLog = arr[6];

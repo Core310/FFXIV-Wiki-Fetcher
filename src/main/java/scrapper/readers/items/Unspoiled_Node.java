@@ -4,6 +4,12 @@ import scrapper.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
+/**
+ * <a href="https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes">Link to all Unspoiled Nodes</a>
+ *
+ * @see scrapper.readers.items.baseNode.BaseItem
+ * @see Regular_Node
+ */
 public class Unspoiled_Node extends Regular_Node implements Item {
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
@@ -11,8 +17,8 @@ public class Unspoiled_Node extends Regular_Node implements Item {
     private final String time;
 
     /**
-     *      * Default constructor for Unspoiled.
-     *      * If no level is found, use alternate constructor
+     * Default constructor for Unspoiled.
+     * If no level is found, use alternate constructor
      */
     public Unspoiled_Node(
             String item,
@@ -49,7 +55,10 @@ public class Unspoiled_Node extends Regular_Node implements Item {
         this.star = star;
         this.time = time;
     }
-
+    /**
+     * Used when file is already formatted.
+     * @param arr array to input instead of manual input.
+     */
     public Unspoiled_Node(String[] arr) {
         super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
         time = arr[6];

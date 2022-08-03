@@ -1,5 +1,6 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.safety.Safelist;
 import scrapper.fileCreator.Formatter;
 import scrapper.fileCreator.MakeFile;
 import scrapper.fileCreator.Wikipages;
@@ -8,10 +9,13 @@ import java.io.*;
 import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
+/**
+ * @see Wikipages
+ */
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("Etebalr");
+        searchFile("Coral Butterfly");
     }
 
     /**
@@ -19,18 +23,10 @@ public class main {
      */
     private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
-        ArrayList<String> arr;
+        ArrayList<StringBuilder> arr;
+        findItem.setNumberOfDuplicateItems(1);
+        System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
 
-
-        arr = findItem.findAllClosest(itemnam);
-        for (String a : arr) {
-            System.out.println(a);
-        }
-        /*
-        System.out.println("--- findCloestAsMap");
-
-        System.out.println(findItem.findAllClosestAsMap(itemnam));
-         */
 
     }
 
@@ -43,13 +39,13 @@ public class main {
         MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
         Document doc ;//jsoup doc
         for(Wikipages wikipages: Wikipages.values()){
-            doc = Jsoup.connect(wikipages.toString()).get();
+            String link = Jsoup.clean(wikipages.toString(), Safelist.basic());//*may* produce a bug. Delete this line if tes cases do not run.
+            doc = Jsoup.connect(link).get();
             makeFile.setParsedPage(doc);//Fetches webpage data to extract
             makeFile.scrap();//extracts data and stores in argument file
         }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         fileWriter.close();
 
         Formatter formatter = new Formatter(FileName);
-        formatter.formatFile();
     }
 }
