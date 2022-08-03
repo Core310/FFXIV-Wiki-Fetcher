@@ -15,10 +15,12 @@ import java.util.*;
  */
 public class FindItem {
     private final File file;
-    private final ArrayList<String> currentArray = new ArrayList<>();
+    private ArrayList<String> currentArray = new ArrayList<>();
     public FindItem(File file){
         this.file = file;
     }
+    private int numberOfDuplicateItems =-1;//Use the value -1 to set for
+    // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
 
 
@@ -145,7 +147,6 @@ public class FindItem {
                 throw new RuntimeException(e);
             }//Loop through file
 
-
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}//Weird typo edge case. If more appear make an array and loop through to skip them.
@@ -158,6 +159,7 @@ public class FindItem {
                 currentArray.add(curLine);
             }
         }//end of while
+
         //This code below removes any duplicates
         LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
         currentArray.clear();
@@ -169,8 +171,40 @@ public class FindItem {
             throw new RuntimeException(e);
         }
 
+
+        removeDuplicate();
+
         return currentArray;
     }
+
+    /**
+     * Helper method for findAllClosest
+     *<p>Creates a hashmap w/ key = duplicate & value = no. times found in currentArray</p>
+     * @see FindItem setNumberOfDuplicateItems();
+     * @see FindItem NumberOfDuplicateItems
+     */
+    private void removeDuplicate(){
+        if(currentArray.size() ==1 || numberOfDuplicateItems == -1)
+            return;//base case
+        HashMap<String,Integer> hmap = new HashMap<>();
+        String curItem;
+        for(int i =0;i<currentArray.size();i++){
+            curItem = currentArray.get(i).split("\t",-1)[1];// should grab  the item name (i hope)
+
+            if(!hmap.containsKey(curItem)){
+                hmap.put(curItem,1);
+            }
+            else if (hmap.containsKey(curItem)) {
+                if(hmap.get(curItem) >= numberOfDuplicateItems){
+                    currentArray.remove(i);
+                    i--;
+                    continue;
+                }
+                hmap.put(curItem,hmap.get(curItem)+1);
+            }
+        }
+    }
+
 
     /**
      * Used for testing
@@ -183,5 +217,7 @@ public class FindItem {
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
 
-
+    public void setNumberOfDuplicateItems(int numberOfDuplicateItems) {
+        this.numberOfDuplicateItems = numberOfDuplicateItems;
+    }
 }

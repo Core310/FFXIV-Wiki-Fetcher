@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        makeFile();
+        searchFile("Coral Butterfly");
     }
 
     /**
@@ -24,8 +24,7 @@ public class main {
     private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem(new File("XIVGather.TSV"));
         ArrayList<StringBuilder> arr;
-
-
+        findItem.setNumberOfDuplicateItems(1);
         System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
 
 

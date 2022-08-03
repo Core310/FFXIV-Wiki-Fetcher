@@ -213,7 +213,7 @@ public class ItemBuilder {
     }
 
     protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues){
-        System.out.println(csvValues[4]);
+        System.out.println(csvValues[4]);//used for debugging
         if(csvValues[4].contains(",")){
             String[] items = csvValues[4].split(",",-1);
             for(String curItem: items){
