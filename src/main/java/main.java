@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
 /**
+ * Used to build the data file and manually test it.
  * @see Wikipages
  */
 public class main {

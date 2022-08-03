@@ -10,8 +10,10 @@ import java.util.*;
 @SuppressWarnings("ALL")
 /**
  * FuzzySearch implementation to find an ITEM in the file.
- * After the main file has been loaded with data and formatted, this class is used to find a certain item.
+ * <p>After the main file has been loaded with data and formatted, this class is used to find a certain item.</p>
  * It has a default constructor to assign a file.
+ * @see StaticItemTypes
+ * @see scrapper.readers.items
  */
 public class FindItem {
     private final File file;
@@ -37,7 +39,7 @@ public class FindItem {
      * for (StringBuilder a : arr) {
      *    System.out.println(a);
      *         }
-     *
+     *</code>
      * </pre>
      *
      * @see FindItem findAllClosestAsMap
