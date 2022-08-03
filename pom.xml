@@ -53,8 +53,14 @@
             <version>5.9.0</version>
             <scope>Test</scope>
         </dependency>
-
-
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Core310 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Core310/FFXIV-Wiki-Fetcher</url>
+        </repository>
+    </distributionManagement>
 
 </project>
