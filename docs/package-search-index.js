@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"Scrapper"},{"l":"Scrapper.Items"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"scrapper.fileCreator"},{"l":"scrapper.readers.items"},{"l":"scrapper.readers.items.baseNode"}];updateSearchResults();

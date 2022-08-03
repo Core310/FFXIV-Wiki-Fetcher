@@ -1,3 +1,4 @@
 unnamed package
-Scrapper
-Scrapper.Items
+scrapper.fileCreator
+scrapper.readers.items
+scrapper.readers.items.baseNode
