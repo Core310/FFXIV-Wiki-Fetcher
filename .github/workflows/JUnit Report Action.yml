@@ -38,9 +38,3 @@ jobs:
           name: JUnit Test results            # Name of the check run which will be created
           path: target/surefire-reports/*.xml    # Path to test results
           reporter: java-junit        # Format of test results
-          
-      #to deploy pkg
-      - name: Publish to GitHub Packages Apache Maven
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
