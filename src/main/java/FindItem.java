@@ -22,8 +22,6 @@ public class FindItem {
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
-
-
     /**
      * The main helper method to findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
