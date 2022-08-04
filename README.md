@@ -1,3 +1,6 @@
+(This pacakge isnt ready dont even use it) Still massive WIP
+
+
 # FFXIV Wiki scrapper
 This library searches for DOH/DOL gathering nodes (aka gathering classes) from
 the [consolegameswiki](https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes)
