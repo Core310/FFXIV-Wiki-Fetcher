@@ -32,7 +32,7 @@
     </developers>
 
     <scm>
-            <connection>scm:git:git://github.com/Core310/FFXIV-Wiki-Fetcher.git</connection>
+        <connection>scm:git:git://github.com/Core310/FFXIV-Wiki-Fetcher.git</connection>
         <developerConnection>scm:git:ssh://github.com:Core310/FFXIV-Wiki-Fetcher.git</developerConnection>
         <url>https://github.com/Core310/FFXIV-Wiki-Fetcher</url>
     </scm>
