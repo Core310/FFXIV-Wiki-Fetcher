@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.FFXIV-Wiki-Fetcher</groupId>
+    <groupId>io.github.Core310</groupId>
     <artifactId>FFXIV-Wiki-Fetcher</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -105,14 +105,10 @@
                 </executions>
             </plugin>
 
-
-
-
-
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.13</version>
+                <version>1.6.12</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
@@ -174,7 +170,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 
 </project>
