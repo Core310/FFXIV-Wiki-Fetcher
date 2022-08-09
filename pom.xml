@@ -37,7 +37,17 @@
         <url>https://github.com/Core310/FFXIV-Wiki-Fetcher</url>
     </scm>
 
+
     <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/core310/FFXIV-Wiki-Fetcher</url>
+        </repository>
+    </distributionManagement>
+
+    <!--
+         <distributionManagement>
         <snapshotRepository>
             <id>FFXIV-Wiki-Fetcher</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
@@ -50,6 +60,10 @@
             https://github.com/Core310/FFXIV-Wiki-Fetcher
         </downloadUrl>
     </distributionManagement>
+
+     -->
+
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
