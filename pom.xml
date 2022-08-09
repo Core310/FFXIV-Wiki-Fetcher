@@ -46,7 +46,7 @@
         </repository>
     </distributionManagement>
 
-    <!--
+    <!-- todo uncomment me?
          <distributionManagement>
         <snapshotRepository>
             <id>FFXIV-Wiki-Fetcher</id>
@@ -87,8 +87,8 @@
                 </executions>
             </plugin>
 
-
-            <plugin>
+            <!-- todo uncomment me?
+             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>3.0.1</version>
@@ -102,6 +102,9 @@
                     </execution>
                 </executions>
             </plugin>
+            -->
+
+
 
 
             <plugin>
