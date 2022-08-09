@@ -6,12 +6,12 @@
 
     <groupId>io.github.Core310</groupId>
     <artifactId>FFXIV-Wiki-Fetcher</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
 
     <name>FFXIV-Wiki-Fetcher</name>
-    <description>Searches for DOH/DOL gathering nodes (aka gathering classes) from the consolegameswiki and outputs them in a neat and readable format.
+    <description>Searches for DOH/DOL gathering nodes (aka gathering classes) from the consolegameswiki and outputs them in a neat and readable format. Please see the GitHub README for usage.
     </description>
     <url>https://github.com/Core310/FFXIV-Wiki-Fetcher</url>
 
