@@ -46,8 +46,10 @@
             <id>FFXIV-Wiki-Fetcher</id>
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
+        <downloadUrl>
+            https://github.com/Core310/FFXIV-Wiki-Fetcher
+        </downloadUrl>
     </distributionManagement>
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
