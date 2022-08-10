@@ -10,6 +10,8 @@ and outputs them in a neat and readable format.
   [Ephemeral_Nodes](https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes) page
 
 ## QuickStart
+Download dependency from [maven central](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher/1.0.0/jar)
+
 Use `FindItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
 
 Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want returned.
