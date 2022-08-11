@@ -6,14 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ffxiv-gatherbuddy-file-creator" />
+        <module name="FFXIV-Wiki-Fetcher" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="18" />
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ffxiv-gatherbuddy-file-creator" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="FFXIV-Wiki-Fetcher" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
