@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class FindItemTest {
     private ArrayList<String> expected;
-    private final FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+    private final FindItem findItem = new FindItem();
 
     /**
      * Provides a custom input for assertEquals.
@@ -84,7 +84,8 @@ class FindItemTest {
                 [Item: Inkfish
                 Zone: The Sea of Clouds
                 Coordinates: (x29,y35)
-                Time: 2PM-4PMFolkLore Tome: Abalathian
+                Time: 2PM-4PM
+                FolkLore Tome: Abalathian
                 , Item: Cupfish
                 Zone: Lower La Noscea\s
                 Coordinates: X:27, Y:15
@@ -104,10 +105,12 @@ class FindItemTest {
                 , Item: Cupfish
                 Zone: Lower La Noscea
                 Coordinates: (26,15)
-                Time: 5 PM to 7 PM, Item: Inkfish
+                Time: 5 PM to 7 PM
+                , Item: Inkfish
                 Zone: The Sea of Clouds
                 Coordinates: (29,35)
-                Time: 2 PM to 4 PM]""",findItem.essentialFindAllClosestAsMap("fishie").toString());
+                Time: 2 PM to 4 PM
+                ]""",findItem.essentialFindAllClosestAsMap("fishie").toString());
     }
 
     @org.junit.jupiter.api.Test
