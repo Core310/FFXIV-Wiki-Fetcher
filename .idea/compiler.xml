@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ffxiv-gatherbuddy-file-creator" target="18" />
       <module name="FFXIV-Wiki-Fetcher" target="18" />
     </bytecodeTargetLevel>
   </component>

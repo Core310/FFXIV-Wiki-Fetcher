@@ -165,13 +165,14 @@ public class FindItem {
         currentArray.clear();
         currentArray.addAll(tmp);
         tmp.clear();
+        //todo after removing duplicate, search for duplicate item name. If same, which length is longer for array?
+        // psC: Loop thru, same item name? -> Hv bool method inside -> if True, means 1 arr len longer than other, replace. False? -> continue
+
         try {
             br.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
         removeDuplicate();
 
         return currentArray;
