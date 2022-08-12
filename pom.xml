@@ -42,10 +42,20 @@
             <id>FFXIV-Wiki-Fetcher</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
+        <!--
         <repository>
             <id>FFXIV-Wiki-Fetcher</id>
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
+
+        -->
+
+        <repository>
+            <id>github</id>
+            <name>GitHub Core310 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Core310/FFXIV-Wiki-Fetcher/</url>
+        </repository>
+
     </distributionManagement>
 
 

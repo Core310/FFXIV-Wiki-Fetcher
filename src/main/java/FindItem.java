@@ -53,11 +53,14 @@ public class FindItem {
             stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
 
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
+                //todo make a small class that appends \n to the end of each call?
+                // It would contain 2 args, first item type ("Item"), and second actual (lhm.get("Item").
+                // After done then just append \n
                 stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
             if(lhm.get("Bait Used") != null)
                 stringBuilder.append("Bait Used: ").append(lhm.get("Bait Used")).append("\n");
             if(lhm.get("Time") != null)
-                stringBuilder.append("Time: ").append(lhm.get("Time"));
+                stringBuilder.append("Time: ").append(lhm.get("Time")).append("\n");
             if(lhm.get("FolkLore Tome") != null)
                 stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
             rtrnArray.add(stringBuilder);

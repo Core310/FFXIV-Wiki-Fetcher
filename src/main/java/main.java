@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class main {
     static final String FileName = "XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("Saltmill");
+        searchFile("Rockfish");
     }
 
     /**
@@ -25,7 +25,7 @@ public class main {
     private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
-        findItem.setNumberOfDuplicateItems(1);
+        //findItem.setNumberOfDuplicateItems(1);
         System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
 
 

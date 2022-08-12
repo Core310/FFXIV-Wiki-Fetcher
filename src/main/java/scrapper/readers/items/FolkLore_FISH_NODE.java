@@ -8,8 +8,9 @@ import java.util.LinkedHashMap;
 
 /**
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes#Fisher">wiki link</a>
- * @see BaseItem
  * This class does not have additional info and slot. All else is the same as regularNode class
+ * @see BaseItem
+
  */
 public class FolkLore_FISH_NODE extends BaseItem implements Item { //FolkLore_Toem, Time, Item, Slot, Location, Cords, Added info -wiki stuff
     private final String folkloreTome;
