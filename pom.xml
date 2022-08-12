@@ -56,6 +56,15 @@
     </properties>
 
     <build>
+        <resources>
+            <resource>
+                <directory>main/resources</directory>
+            </resource>
+            <resource>
+                <directory>main/java</directory>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
