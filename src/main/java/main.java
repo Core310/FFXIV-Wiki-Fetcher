@@ -23,7 +23,7 @@ public class main {
      * Test  method to search the file for certain values.
      */
     private static void searchFile(String itemnam) {
-        FindItem findItem = new FindItem(new File("XIVGather.TSV"));
+        FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
         findItem.setNumberOfDuplicateItems(1);
         System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
