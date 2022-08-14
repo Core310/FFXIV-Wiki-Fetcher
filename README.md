@@ -26,7 +26,21 @@ It is recommended to remake XIVGather upon any wiki updates.
 
 ## Usage as a library
 
-To build the file yourself run `makeFile();` in main.java
+To build the file yourself run `makeFile();` in main.java or copy below
+```java
+        File XIVGather = new File(FileName);
+        FileWriter fileWriter = new FileWriter(XIVGather,false);
+        MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
+        Document doc ;
+        for(Wikipages wikipages: Wikipages.values()){
+            String link = Jsoup.clean(wikipages.toString(), Safelist.basic());
+            doc = Jsoup.connect(link).get();
+            makeFile.setParsedPage(doc);
+            makeFile.scrap();
+        }
+        fileWriter.close();
+        Formatter formatter = new Formatter(FileName);
+```
 
 ---
 Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear.

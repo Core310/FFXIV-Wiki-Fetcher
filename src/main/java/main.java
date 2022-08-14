@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * @see Wikipages
  */
 public class main {
-    static final String FileName = "XIVGather.TSV";
+    static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         searchFile("fingers");
     }
