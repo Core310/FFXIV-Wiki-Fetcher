@@ -16,11 +16,15 @@ import java.util.*;
  * @see scrapper.readers.items
  */
 public class FindItem {
-    private final File file = new File("src/main/resources/XIVGather.TSV");
+    private final File file;
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
+    public FindItem(File file){
+        this.file = file;
+
+    }
     /**
      * The main helper method to findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>

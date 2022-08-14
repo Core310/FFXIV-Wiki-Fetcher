@@ -26,7 +26,7 @@ It is recommended to remake XIVGather upon any wiki updates.
 
 ## Usage as a library
 
-To build the file yourself run `makeFile();` in main.java or copy below
+To build the file yourself run `makeFile();` in main.java or copy below. Replace FileName with the desired path for the resource file.
 ```java
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather,false);

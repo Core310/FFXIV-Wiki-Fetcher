@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class FindItemTest {
     private ArrayList<String> expected;
-    private final FindItem findItem = new FindItem();
+    private final FindItem findItem = new FindItem(new File("src/main/resources/XIVGather.TSV"));
 
     /**
      * Provides a custom input for assertEquals.
