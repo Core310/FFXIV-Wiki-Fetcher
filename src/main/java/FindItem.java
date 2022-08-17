@@ -4,6 +4,8 @@ import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.Item;
 
 import java.io.*;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
@@ -17,14 +19,35 @@ import java.util.*;
  */
 public class FindItem {
     private final File file;
+
+    {
+        try {
+            file = getFileFromResource("XIVGather.TSV");
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
-    public FindItem(File file){
-        this.file = file;
+    private File getFileFromResource(String fileName) throws URISyntaxException {
+
+        ClassLoader classLoader = getClass().getClassLoader();
+        URL resource = classLoader.getResource(fileName);
+        if (resource == null) {
+            throw new IllegalArgumentException("file not found! " + fileName);
+        } else {
+
+            // failed if files have whitespaces or special characters
+            //return new File(resource.getFile());
+
+            return new File(resource.toURI());
+        }
 
     }
+
     /**
      * The main helper method to findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
