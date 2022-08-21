@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="fixed small input stream bug">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update readme guidelines">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661050715286</updated>
       <workItem from="1661050724736" duration="510000" />
-      <workItem from="1661086891895" duration="2659000" />
+      <workItem from="1661086891895" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661088772291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update readme guidelines">
+      <created>1661089873086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661089873086</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +125,7 @@
     <MESSAGE value="made tmp file to read from" />
     <MESSAGE value="can now read from resource folder (hopefully)" />
     <MESSAGE value="fixed small input stream bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed small input stream bug" />
+    <MESSAGE value="update readme guidelines" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme guidelines" />
   </component>
 </project>
