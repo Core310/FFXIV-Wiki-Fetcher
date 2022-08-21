@@ -6,6 +6,9 @@ import scrapper.readers.items.baseNode.Item;
 import java.io.*;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
@@ -18,33 +21,21 @@ import java.util.*;
  * @see scrapper.readers.items
  */
 public class FindItem {
-    private final File file;
-
-    {
-        try {
-            file = getFileFromResource("XIVGather.TSV");
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
-    }
+    private File file = new File("tmp.TSV");
 
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
-    private File getFileFromResource(String fileName) throws URISyntaxException {
+    FindItem(){
+        InputStream in = getClass().getResourceAsStream("/XIVGather.TSV");
 
-        ClassLoader classLoader = getClass().getClassLoader();
-        URL resource = classLoader.getResource(fileName);
-        if (resource == null) {
-            throw new IllegalArgumentException("file not found! " + fileName);
-        } else {
-
-            // failed if files have whitespaces or special characters
-            //return new File(resource.getFile());
-
-            return new File(resource.toURI());
+        try {
+            Files.copy(in, Path.of("tmp.TSV"), new StandardCopyOption[]{StandardCopyOption.REPLACE_EXISTING});
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+
 
     }
 
