@@ -21,18 +21,23 @@ import java.util.*;
  * @see scrapper.readers.items
  */
 public class FindItem {
-    private File file = new File("tmp.TSV");
-
+    private BufferedReader br;
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
 
-    FindItem(){
-        InputStream in = getClass().getResourceAsStream("/XIVGather.TSV");
-
+    /**
+     * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#copy-java.io.InputStream-java.nio.file.Path-java.nio.file.CopyOption...-">Files.copy java documentation</a>
+     *
+     * @see <a href="https://stackoverflow.com/a/52425390/9099611">Files.copy Stack overflow </a>
+     *
+     *
+     */
+    public FindItem(){
+        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resouce
         try {
-            Files.copy(in, Path.of("tmp.TSV"), new StandardCopyOption[]{StandardCopyOption.REPLACE_EXISTING});
-        } catch (IOException e) {
+            br =  new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));//Puts into stream
+        } catch (UnsupportedEncodingException e) {
             throw new RuntimeException(e);
         }
 
@@ -148,12 +153,6 @@ public class FindItem {
      * @return All values which have the same ratio to ItemName.
      */
     protected ArrayList<String> findAllClosest(String itemName) {
-        BufferedReader br;
-        try {
-            br =  new BufferedReader(new FileReader(file));
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
         int highestRatio =0;
         String curLine;
         String curItem;
