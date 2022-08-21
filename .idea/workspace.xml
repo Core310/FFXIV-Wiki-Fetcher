@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="made tmp file to read from">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="can now read from resource folder (hopefully)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
     </list>
@@ -36,7 +36,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FindItemTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="FFXIV-Wiki-Fetcher" />
@@ -44,8 +44,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindItemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindItemTest" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -59,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661050715286</updated>
       <workItem from="1661050724736" duration="510000" />
-      <workItem from="1661086891895" duration="1358000" />
+      <workItem from="1661086891895" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -68,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661087795662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="can now read from resource folder (hopefully)">
+      <created>1661088562862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661088562862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made tmp file to read from" />
-    <option name="LAST_COMMIT_MESSAGE" value="made tmp file to read from" />
+    <MESSAGE value="can now read from resource folder (hopefully)" />
+    <option name="LAST_COMMIT_MESSAGE" value="can now read from resource folder (hopefully)" />
   </component>
 </project>

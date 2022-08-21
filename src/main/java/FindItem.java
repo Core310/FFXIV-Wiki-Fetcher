@@ -21,28 +21,9 @@ import java.util.*;
  * @see scrapper.readers.items
  */
 public class FindItem {
-    private BufferedReader br;
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
-
-    /**
-     * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#copy-java.io.InputStream-java.nio.file.Path-java.nio.file.CopyOption...-">Files.copy java documentation</a>
-     *
-     * @see <a href="https://stackoverflow.com/a/52425390/9099611">Files.copy Stack overflow </a>
-     *
-     *
-     */
-    public FindItem(){
-        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resouce
-        try {
-            br =  new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));//Puts into stream
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException(e);
-        }
-
-
-    }
 
     /**
      * The main helper method to findItem. It will output the most important info. For example:
@@ -76,7 +57,7 @@ public class FindItem {
             stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
 
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
-                //todo make a small class that appends \n to the end of each call?
+                //todo make a small method/class that appends \n to the end of each call?
                 // It would contain 2 args, first item type ("Item"), and second actual (lhm.get("Item").
                 // After done then just append \n
                 stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
@@ -153,6 +134,15 @@ public class FindItem {
      * @return All values which have the same ratio to ItemName.
      */
     protected ArrayList<String> findAllClosest(String itemName) {
+        BufferedReader br;
+        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resouce
+        try {
+            br =  new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));//Puts into stream
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }//Creates reader
+
+
         int highestRatio =0;
         String curLine;
         String curItem;
@@ -192,6 +182,12 @@ public class FindItem {
         }
         removeDuplicate();
 
+        //lastly close stream
+        try {
+            inputStream.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         return currentArray;
     }
 
