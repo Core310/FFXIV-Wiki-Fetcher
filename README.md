@@ -9,22 +9,22 @@ and outputs them in a neat and readable format.
 ## QuickStart
 Download dependency from [maven central](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher/1.0.0/jar)
 
-Use `FindItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
+Use `findItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
 
-Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want returned.
+Use `findItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want returned.
 
 <br> Example: 
 
 ```java
-FindItem fi = new FindItem();
-FindItem.essentialFindAllClosestAsMap("crayon");
+findItem fi = new findItem();
+findItem.essentialFindAllClosestAsMap("crayon");
 ```
 
 ## Download
 Download the latest release from [mavenCentral](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher).
 
 ## Usage as a library
-Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear.
+Use `findItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear.
 - Use the value `-1`to set to an infinite number.
 - Using the values `0` or `1` will produce no duplicates (then 2 will produce 1 extra duplicate).
 - By default, this value is `-1`.
