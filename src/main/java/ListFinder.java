@@ -27,9 +27,14 @@ public class ListFinder {
      * @return Items grouped by teleports
      */
     public StringBuilder outPutList(){
+        StringBuilder output = new StringBuilder();
+        for(String item: searchKeys){
+            //then another for loop over the tp list, start for greatest -> least
+            //Output greatest amnt of tp if found to a stringBuilder
+
+        }
+
         return null;
-
-
     }
 
     /**
