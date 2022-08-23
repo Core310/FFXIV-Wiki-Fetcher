@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update readme guidelines">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/findItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/findItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listFinder.java" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="working on ListFinder.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/FindItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/findItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +34,35 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DeDYklfFVln5bRI4o5ZE56Rxww" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean deploy" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.findItemTest">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="FFXIV-Wiki-Fetcher" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +80,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.findItemTest" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\arika\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="hopefully made to read file from resourcees directory" />
@@ -88,6 +97,9 @@
       <updated>1661050715286</updated>
       <workItem from="1661050724736" duration="510000" />
       <workItem from="1661086891895" duration="3270000" />
+      <workItem from="1661215255491" duration="5271000" />
+      <workItem from="1661229559853" duration="5242000" />
+      <workItem from="1661234947119" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -135,10 +147,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="made tmp file to read from" />
     <MESSAGE value="can now read from resource folder (hopefully)" />
     <MESSAGE value="fixed small input stream bug" />
     <MESSAGE value="update readme guidelines" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme guidelines" />
+    <MESSAGE value="working on ListFinder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on ListFinder.java" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

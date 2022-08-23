@@ -15,7 +15,7 @@ import java.util.*;
  * @see StaticItemTypes
  * @see scrapper.readers.items
  */
-public class findItem {
+public class FindItem {
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
@@ -38,12 +38,12 @@ public class findItem {
      *</code>
      * </pre>
      *
-     * @see findItem findAllClosestAsMap
-     * @see findItem findAllClosest
+     * @see FindItem findAllClosestAsMap
+     * @see FindItem findAllClosest
      * @param itemName item to find
      * @return Neatly outputted items
      */
-    public ArrayList<StringBuilder > essentialFindAllClosestAsMap(String itemName){
+    public ArrayList<StringBuilder> essentialFindAllClosestAsMap(String itemName){
         ArrayList<StringBuilder> rtrnArray = new ArrayList<>();//Return value
         for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
             StringBuilder stringBuilder = new StringBuilder();
@@ -52,9 +52,7 @@ public class findItem {
             stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
 
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
-                //todo make a small method/class that appends \n to the end of each call?
-                // It would contain 2 args, first item type ("Item"), and second actual (lhm.get("Item").
-                // After done then just append \n
+                //todo refractor if statements and then appending part into a small method.
                 stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
             if(lhm.get("Bait Used") != null)
                 stringBuilder.append("Bait Used: ").append(lhm.get("Bait Used")).append("\n");
@@ -189,8 +187,8 @@ public class findItem {
     /**
      * Helper method for findAllClosest
      *<p>Creates a hashmap w/ key = duplicate & value = no. times found in currentArray</p>
-     * @see findItem setNumberOfDuplicateItems();
-     * @see findItem NumberOfDuplicateItems
+     * @see FindItem setNumberOfDuplicateItems();
+     * @see FindItem NumberOfDuplicateItems
      */
     private void removeDuplicate(){
         if(currentArray.size() ==1 || numberOfDuplicateItems == -1)

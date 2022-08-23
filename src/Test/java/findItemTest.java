@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class findItemTest {
     private ArrayList<String> expected;
-    private final findItem findItem = new findItem();
+    private final FindItem findItem = new FindItem();
 
     /**
      * Provides a custom input for assertEquals.
@@ -17,7 +17,7 @@ class findItemTest {
      * It then runs assertEquals on the two inputs
      * @param expected expected output
      * @param actual actual output
-     * @see findItem
+     * @see FindItem
      * @see findItemTest findAllCloses-test
      */
     private void findAllClosetHelper(String[] expected, ArrayList<String> actual){

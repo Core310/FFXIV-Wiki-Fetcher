@@ -9,22 +9,22 @@ and outputs them in a neat and readable format.
 ## QuickStart
 Download dependency from [maven central](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher/1.0.0/jar)
 
-Use `findItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
+Use `FindItem.essentialFindAllClosestAsMap(String input)` to find the closest items neatly.
 
-Use `findItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want returned.
+Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want returned.
 
 <br> Example: 
 
 ```java
-findItem fi = new findItem();
-findItem.essentialFindAllClosestAsMap("crayon");
+FindItem fi = new FindItem();
+FindItem.essentialFindAllClosestAsMap("crayon");
 ```
 
 ## Download
 Download the latest release from [mavenCentral](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher).
 
 ## Usage as a library
-Use `findItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear.
+Use `FindItem.setNumberOfDuplicateItems(int num)` to set the number of duplicate items you want to appear.
 - Use the value `-1`to set to an infinite number.
 - Using the values `0` or `1` will produce no duplicates (then 2 will produce 1 extra duplicate).
 - By default, this value is `-1`.
@@ -53,7 +53,7 @@ Returns a String.
 ## Development:
 Contributing is greatly appreciated. Please download and unzip the latest file from the [releases page](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases) 
 
-If you wish to build the file yourself run `makeFile();` in main.java or copy below. Replace FileName with the desired path for the resource file.
+If you wish to build the file yourself run `makeFile();` in Main.java or copy below. Replace FileName with the desired path for the resource file.
 ```java
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather,false);

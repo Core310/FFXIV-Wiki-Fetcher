@@ -235,7 +235,7 @@ public class ItemBuilder {
             stringBuilder.append("\t");
 
             stringBuilder.append(new Ephemeral_Node(
-                    csvValues[4],//item todo have for loop for mutli items
+                    csvValues[4],//item feature have for loop for mutli items
                     csvValues[1],//zone
                     csvValues[2],//cords
                     csvValues[5],//extra

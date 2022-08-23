@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Used to build the data file and manually test it.
  * @see Wikipages
  */
-public class main {
+public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         searchFile("fingers");
@@ -23,7 +23,7 @@ public class main {
      * Test  method to search the file for certain values.
      */
     private static void searchFile(String itemnam) {
-        findItem findItem = new findItem();
+        FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
         //findItem.setNumberOfDuplicateItems(1);
         System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
