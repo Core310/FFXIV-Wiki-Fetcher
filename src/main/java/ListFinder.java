@@ -1,5 +1,4 @@
 import java.util.*;
-
 /**
  * Exports a list of inputted items with the best teleport locations.
  * Works by grouping together teleports in the list.
