@@ -16,7 +16,12 @@ import java.util.ArrayList;
 public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        searchFile("fingers");
+        //ListFinder listFinder = new ListFinder();
+        //listFinder.addItem("Maple Branch");
+        //listFinder.addItem("Latex");
+        //listFinder.addItem("Maple Log");
+        //System.out.println(listFinder.outPutList());
+        searchFile("Maple Branch");
     }
 
     /**

@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.stream.Collectors;
+
 /**
  * Exports a list of inputted items with the best teleport locations.
  * Works by grouping together teleports in the list.
@@ -7,9 +9,9 @@ public class ListFinder {
     private final FindItem findItem = new FindItem();
     /**
      * Stores the itemInput as well as its corresponding teleport zone
-     * <br> ItemName,tpList (hashset)
+     * <br> ItemName, Hmap - tp with raw data-
      */
-    private final HashMap<String, HashSet<String>> itemAndTpMap = new HashMap<>();
+    private final HashMap<String, HashMap<String, String>> itemAndTpMap = new HashMap<>();
     /**
      * Stores all teleport sets without itemName
      * <br> tpList, occurrences
@@ -25,16 +27,21 @@ public class ListFinder {
      * @see ListFinder addItem
      * @return Items grouped by teleports
      */
-    public StringBuilder outPutList(){
+    public StringBuilder outPutList(){ //TODO 8/24/2022
         StringBuilder output = new StringBuilder();
-        for(String item: searchKeys){
+        Map<String, Integer> sortedTpValuesAsc = sortMapByValue(tpMap, true);
+        for(String item: searchKeys){//for all items
+            for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
+             if(itemAndTpMap.get(item).containsKey(tp)){//If there is a tp matching
+                 output.append(itemAndTpMap.get(item).get(tp));//FIXME 8/24/2022 ?
+                 break;//Breaks inner tp for loop to move onto next item
+             }
+            }
+        }
             //then another for loop over the tp list, start for greatest -> least
             //Output greatest amnt of tp if found to a stringBuilder
-
+            return output;
         }
-
-        return null;
-    }
 
     /**
      * Adds a search key to the list to return.
@@ -42,6 +49,7 @@ public class ListFinder {
      */
     public void addItem(String searchKey){
         searchKeys.add(searchKey);
+        addItemInfo(findItem.essentialFindAllClosestAsMap(searchKey));
     }
 
     /**
@@ -77,11 +85,31 @@ public class ListFinder {
                 }
             }
             if(!itemAndTpMap.containsKey(itemName))//If item not present make new hashset and then add later
-                itemAndTpMap.put(itemName,new HashSet<>());
-            itemAndTpMap.get(itemName).add(zone);
+                itemAndTpMap.put(itemName,new HashMap<>());
+            itemAndTpMap.get(itemName).put(zone, Arrays.toString(itemData));//FIXME 8/24/2022
         }
         //Get item name & tp and add it to global vars
     }
 
+    /**
+     * Credits for this method go to the following post: <a href="https://stackoverflow.com/a/13913206/9099611">...</a>
+     * <br> None of this code is mine.
+     * @param unsortMap Unsorted map with a string and int argument
+     * @param order Ascending = true, descending = false
+     * @return Sorted map
+     */
+    private static Map<String, Integer> sortMapByValue(Map<String, Integer> unsortMap, final boolean order)
+    {
+        List<Map.Entry<String, Integer>> list = new LinkedList<>(unsortMap.entrySet());
 
+        // Sorting the list based on values
+        list.sort((o1, o2) -> order ? o1.getValue().compareTo(o2.getValue()) == 0
+                ? o1.getKey().compareTo(o2.getKey())
+                : o1.getValue().compareTo(o2.getValue()) : o2.getValue().compareTo(o1.getValue()) == 0
+                ? o2.getKey().compareTo(o1.getKey())
+                : o2.getValue().compareTo(o1.getValue()));
+        return list.stream().collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> b, LinkedHashMap::new));
+
+
+    }
 }
