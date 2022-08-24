@@ -1,3 +1,4 @@
+import java.rmi.UnexpectedException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -16,7 +17,7 @@ public class ListFinder {
      * Stores all teleport sets without itemName
      * <br> tpList, occurrences
      */
-    private final HashMap<String, Integer> tpMap = new HashMap<>();
+    private final HashMap<String, Integer> tpMap = new HashMap<>(); //FIXME 8/24/2022 tp map isnt updating?
     private final Stack<String> searchKeys = new Stack<>();
 
     /**
@@ -27,20 +28,27 @@ public class ListFinder {
      * @see ListFinder addItem
      * @return Items grouped by teleports
      */
-    public StringBuilder outPutList(){ //TODO 8/24/2022
+    public StringBuilder outPutList(){ //TODO 8/24/2022 need to debug
         StringBuilder output = new StringBuilder();
-        Map<String, Integer> sortedTpValuesAsc = sortMapByValue(tpMap, true);
+
+        Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
              if(itemAndTpMap.get(item).containsKey(tp)){//If there is a tp matching
-                 output.append(itemAndTpMap.get(item).get(tp));//FIXME 8/24/2022 ?
+                 output.append(itemAndTpMap.get(item).get(tp));
                  break;//Breaks inner tp for loop to move onto next item
              }
             }
         }
-            //then another for loop over the tp list, start for greatest -> least
+        if(output.isEmpty())
+            try {
+                throw new UnexpectedException("Ths value should never be null>?");
+            } catch (UnexpectedException e) {
+                throw new RuntimeException(e);
+            }
+        //then another for loop over the tp list, start for greatest -> least
             //Output greatest amnt of tp if found to a stringBuilder
-            return output;
+        return output;
         }
 
     /**
@@ -70,13 +78,10 @@ public class ListFinder {
                 //Load itemName
                 if(curValue.contains("Item: ")){
                     itemName = curValue.split("Item: ")[1];
-                    System.out.println(itemName); //todo delete me
                 }
                 //Load TP/zonee
-                else if(curValue.contains("Zone")){
+                if(curValue.contains("Zone: ")){//FIXME 8/24/2022 this never runs
                     zone  = curValue.split("Zone: ",-1)[1];//at [0] should be "Zone: " and [1] = actual zone
-                    System.out.println(zone); //todo delete me
-
                     //Updates tpMap, puts a new zone in if one doesn't already exist.
                     if(tpMap.containsKey(zone))
                         tpMap.put(zone, tpMap.get(zone) + 1);
@@ -86,30 +91,24 @@ public class ListFinder {
             }
             if(!itemAndTpMap.containsKey(itemName))//If item not present make new hashset and then add later
                 itemAndTpMap.put(itemName,new HashMap<>());
-            itemAndTpMap.get(itemName).put(zone, Arrays.toString(itemData));//FIXME 8/24/2022
+            itemAndTpMap.get(itemName).put(zone, Arrays.toString(itemData));//FIXME 8/24/2022 possible breakpoint
         }
         //Get item name & tp and add it to global vars
     }
 
     /**
-     * Credits for this method go to the following post: <a href="https://stackoverflow.com/a/13913206/9099611">...</a>
+     * Credits for this method go to the following post: <a href="https://stackoverflow.com/a/2581754/9099611">...</a>
      * <br> None of this code is mine.
-     * @param unsortMap Unsorted map with a string and int argument
-     * @param order Ascending = true, descending = false
-     * @return Sorted map
      */
-    private static Map<String, Integer> sortMapByValue(Map<String, Integer> unsortMap, final boolean order)
-    {
-        List<Map.Entry<String, Integer>> list = new LinkedList<>(unsortMap.entrySet());
+    public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+        List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
+        list.sort(Map.Entry.comparingByValue());
 
-        // Sorting the list based on values
-        list.sort((o1, o2) -> order ? o1.getValue().compareTo(o2.getValue()) == 0
-                ? o1.getKey().compareTo(o2.getKey())
-                : o1.getValue().compareTo(o2.getValue()) : o2.getValue().compareTo(o1.getValue()) == 0
-                ? o2.getKey().compareTo(o1.getKey())
-                : o2.getValue().compareTo(o1.getValue()));
-        return list.stream().collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> b, LinkedHashMap::new));
+        Map<K, V> result = new LinkedHashMap<>();
+        for (Map.Entry<K, V> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
 
-
+        return result;
     }
 }
