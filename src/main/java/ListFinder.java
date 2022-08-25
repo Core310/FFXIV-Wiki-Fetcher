@@ -30,11 +30,11 @@ public class ListFinder {
      */
     public StringBuilder outPutList(){ //TODO 8/24/2022 need to debug
         StringBuilder output = new StringBuilder();
-        System.out.println(itemAndTpMap.toString());
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
-             if(itemAndTpMap.get(item).containsKey(tp)){//If there is a tp matching
+             if((itemAndTpMap.get(item)!= null) && (itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
+                 //FIXME 8/25/2022 This never runs
                  output.append(itemAndTpMap.get(item).get(tp));
                  break;//Breaks inner tp for loop to move onto next item
              }
@@ -42,7 +42,7 @@ public class ListFinder {
         }
         if(output.isEmpty())
             try {
-                throw new UnexpectedException("Ths value should never be null>?");
+                throw new UnexpectedException("Output string is null");
             } catch (UnexpectedException e) {
                 throw new RuntimeException(e);
             }

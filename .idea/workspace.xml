@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="~!~ debugging ahhh">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="~!~ debugging ahhh &lt;!-- this is a comment --&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
     </list>
@@ -109,7 +109,8 @@
       <workItem from="1661349391026" duration="2136000" />
       <workItem from="1661386790588" duration="2115000" />
       <workItem from="1661391673057" duration="592000" />
-      <workItem from="1661419189413" duration="584000" />
+      <workItem from="1661419189413" duration="805000" />
+      <workItem from="1661434946294" duration="1230000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661351512998</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="~!~ debugging ahhh &lt;!-- this is a comment --&gt;">
+      <created>1661420107557</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661420107557</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,26 +198,21 @@
     <MESSAGE value="fixing my mess" />
     <MESSAGE value="debugging &#10;Still need to create tests" />
     <MESSAGE value="~!~ debugging ahhh" />
-    <option name="LAST_COMMIT_MESSAGE" value="~!~ debugging ahhh" />
+    <MESSAGE value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>19</line>
-          <properties field="tpMap" class="ListFinder" />
-          <option name="timeStamp" value="5" />
+          <line>37</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="7" />
+          <line>35</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
