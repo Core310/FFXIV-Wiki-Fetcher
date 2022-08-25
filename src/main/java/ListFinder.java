@@ -30,7 +30,7 @@ public class ListFinder {
      */
     public StringBuilder outPutList(){ //TODO 8/24/2022 need to debug
         StringBuilder output = new StringBuilder();
-
+        System.out.println(itemAndTpMap.toString());
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
