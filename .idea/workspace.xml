@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="~!~ debugging ahhh &lt;!-- this is a comment --&gt;">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="catch up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,9 @@
       <workItem from="1661386790588" duration="2115000" />
       <workItem from="1661391673057" duration="592000" />
       <workItem from="1661419189413" duration="805000" />
-      <workItem from="1661434946294" duration="1230000" />
+      <workItem from="1661434946294" duration="1331000" />
+      <workItem from="1661472818880" duration="1656000" />
+      <workItem from="1661474617569" duration="5597000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661420107557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="catch up">
+      <created>1661438350949</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661438350949</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,23 +209,8 @@
     <MESSAGE value="debugging &#10;Still need to create tests" />
     <MESSAGE value="~!~ debugging ahhh" />
     <MESSAGE value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="catch up" />
+    <option name="LAST_COMMIT_MESSAGE" value="catch up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

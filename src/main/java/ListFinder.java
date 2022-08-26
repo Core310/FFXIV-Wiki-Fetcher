@@ -1,6 +1,4 @@
-import java.rmi.UnexpectedException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Exports a list of inputted items with the best teleport locations.
@@ -12,7 +10,7 @@ public class ListFinder {
      * Stores the itemInput as well as its corresponding teleport zone
      * <br> ItemName, Hmap - tp with raw data-
      */
-    private final HashMap<String, HashMap<String, String>> itemAndTpMap = new HashMap<>();
+    private final HashMap<String, HashMap<String, ArrayList<StringBuilder>>> itemAndTpMap = new HashMap<>();
     /**
      * Stores all teleport sets without itemName
      * <br> tpList, occurrences
@@ -25,30 +23,26 @@ public class ListFinder {
      * <br> Groups all elements by their respective teleports.
      * <br> For example, two items sharing two same teleport values will return only the sharing teleport locations.
      *
-     * @see ListFinder addItem
      * @return Items grouped by teleports
+     * @see ListFinder addItem
      */
-    public StringBuilder outPutList(){ //TODO 8/24/2022 need to debug
+    public StringBuilder outPutList(){
         StringBuilder output = new StringBuilder();
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
-             if((itemAndTpMap.get(item)!= null) && (itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
-                 //FIXME 8/25/2022 This never runs
-                 output.append(itemAndTpMap.get(item).get(tp));
+                if((itemAndTpMap.get(item)!= null) && (itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
+                 for(StringBuilder sb: itemAndTpMap.get(item).get(tp)){
+                     output.append(sb);//appends raw data
+                     if(sb.toString().contains("Item: "))
+                         output.append("\n");
+                 }
                  break;//Breaks inner tp for loop to move onto next item
              }
             }
         }
-        if(output.isEmpty())
-            try {
-                throw new UnexpectedException("Output string is null");
-            } catch (UnexpectedException e) {
-                throw new RuntimeException(e);
-            }
-        //then another for loop over the tp list, start for greatest -> least
-            //Output greatest amnt of tp if found to a stringBuilder
         return output;
+
         }
 
     /**
@@ -72,7 +66,7 @@ public class ListFinder {
         String zone = null;
         String itemName = null;
         for(StringBuilder outputItems: inputArrayList){
-            itemData = outputItems.toString().split("\t",-1);
+            itemData = outputItems.toString().split("\n",-1);
 
             for(String curValue: itemData){
                 //Load itemName
@@ -80,8 +74,8 @@ public class ListFinder {
                     itemName = curValue.split("Item: ")[1];
                 }
                 //Load TP/zonee
-                if(curValue.contains("Zone: ")){//FIXME 8/24/2022 this never runs
-                    zone  = curValue.split("Zone: ",-1)[1];//at [0] should be "Zone: " and [1] = actual zone
+                if(curValue.contains("Zone: ")){
+                    zone  = curValue.split("Zone: ")[1];//at [0] should be "Zone: " and [1] = actual zone
                     //Updates tpMap, puts a new zone in if one doesn't already exist.
                     if(tpMap.containsKey(zone))
                         tpMap.put(zone, tpMap.get(zone) + 1);
@@ -91,7 +85,8 @@ public class ListFinder {
             }
             if(!itemAndTpMap.containsKey(itemName))//If item not present make new hashset and then add later
                 itemAndTpMap.put(itemName,new HashMap<>());
-            itemAndTpMap.get(itemName).put(zone, Arrays.toString(itemData));//FIXME 8/24/2022 possible breakpoint
+
+            itemAndTpMap.get(itemName).put(zone, inputArrayList);
         }
         //Get item name & tp and add it to global vars
     }

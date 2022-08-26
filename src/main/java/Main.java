@@ -32,9 +32,9 @@ public class Main {
         FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
         //findItem.setNumberOfDuplicateItems(1);
-        System.out.println(findItem.essentialFindAllClosestAsMap(itemnam));
-
-
+        for(StringBuilder tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
+            System.out.println(tmp);
+        }
     }
 
     /**
