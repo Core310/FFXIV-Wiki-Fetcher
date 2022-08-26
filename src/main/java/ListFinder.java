@@ -31,7 +31,7 @@ public class ListFinder {
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
-                if((itemAndTpMap.get(item)!= null) && (itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
+                if((itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
                  for(StringBuilder sb: itemAndTpMap.get(item).get(tp)){
                      output.append(sb);//appends raw data
                      if(sb.toString().contains("Item: "))
