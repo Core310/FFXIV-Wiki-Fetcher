@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="I think it works now? Need to run more test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/ListFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -82,9 +84,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindItemTest.findAllClosest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindItemTest" />
+      <option name="METHOD_NAME" value="findAllClosest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FindItemTest.findAllClosest" />
         <item itemvalue="JUnit.FindItemTest" />
       </list>
     </recent_temporary>
@@ -116,7 +129,7 @@
       <workItem from="1661474617569" duration="7000000" />
       <workItem from="1661579802120" duration="417000" />
       <workItem from="1661580302662" duration="716000" />
-      <workItem from="1661652065328" duration="2356000" />
+      <workItem from="1661652065328" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -195,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661484423232</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="I think it works now? Need to run more test cases">
+      <created>1661654686136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661654686136</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +248,8 @@
     <MESSAGE value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
     <MESSAGE value="catch up" />
     <MESSAGE value="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem" />
+    <MESSAGE value="I think it works now? Need to run more test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="I think it works now? Need to run more test cases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

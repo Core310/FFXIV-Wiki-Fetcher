@@ -15,7 +15,7 @@ public class ListFinder {
      * Stores all teleport sets without itemName
      * <br> tpList, occurrences
      */
-    private final HashMap<String, Integer> tpMap = new HashMap<>(); //FIXME 8/24/2022 tp map isnt updating?
+    private final HashMap<String, Integer> tpMap = new HashMap<>();
     private final Stack<String> searchKeys = new Stack<>();
 
     /**
@@ -53,6 +53,17 @@ public class ListFinder {
     }
 
     /**
+     * Bulk call several items (Mainly used for testing)
+     * @param items Array input of items a user is looking for
+     */
+    public void addItem(String[] items){
+        searchKeys.addAll(searchKeys);
+        for(String searchKey: searchKeys){
+            addItemInfo(findItem.essentialFindAllClosestAsMap(searchKey));
+        }
+    }//TODO 8/28/2022 test if works, unsure
+
+    /**
      * Updates 2 internal Hashmaps. One stores all teleports currently stored, other stores itemName and teleports assigned to it.
      * <br>
      * Once user is ready to search for all items, this will search for each item using a essentialFindAllClosestAsMap and upload it to an internal array
@@ -63,7 +74,6 @@ public class ListFinder {
         String[] itemData;
         String zone = null;
         String itemName = null;
-        //TODO 8/28/2022 split inputArrayList by item using regex
         for(StringBuilder outputItems: inputArrayList){
             itemData = outputItems.toString().split("\n",-1);
 
@@ -95,7 +105,7 @@ public class ListFinder {
      * Credits for this method go to the following post: <a href="https://stackoverflow.com/a/2581754/9099611">...</a>
      * <br> None of this code is mine.
      */
-    public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+    private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
         List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
         list.sort(Map.Entry.comparingByValue());
 

@@ -21,8 +21,7 @@ public class Main {
         listFinder.addItem("Latex");
         listFinder.addItem("Maple Log");
         listFinder.addItem("Wind Shard");
-        listFinder.outPutList();
-        //System.out.println(listFinder.outPutList());
+        System.out.println(listFinder.outPutList());
         //searchFile("Maple Branch");
     }
 
