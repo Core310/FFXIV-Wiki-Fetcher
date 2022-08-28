@@ -10,7 +10,7 @@ public class ListFinder {
      * Stores the itemInput as well as its corresponding teleport zone
      * <br> ItemName, Hmap - tp with raw data-
      */
-    private final HashMap<String, HashMap<String, ArrayList<StringBuilder>>> itemAndTpMap = new HashMap<>();
+    private final HashMap<String, HashMap<String, StringBuilder>> itemAndTpMap = new HashMap<>();
     /**
      * Stores all teleport sets without itemName
      * <br> tpList, occurrences
@@ -32,11 +32,9 @@ public class ListFinder {
         for(String item: searchKeys){//for all items
             for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
                 if((itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
-                 for(StringBuilder sb: itemAndTpMap.get(item).get(tp)){
-                     output.append(sb);//appends raw data
-                     if(sb.toString().contains("Item: "))
+                    String sb = String.valueOf(itemAndTpMap.get(item).get(tp));
+                    output.append(sb);//appends raw data
                          output.append("\n");
-                 }
                  break;//Breaks inner tp for loop to move onto next item
              }
             }
@@ -58,13 +56,14 @@ public class ListFinder {
      * Updates 2 internal Hashmaps. One stores all teleports currently stored, other stores itemName and teleports assigned to it.
      * <br>
      * Once user is ready to search for all items, this will search for each item using a essentialFindAllClosestAsMap and upload it to an internal array
-     * @param inputArrayList The output from the method essentialFindAllClosestAsMap
+     * @param inputArrayList The output from the method essentialFindAllClosestAsMap. Contains ALL values returned by the method.
      * @see FindItem essentialFindAllClosestAsMap
      */
     private void addItemInfo(ArrayList<StringBuilder> inputArrayList){
         String[] itemData;
         String zone = null;
         String itemName = null;
+        //TODO 8/28/2022 split inputArrayList by item using regex
         for(StringBuilder outputItems: inputArrayList){
             itemData = outputItems.toString().split("\n",-1);
 
@@ -83,10 +82,11 @@ public class ListFinder {
                         tpMap.put(zone, 1);
                 }
             }
-            if(!itemAndTpMap.containsKey(itemName))//If item not present make new hashset and then add later
+            if(!itemAndTpMap.containsKey(itemName))//If item not present make new hashmap and then add later
                 itemAndTpMap.put(itemName,new HashMap<>());
-
-            itemAndTpMap.get(itemName).put(zone, inputArrayList);
+            if(itemAndTpMap.get(itemName).containsKey(zone))//If a duplicate zone is found
+                return;
+            itemAndTpMap.get(itemName).put(zone, outputItems);
         }
         //Get item name & tp and add it to global vars
     }

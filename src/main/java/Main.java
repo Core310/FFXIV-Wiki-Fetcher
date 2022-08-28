@@ -35,7 +35,7 @@ public class Main {
         //findItem.setNumberOfDuplicateItems(1);
         for(StringBuilder tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
             System.out.println(tmp);
-        }
+        };
     }
 
     /**
