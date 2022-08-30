@@ -4,7 +4,7 @@ import java.util.*;
  * Exports a list of inputted items with the best teleport locations.
  * Works by grouping together teleports in the list.
  */
-public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
+public class ListFinder {
     private final FindItem findItem = new FindItem();
     /**
      * Stores the itemInput as well as its corresponding teleport zone
@@ -16,7 +16,7 @@ public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
      * <br> tpList, occurrences
      */
     private final HashMap<String, Integer> tpMap = new HashMap<>();
-    private final Stack<String> searchKeys = new Stack<>();
+    private final HashSet<String> searchKeys = new HashSet<>();
 
     /**
      * Output all items added in addItem.
@@ -29,8 +29,8 @@ public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
     public StringBuilder outPutList(){
         StringBuilder output = new StringBuilder();
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
-        for(String item: searchKeys){//FIXME 30/8/2022 Replace searchKeys with their fuzzy matching pairs
-            for(String tp: sortedTpValuesAsc.keySet()){//FIXME 30/8/2022 Raw search key inputs cause no item to be found when searching for exact spelling
+        for(String item: searchKeys){
+            for(String tp: sortedTpValuesAsc.keySet()){
                 if((itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
                     String sb = String.valueOf(itemAndTpMap.get(item).get(tp));
                     output.append(sb);//appends raw data
@@ -48,7 +48,6 @@ public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
      * @param searchKey item user is looking for. WIll be queued up to find.
      */
     public void addItem(String searchKey){
-        searchKeys.add(searchKey);
         addItemInfo(findItem.essentialFindAllClosestAsMap(searchKey));
     }
 
@@ -80,6 +79,7 @@ public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
                 //Load itemName
                 if(curValue.contains("Item: ")){
                     itemName = curValue.split("Item: ")[1];
+                    searchKeys.add(itemName);//Add item to the list to search keys made
                 }
                 //Load TP/zonee
                 if(curValue.contains("Zone: ")){

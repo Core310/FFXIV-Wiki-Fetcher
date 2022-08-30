@@ -17,7 +17,7 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
-        listFinder.addItem(new String[]{"Maple Banch", "Latex","Maple Log","Wind Shard"});
+        listFinder.addItem(new String[]{"Mapl Banch", "Laex","Mapl Log","Win Shard"});
 
         //listFinder.addItem("Maple Branch");
         //listFinder.addItem("Latex");
