@@ -8,24 +8,26 @@ class ListFinderTest {
     void outPutList(){
         String expected;
         String actual;
-        expected = "Item: Maple Branch\n" +
-                "Zone: North Shroud\n" +
-                "Coordinates: (x28,y26)\n" +
-                "\n" +
-                "Item: Latex\n" +
-                "Zone: North Shroud\n" +
-                "Coordinates: (x28,y26)\n" +
-                "\n" +
-                "Item: Maple Log\n" +
-                "Zone: North Shroud\n" +
-                "Coordinates: (x28,y26)\n" +
-                "\n" +
-                "Item: Wind Shard\n" +
-                "Zone: Central Shroud\n" +
-                "Coordinates: (x23,y18)\n" +
-                "\n" +
-                "\n";
-        assertEquals(expected,);
+        expected = """
+                Item: Maple Branch
+                Zone: North Shroud
+                Coordinates: (x28,y26)
+
+                Item: Latex
+                Zone: North Shroud
+                Coordinates: (x28,y26)
+
+                Item: Maple Log
+                Zone: North Shroud
+                Coordinates: (x28,y26)
+
+                Item: Wind Shard
+                Zone: Central Shroud
+                Coordinates: (x23,y18)
+
+
+                """;
+        assertEquals(expected,listFinder.addItem(new String[]{""}));
 
     }
 }

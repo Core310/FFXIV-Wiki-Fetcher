@@ -4,7 +4,7 @@ import java.util.*;
  * Exports a list of inputted items with the best teleport locations.
  * Works by grouping together teleports in the list.
  */
-public class ListFinder {
+public class ListFinder {//FIXME 29/8/2022 fuzzy StringMatching not working
     private final FindItem findItem = new FindItem();
     /**
      * Stores the itemInput as well as its corresponding teleport zone
@@ -29,8 +29,8 @@ public class ListFinder {
     public StringBuilder outPutList(){
         StringBuilder output = new StringBuilder();
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
-        for(String item: searchKeys){//for all items
-            for(String tp: sortedTpValuesAsc.keySet()){//For all tp's
+        for(String item: searchKeys){//FIXME 30/8/2022 Replace searchKeys with their fuzzy matching pairs
+            for(String tp: sortedTpValuesAsc.keySet()){//FIXME 30/8/2022 Raw search key inputs cause no item to be found when searching for exact spelling
                 if((itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
                     String sb = String.valueOf(itemAndTpMap.get(item).get(tp));
                     output.append(sb);//appends raw data
@@ -57,11 +57,10 @@ public class ListFinder {
      * @param items Array input of items a user is looking for
      */
     public void addItem(String[] items){
-        searchKeys.addAll(searchKeys);
-        for(String searchKey: searchKeys){
-            addItemInfo(findItem.essentialFindAllClosestAsMap(searchKey));
+        for(String str: items){
+            addItem(str);
         }
-    }//TODO 8/28/2022 test if works, unsure
+    }
 
     /**
      * Updates 2 internal Hashmaps. One stores all teleports currently stored, other stores itemName and teleports assigned to it.

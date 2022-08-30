@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Tests one of each item
  */
 class FindItemTest {
+    
     private ArrayList<String> expected;
     private final FindItem FindItem = new FindItem();
 
