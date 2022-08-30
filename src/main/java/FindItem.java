@@ -135,7 +135,6 @@ public class FindItem {
             throw new RuntimeException(e);
         }//Creates reader
 
-
         int highestRatio =0;
         String curLine;
         String curItem;
@@ -160,28 +159,45 @@ public class FindItem {
             }
         }//end of while
 
-        //This code below removes any duplicates
+        //This code below removes any exact duplicates
         LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
         currentArray.clear();
         currentArray.addAll(tmp);
-        tmp.clear();
+        tmp = null;
         //todo after removing duplicate, search for duplicate item name. If same, which length is longer for array?
-        // psC: Loop thru, same item name? -> Hv bool method inside -> if True, means 1 arr len longer than other, replace. False? -> continue
+        // psudo code: Loop thru, same item name? -> Hv bool method inside -> if True, means 1 arr len longer than other, replace. False? -> continue
 
         try {
+            inputStream.close();
             br.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        removeDuplicate();
 
-        //lastly close stream
-        try {
-            inputStream.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        removeDuplicate();
         return currentArray;
+    }
+
+    /**
+     * Merges any duplciate item.
+     * <br> Searches each item by their abstract baseItem extension (excluding extra info).
+     * <br> For example, the below should be merged into one item:
+     * <pre>
+     *     <code>
+     * Item: Shark Tuna
+     * Zone: Eastern La Noscea
+     * Coordinates: X:32, Y:29
+     * Bait Used: Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure
+     *
+     * Item: Shark Tuna
+     * Zone: Eastern La Noscea
+     * Coordinates: (34,29)
+     * Time: 7 PM to 9 PM
+     *     </code>
+     * </pre>
+     */
+    private void mergeDuplicae(){
+//TODO 8/30/22 
     }
 
     /**
@@ -196,7 +212,7 @@ public class FindItem {
         HashMap<String,Integer> hmap = new HashMap<>();
         String curItem;
         for(int i =0;i<currentArray.size();i++){
-            curItem = currentArray.get(i).split("\t",-1)[1];// should grab  the item name (i hope)
+            curItem = currentArray.get(i).split("\t",-1)[1];// should grab the item name (i hope)
 
             if(!hmap.containsKey(curItem)){
                 hmap.put(curItem,1);
@@ -223,8 +239,10 @@ public class FindItem {
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
-
+@Deprecated
     /**
+     * Set to return only the first item in the sequence and make sure it is the only item
+     * (Basically check that their is only 1 item returned)
      * Set number of duplicates items allowed in all methods of this class.
      * @param numberOfDuplicateItems int form of max duplicates items allowed in return functions.
      */

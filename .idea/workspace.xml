@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="bug fixing to do">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="bug fix listFinder should be all fine now.&#10;todo: test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/ListFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "settings.editor.splitter.proportion": "0.20795107"
   }
 }]]></component>
@@ -105,14 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListFinderTest.outPutList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListFinderTest" />
+      <option name="METHOD_NAME" value="outPutList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ListFinderTest.outPutList" />
       <item itemvalue="JUnit.FindItemTest" />
       <item itemvalue="JUnit.FindItemTest.findAllClosest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.findAllClosest" />
         <item itemvalue="JUnit.FindItemTest" />
       </list>
@@ -153,7 +164,7 @@
       <workItem from="1661831283732" duration="535000" />
       <workItem from="1661833255815" duration="1271000" />
       <workItem from="1661842386962" duration="30000" />
-      <workItem from="1661842446652" duration="670000" />
+      <workItem from="1661842446652" duration="5545000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -246,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661834536452</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bug fix listFinder should be all fine now.&#10;todo: test cases">
+      <created>1661844144130</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661844144130</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,37 +299,8 @@
     <MESSAGE value="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem" />
     <MESSAGE value="I think it works now? Need to run more test cases" />
     <MESSAGE value="bug fixing to do" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixing to do" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>78</line>
-          <properties class="ListFinder">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="bug fix listFinder should be all fine now.&#10;todo: test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix listFinder should be all fine now.&#10;todo: test cases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

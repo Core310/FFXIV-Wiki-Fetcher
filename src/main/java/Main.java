@@ -17,14 +17,10 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
-        listFinder.addItem(new String[]{"Mapl Banch", "Laex","Mapl Log","Win Shard"});
+        //listFinder.addItem(new String[]{"Shark Tuna", " "});
 
-        //listFinder.addItem("Maple Branch");
-        //listFinder.addItem("Latex");
-        //listFinder.addItem("Maple Log");
-        //listFinder.addItem("Wind Shard");
         System.out.println(listFinder.outPutList());
-        //searchFile("Maple Branch");
+        searchFile("Shark Tuna");
     }
 
     /**

@@ -16,7 +16,19 @@ public class ListFinder {
      * <br> tpList, occurrences
      */
     private final HashMap<String, Integer> tpMap = new HashMap<>();
+    /**
+     * Stores all inputted search keys (items user is looking for).
+     */
     private final HashSet<String> searchKeys = new HashSet<>();
+
+    /**
+     * Clear all internal lists to prepare for a new query.
+     */
+    public void clearLists(){
+        itemAndTpMap.clear();
+        tpMap.clear();
+        searchKeys.clear();
+    }
 
     /**
      * Output all items added in addItem.
