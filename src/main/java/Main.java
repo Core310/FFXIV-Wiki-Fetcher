@@ -18,7 +18,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
-
         System.out.println(listFinder.outPutList());
         searchFile("Shark Tuna");
     }

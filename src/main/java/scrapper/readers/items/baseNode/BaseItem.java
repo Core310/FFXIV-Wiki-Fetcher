@@ -26,6 +26,8 @@ public abstract class BaseItem {
        protected BaseItem(String itemName, String zone, String cords, String extra){
            this.itemName = itemName;
            this.zone = zone;
+           cords = cords.replace("(","" );
+           cords = cords.replace(")","");//Normalize all zones (Some have (x,y), while others do not)
            this.cords = cords;
            this.extra = extra;
        }

@@ -16,6 +16,9 @@ import java.util.*;
  * @see scrapper.readers.items
  */
 public class FindItem {
+    /**
+     * Currnet line the buffered reader is taking in.
+     */
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
     // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
@@ -148,7 +151,8 @@ public class FindItem {
 
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
-            if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\t(x8,y20)\t\t75\tMineral Deposit")){}//Weird typo edge case. If more appear make an array and loop through to skip them.
+            if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\tx8,y20\t\t75\tMineral Deposit"))
+            {}//Weird typo edge case. If more appear make an array and loop through to skip them.
             else if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
@@ -197,7 +201,9 @@ public class FindItem {
      * </pre>
      */
     private void mergeDuplicae(){
-//TODO 8/30/22 
+
+
+        //TODO 8/30/22
     }
 
     /**
@@ -218,6 +224,7 @@ public class FindItem {
                 hmap.put(curItem,1);
             }
             else if (hmap.containsKey(curItem)) {
+                //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
                 if(hmap.get(curItem) >= numberOfDuplicateItems){
                     currentArray.remove(i);
                     i--;
