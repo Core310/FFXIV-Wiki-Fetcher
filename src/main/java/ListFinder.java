@@ -34,7 +34,7 @@ public class ListFinder {
      * Output all items added in addItem.
      * <br> Groups all elements by their respective teleports.
      * <br> For example, two items sharing two same teleport values will return only the sharing teleport locations.
-     *
+     * <br> If not relevant teleport is found, a random one is returned.
      * @return Items grouped by teleports
      * @see ListFinder addItem
      */
@@ -42,6 +42,7 @@ public class ListFinder {
         StringBuilder output = new StringBuilder();
         Map<String, Integer> sortedTpValuesAsc = sortByValue(tpMap);
         for(String item: searchKeys){
+            //TODO 3/9/2022 Group by teleports
             for(String tp: sortedTpValuesAsc.keySet()){
                 if((itemAndTpMap.get(item).containsKey(tp))){//If there is a tp matching
                     String sb = String.valueOf(itemAndTpMap.get(item).get(tp));
@@ -52,7 +53,6 @@ public class ListFinder {
             }
         }
         return output;
-
         }
 
     /**

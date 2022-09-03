@@ -1,4 +1,5 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
+import scrapper.readers.items.baseNode.BaseItem;
 import scrapper.readers.items.baseNode.StaticItemTypes;
 import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.Item;
@@ -7,7 +8,6 @@ import java.io.*;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
-@SuppressWarnings("ALL")
 /**
  * FuzzySearch implementation to find an ITEM in the file.
  * <p>After the main file has been loaded with data and formatted, this class is used to find a certain item.</p>
@@ -168,8 +168,6 @@ public class FindItem {
         currentArray.clear();
         currentArray.addAll(tmp);
         tmp = null;
-        //todo after removing duplicate, search for duplicate item name. If same, which length is longer for array?
-        // psudo code: Loop thru, same item name? -> Hv bool method inside -> if True, means 1 arr len longer than other, replace. False? -> continue
 
         try {
             inputStream.close();
@@ -177,11 +175,11 @@ public class FindItem {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        removeDuplicate();
+        mergeDuplicae();
+        //Uncomment this line if you want to remove duplicate item values at random (not recommended)
+        //removeDuplicate();
         return currentArray;
     }
-
     /**
      * Merges any duplciate item.
      * <br> Searches each item by their abstract baseItem extension (excluding extra info).
@@ -200,13 +198,42 @@ public class FindItem {
      *     </code>
      * </pre>
      */
-    private void mergeDuplicae(){
+    private void mergeDuplicae() {
+        if (currentArray.size() == 1)
+            return;//base case
+        HashMap<String,String[]> hashMap = new HashMap<>();
+        for (String useOnce: currentArray) {
+            String[] curLine = useOnce.split("\t", -1);// should grab the item name (i hope)
+
+            if (!hashMap.containsKey (curLine[1])) {
+                hashMap.put(curLine[1],curLine);
+            }//Contains the itemname? (at idx 1)
+            else {//Already contains key?
+                for(String[] values : hashMap.values()){
+                    if(values[2].equals(curLine[2]) && values[3].equals(curLine[3]) && values[4].equals(curLine[4])){//If baseItem values are the same
+
+                            //TODO 2/9/2022 Somehow port over whatever one item is missing. Check all the stuff after baseItem (use .split(":") to see if types are the same.
+                            // If so continue if not merge the items and continue?
 
 
-        //TODO 8/30/22
+
+                        try {
+                            throw new Exception("hggi!");
+                        } catch (Exception e) {
+                            throw new RuntimeException(e);
+                        }//TODO 2/9/2022 delete me, just here to catch to see if this runs
+                    }
+                }
+
+                //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
+            }
+            //TODO 8/30/22 finish this method
+        }
     }
 
+    @Deprecated
     /**
+     * <br> This can be deleted, used for QOL currently
      * Helper method for findAllClosest
      *<p>Creates a hashmap w/ key = duplicate & value = no. times found in currentArray</p>
      * @see FindItem setNumberOfDuplicateItems();
@@ -223,7 +250,7 @@ public class FindItem {
             if(!hmap.containsKey(curItem)){
                 hmap.put(curItem,1);
             }
-            else if (hmap.containsKey(curItem)) {
+            else {
                 //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
                 if(hmap.get(curItem) >= numberOfDuplicateItems){
                     currentArray.remove(i);
