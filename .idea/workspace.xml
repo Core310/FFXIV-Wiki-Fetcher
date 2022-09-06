@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="undid taking out the parentheses out of cords (2 comits ago)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Wikipages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/BaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/BaseItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +172,10 @@
       <workItem from="1662084347665" duration="1319000" />
       <workItem from="1662131662716" duration="2434000" />
       <workItem from="1662169311655" duration="858000" />
+      <workItem from="1662194347034" duration="1323000" />
+      <workItem from="1662273824169" duration="64000" />
+      <workItem from="1662278380742" duration="2020000" />
+      <workItem from="1662369617013" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>

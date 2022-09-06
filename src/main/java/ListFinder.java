@@ -22,7 +22,7 @@ public class ListFinder {
     private final HashSet<String> searchKeys = new HashSet<>();
 
     /**
-     * Clear all internal lists to prepare for a new query.
+     * Clear all internal containers to prepare for a new query.
      */
     public void clearLists(){
         itemAndTpMap.clear();
@@ -84,16 +84,16 @@ public class ListFinder {
         String[] itemData;
         String zone = null;
         String itemName = null;
-        for(StringBuilder outputItems: inputArrayList){
+        for(StringBuilder outputItems: inputArrayList){//Formatted item
             itemData = outputItems.toString().split("\n",-1);
-
-            for(String curValue: itemData){
+            //TODO 3/9/2022 Search here instead if item already exists
+            for(String curValue: itemData){ //Split item data
                 //Load itemName
                 if(curValue.contains("Item: ")){
                     itemName = curValue.split("Item: ")[1];
                     searchKeys.add(itemName);//Add item to the list to search keys made
                 }
-                //Load TP/zonee
+                //Load TP/zone
                 if(curValue.contains("Zone: ")){
                     zone  = curValue.split("Zone: ")[1];//at [0] should be "Zone: " and [1] = actual zone
                     //Updates tpMap, puts a new zone in if one doesn't already exist.

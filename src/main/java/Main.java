@@ -16,11 +16,18 @@ import java.util.ArrayList;
 public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
+        FindItem fi = new FindItem();
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
-        listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha"});
-        System.out.println(listFinder.outPutList());
+        //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
+        searchAllRaw ("shark tuna");
         //searchFile("Shark Tuna");
+    }
+
+    private static void searchAllRaw(String itemName){
+        FindItem fi = new FindItem();
+        for(String cur: fi.findAllClosest(itemName))
+            System.out.println(cur);
     }
 
     /**

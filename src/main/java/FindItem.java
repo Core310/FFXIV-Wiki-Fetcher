@@ -5,6 +5,7 @@ import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.Item;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.rmi.UnexpectedException;
 import java.util.*;
 
@@ -17,7 +18,10 @@ import java.util.*;
  */
 public class FindItem {
     /**
-     * Currnet line the buffered reader is taking in.
+     * return output of findItem()
+     * <br> Holds all items (in raw data format).
+     * <br> Each string container holds the raw data for ONE item.
+     * @see FindItem findAllClosest()
      */
     private final ArrayList<String> currentArray = new ArrayList<>();
     private int numberOfDuplicateItems =-1;//Use the value -1 to set for
@@ -131,12 +135,9 @@ public class FindItem {
      */
     protected ArrayList<String> findAllClosest(String itemName) {
         BufferedReader br;
-        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resouce
-        try {
-            br =  new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));//Puts into stream
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException(e);
-        }//Creates reader
+        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resource
+        assert inputStream != null;
+        br =  new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));//Puts into stream
 
         int highestRatio =0;
         String curLine;
@@ -152,7 +153,7 @@ public class FindItem {
             curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
             currentRatio = FuzzySearch.ratio(curItem,itemName);
             if(curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\tx8,y20\t\t75\tMineral Deposit"))
-            {}//Weird typo edge case. If more appear make an array and loop through to skip them.
+            {continue;}//Weird typo edge case. If more appear make an array and loop through to skip them.
             else if(currentRatio == highestRatio) {
                 currentArray.add(curLine);
             }
@@ -167,7 +168,6 @@ public class FindItem {
         LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
         currentArray.clear();
         currentArray.addAll(tmp);
-        tmp = null;
 
         try {
             inputStream.close();
@@ -201,37 +201,22 @@ public class FindItem {
     private void mergeDuplicae() {
         if (currentArray.size() == 1)
             return;//base case
-        HashMap<String,String[]> hashMap = new HashMap<>();
-        for (String useOnce: currentArray) {
-            String[] curLine = useOnce.split("\t", -1);// should grab the item name (i hope)
+        ArrayList<String> arrayList = new ArrayList<>();
+        for (int i =0;i< currentArray.size();i++) {
+            String[] currentFormattedItem = currentArray.get(i).split("\t", -1);// should grab the item name (i hope)
+            String shortValue = currentFormattedItem[1] + "\t" + currentFormattedItem[2];//Item name and tp warp area
 
-            if (!hashMap.containsKey (curLine[1])) {
-                hashMap.put(curLine[1],curLine);
-            }//Contains the itemname? (at idx 1)
+            if(!arrayList.contains(shortValue))
+                arrayList.add(shortValue);
+
             else {//Already contains key?
-                for(String[] values : hashMap.values()){
-                    if(values[2].equals(curLine[2]) && values[3].equals(curLine[3]) && values[4].equals(curLine[4])){//If baseItem values are the same
 
-                            //TODO 2/9/2022 Somehow port over whatever one item is missing. Check all the stuff after baseItem (use .split(":") to see if types are the same.
-                            // If so continue if not merge the items and continue?
-
-
-
-                        try {
-                            throw new Exception("hggi!");
-                        } catch (Exception e) {
-                            throw new RuntimeException(e);
-                        }//TODO 2/9/2022 delete me, just here to catch to see if this runs
-                    }
                 }
-
                 //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
             }
             //TODO 8/30/22 finish this method
         }
-    }
 
-    @Deprecated
     /**
      * <br> This can be deleted, used for QOL currently
      * Helper method for findAllClosest
@@ -251,7 +236,6 @@ public class FindItem {
                 hmap.put(curItem,1);
             }
             else {
-                //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
                 if(hmap.get(curItem) >= numberOfDuplicateItems){
                     currentArray.remove(i);
                     i--;
