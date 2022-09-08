@@ -181,7 +181,7 @@ public class FindItem {
         return currentArray;
     }
     /**
-     * Merges any duplciate item.
+     * Merges any duplicate item with a time complexity of O(n^2)
      * <br> Searches each item by their abstract baseItem extension (excluding extra info).
      * <br> For example, the below should be merged into one item:
      * <pre>
@@ -202,20 +202,43 @@ public class FindItem {
         if (currentArray.size() == 1)
             return;//base case
         ArrayList<String> arrayList = new ArrayList<>();
+
         for (int i =0;i< currentArray.size();i++) {
             String[] currentFormattedItem = currentArray.get(i).split("\t", -1);// should grab the item name (i hope)
-            String shortValue = currentFormattedItem[1] + "\t" + currentFormattedItem[2];//Item name and tp warp area
-
-            if(!arrayList.contains(shortValue))
-                arrayList.add(shortValue);
-
-            else {//Already contains key?
-
-                }
-                //TODO 31/8/2022 Make first if statement to compare baseItem to see if both are the same
+            String itemAndTP = currentFormattedItem[1].replaceAll(" ","") + "\t" + currentFormattedItem[2].replaceAll(" ","");//Item name and tp warp area
+            if(!arrayList.contains(itemAndTP)){
+                arrayList.add(itemAndTP);
+                continue;
             }
-            //TODO 8/30/22 finish this method
-        }
+            //Already contains key?
+            String itemToMerge = currentArray.get(i);
+            currentArray.remove(i);
+            //Firstly delete the duplicate key and store
+            int baseItemIndex = -1;
+            for(int baseItemFinder =0;baseItemFinder < currentArray.size();baseItemFinder++){
+                if(currentArray.get(baseItemFinder).contains(itemAndTP)){
+                    baseItemIndex = baseItemFinder;
+                    break;
+                }
+            }//then find
+
+            if(baseItemIndex == -1) {
+                try {
+                    throw new UnexpectedException("Value should always be updated in the baseItemFinder for loop");
+                }
+                catch (UnexpectedException e) {
+                    throw new RuntimeException(e);
+                }
+            }//debug case
+            StringBuilder mergeBase = new StringBuilder(currentArray.get(baseItemIndex));
+
+            for(int currentItemValue = 4;currentItemValue<currentFormattedItem.length;currentItemValue++){
+                if(itemToMerge.contains(mergeBase)) continue;//FIXME 7/9/2022 weird stuff i dont wanan think about
+                mergeBase.append("\t").append(itemToMerge.split("\t",-1)[currentItemValue]);
+            }//Loops through itemToMerge to see what values can be merged into the base value.
+            currentArray.add(mergeBase.toString());
+            }
+        }//TODO 7/9/2022 Finish method!
 
     /**
      * <br> This can be deleted, used for QOL currently

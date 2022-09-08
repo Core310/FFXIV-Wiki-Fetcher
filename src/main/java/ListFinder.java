@@ -86,7 +86,6 @@ public class ListFinder {
         String itemName = null;
         for(StringBuilder outputItems: inputArrayList){//Formatted item
             itemData = outputItems.toString().split("\n",-1);
-            //TODO 3/9/2022 Search here instead if item already exists
             for(String curValue: itemData){ //Split item data
                 //Load itemName
                 if(curValue.contains("Item: ")){

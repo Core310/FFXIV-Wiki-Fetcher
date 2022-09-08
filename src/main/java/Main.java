@@ -26,6 +26,12 @@ public class Main {
 
     private static void searchAllRaw(String itemName){
         FindItem fi = new FindItem();
+        String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
+        String base2[] = fi.findAllClosest(itemName).get(1).split("\t",-1);
+        String t = (base[1].replaceAll(" ","") + " " + base[2].replaceAll(" ",""));
+        String t1= (base2[1].replaceAll(" ","") + " " + base2[2].replaceAll(" ",""));
+
+        System.out.println(t1 + "\n" + t);
         for(String cur: fi.findAllClosest(itemName))
             System.out.println(cur);
     }
