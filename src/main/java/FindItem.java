@@ -199,15 +199,17 @@ public class FindItem {
      * </pre>
      */
     private void mergeDuplicae() {
-        if (currentArray.size() == 1)
+        if (currentArray.size() == 1)//if there is only one item then don't do anything
             return;//base case
         ArrayList<String> arrayList = new ArrayList<>();
 
         for (int i =0;i< currentArray.size();i++) {
             String[] currentFormattedItem = currentArray.get(i).split("\t", -1);// should grab the item name (i hope)
-            String itemAndTP = currentFormattedItem[1].replaceAll(" ","") + "\t" + currentFormattedItem[2].replaceAll(" ","");//Item name and tp warp area
-            if(!arrayList.contains(itemAndTP)){
-                arrayList.add(itemAndTP);
+            String item = currentFormattedItem[1];
+            String tp =  currentFormattedItem[2];
+            String itemAndTp = item + "\t" + tp;//Is this bad code? Yes
+            if(!arrayList.contains(item) && !arrayList.contains(tp)){
+                arrayList.add(itemAndTp);
                 continue;
             }
             //Already contains key?
@@ -216,11 +218,11 @@ public class FindItem {
             //Firstly delete the duplicate key and store
             int baseItemIndex = -1;
             for(int baseItemFinder =0;baseItemFinder < currentArray.size();baseItemFinder++){
-                if(currentArray.get(baseItemFinder).contains(itemAndTP)){
+                if(currentArray.get(baseItemFinder).contains(itemAndTp)){
                     baseItemIndex = baseItemFinder;
                     break;
                 }
-            }//then find
+            }
 
             if(baseItemIndex == -1) {
                 try {
@@ -231,8 +233,8 @@ public class FindItem {
                 }
             }//debug case
             StringBuilder mergeBase = new StringBuilder(currentArray.get(baseItemIndex));
-
-            for(int currentItemValue = 4;currentItemValue<currentFormattedItem.length;currentItemValue++){
+            System.out.println(currentFormattedItem.length);
+            for(int currentItemValue = 4;currentItemValue<currentFormattedItem.length;currentItemValue++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
                 if(itemToMerge.contains(mergeBase)) continue;//FIXME 7/9/2022 weird stuff i dont wanan think about
                 mergeBase.append("\t").append(itemToMerge.split("\t",-1)[currentItemValue]);
             }//Loops through itemToMerge to see what values can be merged into the base value.

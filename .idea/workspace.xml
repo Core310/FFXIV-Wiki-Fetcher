@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on mergeDuplicate&#10;&#10;ListFinder.java just had comment change">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="fixed duplciate (adding to internal array) detection. Still working on the appending value detection.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +174,9 @@
       <workItem from="1662369617013" duration="681000" />
       <workItem from="1662470723933" duration="917000" />
       <workItem from="1662540232521" duration="5276000" />
+      <workItem from="1662634427212" duration="2039000" />
+      <workItem from="1662693169099" duration="3457000" />
+      <workItem from="1662720618469" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662471141942</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Had FindItem somewhat working just now, broke it again.">
+      <created>1662634865155</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662634865155</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,30 @@
     <MESSAGE value="bug fix listFinder should be all fine now.&#10;todo: test cases" />
     <MESSAGE value="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)" />
     <MESSAGE value="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();" />
-    <option name="LAST_COMMIT_MESSAGE" value="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();" />
+    <MESSAGE value="Had FindItem somewhat working just now, broke it again." />
+    <MESSAGE value="fixed duplciate (adding to internal array) detection. Still working on the appending value detection." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed duplciate (adding to internal array) detection. Still working on the appending value detection." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
