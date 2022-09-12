@@ -1,5 +1,4 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-import scrapper.readers.items.baseNode.BaseItem;
 import scrapper.readers.items.baseNode.StaticItemTypes;
 import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.Item;
@@ -24,9 +23,12 @@ public class FindItem {
      * @see FindItem findAllClosest()
      */
     private final ArrayList<String> currentArray = new ArrayList<>();
-    private int numberOfDuplicateItems =-1;//Use the value -1 to set for
-    // infinite number of duplicate item name. Using the values 0 or 1 will produce no duplicate items
-
+    /**
+     * Default value of -1 for infinite number of duplicate.
+     * <br>Shouldn't break if the value is below -1 but just in case.
+     * <br>Using 0 OR 1 will produce no duplicate items.
+     */
+    private int numberOfDuplicateItems =-1;
     /**
      * The main helper method to findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
@@ -175,7 +177,7 @@ public class FindItem {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        mergeDuplicae();
+        mergeDuplicate();
         //Uncomment this line if you want to remove duplicate item values at random (not recommended)
         //removeDuplicate();
         return currentArray;
@@ -198,7 +200,7 @@ public class FindItem {
      *     </code>
      * </pre>
      */
-    private void mergeDuplicae() {
+    private void mergeDuplicate() {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
             return;//base case
         ArrayList<String> arrayList = new ArrayList<>();
@@ -207,11 +209,13 @@ public class FindItem {
             String[] currentFormattedItem = currentArray.get(i).split("\t", -1);// should grab the item name (i hope)
             String item = currentFormattedItem[1];
             String tp =  currentFormattedItem[2];
-            String itemAndTp = item + "\t" + tp;//Is this bad code? Yes
+            String itemAndTp = item + "\t" + tp;//Is this bad code?
+
             if(!arrayList.contains(item) && !arrayList.contains(tp)){
                 arrayList.add(itemAndTp);
+                System.out.println(Arrays.toString(arrayList.toArray()));
                 continue;
-            }
+            }//FIXME 12/9/2022 This always runs and the code below doesn't
             //Already contains key?
             String itemToMerge = currentArray.get(i);
             currentArray.remove(i);
@@ -223,7 +227,6 @@ public class FindItem {
                     break;
                 }
             }
-
             if(baseItemIndex == -1) {
                 try {
                     throw new UnexpectedException("Value should always be updated in the baseItemFinder for loop");
@@ -233,7 +236,7 @@ public class FindItem {
                 }
             }//debug case
             StringBuilder mergeBase = new StringBuilder(currentArray.get(baseItemIndex));
-            System.out.println(currentFormattedItem.length);
+            System.out.println(currentFormattedItem.length);//FIXME 12/9/2022 I never run
             for(int currentItemValue = 4;currentItemValue<currentFormattedItem.length;currentItemValue++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
                 if(itemToMerge.contains(mergeBase)) continue;//FIXME 7/9/2022 weird stuff i dont wanan think about
                 mergeBase.append("\t").append(itemToMerge.split("\t",-1)[currentItemValue]);

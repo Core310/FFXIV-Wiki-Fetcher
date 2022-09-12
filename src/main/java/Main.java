@@ -16,6 +16,12 @@ import java.util.ArrayList;
 public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
+        ArrayList<String> al = new ArrayList<>();
+        al.add("fds");
+        al.add("telep grp");
+        for(String str: al)
+            if(str.contains("grp"))
+                System.out.println("hiiu");
         FindItem fi = new FindItem();
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
@@ -26,12 +32,11 @@ public class Main {
 
     private static void searchAllRaw(String itemName){
         FindItem fi = new FindItem();
-        String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
-        String base2[] = fi.findAllClosest(itemName).get(1).split("\t",-1);
-        String t = (base[1].replaceAll(" ","") + " " + base[2].replaceAll(" ",""));
-        String t1= (base2[1].replaceAll(" ","") + " " + base2[2].replaceAll(" ",""));
-
-        System.out.println(t1 + "\n" + t);
+        //String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
+        //String base2[] = fi.findAllClosest(itemName).get(1).split("\t",-1);
+        //String t = (base[1].replaceAll(" ","") + " " + base[2].replaceAll(" ",""));
+        //String t1= (base2[1].replaceAll(" ","") + " " + base2[2].replaceAll(" ",""));
+        //System.out.println(t1 + "\n" + t);
         for(String cur: fi.findAllClosest(itemName))
             System.out.println(cur);
     }
