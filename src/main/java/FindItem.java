@@ -73,17 +73,17 @@ public class FindItem {
         }
         return rtrnArray;
     }
-
     /**
      * Outputs each case neatly with ALL values, and descriptors for each item argument. (eg. this is the folk lore tome)
      * <p>Multiple items will be stored in an arraylist with arguments of the Map.</p>
      * <p>E.g. FindItem.findAllClosestAsMap(input);</p>
      * <p>input: Lava toad</p>
      * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
+     * @return LinkedHashMap Item descriptor, Item data
      */
     public ArrayList<LinkedHashMap<String,String>> findAllClosestAsMap(String itemName){
         ArrayList<String> rawData = findAllClosest(itemName);//Used to loop through all values found.
-        ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted
+        ArrayList<LinkedHashMap<String,String>> outputList = new ArrayList<>();//ArrayList that is outputted in the format: ItemDescriptor,ActualItem
         Item item;
         for(String curLine: rawData){
             String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
@@ -126,7 +126,90 @@ public class FindItem {
                     throw new RuntimeException(e);
                 }
         }
-        return outputList;
+        return mergeDuplicate(outputList);
+    }
+
+
+    /**
+     * <br> Helper method: {@link #mergeHelper(int, String, ArrayList)}
+     * <br> Parent method: {@link #findAllClosestAsMap(String) findAllClosestAsMap}
+     * <br>Merges any duplicate item with a time complexity of O(n^2)
+     * <br> Searches each item by their abstract baseItem extension (excluding extra info).
+     * <br> For example, the below should be merged into one item:
+     * <pre>
+     *     <code>
+     * Item: Shark Tuna
+     * Zone: Eastern La Noscea
+     * Coordinates: X:32, Y:29
+     * Bait Used: Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure
+     *
+     * Item: Shark Tuna
+     * Zone: Eastern La Noscea
+     * Coordinates: (34,29)
+     * Time: 7 PM to 9 PM
+     *     </code>
+     * </pre>
+     */
+    private ArrayList<LinkedHashMap<String,String>> mergeDuplicate(ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut) {//TODO 14/9/2022 refactor to findAllClosestAsMap
+        if (currentArray.size() == 1)//if there is only one item then don't do anything
+            return findAllClosestAsMapOutPut;//base case
+        ArrayList<String> arrayList = new ArrayList<>();
+
+        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
+            String item = findAllClosestAsMapOutPut.get(i).get("Item: ");
+            String tp =  findAllClosestAsMapOutPut.get(i).get("Coordinates: ");
+            String itemAndTp = item + "\t" + tp;
+            System.out.println(itemAndTp); //DELETEME
+            int counter =0;
+
+            for(String str: arrayList)
+                if(str.contains(item) && str.contains(tp)){
+                    findAllClosestAsMapOutPut = mergeHelper(i,itemAndTp, findAllClosestAsMapOutPut);//Performs the actual merging
+                    counter++;
+                    break;
+                }
+            if(counter ==0)
+                arrayList.add(itemAndTp);
+        }
+        return findAllClosestAsMapOutPut;
+    }//TODO 7/9/2022 Finish method!
+
+    /**
+     * Helper method for {@link #mergeDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
+     * <br> This method is to keep code clean.
+     * <br> Does the actual merging of values
+     */
+    private ArrayList<LinkedHashMap<String,String>> mergeHelper(int i, String itemAndTp,ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
+        //Already contains key?
+        LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous inex.
+        findAllClosestAsMapOutPut.remove(i);
+        //Firstly delete the duplicate key and store
+        int baseItemIndex = -1;
+        for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){
+
+            if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp) &&
+                    findAllClosestAsMapOutPut.get(baseItemFinder).get("Coordinates").contains(itemAndTp)
+            ){
+                System.out.println("Item and tp found");//DELETEME
+                baseItemIndex = baseItemFinder;
+                break;
+            }
+        }//Loops through all items
+        if(baseItemIndex == -1) {
+            try {
+                throw new UnexpectedException("Value should always be updated in the baseItemFinder for loop");
+            }
+            catch (UnexpectedException e) {
+                throw new RuntimeException(e);
+            }
+        }//debug case
+
+        LinkedHashMap<String,String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
+        for(int currentItemValue = 4;currentItemValue < findAllClosestAsMapOutPut.get(i).size() ;currentItemValue++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
+            if(itemToMerge.contains(mergeBase)) continue;//FIXME 7/9/2022 weird stuff i dont wana think about
+            mergeBase.append("\t").append(itemToMerge.split("\t",-1)[currentItemValue]);//i dont think this is giving the right output
+        }//Loops through itemToMerge to see what values can be merged into the base value.
+        currentArray.add(mergeBase.toString());
     }
 
     /**
@@ -177,74 +260,10 @@ public class FindItem {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        mergeDuplicate();
         //Uncomment this line if you want to remove duplicate item values at random (not recommended)
         //removeDuplicate();
         return currentArray;
     }
-    /**
-     * Merges any duplicate item with a time complexity of O(n^2)
-     * <br> Searches each item by their abstract baseItem extension (excluding extra info).
-     * <br> For example, the below should be merged into one item:
-     * <pre>
-     *     <code>
-     * Item: Shark Tuna
-     * Zone: Eastern La Noscea
-     * Coordinates: X:32, Y:29
-     * Bait Used: Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure
-     *
-     * Item: Shark Tuna
-     * Zone: Eastern La Noscea
-     * Coordinates: (34,29)
-     * Time: 7 PM to 9 PM
-     *     </code>
-     * </pre>
-     */
-    private void mergeDuplicate() {
-        if (currentArray.size() == 1)//if there is only one item then don't do anything
-            return;//base case
-        ArrayList<String> arrayList = new ArrayList<>();
-
-        for (int i =0;i< currentArray.size();i++) {
-            String[] currentFormattedItem = currentArray.get(i).split("\t", -1);// should grab the item name (i hope)
-            String item = currentFormattedItem[1];
-            String tp =  currentFormattedItem[2];
-            String itemAndTp = item + "\t" + tp;//Is this bad code?
-
-            if(!arrayList.contains(item) && !arrayList.contains(tp)){
-                arrayList.add(itemAndTp);
-                System.out.println(Arrays.toString(arrayList.toArray()));
-                continue;
-            }//FIXME 12/9/2022 This always runs and the code below doesn't
-            //Already contains key?
-            String itemToMerge = currentArray.get(i);
-            currentArray.remove(i);
-            //Firstly delete the duplicate key and store
-            int baseItemIndex = -1;
-            for(int baseItemFinder =0;baseItemFinder < currentArray.size();baseItemFinder++){
-                if(currentArray.get(baseItemFinder).contains(itemAndTp)){
-                    baseItemIndex = baseItemFinder;
-                    break;
-                }
-            }
-            if(baseItemIndex == -1) {
-                try {
-                    throw new UnexpectedException("Value should always be updated in the baseItemFinder for loop");
-                }
-                catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
-                }
-            }//debug case
-            StringBuilder mergeBase = new StringBuilder(currentArray.get(baseItemIndex));
-            System.out.println(currentFormattedItem.length);//FIXME 12/9/2022 I never run
-            for(int currentItemValue = 4;currentItemValue<currentFormattedItem.length;currentItemValue++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-                if(itemToMerge.contains(mergeBase)) continue;//FIXME 7/9/2022 weird stuff i dont wanan think about
-                mergeBase.append("\t").append(itemToMerge.split("\t",-1)[currentItemValue]);
-            }//Loops through itemToMerge to see what values can be merged into the base value.
-            currentArray.add(mergeBase.toString());
-            }
-        }//TODO 7/9/2022 Finish method!
-
     /**
      * <br> This can be deleted, used for QOL currently
      * Helper method for findAllClosest

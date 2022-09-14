@@ -17,11 +17,6 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         ArrayList<String> al = new ArrayList<>();
-        al.add("fds");
-        al.add("telep grp");
-        for(String str: al)
-            if(str.contains("grp"))
-                System.out.println("hiiu");
         FindItem fi = new FindItem();
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
