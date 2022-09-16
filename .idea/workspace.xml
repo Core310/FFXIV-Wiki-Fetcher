@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="doesnt work right now, see line 214 FindItem.java&#10;the .contains method doesn't detect like that">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -187,7 +187,14 @@
       <workItem from="1663117203073" duration="2282000" />
       <workItem from="1663119696377" duration="3342000" />
       <workItem from="1663124754564" duration="2203000" />
-      <workItem from="1663152272846" duration="348000" />
+      <workItem from="1663152272846" duration="1468000" />
+      <workItem from="1663165858392" duration="84000" />
+      <workItem from="1663166397177" duration="979000" />
+      <workItem from="1663178902444" duration="77000" />
+      <workItem from="1663219350877" duration="124000" />
+      <workItem from="1663219608188" duration="1199000" />
+      <workItem from="1663280670065" duration="341000" />
+      <workItem from="1663284555922" duration="3607000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -322,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662959456172</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data.">
+      <created>1663152913717</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663152913717</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,20 +377,31 @@
     <MESSAGE value="Had FindItem somewhat working just now, broke it again." />
     <MESSAGE value="fixed duplciate (adding to internal array) detection. Still working on the appending value detection." />
     <MESSAGE value="doesnt work right now, see line 214 FindItem.java&#10;the .contains method doesn't detect like that" />
-    <option name="LAST_COMMIT_MESSAGE" value="doesnt work right now, see line 214 FindItem.java&#10;the .contains method doesn't detect like that" />
+    <MESSAGE value="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>206</line>
+          <line>209</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>189</line>
+          <line>192</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

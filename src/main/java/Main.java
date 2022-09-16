@@ -21,8 +21,7 @@ public class Main {
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        searchAllRaw ("shark tuna");
-        //searchFile("Shark Tuna");
+        searchFile("Shark Tuna");
     }
 
     private static void searchAllRaw(String itemName){
