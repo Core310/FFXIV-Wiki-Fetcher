@@ -153,11 +153,7 @@ public class ItemBuilder {
             String[] zoneAndCords = csvValues[3].split("\\(");//Make cords and zone seperate
             //zone = 0, cords =1
             if(zoneAndCords.length != 2)
-                try {
-                    throw new UnexpectedException("Array must be atmost length of 2");
-                } catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
-                }
+                throw new ArrayIndexOutOfBoundsException("Array must be at most length of 2");
             stringBuilder.append(new Fish_Node(
                     curFish,//fish
                     zoneAndCords[0], //Zone

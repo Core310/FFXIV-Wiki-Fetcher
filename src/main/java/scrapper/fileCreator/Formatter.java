@@ -148,11 +148,7 @@ public class Formatter {
 
             case DELETE:
             case IGNORE:
-                try {
-                    throw new UnexpectedException("These items should not appear here, check the main formatter method.");
-                } catch (UnexpectedException e) {
-                     throw new RuntimeException(e);
-                }
+                throw new IllegalArgumentException("These items should not appear here, check the main formatter method.");
         } //End of switch case
         return stringBuilder.toString();
     }

@@ -78,7 +78,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FindItemTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -125,8 +125,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FindItemTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.findAllClosest" />
       </list>
@@ -204,6 +204,7 @@
       <workItem from="1663412454223" duration="548000" />
       <workItem from="1663465009389" duration="2605000" />
       <workItem from="1663467709448" duration="599000" />
+      <workItem from="1663480021481" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -373,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663467582423</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Currently the item is just copying itself and not actually merging the values">
+      <created>1663480243289</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663480243289</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,12 +432,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>199</line>
+          <line>196</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>155</line>
+          <line>152</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

@@ -121,11 +121,8 @@ public class FindItem {
             } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
-            } else try {
-                    throw new UnexpectedException("Wrong static item type assigned");
-                } catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
-                }
+            } else
+                throw new RuntimeException("Wrong static item type assigned");
         }
         return mergeDuplicate(outputList);
     }
