@@ -90,6 +90,7 @@ public class FindItem {
             String curItem = delimLine[0];//0 is index where ItemName is stored
 
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
+
             if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
                 item = new FolkLore_FISH_NODE(delimLine);
@@ -129,7 +130,7 @@ public class FindItem {
         return mergeDuplicate(outputList);
     }
     /**
-     *Helper method: {@link #mergeHelper(int, String, ArrayList)}
+     *Helper method: {@link #mergeDuplicateHelper(int, String, ArrayList)}
      * <br> Parent method: {@link #findAllClosestAsMap(String) findAllClosestAsMap}
      * <br>Merges any duplicate item with a time complexity of O(n^2)
      * <br> Searches each item by their abstract baseItem extension (excluding extra info).
@@ -148,29 +149,26 @@ public class FindItem {
      *     </code>
      * </pre>
      */
-    private ArrayList<LinkedHashMap<String,String>> mergeDuplicate(ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut) {//TODO 14/9/2022 refactor to findAllClosestAsMap
+    private ArrayList<LinkedHashMap<String,String>> mergeDuplicate(ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut) {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
             return findAllClosestAsMapOutPut;//base case
         ArrayList<String> arrayList = new ArrayList<>();
-
-        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
-            System.out.println(findAllClosestAsMapOutPut.get(i).keySet());
+        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {//FIXME 18/9/2022 value "i" cant be reached for some reason in mergeHelper?
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
-            String tp =  findAllClosestAsMapOutPut.get(i).get("Coordinates");
+            String tp =  findAllClosestAsMapOutPut.get(i).get("Zone");
             String itemAndTp = item + "\t" + tp;
             int counter =0;
             if(item == null || tp == null)
                 throw new RuntimeException("These value should never be null.");
             for(String str: arrayList)
                 if(str.contains(item) && str.contains(tp)){
-                    mergeHelper(i, itemAndTp, findAllClosestAsMapOutPut);//Performs the actual merging
+                    mergeDuplicateHelper(i, itemAndTp, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     break;
                 }
             if(counter ==0)
                 arrayList.add(itemAndTp);
         }
-        System.out.println();//DELETEME
         return findAllClosestAsMapOutPut;
     }//TODO 7/9/2022 Finish method!
 
@@ -179,41 +177,33 @@ public class FindItem {
      * <br> This method is to keep code clean.
      * <br> Does the actual merging of values
      */
-    private ArrayList<LinkedHashMap<String,String>> mergeHelper(int i, String itemAndTp,ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
+    private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        findAllClosestAsMapOutPut.remove(i);
+        findAllClosestAsMapOutPut.remove(i); i--;
         //Firstly delete the duplicate key and store
         int baseItemIndex = -1;
-        for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){
-
-            if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp) &&
-                    findAllClosestAsMapOutPut.get(baseItemFinder).get("Coordinates").contains(itemAndTp)
+        for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
+            if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
+                    findAllClosestAsMapOutPut.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t",-1)[1])
             ){
-                System.out.println("Item and tp found");//DELETEME
                 baseItemIndex = baseItemFinder;
                 break;
             }
         }//Loops through all items
-        if(baseItemIndex == -1) {
-            try {
-                throw new UnexpectedException("Value should always be updated in the baseItemFinder for loop");
-            }
-            catch (UnexpectedException e) {
-                throw new RuntimeException(e);
-            }
-        }//debug case
+        if(baseItemIndex == -1)//in case the if statement in above for loop never runs
+            throw new RuntimeException("Value should always be updated in the baseItemFinder for loop");
 
         LinkedHashMap<String,String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
-        String mergeBaseKeySet[] = mergeBase.keySet().toArray(new String[0]);
-        String itemToMergeKeySet[] = itemToMerge.keySet().toArray(new String[0]);
+        String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
+        String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
             //If the current header is the same, skip. Else add the current header and its data.
-            //Problem, how do I see if mergeBaseKeys contain itemToMergeKeys? I dont want to add another for loop to make an O(n^3) method
+            //Problem, how do I see if mergeBaseKeys contain itemToMergeKeys? I dont want to add another for loop to make an O(n^3) method+
             if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//TODO 14/9/2022 finish this up (see comment above)
-            {
+            {//FIXME 18/9/2022 Never runs
                 mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
-                throw new UnsupportedOperationException("Delete me");
+                throw new UnsupportedOperationException("Delete me");//DELETEME
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.add(mergeBase);
@@ -315,7 +305,7 @@ public class FindItem {
 @Deprecated
     /**
      * Set to return only the first item in the sequence and make sure it is the only item
-     * (Basically check that their is only 1 item returned)
+     * (Basically check that there is only 1 item returned)
      * Set number of duplicates items allowed in all methods of this class.
      * @param numberOfDuplicateItems int form of max duplicates items allowed in return functions.
      */
