@@ -124,6 +124,10 @@ public class FindItem {
             } else
                 throw new RuntimeException("Wrong static item type assigned");
         }
+        /*
+        Why is mergeDuplicate only available for maps? Easier to merge items since each values
+        Has a key assigned to it.
+         */
         return mergeDuplicate(outputList);
     }
     /**
@@ -177,7 +181,7 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){//FIXME 18/9/2022 Returns both items, as a baseItem without their additional stats for somee reason
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        findAllClosestAsMapOutPut.remove(i); i--; //Firstly delete the duplicate key and store. Lower the current index since we removed an element
+        findAllClosestAsMapOutPut.remove(i);i--; //Firstly delete the duplicate key and store. Lower the current index since we removed an element
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
             if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
@@ -194,7 +198,6 @@ public class FindItem {
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            System.out.println(itemToMergeKeySet[currentItemHeader] + "\n" + itemToMergeKeySet[currentItemHeader]);//DELETEME
 
             if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))
             {//FIXME 18/9/2022 Never runs
@@ -202,8 +205,9 @@ public class FindItem {
                 throw new UnsupportedOperationException("Delete me");//DELETEME
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
+        findAllClosestAsMapOutPut.remove(baseItemIndex);
         findAllClosestAsMapOutPut.add(mergeBase);
-        return findAllClosestAsMapOutPut;
+        return findAllClosestAsMapOutPut;//FIXME 19/9/2022 Works but does not delete item, only merges both items
     }
 
     /**

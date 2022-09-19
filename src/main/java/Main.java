@@ -7,6 +7,7 @@ import scrapper.fileCreator.Wikipages;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 
 @SuppressWarnings("ALL")
 /**
@@ -21,8 +22,14 @@ public class Main {
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        searchFile("Shark Tuna");
-        searchAllRaw("Shark Tuna");
+        searchMap("Shark Tuna");
+        searchAllRaw("Shark tuna");
+    }
+    private static void searchMap(String itemName){
+        FindItem fi  = new FindItem();
+        for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName))
+            System.out.println(lm.keySet() +"\n" + lm.values());
+
     }
 
     private static void searchAllRaw(String itemName){
