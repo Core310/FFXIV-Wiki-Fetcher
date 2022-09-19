@@ -154,7 +154,7 @@ public class FindItem {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
             return findAllClosestAsMapOutPut;//base case
         ArrayList<String> arrayList = new ArrayList<>();
-        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {//FIXME 18/9/2022 value "i" cant be reached for some reason in mergeHelper?
+        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
             String tp =  findAllClosestAsMapOutPut.get(i).get("Zone");
             String itemAndTp = item + "\t" + tp;
@@ -171,7 +171,7 @@ public class FindItem {
                 arrayList.add(itemAndTp);
         }
         return findAllClosestAsMapOutPut;
-    }//TODO 7/9/2022 Finish method!
+    }
 
     /**
      * Helper method for {@link #mergeDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
@@ -199,7 +199,7 @@ public class FindItem {
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
 
-            if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))
+            if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//FIXME 19/9/2022 This runs when `crayon fish` is called but not for shark tuna
             {//FIXME 18/9/2022 Never runs
                 mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 throw new UnsupportedOperationException("Delete me");//DELETEME
@@ -207,7 +207,7 @@ public class FindItem {
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);
         findAllClosestAsMapOutPut.add(mergeBase);
-        return findAllClosestAsMapOutPut;//FIXME 19/9/2022 Works but does not delete item, only merges both items
+        return findAllClosestAsMapOutPut;
     }
 
     /**
@@ -258,17 +258,9 @@ public class FindItem {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        //Uncomment this line if you want to remove duplicate item values at random (not recommended)
-        //removeDuplicate();
         return currentArray;
     }
-    /**
-     * <br> This can be deleted, used for QOL currently
-     * Helper method for findAllClosest
-     *<p>Creates a hashmap w/ key = duplicate & value = no. times found in currentArray</p>
-     * @see FindItem setNumberOfDuplicateItems();
-     * @see FindItem NumberOfDuplicateItems
-     */
+    @Deprecated
     private void removeDuplicate(){
         if(currentArray.size() ==1 || numberOfDuplicateItems == -1)
             return;//base case
@@ -303,12 +295,6 @@ public class FindItem {
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }
 @Deprecated
-    /**
-     * Set to return only the first item in the sequence and make sure it is the only item
-     * (Basically check that there is only 1 item returned)
-     * Set number of duplicates items allowed in all methods of this class.
-     * @param numberOfDuplicateItems int form of max duplicates items allowed in return functions.
-     */
     public void setNumberOfDuplicateItems(int numberOfDuplicateItems) {
         this.numberOfDuplicateItems = numberOfDuplicateItems;
     }
