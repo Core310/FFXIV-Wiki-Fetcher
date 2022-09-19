@@ -2,9 +2,6 @@ package scrapper.fileCreator;
 
 import scrapper.readers.items.*;
 
-import java.rmi.UnexpectedException;
-import java.util.Arrays;
-
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
@@ -12,7 +9,7 @@ import static scrapper.readers.items.baseNode.StaticItemTypes.*;
  * @see Formatter formattedItem
  */
 public class ItemBuilder {
-    private StringBuilder stringBuilder = new StringBuilder();
+    private final StringBuilder stringBuilder = new StringBuilder();
 
     protected StringBuilder build_REGULAR_NODE(String[] csvValues){
         String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process

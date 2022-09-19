@@ -174,11 +174,10 @@ public class FindItem {
      * <br> This method is to keep code clean.
      * <br> Does the actual merging of values
      */
-    private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
+    private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){//FIXME 18/9/2022 Returns both items, as a baseItem without their additional stats for somee reason
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        findAllClosestAsMapOutPut.remove(i); i--;
-        //Firstly delete the duplicate key and store
+        findAllClosestAsMapOutPut.remove(i); i--; //Firstly delete the duplicate key and store. Lower the current index since we removed an element
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
             if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
@@ -195,9 +194,9 @@ public class FindItem {
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            //If the current header is the same, skip. Else add the current header and its data.
-            //Problem, how do I see if mergeBaseKeys contain itemToMergeKeys? I dont want to add another for loop to make an O(n^3) method+
-            if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//TODO 14/9/2022 finish this up (see comment above)
+            System.out.println(itemToMergeKeySet[currentItemHeader] + "\n" + itemToMergeKeySet[currentItemHeader]);//DELETEME
+
+            if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))
             {//FIXME 18/9/2022 Never runs
                 mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 throw new UnsupportedOperationException("Delete me");//DELETEME

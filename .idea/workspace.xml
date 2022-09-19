@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Currently the item is just copying itself and not actually merging the values">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;
   }
 }</component>
@@ -78,7 +79,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindItemTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -125,8 +126,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindItemTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FindItemTest" />
         <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.findAllClosest" />
       </list>
@@ -204,7 +205,9 @@
       <workItem from="1663412454223" duration="548000" />
       <workItem from="1663465009389" duration="2605000" />
       <workItem from="1663467709448" duration="599000" />
-      <workItem from="1663480021481" duration="1112000" />
+      <workItem from="1663480021481" duration="1805000" />
+      <workItem from="1663507390979" duration="1559000" />
+      <workItem from="1663574509690" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -381,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663480243289</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
+      <created>1663505600608</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663505600608</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,20 +435,16 @@
     <MESSAGE value="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data." />
     <MESSAGE value="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)" />
     <MESSAGE value="Currently the item is just copying itself and not actually merging the values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Currently the item is just copying itself and not actually merging the values" />
+    <MESSAGE value="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>196</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="11" />
+          <line>179</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
