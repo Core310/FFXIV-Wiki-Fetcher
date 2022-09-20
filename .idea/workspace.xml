@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="merge still not working. Missing several values when merging both items. *IS it even merging the items?)&#10;&#10;See: https://ffxiv.consolegameswiki.com/wiki/Big_Fishing">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Merge `works` but only for certain values. See FindItem.java 203">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/FindItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +210,8 @@
       <workItem from="1663480021481" duration="1805000" />
       <workItem from="1663507390979" duration="1559000" />
       <workItem from="1663574509690" duration="2507000" />
-      <workItem from="1663583073283" duration="1571000" />
+      <workItem from="1663583073283" duration="5481000" />
+      <workItem from="1663668113793" duration="3657000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -406,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663576984169</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Merge `works` but only for certain values. See FindItem.java 203">
+      <created>1663584807238</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1663584807238</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +436,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fixed small input stream bug" />
     <MESSAGE value="update readme guidelines" />
     <MESSAGE value="working on ListFinder.java" />
     <MESSAGE value="did a hard reset on git" />
@@ -451,29 +460,20 @@
     <MESSAGE value="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt" />
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="merge still not working. Missing several values when merging both items. *IS it even merging the items?)&#10;&#10;See: https://ffxiv.consolegameswiki.com/wiki/Big_Fishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge still not working. Missing several values when merging both items. *IS it even merging the items?)&#10;&#10;See: https://ffxiv.consolegameswiki.com/wiki/Big_Fishing" />
+    <MESSAGE value="Merge `works` but only for certain values. See FindItem.java 203" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge `works` but only for certain values. See FindItem.java 203" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>183</line>
+          <line>180</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>208</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>209</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>180</line>
+          <line>177</line>
           <properties class="FindItem" method="mergeDuplicateHelper">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

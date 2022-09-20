@@ -19,7 +19,6 @@ class FindItemTest {
      * @param expected expected output
      * @param actual actual output
      * @see FindItem
-     * @see FindItemTest findAllCloses-test
      */
     private void findAllClosetHelper(String[] expected, ArrayList<String> actual){
         this.expected.clear();

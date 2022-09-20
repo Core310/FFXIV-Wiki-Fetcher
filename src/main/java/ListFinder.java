@@ -31,12 +31,12 @@ public class ListFinder {
     }
 
     /**
-     * Output all items added in addItem.
+     * Method used {@link #addItem(String[])} or {@link #addItem(String)}
+     * <br> Output all items added in addItem.
      * <br> Groups all elements by their respective teleports.
      * <br> For example, two items sharing two same teleport values will return only the sharing teleport locations.
      * <br> If not relevant teleport is found, a random one is returned.
      * @return Items grouped by teleports
-     * @see ListFinder addItem
      */
     public StringBuilder outPutList(){
         StringBuilder output = new StringBuilder();

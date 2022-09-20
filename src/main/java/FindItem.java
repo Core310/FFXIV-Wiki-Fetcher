@@ -1,11 +1,13 @@
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-import scrapper.readers.items.baseNode.StaticItemTypes;
 import scrapper.readers.items.*;
 import scrapper.readers.items.baseNode.Item;
+import scrapper.readers.items.baseNode.StaticItemTypes;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
-import java.rmi.UnexpectedException;
 import java.util.*;
 
 /**
@@ -17,10 +19,10 @@ import java.util.*;
  */
 public class FindItem {
     /**
-     * return output of findItem()
+     * Updated in {@link #findAllClosest(String)}
+     * <br>Return output of findItem()
      * <br> Holds all items (in raw data format).
      * <br> Each string container holds the raw data for ONE item.
-     * @see FindItem findAllClosest()
      */
     private final ArrayList<String> currentArray = new ArrayList<>();
     /**
@@ -30,7 +32,8 @@ public class FindItem {
      */
     private int numberOfDuplicateItems =-1;
     /**
-     * The main helper method to findItem. It will output the most important info. For example:
+     * Child of {@link #findAllClosestAsMap(String)} which is also a child of {@link #findAllClosest(String)}
+     * The main caller method for findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
      * <p>Zone: The Sea of Clouds</p>
      * <p>Coordinates: (x29,y35)</p>
@@ -46,9 +49,6 @@ public class FindItem {
      *         }
      *</code>
      * </pre>
-     *
-     * @see FindItem findAllClosestAsMap
-     * @see FindItem findAllClosest
      * @param itemName item to find
      * @return Neatly outputted items
      */
@@ -90,8 +90,8 @@ public class FindItem {
             String curItem = delimLine[0];//0 is index where ItemName is stored
 
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
-
-            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {//For this massive if block, I can't use a switch as a "constant expression required" error.
+            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {
+                //For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
                 item = new FolkLore_FISH_NODE(delimLine);
                 outputList.add(item.toLinkedHashmap());
@@ -131,24 +131,13 @@ public class FindItem {
         return mergeDuplicate(outputList);
     }
     /**
-     *Helper method: {@link #mergeDuplicateHelper(int, String, ArrayList)}
-     * <br> Parent method: {@link #findAllClosestAsMap(String) findAllClosestAsMap}
-     * <br>Merges any duplicate item with a time complexity of O(n^2)
-     * <br> Searches each item by their abstract baseItem extension (excluding extra info).
-     * <br> For example, the below should be merged into one item:
-     * <pre>
-     *     <code>
-     * Item: Shark Tuna
-     * Zone: Eastern La Noscea
-     * Coordinates: X:32, Y:29
-     * Bait Used: Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure
-     *
-     * Item: Shark Tuna
-     * Zone: Eastern La Noscea
-     * Coordinates: (34,29)
-     * Time: 7 PM to 9 PM
-     *     </code>
-     * </pre>
+     * Parent method: {@link #findAllClosestAsMap(String)}
+     * <br>Helper method: {@link #mergeDuplicateHelper(int, String, ArrayList)}
+     * <br> This method is a trigger for the actual merging method to take place.
+     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicateHelper(int, String, ArrayList)}.
+     * <br> Searches each item by their item and zone.
+     * <br> Basically, if two or more items share the same name and zone, this method will merge both items keeping one of their teleport values (at random).
+     * @param findAllClosestAsMapOutPut Only accepts the output ArrayList of findAllClosestAsMapOut.
      */
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicate(ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut) {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
@@ -161,6 +150,10 @@ public class FindItem {
             int counter =0;
             if(item == null || tp == null)
                 throw new RuntimeException("These value should never be null.");
+            /*
+            Works by looping through an internal arrayList. If a duplicate value that contains the item and and zone value are found, proceeds to merge.
+            Else add the current value to the internal arrayList.
+             */
             for(String str: arrayList)
                 if(str.contains(item) && str.contains(tp)){
                     mergeDuplicateHelper(i, itemAndTp, findAllClosestAsMapOutPut);//Performs the actual merging
@@ -177,6 +170,10 @@ public class FindItem {
      * Helper method for {@link #mergeDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
      * <br> This method is to keep code clean.
      * <br> Does the actual merging of values
+     * @param i for loop iterator in main method.
+     * @param itemAndTp item and teleport value in one string seperated by `\t`
+     * @param findAllClosestAsMapOutPut Only accepts from the main {@link #mergeDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
+     * @return
      */
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){//FIXME 18/9/2022 Returns both items, as a baseItem without their additional stats for somee reason
         //Already contains key?
@@ -191,18 +188,18 @@ public class FindItem {
                 break;
             }
         }//Loops through all items
-        if(baseItemIndex == -1)//in case the if statement in above for loop never runs
-            throw new RuntimeException("Value should always be updated in the baseItemFinder for loop");
+        if(baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
+            return findAllClosestAsMapOutPut;
 
         LinkedHashMap<String,String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-
-            if(mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//FIXME 19/9/2022 This runs when `crayon fish` is called but not for shark tuna
-            {//FIXME 18/9/2022 Never runs
-                mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
-                throw new UnsupportedOperationException("Delete me");//DELETEME
+            //System.out.println(mergeBaseKeySet[currentItemHeader] + "\t" + itemToMergeKeySet[currentItemHeader]);//DELETEME
+            if(!mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//FIXME 19/9/2022 This runs when `crayon fish` is called but not for shark tuna
+            {
+                throw new RuntimeException("I ran");//DELETEME
+                //mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);

@@ -22,8 +22,9 @@ public class Main {
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        searchMap("shark tuna");
-        searchAllRaw("Shark tuna");
+        searchMap("Shark Tuna");
+        searchAllRaw("Shark Tuna");
+        searchMap("crayon fish");//FIXME 19/9/2022 Value not updated in loop
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
