@@ -1,7 +1,7 @@
 # FFXIV Wiki scrapper
-This library searches for DOH/DOL gathering nodes (aka gathering classes) from
+FFXIV Wiki scrapper searches for DOH/DOL gathering nodes (aka gathering classes) from
 the [consolegameswiki](https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes)
-and outputs them in a neat and readable format.
+and outputs them in a neat and readable format. It is fully documented using java doc (see linked repository webiste).
 
 - Currently, does not support the
   [Ephemeral_Nodes](https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes) page
