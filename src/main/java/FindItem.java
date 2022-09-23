@@ -88,7 +88,6 @@ public class FindItem {
         for(String curLine: rawData){
             String[] delimLine = curLine.split("\t",-1);//Should split the current line into whatever is the cur item
             String curItem = delimLine[0];//0 is index where ItemName is stored
-
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
             if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {
                 //For this massive if block, I can't use a switch as a "constant expression required" error.
@@ -128,6 +127,7 @@ public class FindItem {
         Why is mergeDuplicate only available for maps? Easier to merge items since each values
         Has a key assigned to it.
          */
+        System.out.println(outputList);//DELETEME
         return mergeDuplicate(outputList);
     }
     /**
@@ -142,26 +142,28 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicate(ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut) {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
             return findAllClosestAsMapOutPut;//base case
+        else if (currentArray.size() < 1) {
+            throw new RuntimeException("Current array should never be less than or equal to 0 here");
+        }
         ArrayList<String> arrayList = new ArrayList<>();
-        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
+        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {//FIXME 23/9/2022 Not catching all the Zone's for some reason??
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
-            String tp =  findAllClosestAsMapOutPut.get(i).get("Zone");
-            String itemAndTp = item + "\t" + tp;
+            String zone =  findAllClosestAsMapOutPut.get(i).get("Zone");
+            String itemAndZone = item + "\t" + zone;
+            System.out.println(zone + "\t" + i);//DELETEME
             int counter =0;
-            if(item == null || tp == null)
-                throw new RuntimeException("These value should never be null.");
             /*
             Works by looping through an internal arrayList. If a duplicate value that contains the item and and zone value are found, proceeds to merge.
             Else add the current value to the internal arrayList.
              */
             for(String str: arrayList)
-                if(str.contains(item) && str.contains(tp)){
-                    mergeDuplicateHelper(i, itemAndTp, findAllClosestAsMapOutPut);//Performs the actual merging
+                if (str.contains(item) && str.contains(zone)) {
+                    mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
-                    break;
+                    i--;
                 }
             if(counter ==0)
-                arrayList.add(itemAndTp);
+                arrayList.add(itemAndZone);
         }
         return findAllClosestAsMapOutPut;
     }
@@ -173,21 +175,21 @@ public class FindItem {
      * @param i for loop iterator in main method.
      * @param itemAndTp item and teleport value in one string seperated by `\t`
      * @param findAllClosestAsMapOutPut Only accepts from the main {@link #mergeDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
-     * @return
+     * @return findAllClosestAsMapOutPut (the same input value)
      */
-    private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){//FIXME 18/9/2022 Returns both items, as a baseItem without their additional stats for somee reason
+    private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        findAllClosestAsMapOutPut.remove(i);i--; //Firstly delete the duplicate key and store. Lower the current index since we removed an element
+        findAllClosestAsMapOutPut.remove(i);//Firstly delete the duplicate key and store. Lower the current index since we removed an element. Index ofsett already accounted for in parent method
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
             if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
                     findAllClosestAsMapOutPut.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t",-1)[1])
-            ){
+            ){//Does the current value contain both the item and the zone?
                 baseItemIndex = baseItemFinder;
                 break;
             }
-        }//Loops through all items
+        }//Grab index of other duplicate
         if(baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
             return findAllClosestAsMapOutPut;
 
@@ -195,11 +197,9 @@ public class FindItem {
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            //System.out.println(mergeBaseKeySet[currentItemHeader] + "\t" + itemToMergeKeySet[currentItemHeader]);//DELETEME
-            if(!mergeBaseKeySet[currentItemHeader].contains(itemToMergeKeySet[currentItemHeader]))//FIXME 19/9/2022 This runs when `crayon fish` is called but not for shark tuna
+            if(!mergeBaseKeySet[currentItemHeader].equals(itemToMergeKeySet[currentItemHeader]))
             {
-                throw new RuntimeException("I ran");//DELETEME
-                //mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
+                mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);

@@ -22,15 +22,14 @@ public class Main {
         ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        searchMap("Shark Tuna");
-        searchAllRaw("Shark Tuna");
-        searchMap("crayon fish");//FIXME 19/9/2022 Value not updated in loop
+       // searchMap("Shark Tuna");
+        //searchAllRaw("crayon fish");
+        searchMap("crayon fish");
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
         for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName))
-            System.out.println(lm.keySet() +"\n" + lm.values());
-
+            System.out.println(lm.values());
     }
 
     private static void searchAllRaw(String itemName){
