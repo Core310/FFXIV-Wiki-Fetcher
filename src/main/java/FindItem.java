@@ -150,14 +150,15 @@ public class FindItem {
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
             String zone =  findAllClosestAsMapOutPut.get(i).get("Zone");
             String itemAndZone = item + "\t" + zone;
-            System.out.println(zone + "\t" + i);//DELETEME
             int counter =0;
             /*
-            Works by looping through an internal arrayList. If a duplicate value that contains the item and and zone value are found, proceeds to merge.
+            Works by looping through an internal arrayList. If a duplicate value that contains the item and zone value are found, proceeds to merge.
             Else add the current value to the internal arrayList.
              */
+            System.out.print("\n" + zone + "\t" + i);//DELETEME
             for(String str: arrayList)
                 if (str.contains(item) && str.contains(zone)) {
+                    System.out.print("\t" + str.split("\t",-1 )[1]);//DELETEME
                     mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     i--;
@@ -198,8 +199,9 @@ public class FindItem {
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
         for(int currentItemHeader = 4;currentItemHeader < findAllClosestAsMapOutPut.get(i).size() ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
             if(!mergeBaseKeySet[currentItemHeader].equals(itemToMergeKeySet[currentItemHeader]))
-            {
-                mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
+            {//FIXME 23/9/2022 doesnt run currently!
+                throw new RuntimeException("a");//DELETEME
+                //mergeBase.put(itemToMergeKeySet[currentItemHeader],itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);
