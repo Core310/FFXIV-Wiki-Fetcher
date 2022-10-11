@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Still not merging certain duplciate values.">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +221,19 @@
       <workItem from="1664020555573" duration="3781000" />
       <workItem from="1664076048967" duration="2580000" />
       <workItem from="1664101604201" duration="1690000" />
+      <workItem from="1664235019687" duration="83000" />
+      <workItem from="1665104012029" duration="63000" />
+      <workItem from="1665116605630" duration="385000" />
+      <workItem from="1665118315823" duration="75000" />
+      <workItem from="1665118691352" duration="2764000" />
+      <workItem from="1665184112971" duration="4695000" />
+      <workItem from="1665193527551" duration="3424000" />
+      <workItem from="1665220515990" duration="4556000" />
+      <workItem from="1665234247147" duration="600000" />
+      <workItem from="1665360621884" duration="1111000" />
+      <workItem from="1665402099220" duration="679000" />
+      <workItem from="1665464471927" duration="2102000" />
+      <workItem from="1665471674961" duration="2967000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -438,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663929500146</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania">
+      <created>1664235119064</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664235119064</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +479,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="did a hard reset on git" />
     <MESSAGE value="did a hard reset on gitfixing my mess" />
     <MESSAGE value="fixing my mess" />
     <MESSAGE value="debugging &#10;Still need to create tests" />
@@ -483,9 +503,19 @@
     <MESSAGE value="Merge `works` but only for certain values. See FindItem.java 203" />
     <MESSAGE value="All code cleanup but FindItem.java. Code clean involved changing @see to @link. .&#10;&#10;In FindItem.java, current working on line 197, mergeDupeHelper. The internal for loop with currentItemHeader isn't working?? Need to figure out how when mergeBase.put() is running." />
     <MESSAGE value="fixed index offset bug. Was updating the reference value but not doing anything else to it." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed index offset bug. Was updating the reference value but not doing anything else to it." />
+    <MESSAGE value="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />

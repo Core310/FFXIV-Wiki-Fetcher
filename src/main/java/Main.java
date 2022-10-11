@@ -28,8 +28,9 @@ public class Main {
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
-        for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName))
+        for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
             System.out.println(lm.values());
+        }
     }
 
     private static void searchAllRaw(String itemName){
