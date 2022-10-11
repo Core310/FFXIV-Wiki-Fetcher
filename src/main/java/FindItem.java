@@ -147,10 +147,9 @@ public class FindItem {
         ArrayList<String> arrayList = new ArrayList<>();
 
         for(LinkedHashMap lm: findAllClosestAsMapOutPut)
-            System.out.println(lm.get("Zone").toString());//DELETEME
+            System.out.println(lm.get("Zone"));//DELETEME
 
-        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {//FIXME 23/9/2022 Not catching all the Zone's for some reason?? Likely due to wrong item being removed (NOTE: Middle La Noscea is never displayed but is first element)
-
+        for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
             String zone =  findAllClosestAsMapOutPut.get(i).get("Zone");
             String itemAndZone = item + "\t" + zone;
@@ -159,13 +158,14 @@ public class FindItem {
             Works by looping through an internal arrayList. If a duplicate value that contains the item and zone value are found, proceeds to merge.
             Else add the current value to the internal arrayList.
              */
-            System.out.print("\n" + zone + "\t" + i + "\t" + findAllClosestAsMapOutPut.get(i));//DELETEME
             for(String str: arrayList)
-                if (str.contains(item) && str.contains(zone)) {
-                    System.out.println("\n" + zone + "\n");
+                if (str.contains(item) && str.contains(zone)) {//FIXME 11/10/2022 possbile reason why conditional is wrong?
+                    System.out.println("\n" + zone + "\n" + arrayList + "\n");
                     mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     i--;
+                    arrayList.remove(itemAndZone);//After deleting the duplicate, we reset the duplicate array counter to 0
+                    break;
                 }
             if(counter ==0)
                 arrayList.add(itemAndZone);
@@ -185,6 +185,7 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.\
+        System.out.println("Deleting element: " + findAllClosestAsMapOutPut.get(i).get("Zone"));//DELETEME
         findAllClosestAsMapOutPut.remove(i);//FIXME 11/10/2022 Not deleting the correct index? //Firstly delete the duplicate key and store. Lower the current index since we removed an element. Index offset already accounted for in parent method
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
