@@ -17,18 +17,19 @@ import java.util.LinkedHashMap;
 public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
-        ArrayList<String> al = new ArrayList<>();
         FindItem fi = new FindItem();
-        ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-       // searchMap("Shark Tuna");
+        searchAllRaw("Shark Tuna");
+        searchMap("Shark Tuna");
         //searchAllRaw("crayon fish");
-        searchMap("crayon fish");
+        //System.out.println("______________________________________________________");
+        //searchMap("crayon fish");
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
         for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
+            System.out.println(lm.keySet());
             System.out.println(lm.values());
         }
     }
