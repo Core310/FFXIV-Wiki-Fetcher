@@ -206,14 +206,24 @@ public class FindItem {
         LinkedHashMap<String,String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
-        int headerSize = Math.max(mergeBaseKeySet.length,itemToMergeKeySet.length);
-        if(headerSize < 4) {
-            throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + headerSize
+
+        System.out.println(itemToMerge.keySet() + "\n" + mergeBase.keySet());
+        String[] largerHeader, smallerHeader;
+        if(mergeBaseKeySet.length > itemToMergeKeySet.length) {
+            largerHeader = mergeBaseKeySet;
+            smallerHeader = itemToMergeKeySet;
+        }
+        else {
+            largerHeader = itemToMergeKeySet;
+            smallerHeader = mergeBaseKeySet;
+        }
+        if(largerHeader.length < 4 || smallerHeader.length < 4) {
+            throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
                     + "\n" + "Current Header Contents:" + findAllClosestAsMapOutPut.get(i));
         }
-        System.out.println(itemToMerge.keySet() + "\n" + mergeBase.keySet());
-        for(int currentItemHeader = 4;currentItemHeader < headerSize ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            if(!mergeBaseKeySet[currentItemHeader].equals(itemToMergeKeySet[currentItemHeader])) {//TODO 14/10/2022 take whichever (mergeBase or itemToMerge) to compare
+
+        for(int currentItemHeader = 4;currentItemHeader < largerHeader.length ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
+            if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//TODO 14/10/2022 take whichever size (mergeBase or itemToMerge) to compare
                 mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 //FIXME 23/9/2022 Does not merge values at all
                 System.out.println("CIH: \n" + itemToMergeKeySet[currentItemHeader] + "\n CID:" + itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
