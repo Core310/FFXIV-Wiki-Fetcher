@@ -20,11 +20,11 @@ public class Main {
         FindItem fi = new FindItem();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        searchAllRaw("Shark Tuna");
-        searchMap("Shark Tuna");
-        //searchAllRaw("crayon fish");
-        //System.out.println("______________________________________________________");
-        //searchMap("crayon fish");
+        //searchAllRaw("Shark Tuna");
+        //searchMap("Shark Tuna");
+        searchAllRaw("crayon fish");
+        System.out.println("______________________________________________________");
+        searchMap("crayon fish");
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
