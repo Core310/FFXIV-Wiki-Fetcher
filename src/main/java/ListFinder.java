@@ -56,7 +56,8 @@ public class ListFinder {
         }
 
     /**
-     * Adds a search key to the list to return.
+     * Adds a search key to the list to return using findItem.essentialFindAllClosestAsMap.
+     * @see FindItem
      * @param searchKey item user is looking for. WIll be queued up to find.
      */
     public void addItem(String searchKey){

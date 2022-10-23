@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Everything should be fixed? Just need to run more tests to make sure everything is fine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +242,8 @@
       <workItem from="1666333159891" duration="163000" />
       <workItem from="1666346389904" duration="201000" />
       <workItem from="1666351553577" duration="1257000" />
-      <workItem from="1666486655329" duration="893000" />
+      <workItem from="1666486655329" duration="1211000" />
+      <workItem from="1666490852292" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -509,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666352787875</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Everything should be fixed? Just need to run more tests to make sure everything is fine">
+      <created>1666488823773</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666488823773</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +538,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="catch up" />
     <MESSAGE value="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem" />
     <MESSAGE value="I think it works now? Need to run more test cases" />
     <MESSAGE value="bug fixing to do" />
@@ -554,43 +562,10 @@
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset" />
     <MESSAGE value="NOT CONFIRMED, (Test more) &#10;MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found.&#10;&#10;Merge method should work now? Need to perform more tests" />
     <MESSAGE value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
+    <MESSAGE value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>173</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>172</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>163</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>224</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>225</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />

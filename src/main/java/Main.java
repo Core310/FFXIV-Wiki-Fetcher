@@ -18,13 +18,14 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         FindItem fi = new FindItem();
+        //ListFinder listFinder = new ListFinder();
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
-        //searchAllRaw("Shark Tuna");
-        //searchMap("Shark Tuna");
-        searchAllRaw("crayon fish");
+        //System.out.println(listFinder.outPutList());
+        String search = "fire sha ";
+        searchAllRaw(search);
         System.out.println("______________________________________________________");
-        searchMap("crayon fish");
+        searchMap(search);
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();

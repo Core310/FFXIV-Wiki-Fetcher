@@ -156,7 +156,7 @@ public class FindItem {
             Else add the current value to the internal arrayList.
              */
             for (String str : arrayList){
-                if (str.contains(item) && str.contains(zone)){//FIXME 11/10/2022 possbile reason why conditional is wrong?
+                if (str.contains(item) && str.contains(zone)){
                     mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     i--;
@@ -165,7 +165,7 @@ public class FindItem {
                 }
         }
             if(counter ==0)
-                arrayList.add(itemAndZone);//FIXME 11/10/2022 More items should be added to this list no? Why none like this?
+                arrayList.add(itemAndZone);
         }
         return findAllClosestAsMapOutPut;
     }
@@ -182,14 +182,14 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.\
-        findAllClosestAsMapOutPut.remove(i);//FIXME 11/10/2022 Not deleting the correct index? //Firstly delete the duplicate key and store. Lower the current index since we removed an element. Index offset already accounted for in parent method
+        findAllClosestAsMapOutPut.remove(i);
         i--;
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
             if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
                     findAllClosestAsMapOutPut.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t",-1)[1])
             ){//Does the current value contain both the item and the zone?
-                baseItemIndex = baseItemFinder;//FIXME 11/10/2022 Not working as inteded?
+                baseItemIndex = baseItemFinder;
                 break;
             }
         }//Grab index of other duplicate
@@ -217,7 +217,7 @@ public class FindItem {
         for(int currentItemHeader = 4;currentItemHeader < largerHeader.length ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
             if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {
                 mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
-                //Should work by taking whatever extra header values (and its data) and plops them in the baseData+Header
+                //Takes whatever extra header values (and its data) and plops them in the baseData+Header
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
