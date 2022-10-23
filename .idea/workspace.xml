@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
     </list>
@@ -240,7 +240,8 @@
       <workItem from="1665846022127" duration="586000" />
       <workItem from="1666333159891" duration="163000" />
       <workItem from="1666346389904" duration="201000" />
-      <workItem from="1666351553577" duration="899000" />
+      <workItem from="1666351553577" duration="1257000" />
+      <workItem from="1666486655329" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -494,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665749598823</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="NOT CONFIRMED, (Test more) &#10;MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found.&#10;&#10;Merge method should work now? Need to perform more tests">
+      <created>1666352583519</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666352583519</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing">
+      <created>1666352787875</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666352787875</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,8 +529,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="~!~ debugging ahhh" />
-    <MESSAGE value="~!~ debugging ahhh &lt;!-- this is a comment --&gt;" />
     <MESSAGE value="catch up" />
     <MESSAGE value="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem" />
     <MESSAGE value="I think it works now? Need to run more test cases" />
@@ -539,7 +552,9 @@
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens." />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Some progresss made by removing the itemAndZone value from the duplicate counter array as seen`arrayList.remove(itemAndZone);`&#10;Still does not catch new gradina for some reason" />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset" />
-    <option name="LAST_COMMIT_MESSAGE" value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset" />
+    <MESSAGE value="NOT CONFIRMED, (Test more) &#10;MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found.&#10;&#10;Merge method should work now? Need to perform more tests" />
+    <MESSAGE value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

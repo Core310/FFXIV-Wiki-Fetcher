@@ -127,7 +127,6 @@ public class FindItem {
         Why is mergeDuplicate only available for maps? Easier to merge items since each values
         Has a key assigned to it.
          */
-        System.out.println(outputList);//DELETEME
         return mergeDuplicate(outputList);
     }
     /**
@@ -147,9 +146,6 @@ public class FindItem {
         }
         ArrayList<String> arrayList = new ArrayList<>();
 
-        for(LinkedHashMap lm: findAllClosestAsMapOutPut)
-            System.out.println(lm.get("Zone"));//DELETEME
-
         for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
             String zone = findAllClosestAsMapOutPut.get(i).get("Zone");
@@ -160,9 +156,7 @@ public class FindItem {
             Else add the current value to the internal arrayList.
              */
             for (String str : arrayList){
-                System.out.println(str + "\t" + arrayList);
                 if (str.contains(item) && str.contains(zone)){//FIXME 11/10/2022 possbile reason why conditional is wrong?
-                    System.out.println("\n" + zone + "\n" + arrayList + "\n");//DELETEME
                     mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     i--;
@@ -188,7 +182,6 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
         LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.\
-        System.out.println("Deleting element: " + findAllClosestAsMapOutPut.get(i).get("Zone"));//DELETEME
         findAllClosestAsMapOutPut.remove(i);//FIXME 11/10/2022 Not deleting the correct index? //Firstly delete the duplicate key and store. Lower the current index since we removed an element. Index offset already accounted for in parent method
         i--;
         int baseItemIndex = -1;
@@ -207,7 +200,6 @@ public class FindItem {
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
 
-        System.out.println(itemToMerge.keySet() + "\n" + mergeBase.keySet());
         String[] largerHeader, smallerHeader;
         if(mergeBaseKeySet.length > itemToMergeKeySet.length) {
             largerHeader = mergeBaseKeySet;
@@ -223,15 +215,14 @@ public class FindItem {
         }
 
         for(int currentItemHeader = 4;currentItemHeader < largerHeader.length ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//TODO 14/10/2022 take whichever size (mergeBase or itemToMerge) to compare
+            if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {
                 mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
-                //FIXME 23/9/2022 Does not merge values at all
-                System.out.println("CIH: \n" + itemToMergeKeySet[currentItemHeader] + "\n CID:" + itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 //Should work by taking whatever extra header values (and its data) and plops them in the baseData+Header
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
-        findAllClosestAsMapOutPut.remove(baseItemIndex);
-        findAllClosestAsMapOutPut.add(mergeBase);
+        findAllClosestAsMapOutPut.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
+        findAllClosestAsMapOutPut.add(baseItemIndex,mergeBase);
+
         return findAllClosestAsMapOutPut;
     }
 
