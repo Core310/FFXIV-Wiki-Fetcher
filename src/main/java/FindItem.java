@@ -144,7 +144,7 @@ public class FindItem {
         else if (currentArray.size() < 1) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        ArrayList<String> arrayList = new ArrayList<>();
+        ArrayList<String> itemTracker = new ArrayList<>();
 
         for (int i =0;i< findAllClosestAsMapOutPut.size();i++) {
             String item = findAllClosestAsMapOutPut.get(i).get("Item");
@@ -155,17 +155,16 @@ public class FindItem {
             Works by looping through an internal arrayList. If a duplicate value that contains the item and zone value are found, proceeds to merge.
             Else add the current value to the internal arrayList.
              */
-            for (String str : arrayList){
+            for (String str : itemTracker)
                 if (str.contains(item) && str.contains(zone)){
                     mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
                     counter++;
                     i--;
-                    arrayList.remove(itemAndZone);//After deleting the duplicate, we reset the duplicate array counter to 0
                     break;
                 }
-        }
+
             if(counter ==0)
-                arrayList.add(itemAndZone);
+                itemTracker.add(itemAndZone);
         }
         return findAllClosestAsMapOutPut;
     }
@@ -277,7 +276,7 @@ public class FindItem {
         return currentArray;
     }
     @Deprecated
-    private void removeDuplicate(){
+    private void removeDuplicate(){//TODO 23/10/2022 Remove this method
         if(currentArray.size() ==1 || numberOfDuplicateItems == -1)
             return;//base case
         HashMap<String,Integer> hmap = new HashMap<>();

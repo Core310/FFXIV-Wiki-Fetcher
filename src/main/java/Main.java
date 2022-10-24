@@ -22,7 +22,7 @@ public class Main {
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
         //System.out.println(listFinder.outPutList());
-        String search = "fire sha ";
+        String search = "shard";
         searchAllRaw(search);
         System.out.println("______________________________________________________");
         searchMap(search);
@@ -30,6 +30,7 @@ public class Main {
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
         for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
+            System.out.println(lm.keySet());
             System.out.println(lm.values());
         }
     }
