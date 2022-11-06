@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="mergeDupe doesn't work again for fire Shard">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_FISH_NODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +248,13 @@
       <workItem from="1666490852292" duration="624000" />
       <workItem from="1666492034108" duration="1965000" />
       <workItem from="1666513104097" duration="1532000" />
-      <workItem from="1666585885348" duration="5699000" />
+      <workItem from="1666585885348" duration="5809000" />
+      <workItem from="1666616286028" duration="1269000" />
+      <workItem from="1667625717110" duration="1424000" />
+      <workItem from="1667638314398" duration="3106000" />
+      <workItem from="1667698739323" duration="1003000" />
+      <workItem from="1667728656372" duration="1817000" />
+      <workItem from="1667753120489" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -528,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666491436681</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)">
+      <created>1666594436648</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666594436649</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +563,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="I think it works now? Need to run more test cases" />
     <MESSAGE value="bug fixing to do" />
     <MESSAGE value="bug fix listFinder should be all fine now.&#10;todo: test cases" />
     <MESSAGE value="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)" />
@@ -573,9 +587,29 @@
     <MESSAGE value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
     <MESSAGE value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
     <MESSAGE value="mergeDupe doesn't work again for fire Shard" />
-    <option name="LAST_COMMIT_MESSAGE" value="mergeDupe doesn't work again for fire Shard" />
+    <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
+    <option name="LAST_COMMIT_MESSAGE" value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />

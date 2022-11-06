@@ -59,9 +59,8 @@ public class FindItem {
             stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
             stringBuilder.append("Zone: ").append(lhm.get("Zone")).append("\n");
             stringBuilder.append("Coordinates: ").append(lhm.get("Coordinates")).append("\n");
-
+            //No use in creating a helper method for the .append StringBuilder. I could create a small class but that would be overkill?
             if(lhm.get("Extra Information") != null & !Objects.equals(lhm.get("Extra Information"), ""))
-                //todo refactor if statements and then appending part into a small method.
                 stringBuilder.append("Extra Information: ").append(lhm.get("Extra Information")).append("\n");
             if(lhm.get("Bait Used") != null)
                 stringBuilder.append("Bait Used: ").append(lhm.get("Bait Used")).append("\n");
@@ -73,6 +72,7 @@ public class FindItem {
         }
         return rtrnArray;
     }
+
     /**
      * Outputs each case neatly with ALL values, and descriptors for each item argument. (eg. this is the folk lore tome)
      * <p>Multiple items will be stored in an arraylist with arguments of the Map.</p>
@@ -92,7 +92,7 @@ public class FindItem {
             if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {
                 //For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
-                item = new FolkLore_FISH_NODE(delimLine);
+                item = new FolkLore_Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             }
             else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
@@ -115,7 +115,8 @@ public class FindItem {
                 item = new Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
-                item = new Fish_Big_Node(delimLine);
+                item = new Fish_Big_Node(delimLine);//FIXME 7/11/2022 When a new fish node is created, the level is left blank, this should not be the case as some levels are left as
+                // 0 this creates a problem when trying to merge
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);
@@ -180,9 +181,10 @@ public class FindItem {
      */
     private ArrayList<LinkedHashMap<String,String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String,String>> findAllClosestAsMapOutPut){
         //Already contains key?
-        LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.\
+        LinkedHashMap<String,String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
         findAllClosestAsMapOutPut.remove(i);
         i--;
+
         int baseItemIndex = -1;
         for(int baseItemFinder =0;baseItemFinder < findAllClosestAsMapOutPut.size();baseItemFinder++){//Finds duplicate item
             if(findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t",-1)[0]) &&
@@ -194,7 +196,6 @@ public class FindItem {
         }//Grab index of other duplicate
         if(baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
             return findAllClosestAsMapOutPut;
-
         LinkedHashMap<String,String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
@@ -214,14 +215,13 @@ public class FindItem {
         }
 
         for(int currentItemHeader = 4;currentItemHeader < largerHeader.length ;currentItemHeader++){//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {
+            if(!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//Makes all of smaller header into one string. Compares it to larger header to find any of the same instances
                 mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 //Takes whatever extra header values (and its data) and plops them in the baseData+Header
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
         findAllClosestAsMapOutPut.add(baseItemIndex,mergeBase);
-
         return findAllClosestAsMapOutPut;
     }
 

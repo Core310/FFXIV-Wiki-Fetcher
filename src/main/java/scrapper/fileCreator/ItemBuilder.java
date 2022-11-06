@@ -78,7 +78,7 @@ public class ItemBuilder {
 
         stringBuilder.append(FOLK_LORE_FISH_NODE.name());
         stringBuilder.append("\t");
-        stringBuilder.append(new FolkLore_FISH_NODE(
+        stringBuilder.append(new FolkLore_Fish_Node(
                 csvValues[2],//Item
                 csvValues[3],//Zone
                 csvValues[4],//Cords
