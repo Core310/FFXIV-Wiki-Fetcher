@@ -4,55 +4,20 @@ import java.util.LinkedHashMap;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DuplicateTest {
+    FindItem fi = new FindItem();
     @org.junit.jupiter.api.Test
     void duplicateTest(){
-        assertEquals(//TODO 14/10/2022
-                """
-                        
-                        """
-                ,searchMap("Shark Tuna"));
+
+        assertEquals(
+                "[{Item=Shark Tuna, Zone=Eastern La Noscea , Coordinates=X:32, Y:29, Bait Used=Spoon Worm, Northern Krill, Yumizuno, Heavy Steel Jig, Herring Ball, Sinking Minnow, Steel Jig, Shrimp Cage Feeder, Crab Ball, Rat Tail, Saltwater Boilie, Versatile Lure, Type=Ocean fishing, Fishing Log=Fishing Log: Costa del Sol, Level=30, Fishing Hole=Costa del Sol, Time=7 PM to 9 PM, Weather=Clear Skies, Mooch=Fullmoon Sardine, Gathering=339+}]"
+                ,
+                fi.findAllClosestAsMap("Shark Tuna").toString());
 
 
         assertEquals(//TODO 14/10/2022
-                """              
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, Lower La Noscea , X:24, Y:23, Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: The Mourning Widow, 0]
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, Old Gridania , X:15, Y:6, Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: Whispering Gorge, 0]
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, Central Shroud , X:22, Y:21, Moth Pupa, Mythril Spoon Lure, Honey Worm, Sinking Minnow, Chocobo Fly, Crow Fly, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: The Vein, 0]
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, Western Thanalan , X:17, Y:15, Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Rainbow Spoon Lure, Wildfowl Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: The Footfalls, 0]
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, Middle La Noscea , X:20, Y:18, Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: West Agelyss River, 0]
-                        [Item, Zone, Coordinates, Bait Used, Type, Fishing Log, Level]
-                        [Crayfish, New Gridania , X:12, Y:13, Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Freshwater fishing, Fishing Log: Jadeite Flood, 0]                              
-                        """
+                "[{Item=Crayfish, Zone=Middle La Noscea , Coordinates=X:20, Y:18, Bait Used=Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: West Agelyss River, Level=1}, {Item=Crayfish, Zone=Lower La Noscea , Coordinates=X:24, Y:23, Bait Used=Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: The Mourning Widow, Level=1}, {Item=Crayfish, Zone=New Gridania , Coordinates=X:12, Y:13, Bait Used=Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: Jadeite Flood, Level=5}, {Item=Crayfish, Zone=Old Gridania , Coordinates=X:11, Y:8, Bait Used=Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: Upper Black Tea Brook, Level=5}, {Item=Crayfish, Zone=Central Shroud , Coordinates=X:22, Y:21, Bait Used=Moth Pupa, Mythril Spoon Lure, Honey Worm, Sinking Minnow, Chocobo Fly, Crow Fly, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: The Vein, Level=5}, {Item=Crayfish, Zone=Western Thanalan , Coordinates=X:17, Y:15, Bait Used=Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Rainbow Spoon Lure, Wildfowl Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure, Type=Freshwater fishing, Fishing Log=Fishing Log: The Footfalls, Level=10}]"
+                ,fi.findAllClosestAsMap("crayon fish").toString());
 
-                ,searchMap("crayon fish"));
-
-    }
-
-
-    private String searchMap(String itemName){
-        FindItem fi  = new FindItem();
-        StringBuilder sb = new StringBuilder();
-        for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
-            sb.append(lm.keySet()).append("\n");
-            sb.append(lm.values()).append("\n");
-        }
-        return sb.toString();
-    }
-
-    private  void searchAllRaw(String itemName){
-        FindItem fi = new FindItem();
-        //String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
-        //String base2[] = fi.findAllClosest(itemName).get(1).split("\t",-1);
-        //String t = (base[1].replaceAll(" ","") + " " + base[2].replaceAll(" ",""));
-        //String t1= (base2[1].replaceAll(" ","") + " " + base2[2].replaceAll(" ",""));
-        //System.out.println(t1 + "\n" + t);
-        for(String cur: fi.findAllClosest(itemName))
-            System.out.println(cur);
     }
 
     /**

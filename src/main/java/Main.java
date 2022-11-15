@@ -22,16 +22,22 @@ public class Main {
         //listFinder.addItem(new String[]{"Shark Tuna", " "});
         //listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
         //System.out.println(listFinder.outPutList());
-        String search = "shard";
-        searchAllRaw(search);
-        System.out.println("______________________________________________________");
-        searchMap(search);
+        String arr[] = new String[]{"Shark tuna", "Fire sh", "ic shrd", "orange", "fishie","Waterfowl Feather (Rare)", "crayon fish"};
+        for(String search: arr) {
+            searchAllRaw(search);
+            System.out.println("______________________________________________________");
+            searchMap(search);
+            System.out.println(fi.findAllClosestAsMap(search)); //DELETEME
+            System.out.println("\n \n"); //DELETEME
+        }
+        System.out.println(fi.findAllClosestAsMap ("Shark tuna").toString()); //DELETEME
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
         for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
-            System.out.println(lm.keySet());
-            System.out.println(lm.values());
+            System.out.println(lm.toString()); //DELETEME
+            //System.out.println(lm.keySet());
+            //System.out.println(lm.values());
         }
     }
 
