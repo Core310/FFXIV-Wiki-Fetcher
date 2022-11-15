@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="finished some base test cases, still have several more to go. Just set an example of what future ones should look like">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/DuplicateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +269,7 @@
       <workItem from="1668249070725" duration="645000" />
       <workItem from="1668475926004" duration="1211000" />
       <workItem from="1668479642197" duration="809000" />
-      <workItem from="1668480470360" duration="8180000" />
+      <workItem from="1668480470360" duration="10386000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -580,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668485594106</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="finished some base test cases, still have several more to go. Just set an example of what future ones should look like">
+      <created>1668491860509</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1668491860509</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +606,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)" />
     <MESSAGE value="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();" />
     <MESSAGE value="Had FindItem somewhat working just now, broke it again." />
     <MESSAGE value="fixed duplciate (adding to internal array) detection. Still working on the appending value detection." />
@@ -625,18 +630,10 @@
     <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
     <MESSAGE value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
     <MESSAGE value="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm" />
+    <MESSAGE value="finished some base test cases, still have several more to go. Just set an example of what future ones should look like" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished some base test cases, still have several more to go. Just set an example of what future ones should look like" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/DuplicateTest.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />
