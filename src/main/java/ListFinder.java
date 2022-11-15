@@ -81,7 +81,7 @@ public class ListFinder {
      * @param inputArrayList The output from the method essentialFindAllClosestAsMap. Contains ALL values returned by the method.
      * @see FindItem essentialFindAllClosestAsMap
      */
-    private void addItemInfo(ArrayList<StringBuilder> inputArrayList){
+    private void addItemInfo(ArrayList<StringBuilder> inputArrayList){//TODO 15/11/2022 Refactor, dont need to search all the zones anymore
         String[] itemData;
         String zone = null;
         String itemName = null;
@@ -126,5 +126,13 @@ public class ListFinder {
         }
 
         return result;
+    }
+
+    /**
+     * @return {@link #outPutList()} as a string
+     */
+    @Override
+    public String toString() {
+        return outPutList().toString();
     }
 }
