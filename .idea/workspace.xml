@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_FISH_NODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Fish_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "settings.editor.splitter.proportion": "0.20795107"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -130,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FindItemTest" />
         <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.findAllClosest" />
+        <item itemvalue="JUnit.FindItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +252,13 @@
       <workItem from="1667638314398" duration="3106000" />
       <workItem from="1667698739323" duration="1003000" />
       <workItem from="1667728656372" duration="1817000" />
-      <workItem from="1667753120489" duration="796000" />
+      <workItem from="1667753120489" duration="1033000" />
+      <workItem from="1668233621623" duration="2110000" />
+      <workItem from="1668248143931" duration="59000" />
+      <workItem from="1668249070725" duration="645000" />
+      <workItem from="1668475926004" duration="1211000" />
+      <workItem from="1668479642197" duration="809000" />
+      <workItem from="1668480470360" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -543,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666594436649</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together">
+      <created>1667754146215</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1667754146215</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together">
+      <created>1668239055738</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1668239055738</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +581,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="bug fixing to do" />
     <MESSAGE value="bug fix listFinder should be all fine now.&#10;todo: test cases" />
     <MESSAGE value="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)" />
     <MESSAGE value="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();" />
@@ -588,24 +605,30 @@
     <MESSAGE value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
     <MESSAGE value="mergeDupe doesn't work again for fire Shard" />
     <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
-    <option name="LAST_COMMIT_MESSAGE" value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
+    <MESSAGE value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>119</line>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
+          <line>120</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>117</line>
+          <line>113</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindItem.java</url>
-          <line>116</line>
+          <line>117</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

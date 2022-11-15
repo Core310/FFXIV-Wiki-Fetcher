@@ -115,8 +115,7 @@ public class FindItem {
                 item = new Fish_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
-                item = new Fish_Big_Node(delimLine);//FIXME 7/11/2022 When a new fish node is created, the level is left blank, this should not be the case as some levels are left as
-                // 0 this creates a problem when trying to merge
+                item = new Fish_Big_Node(delimLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
                 item = new Fish_Collectable_Node(delimLine);

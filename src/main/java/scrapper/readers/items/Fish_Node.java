@@ -41,7 +41,7 @@ public class Fish_Node extends BaseItem implements Item {
         super(arr[1],arr[2],arr[3],arr[4]);
         type = arr[5];
         fishingLog = arr[6];
-
+        level = Integer.parseInt(arr[7]);
     }
 
     /**
