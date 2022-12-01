@@ -22,6 +22,8 @@ public class Main {
         listFinder.addItem(new String[]{"Shark Tuna", " "});
         listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
         System.out.println(listFinder.outPutList());
+
+        //System.out.println(fi.essentialFindAllClosestAsMap("ic shrd")); //DELETEME
     }
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
@@ -49,7 +51,7 @@ public class Main {
         FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
         //findItem.setNumberOfDuplicateItems(1);
-        for(StringBuilder tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
+        for(String tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
             System.out.println(tmp);
         };
     }

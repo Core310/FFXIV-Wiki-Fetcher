@@ -26,13 +26,7 @@ public class FindItem {
      */
     private final ArrayList<String> currentArray = new ArrayList<>();
     /**
-     * Default value of -1 for infinite number of duplicate.
-     * <br>Shouldn't break if the value is below -1 but just in case.
-     * <br>Using 0 OR 1 will produce no duplicate items.
-     */
-    private int numberOfDuplicateItems =-1;
-    /**
-     * Child of {@link #findAllClosestAsMap(String)} which is also a child of {@link #findAllClosest(String)}
+     * Child (builds off of) of {@link #findAllClosestAsMap(String)} which is also a child of {@link #findAllClosest(String)}
      * The main caller method for findItem. It will output the most important info. For example:
      * <p>Item: Inkfish</p>
      * <p>Zone: The Sea of Clouds</p>
@@ -52,9 +46,9 @@ public class FindItem {
      * @param itemName item to find
      * @return Neatly outputted items
      */
-    public ArrayList<StringBuilder> essentialFindAllClosestAsMap(String itemName){
-        ArrayList<StringBuilder> rtrnArray = new ArrayList<>();//Return value
-        for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){
+    public ArrayList<String> essentialFindAllClosestAsMap(String itemName){
+        ArrayList<String> rtrnArray = new ArrayList<>();//Return value
+        for(LinkedHashMap<String,String> lhm: findAllClosestAsMap(itemName)){//Per item (represented as a stringBuilder)
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
             stringBuilder.append("Zone: ").append(lhm.get("Zone")).append("\n");
@@ -68,7 +62,7 @@ public class FindItem {
                 stringBuilder.append("Time: ").append(lhm.get("Time")).append("\n");
             if(lhm.get("FolkLore Tome") != null)
                 stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
-            rtrnArray.add(stringBuilder);
+            rtrnArray.add(stringBuilder.toString());
         }
         return rtrnArray;
     }
@@ -274,28 +268,6 @@ public class FindItem {
         }
         return currentArray;
     }
-    @Deprecated
-    private void removeDuplicate(){//TODO 23/10/2022 Remove this method
-        if(currentArray.size() ==1 || numberOfDuplicateItems == -1)
-            return;//base case
-        HashMap<String,Integer> hmap = new HashMap<>();
-        String curItem;
-        for(int i =0;i<currentArray.size();i++){
-            curItem = currentArray.get(i).split("\t",-1)[1];// should grab the item name (i hope)
-
-            if(!hmap.containsKey(curItem)){
-                hmap.put(curItem,1);
-            }
-            else {
-                if(hmap.get(curItem) >= numberOfDuplicateItems){
-                    currentArray.remove(i);
-                    i--;
-                    continue;
-                }
-                hmap.put(curItem,hmap.get(curItem)+1);
-            }
-        }
-    }
 
 
     /**
@@ -307,9 +279,5 @@ public class FindItem {
     protected String findAnyMatching(String itemName){
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
-    }
-@Deprecated
-    public void setNumberOfDuplicateItems(int numberOfDuplicateItems) {
-        this.numberOfDuplicateItems = numberOfDuplicateItems;
     }
 }

@@ -45,7 +45,7 @@ public class DuplicateTest {
         FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
         //findItem.setNumberOfDuplicateItems(1);
-        for(StringBuilder tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
+        for(String tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
             System.out.println(tmp);
         };
     }
