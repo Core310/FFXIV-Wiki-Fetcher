@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, still trying to find and delete duplicate values.">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Major refactor, moving stream map to a regular map in makeGroupedZone method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/DuplicateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowJson Helper.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -64,7 +62,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.20795107",
     "vue.rearranger.settings.migration": "true"
   }
@@ -290,7 +288,12 @@
       <workItem from="1669788793855" duration="2965000" />
       <workItem from="1669801138450" duration="4029000" />
       <workItem from="1669814226010" duration="852000" />
-      <workItem from="1669871744775" duration="10857000" />
+      <workItem from="1669871744775" duration="11033000" />
+      <workItem from="1669900367732" duration="443000" />
+      <workItem from="1669901072107" duration="1070000" />
+      <workItem from="1669956521741" duration="2297000" />
+      <workItem from="1669959992925" duration="39000" />
+      <workItem from="1669960047059" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -621,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668507183907</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)">
+      <created>1669892309087</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669892309087</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,8 +651,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fixed duplciate (adding to internal array) detection. Still working on the appending value detection." />
-    <MESSAGE value="doesnt work right now, see line 214 FindItem.java&#10;the .contains method doesn't detect like that" />
     <MESSAGE value="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data." />
     <MESSAGE value="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)" />
     <MESSAGE value="Currently the item is just copying itself and not actually merging the values" />
@@ -666,14 +674,16 @@
     <MESSAGE value="finished some base test cases, still have several more to go. Just set an example of what future ones should look like" />
     <MESSAGE value="Finished duplicate testss" />
     <MESSAGE value="added a toString to ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a toString to ListFinder.java" />
+    <MESSAGE value="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)" />
+    <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>59</line>
+          <line>63</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

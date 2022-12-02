@@ -45,13 +45,14 @@ public class ListFinder {
         }//Builds groupedZones ^^
         //Then build the sortedGroupedZone
         Stream<Map.Entry<String, ArrayList<String[]>>> sortedStreamGroup = groupedZones.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
-        List<Map.Entry<String, ArrayList<String[]>>> sortedGroupedZones = sortedStreamGroup.toList();
+        List<Map.Entry<String, ArrayList<String[]>>> sortedGroupedZones = sortedStreamGroup.toList();//FIXME 1/12/2022 stream->map and not mapEntry
+        //^ See this post: https://www.digitalocean.com/community/tutorials/sort-hashmap-by-value-java
         ArrayList<String> items = new ArrayList<>();
         for (Map.Entry<String, ArrayList<String[]>> keyIndex : sortedGroupedZones) {//Traverse thru keys
             for (int itemContainerIndex = 0; itemContainerIndex < keyIndex.getValue().size(); itemContainerIndex++){ //Traverse through the values (which are ArrayLists)
                     String itemName = keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1];
                     if (items.contains(itemName)) {
-                        keyIndex.getValue().remove(itemContainerIndex);
+                        keyIndex.
                         //TODO 1/12/2022 Figure out how to check if the key's value is empty and remvoe the key from the map
                         continue;
                     }
