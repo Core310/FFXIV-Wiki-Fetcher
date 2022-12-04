@@ -62,7 +62,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.toDoOptions",
     "settings.editor.splitter.proportion": "0.20795107",
     "vue.rearranger.settings.migration": "true"
   }
@@ -293,7 +293,12 @@
       <workItem from="1669901072107" duration="1070000" />
       <workItem from="1669956521741" duration="2297000" />
       <workItem from="1669959992925" duration="39000" />
-      <workItem from="1669960047059" duration="128000" />
+      <workItem from="1669960047059" duration="151000" />
+      <workItem from="1669974496676" duration="1074000" />
+      <workItem from="1670044835258" duration="591000" />
+      <workItem from="1670083414343" duration="1755000" />
+      <workItem from="1670128013997" duration="355000" />
+      <workItem from="1670166500294" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="made tmp file to read from">
       <created>1661087795662</created>
@@ -631,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669892309087</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Major refactor, moving stream map to a regular map in makeGroupedZone method.">
+      <created>1669960188583</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669960188583</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +695,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>63</line>
+          <line>86</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
