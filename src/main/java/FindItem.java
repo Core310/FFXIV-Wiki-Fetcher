@@ -12,8 +12,9 @@ import java.util.*;
 
 /**
  * FuzzySearch implementation to find an ITEM in the file.
- * <p>After the main file has been loaded with data and formatted, this class is used to find a certain item.</p>
+ * <p>After the main file has been loaded with data and formatted, this class is used to find a certain item for listFinder</p>
  * It has a default constructor to assign a file.
+ * @see ListFinder
  * @see StaticItemTypes
  * @see scrapper.readers.items
  */

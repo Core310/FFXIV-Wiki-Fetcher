@@ -6,7 +6,7 @@ import java.util.stream.Stream;
  * Works by grouping together teleports in the list.
  */
 public class ListFinder {
-    private final FindItem findItem = new FindItem();//We don't want to create a new FindItem every addItem call
+    private final FindItem findItem = new FindItem();
     /**
      * Container of formatted items where {@literal ArrayList<ArrayList<Item>>} aka {@literal ArrayList<ItemGroup<Data of one item>>}
      */
@@ -44,14 +44,16 @@ public class ListFinder {
      * <br> Uses a stream to sort the entries with a comparator (linked in @see).
      * <br> Then iterates through TODO after done with the converting to a map
      * @return deletes all duplicate items, only saving 1 copy instanced with the highest amount of items in one zone.
+     * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private List<Map.Entry<String, ArrayList<String[]>>> formatGroupedZones(){ //TODO 4/12/2022 In every zone, is every item guaranteed to be unique? If not how to catch, what to do?
+    private List<Map.Entry<String, ArrayList<String[]>>> formatGroupedZones(){
         LinkedHashMap<String,ArrayList<String[]>> groupedZones = buildGroupedZones();
         //Then build the sortedGroupedZone Below
         Stream<Map.Entry<String, ArrayList<String[]>>> sortedStreamGroup = groupedZones.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
+
         List<Map.Entry<String, ArrayList<String[]>>> sortedGroupedZones = sortedStreamGroup.toList();//FIXME FIRST ISSUE TO ADDRESS 1/12/2022 stream->map and not mapEntry (See above)
-        /*^ See this post: https://www.digitalocean.com/community/tutorialsx/sort-hashmap-by-value-java
+        /*^
         Basically, create a list of the values, sort it, then itr thru each value. when reach said value,
          just put that in first into a new LHM with the corresponding key in the original map.
         Once mapEntry is changed to map, reflect changes here. Itr thru map keys -> values (Arraylist) -> Strings inside arraylist (value = itemData).
@@ -78,7 +80,7 @@ public class ListFinder {
      * <br> Builds an internal container grouping all items together by their respective zone and deletes any duplicate items from most to the least sized zones.
      * <ul> Some notes
      * <li> The reason this is not merged with the addItem method is so we can group the zones first, find the highest number of zone items, THEN remove the duplicates.</li>
-     * <li> This method is called inside the {@link #outPutList()}</li>
+     * <li> This method is called inside the {@link #toString()}</li>
      * <li> Time complexity of O(n^2)</li>
      * </ul>
      * @return {@link #formatGroupedZones()} which is zones sorted by group, with removed duplicate items.
@@ -91,7 +93,8 @@ public class ListFinder {
      * <br>Stems from the final method call {@link #makeGroupedZones()}.
      * @return Neatly returns list
      */
-    public String outPutList(){
+    @Override
+    public String toString() {
         StringBuilder sb = new StringBuilder();
         StringBuilder value = new StringBuilder();
         for(Map.Entry<String, ArrayList<String[]>> map: makeGroupedZones()) {
@@ -101,7 +104,7 @@ public class ListFinder {
             value = new StringBuilder();
         }
         return sb.toString();
-        }
+    }
 
     /**
      * Adds a search key to global list {@link #allItems} to return using findItem.essentialFindAllClosestAsMap.
@@ -110,10 +113,7 @@ public class ListFinder {
      */
     public void addItem(String searchKey){
         allItems.add(findItem.essentialFindAllClosestAsMap(searchKey));
-    }//TODO 4/12/2022 refactor so that it will constantly update the internal map to give the most up to date data? It would have horrible time complexity/efficiency
-
-    //TODO 4/12/2022 Add method to delete search key from the current final map
-
+    }
     /**
      * Bulk call several items (Mainly used for testing)
      * @param items Array input of items a user is looking for
@@ -123,4 +123,11 @@ public class ListFinder {
             addItem(str);
         }
     }
+
+    public void clearQueries(){
+        allItems.clear();
+    }
+
+    //TODO 4/12/2022 Add method to delete element from return list
+
 }

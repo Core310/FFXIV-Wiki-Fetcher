@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Major refactor, moving stream map to a regular map in makeGroupedZone method.">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.toDoOptions",
+    "settings.editor.selected.configurable": "vcs.Git",
     "settings.editor.splitter.proportion": "0.20795107",
     "vue.rearranger.settings.migration": "true"
   }
@@ -298,14 +304,17 @@
       <workItem from="1670044835258" duration="591000" />
       <workItem from="1670083414343" duration="1755000" />
       <workItem from="1670128013997" duration="355000" />
-      <workItem from="1670166500294" duration="2699000" />
-    </task>
-    <task id="LOCAL-00001" summary="made tmp file to read from">
-      <created>1661087795662</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1661087795662</updated>
+      <workItem from="1670166500294" duration="3044000" />
+      <workItem from="1670679667498" duration="876000" />
+      <workItem from="1671247984124" duration="1952000" />
+      <workItem from="1671301484532" duration="685000" />
+      <workItem from="1673709505337" duration="128000" />
+      <workItem from="1673709670620" duration="281000" />
+      <workItem from="1674096615601" duration="122000" />
+      <workItem from="1674097333645" duration="2964000" />
+      <workItem from="1674101035822" duration="3015000" />
+      <workItem from="1674115024433" duration="2135000" />
+      <workItem from="1674117694088" duration="4803000" />
     </task>
     <task id="LOCAL-00002" summary="can now read from resource folder (hopefully)">
       <created>1661088562862</created>
@@ -643,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669960188583</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!">
+      <created>1670169535995</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169535995</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,8 +679,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data." />
-    <MESSAGE value="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)" />
     <MESSAGE value="Currently the item is just copying itself and not actually merging the values" />
     <MESSAGE value="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt" />
     <MESSAGE value="Code cleanup" />
@@ -688,18 +702,11 @@
     <MESSAGE value="added a toString to ListFinder.java" />
     <MESSAGE value="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)" />
     <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
+    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!" />
+    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />
