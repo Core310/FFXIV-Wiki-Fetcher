@@ -21,6 +21,8 @@ public class Main {
         listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange","Cock Feather","Cloves","Black Pepper"});
         System.out.println(listFinder.toString());
     }
+
+    /*
     private static void searchMap(String itemName){
         FindItem fi  = new FindItem();
         for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
@@ -40,9 +42,6 @@ public class Main {
             System.out.println(cur);
     }
 
-    /**
-     * Test  method to search the file for certain values.
-     */
     private static void searchFile(String itemnam) {
         FindItem findItem = new FindItem();
         ArrayList<StringBuilder> arr;
@@ -51,6 +50,8 @@ public class Main {
             System.out.println(tmp);
         };
     }
+
+     */
 
     /**
      * Test method to make the file

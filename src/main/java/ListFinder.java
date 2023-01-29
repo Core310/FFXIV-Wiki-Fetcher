@@ -1,3 +1,4 @@
+import java.rmi.UnexpectedException;
 import java.util.*;
 import java.util.stream.Stream;
 
@@ -68,11 +69,15 @@ public class ListFinder {
     private LinkedHashMap<String,ArrayList<String[]>> formatGroupedZones(){//UNFINISHED Rebuild this whole method
         ArrayList<String> itemsVisited = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
         LinkedHashMap<String,ArrayList<String[]>> zoneGroups = buildGroupedZones();
-        for(int i =0;i<zoneGroups.keySet().size();i++){
-
+        for(String zone: zoneGroups.keySet()){
+            for(String[] item: zoneGroups.get(zone)){
+                String itemName = item[2];
+                if(itemsVisited.contains(itemName))
+                    zoneGroups.get(zone).remove(item);
+                else
+                    itemsVisited.add(itemName);
+            }
         }
-        //Then build the sortedGroupedZone Below
-
         /*^
         itr thru each value.
            when reach said value,
@@ -80,23 +85,8 @@ public class ListFinder {
         Once mapEntry is changed to map, reflect changes here.
          Itr thru map keys -> values (Arraylist) -> Strings inside arraylist (value = itemData).
         If item is present in the items array, do not add it to the final return map (basically skip adding the value)
-        */
-
-        /*
-        for(Map.Entry<String,ArrayList<String[]>> entry: sortedStreamGroup)
-        for () {//Traverse through keys
-            for (){ //Traverse through the values (which are ArrayLists)
-                String itemName = keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1];
-                if (itemsMet.contains(itemName)) {
-                    //TODO 4/12/2022 Delete the current value
-
-                    continue;
-                }
-                itemsMet.add(keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1]); //Add item name to array of items.
-            }
-        }
-         *///UNFINISHED
-            return null;
+         */
+            return zoneGroups;
     }
 
     /**
@@ -104,6 +94,8 @@ public class ListFinder {
      */
     @Override
     public String toString() {
+        if(formatGroupedZones().values().isEmpty())
+            throw new RuntimeException("formatGroupedZones should never be empty");
         StringBuilder sb = new StringBuilder();
         for (ArrayList<String[]> arr : formatGroupedZones().values()) {
             for(String[] st: arr)
