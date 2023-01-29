@@ -105,7 +105,7 @@ public class ListFinder {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (ArrayList<String[]> arr : buildGroupedZones().values()) {
+        for (ArrayList<String[]> arr : formatGroupedZones().values()) {
             for(String[] st: arr)
                 System.out.println(Arrays.toString(st)); //DELETEME
                 //sb.append(Arrays.toString(st)).append("\n");
