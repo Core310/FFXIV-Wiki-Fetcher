@@ -13,7 +13,7 @@ class ListFinderTest {
      */
     private String testHelper(String[] arr){
         listFinder.addItem(arr);
-        return listFinder.outPutList().toString();
+        return null;//TODO 29/1/2023 Use toString method instead
     }
 
     @Test
