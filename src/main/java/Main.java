@@ -18,8 +18,7 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
-        listFinder.addItem(new String[]{"Shark Tuna", " "});
-        listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange"});
+        listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange","Cock Feather","Cloves","Black Pepper"});
         System.out.println(listFinder.toString());
     }
     private static void searchMap(String itemName){

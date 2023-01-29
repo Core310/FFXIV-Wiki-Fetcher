@@ -11,6 +11,10 @@ public class ListFinder {
      * Container of formatted items where {@literal ArrayList<ArrayList<Item>>} aka {@literal ArrayList<ItemGroup<Data of one item>>}
      */
     private final ArrayList<ArrayList<String>> allItems = new ArrayList<>();
+    public Object outPutList() {
+        return null;
+    }//TODO 25/1/2023 DELETE
+
     /**
      * A Comparator to sort an internal map by its value.
      * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
@@ -27,7 +31,7 @@ public class ListFinder {
      * @return unsorted zones with item data attached like so:
      * <br>{@literal Map<Zone,ItemContainer<ItemData>>} where ItemData is split by "\n.
      */
-    private LinkedHashMap<String,ArrayList<String[]>> buildGroupedZones(){
+    private LinkedHashMap<String,ArrayList<String[]>> buildGroupedZones(){//TODO 25/1/2023 update comment^
         LinkedHashMap<String,ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
         for(ArrayList<String> itemContainer: allItems){//Represents one query where the strings inside the ArrayList is itemData
             for(String itemData: itemContainer) {//Represent one item's data where each value is seperated by "\n"
@@ -36,43 +40,66 @@ public class ListFinder {
                 groupedZones.get(itemData.split("\n")[1]).add(itemData.split("\n",-1));//Add values into groupedZones.
             }
         }
-        return groupedZones;
+        return sortByValue(groupedZones);
+    }
+
+    /**
+     * Sorts the given lhm (hopefully works) by value.
+     * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
+     * @param map from {@link #buildGroupedZones()}
+     * @return sorted map to go to {@link #formatGroupedZones()}
+     */
+    private static LinkedHashMap<String,ArrayList<String[]>> sortByValue(LinkedHashMap<String,ArrayList<String[]>> map) {
+        Stream<Map.Entry<String, ArrayList<String[]>>> entryStream = map.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
+        List<Map.Entry<String,ArrayList<String[]>>> list = entryStream.toList();
+        LinkedHashMap<String,ArrayList<String[]>> sortedMap = new LinkedHashMap<>();
+        list.forEach(e -> sortedMap.put(e.getKey(), e.getValue()));
+        return sortedMap;
     }
 
     /**
      * {@link #buildGroupedZones()} is always called first in this method.
-     * <br> Uses a stream to sort the entries with a comparator (linked in @see).
-     * <br> Then iterates through TODO after done with the converting to a map
+     *
+     * <br>
      * @return deletes all duplicate items, only saving 1 copy instanced with the highest amount of items in one zone.
      * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private List<Map.Entry<String, ArrayList<String[]>>> formatGroupedZones(){
+    private List<Map.Entry<String, ArrayList<String[]>>> formatGroupedZones(){//UNFINISHED Rebuild this whole method
+
+        ArrayList<String> itemsMet = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
         LinkedHashMap<String,ArrayList<String[]>> groupedZones = buildGroupedZones();
         //Then build the sortedGroupedZone Below
         Stream<Map.Entry<String, ArrayList<String[]>>> sortedStreamGroup = groupedZones.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
+        LinkedHashMap<String,ArrayList<String[]>> sortedZones = new LinkedHashMap<>();
 
-        List<Map.Entry<String, ArrayList<String[]>>> sortedGroupedZones = sortedStreamGroup.toList();//FIXME FIRST ISSUE TO ADDRESS 1/12/2022 stream->map and not mapEntry (See above)
         /*^
-        Basically, create a list of the values, sort it, then itr thru each value. when reach said value,
-         just put that in first into a new LHM with the corresponding key in the original map.
-        Once mapEntry is changed to map, reflect changes here. Itr thru map keys -> values (Arraylist) -> Strings inside arraylist (value = itemData).
+        create a list of values,
+         sort it,
+          then itr thru each value.
+           when reach said value,
+          put first into a new LHM with corresponding key in the original map.
+        Once mapEntry is changed to map, reflect changes here.
+         Itr thru map keys -> values (Arraylist) -> Strings inside arraylist (value = itemData).
         If item is present in the items array, do not add it to the final return map (basically skip adding the value)
         */
 
-        ArrayList<String> items = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
-        for (Map.Entry<String, ArrayList<String[]>> keyIndex : sortedGroupedZones) {//Traverse through keys
-            for (int itemContainerIndex = 0; itemContainerIndex < keyIndex.getValue().size(); itemContainerIndex++){ //Traverse through the values (which are ArrayLists)
+        /*
+        for(Map.Entry<String,ArrayList<String[]>> entry: sortedStreamGroup)
+        for () {//Traverse through keys
+            for (){ //Traverse through the values (which are ArrayLists)
                 String itemName = keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1];
-                if (items.contains(itemName)) {
+                if (itemsMet.contains(itemName)) {
                     //TODO 4/12/2022 Delete the current value
+
                     continue;
                 }
-                items.add(keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1]); //Add item name to array of items.
+                itemsMet.add(keyIndex.getValue().get(itemContainerIndex)[0].split("Item: ")[1]); //Add item name to array of items.
             }
         }
-        return sortedGroupedZones;
-    }//UNFINISHED see fixmes
+         *///UNFINISHED
+            return null;
+    }
 
 
     /**
@@ -83,25 +110,19 @@ public class ListFinder {
      * <li> This method is called inside the {@link #toString()}</li>
      * <li> Time complexity of O(n^2)</li>
      * </ul>
+     *
      * @return {@link #formatGroupedZones()} which is zones sorted by group, with removed duplicate items.
      */
-    private List<Map.Entry<String, ArrayList<String[]>>> makeGroupedZones(){
-        return formatGroupedZones();
+    public LinkedHashMap<String, ArrayList<String[]>> makeGroupedZones(){
+        return buildGroupedZones();
         }
-    /**
-     * Last method to call of this class used to get the output.
-     * <br>Stems from the final method call {@link #makeGroupedZones()}.
-     * @return Neatly returns list
-     */
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        StringBuilder value = new StringBuilder();
-        for(Map.Entry<String, ArrayList<String[]>> map: makeGroupedZones()) {
-            for (String[] val : map.getValue())
-                value.append(Arrays.toString(val));
-            sb.append("Key: ").append(map.getKey()).append("\nValue: ").append(value).append("\n");
-            value = new StringBuilder();
+        for (ArrayList<String[]> arr : makeGroupedZones().values()) {
+            for(String[] st: arr)
+                sb.append(Arrays.toString(st)).append("\n");
         }
         return sb.toString();
     }

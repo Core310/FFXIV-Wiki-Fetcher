@@ -30,7 +30,7 @@ class FindItemTest {
      * This test is honestly a little overkill. Look at the other tests first for debugging before looking at this one.
      */
     @org.junit.jupiter.api.Test
-    void essentialFindAllClosestAsMap(){
+    void essentialFindAllClosestAsMap(){//TODO 28/1/2023 Redo some test cases
         assertEquals(
                 """
                         [Item: Crayfish

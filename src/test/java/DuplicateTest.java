@@ -3,6 +3,9 @@ import java.util.LinkedHashMap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * See if any duplicate items appear when searching for a singular item.
+ */
 public class DuplicateTest {
     private FindItem fi = new FindItem();
 
