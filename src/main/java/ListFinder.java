@@ -95,13 +95,14 @@ public class ListFinder {
     @Override
     public String toString() {
         if(formatGroupedZones().values().isEmpty())
-            throw new RuntimeException("formatGroupedZones should never be empty");
+            return "Please add an item to begin";
         StringBuilder sb = new StringBuilder();
         for (ArrayList<String[]> arr : formatGroupedZones().values()) {
             for(String[] st: arr)
                 System.out.println(Arrays.toString(st)); //DELETEME
                 //sb.append(Arrays.toString(st)).append("\n");
         }
+        System.out.println(formatGroupedZones()); //DELETEME
         return sb.toString();
     }
 
