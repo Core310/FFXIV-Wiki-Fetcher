@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,13 +301,6 @@
       <workItem from="1674101035822" duration="3015000" />
       <workItem from="1674115024433" duration="2135000" />
       <workItem from="1674117694088" duration="4803000" />
-    </task>
-    <task id="LOCAL-00002" summary="can now read from resource folder (hopefully)">
-      <created>1661088562862</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1661088562862</updated>
     </task>
     <task id="LOCAL-00003" summary="fixed small input stream bug">
       <created>1661088772291</created>
@@ -647,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670169535995</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1674999847788</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674999847789</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,7 +665,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Currently the item is just copying itself and not actually merging the values" />
     <MESSAGE value="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt" />
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="merge still not working. Missing several values when merging both items. *IS it even merging the items?)&#10;&#10;See: https://ffxiv.consolegameswiki.com/wiki/Big_Fishing" />
@@ -692,7 +689,8 @@
     <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
     <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!" />
     <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

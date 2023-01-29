@@ -20,7 +20,7 @@ public class ListFinder {
     static class descendingArraySize implements Comparator<ArrayList<String[]>> {
         @Override
         public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
-            return o1.size() - o2.size();
+            return Integer.compare(o2.size(), o1.size());
         }
     }
 
@@ -66,15 +66,15 @@ public class ListFinder {
      * @see descendingArraySize
      */
     private LinkedHashMap<String,ArrayList<String[]>> formatGroupedZones(){//UNFINISHED Rebuild this whole method
+        ArrayList<String> itemsVisited = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
+        LinkedHashMap<String,ArrayList<String[]>> zoneGroups = buildGroupedZones();
+        for(int i =0;i<zoneGroups.keySet().size();i++){
 
-        ArrayList<String> itemsMet = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
-        LinkedHashMap<String,ArrayList<String[]>> sortedZones = buildGroupedZones();
+        }
         //Then build the sortedGroupedZone Below
 
         /*^
-        create a list of values,
-         sort it,
-          then itr thru each value.
+        itr thru each value.
            when reach said value,
           put first into a new LHM with corresponding key in the original map.
         Once mapEntry is changed to map, reflect changes here.
@@ -105,9 +105,10 @@ public class ListFinder {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (ArrayList<String[]> arr : formatGroupedZones().values()) {
+        for (ArrayList<String[]> arr : buildGroupedZones().values()) {
             for(String[] st: arr)
-                sb.append(Arrays.toString(st)).append("\n");
+                System.out.println(Arrays.toString(st)); //DELETEME
+                //sb.append(Arrays.toString(st)).append("\n");
         }
         return sb.toString();
     }
