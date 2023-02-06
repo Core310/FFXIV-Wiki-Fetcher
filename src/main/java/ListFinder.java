@@ -73,7 +73,7 @@ public class ListFinder {
      * @see descendingArraySize
      */
     private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Not working rn debugging
-        HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item so I dont have to manually load everything?
+        HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item, so I don't have to manually load everything?
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())
             for (int itemIndex =0;itemIndex< zoneGroups.get(zone).size();itemIndex++) {//An enhanced for-loop was not used because it did not work in the .remove method
@@ -86,21 +86,15 @@ public class ListFinder {
             }
         return zoneGroups;
     }
-
     /**
      * @return Input list items grouped by zone, with each item only occurring once. If an item occurs in a zone with many items, it will be deleted from the rest of the zones.
      */
     @Override
     public String toString() {
-        if (formatGroupedZones().values().isEmpty())
-            return "Please add an item to begin";
         StringBuilder sb = new StringBuilder();
-        for (ArrayList<String[]> arr : formatGroupedZones().values()) {
+        for (ArrayList<String[]> arr : formatGroupedZones().values())
             for (String[] st : arr)
-                System.out.println(Arrays.toString(st)); //DELETEME
-            //sb.append(Arrays.toString(st)).append("\n");
-        }
-        System.out.println(formatGroupedZones()); //DELETEME
+                sb.append(Arrays.toString(st)).append("\n");
         return sb.toString();
     }
 
