@@ -4,6 +4,7 @@ import java.util.LinkedHashMap;
 
 /**
  * Used to enforce the method toLinkedHashmap. Should be implemented by every item (denoted by their suffix of '_Node'
+ *
  * @see BaseItem
  */
 public interface Item {

@@ -3,7 +3,6 @@ package scrapper.fileCreator;
 import scrapper.readers.items.baseNode.StaticItemTypes;
 
 import java.io.*;
-import java.rmi.UnexpectedException;
 
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
@@ -11,6 +10,7 @@ import static scrapper.readers.items.baseNode.StaticItemTypes.*;
  * Puts an ITEM tag infront of each item for ease of reading and formats every item.
  * <p>Order of methods run: formatFile -> setCurrentType -> formattedItem</p>
  * Simply call the constructor to run this class.
+ *
  * @see ItemBuilder
  * @see MakeFile
  */
@@ -20,9 +20,10 @@ public class Formatter {
 
     /**
      * Default constructor, should be the only one needed.
+     *
      * @param file File to run on.
      */
-    public Formatter(String file){
+    public Formatter(String file) {
         this.file = file;
         formatFile();
     }
@@ -31,11 +32,11 @@ public class Formatter {
      * A helper method for formattedItem()
      * Looks at current line, if is a header that describes an item type, sets global var itemType to whatever that current item is.
      * If it is not an item, such as an ending header, or is data, it will return either Delete, or Ignore where Ignore = data.
+     *
      * @param curLine Current line to look at
      * @return One of the StaticItemTypes
-     *
      */
-    private StaticItemTypes setCurrentType(String curLine){
+    private StaticItemTypes setCurrentType(String curLine) {
         switch (curLine) {
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
                 itemType = FOLK_LORE_NODE;
@@ -53,31 +54,31 @@ public class Formatter {
                 itemType = UNSPOILED_NODE;
                 return DELETE;
             }
-            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" ->{
+            case "Time\tItem\tSlot #\tLocation\tCoordinate\tExtra\tStar" -> {
                 itemType = ARR_UNSPOILED_NODE;
                 return DELETE;
             }
-            case "Fishing Log\tLevel\tType\tCoordinates\tFish\tBait Used" ->{
+            case "Fishing Log\tLevel\tType\tCoordinates\tFish\tBait Used" -> {
                 itemType = FISH_NODE;
                 return DELETE;
             }
-            case "Fish\tZone\tFishing Hole\t(X,Y)\tEorzea Time\tWeather\tBait\tMooch\tGathering\tDesynth Rewards" ->{
+            case "Fish\tZone\tFishing Hole\t(X,Y)\tEorzea Time\tWeather\tBait\tMooch\tGathering\tDesynth Rewards" -> {
                 itemType = FISH_BIG_NODE;
                 return DELETE;
             }
-            case "Item\tMin. Collectability\tLocation\tCatch Method\tTime/Weather\tScrips\tAdditional Info" ->{
+            case "Item\tMin. Collectability\tLocation\tCatch Method\tTime/Weather\tScrips\tAdditional Info" -> {
                 itemType = FISH_COLLECTABLES_NODE;
                 return DELETE;
             }
-            case "Time\tZone\tCoordinates\tClosest Teleport\tItems\tItems gained from Aetherial Reduction" ->{
+            case "Time\tZone\tCoordinates\tClosest Teleport\tItems\tItems gained from Aetherial Reduction" -> {
                 itemType = EPHEMERAL_NODE;
                 return DELETE;
             }
-            case "Conditions\tZone\tCoordinates\tClosest Teleport\tFish Name\tWeather\tBait\tItems gained from Aetherial Reduction"->{
+            case "Conditions\tZone\tCoordinates\tClosest Teleport\tFish Name\tWeather\tBait\tItems gained from Aetherial Reduction" -> {
                 itemType = EPHEMERAL_FISH_NODE;
                 return DELETE;
             }
-            case "Aethersand wanted\tGained from"->{
+            case "Aethersand wanted\tGained from" -> {
                 itemType = SKIP;
                 return DELETE;
             }
@@ -86,8 +87,7 @@ public class Formatter {
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
                     "Botanist\tMiner\tFisher",
                     "Gathering",
-                    ""
-                    -> {
+                    "" -> {
                 return DELETE;
             }
         }
@@ -97,51 +97,52 @@ public class Formatter {
     /**
      * A helper method to format().
      * itemType Determined from an item return value when setCurrentType returns Ignore (data to extract). (See StaticItemTypes method)
+     *
      * @return New line that should replace the old line.
      * @see ItemBuilder
      */
-    private String formattedItem(String[] csvValues){
+    private String formattedItem(String[] csvValues) {
         ItemBuilder itemBuilder = new ItemBuilder();
         StringBuilder stringBuilder = new StringBuilder(); //String to replace the current line read in
-        switch (itemType){
-            case REGULAR_NODE:{
+        switch (itemType) {
+            case REGULAR_NODE: {
                 stringBuilder = itemBuilder.build_REGULAR_NODE(csvValues);
                 break;
             }
-            case FOLK_LORE_NODE:{
+            case FOLK_LORE_NODE: {
                 stringBuilder = itemBuilder.build_FOLK_LORE_NODE(csvValues);
                 break;
             }
-            case FOLK_LORE_FISH_NODE:{
+            case FOLK_LORE_FISH_NODE: {
                 stringBuilder = itemBuilder.build_FOLK_LORE_FISH_NODE(csvValues);
                 break;
             }
-            case UNSPOILED_NODE:{
+            case UNSPOILED_NODE: {
                 stringBuilder = itemBuilder.build_UNSPOILED_NODE(csvValues);
                 break;
             }
-            case ARR_UNSPOILED_NODE:{
+            case ARR_UNSPOILED_NODE: {
                 stringBuilder = itemBuilder.build_ARR_UNSPOILED_NODE(csvValues);
                 break;
             }//When an unspoiled node is an ARR one use this instead.
-            case FISH_NODE:{
+            case FISH_NODE: {
                 stringBuilder = itemBuilder.build_FISH_NODE(csvValues);
                 break;
             }
 
-            case FISH_BIG_NODE:{
+            case FISH_BIG_NODE: {
                 stringBuilder = itemBuilder.build_FISH_BIG_NODE(csvValues);
                 break;
             }
-            case FISH_COLLECTABLES_NODE:{
+            case FISH_COLLECTABLES_NODE: {
                 stringBuilder = itemBuilder.build_FISH_COLLECTABLES_NODE(csvValues);
                 break;
             }
-            case EPHEMERAL_NODE:{
+            case EPHEMERAL_NODE: {
                 stringBuilder = itemBuilder.build_EPHEMERAL_NODE(csvValues);
                 break;
             }
-            case EPHEMERAL_FISH_NODE:{
+            case EPHEMERAL_FISH_NODE: {
                 stringBuilder = itemBuilder.build_EPHEMERAL_FISH_NODE(csvValues);
                 break;
             }
@@ -165,7 +166,7 @@ public class Formatter {
      * <p>Reads line by line with a Buffered reader and writer, putts into queue, and replaces each line.
      * <p>This method creates several duplicate items and has another method called later on.
      */
-    private void formatFile(){
+    private void formatFile() {
         try {
             File tmp = File.createTempFile("tmp", "");//Creates a tmp file to write to, then finally replaces the main file.
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -173,10 +174,10 @@ public class Formatter {
             String currentLine; //Current line
             String[] csvValues;//Current line read in as CSV in an array
 
-            while((currentLine = br.readLine()) != null) {
-                if(currentLine.isBlank())
+            while ((currentLine = br.readLine()) != null) {
+                if (currentLine.isBlank())
                     continue;//Because I continue, nothing is ever written to the new file and hence can be ignored.
-                csvValues = currentLine.split("\t",-1); //Load all values into an array. Used to normalize items
+                csvValues = currentLine.split("\t", -1); //Load all values into an array. Used to normalize items
 
                 switch (setCurrentType(currentLine)) { //Cases to find item type
                     //If header: Set a new ItemType

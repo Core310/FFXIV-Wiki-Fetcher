@@ -5,9 +5,9 @@ import scrapper.fileCreator.Formatter;
 import scrapper.fileCreator.MakeFile;
 import scrapper.fileCreator.Wikipages;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 @SuppressWarnings("ALL")
 /**
@@ -16,9 +16,10 @@ import java.util.LinkedHashMap;
  */
 public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
+
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
-        listFinder.addItem(new String[]{"Fire sh", "ic shrd","water sha", "wind sha", "orange","Cock Feather","Cloves","Black Pepper"});
+        listFinder.addItem(new String[]{"Fire sh", "ic shrd", "water sha", "wind sha", "orange", "Cock Feather", "Cloves", "Black Pepper"});
         System.out.println(listFinder.toString());
     }
 
@@ -30,7 +31,6 @@ public class Main {
             System.out.println(lm.values());
         }
     }
-
     private static void searchAllRaw(String itemName){
         FindItem fi = new FindItem();
         //String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
@@ -50,7 +50,6 @@ public class Main {
             System.out.println(tmp);
         };
     }
-
      */
 
     /**
@@ -58,10 +57,10 @@ public class Main {
      */
     private static void makeFile() throws IOException {
         File XIVGather = new File(FileName);
-        FileWriter fileWriter = new FileWriter(XIVGather,false);
-        MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
-        Document doc ;//jsoup doc
-        for(Wikipages wikipages: Wikipages.values()){
+        FileWriter fileWriter = new FileWriter(XIVGather, false);
+        MakeFile makeFile = new MakeFile(XIVGather, fileWriter);
+        Document doc;//jsoup doc
+        for (Wikipages wikipages : Wikipages.values()) {
             String link = Jsoup.clean(wikipages.toString(), Safelist.basic());//*may* produce a bug. Delete this line if tes cases do not run.
             doc = Jsoup.connect(link).get();
             makeFile.setParsedPage(doc);//Fetches webpage data to extract

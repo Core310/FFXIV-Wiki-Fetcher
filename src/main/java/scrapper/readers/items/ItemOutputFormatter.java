@@ -13,24 +13,26 @@ import java.util.Queue;
 public class ItemOutputFormatter {
     private final Queue<String> queue = new LinkedList<>();
     private final String delimiter = "\t";
+
     /**
      * Params are for normalization and declutter. All params are shared by every item and will appear FIRST in their listing.
      */
-    protected ItemOutputFormatter(String itemName, String zone, String cords,String extra){
-        String[] str = {itemName,zone,cords,extra};
+    protected ItemOutputFormatter(String itemName, String zone, String cords, String extra) {
+        String[] str = {itemName, zone, cords, extra};
         queue.addAll(List.of(str));
     }
 
     /**
      * @param element adds an array of elements to a private queue.
      */
-    protected void addElements(String[] element){
+    protected void addElements(String[] element) {
         queue.addAll(Arrays.asList(element));
     }
 
 
     /**
      * Takes all inputted values, separates them by the default delimiter (in this case \t) and outputs it in a string
+     *
      * @return inputted values seperated by delim
      */
     @Override
@@ -40,7 +42,7 @@ public class ItemOutputFormatter {
             stringBuilder.append(queue.poll());
             stringBuilder.append(delimiter);//Appends whatever is the desired delimiter
         }
-        stringBuilder.deleteCharAt(stringBuilder.length()-1);
+        stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         return stringBuilder.toString();
     }
     //Append items to a custom array. Output by TSV using a for-loop

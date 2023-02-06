@@ -16,14 +16,19 @@ public class ListFinder {
     private final ArrayList<ArrayList<String>> calledItems = new ArrayList<>();
 
     /**
-     * Used by: {@link #sortByValue(LinkedHashMap)}
-     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
+     * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
+     * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
+     *
+     * @param map from {@link #buildGroupedZones()}
+     * @return sorted map to go to {@link #formatGroupedZones()}
+     * @see descendingArraySize
      */
-    static class descendingArraySize implements Comparator<ArrayList<String[]>> {
-        @Override
-        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
-            return Integer.compare(o2.size(), o1.size());
-        }
+    private static LinkedHashMap<String, ArrayList<String[]>> sortByValue(LinkedHashMap<String, ArrayList<String[]>> map) {
+        Stream<Map.Entry<String, ArrayList<String[]>>> entryStream = map.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
+        List<Map.Entry<String, ArrayList<String[]>>> list = entryStream.toList();
+        LinkedHashMap<String, ArrayList<String[]>> sortedMap = new LinkedHashMap<>();
+        list.forEach(e -> sortedMap.put(e.getKey(), e.getValue()));
+        return sortedMap;
     }
 
     /**
@@ -48,22 +53,6 @@ public class ListFinder {
     }
 
     /**
-     * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
-     * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
-     *
-     * @param map from {@link #buildGroupedZones()}
-     * @return sorted map to go to {@link #formatGroupedZones()}
-     * @see descendingArraySize
-     */
-    private static LinkedHashMap<String, ArrayList<String[]>> sortByValue(LinkedHashMap<String, ArrayList<String[]>> map) {
-        Stream<Map.Entry<String, ArrayList<String[]>>> entryStream = map.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
-        List<Map.Entry<String, ArrayList<String[]>>> list = entryStream.toList();
-        LinkedHashMap<String, ArrayList<String[]>> sortedMap = new LinkedHashMap<>();
-        list.forEach(e -> sortedMap.put(e.getKey(), e.getValue()));
-        return sortedMap;
-    }
-
-    /**
      * {@link #buildGroupedZones()} is always called first in this method.
      *
      * <br>
@@ -76,7 +65,7 @@ public class ListFinder {
         HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item, so I don't have to manually load everything?
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())
-            for (int itemIndex =0;itemIndex< zoneGroups.get(zone).size();itemIndex++) {//An enhanced for-loop was not used because it did not work in the .remove method
+            for (int itemIndex = 0; itemIndex < zoneGroups.get(zone).size(); itemIndex++) {//An enhanced for-loop was not used because it did not work in the .remove method
                 String[] item = zoneGroups.get(zone).get(itemIndex);
                 String itemName = item[0];
                 if (itemsVisited.contains(itemName))
@@ -86,6 +75,7 @@ public class ListFinder {
             }
         return zoneGroups;
     }
+
     /**
      * @return Input list items grouped by zone, with each item only occurring once. If an item occurs in a zone with many items, it will be deleted from the rest of the zones.
      */
@@ -121,6 +111,17 @@ public class ListFinder {
 
     public void clearQueries() {
         calledItems.clear();
+    }
+
+    /**
+     * Used by: {@link #sortByValue(LinkedHashMap)}
+     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
+     */
+    static class descendingArraySize implements Comparator<ArrayList<String[]>> {
+        @Override
+        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
+            return Integer.compare(o2.size(), o1.size());
+        }
     }
 
     //TODO 4/12/2022 Add method to delete element from return list

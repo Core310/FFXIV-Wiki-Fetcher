@@ -2,6 +2,7 @@ package scrapper.fileCreator;
 
 /**
  * Contains all links that are to be searched.
+ *
  * @see MakeFile setParsedPage
  */
 public enum Wikipages {
@@ -22,6 +23,7 @@ public enum Wikipages {
     /**
      * Default constructor, this should not be used. Outside of this class
      * This is needed to have a link attached to each enum declaration.
+     *
      * @param string String to assign to Enum values
      */
     Wikipages(String string) {
@@ -29,7 +31,6 @@ public enum Wikipages {
     }
 
     /**
-     *
      * @return Enum Value (in this case the URL)
      */
     @Override

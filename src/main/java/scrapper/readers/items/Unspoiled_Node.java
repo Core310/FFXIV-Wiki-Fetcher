@@ -13,7 +13,7 @@ import java.util.LinkedHashMap;
 public class Unspoiled_Node extends Regular_Node implements Item {
     //The diff between this and Regular Node is the following:
     //Time, Item, Slot, Location, Cords, Level, Star, Add info
-    private final int slot,star;
+    private final int slot, star;
     private final String time;
 
     /**
@@ -31,7 +31,7 @@ public class Unspoiled_Node extends Regular_Node implements Item {
             int slot,
             int star
     ) {
-        super(item,location,cords,info,level);
+        super(item, location, cords, info, level);
         this.slot = slot;
         this.star = star;
         this.time = time;
@@ -50,17 +50,19 @@ public class Unspoiled_Node extends Regular_Node implements Item {
             int slot,
             int star
     ) {
-        super(item,location,cords,info,-1);
+        super(item, location, cords, info, -1);
         this.slot = slot;
         this.star = star;
         this.time = time;
     }
+
     /**
      * Used when file is already formatted.
+     *
      * @param arr array to input instead of manual input.
      */
     public Unspoiled_Node(String[] arr) {
-        super(arr[1],arr[2],arr[3],arr[4], Integer.parseInt(arr[5]));
+        super(arr[1], arr[2], arr[3], arr[4], Integer.parseInt(arr[5]));
         time = arr[6];
         slot = Integer.parseInt(arr[7]);
         star = Integer.parseInt(arr[8]);
@@ -68,8 +70,8 @@ public class Unspoiled_Node extends Regular_Node implements Item {
 
     @Override
     public String toString() {
-        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElements(new String[]{String.valueOf(getLevel()),time, String.valueOf(slot), String.valueOf(star)});
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(), getZone(), getCords(), getExtra());
+        itemOutputFormatter.addElements(new String[]{String.valueOf(getLevel()), time, String.valueOf(slot), String.valueOf(star)});
         return itemOutputFormatter.toString();
     }
 
@@ -80,7 +82,7 @@ public class Unspoiled_Node extends Regular_Node implements Item {
     public LinkedHashMap<String, String> toLinkedHashmap() {
         LinkedHashMap<String, String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
         lhm.put("Level", String.valueOf(getLevel()));
-        lhm.put("Time",time);
+        lhm.put("Time", time);
         lhm.put("Slot", String.valueOf(slot));
         lhm.put("Star", String.valueOf(star));
         return lhm;
