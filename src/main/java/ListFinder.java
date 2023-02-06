@@ -76,11 +76,11 @@ public class ListFinder {
         HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item so I dont have to manually load everything?
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())
-            for (String[] item : zoneGroups.get(zone)) {
+            for (int itemIndex =0;itemIndex< zoneGroups.get(zone).size();itemIndex++) {//An enhanced for-loop was not used because it did not work in the .remove method
+                String[] item = zoneGroups.get(zone).get(itemIndex);
                 String itemName = item[0];
                 if (itemsVisited.contains(itemName))
-                    zoneGroups.get(zone).remove(item);//FIXME 6/2/2023 Problem line currently. I believe its due to not being able 2 -rm the current item.
-                //TODO 6/2/2023 Refactor String[] item -> regular for loop. Then when using the .remove method above, use the index instead of the object.
+                    zoneGroups.get(zone).remove(itemIndex);
                 else
                     itemsVisited.add(itemName);
             }

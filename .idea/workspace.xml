@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,14 +310,8 @@
       <workItem from="1675579922054" duration="85000" />
       <workItem from="1675580033251" duration="65000" />
       <workItem from="1675580109522" duration="2576000" />
-      <workItem from="1675674697683" duration="2742000" />
-    </task>
-    <task id="LOCAL-00009" summary="catch up">
-      <created>1661438350949</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1661438350949</updated>
+      <workItem from="1675674697683" duration="2966000" />
+      <workItem from="1675681866116" duration="775000" />
     </task>
     <task id="LOCAL-00010" summary="catchup comit&#10;Had it working but wrong output. Chaanged itemAndTpMap to house the return value of esentailFindItem">
       <created>1661482717569</created>
@@ -652,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675677369726</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83">
+      <created>1675677666419</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1675677666419</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +676,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania" />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens." />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Some progresss made by removing the itemAndZone value from the duplicate counter array as seen`arrayList.remove(itemAndZone);`&#10;Still does not catch new gradina for some reason" />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset" />
@@ -697,7 +700,8 @@
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,7 +718,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>81</line>
+          <line>82</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
