@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Large code reformat. Should not have changed anything">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +312,7 @@
       <workItem from="1675580109522" duration="2576000" />
       <workItem from="1675674697683" duration="2966000" />
       <workItem from="1675681866116" duration="2785000" />
-      <workItem from="1675700826782" duration="303000" />
-    </task>
-    <task id="LOCAL-00012" summary="I think it works now? Need to run more test cases">
-      <created>1661654686136</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1661654686136</updated>
+      <workItem from="1675700826782" duration="931000" />
     </task>
     <task id="LOCAL-00013" summary="bug fixing to do">
       <created>1661834536452</created>
@@ -659,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675696451809</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Working on:n/a&#10;&#10;Doing right now: Do test cases&#10;&#10;Changes:&#10;- Formatteed code&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675701252882</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701252882</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -679,7 +677,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset" />
     <MESSAGE value="NOT CONFIRMED, (Test more) &#10;MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found.&#10;&#10;Merge method should work now? Need to perform more tests" />
     <MESSAGE value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
     <MESSAGE value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
@@ -704,20 +701,21 @@
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
     <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Large code reformat. Should not have changed anything" />
+    <option name="LAST_COMMIT_MESSAGE" value="Large code reformat. Should not have changed anything" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
+          <line>84</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
+          <line>83</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

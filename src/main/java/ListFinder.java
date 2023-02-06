@@ -41,10 +41,9 @@ public class ListFinder {
     private LinkedHashMap<String, ArrayList<String[]>> buildGroupedZones() {
         LinkedHashMap<String, ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
         int zoneIndex = 1;
-        for (ArrayList<String> itemContainer : calledItems) {// strings inside the ArrayList is itemData
-            for (String itemData : itemContainer) {//Represent one item's data where each value is separated by "\n"
-                if (!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Creates a new key for EVERY item.
-                    //fixme continue, This is b/c of the .get(itemData.split... method expecting an array
+        for (ArrayList<String> itemContainer : calledItems) {//ArrayList<Items>
+            for (String itemData : itemContainer) {//Item data separated by /n
+                if (!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Could b a problem related 2 the fixme in toString
                     groupedZones.put(itemData.split("\n")[zoneIndex], new ArrayList<>());//Make a new key and value(arraylist)
                 groupedZones.get(itemData.split("\n")[zoneIndex]).add(itemData.split("\n", -1));//Add values into groupedZones.
             }
@@ -82,7 +81,7 @@ public class ListFinder {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (ArrayList<String[]> arr : formatGroupedZones().values())
+        for (ArrayList<String[]> arr : formatGroupedZones().values())//FIXME 7/2/2023 For some reason, the arr size =0 several times. Weird bug
             for (String[] st : arr)
                 sb.append(Arrays.toString(st)).append("\n");
         return sb.toString();
@@ -117,7 +116,7 @@ public class ListFinder {
      * Used by: {@link #sortByValue(LinkedHashMap)}
      * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
      */
-    static class descendingArraySize implements Comparator<ArrayList<String[]>> {
+    private static class descendingArraySize implements Comparator<ArrayList<String[]>> {
         @Override
         public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
             return Integer.compare(o2.size(), o1.size());
