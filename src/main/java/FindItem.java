@@ -45,7 +45,7 @@ public class FindItem {
      *</code>
      * </pre>
      * @param itemName item to find
-     * @return Neatly outputted items
+     * @return Item data separated by \n like so {@literal ArrayList <Individual items>}
      */
     public ArrayList<String> essentialFindAllClosestAsMap(String itemName){
         ArrayList<String> rtrnArray = new ArrayList<>();//Return value

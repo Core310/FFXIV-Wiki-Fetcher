@@ -1,4 +1,3 @@
-import java.rmi.UnexpectedException;
 import java.util.*;
 import java.util.stream.Stream;
 
@@ -11,9 +10,9 @@ import java.util.stream.Stream;
 public class ListFinder {
     private final FindItem findItem = new FindItem();
     /**
-     * Container of formatted items where {@literal ArrayList<ArrayList<Item>>} aka {@literal ArrayList<ItemGroup<Data of one item>>}
+     * Container of formatted items where {@literal ArrayList<ArrayList<Item>>} aka {@literal ArrayList<ItemsUnderOneName<Data of one item>>}
      */
-    private final ArrayList<ArrayList<String>> allItems = new ArrayList<>();
+    private final ArrayList<ArrayList<String>> calledItems = new ArrayList<>();
     /**
      * Used by: {@link #sortByValue(LinkedHashMap)}
      * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
@@ -26,18 +25,20 @@ public class ListFinder {
     }
 
     /**
-     * Obtains item data from {@link #allItems} updated by {@link #addItem(String[])} which gets its data from essentialFindAllClosestAsMap from FindItem.java.
+     * Obtains item data from {@link #calledItems} updated by {@link #addItem(String[])} which gets its data from essentialFindAllClosestAsMap from FindItem.java.
      * <br> Sorted by the method {@link #sortByValue(LinkedHashMap)}
      * @return sorted zones with item data attached like so:
-     * <br>{@literal Map<Zone,ItemContainer<ItemData>>} where ItemData is split by "\n.
+     * <br>{@literal Map<Zone,ArrayList<ItemData>>} where ItemData is split by "\n.
      */
     private LinkedHashMap<String,ArrayList<String[]>> buildGroupedZones(){
         LinkedHashMap<String,ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
-        for(ArrayList<String> itemContainer: allItems){// strings inside the ArrayList is itemData
-            for(String itemData: itemContainer) {//Represent one item's data where each value is seperated by "\n"
-                if(!groupedZones.containsKey(itemData.split("\n")[1]))
-                    groupedZones.put(itemData.split("\n")[1], new ArrayList<>());//Make a new key and value(arraylist)
-                groupedZones.get(itemData.split("\n")[1]).add(itemData.split("\n",-1));//Add values into groupedZones.
+        int zoneIndex = 2;
+        for(ArrayList<String> itemContainer: calledItems){// strings inside the ArrayList is itemData
+            for(String itemData: itemContainer) {//Represent one item's data where each value is separated by "\n"
+                if(!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Creates a new key for EVERY item.
+                    //fixme continue, This is b/c of the .get(itemData.split... method expecting an array
+                    groupedZones.put(itemData.split("\n")[zoneIndex], new ArrayList<>());//Make a new key and value(arraylist)
+                groupedZones.get(itemData.split("\n")[zoneIndex]).add(itemData.split("\n",-1));//Add values into groupedZones.
             }
         }
         return sortByValue(groupedZones);
@@ -70,7 +71,7 @@ public class ListFinder {
         ArrayList<String> itemsVisited = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
         LinkedHashMap<String,ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for(String zone: zoneGroups.keySet()){
-            for(String[] item: zoneGroups.get(zone)){
+            for(String[] item: zoneGroups.get(zone)){ //FIXME 6/2/2023 Wrong data assigned. Should be an ArrayList (see datatype of zonegroups.get...
                 String itemName = item[2];
                 if(itemsVisited.contains(itemName))
                     zoneGroups.get(zone).remove(item);
@@ -107,13 +108,13 @@ public class ListFinder {
     }
 
     /**
-     * Adds a search key to global list {@link #allItems} to return using findItem.essentialFindAllClosestAsMap.
+     * Adds a search key to global list {@link #calledItems} to return using findItem.essentialFindAllClosestAsMap.
      * @see FindItem
      * @param searchKey item user is looking for. WIll be queued up to find.
      */
     public void addItem(String searchKey){
-        allItems.add(findItem.essentialFindAllClosestAsMap(searchKey));
-    }
+        calledItems.add(findItem.essentialFindAllClosestAsMap(searchKey));
+    }//TODO 5/2/2023 Why can i not flatten the arrayList since every item will be iterated thru?
     /**
      * Bulk call several items (Mainly used for testing)
      * @param items Array input of items a user is looking for
@@ -125,7 +126,7 @@ public class ListFinder {
     }
 
     public void clearQueries(){
-        allItems.clear();
+        calledItems.clear();
     }
 
     //TODO 4/12/2022 Add method to delete element from return list
