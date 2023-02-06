@@ -72,14 +72,15 @@ public class ListFinder {
      * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Rebuild this whole method
+    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Not working rn debugging
         HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item so I dont have to manually load everything?
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
-        for (String zone : zoneGroups.keySet())//FIXME 6/2/2023 Zone is being assigned cords instead 4 soem reason
+        for (String zone : zoneGroups.keySet())
             for (String[] item : zoneGroups.get(zone)) {
                 String itemName = item[0];
                 if (itemsVisited.contains(itemName))
-                    zoneGroups.get(zone).remove(item);//FIXME 6/2/2023 Problem line currently.
+                    zoneGroups.get(zone).remove(item);//FIXME 6/2/2023 Problem line currently. I believe its due to not being able 2 -rm the current item.
+                //TODO 6/2/2023 Refactor String[] item -> regular for loop. Then when using the .remove method above, use the index instead of the object.
                 else
                     itemsVisited.add(itemName);
             }
