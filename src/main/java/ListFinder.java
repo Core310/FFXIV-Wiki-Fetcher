@@ -5,6 +5,7 @@ import java.util.stream.Stream;
  * Exports a list of inputted items with the best teleport locations.
  * Works by grouping together teleports in the list.
  * Used on its own.
+ *
  * @see FindItem
  */
 public class ListFinder {
@@ -13,6 +14,7 @@ public class ListFinder {
      * Container of formatted items where {@literal ArrayList<ArrayList<Item>>} aka {@literal ArrayList<ItemsUnderOneName<Data of one item>>}
      */
     private final ArrayList<ArrayList<String>> calledItems = new ArrayList<>();
+
     /**
      * Used by: {@link #sortByValue(LinkedHashMap)}
      * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
@@ -26,19 +28,20 @@ public class ListFinder {
 
     /**
      * Obtains item data from {@link #calledItems} updated by {@link #addItem(String[])} which gets its data from essentialFindAllClosestAsMap from FindItem.java.
-     * <br> Sorted by the method {@link #sortByValue(LinkedHashMap)}
+     * <br> Sorts the zones with the highest number of items using the method {@link #sortByValue(LinkedHashMap)}
+     *
      * @return sorted zones with item data attached like so:
      * <br>{@literal Map<Zone,ArrayList<ItemData>>} where ItemData is split by "\n.
      */
-    private LinkedHashMap<String,ArrayList<String[]>> buildGroupedZones(){
-        LinkedHashMap<String,ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
-        int zoneIndex = 2;
-        for(ArrayList<String> itemContainer: calledItems){// strings inside the ArrayList is itemData
-            for(String itemData: itemContainer) {//Represent one item's data where each value is separated by "\n"
-                if(!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Creates a new key for EVERY item.
+    private LinkedHashMap<String, ArrayList<String[]>> buildGroupedZones() {
+        LinkedHashMap<String, ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
+        int zoneIndex = 1;
+        for (ArrayList<String> itemContainer : calledItems) {// strings inside the ArrayList is itemData
+            for (String itemData : itemContainer) {//Represent one item's data where each value is separated by "\n"
+                if (!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Creates a new key for EVERY item.
                     //fixme continue, This is b/c of the .get(itemData.split... method expecting an array
                     groupedZones.put(itemData.split("\n")[zoneIndex], new ArrayList<>());//Make a new key and value(arraylist)
-                groupedZones.get(itemData.split("\n")[zoneIndex]).add(itemData.split("\n",-1));//Add values into groupedZones.
+                groupedZones.get(itemData.split("\n")[zoneIndex]).add(itemData.split("\n", -1));//Add values into groupedZones.
             }
         }
         return sortByValue(groupedZones);
@@ -47,14 +50,15 @@ public class ListFinder {
     /**
      * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
      * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
+     *
      * @param map from {@link #buildGroupedZones()}
      * @return sorted map to go to {@link #formatGroupedZones()}
      * @see descendingArraySize
      */
-    private static LinkedHashMap<String,ArrayList<String[]>> sortByValue(LinkedHashMap<String,ArrayList<String[]>> map) {
+    private static LinkedHashMap<String, ArrayList<String[]>> sortByValue(LinkedHashMap<String, ArrayList<String[]>> map) {
         Stream<Map.Entry<String, ArrayList<String[]>>> entryStream = map.entrySet().stream().sorted(Map.Entry.comparingByValue(new descendingArraySize()));
-        List<Map.Entry<String,ArrayList<String[]>>> list = entryStream.toList();
-        LinkedHashMap<String,ArrayList<String[]>> sortedMap = new LinkedHashMap<>();
+        List<Map.Entry<String, ArrayList<String[]>>> list = entryStream.toList();
+        LinkedHashMap<String, ArrayList<String[]>> sortedMap = new LinkedHashMap<>();
         list.forEach(e -> sortedMap.put(e.getKey(), e.getValue()));
         return sortedMap;
     }
@@ -63,31 +67,23 @@ public class ListFinder {
      * {@link #buildGroupedZones()} is always called first in this method.
      *
      * <br>
+     *
      * @return deletes all duplicate items, only saving 1 copy instanced with the highest amount of items in one zone.
      * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private LinkedHashMap<String,ArrayList<String[]>> formatGroupedZones(){//UNFINISHED Rebuild this whole method
-        ArrayList<String> itemsVisited = new ArrayList<>();//TODO 4/12/2022 Should I make this a global array and implement it in addItem?  //Counter of items that are visited.
-        LinkedHashMap<String,ArrayList<String[]>> zoneGroups = buildGroupedZones();
-        for(String zone: zoneGroups.keySet()){
-            for(String[] item: zoneGroups.get(zone)){ //FIXME 6/2/2023 Wrong data assigned. Should be an ArrayList (see datatype of zonegroups.get...
-                String itemName = item[2];
-                if(itemsVisited.contains(itemName))
-                    zoneGroups.get(zone).remove(item);
+    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Rebuild this whole method
+        HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item so I dont have to manually load everything?
+        LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
+        for (String zone : zoneGroups.keySet())//FIXME 6/2/2023 Zone is being assigned cords instead 4 soem reason
+            for (String[] item : zoneGroups.get(zone)) {
+                String itemName = item[0];
+                if (itemsVisited.contains(itemName))
+                    zoneGroups.get(zone).remove(item);//FIXME 6/2/2023 Problem line currently.
                 else
                     itemsVisited.add(itemName);
             }
-        }
-        /*^
-        itr thru each value.
-           when reach said value,
-          put first into a new LHM with corresponding key in the original map.
-        Once mapEntry is changed to map, reflect changes here.
-         Itr thru map keys -> values (Arraylist) -> Strings inside arraylist (value = itemData).
-        If item is present in the items array, do not add it to the final return map (basically skip adding the value)
-         */
-            return zoneGroups;
+        return zoneGroups;
     }
 
     /**
@@ -95,13 +91,13 @@ public class ListFinder {
      */
     @Override
     public String toString() {
-        if(formatGroupedZones().values().isEmpty())
+        if (formatGroupedZones().values().isEmpty())
             return "Please add an item to begin";
         StringBuilder sb = new StringBuilder();
         for (ArrayList<String[]> arr : formatGroupedZones().values()) {
-            for(String[] st: arr)
+            for (String[] st : arr)
                 System.out.println(Arrays.toString(st)); //DELETEME
-                //sb.append(Arrays.toString(st)).append("\n");
+            //sb.append(Arrays.toString(st)).append("\n");
         }
         System.out.println(formatGroupedZones()); //DELETEME
         return sb.toString();
@@ -109,23 +105,26 @@ public class ListFinder {
 
     /**
      * Adds a search key to global list {@link #calledItems} to return using findItem.essentialFindAllClosestAsMap.
-     * @see FindItem
+     *
      * @param searchKey item user is looking for. WIll be queued up to find.
+     * @see FindItem
      */
-    public void addItem(String searchKey){
+    public void addItem(String searchKey) {
         calledItems.add(findItem.essentialFindAllClosestAsMap(searchKey));
     }//TODO 5/2/2023 Why can i not flatten the arrayList since every item will be iterated thru?
+
     /**
      * Bulk call several items (Mainly used for testing)
+     *
      * @param items Array input of items a user is looking for
      */
-    public void addItem(String[] items){
-        for(String str: items){
+    public void addItem(String[] items) {
+        for (String str : items) {
             addItem(str);
         }
     }
 
-    public void clearQueries(){
+    public void clearQueries() {
         calledItems.clear();
     }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,14 +310,7 @@
       <workItem from="1675579922054" duration="85000" />
       <workItem from="1675580033251" duration="65000" />
       <workItem from="1675580109522" duration="2576000" />
-      <workItem from="1675674697683" duration="1308000" />
-    </task>
-    <task id="LOCAL-00007" summary="~!~ debugging ahhh">
-      <created>1661351512998</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1661351512998</updated>
+      <workItem from="1675674697683" duration="2337000" />
     </task>
     <task id="LOCAL-00008" summary="~!~ debugging ahhh &lt;!-- this is a comment --&gt;">
       <created>1661420107557</created>
@@ -656,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675001908463</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones">
+      <created>1675676024334</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1675676024334</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +675,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="All code cleanup but FindItem.java. Code clean involved changing @see to @link. .&#10;&#10;In FindItem.java, current working on line 197, mergeDupeHelper. The internal for loop with currentItemHeader isn't working?? Need to figure out how when mergeBase.put() is running." />
     <MESSAGE value="fixed index offset bug. Was updating the reference value but not doing anything else to it." />
     <MESSAGE value="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania" />
     <MESSAGE value="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens." />
@@ -701,19 +699,20 @@
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Cleaned up the unused methods in main &#10;- Debugging the formatGroupedZones rn. Logic works but not actually working&#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>39</line>
+          <line>42</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>40</line>
+          <line>43</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
