@@ -43,9 +43,11 @@ public class ListFinder {
         int zoneIndex = 1;
         for (ArrayList<String> itemContainer : calledItems) {//ArrayList<Items>
             for (String itemData : itemContainer) {//Item data separated by /n
-                if (!groupedZones.containsKey(itemData.split("\n")[zoneIndex]))//FIXME 31/1/2023 Could b a problem related 2 the fixme in toString
-                    groupedZones.put(itemData.split("\n")[zoneIndex], new ArrayList<>());//Make a new key and value(arraylist)
-                groupedZones.get(itemData.split("\n")[zoneIndex]).add(itemData.split("\n", -1));//Add values into groupedZones.
+                itemData = itemData.substring(0,itemData.length()-1); //For some reason, a blank value is at the end of itemData. This deletes it.
+                String zone = itemData.split("\n")[zoneIndex];
+                if (!groupedZones.containsKey(zone))
+                    groupedZones.put(zone, new ArrayList<>());//Make a new key and value(arraylist)
+                groupedZones.get(zone).add(itemData.split("\n", -1));//Add values into groupedZones.
             }
         }
         return sortByValue(groupedZones);
@@ -61,7 +63,7 @@ public class ListFinder {
      * @see descendingArraySize
      */
     private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Not working rn debugging
-        HashSet<String> itemsVisited = new HashSet<>();//Maybe put this in add item, so I don't have to manually load everything?
+        HashSet<String> itemsVisited = new HashSet<>();
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())
             for (int itemIndex = 0; itemIndex < zoneGroups.get(zone).size(); itemIndex++) {//An enhanced for-loop was not used because it did not work in the .remove method
@@ -81,10 +83,21 @@ public class ListFinder {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (ArrayList<String[]> arr : formatGroupedZones().values())//FIXME 7/2/2023 For some reason, the arr size =0 several times. Weird bug
+        /*
+                for(String z: formatGroupedZones().keySet()){
+            for(int i =0;i< formatGroupedZones().get(z).size();i++)
+                System.out.println(Arrays.toString(formatGroupedZones().get(z).get(i))+ "\n" +
+                        formatGroupedZones().get(z).size()
+                        );
+        }
+         */ //If for some reason arr size =0 in the loop doesn't work use the commented code instead of below
+        for (ArrayList<String[]> arr : formatGroupedZones().values()) {//For some reason, the arr size =0 several times. Weird bug. Does not affect code
+            if(arr.isEmpty())
+                continue;
             for (String[] st : arr)
-                sb.append(Arrays.toString(st)).append("\n");
-        return sb.toString();
+                sb.append("\n").append(Arrays.toString(st));//There is an empty slot at end of each item. I think It's for the "extra" itemData. Unsure though
+        }
+        return sb.toString().replaceFirst("\n","");//Newline is always created at the top, replaceFirst deletes it.
     }
 
     /**
@@ -108,6 +121,9 @@ public class ListFinder {
         }
     }
 
+    /**
+     * Clears all internal containers.
+     */
     public void clearQueries() {
         calledItems.clear();
     }

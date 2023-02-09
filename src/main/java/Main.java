@@ -19,8 +19,10 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ListFinder listFinder = new ListFinder();
-        listFinder.addItem(new String[]{"Fire sh", "ic shrd", "water sha", "wind sha", "orange", "Cock Feather", "Cloves", "Black Pepper"});
+        listFinder.addItem(new String[]{"Fire sh", "ic shrd", "water sha", "wind sha", "orange", "Cock Feather", "Cloves", "Black Pepper","Nepto Dragon"});
         System.out.println(listFinder.toString());
+        FindItem fi = new FindItem();
+        System.out.println(fi.essentialFindAllClosestAsMap("Wind Shard").get(0)); //DELETEME
     }
 
     /*
