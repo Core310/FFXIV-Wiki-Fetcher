@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder.java&#10;&#10;Doing right now: Figuring out why there is an extra array value at the end of each item. when returned. &#10;&#10;Changes: &#10;- QOL change buildGroupedZones, shorten method call to a String object. &#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,21 +315,7 @@
       <workItem from="1675740248095" duration="2741000" />
       <workItem from="1675839458061" duration="751000" />
       <workItem from="1675853227546" duration="2207000" />
-      <workItem from="1675932035180" duration="1640000" />
-    </task>
-    <task id="LOCAL-00014" summary="bug fix listFinder should be all fine now.&#10;todo: test cases">
-      <created>1661844144130</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1661844144130</updated>
-    </task>
-    <task id="LOCAL-00015" summary="uhh have fun re-doing all the test cases.&#10;I took out the chars &quot;(&quot; and &quot;)&quot; in all cords (see baseItem)">
-      <created>1662085141795</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1662085141795</updated>
+      <workItem from="1675932035180" duration="2332000" />
     </task>
     <task id="LOCAL-00016" summary="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();">
       <created>1662471141942</created>
@@ -662,7 +646,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675701783843</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675934036790</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934036790</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675934376748</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934376748</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,8 +680,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing" />
-    <MESSAGE value="Everything should be fixed? Just need to run more tests to make sure everything is fine" />
     <MESSAGE value="mergeDupe doesn't work again for fire Shard" />
     <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
     <MESSAGE value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
@@ -707,18 +703,11 @@
     <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Large code reformat. Should not have changed anything" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ListFinder.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" />

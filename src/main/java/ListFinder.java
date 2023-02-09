@@ -16,6 +16,17 @@ public class ListFinder {
     private final ArrayList<ArrayList<String>> calledItems = new ArrayList<>();
 
     /**
+     * Used by: {@link #sortByValue(LinkedHashMap)}
+     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
+     */
+    private static class descendingArraySize implements Comparator<ArrayList<String[]>> {
+        @Override
+        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
+            return Integer.compare(o2.size(), o1.size());
+        }
+    }
+
+    /**
      * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
      * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
      *
@@ -43,7 +54,7 @@ public class ListFinder {
         int zoneIndex = 1;
         for (ArrayList<String> itemContainer : calledItems) {//ArrayList<Items>
             for (String itemData : itemContainer) {//Item data separated by /n
-                itemData = itemData.substring(0,itemData.length()-1); //For some reason, a blank value is at the end of itemData. This deletes it.
+                itemData = itemData.substring(0, itemData.length() - 1); //For some reason, a blank value is at the end of itemData. This deletes it.
                 String zone = itemData.split("\n")[zoneIndex];
                 if (!groupedZones.containsKey(zone))
                     groupedZones.put(zone, new ArrayList<>());//Make a new key and value(arraylist)
@@ -92,12 +103,12 @@ public class ListFinder {
         }
          */ //If for some reason arr size =0 in the loop doesn't work use the commented code instead of below
         for (ArrayList<String[]> arr : formatGroupedZones().values()) {//For some reason, the arr size =0 several times. Weird bug. Does not affect code
-            if(arr.isEmpty())
+            if (arr.isEmpty())
                 continue;
             for (String[] st : arr)
                 sb.append("\n").append(Arrays.toString(st));//There is an empty slot at end of each item. I think It's for the "extra" itemData. Unsure though
         }
-        return sb.toString().replaceFirst("\n","");//Newline is always created at the top, replaceFirst deletes it.
+        return sb.toString().replaceFirst("\n", "");//Newline is always created at the top, replaceFirst deletes it.
     }
 
     /**
@@ -108,7 +119,7 @@ public class ListFinder {
      */
     public void addItem(String searchKey) {
         calledItems.add(findItem.essentialFindAllClosestAsMap(searchKey));
-    }//TODO 5/2/2023 Why can i not flatten the arrayList since every item will be iterated thru?
+    }//TODO 5/2/2023 Why can i not flatten the arrayList since every item will be iterated thru? (Flatten as in just put all the items in one array
 
     /**
      * Bulk call several items (Mainly used for testing)
@@ -129,16 +140,10 @@ public class ListFinder {
     }
 
     /**
-     * Used by: {@link #sortByValue(LinkedHashMap)}
-     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
+     * Delete an item previously searched for.
      */
-    private static class descendingArraySize implements Comparator<ArrayList<String[]>> {
-        @Override
-        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
-            return Integer.compare(o2.size(), o1.size());
-        }
-    }
+    public void deleteElement() {
 
-    //TODO 4/12/2022 Add method to delete element from return list
+    }//TODO 4/12/2022 Add method to delete element from return list
 
 }
