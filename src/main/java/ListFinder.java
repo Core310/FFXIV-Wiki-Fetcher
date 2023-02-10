@@ -16,17 +16,6 @@ public class ListFinder {
     private final ArrayList<ArrayList<String>> calledItems = new ArrayList<>();
 
     /**
-     * Used by: {@link #sortByValue(LinkedHashMap)}
-     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
-     */
-    private static class descendingArraySize implements Comparator<ArrayList<String[]>> {
-        @Override
-        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
-            return Integer.compare(o2.size(), o1.size());
-        }
-    }
-
-    /**
      * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
      * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
      *
@@ -145,4 +134,15 @@ public class ListFinder {
     public void deleteElement() {
 
     }//TODO 4/12/2022 Add method to delete element from return list
+
+    /**
+     * Used by: {@link #sortByValue(LinkedHashMap)}
+     * <br> Sorts groupedZones {@literal ArrayList<String[]>} value, moving its complementing key too.
+     */
+    private static class descendingArraySize implements Comparator<ArrayList<String[]>> {
+        @Override
+        public int compare(ArrayList<String[]> o1, ArrayList<String[]> o2) {
+            return Integer.compare(o2.size(), o1.size());
+        }
+    }
 }

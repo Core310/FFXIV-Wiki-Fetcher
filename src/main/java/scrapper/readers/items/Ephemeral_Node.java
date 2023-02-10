@@ -7,11 +7,13 @@ import java.util.LinkedHashMap;
 
 /**
  * <a href = "https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes">Ephemeral_Node page </a>
+ *
  * @see BaseItem
  * @see Item
  */
 public class Ephemeral_Node extends BaseItem implements Item {
     private final String time, tp;
+
     /**
      * Used for unsorted Items
      */
