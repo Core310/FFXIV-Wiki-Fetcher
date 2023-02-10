@@ -7,7 +7,7 @@ import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 /**
  * Formats items inputted by csvValues in the switch case statement of formatter
  *
- * @see Formatter formattedItem
+ * @see Formatter
  */
 public class ItemBuilder {
     private final StringBuilder stringBuilder = new StringBuilder();

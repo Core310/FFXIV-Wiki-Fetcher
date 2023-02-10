@@ -8,6 +8,7 @@ import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading and formats every item.
+ * <br> Formats each item to fit the reading format
  * <p>Order of methods run: formatFile -> setCurrentType -> formattedItem</p>
  * Simply call the constructor to run this class.
  *
@@ -105,51 +106,38 @@ public class Formatter {
         ItemBuilder itemBuilder = new ItemBuilder();
         StringBuilder stringBuilder = new StringBuilder(); //String to replace the current line read in
         switch (itemType) {
-            case REGULAR_NODE: {
+            case REGULAR_NODE -> {
                 stringBuilder = itemBuilder.build_REGULAR_NODE(csvValues);
-                break;
             }
-            case FOLK_LORE_NODE: {
+            case FOLK_LORE_NODE -> {
                 stringBuilder = itemBuilder.build_FOLK_LORE_NODE(csvValues);
-                break;
             }
-            case FOLK_LORE_FISH_NODE: {
+            case FOLK_LORE_FISH_NODE -> {
                 stringBuilder = itemBuilder.build_FOLK_LORE_FISH_NODE(csvValues);
-                break;
             }
-            case UNSPOILED_NODE: {
+            case UNSPOILED_NODE -> {
                 stringBuilder = itemBuilder.build_UNSPOILED_NODE(csvValues);
-                break;
             }
-            case ARR_UNSPOILED_NODE: {
+            case ARR_UNSPOILED_NODE -> {
                 stringBuilder = itemBuilder.build_ARR_UNSPOILED_NODE(csvValues);
-                break;
             }//When an unspoiled node is an ARR one use this instead.
-            case FISH_NODE: {
+            case FISH_NODE -> {
                 stringBuilder = itemBuilder.build_FISH_NODE(csvValues);
-                break;
             }
-
-            case FISH_BIG_NODE: {
+            case FISH_BIG_NODE -> {
                 stringBuilder = itemBuilder.build_FISH_BIG_NODE(csvValues);
-                break;
             }
-            case FISH_COLLECTABLES_NODE: {
+            case FISH_COLLECTABLES_NODE -> {
                 stringBuilder = itemBuilder.build_FISH_COLLECTABLES_NODE(csvValues);
-                break;
             }
-            case EPHEMERAL_NODE: {
+            case EPHEMERAL_NODE -> {
                 stringBuilder = itemBuilder.build_EPHEMERAL_NODE(csvValues);
-                break;
             }
-            case EPHEMERAL_FISH_NODE: {
+            case EPHEMERAL_FISH_NODE -> {
                 stringBuilder = itemBuilder.build_EPHEMERAL_FISH_NODE(csvValues);
-                break;
             }
-
-            case DELETE:
-            case IGNORE:
-                throw new IllegalArgumentException("These items should not appear here, check the main formatter method.");
+            case DELETE, IGNORE ->
+                    throw new IllegalArgumentException("These items should not appear here, check the main formatter method.");
         } //End of switch case
         return stringBuilder.toString();
     }

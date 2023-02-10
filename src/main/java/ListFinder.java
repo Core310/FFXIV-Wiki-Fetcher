@@ -145,5 +145,4 @@ public class ListFinder {
     public void deleteElement() {
 
     }//TODO 4/12/2022 Add method to delete element from return list
-
 }

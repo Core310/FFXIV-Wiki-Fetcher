@@ -9,6 +9,7 @@ import java.util.LinkedHashMap;
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations">Fishing wiki link</a>
  *
  * @see BaseItem
+ * @see Item
  */
 public class Fish_Node extends BaseItem implements Item {
     private final String type, fishingLog;

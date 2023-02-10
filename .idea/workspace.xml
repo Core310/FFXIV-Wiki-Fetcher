@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,13 +326,7 @@
       <workItem from="1675839458061" duration="751000" />
       <workItem from="1675853227546" duration="2207000" />
       <workItem from="1675932035180" duration="2332000" />
-    </task>
-    <task id="LOCAL-00016" summary="undid taking out the parentheses out of cords (2 comits ago)&#10;Working on FindItem.java private mergeDuplicae();">
-      <created>1662471141942</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1662471141942</updated>
+      <workItem from="1676026689437" duration="879000" />
     </task>
     <task id="LOCAL-00017" summary="Had FindItem somewhat working just now, broke it again.">
       <created>1662634865155</created>
@@ -660,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675934376748</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1676016609449</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1676016609450</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +691,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="mergeDupe doesn't work again for fire Shard" />
     <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
     <MESSAGE value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
     <MESSAGE value="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm" />
@@ -705,7 +715,8 @@
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

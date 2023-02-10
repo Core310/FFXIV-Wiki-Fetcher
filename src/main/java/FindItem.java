@@ -271,7 +271,7 @@ public class FindItem {
             throw new RuntimeException(e);
         }
         return currentArray;
-    }
+    }//TODO 10/2/2023 If more than one itemName is found, should have an option to delete one
 
 
     /**

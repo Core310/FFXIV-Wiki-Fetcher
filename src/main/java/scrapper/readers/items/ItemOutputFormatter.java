@@ -4,11 +4,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
 /**
  * Used for toString of the ITEMs in this module.
  * All methods/vars are either private or protected.
- * Constrcutor should never be called.
+ * The constructor should never be called.
  */
 public class ItemOutputFormatter {
     private final Queue<String> queue = new LinkedList<>();
