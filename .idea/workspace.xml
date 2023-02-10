@@ -4,22 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update readme guidelines">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DeDYklfFVln5bRI4o5ZE56Rxww" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,44 +50,109 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowJson Helper.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/Java_box&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean deploy" />
+      <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindItemTest">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="FFXIV-Wiki-Fetcher" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FFXIV-Wiki-Fetcher" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindItemTest" />
+      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuplicateTest.duplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
+      <option name="METHOD_NAME" value="duplicateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindItemTest.findAllClosest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindItemTest" />
+      <option name="METHOD_NAME" value="findAllClosest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListFinderTest.outPutList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListFinderTest" />
+      <option name="METHOD_NAME" value="outPutList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DuplicateTest" />
+      <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
+      <item itemvalue="JUnit.ListFinderTest.outPutList" />
+      <item itemvalue="JUnit.FindItemTest.findAllClosest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindItemTest" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
+        <item itemvalue="JUnit.DuplicateTest" />
+        <item itemvalue="JUnit.ListFinderTest.outPutList" />
+        <item itemvalue="JUnit.FindItemTest.findAllClosest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\arika\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="hopefully made to read file from resourcees directory" />
@@ -75,36 +162,516 @@
       <updated>1661050715286</updated>
       <workItem from="1661050724736" duration="510000" />
       <workItem from="1661086891895" duration="3270000" />
+      <workItem from="1661215255491" duration="5271000" />
+      <workItem from="1661229559853" duration="5242000" />
+      <workItem from="1661234947119" duration="1193000" />
+      <workItem from="1661309233613" duration="245000" />
+      <workItem from="1661329603579" duration="416000" />
+      <workItem from="1661349391026" duration="2136000" />
+      <workItem from="1661386790588" duration="2115000" />
+      <workItem from="1661391673057" duration="592000" />
+      <workItem from="1661419189413" duration="805000" />
+      <workItem from="1661434946294" duration="1331000" />
+      <workItem from="1661472818880" duration="1656000" />
+      <workItem from="1661474617569" duration="7000000" />
+      <workItem from="1661579802120" duration="417000" />
+      <workItem from="1661580302662" duration="716000" />
+      <workItem from="1661652065328" duration="4761000" />
+      <workItem from="1661743686811" duration="91000" />
+      <workItem from="1661743809226" duration="360000" />
+      <workItem from="1661744181596" duration="1390000" />
+      <workItem from="1661782813227" duration="6228000" />
+      <workItem from="1661831283732" duration="535000" />
+      <workItem from="1661833255815" duration="1271000" />
+      <workItem from="1661842386962" duration="30000" />
+      <workItem from="1661842446652" duration="5545000" />
+      <workItem from="1661945638329" duration="594000" />
+      <workItem from="1661955716239" duration="11000" />
+      <workItem from="1662024290924" duration="33000" />
+      <workItem from="1662084347665" duration="1319000" />
+      <workItem from="1662131662716" duration="2434000" />
+      <workItem from="1662169311655" duration="858000" />
+      <workItem from="1662194347034" duration="1323000" />
+      <workItem from="1662273824169" duration="64000" />
+      <workItem from="1662278380742" duration="2020000" />
+      <workItem from="1662369617013" duration="681000" />
+      <workItem from="1662470723933" duration="917000" />
+      <workItem from="1662540232521" duration="5276000" />
+      <workItem from="1662634427212" duration="2039000" />
+      <workItem from="1662693169099" duration="3457000" />
+      <workItem from="1662720618469" duration="2194000" />
+      <workItem from="1662741232167" duration="189000" />
+      <workItem from="1662955471750" duration="3710000" />
+      <workItem from="1662962235012" duration="2523000" />
+      <workItem from="1663033410473" duration="1549000" />
+      <workItem from="1663045737328" duration="582000" />
+      <workItem from="1663107028905" duration="2555000" />
+      <workItem from="1663117203073" duration="2282000" />
+      <workItem from="1663119696377" duration="3342000" />
+      <workItem from="1663124754564" duration="2203000" />
+      <workItem from="1663152272846" duration="1468000" />
+      <workItem from="1663165858392" duration="84000" />
+      <workItem from="1663166397177" duration="979000" />
+      <workItem from="1663178902444" duration="77000" />
+      <workItem from="1663219350877" duration="124000" />
+      <workItem from="1663219608188" duration="1199000" />
+      <workItem from="1663280670065" duration="341000" />
+      <workItem from="1663284555922" duration="4703000" />
+      <workItem from="1663385787421" duration="805000" />
+      <workItem from="1663412454223" duration="548000" />
+      <workItem from="1663465009389" duration="2605000" />
+      <workItem from="1663467709448" duration="599000" />
+      <workItem from="1663480021481" duration="1805000" />
+      <workItem from="1663507390979" duration="1559000" />
+      <workItem from="1663574509690" duration="2507000" />
+      <workItem from="1663583073283" duration="5481000" />
+      <workItem from="1663668113793" duration="4632000" />
+      <workItem from="1663814303846" duration="133000" />
+      <workItem from="1663845527126" duration="2153000" />
+      <workItem from="1663860172349" duration="1233000" />
+      <workItem from="1663897563162" duration="1642000" />
+      <workItem from="1663904756621" duration="3743000" />
+      <workItem from="1663914556741" duration="2173000" />
+      <workItem from="1663917748541" duration="5422000" />
+      <workItem from="1664020555573" duration="3781000" />
+      <workItem from="1664076048967" duration="2580000" />
+      <workItem from="1664101604201" duration="1690000" />
+      <workItem from="1664235019687" duration="83000" />
+      <workItem from="1665104012029" duration="63000" />
+      <workItem from="1665116605630" duration="385000" />
+      <workItem from="1665118315823" duration="75000" />
+      <workItem from="1665118691352" duration="2764000" />
+      <workItem from="1665184112971" duration="4695000" />
+      <workItem from="1665193527551" duration="3424000" />
+      <workItem from="1665220515990" duration="4556000" />
+      <workItem from="1665234247147" duration="600000" />
+      <workItem from="1665360621884" duration="1111000" />
+      <workItem from="1665402099220" duration="679000" />
+      <workItem from="1665464471927" duration="2102000" />
+      <workItem from="1665471674961" duration="3167000" />
+      <workItem from="1665476314509" duration="10327000" />
+      <workItem from="1665493581524" duration="207000" />
+      <workItem from="1665741136171" duration="8319000" />
+      <workItem from="1665749541713" duration="63000" />
+      <workItem from="1665846022127" duration="586000" />
+      <workItem from="1666333159891" duration="163000" />
+      <workItem from="1666346389904" duration="201000" />
+      <workItem from="1666351553577" duration="1257000" />
+      <workItem from="1666486655329" duration="1211000" />
+      <workItem from="1666490852292" duration="624000" />
+      <workItem from="1666492034108" duration="1965000" />
+      <workItem from="1666513104097" duration="1532000" />
+      <workItem from="1666585885348" duration="5809000" />
+      <workItem from="1666616286028" duration="1269000" />
+      <workItem from="1667625717110" duration="1424000" />
+      <workItem from="1667638314398" duration="3106000" />
+      <workItem from="1667698739323" duration="1003000" />
+      <workItem from="1667728656372" duration="1817000" />
+      <workItem from="1667753120489" duration="1033000" />
+      <workItem from="1668233621623" duration="2110000" />
+      <workItem from="1668248143931" duration="59000" />
+      <workItem from="1668249070725" duration="645000" />
+      <workItem from="1668475926004" duration="1211000" />
+      <workItem from="1668479642197" duration="809000" />
+      <workItem from="1668480470360" duration="10782000" />
+      <workItem from="1668500220277" duration="12012000" />
+      <workItem from="1668592214949" duration="4957000" />
+      <workItem from="1668648189043" duration="3560000" />
+      <workItem from="1668664976389" duration="3029000" />
+      <workItem from="1668735142936" duration="4235000" />
+      <workItem from="1668740704196" duration="3571000" />
+      <workItem from="1668755811571" duration="3180000" />
+      <workItem from="1668770498575" duration="2436000" />
+      <workItem from="1668822401702" duration="4326000" />
+      <workItem from="1669604368936" duration="3476000" />
+      <workItem from="1669635457410" duration="4004000" />
+      <workItem from="1669781547040" duration="657000" />
+      <workItem from="1669784867032" duration="1195000" />
+      <workItem from="1669788793855" duration="2965000" />
+      <workItem from="1669801138450" duration="4029000" />
+      <workItem from="1669814226010" duration="852000" />
+      <workItem from="1669871744775" duration="11033000" />
+      <workItem from="1669900367732" duration="443000" />
+      <workItem from="1669901072107" duration="1070000" />
+      <workItem from="1669956521741" duration="2297000" />
+      <workItem from="1669959992925" duration="39000" />
+      <workItem from="1669960047059" duration="151000" />
+      <workItem from="1669974496676" duration="1074000" />
+      <workItem from="1670044835258" duration="591000" />
+      <workItem from="1670083414343" duration="1755000" />
+      <workItem from="1670128013997" duration="355000" />
+      <workItem from="1670166500294" duration="3044000" />
+      <workItem from="1670679667498" duration="876000" />
+      <workItem from="1671247984124" duration="1952000" />
+      <workItem from="1671301484532" duration="685000" />
+      <workItem from="1673709505337" duration="128000" />
+      <workItem from="1673709670620" duration="281000" />
+      <workItem from="1674096615601" duration="122000" />
+      <workItem from="1674097333645" duration="2964000" />
+      <workItem from="1674101035822" duration="3015000" />
+      <workItem from="1674115024433" duration="2135000" />
+      <workItem from="1674117694088" duration="4803000" />
+      <workItem from="1675050780454" duration="739000" />
+      <workItem from="1675175672626" duration="2990000" />
+      <workItem from="1675319356785" duration="630000" />
+      <workItem from="1675393310584" duration="596000" />
+      <workItem from="1675422260681" duration="604000" />
+      <workItem from="1675579922054" duration="85000" />
+      <workItem from="1675580033251" duration="65000" />
+      <workItem from="1675580109522" duration="2576000" />
+      <workItem from="1675674697683" duration="2966000" />
+      <workItem from="1675681866116" duration="2785000" />
+      <workItem from="1675700826782" duration="962000" />
+      <workItem from="1675740248095" duration="2741000" />
+      <workItem from="1675839458061" duration="751000" />
+      <workItem from="1675853227546" duration="2207000" />
+      <workItem from="1675932035180" duration="2332000" />
+      <workItem from="1676026689437" duration="879000" />
     </task>
-    <task id="LOCAL-00001" summary="made tmp file to read from">
-      <created>1661087795662</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00017" summary="Had FindItem somewhat working just now, broke it again.">
+      <created>1662634865155</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1661087795662</updated>
+      <updated>1662634865155</updated>
     </task>
-    <task id="LOCAL-00002" summary="can now read from resource folder (hopefully)">
-      <created>1661088562862</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00018" summary="fixed duplciate (adding to internal array) detection. Still working on the appending value detection.">
+      <created>1662741352269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1661088562862</updated>
+      <updated>1662741352269</updated>
     </task>
-    <task id="LOCAL-00003" summary="fixed small input stream bug">
-      <created>1661088772291</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00019" summary="doesnt work right now, see line 214 FindItem.java&#10;the .contains method doesn't detect like that">
+      <created>1662959456172</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1661088772291</updated>
+      <updated>1662959456172</updated>
     </task>
-    <task id="LOCAL-00004" summary="update readme guidelines">
-      <created>1661089873086</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00020" summary="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data.">
+      <created>1663152913717</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1661089873086</updated>
+      <updated>1663152913717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00021" summary="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)">
+      <created>1663326818226</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663326818226</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)">
+      <created>1663326835265</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663326835265</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)">
+      <created>1663326842126</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663326842126</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Currently the item is just copying itself and not actually merging the values">
+      <created>1663467582423</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663467582423</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Currently the item is just copying itself and not actually merging the values">
+      <created>1663480243289</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663480243289</updated>
+    </task>
+    <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
+      <created>1663505600608</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663505600608</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Code cleanup">
+      <created>1663575104492</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663575104492</updated>
+    </task>
+    <task id="LOCAL-00028" summary="merge still not working. Missing several values when merging both items. *IS it even merging the items?)&#10;&#10;See: https://ffxiv.consolegameswiki.com/wiki/Big_Fishing">
+      <created>1663576984169</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663576984169</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Merge `works` but only for certain values. See FindItem.java 203">
+      <created>1663584807238</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1663584807238</updated>
+    </task>
+    <task id="LOCAL-00030" summary="All code cleanup but FindItem.java. Code clean involved changing @see to @link. .&#10;&#10;In FindItem.java, current working on line 197, mergeDupeHelper. The internal for loop with currentItemHeader isn't working?? Need to figure out how when mergeBase.put() is running.">
+      <created>1663672170218</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1663672170218</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed index offset bug. Was updating the reference value but not doing anything else to it.">
+      <created>1663929500146</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663929500146</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Still not merging certain duplciate values. Specfially not currently merging the zone value of Old Gridania">
+      <created>1664235119064</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664235119064</updated>
+    </task>
+    <task id="LOCAL-00033" summary="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.">
+      <created>1665476267569</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665476267569</updated>
+    </task>
+    <task id="LOCAL-00034" summary="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Some progresss made by removing the itemAndZone value from the duplicate counter array as seen`arrayList.remove(itemAndZone);`&#10;Still does not catch new gradina for some reason">
+      <created>1665482518388</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665482518388</updated>
+    </task>
+    <task id="LOCAL-00035" summary="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Some progresss made by removing the itemAndZone value from the duplicate counter array as seen`arrayList.remove(itemAndZone);`&#10;Still does not catch new gradina for some reason">
+      <created>1665493499058</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493499058</updated>
+    </task>
+    <task id="LOCAL-00036" summary="MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found and that the mergeBase method never actually happens.&#10;&#10;Update: Working on the actual merging process. (See the second TODO), need to loop thru the higher size keyset">
+      <created>1665749598823</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665749598823</updated>
+    </task>
+    <task id="LOCAL-00037" summary="NOT CONFIRMED, (Test more) &#10;MergeDuplicateHelper still does not work. This is due to the wrong value being deleted or found.&#10;&#10;Merge method should work now? Need to perform more tests">
+      <created>1666352583519</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1666352583519</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Still working on dual instanced Old Griadania for searchMap method in FindItem&#10;&#10;Merge method unsure if works, requires more testing">
+      <created>1666352787875</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1666352787875</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Everything should be fixed? Just need to run more tests to make sure everything is fine">
+      <created>1666488823773</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1666488823773</updated>
+    </task>
+    <task id="LOCAL-00040" summary="mergeDupe doesn't work again for fire Shard">
+      <created>1666491436681</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666491436681</updated>
+    </task>
+    <task id="LOCAL-00041" summary="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)">
+      <created>1666594436648</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1666594436649</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together">
+      <created>1667754146215</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1667754146215</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together">
+      <created>1668239055738</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1668239055738</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm">
+      <created>1668485594106</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1668485594106</updated>
+    </task>
+    <task id="LOCAL-00045" summary="finished some base test cases, still have several more to go. Just set an example of what future ones should look like">
+      <created>1668491860509</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1668491860509</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Finished duplicate testss">
+      <created>1668497193167</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1668497193167</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added a toString to ListFinder.java">
+      <created>1668507183907</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1668507183907</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)">
+      <created>1669892309087</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669892309087</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Major refactor, moving stream map to a regular map in makeGroupedZone method.">
+      <created>1669960188583</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669960188583</updated>
+    </task>
+    <task id="LOCAL-00050" summary="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!">
+      <created>1670169535995</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169535995</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1674999847788</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674999847789</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Fixed the comapre method in ListFinder. It was comparing low to high, switched it around &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1675000423252</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1675000423252</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1675000478297</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1675000478297</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Cleaned up the unused methods in main &#10;- Debugging the formatGroupedZones rn. Logic works but not actually working&#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1675001461487</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1675001461487</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still">
+      <created>1675001908463</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1675001908463</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones">
+      <created>1675676024334</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1675676024334</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work">
+      <created>1675677369726</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1675677369726</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83">
+      <created>1675677666419</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1675677666419</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases">
+      <created>1675682746988</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1675682746989</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675696451809</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1675696451809</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Working on:n/a&#10;&#10;Doing right now: Do test cases&#10;&#10;Changes:&#10;- Formatteed code&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675701252882</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701252882</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675701783843</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701783843</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675934036790</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934036790</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1675934376748</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934376748</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+      <created>1676016609449</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1676016609450</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,10 +689,44 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made tmp file to read from" />
-    <MESSAGE value="can now read from resource folder (hopefully)" />
-    <MESSAGE value="fixed small input stream bug" />
-    <MESSAGE value="update readme guidelines" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme guidelines" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="last case for merge duplicate now wokrs. &#10;Mahar doesnt merge values correctly (see missing value of `level 50`)" />
+    <MESSAGE value="Need to refactor big fish node with array constructor. Creates a blank level of 0 value which in turn makes problems when trying to merge fishing nodes together" />
+    <MESSAGE value="fixed the level merging issue. Everything should work now, just do several more tests cases 2 confirm" />
+    <MESSAGE value="finished some base test cases, still have several more to go. Just set an example of what future ones should look like" />
+    <MESSAGE value="Finished duplicate testss" />
+    <MESSAGE value="added a toString to ListFinder.java" />
+    <MESSAGE value="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)" />
+    <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
+    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!" />
+    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Fixed the comapre method in ListFinder. It was comparing low to high, switched it around &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Cleaned up the unused methods in main &#10;- Debugging the formatGroupedZones rn. Logic works but not actually working&#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
+    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
+    <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Large code reformat. Should not have changed anything" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arrayList" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

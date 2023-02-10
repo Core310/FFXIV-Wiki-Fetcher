@@ -2,21 +2,19 @@ package scrapper.fileCreator;
 
 import scrapper.readers.items.*;
 
-import java.rmi.UnexpectedException;
-import java.util.Arrays;
-
 import static scrapper.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Formats items inputted by csvValues in the switch case statement of formatter
- * @see Formatter formattedItem
+ *
+ * @see Formatter
  */
 public class ItemBuilder {
-    private StringBuilder stringBuilder = new StringBuilder();
+    private final StringBuilder stringBuilder = new StringBuilder();
 
-    protected StringBuilder build_REGULAR_NODE(String[] csvValues){
-        String[] splitItems = csvValues[4].split(",",-1);//Splits all items into an array to process
-        if(splitItems.length == 1){
+    protected StringBuilder build_REGULAR_NODE(String[] csvValues) {
+        String[] splitItems = csvValues[4].split(",", -1);//Splits all items into an array to process
+        if (splitItems.length == 1) {
             stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
             stringBuilder.append("\t");
             stringBuilder.append(
@@ -36,7 +34,7 @@ public class ItemBuilder {
             for (String splitItem : splitItems) {
                 stringBuilder.append(REGULAR_NODE.name());//Appends the name of the item first
                 stringBuilder.append("\t");
-                if(splitItem.charAt(0) == ' ')
+                if (splitItem.charAt(0) == ' ')
                     splitItem = splitItem.replaceFirst(" ", "");
                 stringBuilder.append(new Regular_Node(
                         splitItem, //Item
@@ -53,13 +51,13 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FOLK_LORE_NODE(String[] csvValues){
+    protected StringBuilder build_FOLK_LORE_NODE(String[] csvValues) {
         stringBuilder.append(FOLK_LORE_NODE.name());
         stringBuilder.append("\t");
-        if(csvValues[3].equals(""))
+        if (csvValues[3].equals(""))
             csvValues[3] = "-1";//Edge case for when no value found
 
-        if(csvValues[2].equals("Stonehard Water"))
+        if (csvValues[2].equals("Stonehard Water"))
             csvValues[3] = "1";//Extreme edge case that I really don't want to deal with right now. Very not worth my time
         //See here for the item: https://ffxiv.consolegameswiki.com/wiki/Folklore_Nodes
 
@@ -77,11 +75,11 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FOLK_LORE_FISH_NODE(String[] csvValues){
+    protected StringBuilder build_FOLK_LORE_FISH_NODE(String[] csvValues) {
 
         stringBuilder.append(FOLK_LORE_FISH_NODE.name());
         stringBuilder.append("\t");
-        stringBuilder.append(new FolkLore_FISH_NODE(
+        stringBuilder.append(new FolkLore_Fish_Node(
                 csvValues[2],//Item
                 csvValues[3],//Zone
                 csvValues[4],//Cords
@@ -94,7 +92,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_UNSPOILED_NODE(String[] csvValues){
+    protected StringBuilder build_UNSPOILED_NODE(String[] csvValues) {
 
         stringBuilder.append(UNSPOILED_NODE.name());
         stringBuilder.append("\t");
@@ -114,10 +112,10 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_ARR_UNSPOILED_NODE (String[] csvValues){
-        String[] slots = csvValues[2].split(",",-1);
-        for(String slot: slots){
-            if(slot.charAt(0) == ' ')
+    protected StringBuilder build_ARR_UNSPOILED_NODE(String[] csvValues) {
+        String[] slots = csvValues[2].split(",", -1);
+        for (String slot : slots) {
+            if (slot.charAt(0) == ' ')
                 slot = slot.replaceFirst(" ", "");
 
             stringBuilder.append(ARR_UNSPOILED_NODE.name());
@@ -138,26 +136,22 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FISH_NODE (String[] csvValues){
+    protected StringBuilder build_FISH_NODE(String[] csvValues) {
 
-        String[] fish = csvValues[4].split(",",-1);
-        for(String curFish: fish){
+        String[] fish = csvValues[4].split(",", -1);
+        for (String curFish : fish) {
             stringBuilder.append(FISH_NODE);
             stringBuilder.append("\t");
-            if(curFish.charAt(0) == ' ')
+            if (curFish.charAt(0) == ' ')
                 curFish = curFish.replaceFirst(" ", "");
 
 
-            csvValues[3] = csvValues[3].replaceAll("\\)","");//Replace the ')' in the cords
+            csvValues[3] = csvValues[3].replaceAll("\\)", "");//Replace the ')' in the cords
             //See here https://ffxiv.consolegameswiki.com/wiki/Fishing_Locations
             String[] zoneAndCords = csvValues[3].split("\\(");//Make cords and zone seperate
             //zone = 0, cords =1
-            if(zoneAndCords.length != 2)
-                try {
-                    throw new UnexpectedException("Array must be atmost length of 2");
-                } catch (UnexpectedException e) {
-                    throw new RuntimeException(e);
-                }
+            if (zoneAndCords.length != 2)
+                throw new ArrayIndexOutOfBoundsException("Array must be at most length of 2");
             stringBuilder.append(new Fish_Node(
                     curFish,//fish
                     zoneAndCords[0], //Zone
@@ -173,7 +167,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FISH_BIG_NODE(String[] csvValues){
+    protected StringBuilder build_FISH_BIG_NODE(String[] csvValues) {
         stringBuilder.append(FISH_BIG_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Fish_Big_Node(
@@ -193,7 +187,7 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_FISH_COLLECTABLES_NODE(String[] csvValues){
+    protected StringBuilder build_FISH_COLLECTABLES_NODE(String[] csvValues) {
 
         stringBuilder.append(FISH_COLLECTABLES_NODE);
         stringBuilder.append("\t");
@@ -212,11 +206,11 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues){
+    protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues) {
         System.out.println(csvValues[4]);//used for debugging
-        if(csvValues[4].contains(",")){
-            String[] items = csvValues[4].split(",",-1);
-            for(String curItem: items){
+        if (csvValues[4].contains(",")) {
+            String[] items = csvValues[4].split(",", -1);
+            for (String curItem : items) {
                 stringBuilder.append(EPHEMERAL_NODE);
                 stringBuilder.append("\t");
                 stringBuilder.append(new Ephemeral_Node(
@@ -229,13 +223,12 @@ public class ItemBuilder {
                 ));
                 stringBuilder.append("\n");
             }
-        }
-        else{
+        } else {
             stringBuilder.append(EPHEMERAL_NODE);
             stringBuilder.append("\t");
 
             stringBuilder.append(new Ephemeral_Node(
-                    csvValues[4],//item todo have for loop for mutli items
+                    csvValues[4],//item feature have for loop for mutli items
                     csvValues[1],//zone
                     csvValues[2],//cords
                     csvValues[5],//extra
@@ -248,18 +241,18 @@ public class ItemBuilder {
         return stringBuilder;
     }
 
-    protected StringBuilder build_EPHEMERAL_FISH_NODE(String[] csvValues){
+    protected StringBuilder build_EPHEMERAL_FISH_NODE(String[] csvValues) {
         stringBuilder.append(EPHEMERAL_FISH_NODE);
         stringBuilder.append("\t");
         stringBuilder.append(new Ephemeral_Fish_Node(
-        csvValues[4],//fish
-        csvValues[1],//zone
-        csvValues[2],//cord
-        csvValues[7],//extra
-        csvValues[3],//tp
-        csvValues[5],//weather
-        csvValues[6],//bait
-        csvValues[0]//conditions
+                csvValues[4],//fish
+                csvValues[1],//zone
+                csvValues[2],//cord
+                csvValues[7],//extra
+                csvValues[3],//tp
+                csvValues[5],//weather
+                csvValues[6],//bait
+                csvValues[0]//conditions
         ));
         stringBuilder.append("\n");
         return stringBuilder;

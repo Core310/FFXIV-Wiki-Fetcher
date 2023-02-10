@@ -8,11 +8,13 @@ import java.util.LinkedHashMap;
 /**
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations">link to BNT reg node</a>
  * <p> <a href="https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations">link to MNR reg node</a></p>
+ *
  * @see BaseItem
  */
 public class Regular_Node extends BaseItem implements Item {
     private final int level;
     private final String type;
+
     /**
      * Default constructor. All arguments map to internal variables.
      * This covers the classes BNT and Miner.
@@ -27,8 +29,8 @@ public class Regular_Node extends BaseItem implements Item {
 
             int level,
             String type
-            ){
-        super(item,zone,cords,extra);
+    ) {
+        super(item, zone, cords, extra);
         this.level = level;
         this.type = type;
     }
@@ -46,19 +48,20 @@ public class Regular_Node extends BaseItem implements Item {
             String extra, //Base Items
 
             int level
-    ){
-        super(item,zone,cords,extra);
+    ) {
+        super(item, zone, cords, extra);
         this.level = level;
         type = "n/a";
     }
 
     /**
      * Used when file is already formatted.
+     *
      * @param arr array to input instead of manual input.
      */
     public Regular_Node(String[] arr) {
-        super(arr[1],arr[2],arr[3],arr[4]);
-        if(arr[5].equals(""))
+        super(arr[1], arr[2], arr[3], arr[4]);
+        if (arr[5].equals(""))
             level = -1;
         else
             level = Integer.parseInt(arr[5]);
@@ -67,13 +70,12 @@ public class Regular_Node extends BaseItem implements Item {
 
 
     /**
-     *
      * @return Output format as follows after standard items: level,type
      */
     @Override
     public String toString() {
-        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(),getZone(),getCords(),getExtra());
-        itemOutputFormatter.addElements(new String[]{String.valueOf(level),type});
+        ItemOutputFormatter itemOutputFormatter = new ItemOutputFormatter(getItemName(), getZone(), getCords(), getExtra());
+        itemOutputFormatter.addElements(new String[]{String.valueOf(level), type});
         return itemOutputFormatter.toString();
     }
 
@@ -86,7 +88,7 @@ public class Regular_Node extends BaseItem implements Item {
      */
     @Override
     public LinkedHashMap<String, String> toLinkedHashmap() {
-        LinkedHashMap<String,String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
+        LinkedHashMap<String, String> lhm = new LinkedHashMap<>(BaseLinkedHashMap());
         lhm.put("Level", String.valueOf(getLevel()));
         return lhm;
     }

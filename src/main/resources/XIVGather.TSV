@@ -533,6 +533,7 @@ ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	9:00 PM	7	1
 ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	9:00 PM	8	1
 UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	1	0
 UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	8	0
+UNSPOILED_NODE	Raw Rutilated Quartz	Garlemald	(x32,y16)	Perception 3600	90	6:00AM/PM	6	0
 UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	2:00AM/PM	3	0
 UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	2:00AM/PM	2	0
 UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	4:00AM/PM	6	1
@@ -1019,6 +1020,7 @@ ARR_UNSPOILED_NODE	Kidragora	East Shroud	(x13,y23)		-1	9:00 PM	7	1
 ARR_UNSPOILED_NODE	Trillium Bulb	East Shroud	(x13,y23)		-1	9:00 PM	8	1
 UNSPOILED_NODE	Rarefied Sharlayan Rock Salt	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	1	0
 UNSPOILED_NODE	Rarefied Raw Ametrine	Labyrinthos	(x32,y21)	600 Min. Collectability	81	12:00AM/PM	8	0
+UNSPOILED_NODE	Raw Rutilated Quartz	Garlemald	(x32,y16)	Perception 3600	90	6:00AM/PM	6	0
 UNSPOILED_NODE	Rarefied Eblan Alumen	Garlemald	(x12,y21)	600 Min. Collectability	84	2:00AM/PM	3	0
 UNSPOILED_NODE	Rarefied Phrygian Gold Ore	Garlemald	(x12,y21)	600 Min. Collectability	83	2:00AM/PM	2	0
 UNSPOILED_NODE	Rarefied Pewter Ore	Thavnair	(x32,y25)	600 Min. Collectability	90	4:00AM/PM	6	1
@@ -1099,10 +1101,14 @@ ARR_UNSPOILED_NODE	Water Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	5	0
 ARR_UNSPOILED_NODE	Ice Cluster	Mor Dhona	(x27,y10)		-1	9:00 PM	6	0
 ARR_UNSPOILED_NODE	Earth Cluster	Mor Dhona	(x27,y10)	Dark Matter Cluster Slot 8	-1	9:00 PM	7	0
 FOLK_LORE_NODE	Potent Spice	Elpis Thavnair Ultima Thule	(x33.1,y14.7) (x25.4,y21.8) (x28.0,y13.1)	Archon Burger, Beef Stroganoff, Peach Juice, Peach Tart, Pumpkin Potage, Pumpkin Ratatouille, Scallop Curry, Scallop Salad, Sykon Cookie, Thavnairian Chai	Ancient Ilsabardian Celestial	6AM/PM 8AM/PM 10AM/PM	1
+FOLK_LORE_NODE	Paldao Log	Elpis	(x9.8,y29.9)	Paldao Lumber	Ancient	2AM/PM	-1
 FOLK_LORE_NODE	Mempisang Log	Elpis	(x33.1,y14.7)	Mempisang Lumber	Ancient	6AM/PM	6
+FOLK_LORE_NODE	Haritaki	Thavnair	(x19.1,y26.9)	Titanoboa Leather	Ilsabardian	12AM/PM	-1
+FOLK_LORE_NODE	Bayberry	Labyrinthos	(x28.2,y11.4)	Bayberry Cloth	Ilsabardian	4AM/PM	-1
 FOLK_LORE_NODE	Golden Cocoon	Thavnair	(x25.4,y21.8)	Golden Silk	Ilsabardian	8AM/PM	4
 FOLK_LORE_NODE	Thavnairian Corn	Thavnair	(x25.4,y21.8)	Hannish Fiber	Ilsabardian	8AM/PM	-1
 FOLK_LORE_NODE	Double-edged Herb	Ultima Thule	(x28.0,y13.1)	Grade 6 Strength Alkahest, Grade 6 Dexterity Alkahest, Grade 6 Vitality Alkahest, Grade 6 Intelligence Alkahest, Grade 6 Mind Alkahest	Celestial	10AM/PM	2
+FOLK_LORE_NODE	Prime Crystalbloom	Ultima Thule	(x28.0,y13.1)	Aetherial Reduction, Sublime Crystalbloom	Celestial	10AM/PM	-1
 FOLK_LORE_NODE	Sandalwood Log	The Rak'tika Greatwood	(x24,y36)	Sandalwood Lumber	Vrandtic	2AM/PM	6
 FOLK_LORE_NODE	Sandalwood Sap	The Rak'tika Greatwood	(x24,y36)	Pliable Glass Fiber	Vrandtic	2AM/PM	4
 FOLK_LORE_NODE	Merbau Log	Il Mheg	(x36,y27)	Merbau Lumber	Vrandtic	8AM/PM	6
@@ -1137,8 +1143,12 @@ FOLK_LORE_NODE	Star Cotton Boll	Azys Lla	(x9,y31)	Star Velvet	Abalathian	4AM/PM	
 FOLK_LORE_NODE	Stonehard Water	Garlemald Elpis Mare Lamentorum	(x32.2,y34.8) (x13.5,y7.3) (x9.6,y23.1)	Grade 6 Tincture of Strength, Grade 6 Tincture of Dexterity, Grade 6 Tincture of Vitality, Grade 6 Tincture of Intelligence, Grade 6 Tincture of Mind	Ilsabardian Ancient Celestial	12AM/PM 4AM/PM 2AM/PM	1
 FOLK_LORE_NODE	Rime Dolomite	Garlemald	(x32.2,y34.8)	Amynodon Leather	Ilsabardian	12AM/PM	1
 FOLK_LORE_NODE	Raw Eblan Danburite	Garlemald	(x32.2,y34.8)	Eblan Danburite	Ilsabardian	12AM/PM	8
+FOLK_LORE_NODE	Prime Siderite	Garlemald	(x32.2,y34.8)	Aetherial Reduction, Sublime Siderite	Ilsabardian	12AM/PM	-1
+FOLK_LORE_NODE	Raw Rutilated Quartz	Garlemald	(x32.0,y17.4)	Rutilated Quartz	Ilsabardian	6AM/PM	-1
+FOLK_LORE_NODE	Ash Diatomite	Labyrinthos	(x11.2,y21.4)	Grade 7 Strength Alkahest, Grade 7 Dexterity Alkahest, Grade 7 Vitality Alkahest, Grade 7 Intelligence Alkahest, Grade 7 Mind Alkahest	Ilsabardian	10AM/PM	-1
 FOLK_LORE_NODE	Rhodium Sand	Elpis	(x13.5,y7.3)	Rhodium Ingot	Ancient	4AM/PM	2
 FOLK_LORE_NODE	Lunar Adamantite Ore	Mare Lamentorum	(x9.6,y23.1)	Lunar Adamantite Ingot	Celestial	2AM/PM	6
+FOLK_LORE_NODE	Ilmenite	Mare Lamentorum	(x29.6,y22.4)	Ilmenite Ingot	Celestial	8AM/PM	-1
 FOLK_LORE_NODE	Tungsten Ore	The Tempest	(x32,y7)	Tungsten Steel Ingot	Vrandtic	10AM/PM	3
 FOLK_LORE_NODE	Prismstone	Il Mheg	(x30,y21)	Prismatic Ingot	Vrandtic	4AM/PM	7
 FOLK_LORE_NODE	Beryllium Ore	Il Mheg	(x30,y21)	Alumina Whetstone	Vrandtic	4AM/PM	5
@@ -1170,11 +1180,20 @@ FOLK_LORE_NODE	Red Alumen	Azys Lla	(x35,y16)	Griffin Leather	Abalathian	10AM/PM	
 FOLK_LORE_NODE	Smithsonite Ore	The Sea of Clouds	(x38.1,y14.8,z2.2)	Eikon Iron Ingot	Abalathian	8AM/PM	2
 FOLK_LORE_NODE	Meteorite	The Sea of Clouds	(x38.1,y14.8,z2.2)	Luminous Fiber	Abalathian	8AM/PM	3
 FOLK_LORE_NODE	Luminium Ore	Azys Lla	(x5,y17)	Scintillant Ingot	Abalathian	6AM/PM	6
-FOLK_LORE_FISH_NODE	Basilosaurus	Thavnair	(x7.3,y7.6)		ANY	Ilsabardian
 FOLK_LORE_FISH_NODE	Labyrinthos Tilapia	Labyrinthos	(x20.5,y16.1)		ANY	Ilsabardian
 FOLK_LORE_FISH_NODE	Red Drum	Thavnair	(x30.8,y9.3)		ANY	Ilsabardian
+FOLK_LORE_FISH_NODE	Basilosaurus	Thavnair	(x7.3,y7.6)		ANY	Ilsabardian
+FOLK_LORE_FISH_NODE	Aetherolectric Guitarfish	Old Sharlayan	(x11.6,y16.0)		8 PM to 12 AM	Ilsabardian
+FOLK_LORE_FISH_NODE	Jumbo Snook	Labyrinthos	(x17.2,y5.7)	Clouds	6 PM to 10 PM	Ilsabardian
+FOLK_LORE_FISH_NODE	Earful	Radz-at-Han	(x5.6,y10.8)		4 AM to 8 AM	Ilsabardian
+FOLK_LORE_FISH_NODE	Hippo Frog	Thavnair	(x21.0,y8.2)	Showers	ANY	Ilsabardian
+FOLK_LORE_FISH_NODE	Rimepike	Garlemald	(x11.0,y30.7)	Snow, mooch Cerule Core	ANY	Ilsabardian
+FOLK_LORE_FISH_NODE	Thavnairian Calamari				ANY	Ilsabardian
+FOLK_LORE_FISH_NODE	Mayashell			Aetherial Reduction	ANY	Ilsabardian
 FOLK_LORE_FISH_NODE	Lunar Deathworm	Mare Lamentorum	(x31.0,y32.1)		ANY	Celestial
 FOLK_LORE_FISH_NODE	Phallaina	Ultima Thule	(x25,y17)	1181 Min. Collectability	10PM-4AM	Celestial
+FOLK_LORE_FISH_NODE	Foun Ahlm	Ultima Thule	(x9.5,y30.6)	Umbral Wind	10 AM to 2 PM	Celestial
+FOLK_LORE_FISH_NODE	Forbiddingway	Ultima Thule	(x7.3,y35.4)	Astromagnetic Storm	9 AM to 12 PM	Celestial
 FOLK_LORE_FISH_NODE	Mangar	Elpis	(x11,y19)		ANY	Ancient
 FOLK_LORE_FISH_NODE	Aapoak	The Tempest	(x6,y14)	314 Min. Collectability	12PM-4PM	Vrandtic
 FOLK_LORE_FISH_NODE	Blue Crab	Kholusia	(x8,y32)		ANY	Vrandtic
@@ -2268,7 +2287,7 @@ FISH_BIG_NODE	Goldenfin	Limsa Lominsa Upper Decks	Any	Venture	Limsa Lominsa Uppe
 FISH_BIG_NODE	Octomammoth	Limsa Lominsa Lower Decks	Any	Sea Breeze Summer Pareo, Blue Summer Maro	Limsa Lominsa Lower Decks	7 AM to 5 PM	Any	Pill Bug, Floating Minnow	Harbor Herring	301+
 FISH_BIG_NODE	Zalera	Middle La Noscea	(18,21)	Paralyzing Potion	Zephyr Drift	9 AM to 2 PM	Any	Rat Tail		335+
 FISH_BIG_NODE	Beguiler Chub	Middle La Noscea	(22,22)		Rogue River	9 AM to 2 PM	Any	Moth Pupa		308+
-FISH_BIG_NODE	Great Gudgeon	Middle La Noscea	(20,18)		West Agelyss River	Anytime	Any	Crayfish Ball		301+
+FISH_BIG_NODE	Great Gudgeon	Middle La Noscea	(20,18)		West Agelyss River	Anytime	Clouds Fair Skies	Crayfish Ball		301+
 FISH_BIG_NODE	Gigantshark	Middle La Noscea	(14,15)	Sea Breeze Summer Halter, South Seas Talisman	Summerford	Anytime	Clear Skies Fair Skies	Floating Minnow	Harbor Herring	301+
 FISH_BIG_NODE	High Perch	Middle La Noscea	(17,14)		Nym River	5 AM to 8 AM	Any	Sinking Minnow		301+
 FISH_BIG_NODE	Crystal Perch	Middle La Noscea	(21,12)	Zircon	Woad Whisper Canyon	Anytime	Clouds Fog Wind	Butterworm		301+
@@ -2454,7 +2473,7 @@ FISH_BIG_NODE	Blade Skipper	The Azim Steppe	(17,18)		Upper Yat Khaal	4 AM to 8 A
 FISH_BIG_NODE	Loose Pendant	The Crystarium	(12.0,16.0)		Crystarium Personal Suites	6 PM to 9 PM	Any	Baitbugs		
 FISH_BIG_NODE	The Sinsteeped	The Crystarium	(10.0,15.0)		The Quadrivium	10 PM to 12 AM	Clear Skies Fair Skies	Fruit Worm		1900+
 FISH_BIG_NODE	Aster Trivi	The Crystarium	(8.0,7.0)		The Trivium	10 PM to 12 AM	From Clear Skies to Clear Skies (a weather chain)	Marble Nymph		2150+
-FISH_BIG_NODE	Winged Dame	Eulmore - The Buttress	(11.0,11.0)	Quicktongue Materia VII	The Derelicts	12 PM to 7 PM	Clear Skies	Squid Strip		
+FISH_BIG_NODE	Winged Dame	Eulmore, The Buttress	(11.0,11.0)	Quicktongue Materia VII	The Derelicts	12 PM to 7 PM	Clear Skies	Squid Strip		
 FISH_BIG_NODE	Sweetheart	Lakeland	(31.0,11.0)		The Rift of Sighs	Anytime	Clear Skies or Fair Skies after Fog	Baitbugs		1900+
 FISH_BIG_NODE	The Unforgiven	Lakeland	(13.0,29.0)	Heavens' Eye Materia VIII	The Source	Anytime	Fog	Baitbugs		
 FISH_BIG_NODE	Python Discus	Lakeland	(19.0,35.0)		Sullen	Anytime	Thunderstorms after Rain	Fruit Worm		2150+

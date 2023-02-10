@@ -2,6 +2,7 @@ package scrapper.fileCreator;
 
 /**
  * Contains all links that are to be searched.
+ *
  * @see MakeFile setParsedPage
  */
 public enum Wikipages {
@@ -14,7 +15,7 @@ public enum Wikipages {
     FSH_BIG_NODE("https://ffxiv.consolegameswiki.com/wiki/Big_Fishing"),
     FSH_COLLECT_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables");
 
-    //EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // TODO: 2/2/2022 Emph nodes need a reader/parser. 8/1/22 Wait for wiki to be updated
+    //EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // feature 2/2/2022 Emph nodes need a reader/parser. 8/1/22 Wait for wiki to be updated
 
 
     private final String url;
@@ -22,6 +23,7 @@ public enum Wikipages {
     /**
      * Default constructor, this should not be used. Outside of this class
      * This is needed to have a link attached to each enum declaration.
+     *
      * @param string String to assign to Enum values
      */
     Wikipages(String string) {
@@ -29,7 +31,6 @@ public enum Wikipages {
     }
 
     /**
-     *
      * @return Enum Value (in this case the URL)
      */
     @Override

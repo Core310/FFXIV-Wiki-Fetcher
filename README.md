@@ -53,20 +53,23 @@ Returns a String.
 ## Development:
 Contributing is greatly appreciated. Please download and unzip the latest file from the [releases page](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases) 
 
-If you wish to build the file yourself run `makeFile();` in main.java or copy below. Replace FileName with the desired path for the resource file.
+If you wish to build the file yourself run `makeFile();` in Main.java or copy below. Replace FileName with the desired path for the resource file.
 ```java
+private static void makeFile() throws IOException {
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather,false);
         MakeFile makeFile = new MakeFile(XIVGather,fileWriter);
-        Document doc ;
+        Document doc ;//jsoup doc
         for(Wikipages wikipages: Wikipages.values()){
-            String link = Jsoup.clean(wikipages.toString(), Safelist.basic());
+            String link = Jsoup.clean(wikipages.toString(), Safelist.basic());//*may* produce a bug. Delete this line if tes cases do not run.
             doc = Jsoup.connect(link).get();
-            makeFile.setParsedPage(doc);
-            makeFile.scrap();
-        }
+            makeFile.setParsedPage(doc);//Fetches webpage data to extract
+            makeFile.scrap();//extracts data and stores in argument file
+        }//goes thru 'Links' array and sets the current element as a jsoup.doc to load into wikiscrapper
         fileWriter.close();
+
         Formatter formatter = new Formatter(FileName);
+    }
 ```
 
 Please download the following dependencies if you are planning to do so.
