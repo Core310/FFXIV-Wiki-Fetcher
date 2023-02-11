@@ -62,7 +62,7 @@ public class ListFinder {
      * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {//UNFINISHED Not working rn debugging
+    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {
         HashSet<String> itemsVisited = new HashSet<>();
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())

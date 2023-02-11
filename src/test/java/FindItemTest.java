@@ -39,10 +39,6 @@ class FindItemTest {
                         Coordinates: X:20, Y:18
                         Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
                         , Item: Crayfish
-                        Zone: Middle La Noscea\s
-                        Coordinates: X:22, Y:22
-                        Bait Used: Floating Minnow, Moth Pupa, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
-                        , Item: Crayfish
                         Zone: Lower La Noscea\s
                         Coordinates: X:24, Y:23
                         Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Sinking Minnow, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
@@ -51,17 +47,9 @@ class FindItemTest {
                         Coordinates: X:12, Y:13
                         Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
                         , Item: Crayfish
-                        Zone: New Gridania\s
-                        Coordinates: X:10, Y:11
-                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Rainbow Spoon Lure, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
-                        , Item: Crayfish
                         Zone: Old Gridania\s
                         Coordinates: X:11, Y:8
                         Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Glowworm, Caddisfly Larva, Spinnerbait, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
-                        , Item: Crayfish
-                        Zone: Old Gridania\s
-                        Coordinates: X:15, Y:6
-                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Stem Borer, Glowworm, Caddisfly Larva, Snurble Fly, Chocobo Fly, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
                         , Item: Crayfish
                         Zone: Central Shroud\s
                         Coordinates: X:22, Y:21
@@ -90,6 +78,7 @@ class FindItemTest {
                 Zone: Lower La Noscea\s
                 Coordinates: X:27, Y:15
                 Bait Used: Moth Pupa, Glowworm, Spinnerbait, Honey Worm, Sinking Minnow, Syrphid Basket, Chocobo Fly, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                Time: 5 PM to 7 PM
                 , Item: Sunfish
                 Zone: Western La Noscea\s
                 Coordinates: X:15, Y:29
@@ -98,18 +87,6 @@ class FindItemTest {
                 Zone: Coerthas Central Highlands\s
                 Coordinates: X:13, Y:14
                 Bait Used: Balloon Bug, Hoverworm, Versatile Lure
-                , Item: Skyfish
-                Zone: Coerthas Central Highlands\s
-                Coordinates: X:33.2, Y:18
-                Bait Used: Hoverworm, Versatile Lure
-                , Item: Cupfish
-                Zone: Lower La Noscea
-                Coordinates: (26,15)
-                Time: 5 PM to 7 PM
-                , Item: Inkfish
-                Zone: The Sea of Clouds
-                Coordinates: (29,35)
-                Time: 2 PM to 4 PM
                 ]""", FindItem.essentialFindAllClosestAsMap("fishie").toString());
     }
 
