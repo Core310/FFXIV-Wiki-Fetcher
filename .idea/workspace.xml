@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: Tidy all&#10;&#10;Doing right now: forramt code&#10;&#10;Changes:&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Added one more test case, tidy other tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
     </list>
@@ -44,28 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowJson Helper.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/Java_box&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowJson Helper.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Documents/GitHub/Java_box",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.splitter.proportion": "0.20795107",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -325,14 +326,9 @@
       <workItem from="1675932035180" duration="2332000" />
       <workItem from="1676026689437" duration="879000" />
       <workItem from="1676043552155" duration="665000" />
-      <workItem from="1676085321720" duration="875000" />
-    </task>
-    <task id="LOCAL-00020" summary="Refactoring original merge method to go into the map method. The method wont work if it is in the base findItem method b/c it would be impossible to load each item into the map form. By using a map, I get the header value already and can just merge the header and actual data.">
-      <created>1663152913717</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1663152913717</updated>
+      <workItem from="1676085321720" duration="1100000" />
+      <workItem from="1676100026447" duration="164000" />
+      <workItem from="1676176023399" duration="1088000" />
     </task>
     <task id="LOCAL-00021" summary="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)">
       <created>1663326818226</created>
@@ -670,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676043681051</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Made pretty basic test cases that can do the job">
+      <created>1676086423723</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1676086423723</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,8 +705,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="finished some base test cases, still have several more to go. Just set an example of what future ones should look like" />
-    <MESSAGE value="Finished duplicate testss" />
     <MESSAGE value="added a toString to ListFinder.java" />
     <MESSAGE value="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)" />
     <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
@@ -727,7 +728,9 @@
     <MESSAGE value="Working on: Tidy all&#10;&#10;Doing right now: Tidy libraries &#10;&#10;Changes: update libs (not mad)&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: Tidy all&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: Tidy all&#10;&#10;Doing right now: forramt code&#10;&#10;Changes:&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on: Tidy all&#10;&#10;Doing right now: forramt code&#10;&#10;Changes:&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
+    <MESSAGE value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Made pretty basic test cases that can do the job" />
+    <MESSAGE value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Added one more test case, tidy other tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Added one more test case, tidy other tests" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

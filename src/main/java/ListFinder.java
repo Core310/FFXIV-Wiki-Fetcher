@@ -95,7 +95,7 @@ public class ListFinder {
             if (arr.isEmpty())
                 continue;
             for (String[] st : arr)
-                sb.append("\n").append(Arrays.toString(st));//There is an empty slot at end of each item. I think It's for the "extra" itemData. Unsure though
+                sb.append("\n").append(Arrays.toString(st));//There is an empty slot at end of each item, it was deleted in the build method. Unsure what it represents but is always empty.
         }
         return sb.toString().replaceFirst("\n", "");//Newline is always created at the top, replaceFirst deletes it.
     }
