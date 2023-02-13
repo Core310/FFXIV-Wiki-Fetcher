@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Small readMe change">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListFinderTest.outPutList">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -137,8 +136,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
         <item itemvalue="JUnit.DuplicateTest" />
@@ -329,13 +328,6 @@
       <workItem from="1676176023399" duration="1156000" />
       <workItem from="1676177295096" duration="1261000" />
       <workItem from="1676259495236" duration="344000" />
-    </task>
-    <task id="LOCAL-00024" summary="Currently the item is just copying itself and not actually merging the values">
-      <created>1663467582423</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1663467582423</updated>
     </task>
     <task id="LOCAL-00025" summary="Currently the item is just copying itself and not actually merging the values">
       <created>1663480243289</created>
@@ -673,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676260409317</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Small readMe change">
+      <created>1676261312509</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1676261312509</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,7 +704,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
     <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!" />
     <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
@@ -730,7 +728,8 @@
     <MESSAGE value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Added one more test case, tidy other tests" />
     <MESSAGE value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- Flattened the array calledItems in ListFinder from ArrayList&lt;ArrayList&lt;String&gt;&gt; -&gt; ArrayList&lt;String&gt;" />
     <MESSAGE value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement" />
+    <MESSAGE value="Small readMe change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small readMe change" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
