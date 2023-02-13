@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- Flattened the array calledItems in ListFinder from ArrayList&lt;ArrayList&lt;String&gt;&gt; -&gt; ArrayList&lt;String&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListFinder.java" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="I made ListFinder completely static as it's the final calling class">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListFinderTest.outPutList">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -137,8 +135,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
         <item itemvalue="JUnit.DuplicateTest" />
@@ -329,27 +327,6 @@
       <workItem from="1676176023399" duration="1156000" />
       <workItem from="1676177295096" duration="1261000" />
       <workItem from="1676259495236" duration="344000" />
-    </task>
-    <task id="LOCAL-00023" summary="Coding isn't acting way should. Still need to cleanup the refactor from the last comit. Also incomming changes to the way I threw Unexpected exceptions, replaced with runtime ones (in progress)">
-      <created>1663326842126</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1663326842126</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Currently the item is just copying itself and not actually merging the values">
-      <created>1663467582423</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1663467582423</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Currently the item is just copying itself and not actually merging the values">
-      <created>1663480243289</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1663480243289</updated>
     </task>
     <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
       <created>1663505600608</created>
@@ -673,7 +650,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676178404511</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement">
+      <created>1676260409317</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1676260409317</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Small readMe change">
+      <created>1676261312509</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1676261312509</updated>
+    </task>
+    <task id="LOCAL-00074" summary="I made ListFinder completely static as it's the final calling class">
+      <created>1676261915238</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1676261915238</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,9 +703,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Major refactor:&#10;Replaced return type of essentialFindAllClosestAsMap in FindItem.java from ArrayList&lt;StringBuilder&gt; -&gt; ArrayList&lt;String&gt;&#10;&#10;Minor:&#10;Still working on ListFinder.java, I need to somehow delete the keys that do not have a value in the final output (see line 55 of ListFinder.java)" />
-    <MESSAGE value="Major refactor, moving stream map to a regular map in makeGroupedZone method." />
-    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactor, split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;Lots of new comments and todos!" />
     <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Fixed the comapre method in ListFinder. It was comparing low to high, switched it around &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
@@ -730,7 +725,10 @@
     <MESSAGE value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Made pretty basic test cases that can do the job" />
     <MESSAGE value="Working on:Test cases&#10;&#10;Doing right now: n/a&#10;&#10;Changes: &#10;- Added one more test case, tidy other tests" />
     <MESSAGE value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- Flattened the array calledItems in ListFinder from ArrayList&lt;ArrayList&lt;String&gt;&gt; -&gt; ArrayList&lt;String&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- Flattened the array calledItems in ListFinder from ArrayList&lt;ArrayList&lt;String&gt;&gt; -&gt; ArrayList&lt;String&gt;" />
+    <MESSAGE value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement" />
+    <MESSAGE value="Small readMe change" />
+    <MESSAGE value="I made ListFinder completely static as it's the final calling class" />
+    <option name="LAST_COMMIT_MESSAGE" value="I made ListFinder completely static as it's the final calling class" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
