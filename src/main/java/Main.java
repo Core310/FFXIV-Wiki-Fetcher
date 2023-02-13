@@ -21,7 +21,6 @@ public class Main {
         ListFinder listFinder = new ListFinder();
         listFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
         System.out.println(listFinder.toString());
-        FindItem fi = new FindItem();
     }
 
     /*
