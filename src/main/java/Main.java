@@ -18,8 +18,10 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
 
     public static void main(String[] args) throws IOException {
-        ListFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
-        System.out.println(ListFinder.outPut());
+        ListFinder listFinder = new ListFinder();
+        listFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
+        System.out.println(listFinder.toString());
+        FindItem fi = new FindItem();
     }
 
     /*

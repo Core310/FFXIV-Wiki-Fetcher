@@ -9,12 +9,12 @@ import java.util.stream.Stream;
  * @see FindItem
  */
 public class ListFinder {
-    private static final FindItem findItem = new FindItem();
+    private final FindItem findItem = new FindItem();
     /**
      * Container of formatted items where {@literal ArrayList<Items>}
      * <br> Items are added in {@link #addItem(String)}
      */
-    private static final ArrayList<String> calledItems = new ArrayList<>();
+    private final ArrayList<String> calledItems = new ArrayList<>();
     /**
      * Sorts the given lhm by value, helper to {@link #buildGroupedZones()}.
      * Credits to <a href = "https://stackoverflow.com/a/65917002/9099611"> Supreet Singh</a>
@@ -38,7 +38,7 @@ public class ListFinder {
      * @return sorted zones with item data attached like so:
      * <br>{@literal Map<Zone,ArrayList<ItemData>>} where ItemData is split by "\n.
      */
-    private static LinkedHashMap<String, ArrayList<String[]>> buildGroupedZones() {
+    private LinkedHashMap<String, ArrayList<String[]>> buildGroupedZones() {
         LinkedHashMap<String, ArrayList<String[]>> groupedZones = new LinkedHashMap<>();
         int zoneIndex = 1;
             for (String itemData : calledItems) {//Item data separated by /n
@@ -60,7 +60,7 @@ public class ListFinder {
      * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private static LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {
+    private LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {
         HashSet<String> itemsVisited = new HashSet<>();
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())
@@ -78,7 +78,8 @@ public class ListFinder {
     /**
      * @return Input list items grouped by zone, with each item only occurring once. If an item occurs in a zone with many items, it will be deleted from the rest of the zones.
      */
-    public static String outPut() {
+    @Override
+    public String toString() {
         StringBuilder sb = new StringBuilder();
         for (ArrayList<String[]> arr : formatGroupedZones().values()) {//For some reason, the arr size =0 several times. Weird bug. Does not affect code
             if (arr.isEmpty())
@@ -95,7 +96,7 @@ public class ListFinder {
      * @param searchKey item user is looking for. WIll be queued up to find.
      * @see FindItem
      */
-    public static void addItem(String searchKey) {
+    public void addItem(String searchKey) {
         calledItems.addAll(findItem.essentialFindAllClosestAsMap(searchKey));//The called method returns an arrayList of strings. So we just
     }
 
@@ -104,7 +105,7 @@ public class ListFinder {
      *
      * @param items Array input of items a user is looking for
      */
-    public static void addItem(String[] items) {
+    public void addItem(String[] items) {
         for (String str : items) {
             addItem(str);
         }
@@ -113,7 +114,7 @@ public class ListFinder {
     /**
      * Clears all internal containers.
      */
-    public static void clearQueries() {
+    public void clearQueries() {
         calledItems.clear();
     }
 
@@ -121,7 +122,7 @@ public class ListFinder {
      * Delete an item previously searched for.
      * @param searchKey item to delete.
      */
-    public static void deleteElement(String searchKey) {
+    public void deleteElement(String searchKey) {
         calledItems.remove(searchKey);//Maybe instead I should
     }
 
