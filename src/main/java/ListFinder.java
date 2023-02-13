@@ -120,10 +120,11 @@ public class ListFinder {
 
     /**
      * Delete an item previously searched for.
+     * @param searchKey item to delete.
      */
-    public void deleteElement() {
-
-    }//TODO 4/12/2022 Add method to delete element from return list
+    public void deleteElement(String searchKey) {
+        calledItems.remove(searchKey);//Maybe instead I should
+    }
 
     /**
      * Used by: {@link #sortByValue(LinkedHashMap)}
