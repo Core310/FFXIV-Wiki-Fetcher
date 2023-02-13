@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="I made ListFinder completely static as it's the final calling class">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +74,11 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean deploy" />
       <command value="mvn clean" />
+      <command value="mvn clean deploy" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in FFXIV-Wiki-Fetcher">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -87,11 +88,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in FFXIV-Wiki-Fetcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FFXIV-Wiki-Fetcher" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,18 +128,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.All in FFXIV-Wiki-Fetcher" />
       <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
-      <item itemvalue="JUnit.DuplicateTest" />
       <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
       <item itemvalue="JUnit.ListFinderTest.outPutList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FFXIV-Wiki-Fetcher" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ListFinderTest.outPutList" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
-        <item itemvalue="JUnit.DuplicateTest" />
       </list>
     </recent_temporary>
   </component>
