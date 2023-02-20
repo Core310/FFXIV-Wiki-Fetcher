@@ -93,7 +93,7 @@
                 <configuration>
                     <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
                 </configuration>
-                <version>3.4.1</version>
+                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
