@@ -5,7 +5,9 @@ on:
     types: [completed]
     
 permissions:
-  checks: write
+    contents: read
+    checks: write
+    id-token: write
 
 jobs:
   checks:
