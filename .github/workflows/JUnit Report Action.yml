@@ -11,8 +11,7 @@ jobs:
   build:
     name: Build and Run Tests
     runs-on: ubuntu-latest
-    permissions:
-    checks: write
+    permissions: write-all
 
     steps:
       - name: Checkout Code
