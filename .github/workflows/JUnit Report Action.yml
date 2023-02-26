@@ -1,9 +1,6 @@
 name: build
 on:
   pull_request:
-    branches: [ "main" ]
-
-  workflow_dispatch:
 
 jobs:
   build:
@@ -19,7 +16,7 @@ jobs:
         if: always() # always run even if the previous step fails
         with:
           name: junit-test-results
-          path: target/surefire-reports/*.xml
+          path: '**/build/test-results/test/TEST-*.xml'
           retention-days: 1
 
 ---
@@ -46,4 +43,4 @@ jobs:
         uses: mikepenz/action-junit-report@v3
         with:
           commit: ${{github.event.workflow_run.head_sha}}
-          report_paths: target/surefire-reports/*.xml
+          report_paths: '**/build/test-results/test/TEST-*.xml'
