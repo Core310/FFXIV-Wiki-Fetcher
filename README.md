@@ -3,7 +3,7 @@ FFXIV Wiki scrapper searches for DOH/DOL gathering nodes (aka gathering classes)
 the [consolegameswiki](https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes)
 and outputs them in a neat and readable format. It is fully documented using java doc (see linked repository webiste).
 
-- Simply call `ListFinder.addItem(String searchKey)` for any items that you want to search for. Then call ListFinder.outPut() to output all items 
+- Simply call `ListFinder.addItem(String searchKey)` for any items that you want to search for. Then call `ListFinder.outPut()` to output all items 
 called for. The searchKey does not need to be exact as this uses fuzzySearching to guess the item you are looking for.
 - Download the latest release from [mavenCentral](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher).
 - Currently, does not support the
