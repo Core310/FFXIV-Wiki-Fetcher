@@ -1,6 +1,0 @@
-component_depth: 6
-languages:
-- name: java
-  production:
-      exclude:
-          - /src/main/java/scrapper/readers/.*

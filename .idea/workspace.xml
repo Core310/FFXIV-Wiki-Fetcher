@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/Dependabot Auto Merge.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_15_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.github/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bettercodehub.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/JUnit Report Action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/JUnit Report Action.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "Errors",
     "settings.editor.splitter.proportion": "0.20795107",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,8 +83,10 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn clean deploy" />
+      <command value="mvn gpg:help" />
+      <command value="mvn gpg:sign" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in FFXIV-Wiki-Fetcher">
@@ -343,6 +338,7 @@
       <workItem from="1676176023399" duration="1156000" />
       <workItem from="1676177295096" duration="1261000" />
       <workItem from="1676259495236" duration="344000" />
+      <workItem from="1677830163100" duration="1225000" />
     </task>
     <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
       <created>1663505600608</created>

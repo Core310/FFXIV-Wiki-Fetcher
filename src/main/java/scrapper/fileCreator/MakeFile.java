@@ -45,12 +45,12 @@ public class MakeFile {
      * @return Arraylist of all Tables
      */
     private static ArrayList<Elements> grabTable(Document doc) {
-        ArrayList<Elements> Table = new ArrayList<>();//Return arrayList
+        ArrayList<Elements> Table = new ArrayList<>();
         for (Element curTD : doc.select("td")) {
             if (!curTD.hasText()) {
-                curTD.append("\u00a0");//That append (\u00a0) creates a blank space
+                curTD.append("\u00a0");//(\u00a0) creates a blank space
             }
-        }//This for loops deals with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
+        }//De1als with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
 
         for (Element element : doc.select("tr")) {
             Elements th = element.select("th");

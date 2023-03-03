@@ -84,42 +84,43 @@ public class FindItem {
         ArrayList<String> rawData = findAllClosest(itemName);//Used to loop through all values found.
         ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//ArrayList that is outputted in the format: ItemDescriptor,ActualItem
         Item item;
+        int itemNameIndex =0;
         for (String curLine : rawData) {
-            String[] delimLine = curLine.split("\t", -1);//Should split the current line into whatever is the cur item
-            String curItem = delimLine[0];//0 is index where ItemName is stored
+            String[] delimiterLine = curLine.split("\t", -1);//Should split the current line into whatever is the cur item
+            String curItem = delimiterLine[itemNameIndex];
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
             if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {
                 //For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
-                item = new FolkLore_Fish_Node(delimLine);
+                item = new FolkLore_Fish_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
-                item = new FolkLore_Node(delimLine);
+                item = new FolkLore_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.REGULAR_NODE.toString().equals(curItem)) {
-                item = new Regular_Node(delimLine);
+                item = new Regular_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (
                     StaticItemTypes.UNSPOILED_NODE.toString().equals(curItem)
                             ||
                             StaticItemTypes.ARR_UNSPOILED_NODE.toString().equals(curItem)
             ) {
-                item = new Unspoiled_Node(delimLine);
+                item = new Unspoiled_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_NODE.toString().equals(curItem)) {
-                item = new Fish_Node(delimLine);
+                item = new Fish_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
-                item = new Fish_Big_Node(delimLine);
+                item = new Fish_Big_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
-                item = new Fish_Collectable_Node(delimLine);
+                item = new Fish_Collectable_Node(delimiterLine);
                 outputList.add(item.toLinkedHashmap());
             } else
                 throw new RuntimeException("Wrong static item type assigned");
         }
         /*
-        Why is mergeDuplicate only available for maps? Easier to merge items since each values
+        Why is mergeDuplicate only available for maps? Easier to merge items since each value
         Has a key assigned to it.
          */
         return mergeDuplicate(outputList);
@@ -137,7 +138,7 @@ public class FindItem {
      */
     private ArrayList<LinkedHashMap<String, String>> mergeDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
-            return findAllClosestAsMapOutPut;//base case
+            return findAllClosestAsMapOutPut;
         else if (currentArray.size() < 1) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
@@ -257,7 +258,7 @@ public class FindItem {
                 currentArray.clear();
                 currentArray.add(curLine);
             }
-        }//end of while
+        }
 
         //This code below removes any exact duplicates
         LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
