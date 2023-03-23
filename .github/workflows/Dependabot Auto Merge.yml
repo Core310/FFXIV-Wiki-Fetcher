@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  permissions: read-all
   auto-merge:
     runs-on: ubuntu-latest
     steps:
