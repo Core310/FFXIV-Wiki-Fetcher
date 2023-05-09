@@ -1,13 +1,13 @@
-package scrapper.readers.items;
+package fileBuilder.readers.items;
 
-import scrapper.readers.items.baseNode.BaseItem;
-import scrapper.readers.items.baseNode.Item;
+import fileBuilder.readers.items.baseNode.BaseItem;
+import fileBuilder.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
 /**
- * @see scrapper.readers.items.Ephemeral_Node
- * @see scrapper.readers.items.baseNode.BaseItem
+ * @see fileBuilder.readers.items.Ephemeral_Node
+ * @see fileBuilder.readers.items.baseNode.BaseItem
  */
 public class Ephemeral_Fish_Node extends BaseItem implements Item {
     private final String conditions, tp, weather, bait;

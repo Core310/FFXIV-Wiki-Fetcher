@@ -1,4 +1,4 @@
-package scrapper.readers.items.baseNode;
+package fileBuilder.readers.items.baseNode;
 
 import java.util.LinkedHashMap;
 
@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
  *
  * <p>All methods/vars are either private or protected.
  *
- * @see scrapper.fileCreator.Formatter
+ * @see fileBuilder.fileCreator.Formatter
  */
 @SuppressWarnings("all")
 public abstract class BaseItem {

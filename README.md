@@ -1,16 +1,16 @@
-# FFXIV Wiki scrapper
-FFXIV Wiki scrapper searches for DOH/DOL gathering nodes (aka gathering classes) from
+# FFXIV Wiki fileBuilder
+FFXIV Wiki fileBuilder searches for DOH/DOL gathering nodes (aka gathering classes) from
 the [consolegameswiki](https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes)
 and outputs them in a neat and readable format. It is fully documented using java doc (see linked repository webiste).
 
-- Simply call `ListFinder.addItem(String searchKey)` for any items that you want to search for. Then call `ListFinder.outPut()` to output all items 
+- Simply call `ffxivWikiFinder.ListFinder.addItem(String searchKey)` for any items that you want to search for. Then call `ffxivWikiFinder.ListFinder.outPut()` to output all items 
 called for. The searchKey does not need to be exact as this uses fuzzySearching to guess the item you are looking for.
 - Download the latest release from [mavenCentral](https://search.maven.org/artifact/io.github.Core310/FFXIV-Wiki-Fetcher).
 - Currently, does not support the
   [Ephemeral_Nodes](https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes) page
 ## Development:
 Contributing is greatly appreciated. You can find the source code zip here [releases page](https://github.com/Core310/FFXIV-Wiki-Fetcher/releases).
-If you wish to build the file yourself run `makeFile();` in Main.java
+If you wish to build the file yourself run `makeFile();` in ffxivWikiFinder.Main.java
 
 Dependencies:
 - [me.xdrop:fuzzywuzzy](https://github.com/xdrop/fuzzywuzzy) for fuzzy search.

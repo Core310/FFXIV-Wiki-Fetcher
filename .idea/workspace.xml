@@ -5,10 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.bettercodehub.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/JUnit Report Action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/JUnit Report Action.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__me_xdrop_fuzzywuzzy_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Ephemeral_Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Ephemeral_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Big_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Big_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Collectable_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Collectable_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/FolkLore_Fish_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/FolkLore_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/ItemOutputFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Regular_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Regular_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Unspoiled_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Unspoiled_Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/BaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/BaseItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/StaticItemTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +84,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,7 +125,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
       <module name="FFXIV-Wiki-Fetcher" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,6 +371,7 @@
       <workItem from="1676177295096" duration="1261000" />
       <workItem from="1676259495236" duration="344000" />
       <workItem from="1677830163100" duration="1225000" />
+      <workItem from="1683595293900" duration="1560000" />
     </task>
     <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
       <created>1663505600608</created>

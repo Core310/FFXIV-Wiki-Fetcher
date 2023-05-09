@@ -1,8 +1,8 @@
-package scrapper.readers.items;
+package fileBuilder.readers.items;
 
 
-import scrapper.readers.items.baseNode.BaseItem;
-import scrapper.readers.items.baseNode.Item;
+import fileBuilder.readers.items.baseNode.BaseItem;
+import fileBuilder.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 

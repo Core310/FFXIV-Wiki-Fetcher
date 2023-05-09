@@ -1,9 +1,11 @@
+package ffxivWikiFinder;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.safety.Safelist;
-import scrapper.fileCreator.Formatter;
-import scrapper.fileCreator.MakeFile;
-import scrapper.fileCreator.Wikipages;
+import fileBuilder.fileCreator.Formatter;
+import fileBuilder.fileCreator.MakeFile;
+import fileBuilder.fileCreator.Wikipages;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -21,35 +23,6 @@ public class Main {
         ListFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
         System.out.println(ListFinder.outPut());
     }
-
-    /*
-    private static void searchMap(String itemName){
-        FindItem fi  = new FindItem();
-        for(LinkedHashMap<String,String> lm: fi.findAllClosestAsMap(itemName)){
-            System.out.println(lm.keySet());
-            System.out.println(lm.values());
-        }
-    }
-    private static void searchAllRaw(String itemName){
-        FindItem fi = new FindItem();
-        //String base[] = fi.findAllClosest(itemName).get(0).split("\t",-1);
-        //String base2[] = fi.findAllClosest(itemName).get(1).split("\t",-1);
-        //String t = (base[1].replaceAll(" ","") + " " + base[2].replaceAll(" ",""));
-        //String t1= (base2[1].replaceAll(" ","") + " " + base2[2].replaceAll(" ",""));
-        //System.out.println(t1 + "\n" + t);
-        for(String cur: fi.findAllClosest(itemName))
-            System.out.println(cur);
-    }
-
-    private static void searchFile(String itemnam) {
-        FindItem findItem = new FindItem();
-        ArrayList<StringBuilder> arr;
-        //findItem.setNumberOfDuplicateItems(1);
-        for(String tmp: findItem.essentialFindAllClosestAsMap(itemnam)){
-            System.out.println(tmp);
-        };
-    }
-     */
 
     /**
      * Test method to make the file

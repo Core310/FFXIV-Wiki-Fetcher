@@ -1,3 +1,5 @@
+package ffxivWikiFinder;
+
 import java.util.*;
 import java.util.stream.Stream;
 
@@ -32,7 +34,7 @@ public class ListFinder {
     }
 
     /**
-     * Obtains item data from {@link #calledItems} updated by {@link #addItem(String[])} which gets its data from essentialFindAllClosestAsMap from FindItem.java.
+     * Obtains item data from {@link #calledItems} updated by {@link #addItem(String[])} which gets its data from essentialFindAllClosestAsMap from ffxivWikiFinder.FindItem.java.
      * <br> Sorts the zones with the highest number of items using the method {@link #sortByValue(LinkedHashMap)}
      *
      * @return sorted zones with item data attached like so:
@@ -57,7 +59,7 @@ public class ListFinder {
      * <br>
      *
      * @return deletes all duplicate items, only saving 1 copy instanced with the highest amount of items in one zone.
-     * The method mergeDuplicate in FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
+     * The method mergeDuplicate in ffxivWikiFinder.FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
     private static LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {

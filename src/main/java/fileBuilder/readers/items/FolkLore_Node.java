@@ -1,6 +1,6 @@
-package scrapper.readers.items;
+package fileBuilder.readers.items;
 
-import scrapper.readers.items.baseNode.Item;
+import fileBuilder.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Big_Fishing">wiki link</a>
  *
  * @see FolkLore_Fish_Node
- * @see scrapper.readers.items.baseNode.BaseItem
+ * @see fileBuilder.readers.items.baseNode.BaseItem
  */
 public class FolkLore_Node extends FolkLore_Fish_Node implements Item {
 

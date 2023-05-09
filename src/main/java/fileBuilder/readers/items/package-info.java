@@ -17,6 +17,6 @@
  *   <li>An overridden LinkedHashMap method from the interface.</li>
  * </ul>
  *
- * @see scrapper.readers.items.Fish_Node example Item Class
+ * @see fileBuilder.readers.items.Fish_Node example Item Class
  */
-package scrapper.readers.items;
+package fileBuilder.readers.items;

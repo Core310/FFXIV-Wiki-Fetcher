@@ -1,10 +1,10 @@
-package scrapper.fileCreator;
+package fileBuilder.fileCreator;
 
-import scrapper.readers.items.baseNode.StaticItemTypes;
+import fileBuilder.readers.items.baseNode.StaticItemTypes;
 
 import java.io.*;
 
-import static scrapper.readers.items.baseNode.StaticItemTypes.*;
+import static fileBuilder.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Puts an ITEM tag infront of each item for ease of reading and formats every item.

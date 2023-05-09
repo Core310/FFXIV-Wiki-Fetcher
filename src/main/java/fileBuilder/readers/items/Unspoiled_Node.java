@@ -1,13 +1,13 @@
-package scrapper.readers.items;
+package fileBuilder.readers.items;
 
-import scrapper.readers.items.baseNode.Item;
+import fileBuilder.readers.items.baseNode.Item;
 
 import java.util.LinkedHashMap;
 
 /**
  * <a href="https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes">Link to all Unspoiled Nodes</a>
  *
- * @see scrapper.readers.items.baseNode.BaseItem
+ * @see fileBuilder.readers.items.baseNode.BaseItem
  * @see Regular_Node
  */
 public class Unspoiled_Node extends Regular_Node implements Item {

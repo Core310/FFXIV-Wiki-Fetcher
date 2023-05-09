@@ -1,8 +1,8 @@
-package scrapper.fileCreator;
+package fileBuilder.fileCreator;
 
-import scrapper.readers.items.*;
+import fileBuilder.readers.items.*;
 
-import static scrapper.readers.items.baseNode.StaticItemTypes.*;
+import static fileBuilder.readers.items.baseNode.StaticItemTypes.*;
 
 /**
  * Formats items inputted by csvValues in the switch case statement of formatter

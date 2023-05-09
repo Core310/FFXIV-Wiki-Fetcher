@@ -1,7 +1,9 @@
+package ffxivWikiFinder;
+
 import me.xdrop.fuzzywuzzy.FuzzySearch;
-import scrapper.readers.items.*;
-import scrapper.readers.items.baseNode.Item;
-import scrapper.readers.items.baseNode.StaticItemTypes;
+import fileBuilder.readers.items.*;
+import fileBuilder.readers.items.baseNode.Item;
+import fileBuilder.readers.items.baseNode.StaticItemTypes;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +19,7 @@ import java.util.*;
  *
  * @see ListFinder
  * @see StaticItemTypes
- * @see scrapper.readers.items
+ * @see fileBuilder.readers.items
  */
 public class FindItem {
     /**
@@ -74,7 +76,7 @@ public class FindItem {
     /**
      * Outputs each case neatly with ALL values, and descriptors for each item argument. (eg. this is the folk lore tome)
      * <p>Multiple items will be stored in an arraylist with arguments of the Map.</p>
-     * <p>E.g. FindItem.findAllClosestAsMap(input);</p>
+     * <p>E.g. ffxivWikiFinder.FindItem.findAllClosestAsMap(input);</p>
      * <p>input: Lava toad</p>
      * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
      *
@@ -229,7 +231,7 @@ public class FindItem {
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName.
      */
-    protected ArrayList<String> findAllClosest(String itemName) {
+    public ArrayList<String> findAllClosest(String itemName) {
         BufferedReader br;
         InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resource
         assert inputStream != null;
@@ -282,7 +284,7 @@ public class FindItem {
      * @param itemName Item searching for
      * @return Random value fetched from the method findAllClosestAsMap
      */
-    protected String findAnyMatching(String itemName) {
+    public String findAnyMatching(String itemName) {
         Random rand = new Random();
         return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
     }

@@ -1,3 +1,5 @@
+import ffxivWikiFinder.FindItem;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 class FindItemTest {
 
-    private final FindItem FindItem = new FindItem();
+    private final ffxivWikiFinder.FindItem FindItem = new FindItem();
     private ArrayList<String> expected;
 
     /**
@@ -176,7 +178,7 @@ class FindItemTest {
                 FindItem.findAnyMatching("r drk rye"));
 
         FindItem.findAnyMatching(" Level 75 Miner Quest");
-        //^^ A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations. This is typo is already accounted for in FindItem.java
+        //^^ A typo in https://ffxiv.consolegameswiki.com/wiki/Miner_Node_Locations. This is typo is already accounted for in ffxivWikiFinder.FindItem.java
 
         //End of reg node
 
