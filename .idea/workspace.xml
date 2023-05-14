@@ -4,42 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__me_xdrop_fuzzywuzzy_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update pathing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FFXIV-Wiki-Fetcher.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/fileCreator/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Ephemeral_Fish_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Ephemeral_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Ephemeral_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Big_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Big_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Collectable_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Collectable_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Fish_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Fish_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/FolkLore_Fish_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/FolkLore_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/FolkLore_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/ItemOutputFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/ItemOutputFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Regular_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Regular_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/Unspoiled_Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/Unspoiled_Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/BaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/BaseItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/StaticItemTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/StaticItemTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/baseNode/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/baseNode/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scrapper/readers/items/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/readers/items/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,30 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowJson Helper.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Errors",
-    "settings.editor.splitter.proportion": "0.20795107",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowJson Helper.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\ffxiv-gatherbuddy-file-creator\.github\workflows" />
@@ -115,10 +82,11 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean deploy" />
       <command value="mvn gpg:help" />
       <command value="mvn gpg:sign" />
       <command value="mvn clean" />
+      <command value="mvn clean deploy -Dmaven.javadoc.skip=true " />
+      <command value="mvn clean deploy" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in FFXIV-Wiki-Fetcher">
@@ -371,14 +339,8 @@
       <workItem from="1676177295096" duration="1261000" />
       <workItem from="1676259495236" duration="344000" />
       <workItem from="1677830163100" duration="1225000" />
-      <workItem from="1683595293900" duration="1560000" />
-    </task>
-    <task id="LOCAL-00026" summary="medium sized refactor. Changing all throw new (Error) -&gt; RuntimeExcpt">
-      <created>1663505600608</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1663505600608</updated>
+      <workItem from="1683595293900" duration="2024000" />
+      <workItem from="1683644455985" duration="563000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -716,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676261915238</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update pathing">
+      <created>1683597450791</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1683597450791</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,7 +717,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="In process of Major refactor, moving stream map to a regular map in formatGroupedZones method.&#10;&#10;Minor refactors: &#10;- split the code in makeGroupedZone so that makeGroupedZone class two methods. Methods are buildGroupedZones (called first) and formatGroupedZones.&#10;&#10;- Switched toList -&gt; toString in ListFinder.java" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- ListFinderTest.java, Removed testsHelper, later refactor to use toString method&#10;- ListFinder.java, toString and formatGroupedZones were changed a lot. Both were WIP methods &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Fixed the comapre method in ListFinder. It was comparing low to high, switched it around &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
@@ -773,7 +741,8 @@
     <MESSAGE value="Working on: ListFinder&#10;&#10;Doing right now:&#10;&#10;Changes: &#10;- finished up deleteElement" />
     <MESSAGE value="Small readMe change" />
     <MESSAGE value="I made ListFinder completely static as it's the final calling class" />
-    <option name="LAST_COMMIT_MESSAGE" value="I made ListFinder completely static as it's the final calling class" />
+    <MESSAGE value="update pathing" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pathing" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

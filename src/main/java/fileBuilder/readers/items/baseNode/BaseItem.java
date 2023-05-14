@@ -12,7 +12,7 @@ import java.util.LinkedHashMap;
  *
  * @see fileBuilder.fileCreator.Formatter
  */
-@SuppressWarnings("all")
+
 public abstract class BaseItem {
     private final String zone, cords, itemName, extra; //zone aka location
 
@@ -42,7 +42,7 @@ public abstract class BaseItem {
         lhm.put("Item", getItemName());
         lhm.put("Zone", getZone());
         lhm.put("Coordinates", getCords());
-        if (getExtra() != "")
+        if (!getExtra().equals(""))
             lhm.put("Extra Information", getExtra());
         return lhm;
     }

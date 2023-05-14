@@ -91,7 +91,7 @@ public class FindItem {
             String[] delimiterLine = curLine.split("\t", -1);//Should split the current line into whatever is the cur item
             String curItem = delimiterLine[itemNameIndex];
             //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
-            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {
+            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {// TODO: 14/5/2023 Convert to switch case,
                 //For this massive if block, I can't use a switch as a "constant expression required" error.
                 //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
                 item = new FolkLore_Fish_Node(delimiterLine);
