@@ -1,17 +1,19 @@
-name: auto-merge
-
-on:
-  pull_request:
-
-  workflow_dispatch:
+name: Dependabot
+on: pull_request
 
 jobs:
-  auto-merge:
-    permissions: write-all
+  auto-approve:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - uses: hmarr/auto-approve-action@v2.0.0
+        if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
         with:
-          target: minor
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ahmadnassri/action-dependabot-auto-merge@v1
+    with:
+      target: patch
+      github-token: ${{ secrets.DEPENDABOT_AUTOMERGE_TOKEN }}
