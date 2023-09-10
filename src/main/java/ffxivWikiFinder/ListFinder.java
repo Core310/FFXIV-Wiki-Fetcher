@@ -62,7 +62,7 @@ public class ListFinder {
      * The method mergeDuplicate in ffxivWikiFinder.FindItem.java removes any duplicate items that are in the SAME zone. Hence each zone has a maximum of one item.
      * @see descendingArraySize
      */
-    private static LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {
+    public static LinkedHashMap<String, ArrayList<String[]>> formatGroupedZones() {
         HashSet<String> itemsVisited = new HashSet<>();
         LinkedHashMap<String, ArrayList<String[]>> zoneGroups = buildGroupedZones();
         for (String zone : zoneGroups.keySet())

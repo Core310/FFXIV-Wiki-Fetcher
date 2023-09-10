@@ -22,7 +22,6 @@ import java.util.ArrayList;
  * @see Formatter
  */
 public class MakeFile {
-    private final File file;
     private final FileWriter fileWriter;
     private ArrayList<Elements> TableValues;//Table values
     private Document ParsedPage;//Current page parsed
@@ -32,8 +31,7 @@ public class MakeFile {
      *
      * @param file File to store into.
      */
-    public MakeFile(File file, FileWriter fileWriter) {
-        this.file = file;
+    public MakeFile(FileWriter fileWriter) {
         this.fileWriter = fileWriter;
     }
 
@@ -69,7 +67,7 @@ public class MakeFile {
      * Helps create TableValues and calls Store();
      */
     public void scrap() throws IOException {
-        if (ParsedPage == null || file == null) {
+        if (ParsedPage == null) {
             throw new UnsupportedOperationException(
                     """
                              doc and file must be set (see setters)

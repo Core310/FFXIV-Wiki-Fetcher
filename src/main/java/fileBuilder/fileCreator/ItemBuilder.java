@@ -54,7 +54,7 @@ public class ItemBuilder {
     protected StringBuilder build_FOLK_LORE_NODE(String[] csvValues) {
         stringBuilder.append(FOLK_LORE_NODE.name());
         stringBuilder.append("\t");
-        if (csvValues[3].equals(""))
+        if (csvValues[3].isEmpty())
             csvValues[3] = "-1";//Edge case for when no value found
 
         if (csvValues[2].equals("Stonehard Water"))
