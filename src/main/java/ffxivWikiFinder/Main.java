@@ -33,7 +33,7 @@ public class Main {
     private static void makeFile() throws IOException {
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather, false);
-        MakeFile makeFile = new MakeFile(XIVGather, fileWriter);
+        MakeFile makeFile = new MakeFile(fileWriter);
         Document doc;//jsoup doc
         for (Wikipages wikipages : Wikipages.values()) {
             String link = Jsoup.clean(wikipages.toString(), Safelist.basic());//*may* produce a bug. Delete this line if tes cases do not run.
