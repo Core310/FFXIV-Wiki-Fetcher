@@ -141,7 +141,7 @@ public class FindItem {
     private ArrayList<LinkedHashMap<String, String>> mergeDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
         if (currentArray.size() == 1)//if there is only one item then don't do anything
             return findAllClosestAsMapOutPut;
-        else if (currentArray.size() < 1) {
+        else if (currentArray.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
         ArrayList<String> itemTracker = new ArrayList<>();
