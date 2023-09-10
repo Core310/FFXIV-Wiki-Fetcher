@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="added jackson to maven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,8 +352,8 @@
       <workItem from="1691733184212" duration="336000" />
       <workItem from="1691773320485" duration="3141000" />
       <workItem from="1691823358448" duration="309000" />
+
       <workItem from="1692786865420" duration="156000" />
-      <workItem from="1694344625990" duration="1079000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
