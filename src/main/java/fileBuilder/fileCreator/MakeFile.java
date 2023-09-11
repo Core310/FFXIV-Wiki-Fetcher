@@ -23,8 +23,8 @@ import java.util.ArrayList;
  */
 public class MakeFile {
     private final FileWriter fileWriter;
-    private ArrayList<Elements> TableValues;//Table values
-    private Document ParsedPage;//Current page parsed
+    private ArrayList<Elements> TableValues;
+    private Document ParsedPage;
 
     /**
      * After creating this object, you must set the doc (setParsedPage)

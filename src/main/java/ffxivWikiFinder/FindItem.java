@@ -28,7 +28,7 @@ public class FindItem {
      * <br> Holds all items (in raw data format).
      * <br> Each string container holds the raw data for ONE item.
      */
-    private final ArrayList<String> currentArray = new ArrayList<>();
+    private final ArrayList<String> rawItemContainer = new ArrayList<>();
 
     /**
      * Child (builds off of) of {@link #findAllClosestAsMap(String)} which is also a child of {@link #findAllClosest(String)}
@@ -82,104 +82,99 @@ public class FindItem {
      *
      * @return LinkedHashMap Item descriptor, Item data
      */
-    public ArrayList<LinkedHashMap<String, String>> findAllClosestAsMap(String itemName) {
-        ArrayList<String> rawData = findAllClosest(itemName);//Used to loop through all values found.
-        ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//ArrayList that is outputted in the format: ItemDescriptor,ActualItem
+    private ArrayList<LinkedHashMap<String, String>> findAllClosestAsMap(String itemName) {
+        ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//<ItemDescriptor,ActualItem>
         Item item;
-        int itemNameIndex =0;
-        for (String curLine : rawData) {
-            String[] delimiterLine = curLine.split("\t", -1);//Should split the current line into whatever is the cur item
-            String curItem = delimiterLine[itemNameIndex];
-            //(See below why this is if not switch/case) Loops through all possible item types and adds to lhm.
-            if (StaticItemTypes.FOLK_LORE_FISH_NODE.toString().equals(curItem)) {// TODO: 14/5/2023 Convert to switch case,
-                //For this massive if block, I can't use a switch as a "constant expression required" error.
-                //When java 18 stable version comes out, then I think this can be switched over to a switch/case block
-                item = new FolkLore_Fish_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FOLK_LORE_NODE.toString().equals(curItem)) {
-                item = new FolkLore_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.REGULAR_NODE.toString().equals(curItem)) {
-                item = new Regular_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (
-                    StaticItemTypes.UNSPOILED_NODE.toString().equals(curItem)
-                            ||
-                            StaticItemTypes.ARR_UNSPOILED_NODE.toString().equals(curItem)
-            ) {
-                item = new Unspoiled_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FISH_NODE.toString().equals(curItem)) {
-                item = new Fish_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FISH_BIG_NODE.toString().equals(curItem)) {
-                item = new Fish_Big_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else if (StaticItemTypes.FISH_COLLECTABLES_NODE.toString().equals(curItem)) {
-                item = new Fish_Collectable_Node(delimiterLine);
-                outputList.add(item.toLinkedHashmap());
-            } else
-                throw new RuntimeException("Wrong static item type assigned");
+        final int itemNameIndex =0;
+        for (String curLine : findAllClosest(itemName)) {
+            String[] currentSplitItem = curLine.split("\t", -1);
+            String curItem = currentSplitItem[itemNameIndex];
+
+            StaticItemTypes itemType = StaticItemTypes.valueOf(curItem);
+            switch (itemType) {
+                case FOLK_LORE_FISH_NODE -> {
+                    item = new FolkLore_Fish_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case FOLK_LORE_NODE -> {
+                    item = new FolkLore_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case REGULAR_NODE -> {
+                    item = new Regular_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case UNSPOILED_NODE, ARR_UNSPOILED_NODE -> {
+                    item = new Unspoiled_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case FISH_NODE -> {
+                    item = new Fish_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case FISH_BIG_NODE -> {
+                    item = new Fish_Big_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                case FISH_COLLECTABLES_NODE -> {
+                    item = new Fish_Collectable_Node(currentSplitItem);
+                    outputList.add(item.toLinkedHashmap());
+                }
+                default -> throw new RuntimeException("Wrong static item type assigned");
+            }
         }
-        /*
-        Why is mergeDuplicate only available for maps? Easier to merge items since each value
-        Has a key assigned to it.
-         */
-        return mergeDuplicate(outputList);
+        return searchForDuplicate(outputList);
     }
 
     /**
      * Parent method: {@link #findAllClosestAsMap(String)}
-     * <br>Helper method: {@link #mergeDuplicateHelper(int, String, ArrayList)}
+     * <br>Helper method: {@link #mergeDuplicate(int, String, ArrayList)}
      * <br> This method is a trigger for the actual merging method to take place.
-     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicateHelper(int, String, ArrayList)}.
+     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String, ArrayList)}.
      * <br> Searches each item by their item and zone.
      * <br> Basically, if two or more items share the same name and zone, this method will merge both items keeping one of their teleport values (at random).
      *
      * @param findAllClosestAsMapOutPut Only accepts the output ArrayList of findAllClosestAsMapOut.
      */
-    private ArrayList<LinkedHashMap<String, String>> mergeDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
-        if (currentArray.size() == 1)//if there is only one item then don't do anything
+    private ArrayList<LinkedHashMap<String, String>> searchForDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
+        if (rawItemContainer.size() == 1)
             return findAllClosestAsMapOutPut;
-        else if (currentArray.isEmpty()) {
+        else if (rawItemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        ArrayList<String> itemTracker = new ArrayList<>();
+        ArrayList<String> duplicateItemTracker = new ArrayList<>();
 
         for (int i = 0; i < findAllClosestAsMapOutPut.size(); i++) {
-            String item = findAllClosestAsMapOutPut.get(i).get("Item");
-            String zone = findAllClosestAsMapOutPut.get(i).get("Zone");
-            String itemAndZone = item + "\t" + zone;
-            int counter = 0;
-            /*
-            Works by looping through an internal arrayList. If a duplicate value that contains the item and zone value are found, proceeds to merge.
-            Else add the current value to the internal arrayList.
-             */
-            for (String str : itemTracker)
+            String item = findAllClosestAsMapOutPut.get(i).get("Item"),
+                    zone = findAllClosestAsMapOutPut.get(i).get("Zone"),
+                    itemAndZone = item + "\t" + zone;
+            int duplicateItemCounter = 0;
+
+            for (String str : duplicateItemTracker)
                 if (str.contains(item) && str.contains(zone)) {
-                    mergeDuplicateHelper(i, itemAndZone, findAllClosestAsMapOutPut);//Performs the actual merging
-                    counter++;
+                    mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
+                    duplicateItemCounter++;
                     i--;
                     break;
                 }
 
-            if (counter == 0)
-                itemTracker.add(itemAndZone);
+            if (duplicateItemCounter == 0)
+                duplicateItemTracker.add(itemAndZone);
         }
         return findAllClosestAsMapOutPut;
     }
 
     /**
-     * Helper method for {@link #mergeDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
+     * Helper method for {@link #searchForDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
      * <br> This method is to keep code clean.
      * <br> Does the actual merging of values
      *
      * @param i                         for loop iterator in main method.
      * @param itemAndTp                 item and teleport value in one string seperated by `\t`
-     * @param findAllClosestAsMapOutPut Only accepts from the main {@link #mergeDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
+     * @param findAllClosestAsMapOutPut Only accepts from the main {@link #searchForDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
      * @return findAllClosestAsMapOutPut (the same input value)
      */
-    private ArrayList<LinkedHashMap<String, String>> mergeDuplicateHelper(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
+    private ArrayList<LinkedHashMap<String, String>> mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
         //Already contains key?
         LinkedHashMap<String, String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
         findAllClosestAsMapOutPut.remove(i);
@@ -231,41 +226,30 @@ public class FindItem {
      * @param itemName The item that is being searched for.
      * @return All values which have the same ratio to ItemName.
      */
-    public ArrayList<String> findAllClosest(String itemName) {
-        BufferedReader br;
-        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");//Grabs file from resource
-        assert inputStream != null;
-        br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));//Puts into stream
-
-        int highestRatio = 0;
-        String curLine;
-        String curItem;
-        int currentRatio;
+    private ArrayList<String> findAllClosest(String itemName) {
+        InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");assert inputStream != null;
+        BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+        int highestRatio = 0,fuzzySearchRatio,itemNameIndex = 1;
+        String curLine,curItem;
         while (true) {
             try {
                 if (((curLine = br.readLine()) == null)) break;
             } catch (IOException e) {
                 throw new RuntimeException(e);
-            }//Loop through file
-
-            curItem = curLine.split("\t", -1)[1];//1 marks the position at which an item name should be at. So in this case the item name is always at position 1, position 0 is the type.
-            currentRatio = FuzzySearch.ratio(curItem, itemName);
-            if (curLine.equals("REGULAR_NODE\t Level 75 Miner Quest\tIl Mheg\tx8,y20\t\t75\tMineral Deposit")) {
-                continue;
-            }//Weird typo edge case. If more appear make an array and loop through to skip them.
-            else if (currentRatio == highestRatio) {
-                currentArray.add(curLine);
-            } else if (currentRatio > highestRatio) {
-                highestRatio = currentRatio;
-                currentArray.clear();
-                currentArray.add(curLine);
+            }
+            curItem = curLine.split("\t", -1)[itemNameIndex];//itemNameIndex-1, aka position 0 is the type item.
+            fuzzySearchRatio = FuzzySearch.ratio(curItem, itemName);
+            if (fuzzySearchRatio == highestRatio) {
+                rawItemContainer.add(curLine);
+            } else if (fuzzySearchRatio > highestRatio) {
+                highestRatio = fuzzySearchRatio;
+                rawItemContainer.clear();
+                rawItemContainer.add(curLine);
             }
         }
-
-        //This code below removes any exact duplicates
-        LinkedHashSet<String> tmp = new LinkedHashSet<>(currentArray);
-        currentArray.clear();
-        currentArray.addAll(tmp);
+        LinkedHashSet<String> tmp = new LinkedHashSet<>(rawItemContainer);
+        rawItemContainer.clear();
+        rawItemContainer.addAll(tmp);
 
         try {
             inputStream.close();
@@ -273,19 +257,6 @@ public class FindItem {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return currentArray;
+        return rawItemContainer;
     }//feature If more than one itemName is found, should have an option to delete one
-
-
-    /**
-     * Used for testing
-     * Returns one random value from the file matching ItemName.
-     *
-     * @param itemName Item searching for
-     * @return Random value fetched from the method findAllClosestAsMap
-     */
-    public String findAnyMatching(String itemName) {
-        Random rand = new Random();
-        return findAllClosest(itemName).get(rand.nextInt(findAllClosest(itemName).size()));
-    }
 }
