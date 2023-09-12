@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="removed spooky i--??">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +366,9 @@
       <workItem from="1694443546818" duration="1955000" />
       <workItem from="1694502881095" duration="385000" />
       <workItem from="1694503332946" duration="2315000" />
-      <workItem from="1694506046715" duration="1083000" />
+      <workItem from="1694506046715" duration="1535000" />
+      <workItem from="1694509164939" duration="122000" />
+      <workItem from="1694509339710" duration="1939000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -712,7 +713,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,8 +749,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Cleaned up the unused methods in main &#10;- Debugging the formatGroupedZones rn. Logic works but not actually working&#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
@@ -773,7 +772,9 @@
     <MESSAGE value="update pathing" />
     <MESSAGE value="added jackson to maven" />
     <MESSAGE value="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code" />
+    <MESSAGE value="Code cleaning&#10;Made mergeDuplicate return void as we never atcually use the reutrn value." />
+    <MESSAGE value="removed spooky i--??" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed spooky i--??" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

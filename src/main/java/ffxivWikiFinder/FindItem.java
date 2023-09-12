@@ -173,14 +173,11 @@ public class FindItem {
      * @param i                         for loop iterator in main method.
      * @param itemAndTp                 item and teleport value in one string seperated by `\t`
      * @param findAllClosestAsMapOutPut Only accepts from the main {@link #searchForDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
-     * @return findAllClosestAsMapOutPut (the same input value)
      */
-    private void mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
+    private void mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {//TODO 9/12/23 clean me
         //Already contains key?
         LinkedHashMap<String, String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
         findAllClosestAsMapOutPut.remove(i);
-        i--;
-
         int baseItemIndex = -1;
         for (int baseItemFinder = 0; baseItemFinder < findAllClosestAsMapOutPut.size(); baseItemFinder++) {//Finds duplicate item
             if (findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
