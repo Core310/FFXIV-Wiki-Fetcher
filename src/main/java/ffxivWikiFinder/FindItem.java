@@ -136,6 +136,7 @@ public class FindItem {
      *
      * @param findAllClosestAsMapOutPut Only accepts the output ArrayList of findAllClosestAsMapOut.
      */
+
     private ArrayList<LinkedHashMap<String, String>> searchForDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
         if (rawItemContainer.size() == 1)
             return findAllClosestAsMapOutPut;
@@ -174,7 +175,7 @@ public class FindItem {
      * @param findAllClosestAsMapOutPut Only accepts from the main {@link #searchForDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
      * @return findAllClosestAsMapOutPut (the same input value)
      */
-    private ArrayList<LinkedHashMap<String, String>> mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
+    private void mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
         //Already contains key?
         LinkedHashMap<String, String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
         findAllClosestAsMapOutPut.remove(i);
@@ -190,7 +191,7 @@ public class FindItem {
             }
         }//Grab index of other duplicate
         if (baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
-            return findAllClosestAsMapOutPut;
+            return;
         LinkedHashMap<String, String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
@@ -216,7 +217,6 @@ public class FindItem {
         }//Loops through itemToMerge to see what values can be merged into the base value.
         findAllClosestAsMapOutPut.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
         findAllClosestAsMapOutPut.add(baseItemIndex, mergeBase);
-        return findAllClosestAsMapOutPut;
     }
 
     /**

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="added jackson to maven">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,13 @@
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,6 +101,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.java in FFXIV-Wiki-Fetcher">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
+      <module name="FFXIV-Wiki-Fetcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ffxivWikiFinder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FFXIV-Wiki-Fetcher" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,16 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFinderTest.outPutList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FFXIV-Wiki-Fetcher" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListFinderTest" />
-      <option name="METHOD_NAME" value="outPutList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="java in FFXIV-Wiki-Fetcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FFXIV-Wiki-Fetcher" />
       <option name="TEST_OBJECT" value="directory" />
@@ -146,19 +152,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.DuplicateTest" />
       <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
       <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
       <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
-      <item itemvalue="JUnit.ListFinderTest.outPutList" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
         <item itemvalue="JUnit.DuplicateTest" />
-        <item itemvalue="JUnit.ListFinderTest.outPutList" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +363,11 @@
       <workItem from="1691823358448" duration="309000" />
       <workItem from="1692786865420" duration="156000" />
       <workItem from="1694349760941" duration="741000" />
-      <workItem from="1694410871986" duration="6909000" />
+      <workItem from="1694410871986" duration="6983000" />
+      <workItem from="1694443546818" duration="1955000" />
+      <workItem from="1694502881095" duration="385000" />
+      <workItem from="1694503332946" duration="2315000" />
+      <workItem from="1694506046715" duration="1083000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -702,7 +712,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +748,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Fixed the comapre method in ListFinder. It was comparing low to high, switched it around &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Made toString return formatGroupedZones &#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Cleaned up the unused methods in main &#10;- Debugging the formatGroupedZones rn. Logic works but not actually working&#10; &#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones&#10;&#10;Changes:&#10;- Debugging formatGroupedZones&#10;&#10;Currently: the method just sorts from high to low zone amnt. Need to delete duplicates still" />
@@ -763,7 +772,8 @@
     <MESSAGE value="I made ListFinder completely static as it's the final calling class" />
     <MESSAGE value="update pathing" />
     <MESSAGE value="added jackson to maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="added jackson to maven" />
+    <MESSAGE value="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lots of code cleaning. &#10;- findAllClosestAsMap, made if =&gt; switch&#10;- Renamed to searchForDuplicate from mergeDuplicate&#10;- Merge dupe helper =&gt; merge dupe&#10;&#10;Tests:&#10;- Delete large parts of testing as did minor refactor on FindItem.java. &#10;- DuplicateTests is now failing need to fix.&#10;&#10;MakeFile:&#10;Just cleanup code" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
