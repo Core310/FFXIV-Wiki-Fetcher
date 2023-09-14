@@ -152,7 +152,7 @@ public class FindItem {
             int duplicateItemCounter = 0;
 
             for (String str : duplicateItemTracker)
-                if (str.contains(item) && str.contains(zone)) {
+                if (str.contains(itemAndZone)) {
                     mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
                     duplicateItemCounter++;
                     i--;
