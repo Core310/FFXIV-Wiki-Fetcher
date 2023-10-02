@@ -83,7 +83,7 @@ public class FindItem {
      * @return LinkedHashMap Item descriptor, Item data
      */
     private ArrayList<LinkedHashMap<String, String>> findAllClosestAsMap(String itemName) {
-        ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//<ItemDescriptor,ActualItem>
+        ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//<ItemDescriptor,ActualItem>TODO make a better name
         Item item;
         final int itemNameIndex =0;
         for (String curLine : findAllClosest(itemName)) {
@@ -123,7 +123,7 @@ public class FindItem {
                 default -> throw new RuntimeException("Wrong static item type assigned");
             }
         }
-        return searchForDuplicate(outputList);
+        return searchForDuplicate(outputList);//TODO 10/2/23 convert argument to a global variable
     }
 
     /**
@@ -143,15 +143,25 @@ public class FindItem {
         else if (rawItemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        ArrayList<String> duplicateItemTracker = new ArrayList<>();
+        HashSet<String> duplicateItemTracker = new HashSet<>();//TODO 10/2/23 convert to hashset
 
         for (int i = 0; i < findAllClosestAsMapOutPut.size(); i++) {
             String item = findAllClosestAsMapOutPut.get(i).get("Item"),
                     zone = findAllClosestAsMapOutPut.get(i).get("Zone"),
                     itemAndZone = item + "\t" + zone;
-            int duplicateItemCounter = 0;
+            if(duplicateItemTracker.contains(itemAndZone)){
+                mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
+                 i = i-1;
+            }
+            else {
+                duplicateItemTracker.add(itemAndZone);
+            }
 
-            for (String str : duplicateItemTracker)
+            /*
+            LHS -> .contains(item&Zone) ? merge dupe : contiune;
+            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
+
+                        for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
                     mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
                     duplicateItemCounter++;
@@ -161,6 +171,9 @@ public class FindItem {
 
             if (duplicateItemCounter == 0)
                 duplicateItemTracker.add(itemAndZone);
+             */
+
+
         }
         return findAllClosestAsMapOutPut;
     }
