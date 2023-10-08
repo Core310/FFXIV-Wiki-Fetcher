@@ -52,7 +52,6 @@ public class ListFinder {
             }
         return sortByValue(groupedZones);
     }
-
     /**
      * {@link #buildGroupedZones()} is always called first in this method.
      *

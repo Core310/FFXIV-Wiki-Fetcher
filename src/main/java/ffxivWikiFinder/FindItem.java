@@ -22,13 +22,7 @@ import java.util.*;
  * @see fileBuilder.readers.items
  */
 public class FindItem {
-    /**
-     * Updated in {@link #findAllClosest(String)}
-     * <br>Return output of findItem()
-     * <br> Holds all items (in raw data format).
-     * <br> Each string container holds the raw data for ONE item.
-     */
-    private final ArrayList<String> rawItemContainer = new ArrayList<>();
+    private ArrayList<LinkedHashMap<String, String>> itemContainer;//<ItemDescriptor,ActualItem>
 
     /**
      * Child (builds off of) of {@link #findAllClosestAsMap(String)} which is also a child of {@link #findAllClosest(String)}
@@ -53,8 +47,10 @@ public class FindItem {
      * @return Item data separated by \n like so {@literal ArrayList <Individual items>}
      */
     public ArrayList<String> essentialFindAllClosestAsMap(String itemName) {
+        itemContainer = new ArrayList<>();
         ArrayList<String> rtrnArray = new ArrayList<>();//Return value
-        for (LinkedHashMap<String, String> lhm : findAllClosestAsMap(itemName)) {//Per item (represented as a stringBuilder)
+        findAllClosestAsMap(itemName);
+        for (LinkedHashMap<String, String> lhm : itemContainer) {//Per item (represented as a stringBuilder)
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
             stringBuilder.append("Zone: ").append(lhm.get("Zone")).append("\n");
@@ -80,10 +76,8 @@ public class FindItem {
      * <p>input: Lava toad</p>
      * output:[{Item=Lava Toad, Zone=Southern Thanalan, Coordinates=(x13,y31), Extra Information=, Level=50}]
      *
-     * @return LinkedHashMap Item descriptor, Item data
      */
-    private ArrayList<LinkedHashMap<String, String>> findAllClosestAsMap(String itemName) {
-        ArrayList<LinkedHashMap<String, String>> outputList = new ArrayList<>();//<ItemDescriptor,ActualItem>TODO make a better name
+    private void findAllClosestAsMap(String itemName) {
         Item item;
         final int itemNameIndex =0;
         for (String curLine : findAllClosest(itemName)) {
@@ -94,76 +88,65 @@ public class FindItem {
             switch (itemType) {
                 case FOLK_LORE_FISH_NODE -> {
                     item = new FolkLore_Fish_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case FOLK_LORE_NODE -> {
                     item = new FolkLore_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case REGULAR_NODE -> {
                     item = new Regular_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case UNSPOILED_NODE, ARR_UNSPOILED_NODE -> {
                     item = new Unspoiled_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case FISH_NODE -> {
                     item = new Fish_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case FISH_BIG_NODE -> {
                     item = new Fish_Big_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 case FISH_COLLECTABLES_NODE -> {
                     item = new Fish_Collectable_Node(currentSplitItem);
-                    outputList.add(item.toLinkedHashmap());
+                    itemContainer.add(item.toLinkedHashmap());
                 }
                 default -> throw new RuntimeException("Wrong static item type assigned");
             }
         }
-        return searchForDuplicate(outputList);//TODO 10/2/23 convert argument to a global variable
+        searchForDuplicate();
     }
 
     /**
      * Parent method: {@link #findAllClosestAsMap(String)}
-     * <br>Helper method: {@link #mergeDuplicate(int, String, ArrayList)}
+     * <br>Helper method: {@link #mergeDuplicate(int, String)}
      * <br> This method is a trigger for the actual merging method to take place.
-     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String, ArrayList)}.
+     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String)}.
      * <br> Searches each item by their item and zone.
      * <br> Basically, if two or more items share the same name and zone, this method will merge both items keeping one of their teleport values (at random).
      *
-     * @param findAllClosestAsMapOutPut Only accepts the output ArrayList of findAllClosestAsMapOut.
      */
 
-    private ArrayList<LinkedHashMap<String, String>> searchForDuplicate(ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {
-        if (rawItemContainer.size() == 1)
-            return findAllClosestAsMapOutPut;
-        else if (rawItemContainer.isEmpty()) {
+    private void searchForDuplicate() {
+        if (itemContainer.size() == 1)
+            return ;
+        else if (itemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
         HashSet<String> duplicateItemTracker = new HashSet<>();//TODO 10/2/23 convert to hashset
 
-        for (int i = 0; i < findAllClosestAsMapOutPut.size(); i++) {
-            String item = findAllClosestAsMapOutPut.get(i).get("Item"),
-                    zone = findAllClosestAsMapOutPut.get(i).get("Zone"),
+        for (int i = 0; i < itemContainer.size(); i++) {
+            String item = itemContainer.get(i).get("Item"),
+                    zone = itemContainer.get(i).get("Zone"),
                     itemAndZone = item + "\t" + zone;
-            if(duplicateItemTracker.contains(itemAndZone)){
-                mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
-                 i = i-1;
-            }
-            else {
-                duplicateItemTracker.add(itemAndZone);
-            }
 
-            /*
-            LHS -> .contains(item&Zone) ? merge dupe : contiune;
-            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
-
-                        for (String str : duplicateItemTracker)
+            int duplicateItemCounter=0;
+            for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
-                    mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
+                    mergeDuplicate(i, itemAndZone);
                     duplicateItemCounter++;
                     i--;
                     break;
@@ -171,30 +154,40 @@ public class FindItem {
 
             if (duplicateItemCounter == 0)
                 duplicateItemTracker.add(itemAndZone);
+
+            /*
+
+            if(duplicateItemTracker.contains(itemAndZone)){
+                mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
+                i = i-1;
+            }
+            else {
+                duplicateItemTracker.add(itemAndZone);
+            }
+
+            LHS -> .contains(item&Zone) ? merge dupe : contiune;
+            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
              */
 
-
         }
-        return findAllClosestAsMapOutPut;
     }
 
     /**
-     * Helper method for {@link #searchForDuplicate(ArrayList)}. Has a lot of linked values to the method above, and runs inside a for loop.
+     * Helper method for {@link #searchForDuplicate()}. Has a lot of linked values to the method above, and runs inside a for loop.
      * <br> This method is to keep code clean.
      * <br> Does the actual merging of values
      *
      * @param i                         for loop iterator in main method.
      * @param itemAndTp                 item and teleport value in one string seperated by `\t`
-     * @param findAllClosestAsMapOutPut Only accepts from the main {@link #searchForDuplicate(ArrayList)} method. (May work with findAllClosestAsMap)
      */
-    private void mergeDuplicate(int i, String itemAndTp, ArrayList<LinkedHashMap<String, String>> findAllClosestAsMapOutPut) {//TODO 9/12/23 clean me
+    private void mergeDuplicate(int i, String itemAndTp) {//TODO 9/12/23 clean me
         //Already contains key?
-        LinkedHashMap<String, String> itemToMerge = findAllClosestAsMapOutPut.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        findAllClosestAsMapOutPut.remove(i);
+        LinkedHashMap<String, String> itemToMerge = itemContainer.get(i);//Item at current index that will be removed and merged into the item with the previous index.
+        itemContainer.remove(i);
         int baseItemIndex = -1;
-        for (int baseItemFinder = 0; baseItemFinder < findAllClosestAsMapOutPut.size(); baseItemFinder++) {//Finds duplicate item
-            if (findAllClosestAsMapOutPut.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
-                    findAllClosestAsMapOutPut.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
+        for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
+            if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
+                    itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
             ) {//Does the current value contain both the item and the zone?
                 baseItemIndex = baseItemFinder;
                 break;
@@ -202,7 +195,7 @@ public class FindItem {
         }//Grab index of other duplicate
         if (baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
             return;
-        LinkedHashMap<String, String> mergeBase = findAllClosestAsMapOutPut.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
+        LinkedHashMap<String, String> mergeBase = itemContainer.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
         String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
         String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
 
@@ -216,7 +209,7 @@ public class FindItem {
         }
         if (largerHeader.length < 4 || smallerHeader.length < 4) {
             throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
-                    + "\n" + "Current Header Contents:" + findAllClosestAsMapOutPut.get(i));
+                    + "\n" + "Current Header Contents:" + itemContainer.get(i));
         }
 
         for (int currentItemHeader = 4; currentItemHeader < largerHeader.length; currentItemHeader++) {//At index 3 is the cords value. Cords value differs a ton so im not using it.
@@ -225,8 +218,8 @@ public class FindItem {
                 //Takes whatever extra header values (and its data) and plops them in the baseData+Header
             }
         }//Loops through itemToMerge to see what values can be merged into the base value.
-        findAllClosestAsMapOutPut.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
-        findAllClosestAsMapOutPut.add(baseItemIndex, mergeBase);
+        itemContainer.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
+        itemContainer.add(baseItemIndex, mergeBase);
     }
 
     /**
@@ -237,6 +230,7 @@ public class FindItem {
      * @return All values which have the same ratio to ItemName.
      */
     private ArrayList<String> findAllClosest(String itemName) {
+        ArrayList<String> rawItemContainer = new ArrayList<>();
         InputStream inputStream = getClass().getResourceAsStream("/XIVGather.TSV");assert inputStream != null;
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
         int highestRatio = 0,fuzzySearchRatio,itemNameIndex = 1;
