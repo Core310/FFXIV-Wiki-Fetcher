@@ -22,6 +22,11 @@ import java.util.*;
  * @see fileBuilder.readers.items
  */
 public class FindItem {
+    /**
+     * Instantiated in {@link #essentialFindAllClosestAsMap}
+     * <br>
+     * Main array being worked on in this class.
+     */
     private ArrayList<LinkedHashMap<String, String>> itemContainer;//<ItemDescriptor,ActualItem>
 
     /**
@@ -48,7 +53,7 @@ public class FindItem {
      */
     public ArrayList<String> essentialFindAllClosestAsMap(String itemName) {
         itemContainer = new ArrayList<>();
-        ArrayList<String> rtrnArray = new ArrayList<>();//Return value
+        ArrayList<String> returnValue = new ArrayList<>();//Return value
         findAllClosestAsMap(itemName);
         for (LinkedHashMap<String, String> lhm : itemContainer) {//Per item (represented as a stringBuilder)
             StringBuilder stringBuilder = new StringBuilder();
@@ -64,9 +69,9 @@ public class FindItem {
                 stringBuilder.append("Time: ").append(lhm.get("Time")).append("\n");
             if (lhm.get("FolkLore Tome") != null)
                 stringBuilder.append("FolkLore Tome: ").append(lhm.get("FolkLore Tome")).append("\n");
-            rtrnArray.add(stringBuilder.toString());
+            returnValue.add(stringBuilder.toString());
         }
-        return rtrnArray;
+        return returnValue;
     }
 
     /**
@@ -136,7 +141,7 @@ public class FindItem {
         else if (itemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        HashSet<String> duplicateItemTracker = new HashSet<>();//TODO 10/2/23 convert to hashset
+        HashSet<String> duplicateItemTracker = new HashSet<>();
 
         for (int i = 0; i < itemContainer.size(); i++) {
             String item = itemContainer.get(i).get("Item"),
@@ -155,7 +160,7 @@ public class FindItem {
             if (duplicateItemCounter == 0)
                 duplicateItemTracker.add(itemAndZone);
 
-            /*
+            /* todo replace w/ this
 
             if(duplicateItemTracker.contains(itemAndZone)){
                 mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);

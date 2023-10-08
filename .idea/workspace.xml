@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="condense if statement">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="globalized itemContainer &#10;&#10;ListFinder just deleted empty line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/ListFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +377,7 @@
       <workItem from="1695895815325" duration="228000" />
       <workItem from="1695896191663" duration="833000" />
       <workItem from="1695986860863" duration="1090000" />
-      <workItem from="1696772244261" duration="3558000" />
+      <workItem from="1696772244261" duration="4365000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -723,7 +722,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,7 +758,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: Delete the duplciate values least 2 high in formatGroupedZones. &#10;&#10;Changes:&#10;- &#10;&#10;Currently: debugging formatZones" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
@@ -784,7 +782,8 @@
     <MESSAGE value="Code cleaning&#10;Made mergeDuplicate return void as we never atcually use the reutrn value." />
     <MESSAGE value="removed spooky i--??" />
     <MESSAGE value="condense if statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="condense if statement" />
+    <MESSAGE value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
+    <option name="LAST_COMMIT_MESSAGE" value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
