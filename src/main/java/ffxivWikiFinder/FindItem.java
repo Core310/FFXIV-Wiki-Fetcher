@@ -147,8 +147,17 @@ public class FindItem {
             String item = itemContainer.get(i).get("Item"),
                     zone = itemContainer.get(i).get("Zone"),
                     itemAndZone = item + "\t" + zone;
+            if(duplicateItemTracker.contains(itemAndZone)){
+                mergeDuplicate(i, itemAndZone);
+                i = i-1;
+            }
+            else
+                duplicateItemTracker.add(itemAndZone);
+            /* todo replace w/ this
+            LHS -> .contains(item&Zone) ? merge dupe : contiune;
+            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
 
-            int duplicateItemCounter=0;
+                        int duplicateItemCounter=0;
             for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
                     mergeDuplicate(i, itemAndZone);
@@ -159,22 +168,17 @@ public class FindItem {
 
             if (duplicateItemCounter == 0)
                 duplicateItemTracker.add(itemAndZone);
-
-            /* todo replace w/ this
-
-            if(duplicateItemTracker.contains(itemAndZone)){
-                mergeDuplicate(i, itemAndZone, findAllClosestAsMapOutPut);
-                i = i-1;
-            }
-            else {
-                duplicateItemTracker.add(itemAndZone);
-            }
-
-            LHS -> .contains(item&Zone) ? merge dupe : contiune;
-            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
              */
-
         }
+
+        int itemContainerlength = itemContainer.size();
+        String item = itemContainer.get(itemContainerlength).get("Item"),
+                zone = itemContainer.get(itemContainerlength).get("Zone"),
+                itemAndZone = item + "\t" + zone;
+        if(duplicateItemTracker.contains(itemAndZone))
+
+
+
     }
 
     /**
