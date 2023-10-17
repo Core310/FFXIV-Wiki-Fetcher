@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Fetches data from given doc (link).
@@ -28,8 +29,7 @@ public class MakeFile {
 
     /**
      * After creating this object, you must set the doc (setParsedPage)
-     *
-     * @param file File to store into.
+     * @param fileWriter fw
      */
     public MakeFile(FileWriter fileWriter) {
         this.fileWriter = fileWriter;
@@ -48,11 +48,12 @@ public class MakeFile {
             if (!curTD.hasText()) {
                 curTD.append("\u00a0");//(\u00a0) creates a blank space
             }
-        }//De1als with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
+        }//Deals with empty values in the table. Loops through all TDs, see if empty. If so appends a blank value.
 
         for (Element element : doc.select("tr")) {
             Elements th = element.select("th");
             Elements td = element.select("td");
+            //https://ffxiv.consolegameswiki.com/wiki/Big_Fishing
             if (th.text().length() > 1) {
                 Table.add(th);
             }//Removes extra line (see below)
@@ -85,6 +86,7 @@ public class MakeFile {
      */
     private void Store() throws IOException {
         for (Elements elements : TableValues) {
+            if(Arrays.toString(elements.toArray()).contains("Go Big")) continue;
             String elementText = String.join("\t", elements.eachText());//Grabs current arrayIndex and separates using delim
             fileWriter.write(elementText);//Current Table cell
             fileWriter.write("\n");//Line separator

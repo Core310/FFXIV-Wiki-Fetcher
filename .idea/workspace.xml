@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="globalized itemContainer &#10;&#10;ListFinder just deleted empty line">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Fixing makeFile currently...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +107,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.java in FFXIV-Wiki-Fetcher">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
       <module name="FFXIV-Wiki-Fetcher" />
@@ -161,9 +167,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
         <item itemvalue="JUnit.ListFinderTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
       </list>
@@ -379,6 +385,10 @@
       <workItem from="1695986860863" duration="1090000" />
       <workItem from="1696772244261" duration="4365000" />
       <workItem from="1696846029540" duration="757000" />
+      <workItem from="1697019884903" duration="213000" />
+      <workItem from="1697107933666" duration="1700000" />
+      <workItem from="1697448989878" duration="1384000" />
+      <workItem from="1697509008773" duration="5658000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>

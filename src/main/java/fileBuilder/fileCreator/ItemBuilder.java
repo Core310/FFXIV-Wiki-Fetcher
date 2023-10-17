@@ -2,6 +2,8 @@ package fileBuilder.fileCreator;
 
 import fileBuilder.readers.items.*;
 
+import java.util.Arrays;
+
 import static fileBuilder.readers.items.baseNode.StaticItemTypes.*;
 
 /**
@@ -151,7 +153,11 @@ public class ItemBuilder {
             String[] zoneAndCords = csvValues[3].split("\\(");//Make cords and zone seperate
             //zone = 0, cords =1
             if (zoneAndCords.length != 2)
-                throw new ArrayIndexOutOfBoundsException("Array must be at most length of 2");
+                throw new ArrayIndexOutOfBoundsException("Array must be at most length of 2 \n Current zone and cord "+
+                        Arrays.toString(zoneAndCords) + "\n Current parsed string \n" +
+                        Arrays.toString(csvValues)  + "\n current string in array" +
+                        curFish
+                );
             stringBuilder.append(new Fish_Node(
                     curFish,//fish
                     zoneAndCords[0], //Zone
@@ -207,7 +213,7 @@ public class ItemBuilder {
     }
 
     protected StringBuilder build_EPHEMERAL_NODE(String[] csvValues) {
-        System.out.println(csvValues[4]);//used for debugging
+        System.out.println(csvValues[4]);//used for debugging, dont delete
         if (csvValues[4].contains(",")) {
             String[] items = csvValues[4].split(",", -1);
             for (String curItem : items) {

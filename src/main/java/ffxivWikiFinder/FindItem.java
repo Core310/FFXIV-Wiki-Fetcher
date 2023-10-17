@@ -171,14 +171,6 @@ public class FindItem {
              */
         }
 
-        int itemContainerlength = itemContainer.size();
-        String item = itemContainer.get(itemContainerlength).get("Item"),
-                zone = itemContainer.get(itemContainerlength).get("Zone"),
-                itemAndZone = item + "\t" + zone;
-        if(duplicateItemTracker.contains(itemAndZone))
-
-
-
     }
 
     /**

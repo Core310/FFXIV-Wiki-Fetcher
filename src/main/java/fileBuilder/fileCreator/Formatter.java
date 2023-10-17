@@ -88,6 +88,7 @@ public class Formatter {
             case "Regular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tRegular Nodes Unspoiled Nodes Ephemeral Nodes Folklore Nodes\tFishing Locations Big Fishing Fishing Collectables Folklore Fish",
                     "Botanist\tMiner\tFisher",
                     "Gathering",
+                    "Name\tPoints\tTask\tReward\tPatch",
                     "" -> {
                 return DELETE;
             }
@@ -173,8 +174,9 @@ public class Formatter {
                     case DELETE -> {
                         //Nothing is written to the tmp file and therefore the final file.
                     }
-                    case IGNORE -> //Actual item data NOT a header
+                    case IGNORE ->{ //Actual item data NOT a header
                             bw.write(formattedItem(csvValues));
+                    }
                 }//End of switch statement
             }//End of while statement
 

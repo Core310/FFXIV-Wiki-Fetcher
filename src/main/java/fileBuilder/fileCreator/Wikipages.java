@@ -18,6 +18,7 @@ public enum Wikipages {
     //EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // feature 2/2/2022 Emph nodes need a reader/parser. 8/1/22 Wait for wiki to be updated
 
 
+
     private final String url;
 
     /**
