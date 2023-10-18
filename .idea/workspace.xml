@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Fixing makeFile currently...">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="FIX, wikipages had new things added so had to exclude by &#10;&#10;This page, achivement list need to omit from file&#10;https://ffxiv.consolegameswiki.com/wiki/Big_Fishing&#10;&#10;Main: none &#10;WikiPages: none&#10;MakeFile: MAJOR, added if statement to catch any BigFish. This could cause a bug later down the line. &#10;ItemBuilder: MINOR, added more info for a thrw statement. &#10;Formatter: MAJOR, added edge case to case statements.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/MakeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DuplicateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FindItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +385,7 @@
       <workItem from="1697019884903" duration="213000" />
       <workItem from="1697107933666" duration="1700000" />
       <workItem from="1697448989878" duration="1384000" />
-      <workItem from="1697509008773" duration="5658000" />
+      <workItem from="1697509008773" duration="6540000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -733,7 +730,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +766,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- Some indexes were fetching the wrong values. Corrected that but code still doesnt work" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: &#10;&#10;Changes:&#10;- created the todo needed on line 83" />
     <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
     <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
@@ -794,7 +790,8 @@
     <MESSAGE value="removed spooky i--??" />
     <MESSAGE value="condense if statement" />
     <MESSAGE value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
-    <option name="LAST_COMMIT_MESSAGE" value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
+    <MESSAGE value="FIX, wikipages had new things added so had to exclude by &#10;&#10;This page, achivement list need to omit from file&#10;https://ffxiv.consolegameswiki.com/wiki/Big_Fishing&#10;&#10;Main: none &#10;WikiPages: none&#10;MakeFile: MAJOR, added if statement to catch any BigFish. This could cause a bug later down the line. &#10;ItemBuilder: MINOR, added more info for a thrw statement. &#10;Formatter: MAJOR, added edge case to case statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX, wikipages had new things added so had to exclude by &#10;&#10;This page, achivement list need to omit from file&#10;https://ffxiv.consolegameswiki.com/wiki/Big_Fishing&#10;&#10;Main: none &#10;WikiPages: none&#10;MakeFile: MAJOR, added if statement to catch any BigFish. This could cause a bug later down the line. &#10;ItemBuilder: MINOR, added more info for a thrw statement. &#10;Formatter: MAJOR, added edge case to case statements." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

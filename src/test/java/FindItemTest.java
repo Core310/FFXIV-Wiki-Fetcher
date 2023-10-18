@@ -16,8 +16,8 @@ class FindItemTest {
                 """
                         [Item: Crayfish
                         Zone: Middle La Noscea\s
-                        Coordinates: X:20, Y:18
-                        Bait Used: Floating Minnow, Moth Pupa, Midge Basket, Spinnerbait, Bass Ball, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
+                        Coordinates: X:22, Y:22
+                        Bait Used: Floating Minnow, Moth Pupa, Spinnerbait, Bass Ball, Butterworm, Crow Fly, Bloodworm, Crayfish Ball, Versatile Lure
                         , Item: Crayfish
                         Zone: Lower La Noscea\s
                         Coordinates: X:24, Y:23

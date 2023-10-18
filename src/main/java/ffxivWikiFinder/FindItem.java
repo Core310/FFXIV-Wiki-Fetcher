@@ -54,7 +54,7 @@ public class FindItem {
     public ArrayList<String> essentialFindAllClosestAsMap(String itemName) {
         itemContainer = new ArrayList<>();
         ArrayList<String> returnValue = new ArrayList<>();//Return value
-        findAllClosestAsMap(itemName);
+        findAllClosestAsMap(itemName);//TODO 10/17/23 make run in constructor call?
         for (LinkedHashMap<String, String> lhm : itemContainer) {//Per item (represented as a stringBuilder)
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("Item: ").append(lhm.get("Item")).append("\n");
@@ -147,17 +147,7 @@ public class FindItem {
             String item = itemContainer.get(i).get("Item"),
                     zone = itemContainer.get(i).get("Zone"),
                     itemAndZone = item + "\t" + zone;
-            if(duplicateItemTracker.contains(itemAndZone)){
-                mergeDuplicate(i, itemAndZone);
-                i = i-1;
-            }
-            else
-                duplicateItemTracker.add(itemAndZone);
-            /* todo replace w/ this
-            LHS -> .contains(item&Zone) ? merge dupe : contiune;
-            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
-
-                        int duplicateItemCounter=0;
+            int duplicateItemCounter=0;
             for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
                     mergeDuplicate(i, itemAndZone);
@@ -167,6 +157,19 @@ public class FindItem {
                 }
 
             if (duplicateItemCounter == 0)
+                duplicateItemTracker.add(itemAndZone);
+
+            /* todo replace w/ this
+            LHS -> .contains(item&Zone) ? merge dupe : contiune;
+            problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
+
+
+
+                            if(duplicateItemTracker.contains(itemAndZone)){
+                mergeDuplicate(i, itemAndZone);
+                i = i-1;
+            }
+            else
                 duplicateItemTracker.add(itemAndZone);
              */
         }
@@ -215,6 +218,7 @@ public class FindItem {
 
         for (int currentItemHeader = 4; currentItemHeader < largerHeader.length; currentItemHeader++) {//At index 3 is the cords value. Cords value differs a ton so im not using it.
             if (!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//Makes all of smaller header into one string. Compares it to larger header to find any of the same instances
+                System.out.println(); //DELETEME
                 mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
                 //Takes whatever extra header values (and its data) and plops them in the baseData+Header
             }
