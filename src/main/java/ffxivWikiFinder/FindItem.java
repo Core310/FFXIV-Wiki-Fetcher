@@ -185,46 +185,56 @@ public class FindItem {
      * @param itemAndTp                 item and teleport value in one string seperated by `\t`
      */
     private void mergeDuplicate(int i, String itemAndTp) {//TODO 9/12/23 clean me
-        //Already contains key?
-        LinkedHashMap<String, String> itemToMerge = itemContainer.get(i);//Item at current index that will be removed and merged into the item with the previous index.
+        LinkedHashMap<String, String> currentItem = itemContainer.get(i);//Item at current index that will be removed and merged into the item with the previous index.
         itemContainer.remove(i);
-        int baseItemIndex = -1;
-        for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
-            if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
-                    itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
-            ) {//Does the current value contain both the item and the zone?
-                baseItemIndex = baseItemFinder;
-                break;
-            }
-        }//Grab index of other duplicate
-        if (baseItemIndex == -1)//Same value? Then just delete one of them and keep another.
-            return;
-        LinkedHashMap<String, String> mergeBase = itemContainer.get(baseItemIndex);//Item that will receive new values. Is the first item come across, not the current index
-        String[] mergeBaseKeySet = mergeBase.keySet().toArray(new String[0]);
-        String[] itemToMergeKeySet = itemToMerge.keySet().toArray(new String[0]);
+        int prevItemIndex = getPrevItemIndex(itemAndTp);
+        if (prevItemIndex == -1)//Same value? Then just delete one of them and keep another.
+            throw new RuntimeException("Should this ever happen? If so see what causes it and maybe just return early.");
 
-        String[] largerHeader, smallerHeader;
-        if (mergeBaseKeySet.length > itemToMergeKeySet.length) {
-            largerHeader = mergeBaseKeySet;
-            smallerHeader = itemToMergeKeySet;
-        } else {
-            largerHeader = itemToMergeKeySet;
-            smallerHeader = mergeBaseKeySet;
-        }
+        LinkedHashMap<String, String> prevItem = itemContainer.get(prevItemIndex),
+                largerItem, smallerItem;//Item that will receive new values. Is the first item come across, not the current index
+        String[]
+                prevItemKeySet = prevItem.keySet().toArray(new String[0]),
+                curItemKeySet = currentItem.keySet().toArray(new String[0]),
+                largerHeader  = (prevItemKeySet.length > curItemKeySet.length) ? prevItemKeySet : curItemKeySet
+               ,smallerHeader = (prevItemKeySet.length > curItemKeySet.length) ? curItemKeySet : prevItemKeySet;
+
         if (largerHeader.length < 4 || smallerHeader.length < 4) {
             throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
                     + "\n" + "Current Header Contents:" + itemContainer.get(i));
         }
+        //TODO 10/27/23 refactor loop so that only working on smaller/larger header
+        // (replaces currentItem) Requirements: Loop thru both items, find all items in smaller item and add to the larger
+        // . If have same header, append to the current value. If not create new key + value. Use a LHM to keep track of the given index in the
+        // map, then can use that to easily itr thru & add values in? Or maybe dont need a lhm and can use regular map.
+
+        for(int sHeader = 4; sHeader < largerHeader.length;sHeader++){
+            if (!Arrays.toString(smallerHeader).contains(largerHeader[sHeader]))
+                smallerItem.put(largerh)
+        }
 
         for (int currentItemHeader = 4; currentItemHeader < largerHeader.length; currentItemHeader++) {//At index 3 is the cords value. Cords value differs a ton so im not using it.
             if (!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//Makes all of smaller header into one string. Compares it to larger header to find any of the same instances
-                System.out.println(); //DELETEME
-                mergeBase.put(itemToMergeKeySet[currentItemHeader], itemToMerge.get(itemToMergeKeySet[currentItemHeader]));
+                prevItem.put(largerHeader[currentItemHeader],//TODO 10/27/23 refactor to make currentItem => largest/smallest item
+                        currentItem.get(curItemKeySet[currentItemHeader]));//Instead of curItem, it should be larger/smaller item
                 //Takes whatever extra header values (and its data) and plops them in the baseData+Header
             }
-        }//Loops through itemToMerge to see what values can be merged into the base value.
-        itemContainer.remove(baseItemIndex);//Deletes the second value found, then replaces it with the new value
-        itemContainer.add(baseItemIndex, mergeBase);
+        }//Loops through currentItem to see what values can be merged into the base value.
+        itemContainer.remove(prevItemIndex);//Deletes the second value found, then replaces it with the new value
+        itemContainer.add(prevItemIndex, prevItem);
+    }
+
+    private int getPrevItemIndex(String itemAndTp) {
+        int prevItemIndex = -1;
+        for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
+            if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
+                    itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
+            ) {//Does the current value contain both the item and the zone?
+                prevItemIndex = baseItemFinder;
+                break;
+            }
+        }//Grab index of other duplicate
+        return prevItemIndex;
     }
 
     /**
