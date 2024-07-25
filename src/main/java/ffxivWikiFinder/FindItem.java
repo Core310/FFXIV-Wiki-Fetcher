@@ -186,6 +186,7 @@ public class FindItem {
         LinkedHashMap<String, String> currentItem = itemContainer.get(currentItemIndex);//Item at current index that will be removed and merged into the item with the previous index.
         itemContainer.remove(currentItemIndex);
         int prevItemIndex = getPrevItemIndex(itemAndTp);
+        
         if (prevItemIndex == -1)//Same value? Then just delete one of them and keep another.
             throw new RuntimeException("Should this ever happen? If so see what causes it and maybe just return early.");
 
@@ -208,7 +209,7 @@ public class FindItem {
             if (!Arrays.toString(largerHeader).contains(smallerHeaderValue))
                 largerItem.put(smallerHeaderValue,smallerItem.get(smallerHeaderValue));
         }
-        itemContainer.set(currentItemIndex,largerItem);
+        itemContainer.set(currentItemIndex-1,largerItem);//FIXME, what happens if I dont do -1? How 2 avoid or js when it ! = 0 or at then end? how 2 count w/ indexing @ 0.. 
         itemContainer.remove(prevItemIndex);
     }
 
