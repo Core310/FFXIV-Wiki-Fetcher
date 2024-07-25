@@ -10,6 +10,7 @@ import fileBuilder.fileCreator.Wikipages;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
 /**
@@ -20,10 +21,10 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
 
     public static void main(String[] args) throws IOException {
-        makeFile();
+        
         //ListFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
-        //ListFinder.addItem("fishie");
-        //System.out.println(ListFinder.outPut());
+        ListFinder.addItem("fishie");
+        System.out.println(ListFinder.outPut());
         /*
                         This should build off the current libary and make into a simple API. So the only thing that changes here is making formatGroupedZones public. Then make another part of this
          We query listFinder input from API string stream. Then we return the ListFinder formatGroupedZones as a json object. The json object is then given to the end node to be delt with

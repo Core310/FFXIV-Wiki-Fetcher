@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="comments etc">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Fixed file building&#10;&#10;- Value of TBA was spotted in &#10;unspoiled node, made = -1 if val = &quot;TBA&quot;&#10;https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes#Botanist&#10;&#10;- Prev commit played with the mergeDuplicate in FindItem.java&#10;&#10;- TODO: Clean up FindItem.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/ItemBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Wikipages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XIVGather.TSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Wikipages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Wikipages.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,34 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowJson Helper.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6d814d4718ca68c483002d9b0a1cfabd&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ListFinderTest.outPutList.executor": "Debug",
+    "JUnit.java in FFXIV-Wiki-Fetcher.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowJson Helper.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "settings.editor.splitter.proportion": "0.20795107",
+    "spring.configuration.checksum": "6d814d4718ca68c483002d9b0a1cfabd",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\ffxiv-gatherbuddy-file-creator\.github\workflows" />
@@ -111,7 +108,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.java in FFXIV-Wiki-Fetcher">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
       <module name="FFXIV-Wiki-Fetcher" />
@@ -171,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ListFinderTest" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
         <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
@@ -751,7 +748,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +784,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
     <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Large code reformat. Should not have changed anything" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
@@ -812,9 +808,24 @@
     <MESSAGE value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
     <MESSAGE value="FIX, wikipages had new things added so had to exclude by &#10;&#10;This page, achivement list need to omit from file&#10;https://ffxiv.consolegameswiki.com/wiki/Big_Fishing&#10;&#10;Main: none &#10;WikiPages: none&#10;MakeFile: MAJOR, added if statement to catch any BigFish. This could cause a bug later down the line. &#10;ItemBuilder: MINOR, added more info for a thrw statement. &#10;Formatter: MAJOR, added edge case to case statements." />
     <MESSAGE value="comments etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments etc" />
+    <MESSAGE value="Fixed file building&#10;&#10;- Value of TBA was spotted in &#10;unspoiled node, made = -1 if val = &quot;TBA&quot;&#10;https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes#Botanist&#10;&#10;- Prev commit played with the mergeDuplicate in FindItem.java&#10;&#10;- TODO: Clean up FindItem.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed file building&#10;&#10;- Value of TBA was spotted in &#10;unspoiled node, made = -1 if val = &quot;TBA&quot;&#10;https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes#Botanist&#10;&#10;- Prev commit played with the mergeDuplicate in FindItem.java&#10;&#10;- TODO: Clean up FindItem.java" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" language="JAVA" />
