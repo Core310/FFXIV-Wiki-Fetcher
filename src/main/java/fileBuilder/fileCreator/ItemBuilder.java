@@ -95,7 +95,7 @@ public class ItemBuilder {
     }
 
     protected StringBuilder build_UNSPOILED_NODE(String[] csvValues) {
-
+        int slot = csvValues[2].equals("TBA") ? -1 : Integer.parseInt(csvValues[2]);
         stringBuilder.append(UNSPOILED_NODE.name());
         stringBuilder.append("\t");
         stringBuilder.append(new Unspoiled_Node(
@@ -106,7 +106,7 @@ public class ItemBuilder {
                         //End of baseItem
                         Integer.parseInt(csvValues[5]),//level
                         csvValues[0],//Time
-                        Integer.parseInt(csvValues[2]),//Slot
+                        slot,
                         csvValues[6].length() //star
                 )
         );

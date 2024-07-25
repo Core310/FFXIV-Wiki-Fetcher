@@ -201,13 +201,7 @@ public class FindItem {
                ,smallerHeader = (prevItemKeySet.length > curItemKeySet.length) ? curItemKeySet : prevItemKeySet;
 
         catchHeaderSizeSmallerEdgeCase(currentItemIndex, largerHeader, smallerHeader);
-        //TODO 10/27/23 refactor loop so that only working on smaller/larger header
-        // (replaces currentItem) Requirements: Loop thru both items, find all items in smaller item and add to the larger
-        // . If have same header, append to the current value. If not create new key + value. Use a LHM to keep track of the given index in the
-        // map, then can use that to easily itr thru & add values in? Or maybe dont need a lhm and can use regular map.
-
-        //SH have value ! in LH? -> Append LH 
-
+        
         //At index 3 is the cords value. Cords value differs a ton so im not using it.
         for(int sHeaderIndex = 4; sHeaderIndex < smallerHeader.length;sHeaderIndex++){//starts at 4 to skip the metaData of item and start merging
             String smallerHeaderValue = smallerHeader[sHeaderIndex];

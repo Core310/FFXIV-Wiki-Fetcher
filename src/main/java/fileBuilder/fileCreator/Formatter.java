@@ -3,6 +3,7 @@ package fileBuilder.fileCreator;
 import fileBuilder.readers.items.baseNode.StaticItemTypes;
 
 import java.io.*;
+import java.util.Arrays;
 
 import static fileBuilder.readers.items.baseNode.StaticItemTypes.*;
 
@@ -38,6 +39,7 @@ public class Formatter {
      * @return One of the StaticItemTypes
      */
     private StaticItemTypes setCurrentType(String curLine) {
+        System.out.println(curLine); //DELETEME
         switch (curLine) {
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
                 itemType = FOLK_LORE_NODE;
@@ -47,7 +49,7 @@ public class Formatter {
                 itemType = FOLK_LORE_FISH_NODE;
                 return DELETE;
             }
-            case "Level\tType\tZone\tCoordinate\tItems\tExtra" -> {
+            case "Level\tType\tZone\tCoordinate\tItems\tExtra","Level\tType\tZone\tCoordinates\tItems\tExtra" -> {
                 itemType = REGULAR_NODE;
                 return DELETE;
             }
