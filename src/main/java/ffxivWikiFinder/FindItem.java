@@ -51,7 +51,7 @@ public class FindItem {
      * @param itemName item to find
      * @return Item data separated by \n like so {@literal ArrayList <Individual items>}
      */
-    public ArrayList<String> essentialFindAllClosestAsMap(String itemName) {
+    public ArrayList<String> essentialFindAllClosestAsMap(String itemName) { //TODO 24/7/2024 can I make this into a baseItem class? Instead of the current process where I (come bak 2`
         itemContainer = new ArrayList<>();
         ArrayList<String> returnValue = new ArrayList<>();//Return value
         findAllClosestAsMap(itemName);//TODO 10/17/23 make run in constructor call?
@@ -141,18 +141,18 @@ public class FindItem {
         else if (itemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        HashSet<String> duplicateItemTracker = new HashSet<>();
+        HashSet<String> duplicateItemTracker = new HashSet<>(); 
 
-        for (int i = 0; i < itemContainer.size(); i++) {
-            String item = itemContainer.get(i).get("Item"),
-                    zone = itemContainer.get(i).get("Zone"),
+        for (int currentItemIndex = 0; currentItemIndex < itemContainer.size(); currentItemIndex++) { 
+            String item =  itemContainer.get(currentItemIndex).get("Item"),
+                    zone = itemContainer.get(currentItemIndex).get("Zone"),
                     itemAndZone = item + "\t" + zone;
             int duplicateItemCounter=0;
             for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
-                    mergeDuplicate(i, itemAndZone);
+                    mergeDuplicate(currentItemIndex, itemAndZone);
                     duplicateItemCounter++;
-                    i--;
+                    currentItemIndex--;
                     break;
                 }
 
@@ -163,9 +163,7 @@ public class FindItem {
             LHS -> .contains(item&Zone) ? merge dupe : contiune;
             problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
 
-
-
-                            if(duplicateItemTracker.contains(itemAndZone)){
+           if(duplicateItemTracker.contains(itemAndZone)){
                 mergeDuplicate(i, itemAndZone);
                 i = i-1;
             }
@@ -178,50 +176,53 @@ public class FindItem {
 
     /**
      * Helper method for {@link #searchForDuplicate()}. Has a lot of linked values to the method above, and runs inside a for loop.
-     * <br> This method is to keep code clean.
+     * <br> This method is to keep code clean. 
      * <br> Does the actual merging of values
      *
-     * @param i                         for loop iterator in main method.
+     * @param currentItemIndex                         for loop iterator in main method.
      * @param itemAndTp                 item and teleport value in one string seperated by `\t`
      */
-    private void mergeDuplicate(int i, String itemAndTp) {//TODO 9/12/23 clean me
-        LinkedHashMap<String, String> currentItem = itemContainer.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        itemContainer.remove(i);
+    private void mergeDuplicate(int currentItemIndex, String itemAndTp) {//TODO 9/12/23 clean me
+        LinkedHashMap<String, String> currentItem = itemContainer.get(currentItemIndex);//Item at current index that will be removed and merged into the item with the previous index.
+        itemContainer.remove(currentItemIndex);
         int prevItemIndex = getPrevItemIndex(itemAndTp);
         if (prevItemIndex == -1)//Same value? Then just delete one of them and keep another.
             throw new RuntimeException("Should this ever happen? If so see what causes it and maybe just return early.");
 
         LinkedHashMap<String, String> prevItem = itemContainer.get(prevItemIndex),
                 largerItem, smallerItem;//Item that will receive new values. Is the first item come across, not the current index
+        largerItem = currentItem.size() > prevItem.size() ? currentItem : prevItem;
+        smallerItem = currentItem.size() > prevItem.size() ? prevItem : currentItem;
+        
         String[]
                 prevItemKeySet = prevItem.keySet().toArray(new String[0]),
                 curItemKeySet = currentItem.keySet().toArray(new String[0]),
                 largerHeader  = (prevItemKeySet.length > curItemKeySet.length) ? prevItemKeySet : curItemKeySet
                ,smallerHeader = (prevItemKeySet.length > curItemKeySet.length) ? curItemKeySet : prevItemKeySet;
 
-        if (largerHeader.length < 4 || smallerHeader.length < 4) {
-            throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
-                    + "\n" + "Current Header Contents:" + itemContainer.get(i));
-        }
+        catchHeaderSizeSmallerEdgeCase(currentItemIndex, largerHeader, smallerHeader);
         //TODO 10/27/23 refactor loop so that only working on smaller/larger header
         // (replaces currentItem) Requirements: Loop thru both items, find all items in smaller item and add to the larger
         // . If have same header, append to the current value. If not create new key + value. Use a LHM to keep track of the given index in the
         // map, then can use that to easily itr thru & add values in? Or maybe dont need a lhm and can use regular map.
 
-        for(int sHeader = 4; sHeader < largerHeader.length;sHeader++){
-            if (!Arrays.toString(smallerHeader).contains(largerHeader[sHeader]))
-                smallerItem.put(largerh)
-        }
+        //SH have value ! in LH? -> Append LH 
 
-        for (int currentItemHeader = 4; currentItemHeader < largerHeader.length; currentItemHeader++) {//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            if (!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//Makes all of smaller header into one string. Compares it to larger header to find any of the same instances
-                prevItem.put(largerHeader[currentItemHeader],//TODO 10/27/23 refactor to make currentItem => largest/smallest item
-                        currentItem.get(curItemKeySet[currentItemHeader]));//Instead of curItem, it should be larger/smaller item
-                //Takes whatever extra header values (and its data) and plops them in the baseData+Header
-            }
-        }//Loops through currentItem to see what values can be merged into the base value.
-        itemContainer.remove(prevItemIndex);//Deletes the second value found, then replaces it with the new value
-        itemContainer.add(prevItemIndex, prevItem);
+        //At index 3 is the cords value. Cords value differs a ton so im not using it.
+        for(int sHeaderIndex = 4; sHeaderIndex < smallerHeader.length;sHeaderIndex++){//starts at 4 to skip the metaData of item and start merging
+            String smallerHeaderValue = smallerHeader[sHeaderIndex];
+            if (!Arrays.toString(largerHeader).contains(smallerHeaderValue))
+                largerItem.put(smallerHeaderValue,smallerItem.get(smallerHeaderValue));
+        }
+        itemContainer.set(currentItemIndex,largerItem);
+        itemContainer.remove(prevItemIndex);
+    }
+
+    private void catchHeaderSizeSmallerEdgeCase(int i, String[] largerHeader, String[] smallerHeader) {
+        if (largerHeader.length < 4 || smallerHeader.length < 4) {
+            throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
+                    + "\n" + "Current Header Contents:" + itemContainer.get(i));
+        }
     }
 
     private int getPrevItemIndex(String itemAndTp) {
