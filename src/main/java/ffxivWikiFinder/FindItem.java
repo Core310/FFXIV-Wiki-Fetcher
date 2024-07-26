@@ -127,9 +127,9 @@ public class FindItem {
 
     /**
      * Parent method: {@link #findAllClosestAsMap(String)}
-     * <br>Helper method: {@link #mergeDuplicate(int, String)}
+     * <br>Helper method: {@link #mergeDuplicate(int, String, String)} 
      * <br> This method is a trigger for the actual merging method to take place.
-     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String)}.
+     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String, String)} 
      * <br> Searches each item by their item and zone.
      * <br> Basically, if two or more items share the same name and zone, this method will merge both items keeping one of their teleport values (at random).
      *
@@ -148,10 +148,9 @@ public class FindItem {
                     zone = itemContainer.get(currentItemIndex).get("Zone"),
                     itemAndZone = item + "\t" + zone;
             boolean duplicateItemFlag = false;
-            for (String str : duplicateItemTracker)
-                if (str.contains(itemAndZone)) {
-                    System.out.println(str + "\n" + duplicateItemTracker.toString()); //DELETEME
-                    mergeDuplicate(currentItemIndex, itemAndZone);
+            for (String duplicateItem : duplicateItemTracker)
+                if (duplicateItem.contains(itemAndZone)) {
+                    mergeDuplicate(currentItemIndex, item, zone);
                     duplicateItemFlag = true;
                     currentItemIndex--;
                     break;
@@ -179,14 +178,13 @@ public class FindItem {
      * Helper method for {@link #searchForDuplicate()}. Has a lot of linked values to the method above, and runs inside a for loop.
      * <br> This method is to keep code clean. 
      * <br> Does the actual merging of values
-     *
-     * @param currentItemIndex                         for loop iterator in main method.
-     * @param itemAndTp                 item and teleport value in one string seperated by `\t`
+     * @param currentItemIndex current index in larger itemContainer searching. 
+     * @param item item name looking for
+     * @param zone looking for
      */
-    private void mergeDuplicate(int currentItemIndex, String itemAndTp) {//TODO 9/12/23 clean me
+    private void mergeDuplicate(int currentItemIndex, String item,String zone) {//TODO 9/12/23 clean me
         LinkedHashMap<String, String> currentItem = itemContainer.get(currentItemIndex);//Item at current index that will be removed and merged into the item with the previous index.
-        itemContainer.remove(currentItemIndex);
-        int prevItemIndex = getPrevItemIndex(itemAndTp);
+        int prevItemIndex = getPrevItemIndex(item, zone);
         LinkedHashMap<String, String> prevItem = itemContainer.get(prevItemIndex),
                 largerItem, smallerItem;//Item that will receive new values. Is the first item come across, not the current index
         largerItem = currentItem.size() > prevItem.size() ? currentItem : prevItem;
@@ -206,7 +204,8 @@ public class FindItem {
             if (!Arrays.toString(largerHeader).contains(smallerHeaderValue))
                 largerItem.put(smallerHeaderValue,smallerItem.get(smallerHeaderValue));
         }
-        itemContainer.set(currentItemIndex-1,largerItem);
+        System.out.println(itemContainer); //DELETEME
+        itemContainer.set(currentItemIndex,largerItem);
         itemContainer.remove(prevItemIndex);
     }
 
@@ -219,18 +218,19 @@ public class FindItem {
 
     /**
      * Searches item container for original item and current item
-     * @param itemAndTp item searching for
-     * @return index of previous item 
+     * @param item item name searching for 
+     * @param zone zone searching for
+     * @return previous item index (in oppose to the current foward pointing item copy index.
      */
-    private int getPrevItemIndex(String itemAndTp) {
-        for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
-            if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
-                    itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
+    private int getPrevItemIndex(String item, String zone) {
+        for (int itemContainerIterator = 0; itemContainerIterator < itemContainer.size(); itemContainerIterator++) {//Finds duplicate item
+            if (itemContainer.get(itemContainerIterator).get("Item").contains(item) &&
+                    itemContainer.get(itemContainerIterator).get("Zone").contains(zone)
             )//Does the current value contain both the item and the zone?
-                return baseItemFinder;
+                return itemContainerIterator;
         }//Grab index of other duplicate
-        throw new RuntimeException("This method never ran, figure out method calling issue"); 
-        
+        System.out.println(itemContainer + "\n" + item + "\t" + zone); //DELETEME
+        throw new RuntimeException("This method never ran, figure out method calling issue");
     }
 
     /**
