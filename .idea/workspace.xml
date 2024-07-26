@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="currently working on line 212 of FindItem.jav, problem with curitem index -1 thingy">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="Figured out bug, when prevItemIndex and cur Item Index is both 0 indexed, then how?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fileBuilder/fileCreator/Formatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fileBuilder/fileCreator/Formatter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ListFinderTest.outPutList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
       <module name="FFXIV-Wiki-Fetcher" />
@@ -169,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ListFinderTest.outPutList" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
         <item itemvalue="JUnit.ListFinderTest" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
@@ -406,7 +405,7 @@
       <workItem from="1721808684530" duration="2073000" />
       <workItem from="1721905404306" duration="1614000" />
       <workItem from="1721992210652" duration="2782000" />
-      <workItem from="1721995062826" duration="1497000" />
+      <workItem from="1721995062826" duration="4797000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -751,7 +750,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +786,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Large code reformat. Should not have changed anything" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
@@ -812,15 +810,21 @@
     <MESSAGE value="comments etc" />
     <MESSAGE value="Fixed file building&#10;&#10;- Value of TBA was spotted in &#10;unspoiled node, made = -1 if val = &quot;TBA&quot;&#10;https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes#Botanist&#10;&#10;- Prev commit played with the mergeDuplicate in FindItem.java&#10;&#10;- TODO: Clean up FindItem.java" />
     <MESSAGE value="currently working on line 212 of FindItem.jav, problem with curitem index -1 thingy" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently working on line 212 of FindItem.jav, problem with curitem index -1 thingy" />
+    <MESSAGE value="Figured out bug, when prevItemIndex and cur Item Index is both 0 indexed, then how?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Figured out bug, when prevItemIndex and cur Item Index is both 0 indexed, then how?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java</url>
-          <line>208</line>
+          <line>206</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

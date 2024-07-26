@@ -10,6 +10,7 @@ import fileBuilder.fileCreator.Wikipages;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -22,8 +23,8 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
 
     public static void main(String[] args) throws IOException {
-        //item(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
-        ListFinder.addItem("Ice Shard");
+        //(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
+        //ListFinder.addItem("Ice Shard");
         System.out.println(ListFinder.outPut());
         /*
                         This should build off the current libary and make into a simple API. So the only thing that changes here is making formatGroupedZones public. Then make another part of this
