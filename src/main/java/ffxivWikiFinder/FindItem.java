@@ -147,16 +147,17 @@ public class FindItem {
             String item =  itemContainer.get(currentItemIndex).get("Item"),
                     zone = itemContainer.get(currentItemIndex).get("Zone"),
                     itemAndZone = item + "\t" + zone;
-            int duplicateItemCounter=0;
+            boolean duplicateItemFlag = false;
             for (String str : duplicateItemTracker)
                 if (str.contains(itemAndZone)) {
+                    System.out.println(str + "\n" + duplicateItemTracker.toString()); //DELETEME
                     mergeDuplicate(currentItemIndex, itemAndZone);
-                    duplicateItemCounter++;
+                    duplicateItemFlag = true;
                     currentItemIndex--;
                     break;
                 }
 
-            if (duplicateItemCounter == 0)
+            if (!duplicateItemFlag)
                 duplicateItemTracker.add(itemAndZone);
 
             /* todo replace w/ this
@@ -186,10 +187,6 @@ public class FindItem {
         LinkedHashMap<String, String> currentItem = itemContainer.get(currentItemIndex);//Item at current index that will be removed and merged into the item with the previous index.
         itemContainer.remove(currentItemIndex);
         int prevItemIndex = getPrevItemIndex(itemAndTp);
-        
-        if (prevItemIndex == -1)//Same value? Then just delete one of them and keep another.
-            throw new RuntimeException("Should this ever happen? If so see what causes it and maybe just return early.");
-
         LinkedHashMap<String, String> prevItem = itemContainer.get(prevItemIndex),
                 largerItem, smallerItem;//Item that will receive new values. Is the first item come across, not the current index
         largerItem = currentItem.size() > prevItem.size() ? currentItem : prevItem;
@@ -209,7 +206,7 @@ public class FindItem {
             if (!Arrays.toString(largerHeader).contains(smallerHeaderValue))
                 largerItem.put(smallerHeaderValue,smallerItem.get(smallerHeaderValue));
         }
-        itemContainer.set(currentItemIndex-1,largerItem);//FIXME, what happens if I dont do -1? How 2 avoid or js when it ! = 0 or at then end? how 2 count w/ indexing @ 0.. 
+        itemContainer.set(currentItemIndex-1,largerItem);
         itemContainer.remove(prevItemIndex);
     }
 
@@ -220,17 +217,20 @@ public class FindItem {
         }
     }
 
+    /**
+     * Searches item container for original item and current item
+     * @param itemAndTp item searching for
+     * @return index of previous item 
+     */
     private int getPrevItemIndex(String itemAndTp) {
-        int prevItemIndex = -1;
         for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
             if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
                     itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
-            ) {//Does the current value contain both the item and the zone?
-                prevItemIndex = baseItemFinder;
-                break;
-            }
+            )//Does the current value contain both the item and the zone?
+                return baseItemFinder;
         }//Grab index of other duplicate
-        return prevItemIndex;
+        throw new RuntimeException("This method never ran, figure out method calling issue"); 
+        
     }
 
     /**
