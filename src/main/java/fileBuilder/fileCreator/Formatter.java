@@ -39,7 +39,6 @@ public class Formatter {
      * @return One of the StaticItemTypes
      */
     private StaticItemTypes setCurrentType(String curLine) {
-        System.out.println(curLine); //DELETEME
         switch (curLine) {
             case "Folklore Tome\tTime\tItem\tSlot\tLocation\tCoordinates\tUsed to make" -> {
                 itemType = FOLK_LORE_NODE;
