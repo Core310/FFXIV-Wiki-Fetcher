@@ -23,8 +23,8 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
 
     public static void main(String[] args) throws IOException {
-        //(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
-        //ListFinder.addItem("Ice Shard");
+        //ListFinder.addItem(new String[]{"Fire sh", "ic shrd", "water sha", "wind sha", "orange", "Cock Feather", "Cloves", "Black Pepper", "Nepto Dragon"});
+        ListFinder.addItem("fishie");
         System.out.println(ListFinder.outPut());
         /*
                         This should build off the current libary and make into a simple API. So the only thing that changes here is making formatGroupedZones public. Then make another part of this
