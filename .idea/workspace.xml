@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="comments etc">
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ffxivWikiFinder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/FindItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ffxivWikiFinder/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,32 +56,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowJson Helper.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6d814d4718ca68c483002d9b0a1cfabd&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.FindItemTest.essentialFindAllClosestAsMap.executor": "Run",
+    "JUnit.ListFinderTest.executor": "Run",
+    "JUnit.ListFinderTest.outPutList.executor": "Run",
+    "JUnit.java in FFXIV-Wiki-Fetcher.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowJson Helper.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "D:/Documents/GitHub/ffxiv-gatherbuddy-file-creator/.github/workflows",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "settings.editor.splitter.proportion": "0.20795107",
+    "spring.configuration.checksum": "6d814d4718ca68c483002d9b0a1cfabd",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\ffxiv-gatherbuddy-file-creator\.github\workflows" />
@@ -101,7 +111,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.java in FFXIV-Wiki-Fetcher">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ffxivWikiFinder.Main" />
       <module name="FFXIV-Wiki-Fetcher" />
@@ -111,16 +121,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuplicateTest.duplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FFXIV-Wiki-Fetcher" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
-      <option name="METHOD_NAME" value="duplicateTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,6 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListFinderTest.outPutList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FFXIV-Wiki-Fetcher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListFinderTest" />
+      <option name="METHOD_NAME" value="outPutList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="java in FFXIV-Wiki-Fetcher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FFXIV-Wiki-Fetcher" />
       <option name="TEST_OBJECT" value="directory" />
@@ -154,20 +164,28 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ListFinderTest.outPutList" />
       <item itemvalue="JUnit.ListFinderTest" />
-      <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
       <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
       <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.java in FFXIV-Wiki-Fetcher" />
-        <item itemvalue="JUnit.ListFinderTest" />
         <item itemvalue="JUnit.FindItemTest.essentialFindAllClosestAsMap" />
-        <item itemvalue="JUnit.DuplicateTest.duplicateTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ListFinderTest.outPutList" />
+        <item itemvalue="JUnit.ListFinderTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -387,6 +405,14 @@
       <workItem from="1697876698461" duration="2955000" />
       <workItem from="1698140386305" duration="3166000" />
       <workItem from="1698369973131" duration="3658000" />
+      <workItem from="1721808684530" duration="2073000" />
+      <workItem from="1721905404306" duration="1614000" />
+      <workItem from="1721992210652" duration="2782000" />
+      <workItem from="1721995062826" duration="8085000" />
+      <workItem from="1722076901669" duration="1226000" />
+      <workItem from="1722103192401" duration="868000" />
+      <workItem from="1722176727889" duration="2610000" />
+      <workItem from="1722231862174" duration="3264000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
@@ -731,7 +757,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,10 +793,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on:ListFinder.java&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored formatGroupedZones for loop to be iterative. I took away the enhanced for loop b/c it wasn't deleting properly. &#10;&#10;todo:&#10;- test cases" />
-    <MESSAGE value="Working on:n/a&#10;&#10;Doing right now: finishup the toString method and test cases&#10;&#10;Changes:&#10;- refactored toString to actually return a string. &#10;- Some code clean comments&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
-    <MESSAGE value="Large code reformat. Should not have changed anything" />
-    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Debugging&#10;&#10;Changes: Started debug area&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
@@ -792,18 +814,13 @@
     <MESSAGE value="globalized itemContainer &#10;&#10;ListFinder just deleted empty line" />
     <MESSAGE value="FIX, wikipages had new things added so had to exclude by &#10;&#10;This page, achivement list need to omit from file&#10;https://ffxiv.consolegameswiki.com/wiki/Big_Fishing&#10;&#10;Main: none &#10;WikiPages: none&#10;MakeFile: MAJOR, added if statement to catch any BigFish. This could cause a bug later down the line. &#10;ItemBuilder: MINOR, added more info for a thrw statement. &#10;Formatter: MAJOR, added edge case to case statements." />
     <MESSAGE value="comments etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments etc" />
+    <MESSAGE value="Fixed file building&#10;&#10;- Value of TBA was spotted in &#10;unspoiled node, made = -1 if val = &quot;TBA&quot;&#10;https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Nodes#Botanist&#10;&#10;- Prev commit played with the mergeDuplicate in FindItem.java&#10;&#10;- TODO: Clean up FindItem.java" />
+    <MESSAGE value="currently working on line 212 of FindItem.jav, problem with curitem index -1 thingy" />
+    <MESSAGE value="Figured out bug, when prevItemIndex and cur Item Index is both 0 indexed, then how?" />
+    <MESSAGE value="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)" />
+    <option name="LAST_COMMIT_MESSAGE" value="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ffxivWikiFinder/FindItem.java</url>
-          <line>216</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arrayList" language="JAVA" />

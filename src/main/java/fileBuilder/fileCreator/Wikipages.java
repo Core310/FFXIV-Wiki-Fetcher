@@ -6,7 +6,7 @@ package fileBuilder.fileCreator;
  * @see MakeFile setParsedPage
  */
 public enum Wikipages {
-    BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
+     BNT_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Botanist_Node_Locations"),
     BNT_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Botanist_Nodes"),
     MNR_REGULAR_NODE("https://ffxiv.consolegameswiki.com/wiki/Mining_Node_Locations"),
     MNR_UNSPOILED_NODE("https://ffxiv.consolegameswiki.com/wiki/Unspoiled_Mining_Nodes"),
@@ -15,7 +15,7 @@ public enum Wikipages {
     FSH_BIG_NODE("https://ffxiv.consolegameswiki.com/wiki/Big_Fishing"),
     FSH_COLLECT_NODE("https://ffxiv.consolegameswiki.com/wiki/Fishing_Collectables");
 
-    //EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // feature 2/2/2022 Emph nodes need a reader/parser. 8/1/22 Wait for wiki to be updated
+//    //EPHEMERAL_NODE("https://ffxiv.consolegameswiki.com/wiki/Ephemeral_Nodes"); // feature 2/2/2022 Emph nodes need a reader/parser. 8/1/22 Wait for wiki to be updated
 
 
 
