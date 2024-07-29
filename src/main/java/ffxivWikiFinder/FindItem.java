@@ -51,7 +51,7 @@ public class FindItem {
      * @param itemName item to find
      * @return Item data separated by \n like so {@literal ArrayList <Individual items>}
      */
-    public ArrayList<String> essentialFindAllClosestAsMap(String itemName) {
+    public ArrayList<String> essentialFindAllClosestAsMap(String itemName) { //TODO 24/7/2024 can I make this into a baseItem class? Instead of the current process where I (come bak 2`
         itemContainer = new ArrayList<>();
         ArrayList<String> returnValue = new ArrayList<>();//Return value
         findAllClosestAsMap(itemName);//TODO 10/17/23 make run in constructor call?
@@ -127,9 +127,9 @@ public class FindItem {
 
     /**
      * Parent method: {@link #findAllClosestAsMap(String)}
-     * <br>Helper method: {@link #mergeDuplicate(int, String)}
+     * <br>Helper method: {@link #mergeDuplicate(int, String, String)} 
      * <br> This method is a trigger for the actual merging method to take place.
-     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String)}.
+     * <br>Merges any duplicate item with a time complexity of O(n^2) using {@link #mergeDuplicate(int, String, String)} 
      * <br> Searches each item by their item and zone.
      * <br> Basically, if two or more items share the same name and zone, this method will merge both items keeping one of their teleport values (at random).
      *
@@ -141,31 +141,29 @@ public class FindItem {
         else if (itemContainer.isEmpty()) {
             throw new RuntimeException("Current array should never be less than or equal to 0 here");
         }
-        HashSet<String> duplicateItemTracker = new HashSet<>();
+        HashSet<String> duplicateItemTracker = new HashSet<>(); 
 
-        for (int i = 0; i < itemContainer.size(); i++) {
-            String item = itemContainer.get(i).get("Item"),
-                    zone = itemContainer.get(i).get("Zone"),
+        for (int currentItemIndex = 0; currentItemIndex < itemContainer.size(); currentItemIndex++) { 
+            String item =  itemContainer.get(currentItemIndex).get("Item"),
+                    zone = itemContainer.get(currentItemIndex).get("Zone"),
                     itemAndZone = item + "\t" + zone;
-            int duplicateItemCounter=0;
-            for (String str : duplicateItemTracker)
-                if (str.contains(itemAndZone)) {
-                    mergeDuplicate(i, itemAndZone);
-                    duplicateItemCounter++;
-                    i--;
+            boolean duplicateItemFlag = false;
+            for (String duplicateItem : duplicateItemTracker)
+                if (duplicateItem.contains(itemAndZone)) {
+                    mergeDuplicate(currentItemIndex, item, zone);
+                    duplicateItemFlag = true;
+                    currentItemIndex--;
                     break;
                 }
 
-            if (duplicateItemCounter == 0)
+            if (!duplicateItemFlag)
                 duplicateItemTracker.add(itemAndZone);
 
             /* todo replace w/ this
             LHS -> .contains(item&Zone) ? merge dupe : contiune;
             problems: Cant actually itr thru lhs right? Oso cant have same keys in it => problem
 
-
-
-                            if(duplicateItemTracker.contains(itemAndZone)){
+           if(duplicateItemTracker.contains(itemAndZone)){
                 mergeDuplicate(i, itemAndZone);
                 i = i-1;
             }
@@ -178,63 +176,60 @@ public class FindItem {
 
     /**
      * Helper method for {@link #searchForDuplicate()}. Has a lot of linked values to the method above, and runs inside a for loop.
-     * <br> This method is to keep code clean.
+     * <br> This method is to keep code clean. 
      * <br> Does the actual merging of values
-     *
-     * @param i                         for loop iterator in main method.
-     * @param itemAndTp                 item and teleport value in one string seperated by `\t`
+     * @param currentItemIndex current index in larger itemContainer searching. 
+     * @param item item name looking for
+     * @param zone looking for
      */
-    private void mergeDuplicate(int i, String itemAndTp) {//TODO 9/12/23 clean me
-        LinkedHashMap<String, String> currentItem = itemContainer.get(i);//Item at current index that will be removed and merged into the item with the previous index.
-        itemContainer.remove(i);
-        int prevItemIndex = getPrevItemIndex(itemAndTp);
-        if (prevItemIndex == -1)//Same value? Then just delete one of them and keep another.
-            throw new RuntimeException("Should this ever happen? If so see what causes it and maybe just return early.");
-
+    private void mergeDuplicate(int currentItemIndex, String item,String zone) {//TODO 9/12/23 clean me
+        LinkedHashMap<String, String> currentItem = itemContainer.get(currentItemIndex);//Item at current index that will be removed and merged into the item with the previous index.
+        int prevItemIndex = getPrevItemIndex(item, zone);
         LinkedHashMap<String, String> prevItem = itemContainer.get(prevItemIndex),
                 largerItem, smallerItem;//Item that will receive new values. Is the first item come across, not the current index
+        largerItem = currentItem.size() > prevItem.size() ? currentItem : prevItem;
+        smallerItem = currentItem.size() > prevItem.size() ? prevItem : currentItem;
+        
         String[]
                 prevItemKeySet = prevItem.keySet().toArray(new String[0]),
                 curItemKeySet = currentItem.keySet().toArray(new String[0]),
                 largerHeader  = (prevItemKeySet.length > curItemKeySet.length) ? prevItemKeySet : curItemKeySet
                ,smallerHeader = (prevItemKeySet.length > curItemKeySet.length) ? curItemKeySet : prevItemKeySet;
 
+        catchHeaderSizeSmallerEdgeCase(currentItemIndex, largerHeader, smallerHeader);
+        
+        //At index 3 is the cords value. Cords value differs a ton so im not using it.
+        for(int sHeaderIndex = 4; sHeaderIndex < smallerHeader.length;sHeaderIndex++){//starts at 4 to skip the metaData of item and start merging
+            String smallerHeaderValue = smallerHeader[sHeaderIndex];
+            if (!Arrays.toString(largerHeader).contains(smallerHeaderValue)) {
+                largerItem.put(smallerHeaderValue, smallerItem.get(smallerHeaderValue));
+                 }
+        }
+        itemContainer.set(currentItemIndex,largerItem);
+        itemContainer.remove(prevItemIndex);
+    }
+
+    private void catchHeaderSizeSmallerEdgeCase(int i, String[] largerHeader, String[] smallerHeader) {
         if (largerHeader.length < 4 || smallerHeader.length < 4) {
             throw new RuntimeException("Current Header size should never be less than 4. Current Header size: " + Arrays.toString(smallerHeader)
                     + "\n" + "Current Header Contents:" + itemContainer.get(i));
         }
-        //TODO 10/27/23 refactor loop so that only working on smaller/larger header
-        // (replaces currentItem) Requirements: Loop thru both items, find all items in smaller item and add to the larger
-        // . If have same header, append to the current value. If not create new key + value. Use a LHM to keep track of the given index in the
-        // map, then can use that to easily itr thru & add values in? Or maybe dont need a lhm and can use regular map.
-
-        for(int sHeader = 4; sHeader < largerHeader.length;sHeader++){
-            if (!Arrays.toString(smallerHeader).contains(largerHeader[sHeader]))
-                smallerItem.put(largerh)
-        }
-
-        for (int currentItemHeader = 4; currentItemHeader < largerHeader.length; currentItemHeader++) {//At index 3 is the cords value. Cords value differs a ton so im not using it.
-            if (!Arrays.toString(smallerHeader).contains(largerHeader[currentItemHeader])) {//Makes all of smaller header into one string. Compares it to larger header to find any of the same instances
-                prevItem.put(largerHeader[currentItemHeader],//TODO 10/27/23 refactor to make currentItem => largest/smallest item
-                        currentItem.get(curItemKeySet[currentItemHeader]));//Instead of curItem, it should be larger/smaller item
-                //Takes whatever extra header values (and its data) and plops them in the baseData+Header
-            }
-        }//Loops through currentItem to see what values can be merged into the base value.
-        itemContainer.remove(prevItemIndex);//Deletes the second value found, then replaces it with the new value
-        itemContainer.add(prevItemIndex, prevItem);
     }
 
-    private int getPrevItemIndex(String itemAndTp) {
-        int prevItemIndex = -1;
-        for (int baseItemFinder = 0; baseItemFinder < itemContainer.size(); baseItemFinder++) {//Finds duplicate item
-            if (itemContainer.get(baseItemFinder).get("Item").contains(itemAndTp.split("\t", -1)[0]) &&
-                    itemContainer.get(baseItemFinder).get("Zone").contains(itemAndTp.split("\t", -1)[1])
-            ) {//Does the current value contain both the item and the zone?
-                prevItemIndex = baseItemFinder;
-                break;
-            }
+    /**
+     * Searches item container for original item and current item
+     * @param item item name searching for 
+     * @param zone zone searching for
+     * @return previous item index (in oppose to the current foward pointing item copy index.
+     */
+    private int getPrevItemIndex(String item, String zone) {
+        for (int itemContainerIterator = 0; itemContainerIterator < itemContainer.size(); itemContainerIterator++) {//Finds duplicate item
+            if (itemContainer.get(itemContainerIterator).get("Item").contains(item) &&
+                    itemContainer.get(itemContainerIterator).get("Zone").contains(zone)
+            )//Does the current value contain both the item and the zone?
+                return itemContainerIterator;
         }//Grab index of other duplicate
-        return prevItemIndex;
+        throw new RuntimeException("This method never ran, figure out method calling issue");
     }
 
     /**
