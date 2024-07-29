@@ -10,6 +10,9 @@ import fileBuilder.fileCreator.Wikipages;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 @SuppressWarnings("ALL")
 /**
@@ -20,7 +23,7 @@ public class Main {
     static final String FileName = "src/main/resources/XIVGather.TSV";
 
     public static void main(String[] args) throws IOException {
-        //ListFinder.addItem(new String[]{"clod jelfish", "crim trou", "rarefield reef roc", "yugar salmon", "giantpiel"});
+        //ListFinder.addItem(new String[]{"Fire sh", "ic shrd", "water sha", "wind sha", "orange", "Cock Feather", "Cloves", "Black Pepper", "Nepto Dragon"});
         ListFinder.addItem("fishie");
         System.out.println(ListFinder.outPut());
         /*
@@ -30,9 +33,6 @@ public class Main {
                  */
     }
 
-    /**
-     * Test method to make the file
-     */
     private static void makeFile() throws IOException {
         File XIVGather = new File(FileName);
         FileWriter fileWriter = new FileWriter(XIVGather, false);
