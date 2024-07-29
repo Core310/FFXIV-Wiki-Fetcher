@@ -201,10 +201,10 @@ public class FindItem {
         //At index 3 is the cords value. Cords value differs a ton so im not using it.
         for(int sHeaderIndex = 4; sHeaderIndex < smallerHeader.length;sHeaderIndex++){//starts at 4 to skip the metaData of item and start merging
             String smallerHeaderValue = smallerHeader[sHeaderIndex];
-            if (!Arrays.toString(largerHeader).contains(smallerHeaderValue))
-                largerItem.put(smallerHeaderValue,smallerItem.get(smallerHeaderValue));
+            if (!Arrays.toString(largerHeader).contains(smallerHeaderValue)) {
+                largerItem.put(smallerHeaderValue, smallerItem.get(smallerHeaderValue));
+                 }
         }
-        System.out.println(itemContainer); //DELETEME
         itemContainer.set(currentItemIndex,largerItem);
         itemContainer.remove(prevItemIndex);
     }
@@ -229,7 +229,6 @@ public class FindItem {
             )//Does the current value contain both the item and the zone?
                 return itemContainerIterator;
         }//Grab index of other duplicate
-        System.out.println(itemContainer + "\n" + item + "\t" + zone); //DELETEME
         throw new RuntimeException("This method never ran, figure out method calling issue");
     }
 
