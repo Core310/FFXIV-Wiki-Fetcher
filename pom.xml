@@ -6,7 +6,7 @@
 
     <groupId>io.github.Core310</groupId>
     <artifactId>FFXIV-Wiki-Fetcher</artifactId>
-    <version>2.0.1</version>
+    <version>2.1.0</version>
     <packaging>jar</packaging>
 
     <name>FFXIV-Wiki-Fetcher</name>
@@ -14,6 +14,8 @@
     </description>
     <url>https://github.com/Core310/FFXIV-Wiki-Fetcher</url>
 
+    
+    
     <licenses>
         <license>
             <name>MIT License</name>
