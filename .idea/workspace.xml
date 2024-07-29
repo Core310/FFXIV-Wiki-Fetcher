@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)">
-      <change afterPath="$PROJECT_DIR$/.m2/settings.xml" afterDir="false" />
+    <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update settings xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.m2/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.m2/settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     "JUnit.ListFinderTest.outPutList.executor": "Run",
     "JUnit.java in FFXIV-Wiki-Fetcher.executor": "Run",
     "Maven.FFXIV-Wiki-Fetcher [clean,deploy...].executor": "Run",
+    "Maven.FFXIV-Wiki-Fetcher [clean,deploy].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -105,7 +107,12 @@
       <command value="mvn gpg:sign" />
       <command value="mvn clean deploy" />
       <command value="mvn clean" />
+      <command value="mvn clean deploy -Dmaven.javadoc.skip=true -s &lt;settings.xml&gt;" />
+      <command value="curl -u username:password http://url/artifactory/libs-snapshot-local/com/myproject/api/1.0-SNAPSHOT/api-1.0-20160128.114425-1.jar --request PUT --data target/api-1.0-SNAPSHOT.jar  " />
+      <command value="mvn clean deploy -Dmaven.javadoc.skip=true -h" />
+      <command value="mvn clean deploy -Dmaven.javadoc.skip=true -e" />
       <command value="mvn clean deploy -Dmaven.javadoc.skip=true " />
+      <command value="mvn clean deploy " />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.java in FFXIV-Wiki-Fetcher">
@@ -754,7 +761,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683597450791</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +797,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: . &#10;&#10;Changes: &#10;- Deleted the weird extra array element.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Trying to flatten Arrays&#10;&#10;Changes: &#10;codeCleanUp.&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: ListFinder.java&#10;&#10;Doing right now: Test code and send PR to main branch to release v2.0 beta&#10;&#10;Changes: &#10;- Deleted uneeded class&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
     <MESSAGE value="Working on: Tidy all&#10;&#10;Doing right now: Tidy libraries &#10;&#10;Changes: update libs (not mad)&#10;&#10;todo:&#10;- test cases&#10;- Check comments in ListFinder.java" />
@@ -815,7 +821,8 @@
     <MESSAGE value="currently working on line 212 of FindItem.jav, problem with curitem index -1 thingy" />
     <MESSAGE value="Figured out bug, when prevItemIndex and cur Item Index is both 0 indexed, then how?" />
     <MESSAGE value="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)" />
-    <option name="LAST_COMMIT_MESSAGE" value="found out problem, deleting a value then searching for it when it doesn't exist. This was due to me deleting both the exisitng and current indexes (lol)" />
+    <MESSAGE value="update settings xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update settings xml" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
