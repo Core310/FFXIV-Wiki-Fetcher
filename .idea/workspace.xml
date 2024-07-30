@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd265e7-c236-4371-95a8-536f260f594e" name="Changes" comment="update settings xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.m2/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.m2/settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +58,11 @@
     "JUnit.ListFinderTest.executor": "Run",
     "JUnit.ListFinderTest.outPutList.executor": "Run",
     "JUnit.java in FFXIV-Wiki-Fetcher.executor": "Run",
+    "Maven.FFXIV-Wiki-Fetcher [clean,build].executor": "Run",
+    "Maven.FFXIV-Wiki-Fetcher [clean,deploy,-X].executor": "Run",
     "Maven.FFXIV-Wiki-Fetcher [clean,deploy...].executor": "Run",
     "Maven.FFXIV-Wiki-Fetcher [clean,deploy].executor": "Run",
+    "Maven.FFXIV-Wiki-Fetcher [help:effective-settings].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -112,6 +113,13 @@
       <command value="mvn clean deploy -Dmaven.javadoc.skip=true -h" />
       <command value="mvn clean deploy -Dmaven.javadoc.skip=true -e" />
       <command value="mvn clean deploy -Dmaven.javadoc.skip=true " />
+      <command value="curl -u juven-test:****** https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ juvenxu/ossrh-test/1.1/ossrh-test-1.1.pom --request PUT --data @pom.xmlcurl -u juven-test:****** https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ juvenxu/ossrh-test/1.1/ossrh-test-1.1.pom --request PUT --data @pom.xml" />
+      <command value="curl -u juven-test:****** https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ juvenxu/ossrh-test/1.1/ossrh-test-1.1.pom --request PUT --data @pom.xml" />
+      <command value="    curl -u ffxiv-gatherbuddy-file-creator:****** https://oss.sonatype.org/service/local/staging/deploy/maven2/com/ " />
+      <command value="gpg-connect-agent reloadagent /bye" />
+      <command value="mvn clean build" />
+      <command value="mvn help:effective-settings" />
+      <command value="mvn clean deploy -X" />
       <command value="mvn clean deploy " />
     </option>
   </component>
@@ -417,6 +425,7 @@
       <workItem from="1722103192401" duration="868000" />
       <workItem from="1722176727889" duration="2610000" />
       <workItem from="1722231862174" duration="3264000" />
+      <workItem from="1722314917098" duration="2346000" />
     </task>
     <task id="LOCAL-00027" summary="Code cleanup">
       <created>1663575104492</created>
